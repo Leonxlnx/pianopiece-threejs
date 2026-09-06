@@ -1,0 +1,55 @@
+--- a/production/qa/render-revision.py
++++ b/production/qa/render-revision.py
+@@ -223,6 +223,41 @@
+ else:prog['envMode']=1
+ 
+ 
++
++# Depth-only stage geometry is cached independently of animated performers/keys.
++# The key includes every input read by the stage shadow pass, so a stage transform,
++# alpha threshold/texture binding, cast flag or light projection rebuilds the cache.
++import ctypes as _ctypes
++_depthGL=_ctypes.CDLL('libGL.so.1')
++_depthGL.glBindFramebuffer.argtypes=[_ctypes.c_uint,_ctypes.c_uint]
++_depthGL.glBindFramebuffer.restype=None
++_depthGL.glBlitFramebuffer.argtypes=[_ctypes.c_int]*8+[_ctypes.c_uint,_ctypes.c_uint]
++_depthGL.glBlitFramebuffer.restype=None
++def copy_shadow_depth(destination,source):
++ # ModernGL copy_framebuffer copies color only, even for depth-only targets.
++ _depthGL.glBindFramebuffer(0x8CA8,source.glo) # GL_READ_FRAMEBUFFER
++ _depthGL.glBindFramebuffer(0x8CA9,destination.glo) # GL_DRAW_FRAMEBUFFER
++ _depthGL.glBlitFramebuffer(0,0,2048,2048,0,0,2048,2048,0x00000100,0x2600) # DEPTH, NEAREST
++ destination.use()
++_staticShadowTargets=[]
++_staticShadowKey=None
++def render_frame_shadows():
++ global _staticShadowKey
++ stage=[ob for ob in meshes if ob['source'].get('stage',False) and not ob['source'].get('deformed',False)]
++ stageIds={id(ob) for ob in stage}
++ key=(tuple(vp.tobytes() for vp in shadowVP),tuple((id(ob),ob['matrix'].tobytes(),ob['source'].get('castShadow',False),tuple((d['materials'][mi]['alpha'],d['materials'][mi]['alphaTest'],bool(d['materials'][mi]['map']),d['materials'][mi]['_tex'].glo) for mi in ob['source']['materials'])) for ob in stage))
++ if key!=_staticShadowKey:
++  while len(_staticShadowTargets)<len(shadows):
++   depth=ctx.depth_texture((2048,2048));_staticShadowTargets.append((depth,ctx.framebuffer(depth_attachment=depth)))
++  for j,(_,target) in enumerate(_staticShadowTargets):
++   target.use();target.depth_mask=True;ctx.viewport=(0,0,2048,2048);target.clear(depth=1.);shadowprog['vp'].write(shadowVP[j].T.tobytes())
++   for ob in stage:draw_mesh(ob,shadowprog,True)
++  _staticShadowKey=key
++ for j,(_,target) in enumerate(shadows):
++  copy_shadow_depth(target,_staticShadowTargets[j][1]);target.use();target.depth_mask=True;ctx.viewport=(0,0,2048,2048);shadowprog['vp'].write(shadowVP[j].T.tobytes())
++  for ob in meshes:
++   if id(ob) not in stageIds:draw_mesh(ob,shadowprog,True)
++
+ def frame(t):
+  before=time.perf_counter();server.stdin.write(str(t)+'\n');server.stdin.flush();s=json.loads(server.stdout.readline());
+  for ob,st in zip(meshes,s['meshes']):
+@@ -231,9 +266,7 @@
+    v=np.frombuffer(base64.b64decode(st['vertices']),dtype='<f4').reshape(-1,3);ob['data'][:,:3]=v;ob['data'][:,3:6]=np.frombuffer(base64.b64decode(st['normals']),dtype='<f4').reshape(-1,3) if 'normals' in st else normals(v,ob['idx']);ob['vb'].write(ob['data'].tobytes())
+  for m,e in zip(d['materials'],s['emissive']):m['emissive']=e
+  updated=time.perf_counter();ctx.enable(moderngl.DEPTH_TEST);ctx.disable(moderngl.CULL_FACE|moderngl.BLEND)
+- for j,(tx,sfbo) in enumerate(shadows):
+-  sfbo.use();ctx.viewport=(0,0,2048,2048);sfbo.clear(depth=1.);shadowprog['vp'].write(shadowVP[j].T.tobytes())
+-  for ob in meshes:draw_mesh(ob,shadowprog,True)
++ render_frame_shadows()
+  shadowed=time.perf_counter();cm=mat4(s['camera']['matrix']);eye=cm[:3,3];vp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(cm);x=np.clip((s['energy']-.2)/.72,0,1);lift=float(x*x*(3-2*x));reflect=np.diag([1,-1,1,1]).astype('f4');rcm=reflect@cm;rvp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(rcm);prog['reflectionVP'].write(rvp.T.astype('f4').tobytes());prog['lightIntensity'].write(np.array(s['lights'],dtype='f4').tobytes());shadows[0][0].use(1);shadows[1][0].use(2)
+  for reflectionPass,target,cvp,ceye,ww,hh in [(False,fbo,vp,eye,W,H)]:
+   target.use();ctx.viewport=(0,0,ww,hh);target.clear(.1,.15,.2,1,depth=1.);ctx.disable(moderngl.DEPTH_TEST);bgprog['invVP'].write(np.linalg.inv(cvp).T.astype('f4').tobytes());bgprog['eye'].value=tuple(ceye);bgprog['lift']=lift;bgvao.render(moderngl.TRIANGLE_STRIP);ctx.enable(moderngl.DEPTH_TEST);prog['reflectionPass']=reflectionPass;(dummy if reflectionPass else refl).use(3)

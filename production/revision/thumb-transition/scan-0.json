@@ -1,0 +1,195 @@
+{
+  "part": 0,
+  "parts": 4,
+  "fps": 500,
+  "first": 0,
+  "last": 29143,
+  "counts": {
+    "frames": 29144,
+    "speedAbove3": 0,
+    "speedAbove5": 0,
+    "rotationAbove2000": 0,
+    "activeRotationAbove2000": 0
+  },
+  "thresholds": {
+    "tipSpeed": 2.5,
+    "jointSpeed": 2000,
+    "dorsalDegrees": 60,
+    "backward": -0.15
+  },
+  "maxContactMm": 0.00022392438497032143,
+  "inputSha256": {
+    "rig": "9b54e6291792664b34851ac4dba3192f2175065f59ec5a7b7a556799b145426c",
+    "score": "ff25cbb97cca511a321d33097a11da8f85500c383827e50914dc185c3e1987c2",
+    "plan": "a91c31a4e5a6daf1444f3f21338c683c487d25c2575a73bbdf49cfc5874f0a32"
+  },
+  "maxima": {
+    "L1": {
+      "tip": {
+        "value": 1.7610764141611959,
+        "time": 19.67,
+        "joint": 1,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00073",
+          "prevEnd": 19.614384,
+          "next": "p00074",
+          "nextTime": 19.697325,
+          "gap": 0.0829409999999996
+        }
+      },
+      "joint": {
+        "value": 1852.1319095276262,
+        "time": 43.016,
+        "joint": 2,
+        "context": {
+          "active": "p00184",
+          "activeMidi": 66,
+          "prev": "p00176",
+          "prevEnd": 41.779053,
+          "next": "p00190",
+          "nextTime": 43.929893,
+          "gap": 2.1508400000000005
+        }
+      },
+      "dorsal": {
+        "value": -10.530640118822323,
+        "time": 50.27,
+        "joint": 2,
+        "context": {
+          "active": "p00219",
+          "activeMidi": 67,
+          "prev": "p00205",
+          "prevEnd": 47.818754000000006,
+          "next": "p00230",
+          "nextTime": 52.345561,
+          "gap": 4.526806999999994
+        }
+      }
+    },
+    "R1": {
+      "tip": {
+        "value": 1.6626699811895767,
+        "time": 8.42,
+        "joint": 1,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00023",
+          "prevEnd": 8.385384,
+          "next": "p00025",
+          "nextTime": 8.44759,
+          "gap": 0.06220599999999954
+        }
+      },
+      "joint": {
+        "value": 1285.0913318254845,
+        "time": 28.842,
+        "joint": 1,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00117",
+          "prevEnd": 28.811894,
+          "next": "p00119",
+          "nextTime": 28.861894,
+          "gap": 0.050000000000000044
+        }
+      },
+      "dorsal": {
+        "value": -8.589897007663849,
+        "time": 31.292,
+        "joint": 1,
+        "context": {
+          "active": "p00131",
+          "activeMidi": 79,
+          "prev": "p00124",
+          "prevEnd": 30.228233000000003,
+          "next": "p00142",
+          "nextTime": 34.166094,
+          "gap": 3.9378609999999994
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "key": "L1",
+      "start": 4.172,
+      "end": 4.9,
+      "lastBad": 4.9,
+      "samples": 365,
+      "tip": {
+        "value": 0.9850459097795052,
+        "time": 4.898,
+        "joint": null,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00013",
+          "prevEnd": 4.848790999999999,
+          "next": "p00017",
+          "nextTime": 5.747151,
+          "gap": 0.89836
+        }
+      },
+      "localTip": {
+        "value": 0.3627762727809112,
+        "time": 4.848,
+        "joint": null,
+        "context": {
+          "active": "p00013",
+          "activeMidi": 50,
+          "prev": "p00008",
+          "prevEnd": 2.946409,
+          "next": "p00017",
+          "nextTime": 5.747151,
+          "gap": 2.8007419999999996
+        }
+      },
+      "joint": {
+        "value": 330.4346483196446,
+        "time": 4.848,
+        "joint": 1,
+        "context": {
+          "active": "p00013",
+          "activeMidi": 50,
+          "prev": "p00008",
+          "prevEnd": 2.946409,
+          "next": "p00017",
+          "nextTime": 5.747151,
+          "gap": 2.8007419999999996
+        }
+      },
+      "dorsal": {
+        "value": -62.293345778741795,
+        "time": 4.548,
+        "joint": null,
+        "context": {
+          "active": "p00013",
+          "activeMidi": 50,
+          "prev": "p00008",
+          "prevEnd": 2.946409,
+          "next": "p00017",
+          "nextTime": 5.747151,
+          "gap": 2.8007419999999996
+        }
+      },
+      "backward": {
+        "value": -0.2722045453611999,
+        "time": 4.85,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00013",
+          "prevEnd": 4.848790999999999,
+          "next": "p00017",
+          "nextTime": 5.747151,
+          "gap": 0.89836
+        }
+      },
+      "active": true
+    }
+  ]
+}

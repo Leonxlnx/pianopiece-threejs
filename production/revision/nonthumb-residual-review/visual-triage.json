@@ -1,0 +1,2742 @@
+{
+  "hashes": {
+    "score": "80b5a1c63ab6a13862c7b55ed9f6a2d252cbe59c52a56a886feb02496e9b336e",
+    "rigSource": "f0407941995f70ecafecebe9559e0289716620f656b51affcfe279aade9c94b8",
+    "compiledRig": "3a10537593a511c81355383199faaac2a51b60952ba6093945f8f30e779897c3",
+    "model": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d"
+  },
+  "scope": "The existing37-note queue only. All185 held samples rescreened;26 genuinely distinct current quarter-held grip signatures rendered at their own worst sampled held state. One extra lower G03 view makes27 actual views total. Projection overlays localize active chains and flagged vertices, including occluded points; overlays are not independent intersection proof.",
+  "inputNotes": 37,
+  "clearedAtFiveSamples": [
+    {
+      "id": "p00426",
+      "maxFaceDepthMm": 0,
+      "status": "no_core_vertex_at_five_held_samples_not_continuous_clearance"
+    },
+    {
+      "id": "p00521",
+      "maxFaceDepthMm": 0,
+      "status": "no_core_vertex_at_five_held_samples_not_continuous_clearance"
+    },
+    {
+      "id": "p00788",
+      "maxFaceDepthMm": 0,
+      "status": "no_core_vertex_at_five_held_samples_not_continuous_clearance"
+    },
+    {
+      "id": "p00931",
+      "maxFaceDepthMm": 0,
+      "status": "no_core_vertex_at_five_held_samples_not_continuous_clearance"
+    },
+    {
+      "id": "p00948",
+      "maxFaceDepthMm": 0,
+      "status": "no_core_vertex_at_five_held_samples_not_continuous_clearance"
+    }
+  ],
+  "remainingNotes": 32,
+  "renderedGripGroups": 26,
+  "actualViews": 27,
+  "confirmedVisibleGroups": 6,
+  "confirmedVisibleNotes": 6,
+  "unresolvedGroups": 20,
+  "unresolvedNotes": 26,
+  "tolerableWithEvidence": [],
+  "rows": [
+    {
+      "family": "G03",
+      "baselineFamilies": [
+        "N046"
+      ],
+      "ids": [
+        "p00106"
+      ],
+      "severeIds": [
+        "p00106"
+      ],
+      "id": "p00106",
+      "hand": "L",
+      "finger": 2,
+      "played": 45,
+      "hit": 47,
+      "time": 26.613145755999998,
+      "fraction": 0.999,
+      "depthMm": 6.924089070377559,
+      "signature": {
+        "hand": "L",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00638,
+        "relativeWrist": [
+          0.04446,
+          0.74746,
+          0.3841
+        ],
+        "q": [
+          -0.02117,
+          0.71514,
+          -0.69832,
+          0.02168
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00638
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-0.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index is tucked beneath its neighboring digit. Both oblique and the additional lower view leave the exact white-key penetration obscured by the hand/curl. The 6.924 mm geometric residual remains unaccepted.",
+      "deepest": {
+        "vertex": 7664,
+        "world": [
+          -0.24851757865597518,
+          0.735075911309602,
+          0.25472594962198486
+        ],
+        "local": [
+          -0.0017675786559751827,
+          0.0010759113096020512,
+          0.11722594962198485
+        ],
+        "faceDepthMm": 6.924089070377559,
+        "coreFaceDepthMm": 5.52408907037756,
+        "belowTopMm": 6.924089070377559
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandIndex2",
+          "weight": 0.7712000012397766
+        },
+        {
+          "bone": "LeftHandIndex3",
+          "weight": 0.2287999987602234
+        }
+      ],
+      "chain": [
+        [
+          -0.20904004691169728,
+          0.7487306932202198,
+          0.27793612290509023
+        ],
+        [
+          -0.23099800617295813,
+          0.7504716638915176,
+          0.26396850233091423
+        ],
+        [
+          -0.25046451585766144,
+          0.7468038181811559,
+          0.2515857095696049
+        ],
+        [
+          -0.27024998706246794,
+          0.740430028295445,
+          0.2390000217885247
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-0.jpg",
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-low-G03/gl-960-0.jpg"
+      ]
+    },
+    {
+      "family": "G05",
+      "baselineFamilies": [
+        "N065"
+      ],
+      "ids": [
+        "p00165"
+      ],
+      "severeIds": [
+        "p00165"
+      ],
+      "id": "p00165",
+      "hand": "L",
+      "finger": 2,
+      "played": 63,
+      "hit": 61,
+      "time": 39.257495277000004,
+      "fraction": 0.999,
+      "depthMm": 5.961886519994463,
+      "signature": {
+        "hand": "L",
+        "finger": 2,
+        "black": true,
+        "lift": 0.00728,
+        "relativeWrist": [
+          -0.06446,
+          0.772,
+          0.334
+        ],
+        "q": [
+          -0.02157,
+          0.71344,
+          -0.70003,
+          0.02227
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": true,
+            "lift": 0.00728
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-2.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The extended index shaft visibly traverses the nearer black-key edge before reaching its assigned farther black key.",
+      "deepest": {
+        "vertex": 7649,
+        "world": [
+          -0.04978811327138921,
+          0.7582885209331413,
+          0.19773595818939205
+        ],
+        "local": [
+          -0.0012881132713892796,
+          0.004288520933141249,
+          0.020735958189392056
+        ],
+        "faceDepthMm": 5.961886519994463,
+        "coreFaceDepthMm": 3.9618865199944633,
+        "belowTopMm": 7.211479089210493
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandIndex2",
+          "weight": 0.9502000212669373
+        },
+        {
+          "bone": "LeftHandIndex3",
+          "weight": 0.029400000348687172
+        },
+        {
+          "bone": "LeftHandIndex1",
+          "weight": 0.020400000736117363
+        }
+      ],
+      "chain": [
+        [
+          -0.07361512709930428,
+          0.7728988443873672,
+          0.2285597699299317
+        ],
+        [
+          -0.05634414834248901,
+          0.7733541599249888,
+          0.20902050077584206
+        ],
+        [
+          -0.04093447872672026,
+          0.7712692989253392,
+          0.1915870025003198
+        ],
+        [
+          -0.02500003004044248,
+          0.7678630113540336,
+          0.173559802373975
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-2.jpg"
+      ]
+    },
+    {
+      "family": "G13",
+      "baselineFamilies": [
+        "N012"
+      ],
+      "ids": [
+        "p00436",
+        "p00799",
+        "p00816",
+        "p00836",
+        "p00961"
+      ],
+      "severeIds": [
+        "p00436",
+        "p00799",
+        "p00816",
+        "p00836",
+        "p00961"
+      ],
+      "id": "p00816",
+      "hand": "R",
+      "finger": 2,
+      "played": 81,
+      "hit": 79,
+      "time": 174.147724894,
+      "fraction": 0.999,
+      "depthMm": 5.622433592449405,
+      "signature": {
+        "hand": "R",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          -0.02828,
+          0.74542,
+          0.39055
+        ],
+        "q": [
+          -0.02299,
+          -0.71898,
+          0.69424,
+          0.02381
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-7.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index folds beneath the neighboring digit. The white-key penetration is concealed under that curl.",
+      "deepest": {
+        "vertex": 1827,
+        "world": [
+          0.20419226287566933,
+          0.7363775667875302,
+          0.25732650694170933
+        ],
+        "local": [
+          0.004442262875669262,
+          0.0023775667875302053,
+          0.11982650694170932
+        ],
+        "faceDepthMm": 5.622433592449405,
+        "coreFaceDepthMm": 4.222433592449406,
+        "belowTopMm": 5.622433592449405
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandIndex2",
+          "weight": 0.7712000012397766
+        },
+        {
+          "bone": "RightHandIndex3",
+          "weight": 0.2287999987602234
+        }
+      ],
+      "chain": [
+        [
+          0.16988542287740654,
+          0.7478335347452592,
+          0.28441659407222897
+        ],
+        [
+          0.18932211627021928,
+          0.7532058645683587,
+          0.26787475202237465
+        ],
+        [
+          0.20660850377901394,
+          0.74768496595892,
+          0.25316295511214965
+        ],
+        [
+          0.22324994403641268,
+          0.7370564752300353,
+          0.2390000510430637
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-7.jpg"
+      ]
+    },
+    {
+      "family": "G10",
+      "baselineFamilies": [
+        "N092"
+      ],
+      "ids": [
+        "p00292"
+      ],
+      "severeIds": [
+        "p00292"
+      ],
+      "id": "p00292",
+      "hand": "L",
+      "finger": 4,
+      "played": 55,
+      "hit": 53,
+      "time": 65.440419207,
+      "fraction": 0.999,
+      "depthMm": 5.603779314811291,
+      "signature": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.002,
+        "relativeWrist": [
+          -0.01872,
+          0.74542,
+          0.39055
+        ],
+        "q": [
+          -0.02299,
+          0.71898,
+          -0.69424,
+          0.02381
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.002
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-3.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active ring lower curl is visible but its intersection with the neighboring white key is obscured beneath that curl.",
+      "deepest": {
+        "vertex": 8162,
+        "world": [
+          -0.14700377903764966,
+          0.7363008978070095,
+          0.25239066203419913
+        ],
+        "local": [
+          0.005746220962350307,
+          0.002300897807009483,
+          0.11489066203419912
+        ],
+        "faceDepthMm": 5.603779314811291,
+        "coreFaceDepthMm": 4.203779314811291,
+        "belowTopMm": 5.699102572970127
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandRing3",
+          "weight": 0.6527000069618225
+        },
+        {
+          "bone": "LeftHandRing2",
+          "weight": 0.3472999930381775
+        }
+      ],
+      "chain": [
+        [
+          -0.17587137030318617,
+          0.7654364032257253,
+          0.2961341309669291
+        ],
+        [
+          -0.15766540401358342,
+          0.7565538502292003,
+          0.2738228597628256
+        ],
+        [
+          -0.14311811566977228,
+          0.7467347432359226,
+          0.25599527228656715
+        ],
+        [
+          -0.12925000593583727,
+          0.736048466863115,
+          0.23900000837436539
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-3.jpg"
+      ]
+    },
+    {
+      "family": "G01",
+      "baselineFamilies": [
+        "N044"
+      ],
+      "ids": [
+        "p00100"
+      ],
+      "severeIds": [
+        "p00100"
+      ],
+      "id": "p00100",
+      "hand": "R",
+      "finger": 3,
+      "played": 83,
+      "hit": 81,
+      "time": 25.2101705,
+      "fraction": 0.5,
+      "depthMm": 5.19856380709216,
+      "signature": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          -0.06325,
+          0.74758,
+          0.397
+        ],
+        "q": [
+          -0.02153,
+          -0.71849,
+          0.69429,
+          0.03552
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-0.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "Tightly folded active middle-finger contact is visible, but the deepest neighboring white-key overlap is underneath the curl and hidden from this angle.",
+      "deepest": {
+        "vertex": 2059,
+        "world": [
+          0.22940143647006947,
+          0.7365327106694463,
+          0.255175298929137
+        ],
+        "local": [
+          0.006151436470069438,
+          0.0025327106694462698,
+          0.11767529892913697
+        ],
+        "faceDepthMm": 5.19856380709216,
+        "coreFaceDepthMm": 3.7985638070921603,
+        "belowTopMm": 5.467289710533341
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandMiddle3",
+          "weight": 0.5264000296592712
+        },
+        {
+          "bone": "RightHandMiddle2",
+          "weight": 0.47360000014305115
+        }
+      ],
+      "chain": [
+        [
+          0.18890228343125137,
+          0.7618972706910653,
+          0.29509980079487375
+        ],
+        [
+          0.21323103041331481,
+          0.7573067750390229,
+          0.2715061638893415
+        ],
+        [
+          0.23197562763977206,
+          0.7475872073312081,
+          0.2533279539219563
+        ],
+        [
+          0.24675001895796256,
+          0.7373194567971277,
+          0.23899998512308024
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-0.jpg"
+      ]
+    },
+    {
+      "family": "G26",
+      "baselineFamilies": [
+        "N306"
+      ],
+      "ids": [
+        "p00965"
+      ],
+      "severeIds": [
+        "p00965"
+      ],
+      "id": "p00965",
+      "hand": "L",
+      "finger": 2,
+      "played": 50,
+      "hit": 52,
+      "time": 196.88477617200002,
+      "fraction": 0.999,
+      "depthMm": 5.171592578936068,
+      "signature": {
+        "hand": "L",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          0.03281,
+          0.74176,
+          0.38905
+        ],
+        "q": [
+          -0.04741,
+          0.74275,
+          -0.66667,
+          0.0403
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-11.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index is tucked under its neighboring digit; its flagged middle/distal underside is occluded.",
+      "deepest": {
+        "vertex": 8725,
+        "world": [
+          -0.18201716657811245,
+          0.7368284078010435,
+          0.2511036951390888
+        ],
+        "local": [
+          -0.005767166578112465,
+          0.002828407801043542,
+          0.1136036951390888
+        ],
+        "faceDepthMm": 5.171592578936068,
+        "coreFaceDepthMm": 3.7715925789360685,
+        "belowTopMm": 5.171592578936068
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandIndex3",
+          "weight": 0.6010000109672546
+        },
+        {
+          "bone": "LeftHandIndex2",
+          "weight": 0.39899998903274536
+        }
+      ],
+      "chain": [
+        [
+          -0.1465934972762953,
+          0.752189598471354,
+          0.2838791636472311
+        ],
+        [
+          -0.1663639585951554,
+          0.7554740658613062,
+          0.2671872939277626
+        ],
+        [
+          -0.18343933466532306,
+          0.7486675282631887,
+          0.25277083849528115
+        ],
+        [
+          -0.1997499944130386,
+          0.7370564810418737,
+          0.23900001883933664
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-11.jpg"
+      ]
+    },
+    {
+      "family": "G17",
+      "baselineFamilies": [
+        "N218"
+      ],
+      "ids": [
+        "p00721"
+      ],
+      "severeIds": [
+        "p00721"
+      ],
+      "id": "p00721",
+      "hand": "R",
+      "finger": 2,
+      "played": 67,
+      "hit": 69,
+      "time": 159.43339755600002,
+      "fraction": 0.999,
+      "depthMm": 5.1577008006084,
+      "signature": {
+        "hand": "R",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          0.06196,
+          0.73974,
+          0.382
+        ],
+        "q": [
+          -0.05898,
+          -0.74846,
+          0.65795,
+          0.05865
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          },
+          {
+            "finger": 4,
+            "dx": 0.047,
+            "black": false,
+            "lift": 0.00239
+          },
+          {
+            "finger": 5,
+            "dx": 0.094,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-8.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The extended index pad covers the flagged neighboring white key; the underside overlap is not directly distinguishable in this view.",
+      "deepest": {
+        "vertex": 1870,
+        "world": [
+          0.05306915645273338,
+          0.7368422995793712,
+          0.24889911766707395
+        ],
+        "local": [
+          -0.0056808435472666605,
+          0.0028422995793712102,
+          0.11139911766707394
+        ],
+        "faceDepthMm": 5.1577008006084,
+        "coreFaceDepthMm": 3.7577008006084003,
+        "belowTopMm": 5.1577008006084
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandIndex3",
+          "weight": 0.7549999952316284
+        },
+        {
+          "bone": "RightHandIndex2",
+          "weight": 0.24500000476837158
+        }
+      ],
+      "chain": [
+        [
+          0.09167982134402006,
+          0.7524856399837409,
+          0.27803164113690615
+        ],
+        [
+          0.07055306427176518,
+          0.7570021110505276,
+          0.263418591997184
+        ],
+        [
+          0.052286936238190335,
+          0.7497593911068335,
+          0.25078419258352985
+        ],
+        [
+          0.03524997093029983,
+          0.7370564563966444,
+          0.23899998936258962
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-8.jpg"
+      ]
+    },
+    {
+      "family": "G22",
+      "baselineFamilies": [
+        "N251"
+      ],
+      "ids": [
+        "p00808"
+      ],
+      "severeIds": [
+        "p00808"
+      ],
+      "id": "p00808",
+      "hand": "R",
+      "finger": 3,
+      "played": 71,
+      "hit": 72,
+      "time": 172.870671727,
+      "fraction": 0.999,
+      "depthMm": 4.99988067529468,
+      "signature": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.01872,
+          0.74542,
+          0.39055
+        ],
+        "q": [
+          -0.02299,
+          -0.71898,
+          0.69424,
+          0.02381
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": -0.047,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          },
+          {
+            "finger": 4,
+            "dx": 0.047,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-12.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The middle distal pad covers the neighboring white key. The visible upper contour does not resolve the lower penetration boundary.",
+      "deepest": {
+        "vertex": 2094,
+        "world": [
+          0.09939988039813305,
+          0.7369047743784382,
+          0.24789946337823876
+        ],
+        "local": [
+          -0.006350119601866919,
+          0.0029047743784381685,
+          0.11039946337823875
+        ],
+        "faceDepthMm": 4.99988067529468,
+        "coreFaceDepthMm": 3.59988067529468,
+        "belowTopMm": 5.095226001541442
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandMiddle3",
+          "weight": 0.9230999946594238
+        },
+        {
+          "bone": "RightHandMiddle2",
+          "weight": 0.07689999788999557
+        }
+      ],
+      "chain": [
+        [
+          0.14450371683808344,
+          0.7598394338504995,
+          0.2887700159151149
+        ],
+        [
+          0.11779199534966746,
+          0.7595973864962591,
+          0.26741479059571555
+        ],
+        [
+          0.09754515960259927,
+          0.7493830812432277,
+          0.25122804283674066
+        ],
+        [
+          0.08224995394998283,
+          0.737319452844789,
+          0.23899997880702376
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-12.jpg"
+      ]
+    },
+    {
+      "family": "G09",
+      "baselineFamilies": [
+        "N077"
+      ],
+      "ids": [
+        "p00220",
+        "p00231"
+      ],
+      "severeIds": [
+        "p00220",
+        "p00231"
+      ],
+      "id": "p00231",
+      "hand": "R",
+      "finger": 3,
+      "played": 81,
+      "hit": 79,
+      "time": 52.695398000000004,
+      "fraction": 0.5,
+      "depthMm": 4.963380657109773,
+      "signature": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          -0.06967,
+          0.748,
+          0.3841
+        ],
+        "q": [
+          -0.01528,
+          -0.71763,
+          0.69446,
+          0.05003
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-5.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active middle digit has a tightly tucked curl; its numerically intersecting distal underside is hidden by the overlapping hand silhouette.",
+      "deepest": {
+        "vertex": 2055,
+        "world": [
+          0.20463928796114672,
+          0.7370366197228698,
+          0.2503333363578396
+        ],
+        "local": [
+          0.004889287961146654,
+          0.0030366197228698377,
+          0.1128333363578396
+        ],
+        "faceDepthMm": 4.963380657109773,
+        "coreFaceDepthMm": 3.563380657109773,
+        "belowTopMm": 4.963380657109773
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandMiddle3",
+          "weight": 0.7695000171661377
+        },
+        {
+          "bone": "RightHandMiddle2",
+          "weight": 0.2304999977350235
+        }
+      ],
+      "chain": [
+        [
+          0.15612455773713782,
+          0.7622351491268982,
+          0.28207693538233447
+        ],
+        [
+          0.18480746825529876,
+          0.7593896967337457,
+          0.2636700239810397
+        ],
+        [
+          0.20654236424292333,
+          0.7489339848824004,
+          0.24972191701332824
+        ],
+        [
+          0.2232499684346396,
+          0.7373194729413224,
+          0.2390000164033058
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-5.jpg"
+      ]
+    },
+    {
+      "family": "G19",
+      "baselineFamilies": [
+        "N232"
+      ],
+      "ids": [
+        "p00755"
+      ],
+      "severeIds": [
+        "p00755"
+      ],
+      "id": "p00755",
+      "hand": "R",
+      "finger": 3,
+      "played": 71,
+      "hit": 72,
+      "time": 164.776120327,
+      "fraction": 0.999,
+      "depthMm": 4.907653375953225,
+      "signature": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.01732,
+          0.75142,
+          0.38095
+        ],
+        "q": [
+          -0.10261,
+          -0.75771,
+          0.64401,
+          0.02426
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": -0.047,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          },
+          {
+            "finger": 4,
+            "dx": 0.0705,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-10.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The middle distal pad covers the flagged neighboring white key; the underside overlap remains geometrically confirmed but visually unresolved.",
+      "deepest": {
+        "vertex": 2094,
+        "world": [
+          0.09962369696012914,
+          0.7370923470040264,
+          0.24753044284771192
+        ],
+        "local": [
+          -0.0061263030398708285,
+          0.0030923470040263856,
+          0.1100304428477119
+        ],
+        "faceDepthMm": 4.907653375953225,
+        "coreFaceDepthMm": 3.507653375953225,
+        "belowTopMm": 4.907653375953225
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandMiddle3",
+          "weight": 0.9230999946594238
+        },
+        {
+          "bone": "RightHandMiddle2",
+          "weight": 0.07689999788999557
+        }
+      ],
+      "chain": [
+        [
+          0.14496851296926294,
+          0.7648683571986047,
+          0.28685963588186236
+        ],
+        [
+          0.11796586368269639,
+          0.760881235092131,
+          0.266254294723373
+        ],
+        [
+          0.09772085407384873,
+          0.7495783644742956,
+          0.2508056083159341
+        ],
+        [
+          0.08224999808592917,
+          0.7373194672784319,
+          0.2390000138320924
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-10.jpg"
+      ]
+    },
+    {
+      "family": "G14",
+      "baselineFamilies": [
+        "N161"
+      ],
+      "ids": [
+        "p00520"
+      ],
+      "severeIds": [
+        "p00520"
+      ],
+      "id": "p00520",
+      "hand": "L",
+      "finger": 4,
+      "played": 57,
+      "hit": 56,
+      "time": 106.7174525,
+      "fraction": 0.75,
+      "depthMm": 4.417344327074801,
+      "signature": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00397,
+        "relativeWrist": [
+          0.01629,
+          0.772,
+          0.334
+        ],
+        "q": [
+          -0.02157,
+          0.71344,
+          -0.70003,
+          0.02227
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00397
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-5.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The assigned ring distal segment crosses the neighboring black-key front corner, repeating the visible shape of G04 with different support.",
+      "deepest": {
+        "vertex": 8083,
+        "world": [
+          -0.11617097615264663,
+          0.754611865497336,
+          0.21958265406359978
+        ],
+        "local": [
+          0.002829023847353368,
+          0.0006118654973360504,
+          0.04258265406359979
+        ],
+        "faceDepthMm": 4.417344327074801,
+        "coreFaceDepthMm": 2.417344327074801,
+        "belowTopMm": 10.88813452501569
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandRing2",
+          "weight": 0.73089998960495
+        },
+        {
+          "bone": "LeftHandRing3",
+          "weight": 0.26910001039505005
+        }
+      ],
+      "chain": [
+        [
+          -0.11449285041736051,
+          0.7903319891029376,
+          0.23979043591813615
+        ],
+        [
+          -0.10917861245624252,
+          0.7770159380500038,
+          0.21328399443574547
+        ],
+        [
+          -0.10598432176887596,
+          0.7530736872902762,
+          0.21979753999311197
+        ],
+        [
+          -0.10574997279286691,
+          0.7380214375408736,
+          0.23900000667208104
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-5.jpg"
+      ]
+    },
+    {
+      "family": "G04",
+      "baselineFamilies": [
+        "N062"
+      ],
+      "ids": [
+        "p00161"
+      ],
+      "severeIds": [
+        "p00161"
+      ],
+      "id": "p00161",
+      "hand": "L",
+      "finger": 4,
+      "played": 57,
+      "hit": 56,
+      "time": 38.494752,
+      "fraction": 0.5,
+      "depthMm": 4.38082247107939,
+      "signature": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.0052,
+        "relativeWrist": [
+          0.01629,
+          0.772,
+          0.334
+        ],
+        "q": [
+          -0.02157,
+          0.71344,
+          -0.70003,
+          0.02227
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.0052
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-1.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The assigned ring distal segment meets and disappears into the neighboring black-key front corner. The dip-to-tip localization identifies the active finger rather than the nearby idle digit.",
+      "deepest": {
+        "vertex": 8083,
+        "world": [
+          -0.11613082267969564,
+          0.7554168741234949,
+          0.21926222147100805
+        ],
+        "local": [
+          0.002869177320304353,
+          0.0014168741234948934,
+          0.042262221471008055
+        ],
+        "faceDepthMm": 4.38082247107939,
+        "coreFaceDepthMm": 2.38082247107939,
+        "belowTopMm": 10.08312589885685
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandRing2",
+          "weight": 0.73089998960495
+        },
+        {
+          "bone": "LeftHandRing3",
+          "weight": 0.26910001039505005
+        }
+      ],
+      "chain": [
+        [
+          -0.11449284863972445,
+          0.7903319883426146,
+          0.23979043504342
+        ],
+        [
+          -0.10921026876983522,
+          0.7778189237672124,
+          0.212889368810341
+        ],
+        [
+          -0.10594063771993126,
+          0.7539142952074526,
+          0.21950294471088358
+        ],
+        [
+          -0.10574996977876153,
+          0.7392450036760772,
+          0.23900000624131246
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-1.jpg"
+      ]
+    },
+    {
+      "family": "G25",
+      "baselineFamilies": [
+        "N301"
+      ],
+      "ids": [
+        "p00939"
+      ],
+      "severeIds": [
+        "p00939"
+      ],
+      "id": "p00939",
+      "hand": "R",
+      "finger": 5,
+      "played": 86,
+      "hit": 84,
+      "time": 192.59291335199998,
+      "fraction": 0.999,
+      "depthMm": 4.312469725140322,
+      "signature": {
+        "hand": "R",
+        "finger": 5,
+        "black": false,
+        "lift": 0.00496,
+        "relativeWrist": [
+          -0.08567,
+          0.73962,
+          0.34105
+        ],
+        "q": [
+          -0.01979,
+          -0.69799,
+          0.70669,
+          0.11407
+        ],
+        "grip": [
+          {
+            "finger": 5,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00496
+          }
+        ]
+      },
+      "ownerOverlap": "batching-current-wrist-support",
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-13.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The extended pinky covers the white-key contact region; the exact underside overlap is not isolated visually. This note also shares the actively fitted p00937/p00939 wrist support.",
+      "deepest": {
+        "vertex": 2499,
+        "world": [
+          0.276386146780304,
+          0.7376875306548393,
+          0.2443813337239184
+        ],
+        "local": [
+          0.0061361467803039416,
+          0.0036875306548392883,
+          0.10688133372391839
+        ],
+        "faceDepthMm": 4.312469725140322,
+        "coreFaceDepthMm": 2.912469725140322,
+        "belowTopMm": 4.312469725140322
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandPinky3",
+          "weight": 0.6083999872207642
+        },
+        {
+          "bone": "RightHandPinky2",
+          "weight": 0.38100001215934753
+        },
+        {
+          "bone": "RightHandPinky1",
+          "weight": 0.010599999688565731
+        }
+      ],
+      "chain": [
+        [
+          0.24175491198349588,
+          0.7511983424893889,
+          0.2541017508029571
+        ],
+        [
+          0.26243279130493224,
+          0.7502387325842932,
+          0.24809594936675655
+        ],
+        [
+          0.2769928262803767,
+          0.7460084278067121,
+          0.2438670483785678
+        ],
+        [
+          0.29375000880180113,
+          0.7390121008696836,
+          0.2389999961408078
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-13.jpg"
+      ]
+    },
+    {
+      "family": "G16",
+      "baselineFamilies": [
+        "N201"
+      ],
+      "ids": [
+        "p00664"
+      ],
+      "severeIds": [
+        "p00664"
+      ],
+      "id": "p00664",
+      "hand": "L",
+      "finger": 2,
+      "played": 60,
+      "hit": 57,
+      "time": 144.204942343,
+      "fraction": 0.001,
+      "depthMm": 4.106134393378036,
+      "signature": {
+        "hand": "L",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          -0.07902,
+          0.7588,
+          0.3694
+        ],
+        "q": [
+          -0.0584,
+          0.67045,
+          -0.73589,
+          0.07459
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-7.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index proximal flag is concealed by the thumb/palm silhouette; the distal visible fingertip is not the flagged region.",
+      "deepest": {
+        "vertex": 7651,
+        "world": [
+          -0.11004949722537852,
+          0.7378938659866016,
+          0.25681832187102843
+        ],
+        "local": [
+          -0.004299497225378521,
+          0.0038938659866015746,
+          0.11931832187102842
+        ],
+        "faceDepthMm": 4.106134393378036,
+        "coreFaceDepthMm": 2.706134393378036,
+        "belowTopMm": 4.106134393378036
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandIndex1",
+          "weight": 0.8989999890327454
+        },
+        {
+          "bone": "LeftHand",
+          "weight": 0.10100000351667404
+        }
+      ],
+      "chain": [
+        [
+          -0.11809608457581593,
+          0.7499776257716609,
+          0.264181059273939
+        ],
+        [
+          -0.09612589533669437,
+          0.760498347430078,
+          0.2548589165701947
+        ],
+        [
+          -0.0758446974420308,
+          0.7527298156795332,
+          0.24625343117910095
+        ],
+        [
+          -0.058750110194716126,
+          0.7370564982029968,
+          0.23900004942638836
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-7.jpg"
+      ]
+    },
+    {
+      "family": "G21",
+      "baselineFamilies": [
+        "N117"
+      ],
+      "ids": [
+        "p00771"
+      ],
+      "severeIds": [
+        "p00771"
+      ],
+      "id": "p00771",
+      "hand": "L",
+      "finger": 4,
+      "played": 48,
+      "hit": 50,
+      "time": 167.36467399,
+      "fraction": 0.999,
+      "depthMm": 3.9182192559695794,
+      "signature": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.002,
+        "relativeWrist": [
+          0.08925,
+          0.766,
+          0.37
+        ],
+        "q": [
+          -0.11528,
+          0.63921,
+          -0.75258,
+          0.10841
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0.1645,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.002
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-8.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The extended ring pad covers the neighboring white-key surface; the underside overlap is not directly distinguishable in this view.",
+      "deepest": {
+        "vertex": 8169,
+        "world": [
+          -0.20568879884745,
+          0.73808178112401,
+          0.25136057937031697
+        ],
+        "local": [
+          -0.00593879884745005,
+          0.004081781124010031,
+          0.11386057937031696
+        ],
+        "faceDepthMm": 3.9182192559695794,
+        "coreFaceDepthMm": 2.5182192559695795,
+        "belowTopMm": 3.9182192559695794
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandRing3",
+          "weight": 0.6086000204086304
+        },
+        {
+          "bone": "LeftHandRing2",
+          "weight": 0.391400009393692
+        }
+      ],
+      "chain": [
+        [
+          -0.16173984969647676,
+          0.7633389126353942,
+          0.27829194500618615
+        ],
+        [
+          -0.18698331830402995,
+          0.7600382179666342,
+          0.2621667175533812
+        ],
+        [
+          -0.2061280723634004,
+          0.7495605866098887,
+          0.24993727800911372
+        ],
+        [
+          -0.2232499709628384,
+          0.7360484833787321,
+          0.23900001344945174
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-8.jpg"
+      ]
+    },
+    {
+      "family": "G23",
+      "baselineFamilies": [
+        "N273"
+      ],
+      "ids": [
+        "p00883"
+      ],
+      "severeIds": [
+        "p00883"
+      ],
+      "id": "p00883",
+      "hand": "L",
+      "finger": 3,
+      "played": 57,
+      "hit": 58,
+      "time": 184.4355245,
+      "fraction": 0.75,
+      "depthMm": 3.8565609174663202,
+      "signature": {
+        "hand": "L",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.00428,
+          0.78422,
+          0.32455
+        ],
+        "q": [
+          -0.01513,
+          0.75791,
+          -0.65196,
+          0.01728
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-9.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The active middle finger forms a low hook around the black-key front corner, with its lower segment visibly disappearing at the edge.",
+      "deepest": {
+        "vertex": 7854,
+        "world": [
+          -0.0988934388739174,
+          0.7560938618342147,
+          0.2198731253725733
+        ],
+        "local": [
+          -0.003393438873917423,
+          0.002093861834214672,
+          0.04287312537257332
+        ],
+        "faceDepthMm": 3.8565609174663202,
+        "coreFaceDepthMm": 1.8565609174663202,
+        "belowTopMm": 9.40613818813707
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandMiddle2",
+          "weight": 0.7660999894142151
+        },
+        {
+          "bone": "LeftHandMiddle3",
+          "weight": 0.23389999568462372
+        }
+      ],
+      "chain": [
+        [
+          -0.10840875250729952,
+          0.810363206431918,
+          0.22512088395019825
+        ],
+        [
+          -0.10192566031044539,
+          0.7793196416244988,
+          0.21231878891937742
+        ],
+        [
+          -0.10267344177444439,
+          0.7536305046812648,
+          0.22307891790977358
+        ],
+        [
+          -0.10575000125075375,
+          0.7373193783320328,
+          0.23900002651184862
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-9.jpg"
+      ]
+    },
+    {
+      "family": "G15",
+      "baselineFamilies": [
+        "N174"
+      ],
+      "ids": [
+        "p00568"
+      ],
+      "severeIds": [
+        "p00568"
+      ],
+      "id": "p00568",
+      "hand": "L",
+      "finger": 3,
+      "played": 60,
+      "hit": 59,
+      "time": 119.7273865,
+      "fraction": 0.5,
+      "depthMm": 3.8393097919167256,
+      "signature": {
+        "hand": "L",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          -0.0485,
+          0.74626,
+          0.397
+        ],
+        "q": [
+          -0.02095,
+          0.71319,
+          -0.70033,
+          0.02133
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-6.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active middle distal segment is visible against white keys, but its underside penetration boundary is hidden by the upper finger surface.",
+      "deepest": {
+        "vertex": 7931,
+        "world": [
+          -0.0747393095147551,
+          0.7378627134546244,
+          0.24978029131391466
+        ],
+        "local": [
+          0.0075106904852448725,
+          0.0038627134546244113,
+          0.11228029131391465
+        ],
+        "faceDepthMm": 3.8393097919167256,
+        "coreFaceDepthMm": 2.4393097919167257,
+        "belowTopMm": 4.137286925355199
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandMiddle3",
+          "weight": 0.9230999946594238
+        },
+        {
+          "bone": "LeftHandMiddle2",
+          "weight": 0.07689999788999557
+        }
+      ],
+      "chain": [
+        [
+          -0.11430332283095268,
+          0.7590129805447484,
+          0.2949930288822148
+        ],
+        [
+          -0.09025348551933744,
+          0.7609222814834857,
+          0.2707528335227696
+        ],
+        [
+          -0.07209637660983852,
+          0.7503548520253344,
+          0.2524520121200996
+        ],
+        [
+          -0.05875006306836333,
+          0.7373194907666027,
+          0.2390000628688437
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-6.jpg"
+      ]
+    },
+    {
+      "family": "G02",
+      "baselineFamilies": [
+        "N042"
+      ],
+      "ids": [
+        "p00102"
+      ],
+      "severeIds": [
+        "p00102"
+      ],
+      "id": "p00102",
+      "hand": "R",
+      "finger": 4,
+      "played": 81,
+      "hit": 79,
+      "time": 25.705731553,
+      "fraction": 0.999,
+      "depthMm": 3.8027658627998173,
+      "signature": {
+        "hand": "R",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00239,
+        "relativeWrist": [
+          -0.03975,
+          0.74758,
+          0.397
+        ],
+        "q": [
+          -0.02153,
+          -0.71849,
+          0.69429,
+          0.03552
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-1.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The assigned ring distal underside overlaps a neighboring white-key core numerically; its exposed upper silhouette does not isolate the penetration boundary.",
+      "deepest": {
+        "vertex": 2947,
+        "world": [
+          0.20718582234104527,
+          0.7381972345171798,
+          0.2559912498429464
+        ],
+        "local": [
+          0.007435822341045201,
+          0.004197234517179793,
+          0.1184912498429464
+        ],
+        "faceDepthMm": 3.8027658627998173,
+        "coreFaceDepthMm": 2.4027658627998174,
+        "belowTopMm": 3.8027658627998173
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandRing3",
+          "weight": 0.5659999847412109
+        },
+        {
+          "bone": "RightHandRing2",
+          "weight": 0.4339999854564667
+        }
+      ],
+      "chain": [
+        [
+          0.17881889331100215,
+          0.7654521951758617,
+          0.2976543364549006
+        ],
+        [
+          0.19647377330846622,
+          0.7581546743063264,
+          0.2743477938095466
+        ],
+        [
+          0.21029759015556926,
+          0.7480683330920578,
+          0.25609871563103803
+        ],
+        [
+          0.22324997912547184,
+          0.7364394710016436,
+          0.23900002381272822
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-1.jpg"
+      ]
+    },
+    {
+      "family": "G11",
+      "baselineFamilies": [
+        "N117"
+      ],
+      "ids": [
+        "p00410"
+      ],
+      "severeIds": [
+        "p00410"
+      ],
+      "id": "p00410",
+      "hand": "L",
+      "finger": 4,
+      "played": 48,
+      "hit": 50,
+      "time": 87.91840299,
+      "fraction": 0.999,
+      "depthMm": 3.7958786790240895,
+      "signature": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00208,
+        "relativeWrist": [
+          0.08925,
+          0.766,
+          0.37
+        ],
+        "q": [
+          -0.11528,
+          0.63921,
+          -0.75258,
+          0.10841
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0.1645,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00208
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-4.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The stretched active ring pad lies over neighboring white-key tops; the lower penetration boundary is not separable from ordinary contact in this oblique view.",
+      "deepest": {
+        "vertex": 8169,
+        "world": [
+          -0.2056959633111959,
+          0.7382041217009555,
+          0.2513469193985262
+        ],
+        "local": [
+          -0.0059459633111959564,
+          0.004204121700955521,
+          0.1138469193985262
+        ],
+        "faceDepthMm": 3.7958786790240895,
+        "coreFaceDepthMm": 2.3958786790240896,
+        "belowTopMm": 3.7958786790240895
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandRing3",
+          "weight": 0.6086000204086304
+        },
+        {
+          "bone": "LeftHandRing2",
+          "weight": 0.391400009393692
+        }
+      ],
+      "chain": [
+        [
+          -0.1617342773493137,
+          0.7633166287682707,
+          0.27826458584285796
+        ],
+        [
+          -0.18699615054465232,
+          0.7601550811215012,
+          0.2621402987536454
+        ],
+        [
+          -0.20614675179485067,
+          0.7496812626652842,
+          0.24991674947941717
+        ],
+        [
+          -0.22324995998273925,
+          0.7361289419651212,
+          0.23900002043763227
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-4.jpg"
+      ]
+    },
+    {
+      "family": "G18",
+      "baselineFamilies": [
+        "N225"
+      ],
+      "ids": [
+        "p00738"
+      ],
+      "severeIds": [
+        "p00738"
+      ],
+      "id": "p00738",
+      "hand": "R",
+      "finger": 2,
+      "played": 66,
+      "hit": 68,
+      "time": 162.109490121,
+      "fraction": 0.999,
+      "depthMm": 3.7596409609169656,
+      "signature": {
+        "hand": "R",
+        "finger": 2,
+        "black": true,
+        "lift": 0.00351,
+        "relativeWrist": [
+          0.0319,
+          0.77242,
+          0.379
+        ],
+        "q": [
+          -0.04429,
+          -0.71735,
+          0.69321,
+          0.0539
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": true,
+            "lift": 0.00351
+          },
+          {
+            "finger": 4,
+            "dx": 0.06025,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-9.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The index middle/distal portion lies across a neighboring black key while its tip reaches the assigned black key; the key edge interrupts its underside.",
+      "deepest": {
+        "vertex": 1812,
+        "world": [
+          0.0459945255143997,
+          0.7617403590614348,
+          0.20911653614281933
+        ],
+        "local": [
+          0.0004945255143996574,
+          0.007740359061434776,
+          0.03211653614281934
+        ],
+        "faceDepthMm": 3.7596409609169656,
+        "coreFaceDepthMm": 1.7596409609169656,
+        "belowTopMm": 3.7596409609169656
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandIndex2",
+          "weight": 0.9502000212669373
+        },
+        {
+          "bone": "RightHandIndex3",
+          "weight": 0.029400000348687172
+        },
+        {
+          "bone": "RightHandIndex1",
+          "weight": 0.020400000736117363
+        }
+      ],
+      "chain": [
+        [
+          0.06720903063716624,
+          0.7760085917072532,
+          0.23895920510647858
+        ],
+        [
+          0.05071646319519457,
+          0.7783951192973037,
+          0.21889482896855122
+        ],
+        [
+          0.036281894592161024,
+          0.7730097464356214,
+          0.20133415144150613
+        ],
+        [
+          0.02200001186548979,
+          0.763810287385045,
+          0.18395923078580406
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-9.jpg"
+      ]
+    },
+    {
+      "family": "G07",
+      "baselineFamilies": [
+        "N070"
+      ],
+      "ids": [
+        "p00181",
+        "p00659"
+      ],
+      "severeIds": [
+        "p00181",
+        "p00659"
+      ],
+      "id": "p00659",
+      "hand": "R",
+      "finger": 4,
+      "played": 79,
+      "hit": 81,
+      "time": 143.3167905,
+      "fraction": 0.5,
+      "depthMm": 3.7417795989888036,
+      "signature": {
+        "hand": "R",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00239,
+        "relativeWrist": [
+          0.01271,
+          0.74836,
+          0.3871
+        ],
+        "q": [
+          -0.07681,
+          -0.71902,
+          0.69037,
+          0.02244
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-3.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active ring curl is partially hidden behind the adjacent finger; the white-key contact boundary cannot be separated in this view.",
+      "deepest": {
+        "vertex": 2325,
+        "world": [
+          0.21739341908156445,
+          0.7382582207809908,
+          0.25215257645089556
+        ],
+        "local": [
+          -0.005856580918435578,
+          0.004258220780990807,
+          0.11465257645089555
+        ],
+        "faceDepthMm": 3.7417795989888036,
+        "coreFaceDepthMm": 2.3417795989888037,
+        "belowTopMm": 3.7417795989888036
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandRing3",
+          "weight": 0.6527000069618225
+        },
+        {
+          "bone": "RightHandRing2",
+          "weight": 0.3472999930381775
+        }
+      ],
+      "chain": [
+        [
+          0.24616045155592725,
+          0.7661417076971582,
+          0.295523577428219
+        ],
+        [
+          0.22755670570169598,
+          0.7591648090341704,
+          0.27286597326870266
+        ],
+        [
+          0.21313664662850818,
+          0.7487010936055256,
+          0.2553036972912217
+        ],
+        [
+          0.19974999223566084,
+          0.7364394704833721,
+          0.23900001425244022
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-3.jpg"
+      ]
+    },
+    {
+      "family": "G08",
+      "baselineFamilies": [
+        "N072"
+      ],
+      "ids": [
+        "p00187"
+      ],
+      "severeIds": [
+        "p00187"
+      ],
+      "id": "p00187",
+      "hand": "R",
+      "finger": 4,
+      "played": 79,
+      "hit": 81,
+      "time": 43.221430784000006,
+      "fraction": 0.001,
+      "depthMm": 3.7417793570920788,
+      "signature": {
+        "hand": "R",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00239,
+        "relativeWrist": [
+          -0.04492,
+          0.74801,
+          0.38416
+        ],
+        "q": [
+          -0.01659,
+          -0.71769,
+          0.6944,
+          0.04944
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-4.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active ring curl is partially hidden behind the adjacent finger; the white-key contact boundary cannot be separated in this view.",
+      "deepest": {
+        "vertex": 2325,
+        "world": [
+          0.2173934196409312,
+          0.7382582210228875,
+          0.25215257705868316
+        ],
+        "local": [
+          -0.00585658035906883,
+          0.004258221022887532,
+          0.11465257705868315
+        ],
+        "faceDepthMm": 3.7417793570920788,
+        "coreFaceDepthMm": 2.341779357092079,
+        "belowTopMm": 3.7417793570920788
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandRing3",
+          "weight": 0.6527000069618225
+        },
+        {
+          "bone": "RightHandRing2",
+          "weight": 0.3472999930381775
+        }
+      ],
+      "chain": [
+        [
+          0.24616045251373314,
+          0.7661417074937331,
+          0.2955235778498645
+        ],
+        [
+          0.22755670654892082,
+          0.7591648090491452,
+          0.2728659738115087
+        ],
+        [
+          0.2131366472866471,
+          0.7487010938222171,
+          0.2553036979621842
+        ],
+        [
+          0.19974999271825994,
+          0.7364394708836598,
+          0.23900001502586266
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-4.jpg"
+      ]
+    },
+    {
+      "family": "G20",
+      "baselineFamilies": [
+        "N237"
+      ],
+      "ids": [
+        "p00766"
+      ],
+      "severeIds": [
+        "p00766"
+      ],
+      "id": "p00766",
+      "hand": "R",
+      "finger": 2,
+      "played": 81,
+      "hit": 79,
+      "time": 166.411927723,
+      "fraction": 0.999,
+      "depthMm": 3.5168587535910625,
+      "signature": {
+        "hand": "R",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          -0.03879,
+          0.76042,
+          0.379
+        ],
+        "q": [
+          -0.11204,
+          -0.71909,
+          0.68553,
+          0.02014
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-11.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index has a compact tucked curl, with its numerically flagged underside hidden behind the neighboring digit.",
+      "deepest": {
+        "vertex": 2861,
+        "world": [
+          0.2075831415235706,
+          0.7379046719297832,
+          0.24588228027914727
+        ],
+        "local": [
+          0.007833141523570536,
+          0.0039046719297831656,
+          0.10838228027914726
+        ],
+        "faceDepthMm": 3.5168587535910625,
+        "coreFaceDepthMm": 2.1168587535910626,
+        "belowTopMm": 4.095328450196445
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandIndex3",
+          "weight": 0.958899974822998
+        },
+        {
+          "bone": "RightHandIndex2",
+          "weight": 0.041099999099969864
+        }
+      ],
+      "chain": [
+        [
+          0.16734525804019226,
+          0.7599921982712726,
+          0.27527903509268475
+        ],
+        [
+          0.18919164924950221,
+          0.7614152922931987,
+          0.2611019561204036
+        ],
+        [
+          0.2070576002262868,
+          0.7518171905955152,
+          0.24950795836432565
+        ],
+        [
+          0.22325000473827514,
+          0.7370564622209981,
+          0.23899999956938364
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-11.jpg"
+      ]
+    },
+    {
+      "family": "G12",
+      "baselineFamilies": [
+        "N120"
+      ],
+      "ids": [
+        "p00420"
+      ],
+      "severeIds": [
+        "p00420"
+      ],
+      "id": "p00420",
+      "hand": "R",
+      "finger": 3,
+      "played": 71,
+      "hit": 74,
+      "time": 88.774781941,
+      "fraction": 0.001,
+      "depthMm": 3.3463354634332143,
+      "signature": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.05706,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          },
+          {
+            "finger": 5,
+            "dx": 0.1175,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-6.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The flagged active middle MCP-side vertex is under the palm silhouette. The unrelated nearby idle geometry is not evidence for this active flag.",
+      "deepest": {
+        "vertex": 1931,
+        "world": [
+          0.1362333244697484,
+          0.7386536649165464,
+          0.25471666704082524
+        ],
+        "local": [
+          0.0069833244697483365,
+          0.004653664916546396,
+          0.11721666704082523
+        ],
+        "faceDepthMm": 3.3463354634332143,
+        "coreFaceDepthMm": 1.9463354634332144,
+        "belowTopMm": 3.3463354634332143
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandMiddle1",
+          "weight": 0.7505000233650208
+        },
+        {
+          "bone": "RightHand",
+          "weight": 0.19339999556541443
+        },
+        {
+          "bone": "RightHandRing1",
+          "weight": 0.0471000000834465
+        },
+        {
+          "bone": "RightHandIndex1",
+          "weight": 0.008999999612569809
+        }
+      ],
+      "chain": [
+        [
+          0.14349724869161518,
+          0.7544531036794444,
+          0.26686685745915284
+        ],
+        [
+          0.11586269439227785,
+          0.770196702969728,
+          0.2542934323150692
+        ],
+        [
+          0.09376369001049063,
+          0.7565287886633046,
+          0.24423861811278577
+        ],
+        [
+          0.0822501490388745,
+          0.7373195175523188,
+          0.23900007946357002
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-6.jpg"
+      ]
+    },
+    {
+      "family": "G24",
+      "baselineFamilies": [
+        "N284"
+      ],
+      "ids": [
+        "p00914"
+      ],
+      "severeIds": [
+        "p00914"
+      ],
+      "id": "p00914",
+      "hand": "L",
+      "finger": 2,
+      "played": 61,
+      "hit": 58,
+      "time": 188.81581799,
+      "fraction": 0.999,
+      "depthMm": 3.1349454717984893,
+      "signature": {
+        "hand": "L",
+        "finger": 2,
+        "black": true,
+        "lift": 0.00614,
+        "relativeWrist": [
+          -0.09777,
+          0.75904,
+          0.295
+        ],
+        "q": [
+          -0.00913,
+          0.74861,
+          -0.65207,
+          0.11958
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": true,
+            "lift": 0.00614
+          },
+          {
+            "finger": 5,
+            "dx": -0.1645,
+            "black": true,
+            "lift": 0.00287
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-10.jpg",
+      "status": "inspected_unresolved_not_accepted",
+      "visualFinding": "The active index proximal flag is under the palm/black-key neighborhood. The conspicuous idle-thumb intersection is separate and is not used to promote this active index flag.",
+      "deepest": {
+        "vertex": 7658,
+        "world": [
+          -0.09845278349367313,
+          0.7623650545505533,
+          0.18604862221108653
+        ],
+        "local": [
+          -0.0029527834936731584,
+          0.008365054550553253,
+          0.009048622211086543
+        ],
+        "faceDepthMm": 3.1349454717984893,
+        "coreFaceDepthMm": 1.1349454717984893,
+        "belowTopMm": 3.1349454717984893
+      },
+      "deepestWeights": [
+        {
+          "bone": "LeftHandIndex1",
+          "weight": 0.9057000279426575
+        },
+        {
+          "bone": "LeftHandIndex2",
+          "weight": 0.09430000185966492
+        }
+      ],
+      "chain": [
+        [
+          -0.11506730710615493,
+          0.7756494409260004,
+          0.19453726607774108
+        ],
+        [
+          -0.09115288199372737,
+          0.777458476204941,
+          0.18428520008032842
+        ],
+        [
+          -0.06997516598173634,
+          0.7736100315942246,
+          0.17520635955109323
+        ],
+        [
+          -0.04849999310382263,
+          0.7669354990772673,
+          0.1660000000704581
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-L/gl-960-10.jpg"
+      ]
+    },
+    {
+      "family": "G06",
+      "baselineFamilies": [
+        "N063"
+      ],
+      "ids": [
+        "p00170"
+      ],
+      "severeIds": [
+        "p00170"
+      ],
+      "id": "p00170",
+      "hand": "R",
+      "finger": 2,
+      "played": 75,
+      "hit": 75,
+      "time": 40.356698333,
+      "fraction": 0.999,
+      "depthMm": 3.0974006769257656,
+      "signature": {
+        "hand": "R",
+        "finger": 2,
+        "black": true,
+        "lift": 0.00351,
+        "relativeWrist": [
+          -0.01157,
+          0.78226,
+          0.379
+        ],
+        "q": [
+          -0.0166,
+          -0.71908,
+          0.69443,
+          0.02064
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": true,
+            "lift": 0.00351
+          }
+        ]
+      },
+      "ownerOverlap": null,
+      "image": "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-2.jpg",
+      "status": "confirmed_visible_intersection",
+      "visualFinding": "The assigned index pad visibly overlaps the played black-key corner; the lower pad boundary is interrupted at the key edge. This is the smallest promoted residual (3.097 mm).",
+      "deepest": {
+        "vertex": 1829,
+        "world": [
+          0.13627536830604137,
+          0.7562431526852061,
+          0.2180403907682441
+        ],
+        "local": [
+          -0.003224631693958646,
+          0.008402599345425976,
+          0.04089134050173726
+        ],
+        "faceDepthMm": 3.0974006769257656,
+        "coreFaceDepthMm": 1.0974006769257656,
+        "belowTopMm": 3.0974006769257656
+      },
+      "deepestWeights": [
+        {
+          "bone": "RightHandIndex3",
+          "weight": 1
+        }
+      ],
+      "chain": [
+        [
+          0.11212834628701338,
+          0.7734114001192176,
+          0.27825757382457694
+        ],
+        [
+          0.12195959069797824,
+          0.77318701863824,
+          0.25410026103953376
+        ],
+        [
+          0.13063254599507393,
+          0.769143470952836,
+          0.23278909145688004
+        ],
+        [
+          0.1394999958736352,
+          0.7630529491945621,
+          0.21100001380216113
+        ]
+      ],
+      "inspectionImages": [
+        "/workspace/scratch/2e8cc8e77f98/nonthumb-residual-review/render-R/gl-960-2.jpg"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "removed": [
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/fresh-gl-fixed-diagnostic/renderer-cache/.scene.json.ZD9uRT",
+      "allocatedBytes": 143130624
+    },
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/measurement-911870882ae92597/renderer-cache/.scene.json.0aWPmY",
+      "allocatedBytes": 127143936
+    }
+  ],
+  "bytesFreed": 270274560,
+  "audioCopied": false,
+  "noLiveMeasurementProcesses": true,
+  "removedReproducibleCacheDirectories": [
+    {
+      "directory": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/fresh-gl-diagnostic/renderer-cache",
+      "previousAllocatedBytes": 11796480,
+      "reason": "Completed regenerable renderer inputs; frozen visual source and environment proof archives retained."
+    },
+    {
+      "directory": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/fresh-gl-fixed-diagnostic/renderer-cache",
+      "previousAllocatedBytes": 11796480,
+      "reason": "Completed regenerable renderer inputs; frozen visual source and environment proof archives retained."
+    },
+    {
+      "directory": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/measurement-911870882ae92597/renderer-cache",
+      "previousAllocatedBytes": 11796480,
+      "reason": "Completed regenerable renderer inputs; frozen visual source and environment proof archives retained."
+    }
+  ],
+  "environmentProofArchives": {
+    "before": {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/environment-proof-before.npz",
+      "sha256": "b0cf2a4824595b9fb4ccb665640d08a3a1514963a948c486f0d6d828d1a97470"
+    },
+    "after": {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/environment-proof-after.npz",
+      "sha256": "b0cf2a4824595b9fb4ccb665640d08a3a1514963a948c486f0d6d828d1a97470"
+    }
+  },
+  "allNativeFrameImagesPreserved": true,
+  "sourceSnapshotPreserved": true
+}

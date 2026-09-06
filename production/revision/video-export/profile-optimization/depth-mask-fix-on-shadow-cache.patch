@@ -1,0 +1,58 @@
+--- a/production/qa/render-revision.py
++++ b/production/qa/render-revision.py
+@@ -169,7 +169,7 @@
+  prog['lightIntensity'].write(np.array(captureSettings.get('lightIntensities',[112,62,330,.2]),dtype='f4').tobytes())
+  ctx.enable(moderngl.DEPTH_TEST);ctx.disable(moderngl.CULL_FACE|moderngl.BLEND)
+  for j,(tx,sfbo) in enumerate(shadows):
+-  sfbo.use();ctx.viewport=(0,0,2048,2048);sfbo.clear(depth=1.);shadowprog['vp'].write(shadowVP[j].T.tobytes())
++  sfbo.use();sfbo.depth_mask=True;ctx.viewport=(0,0,2048,2048);sfbo.clear(depth=1.);shadowprog['vp'].write(shadowVP[j].T.tobytes())
+   for ob in stage:draw_mesh(ob,shadowprog,True)
+  shadows[0][0].use(1);shadows[1][0].use(2);dummy.use(3)
+  cube=ctx.texture_cube((size,size),3,dtype='f2');cube.filter=(moderngl.LINEAR_MIPMAP_LINEAR,moderngl.LINEAR)
+@@ -179,13 +179,13 @@
+  captures=[]
+  for face,(direction,up) in enumerate(zip(CUBE_DIRECTIONS,CUBE_UPS)):
+   view=cube_view(position,direction,up);vp=perspective(90,1,.1,110)@view
+-  target.use();ctx.viewport=(0,0,size,size);target.clear(0,0,0,1,depth=1.)
++  target.use();target.depth_mask=True;ctx.viewport=(0,0,size,size);target.clear(0,0,0,1,depth=1.)
+   ctx.disable(moderngl.DEPTH_TEST);bgprog['invVP'].write(np.linalg.inv(vp).T.astype('f4').tobytes());bgprog['eye']=tuple(position);bgprog['lift']=captureLift;bgvao.render(moderngl.TRIANGLE_STRIP)
+   ctx.enable(moderngl.DEPTH_TEST);prog['vp'].write(vp.T.astype('f4').tobytes());prog['viewMatrix'].write(view.T.astype('f4').tobytes());prog['eye']=tuple(position)
+   for ob in opaque:draw_mesh(ob,prog)
+-  ctx.enable(moderngl.BLEND);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE_MINUS_SRC_ALPHA);ctx.depth_mask=False
++  ctx.enable(moderngl.BLEND);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE_MINUS_SRC_ALPHA);ctx.fbo.depth_mask=False
+   for ob in transparent:draw_mesh(ob,prog)
+-  ctx.depth_mask=True;ctx.disable(moderngl.BLEND)
++  ctx.fbo.depth_mask=True;ctx.disable(moderngl.BLEND)
+   raw=target.read(components=3,dtype='f2');cube.write(face,raw);captures.append(np.frombuffer(raw,dtype='f2').reshape(size,size,3))
+   print('ENV_CAPTURE_FACE',face,flush=True)
+  np.savez_compressed(ROOT/'environment-capture-linear.npz',faces=np.stack(captures),position=position)
+@@ -269,24 +269,24 @@
+  render_frame_shadows()
+  shadowed=time.perf_counter();cm=mat4(s['camera']['matrix']);eye=cm[:3,3];vp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(cm);x=np.clip((s['energy']-.2)/.72,0,1);lift=float(x*x*(3-2*x));reflect=np.diag([1,-1,1,1]).astype('f4');rcm=reflect@cm;rvp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(rcm);prog['reflectionVP'].write(rvp.T.astype('f4').tobytes());prog['lightIntensity'].write(np.array(s['lights'],dtype='f4').tobytes());shadows[0][0].use(1);shadows[1][0].use(2)
+  for reflectionPass,target,cvp,ceye,ww,hh in [(False,fbo,vp,eye,W,H)]:
+-  target.use();ctx.viewport=(0,0,ww,hh);target.clear(.1,.15,.2,1,depth=1.);ctx.disable(moderngl.DEPTH_TEST);bgprog['invVP'].write(np.linalg.inv(cvp).T.astype('f4').tobytes());bgprog['eye'].value=tuple(ceye);bgprog['lift']=lift;bgvao.render(moderngl.TRIANGLE_STRIP);ctx.enable(moderngl.DEPTH_TEST);prog['reflectionPass']=reflectionPass;(dummy if reflectionPass else refl).use(3)
++  target.use();target.depth_mask=True;ctx.viewport=(0,0,ww,hh);target.clear(.1,.15,.2,1,depth=1.);ctx.disable(moderngl.DEPTH_TEST);bgprog['invVP'].write(np.linalg.inv(cvp).T.astype('f4').tobytes());bgprog['eye'].value=tuple(ceye);bgprog['lift']=lift;bgvao.render(moderngl.TRIANGLE_STRIP);ctx.enable(moderngl.DEPTH_TEST);prog['reflectionPass']=reflectionPass;(dummy if reflectionPass else refl).use(3)
+   prog['viewMatrix'].write((np.linalg.inv(rcm) if reflectionPass else np.linalg.inv(cm)).T.astype('f4').tobytes());prog['vp'].write(cvp.T.astype('f4').tobytes());prog['eye'].value=tuple(ceye);prog['lift']=lift
+   for ob in meshes:
+    if reflectionPass and ob['matrix'][1,3]<0:continue
+    if any(d['materials'][mi]['alpha']<.98 for mi in ob['source']['materials']):continue
+    draw_mesh(ob,prog)
+-  ctx.enable(moderngl.BLEND);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE_MINUS_SRC_ALPHA);ctx.depth_mask=False
++  ctx.enable(moderngl.BLEND);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE_MINUS_SRC_ALPHA);ctx.fbo.depth_mask=False
+   transparent=[ob for ob in meshes if any(d['materials'][mi]['alpha']<.98 for mi in ob['source']['materials'])]
+   transparent.sort(key=lambda ob:-np.linalg.norm(ob['matrix'][:3,3]-ceye))
+   for ob in transparent:draw_mesh(ob,prog)
+-  ctx.depth_mask=True
++  ctx.fbo.depth_mask=True
+   ctx.enable(moderngl.BLEND);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE_MINUS_SRC_ALPHA);lineprog['vp'].write(cvp.T.astype('f4').tobytes());ctx.line_width=1.
+   for va,model,opacity in lineobjects:
+    lineprog['model'].write(model.T.astype('f4').tobytes());lineprog['opacity']=opacity;va.render(moderngl.LINES)
+   if not reflectionPass:
+-   ctx.enable(moderngl.PROGRAM_POINT_SIZE);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE);ctx.depth_mask=False;dustprog['t']=t;dustprog['lift']=lift;dustprog['view'].write(np.linalg.inv(cm).T.astype('f4').tobytes());dustprog['projection'].write(perspective(s['camera']['fov'],s['camera']['aspect']).T.astype('f4').tobytes())
++   ctx.enable(moderngl.PROGRAM_POINT_SIZE);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE);ctx.fbo.depth_mask=False;dustprog['t']=t;dustprog['lift']=lift;dustprog['view'].write(np.linalg.inv(cm).T.astype('f4').tobytes());dustprog['projection'].write(perspective(s['camera']['fov'],s['camera']['aspect']).T.astype('f4').tobytes())
+    for va in dustobjects:va.render(moderngl.POINTS)
+-   ctx.depth_mask=True
++   ctx.fbo.depth_mask=True
+   ctx.disable(moderngl.BLEND)
+  ctx.copy_framebuffer(resolved,fbo)
+  outfbo.use();ctx.disable(moderngl.DEPTH_TEST);color.use(0);postvao.render(moderngl.TRIANGLE_STRIP);raw=outfbo.read(components=3,alignment=1);done=time.perf_counter();return raw,{'time':t,'shot':s['shot'],'update':updated-before,'shadows':shadowed-updated,'render':done-shadowed,'total':done-before,'pedal':s.get('pedal'),'contacts':s.get('contacts'),'activeNotes':s.get('activeNotes')}

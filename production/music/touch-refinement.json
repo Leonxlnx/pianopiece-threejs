@@ -1,0 +1,5810 @@
+{
+  "reason": "Earlier physical releases under continuous sustain prepare register jumps; all original sounding-end times are preserved.",
+  "changes": [
+    {
+      "id": "p00054",
+      "midi": 42,
+      "oldRelease": 12.556,
+      "release": 12.417189,
+      "nextOnset": 12.604,
+      "handTravelMetres": 0.21025978264994,
+      "sustainEnd": 14.373
+    },
+    {
+      "id": "p00104",
+      "midi": 34,
+      "oldRelease": 22.156,
+      "release": 21.971965,
+      "nextOnset": 22.204,
+      "handTravelMetres": 0.2916623551300372,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00152",
+      "midi": 40,
+      "oldRelease": 31.756,
+      "release": 31.623839,
+      "nextOnset": 31.804,
+      "handTravelMetres": 0.19829031670759925,
+      "sustainEnd": 33.573
+    },
+    {
+      "id": "p00345",
+      "midi": 50,
+      "oldRelease": 59.884,
+      "release": 59.851217,
+      "nextOnset": 59.992,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00346",
+      "midi": 54,
+      "oldRelease": 59.89,
+      "release": 59.851217,
+      "nextOnset": 59.992,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00347",
+      "midi": 57,
+      "oldRelease": 59.896,
+      "release": 59.851217,
+      "nextOnset": 59.992,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00365",
+      "midi": 49,
+      "oldRelease": 62.284,
+      "release": 62.228379,
+      "nextOnset": 62.392,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00366",
+      "midi": 52,
+      "oldRelease": 62.29,
+      "release": 62.228379,
+      "nextOnset": 62.392,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00367",
+      "midi": 57,
+      "oldRelease": 62.296,
+      "release": 62.228379,
+      "nextOnset": 62.392,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00404",
+      "midi": 50,
+      "oldRelease": 67.102,
+      "release": 67.063743,
+      "nextOnset": 67.192,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00405",
+      "midi": 54,
+      "oldRelease": 67.108,
+      "release": 67.063743,
+      "nextOnset": 67.192,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00406",
+      "midi": 59,
+      "oldRelease": 67.114,
+      "release": 67.063743,
+      "nextOnset": 67.192,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00425",
+      "midi": 50,
+      "oldRelease": 69.484,
+      "release": 69.470415,
+      "nextOnset": 69.592,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00426",
+      "midi": 55,
+      "oldRelease": 69.49,
+      "release": 69.470415,
+      "nextOnset": 69.592,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00427",
+      "midi": 59,
+      "oldRelease": 69.496,
+      "release": 69.470415,
+      "nextOnset": 69.592,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00444",
+      "midi": 50,
+      "oldRelease": 71.884,
+      "release": 71.873369,
+      "nextOnset": 71.992,
+      "handTravelMetres": 0.08753571271201253,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00445",
+      "midi": 57,
+      "oldRelease": 71.89,
+      "release": 71.873369,
+      "nextOnset": 71.992,
+      "handTravelMetres": 0.08753571271201253,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00483",
+      "midi": 49,
+      "oldRelease": 76.702,
+      "release": 76.62266,
+      "nextOnset": 76.792,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00484",
+      "midi": 55,
+      "oldRelease": 76.708,
+      "release": 76.62266,
+      "nextOnset": 76.792,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00485",
+      "midi": 59,
+      "oldRelease": 76.714,
+      "release": 76.62266,
+      "nextOnset": 76.792,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00504",
+      "midi": 49,
+      "oldRelease": 79.084,
+      "release": 79.027699,
+      "nextOnset": 79.192,
+      "handTravelMetres": 0.16974128313406853,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00505",
+      "midi": 50,
+      "oldRelease": 79.09,
+      "release": 79.027699,
+      "nextOnset": 79.192,
+      "handTravelMetres": 0.16974128313406853,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00506",
+      "midi": 54,
+      "oldRelease": 79.096,
+      "release": 79.027699,
+      "nextOnset": 79.192,
+      "handTravelMetres": 0.16974128313406853,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00525",
+      "midi": 49,
+      "oldRelease": 81.484,
+      "release": 81.46106,
+      "nextOnset": 81.592,
+      "handTravelMetres": 0.10969205303940671,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00526",
+      "midi": 52,
+      "oldRelease": 81.49,
+      "release": 81.46106,
+      "nextOnset": 81.592,
+      "handTravelMetres": 0.10969205303940671,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00527",
+      "midi": 58,
+      "oldRelease": 81.496,
+      "release": 81.46106,
+      "nextOnset": 81.592,
+      "handTravelMetres": 0.10969205303940671,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00563",
+      "midi": 50,
+      "oldRelease": 86.302,
+      "release": 86.243456,
+      "nextOnset": 86.404,
+      "handTravelMetres": 0.16297844029196007,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00564",
+      "midi": 54,
+      "oldRelease": 86.308,
+      "release": 86.243456,
+      "nextOnset": 86.404,
+      "handTravelMetres": 0.16297844029196007,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00565",
+      "midi": 57,
+      "oldRelease": 86.314,
+      "release": 86.243456,
+      "nextOnset": 86.404,
+      "handTravelMetres": 0.16297844029196007,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00572",
+      "midi": 42,
+      "oldRelease": 87.154,
+      "release": 87.117189,
+      "nextOnset": 87.304,
+      "handTravelMetres": 0.21025978264994,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00580",
+      "midi": 43,
+      "oldRelease": 89.554,
+      "release": 89.542381,
+      "nextOnset": 89.704,
+      "handTravelMetres": 0.1649143208187546,
+      "sustainEnd": 91.173
+    },
+    {
+      "id": "p00592",
+      "midi": 40,
+      "oldRelease": 91.954,
+      "release": 91.923839,
+      "nextOnset": 92.104,
+      "handTravelMetres": 0.19829031670759925,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00596",
+      "midi": 52,
+      "oldRelease": 93.394,
+      "release": 93.390389,
+      "nextOnset": 93.604,
+      "handTravelMetres": 0.25850000000000006,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00601",
+      "midi": 33,
+      "oldRelease": 94.354,
+      "release": 94.277824,
+      "nextOnset": 94.504,
+      "handTravelMetres": 0.2811174994552989,
+      "sustainEnd": 95.973
+    },
+    {
+      "id": "p00624",
+      "midi": 33,
+      "oldRelease": 98.956,
+      "release": 98.767784,
+      "nextOnset": 99.004,
+      "handTravelMetres": 0.2991889590394524,
+      "sustainEnd": 100.773
+    },
+    {
+      "id": "p00675",
+      "midi": 42,
+      "oldRelease": 108.556,
+      "release": 108.427726,
+      "nextOnset": 108.604,
+      "handTravelMetres": 0.19129333835761247,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00798",
+      "midi": 50,
+      "oldRelease": 127.084,
+      "release": 127.051217,
+      "nextOnset": 127.192,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00799",
+      "midi": 54,
+      "oldRelease": 127.09,
+      "release": 127.051217,
+      "nextOnset": 127.192,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00800",
+      "midi": 57,
+      "oldRelease": 127.096,
+      "release": 127.051217,
+      "nextOnset": 127.192,
+      "handTravelMetres": 0.12740876775167395,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00818",
+      "midi": 49,
+      "oldRelease": 129.484,
+      "release": 129.428379,
+      "nextOnset": 129.592,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00819",
+      "midi": 52,
+      "oldRelease": 129.49,
+      "release": 129.428379,
+      "nextOnset": 129.592,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00820",
+      "midi": 57,
+      "oldRelease": 129.496,
+      "release": 129.428379,
+      "nextOnset": 129.592,
+      "handTravelMetres": 0.1685169057130801,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00857",
+      "midi": 50,
+      "oldRelease": 134.302,
+      "release": 134.263743,
+      "nextOnset": 134.392,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00858",
+      "midi": 54,
+      "oldRelease": 134.308,
+      "release": 134.263743,
+      "nextOnset": 134.392,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00859",
+      "midi": 59,
+      "oldRelease": 134.314,
+      "release": 134.263743,
+      "nextOnset": 134.392,
+      "handTravelMetres": 0.10486223364226249,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00878",
+      "midi": 50,
+      "oldRelease": 136.684,
+      "release": 136.670415,
+      "nextOnset": 136.792,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00879",
+      "midi": 55,
+      "oldRelease": 136.69,
+      "release": 136.670415,
+      "nextOnset": 136.792,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00880",
+      "midi": 59,
+      "oldRelease": 136.696,
+      "release": 136.670415,
+      "nextOnset": 136.792,
+      "handTravelMetres": 0.09285368113327555,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00897",
+      "midi": 50,
+      "oldRelease": 139.084,
+      "release": 139.073369,
+      "nextOnset": 139.192,
+      "handTravelMetres": 0.08753571271201253,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00898",
+      "midi": 57,
+      "oldRelease": 139.09,
+      "release": 139.073369,
+      "nextOnset": 139.192,
+      "handTravelMetres": 0.08753571271201253,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00937",
+      "midi": 49,
+      "oldRelease": 143.902,
+      "release": 143.83466,
+      "nextOnset": 144.004,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00938",
+      "midi": 55,
+      "oldRelease": 143.908,
+      "release": 143.83466,
+      "nextOnset": 144.004,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00939",
+      "midi": 59,
+      "oldRelease": 143.914,
+      "release": 143.83466,
+      "nextOnset": 144.004,
+      "handTravelMetres": 0.17881281286430362,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00954",
+      "midi": 34,
+      "oldRelease": 147.424,
+      "release": 147.42384,
+      "nextOnset": 147.604,
+      "handTravelMetres": 0.19828872383471535,
+      "sustainEnd": 148.773
+    },
+    {
+      "id": "p00955",
+      "midi": 46,
+      "oldRelease": 147.43,
+      "release": 147.42384,
+      "nextOnset": 147.604,
+      "handTravelMetres": 0.19828872383471535,
+      "sustainEnd": 148.773
+    },
+    {
+      "id": "p00966",
+      "midi": 45,
+      "oldRelease": 149.83,
+      "release": 149.826068,
+      "nextOnset": 150.004,
+      "handTravelMetres": 0.19427679920955848,
+      "sustainEnd": 151.173
+    },
+    {
+      "id": "p01065",
+      "midi": 52,
+      "oldRelease": 165.484,
+      "release": 165.451217,
+      "nextOnset": 165.592,
+      "handTravelMetres": 0.127408767751674,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01066",
+      "midi": 56,
+      "oldRelease": 165.49,
+      "release": 165.451217,
+      "nextOnset": 165.592,
+      "handTravelMetres": 0.127408767751674,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01067",
+      "midi": 59,
+      "oldRelease": 165.496,
+      "release": 165.451217,
+      "nextOnset": 165.592,
+      "handTravelMetres": 0.127408767751674,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01086",
+      "midi": 51,
+      "oldRelease": 167.884,
+      "release": 167.83921,
+      "nextOnset": 167.992,
+      "handTravelMetres": 0.14902120788666284,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01087",
+      "midi": 54,
+      "oldRelease": 167.89,
+      "release": 167.83921,
+      "nextOnset": 167.992,
+      "handTravelMetres": 0.14902120788666284,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01088",
+      "midi": 59,
+      "oldRelease": 167.896,
+      "release": 167.83921,
+      "nextOnset": 167.992,
+      "handTravelMetres": 0.14902120788666284,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01129",
+      "midi": 49,
+      "oldRelease": 172.702,
+      "release": 172.692284,
+      "nextOnset": 172.792,
+      "handTravelMetres": 0.053488433329085275,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01130",
+      "midi": 56,
+      "oldRelease": 172.708,
+      "release": 172.692284,
+      "nextOnset": 172.792,
+      "handTravelMetres": 0.053488433329085275,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01131",
+      "midi": 59,
+      "oldRelease": 172.714,
+      "release": 172.692284,
+      "nextOnset": 172.792,
+      "handTravelMetres": 0.053488433329085275,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01172",
+      "midi": 52,
+      "oldRelease": 177.484,
+      "release": 177.409,
+      "nextOnset": 177.592,
+      "handTravelMetres": 0.24333150433102577,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01173",
+      "midi": 59,
+      "oldRelease": 177.49,
+      "release": 177.415,
+      "nextOnset": 177.592,
+      "handTravelMetres": 0.24333150433102577,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01214",
+      "midi": 49,
+      "oldRelease": 182.302,
+      "release": 182.259225,
+      "nextOnset": 182.392,
+      "handTravelMetres": 0.1129957647190568,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01215",
+      "midi": 51,
+      "oldRelease": 182.308,
+      "release": 182.259225,
+      "nextOnset": 182.392,
+      "handTravelMetres": 0.1129957647190568,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01216",
+      "midi": 57,
+      "oldRelease": 182.314,
+      "release": 182.259225,
+      "nextOnset": 182.392,
+      "handTravelMetres": 0.1129957647190568,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01237",
+      "midi": 51,
+      "oldRelease": 184.684,
+      "release": 184.62057,
+      "nextOnset": 184.792,
+      "handTravelMetres": 0.18257436649212289,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01238",
+      "midi": 52,
+      "oldRelease": 184.69,
+      "release": 184.62057,
+      "nextOnset": 184.792,
+      "handTravelMetres": 0.18257436649212289,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01239",
+      "midi": 56,
+      "oldRelease": 184.696,
+      "release": 184.621,
+      "nextOnset": 184.792,
+      "handTravelMetres": 0.18257436649212289,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01260",
+      "midi": 48,
+      "oldRelease": 187.084,
+      "release": 187.009,
+      "nextOnset": 187.192,
+      "handTravelMetres": 0.21876202506630604,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01261",
+      "midi": 51,
+      "oldRelease": 187.09,
+      "release": 187.015,
+      "nextOnset": 187.192,
+      "handTravelMetres": 0.21876202506630604,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01262",
+      "midi": 56,
+      "oldRelease": 187.096,
+      "release": 187.021,
+      "nextOnset": 187.192,
+      "handTravelMetres": 0.21876202506630604,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01301",
+      "midi": 52,
+      "oldRelease": 191.902,
+      "release": 191.809,
+      "nextOnset": 191.992,
+      "handTravelMetres": 0.22227285664246096,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01302",
+      "midi": 56,
+      "oldRelease": 191.908,
+      "release": 191.815,
+      "nextOnset": 191.992,
+      "handTravelMetres": 0.22227285664246096,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01303",
+      "midi": 59,
+      "oldRelease": 191.914,
+      "release": 191.821,
+      "nextOnset": 191.992,
+      "handTravelMetres": 0.22227285664246096,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01324",
+      "midi": 49,
+      "oldRelease": 194.284,
+      "release": 194.209,
+      "nextOnset": 194.392,
+      "handTravelMetres": 0.20356782014847044,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01325",
+      "midi": 56,
+      "oldRelease": 194.29,
+      "release": 194.215,
+      "nextOnset": 194.392,
+      "handTravelMetres": 0.20356782014847044,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01326",
+      "midi": 59,
+      "oldRelease": 194.296,
+      "release": 194.221,
+      "nextOnset": 194.392,
+      "handTravelMetres": 0.20356782014847044,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01346",
+      "midi": 48,
+      "oldRelease": 196.684,
+      "release": 196.626282,
+      "nextOnset": 196.792,
+      "handTravelMetres": 0.17229191588051307,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01347",
+      "midi": 52,
+      "oldRelease": 196.69,
+      "release": 196.626282,
+      "nextOnset": 196.792,
+      "handTravelMetres": 0.17229191588051307,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01348",
+      "midi": 54,
+      "oldRelease": 196.696,
+      "release": 196.626282,
+      "nextOnset": 196.792,
+      "handTravelMetres": 0.17229191588051307,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01390",
+      "midi": 51,
+      "oldRelease": 201.502,
+      "release": 201.460953,
+      "nextOnset": 201.604,
+      "handTravelMetres": 0.13148458316894465,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01391",
+      "midi": 54,
+      "oldRelease": 201.508,
+      "release": 201.460953,
+      "nextOnset": 201.604,
+      "handTravelMetres": 0.13148458316894465,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01392",
+      "midi": 57,
+      "oldRelease": 201.514,
+      "release": 201.460953,
+      "nextOnset": 201.604,
+      "handTravelMetres": 0.13148458316894465,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p00001",
+      "midi": 66,
+      "oldRelease": 1.025,
+      "release": 0.96053,
+      "nextOnset": 1.068,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 2.373
+    },
+    {
+      "id": "p00003",
+      "midi": 62,
+      "oldRelease": 1.775,
+      "release": 1.71055,
+      "nextOnset": 1.818,
+      "handTravelMetres": 0.06740923527232746,
+      "sustainEnd": 2.373
+    },
+    {
+      "id": "p00004",
+      "midi": 66,
+      "oldRelease": 2.075,
+      "release": 2.010569,
+      "nextOnset": 2.126,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 2.373
+    },
+    {
+      "id": "p00005",
+      "midi": 69,
+      "oldRelease": 2.345,
+      "release": 2.307778,
+      "nextOnset": 2.43,
+      "handTravelMetres": 0.09399999999999997,
+      "sustainEnd": 2.373
+    },
+    {
+      "id": "p00010",
+      "midi": 76,
+      "oldRelease": 2.975,
+      "release": 2.926455,
+      "nextOnset": 3.03,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 4.773
+    },
+    {
+      "id": "p00011",
+      "midi": 74,
+      "oldRelease": 3.275,
+      "release": 3.24427,
+      "nextOnset": 3.338,
+      "handTravelMetres": 0.04271410071627399,
+      "sustainEnd": 4.773
+    },
+    {
+      "id": "p00012",
+      "midi": 69,
+      "oldRelease": 3.575,
+      "release": 3.51168,
+      "nextOnset": 3.642,
+      "handTravelMetres": 0.10857629805809377,
+      "sustainEnd": 4.773
+    },
+    {
+      "id": "p00019",
+      "midi": 69,
+      "oldRelease": 5.365,
+      "release": 5.36,
+      "nextOnset": 5.435,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 7.173
+    },
+    {
+      "id": "p00020",
+      "midi": 66,
+      "oldRelease": 5.675,
+      "release": 5.63555,
+      "nextOnset": 5.743,
+      "handTravelMetres": 0.06740923527232746,
+      "sustainEnd": 7.173
+    },
+    {
+      "id": "p00028",
+      "midi": 64,
+      "oldRelease": 7.775,
+      "release": 7.712031,
+      "nextOnset": 7.814,
+      "handTravelMetres": 0.057544700016595854,
+      "sustainEnd": 9.573
+    },
+    {
+      "id": "p00030",
+      "midi": 71,
+      "oldRelease": 8.375,
+      "release": 8.334677,
+      "nextOnset": 8.426,
+      "handTravelMetres": 0.038381375691863805,
+      "sustainEnd": 9.573
+    },
+    {
+      "id": "p00037",
+      "midi": 66,
+      "oldRelease": 10.175,
+      "release": 10.102569,
+      "nextOnset": 10.218,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 11.973
+    },
+    {
+      "id": "p00038",
+      "midi": 69,
+      "oldRelease": 10.625,
+      "release": 10.552569,
+      "nextOnset": 10.668,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 11.973
+    },
+    {
+      "id": "p00039",
+      "midi": 66,
+      "oldRelease": 10.765,
+      "release": 10.743,
+      "nextOnset": 10.818,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 11.973
+    },
+    {
+      "id": "p00042",
+      "midi": 64,
+      "oldRelease": 11.675,
+      "release": 11.61853,
+      "nextOnset": 11.726,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 11.973
+    },
+    {
+      "id": "p00043",
+      "midi": 66,
+      "oldRelease": 11.945,
+      "release": 11.914569,
+      "nextOnset": 12.03,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 11.973
+    },
+    {
+      "id": "p00050",
+      "midi": 69,
+      "oldRelease": 12.575,
+      "release": 12.514569,
+      "nextOnset": 12.63,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 14.373
+    },
+    {
+      "id": "p00051",
+      "midi": 66,
+      "oldRelease": 12.875,
+      "release": 12.83053,
+      "nextOnset": 12.938,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 14.373
+    },
+    {
+      "id": "p00062",
+      "midi": 69,
+      "oldRelease": 15.875,
+      "release": 15.830005,
+      "nextOnset": 15.943,
+      "handTravelMetres": 0.07739042899480528,
+      "sustainEnd": 16.773
+    },
+    {
+      "id": "p00063",
+      "midi": 66,
+      "oldRelease": 16.175,
+      "release": 16.120902,
+      "nextOnset": 16.235,
+      "handTravelMetres": 0.07937708863393765,
+      "sustainEnd": 16.773
+    },
+    {
+      "id": "p00071",
+      "midi": 64,
+      "oldRelease": 17.075,
+      "release": 17.013629,
+      "nextOnset": 17.122,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 19.173
+    },
+    {
+      "id": "p00072",
+      "midi": 66,
+      "oldRelease": 17.375,
+      "release": 17.307777,
+      "nextOnset": 17.414,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 19.173
+    },
+    {
+      "id": "p00073",
+      "midi": 69,
+      "oldRelease": 17.975,
+      "release": 17.910455,
+      "nextOnset": 18.014,
+      "handTravelMetres": 0.06038161971991146,
+      "sustainEnd": 19.173
+    },
+    {
+      "id": "p00074",
+      "midi": 71,
+      "oldRelease": 18.425,
+      "release": 18.360455,
+      "nextOnset": 18.464,
+      "handTravelMetres": 0.06038161971991146,
+      "sustainEnd": 19.173
+    },
+    {
+      "id": "p00075",
+      "midi": 69,
+      "oldRelease": 18.565,
+      "release": 18.539,
+      "nextOnset": 18.614,
+      "handTravelMetres": 0.02805397832750289,
+      "sustainEnd": 19.173
+    },
+    {
+      "id": "p00084",
+      "midi": 66,
+      "oldRelease": 19.475,
+      "release": 19.415674,
+      "nextOnset": 19.526,
+      "handTravelMetres": 0.07258639886369897,
+      "sustainEnd": 21.573
+    },
+    {
+      "id": "p00086",
+      "midi": 69,
+      "oldRelease": 20.375,
+      "release": 20.311201,
+      "nextOnset": 20.418,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 21.573
+    },
+    {
+      "id": "p00087",
+      "midi": 66,
+      "oldRelease": 20.825,
+      "release": 20.76053,
+      "nextOnset": 20.868,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 21.573
+    },
+    {
+      "id": "p00096",
+      "midi": 64,
+      "oldRelease": 21.875,
+      "release": 21.829629,
+      "nextOnset": 21.938,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00098",
+      "midi": 70,
+      "oldRelease": 22.625,
+      "release": 22.580628,
+      "nextOnset": 22.68,
+      "handTravelMetres": 0.05287021845992315,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00099",
+      "midi": 73,
+      "oldRelease": 22.765,
+      "release": 22.755,
+      "nextOnset": 22.83,
+      "handTravelMetres": 0.09728842120211431,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00100",
+      "midi": 71,
+      "oldRelease": 23.075,
+      "release": 23.027154,
+      "nextOnset": 23.138,
+      "handTravelMetres": 0.07352222861148866,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00102",
+      "midi": 66,
+      "oldRelease": 23.675,
+      "release": 23.629629,
+      "nextOnset": 23.738,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 23.973
+    },
+    {
+      "id": "p00110",
+      "midi": 74,
+      "oldRelease": 24.575,
+      "release": 24.543677,
+      "nextOnset": 24.635,
+      "handTravelMetres": 0.038381375691863805,
+      "sustainEnd": 26.373
+    },
+    {
+      "id": "p00112",
+      "midi": 69,
+      "oldRelease": 25.175,
+      "release": 25.10468,
+      "nextOnset": 25.235,
+      "handTravelMetres": 0.10857629805809377,
+      "sustainEnd": 26.373
+    },
+    {
+      "id": "p00113",
+      "midi": 66,
+      "oldRelease": 25.775,
+      "release": 25.70468,
+      "nextOnset": 25.835,
+      "handTravelMetres": 0.10857629805809377,
+      "sustainEnd": 26.373
+    },
+    {
+      "id": "p00121",
+      "midi": 67,
+      "oldRelease": 26.675,
+      "release": 26.614868,
+      "nextOnset": 26.722,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 28.773
+    },
+    {
+      "id": "p00122",
+      "midi": 66,
+      "oldRelease": 26.975,
+      "release": 26.905629,
+      "nextOnset": 27.014,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 28.773
+    },
+    {
+      "id": "p00123",
+      "midi": 64,
+      "oldRelease": 27.575,
+      "release": 27.524284,
+      "nextOnset": 27.614,
+      "handTravelMetres": 0.035489616791394174,
+      "sustainEnd": 28.773
+    },
+    {
+      "id": "p00134",
+      "midi": 66,
+      "oldRelease": 29.225,
+      "release": 29.16053,
+      "nextOnset": 29.268,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00137",
+      "midi": 64,
+      "oldRelease": 29.975,
+      "release": 29.91053,
+      "nextOnset": 30.018,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00138",
+      "midi": 66,
+      "oldRelease": 30.275,
+      "release": 30.219201,
+      "nextOnset": 30.326,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00139",
+      "midi": 69,
+      "oldRelease": 30.575,
+      "release": 30.481355,
+      "nextOnset": 30.618,
+      "handTravelMetres": 0.11996181559146227,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00140",
+      "midi": 74,
+      "oldRelease": 30.875,
+      "release": 30.818868,
+      "nextOnset": 30.926,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00141",
+      "midi": 73,
+      "oldRelease": 31.145,
+      "release": 31.071297,
+      "nextOnset": 31.23,
+      "handTravelMetres": 0.15966538291063598,
+      "sustainEnd": 31.173
+    },
+    {
+      "id": "p00148",
+      "midi": 67,
+      "oldRelease": 32.075,
+      "release": 32.027154,
+      "nextOnset": 32.138,
+      "handTravelMetres": 0.07352222861148865,
+      "sustainEnd": 33.573
+    },
+    {
+      "id": "p00149",
+      "midi": 66,
+      "oldRelease": 32.375,
+      "release": 32.32253,
+      "nextOnset": 32.43,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 33.573
+    },
+    {
+      "id": "p00160",
+      "midi": 74,
+      "oldRelease": 34.775,
+      "release": 34.731455,
+      "nextOnset": 34.835,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 35.973
+    },
+    {
+      "id": "p00161",
+      "midi": 76,
+      "oldRelease": 35.225,
+      "release": 35.181455,
+      "nextOnset": 35.285,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 35.973
+    },
+    {
+      "id": "p00164",
+      "midi": 69,
+      "oldRelease": 35.945,
+      "release": 35.886682,
+      "nextOnset": 36.014,
+      "handTravelMetres": 0.10317274349361855,
+      "sustainEnd": 35.973
+    },
+    {
+      "id": "p00171",
+      "midi": 73,
+      "oldRelease": 36.575,
+      "release": 36.479329,
+      "nextOnset": 36.614,
+      "handTravelMetres": 0.11640740912845716,
+      "sustainEnd": 38.373
+    },
+    {
+      "id": "p00172",
+      "midi": 76,
+      "oldRelease": 36.875,
+      "release": 36.818455,
+      "nextOnset": 36.922,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 38.373
+    },
+    {
+      "id": "p00173",
+      "midi": 74,
+      "oldRelease": 37.175,
+      "release": 37.090063,
+      "nextOnset": 37.214,
+      "handTravelMetres": 0.09708628996928458,
+      "sustainEnd": 38.373
+    },
+    {
+      "id": "p00175",
+      "midi": 76,
+      "oldRelease": 38.345,
+      "release": 38.275546,
+      "nextOnset": 38.406,
+      "handTravelMetres": 0.10881764792532508,
+      "sustainEnd": 38.373
+    },
+    {
+      "id": "p00183",
+      "midi": 69,
+      "oldRelease": 38.7975,
+      "release": 38.740892,
+      "nextOnset": 38.868,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00184",
+      "midi": 74,
+      "oldRelease": 38.8015,
+      "release": 38.740892,
+      "nextOnset": 38.868,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00185",
+      "midi": 78,
+      "oldRelease": 38.825,
+      "release": 38.740892,
+      "nextOnset": 38.868,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00187",
+      "midi": 74,
+      "oldRelease": 39.275,
+      "release": 39.23672,
+      "nextOnset": 39.326,
+      "handTravelMetres": 0.0347042144414768,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00188",
+      "midi": 71,
+      "oldRelease": 39.575,
+      "release": 39.491306,
+      "nextOnset": 39.618,
+      "handTravelMetres": 0.10204957128768354,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00189",
+      "midi": 78,
+      "oldRelease": 40.175,
+      "release": 40.085826,
+      "nextOnset": 40.218,
+      "handTravelMetres": 0.11191325077934249,
+      "sustainEnd": 40.773
+    },
+    {
+      "id": "p00202",
+      "midi": 71,
+      "oldRelease": 41.34,
+      "release": 41.330603,
+      "nextOnset": 41.43,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00203",
+      "midi": 74,
+      "oldRelease": 41.344,
+      "release": 41.330603,
+      "nextOnset": 41.43,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00204",
+      "midi": 79,
+      "oldRelease": 41.375,
+      "release": 41.330603,
+      "nextOnset": 41.43,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00205",
+      "midi": 78,
+      "oldRelease": 41.675,
+      "release": 41.626749,
+      "nextOnset": 41.738,
+      "handTravelMetres": 0.07425238716701302,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00206",
+      "midi": 74,
+      "oldRelease": 41.975,
+      "release": 41.94072,
+      "nextOnset": 42.03,
+      "handTravelMetres": 0.0347042144414768,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00207",
+      "midi": 71,
+      "oldRelease": 42.575,
+      "release": 42.54072,
+      "nextOnset": 42.63,
+      "handTravelMetres": 0.0347042144414768,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00209",
+      "midi": 76,
+      "oldRelease": 43.145,
+      "release": 43.095892,
+      "nextOnset": 43.223,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 43.173
+    },
+    {
+      "id": "p00220",
+      "midi": 69,
+      "oldRelease": 43.745,
+      "release": 43.709234,
+      "nextOnset": 43.835,
+      "handTravelMetres": 0.1003790839766931,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00221",
+      "midi": 74,
+      "oldRelease": 43.749,
+      "release": 43.709234,
+      "nextOnset": 43.835,
+      "handTravelMetres": 0.1003790839766931,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00222",
+      "midi": 78,
+      "oldRelease": 43.775,
+      "release": 43.709234,
+      "nextOnset": 43.835,
+      "handTravelMetres": 0.1003790839766931,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00223",
+      "midi": 81,
+      "oldRelease": 44.075,
+      "release": 44.032889,
+      "nextOnset": 44.143,
+      "handTravelMetres": 0.07220038088542192,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00224",
+      "midi": 78,
+      "oldRelease": 44.375,
+      "release": 44.325288,
+      "nextOnset": 44.435,
+      "handTravelMetres": 0.07148108141319631,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00226",
+      "midi": 74,
+      "oldRelease": 44.965,
+      "release": 44.96,
+      "nextOnset": 45.035,
+      "handTravelMetres": 0.057544700016595826,
+      "sustainEnd": 45.573
+    },
+    {
+      "id": "p00236",
+      "midi": 71,
+      "oldRelease": 45.9935,
+      "release": 45.964603,
+      "nextOnset": 46.064,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00237",
+      "midi": 74,
+      "oldRelease": 45.9975,
+      "release": 45.964603,
+      "nextOnset": 46.064,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00238",
+      "midi": 79,
+      "oldRelease": 46.025,
+      "release": 45.964603,
+      "nextOnset": 46.064,
+      "handTravelMetres": 0.05291508386084259,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00239",
+      "midi": 78,
+      "oldRelease": 46.165,
+      "release": 46.139,
+      "nextOnset": 46.214,
+      "handTravelMetres": 0.07148108141319631,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00240",
+      "midi": 76,
+      "oldRelease": 46.775,
+      "release": 46.728414,
+      "nextOnset": 46.814,
+      "handTravelMetres": 0.02805397832750289,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00241",
+      "midi": 71,
+      "oldRelease": 47.075,
+      "release": 47.03272,
+      "nextOnset": 47.122,
+      "handTravelMetres": 0.0347042144414768,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00243",
+      "midi": 76,
+      "oldRelease": 47.675,
+      "release": 47.612288,
+      "nextOnset": 47.722,
+      "handTravelMetres": 0.07148108141319631,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00244",
+      "midi": 78,
+      "oldRelease": 47.945,
+      "release": 47.890609,
+      "nextOnset": 48.006,
+      "handTravelMetres": 0.08170412215903042,
+      "sustainEnd": 47.973
+    },
+    {
+      "id": "p00262",
+      "midi": 76,
+      "oldRelease": 50.075,
+      "release": 50.034677,
+      "nextOnset": 50.126,
+      "handTravelMetres": 0.03838137569186376,
+      "sustainEnd": 50.373
+    },
+    {
+      "id": "p00263",
+      "midi": 79,
+      "oldRelease": 50.345,
+      "release": 50.300573,
+      "nextOnset": 50.418,
+      "handTravelMetres": 0.08536823693726947,
+      "sustainEnd": 50.373
+    },
+    {
+      "id": "p00277",
+      "midi": 78,
+      "oldRelease": 51.575,
+      "release": 51.52255,
+      "nextOnset": 51.63,
+      "handTravelMetres": 0.06740923527232748,
+      "sustainEnd": 52.773
+    },
+    {
+      "id": "p00279",
+      "midi": 76,
+      "oldRelease": 52.175,
+      "release": 52.12253,
+      "nextOnset": 52.23,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 52.773
+    },
+    {
+      "id": "p00280",
+      "midi": 78,
+      "oldRelease": 52.475,
+      "release": 52.427154,
+      "nextOnset": 52.538,
+      "handTravelMetres": 0.07352222861148862,
+      "sustainEnd": 52.773
+    },
+    {
+      "id": "p00281",
+      "midi": 79,
+      "oldRelease": 52.745,
+      "release": 52.698884,
+      "nextOnset": 52.823,
+      "handTravelMetres": 0.09740937332264857,
+      "sustainEnd": 52.773
+    },
+    {
+      "id": "p00292",
+      "midi": 73,
+      "oldRelease": 53.345,
+      "release": 53.302832,
+      "nextOnset": 53.435,
+      "handTravelMetres": 0.11190199332948057,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00293",
+      "midi": 76,
+      "oldRelease": 53.349,
+      "release": 53.302832,
+      "nextOnset": 53.435,
+      "handTravelMetres": 0.11190199332948057,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00294",
+      "midi": 81,
+      "oldRelease": 53.375,
+      "release": 53.302832,
+      "nextOnset": 53.435,
+      "handTravelMetres": 0.11190199332948057,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00295",
+      "midi": 76,
+      "oldRelease": 53.675,
+      "release": 53.634629,
+      "nextOnset": 53.743,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00296",
+      "midi": 78,
+      "oldRelease": 53.975,
+      "release": 53.927868,
+      "nextOnset": 54.035,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00297",
+      "midi": 79,
+      "oldRelease": 54.575,
+      "release": 54.527868,
+      "nextOnset": 54.635,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00298",
+      "midi": 78,
+      "oldRelease": 54.875,
+      "release": 54.834629,
+      "nextOnset": 54.943,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00299",
+      "midi": 76,
+      "oldRelease": 55.145,
+      "release": 55.048,
+      "nextOnset": 55.202,
+      "handTravelMetres": 0.17661668833946584,
+      "sustainEnd": 55.173
+    },
+    {
+      "id": "p00310",
+      "midi": 64,
+      "oldRelease": 55.463,
+      "release": 55.38185,
+      "nextOnset": 55.522,
+      "handTravelMetres": 0.12627059871561552,
+      "sustainEnd": 57.573
+    },
+    {
+      "id": "p00311",
+      "midi": 69,
+      "oldRelease": 55.467,
+      "release": 55.38185,
+      "nextOnset": 55.522,
+      "handTravelMetres": 0.12627059871561552,
+      "sustainEnd": 57.573
+    },
+    {
+      "id": "p00312",
+      "midi": 73,
+      "oldRelease": 55.475,
+      "release": 55.38185,
+      "nextOnset": 55.522,
+      "handTravelMetres": 0.12627059871561552,
+      "sustainEnd": 57.573
+    },
+    {
+      "id": "p00316",
+      "midi": 76,
+      "oldRelease": 57.275,
+      "release": 57.197951,
+      "nextOnset": 57.322,
+      "handTravelMetres": 0.09728842120211433,
+      "sustainEnd": 57.573
+    },
+    {
+      "id": "p00328",
+      "midi": 69,
+      "oldRelease": 57.9915,
+      "release": 57.92791,
+      "nextOnset": 58.062,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00329",
+      "midi": 74,
+      "oldRelease": 57.9955,
+      "release": 57.92791,
+      "nextOnset": 58.062,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00330",
+      "midi": 78,
+      "oldRelease": 58.025,
+      "release": 57.92791,
+      "nextOnset": 58.062,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00332",
+      "midi": 74,
+      "oldRelease": 58.475,
+      "release": 58.41255,
+      "nextOnset": 58.52,
+      "handTravelMetres": 0.06740923527232748,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00337",
+      "midi": 78,
+      "oldRelease": 59.945,
+      "release": 59.900044,
+      "nextOnset": 60.012,
+      "handTravelMetres": 0.07552095456082217,
+      "sustainEnd": 59.973
+    },
+    {
+      "id": "p00348",
+      "midi": 69,
+      "oldRelease": 60.534,
+      "release": 60.520455,
+      "nextOnset": 60.624,
+      "handTravelMetres": 0.06038013148195168,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00349",
+      "midi": 73,
+      "oldRelease": 60.538,
+      "release": 60.520455,
+      "nextOnset": 60.624,
+      "handTravelMetres": 0.06038013148195168,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00350",
+      "midi": 76,
+      "oldRelease": 60.575,
+      "release": 60.520455,
+      "nextOnset": 60.624,
+      "handTravelMetres": 0.06038013148195168,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00351",
+      "midi": 74,
+      "oldRelease": 60.875,
+      "release": 60.824868,
+      "nextOnset": 60.932,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00352",
+      "midi": 73,
+      "oldRelease": 61.175,
+      "release": 61.048569,
+      "nextOnset": 61.212,
+      "handTravelMetres": 0.1681766511736989,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00353",
+      "midi": 61,
+      "oldRelease": 61.6035,
+      "release": 61.510569,
+      "nextOnset": 61.674,
+      "handTravelMetres": 0.1681766511736989,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00354",
+      "midi": 64,
+      "oldRelease": 61.6075,
+      "release": 61.510569,
+      "nextOnset": 61.674,
+      "handTravelMetres": 0.1681766511736989,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00355",
+      "midi": 71,
+      "oldRelease": 61.625,
+      "release": 61.510569,
+      "nextOnset": 61.674,
+      "handTravelMetres": 0.1681766511736989,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00356",
+      "midi": 73,
+      "oldRelease": 61.765,
+      "release": 61.749,
+      "nextOnset": 61.824,
+      "handTravelMetres": 0.10021104978993087,
+      "sustainEnd": 62.373
+    },
+    {
+      "id": "p00368",
+      "midi": 69,
+      "oldRelease": 62.8085,
+      "release": 62.751892,
+      "nextOnset": 62.879,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 63.576
+    },
+    {
+      "id": "p00369",
+      "midi": 74,
+      "oldRelease": 62.8125,
+      "release": 62.751892,
+      "nextOnset": 62.879,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 63.576
+    },
+    {
+      "id": "p00370",
+      "midi": 78,
+      "oldRelease": 62.825,
+      "release": 62.751892,
+      "nextOnset": 62.879,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 63.576
+    },
+    {
+      "id": "p00372",
+      "midi": 74,
+      "oldRelease": 63.575,
+      "release": 63.488915,
+      "nextOnset": 63.617,
+      "handTravelMetres": 0.10455242177969865,
+      "sustainEnd": 63.576
+    },
+    {
+      "id": "p00373",
+      "midi": 69,
+      "oldRelease": 63.863,
+      "release": 63.809892,
+      "nextOnset": 63.937,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 64.773
+    },
+    {
+      "id": "p00374",
+      "midi": 74,
+      "oldRelease": 63.867,
+      "release": 63.809892,
+      "nextOnset": 63.937,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 64.773
+    },
+    {
+      "id": "p00375",
+      "midi": 78,
+      "oldRelease": 63.875,
+      "release": 63.809892,
+      "nextOnset": 63.937,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 64.773
+    },
+    {
+      "id": "p00377",
+      "midi": 74,
+      "oldRelease": 64.475,
+      "release": 64.44772,
+      "nextOnset": 64.537,
+      "handTravelMetres": 0.0347042144414768,
+      "sustainEnd": 64.773
+    },
+    {
+      "id": "p00378",
+      "midi": 71,
+      "oldRelease": 64.745,
+      "release": 64.667753,
+      "nextOnset": 64.796,
+      "handTravelMetres": 0.10484432910007314,
+      "sustainEnd": 64.773
+    },
+    {
+      "id": "p00389",
+      "midi": 62,
+      "oldRelease": 65.057,
+      "release": 64.985647,
+      "nextOnset": 65.116,
+      "handTravelMetres": 0.10863577270453373,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00390",
+      "midi": 67,
+      "oldRelease": 65.061,
+      "release": 64.985647,
+      "nextOnset": 65.116,
+      "handTravelMetres": 0.10863577270453373,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00391",
+      "midi": 71,
+      "oldRelease": 65.075,
+      "release": 64.985647,
+      "nextOnset": 65.116,
+      "handTravelMetres": 0.10863577270453373,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00392",
+      "midi": 74,
+      "oldRelease": 65.375,
+      "release": 65.304455,
+      "nextOnset": 65.408,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00393",
+      "midi": 76,
+      "oldRelease": 65.975,
+      "release": 65.881734,
+      "nextOnset": 66.008,
+      "handTravelMetres": 0.10127856968667058,
+      "sustainEnd": 67.173
+    },
+    {
+      "id": "p00407",
+      "midi": 71,
+      "oldRelease": 67.5915,
+      "release": 67.544415,
+      "nextOnset": 67.662,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00408",
+      "midi": 74,
+      "oldRelease": 67.5955,
+      "release": 67.544415,
+      "nextOnset": 67.662,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00409",
+      "midi": 79,
+      "oldRelease": 67.625,
+      "release": 67.544415,
+      "nextOnset": 67.662,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00410",
+      "midi": 78,
+      "oldRelease": 67.765,
+      "release": 67.737,
+      "nextOnset": 67.812,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00412",
+      "midi": 79,
+      "oldRelease": 68.375,
+      "release": 68.312582,
+      "nextOnset": 68.4,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00414",
+      "midi": 79,
+      "oldRelease": 68.926,
+      "release": 68.924582,
+      "nextOnset": 69.012,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00415",
+      "midi": 83,
+      "oldRelease": 68.975,
+      "release": 68.924582,
+      "nextOnset": 69.012,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00416",
+      "midi": 79,
+      "oldRelease": 69.275,
+      "release": 69.212868,
+      "nextOnset": 69.32,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00417",
+      "midi": 78,
+      "oldRelease": 69.545,
+      "release": 69.485103,
+      "nextOnset": 69.612,
+      "handTravelMetres": 0.10241396389164906,
+      "sustainEnd": 69.573
+    },
+    {
+      "id": "p00428",
+      "midi": 69,
+      "oldRelease": 70.134,
+      "release": 70.096892,
+      "nextOnset": 70.224,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00429",
+      "midi": 74,
+      "oldRelease": 70.138,
+      "release": 70.096892,
+      "nextOnset": 70.224,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00430",
+      "midi": 78,
+      "oldRelease": 70.175,
+      "release": 70.096892,
+      "nextOnset": 70.224,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00432",
+      "midi": 74,
+      "oldRelease": 70.775,
+      "release": 70.657319,
+      "nextOnset": 70.812,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00433",
+      "midi": 62,
+      "oldRelease": 71.334,
+      "release": 71.269319,
+      "nextOnset": 71.424,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00434",
+      "midi": 66,
+      "oldRelease": 71.338,
+      "release": 71.269319,
+      "nextOnset": 71.424,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00435",
+      "midi": 69,
+      "oldRelease": 71.375,
+      "release": 71.269319,
+      "nextOnset": 71.424,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00436",
+      "midi": 74,
+      "oldRelease": 71.675,
+      "release": 71.598332,
+      "nextOnset": 71.732,
+      "handTravelMetres": 0.11460232327487957,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00437",
+      "midi": 78,
+      "oldRelease": 71.945,
+      "release": 71.896967,
+      "nextOnset": 72.017,
+      "handTravelMetres": 0.09005962358349057,
+      "sustainEnd": 71.973
+    },
+    {
+      "id": "p00446",
+      "midi": 71,
+      "oldRelease": 72.4085,
+      "release": 72.373261,
+      "nextOnset": 72.479,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 73.176
+    },
+    {
+      "id": "p00447",
+      "midi": 74,
+      "oldRelease": 72.4125,
+      "release": 72.373261,
+      "nextOnset": 72.479,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 73.176
+    },
+    {
+      "id": "p00448",
+      "midi": 79,
+      "oldRelease": 72.425,
+      "release": 72.373261,
+      "nextOnset": 72.479,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 73.176
+    },
+    {
+      "id": "p00449",
+      "midi": 78,
+      "oldRelease": 72.565,
+      "release": 72.554,
+      "nextOnset": 72.629,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 73.176
+    },
+    {
+      "id": "p00450",
+      "midi": 76,
+      "oldRelease": 73.175,
+      "release": 73.088082,
+      "nextOnset": 73.217,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 73.176
+    },
+    {
+      "id": "p00451",
+      "midi": 67,
+      "oldRelease": 73.463,
+      "release": 73.408082,
+      "nextOnset": 73.537,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 74.373
+    },
+    {
+      "id": "p00452",
+      "midi": 71,
+      "oldRelease": 73.467,
+      "release": 73.408082,
+      "nextOnset": 73.537,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 74.373
+    },
+    {
+      "id": "p00453",
+      "midi": 74,
+      "oldRelease": 73.475,
+      "release": 73.408082,
+      "nextOnset": 73.537,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 74.373
+    },
+    {
+      "id": "p00454",
+      "midi": 76,
+      "oldRelease": 73.775,
+      "release": 73.741015,
+      "nextOnset": 73.829,
+      "handTravelMetres": 0.03237360035584544,
+      "sustainEnd": 74.373
+    },
+    {
+      "id": "p00456",
+      "midi": 81,
+      "oldRelease": 74.345,
+      "release": 74.270554,
+      "nextOnset": 74.396,
+      "handTravelMetres": 0.0998031658371172,
+      "sustainEnd": 74.373
+    },
+    {
+      "id": "p00467",
+      "midi": 69,
+      "oldRelease": 74.918,
+      "release": 74.883106,
+      "nextOnset": 75.008,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00468",
+      "midi": 73,
+      "oldRelease": 74.922,
+      "release": 74.883106,
+      "nextOnset": 75.008,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00469",
+      "midi": 78,
+      "oldRelease": 74.975,
+      "release": 74.883106,
+      "nextOnset": 75.008,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00470",
+      "midi": 76,
+      "oldRelease": 75.275,
+      "release": 75.209201,
+      "nextOnset": 75.316,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00471",
+      "midi": 73,
+      "oldRelease": 75.575,
+      "release": 75.461998,
+      "nextOnset": 75.596,
+      "handTravelMetres": 0.1152038639880528,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00472",
+      "midi": 64,
+      "oldRelease": 76.118,
+      "release": 76.095772,
+      "nextOnset": 76.208,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00473",
+      "midi": 67,
+      "oldRelease": 76.122,
+      "release": 76.095772,
+      "nextOnset": 76.208,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00474",
+      "midi": 71,
+      "oldRelease": 76.175,
+      "release": 76.095772,
+      "nextOnset": 76.208,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 76.773
+    },
+    {
+      "id": "p00486",
+      "midi": 69,
+      "oldRelease": 77.061,
+      "release": 76.988051,
+      "nextOnset": 77.12,
+      "handTravelMetres": 0.11150887901866832,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00487",
+      "midi": 74,
+      "oldRelease": 77.065,
+      "release": 76.988051,
+      "nextOnset": 77.12,
+      "handTravelMetres": 0.11150887901866832,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00488",
+      "midi": 78,
+      "oldRelease": 77.075,
+      "release": 76.988051,
+      "nextOnset": 77.12,
+      "handTravelMetres": 0.11150887901866832,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00490",
+      "midi": 83,
+      "oldRelease": 77.975,
+      "release": 77.871432,
+      "nextOnset": 78,
+      "handTravelMetres": 0.1054217462280804,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00491",
+      "midi": 73,
+      "oldRelease": 78.261,
+      "release": 78.213531,
+      "nextOnset": 78.32,
+      "handTravelMetres": 0.0656440868962654,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00492",
+      "midi": 78,
+      "oldRelease": 78.265,
+      "release": 78.213531,
+      "nextOnset": 78.32,
+      "handTravelMetres": 0.0656440868962654,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00493",
+      "midi": 81,
+      "oldRelease": 78.275,
+      "release": 78.213531,
+      "nextOnset": 78.32,
+      "handTravelMetres": 0.0656440868962654,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00494",
+      "midi": 78,
+      "oldRelease": 78.575,
+      "release": 78.50453,
+      "nextOnset": 78.612,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00496",
+      "midi": 74,
+      "oldRelease": 79.145,
+      "release": 79.054727,
+      "nextOnset": 79.212,
+      "handTravelMetres": 0.157091973095735,
+      "sustainEnd": 79.173
+    },
+    {
+      "id": "p00507",
+      "midi": 66,
+      "oldRelease": 79.6035,
+      "release": 79.509511,
+      "nextOnset": 79.674,
+      "handTravelMetres": 0.17008060092529986,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00508",
+      "midi": 73,
+      "oldRelease": 79.6075,
+      "release": 79.509511,
+      "nextOnset": 79.674,
+      "handTravelMetres": 0.17008060092529986,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00509",
+      "midi": 76,
+      "oldRelease": 79.625,
+      "release": 79.509511,
+      "nextOnset": 79.674,
+      "handTravelMetres": 0.17008060092529986,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00511",
+      "midi": 82,
+      "oldRelease": 80.375,
+      "release": 80.320264,
+      "nextOnset": 80.412,
+      "handTravelMetres": 0.03912478682938024,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00512",
+      "midi": 76,
+      "oldRelease": 80.663,
+      "release": 80.607488,
+      "nextOnset": 80.732,
+      "handTravelMetres": 0.09812157719437206,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00513",
+      "midi": 82,
+      "oldRelease": 80.667,
+      "release": 80.607488,
+      "nextOnset": 80.732,
+      "handTravelMetres": 0.09812157719437206,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00514",
+      "midi": 85,
+      "oldRelease": 80.675,
+      "release": 80.607488,
+      "nextOnset": 80.732,
+      "handTravelMetres": 0.09812157719437206,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00515",
+      "midi": 83,
+      "oldRelease": 80.975,
+      "release": 80.913154,
+      "nextOnset": 81.024,
+      "handTravelMetres": 0.07352222861148863,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00517",
+      "midi": 78,
+      "oldRelease": 81.545,
+      "release": 81.520952,
+      "nextOnset": 81.617,
+      "handTravelMetres": 0.04688550178656279,
+      "sustainEnd": 81.573
+    },
+    {
+      "id": "p00529",
+      "midi": 79,
+      "oldRelease": 82.143,
+      "release": 82.140387,
+      "nextOnset": 82.229,
+      "handTravelMetres": 0.03350348107950043,
+      "sustainEnd": 82.776
+    },
+    {
+      "id": "p00530",
+      "midi": 83,
+      "oldRelease": 82.175,
+      "release": 82.140387,
+      "nextOnset": 82.229,
+      "handTravelMetres": 0.03350348107950043,
+      "sustainEnd": 82.776
+    },
+    {
+      "id": "p00531",
+      "midi": 81,
+      "oldRelease": 82.475,
+      "release": 82.430201,
+      "nextOnset": 82.537,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 82.776
+    },
+    {
+      "id": "p00532",
+      "midi": 78,
+      "oldRelease": 82.775,
+      "release": 82.668986,
+      "nextOnset": 82.817,
+      "handTravelMetres": 0.1404251227918677,
+      "sustainEnd": 82.776
+    },
+    {
+      "id": "p00533",
+      "midi": 66,
+      "oldRelease": 83.2085,
+      "release": 83.117,
+      "nextOnset": 83.279,
+      "handTravelMetres": 0.16559913127120499,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00534",
+      "midi": 69,
+      "oldRelease": 83.2125,
+      "release": 83.117,
+      "nextOnset": 83.279,
+      "handTravelMetres": 0.16559913127120499,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00535",
+      "midi": 74,
+      "oldRelease": 83.225,
+      "release": 83.117,
+      "nextOnset": 83.279,
+      "handTravelMetres": 0.16559913127120499,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00536",
+      "midi": 76,
+      "oldRelease": 83.365,
+      "release": 83.354,
+      "nextOnset": 83.429,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00537",
+      "midi": 78,
+      "oldRelease": 83.675,
+      "release": 83.630201,
+      "nextOnset": 83.737,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00538",
+      "midi": 81,
+      "oldRelease": 83.945,
+      "release": 83.864051,
+      "nextOnset": 83.996,
+      "handTravelMetres": 0.11150887901866832,
+      "sustainEnd": 83.973
+    },
+    {
+      "id": "p00549",
+      "midi": 69,
+      "oldRelease": 84.3875,
+      "release": 84.330892,
+      "nextOnset": 84.458,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00550",
+      "midi": 74,
+      "oldRelease": 84.3915,
+      "release": 84.330892,
+      "nextOnset": 84.458,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00551",
+      "midi": 78,
+      "oldRelease": 84.425,
+      "release": 84.330892,
+      "nextOnset": 84.458,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00552",
+      "midi": 76,
+      "oldRelease": 84.565,
+      "release": 84.533,
+      "nextOnset": 84.608,
+      "handTravelMetres": 0.14320001214307834,
+      "sustainEnd": 86.373
+    },
+    {
+      "id": "p00566",
+      "midi": 69,
+      "oldRelease": 86.975,
+      "release": 86.902569,
+      "nextOnset": 87.018,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00567",
+      "midi": 66,
+      "oldRelease": 87.575,
+      "release": 87.51053,
+      "nextOnset": 87.618,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00569",
+      "midi": 62,
+      "oldRelease": 88.175,
+      "release": 88.128284,
+      "nextOnset": 88.218,
+      "handTravelMetres": 0.035489616791394174,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00570",
+      "midi": 69,
+      "oldRelease": 88.475,
+      "release": 88.410569,
+      "nextOnset": 88.526,
+      "handTravelMetres": 0.08177557887291287,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00571",
+      "midi": 66,
+      "oldRelease": 88.745,
+      "release": 88.719674,
+      "nextOnset": 88.83,
+      "handTravelMetres": 0.07258639886369897,
+      "sustainEnd": 88.773
+    },
+    {
+      "id": "p00576",
+      "midi": 71,
+      "oldRelease": 89.375,
+      "release": 89.326455,
+      "nextOnset": 89.43,
+      "handTravelMetres": 0.06038161971991146,
+      "sustainEnd": 91.173
+    },
+    {
+      "id": "p00577",
+      "midi": 69,
+      "oldRelease": 89.675,
+      "release": 89.631777,
+      "nextOnset": 89.738,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 91.173
+    },
+    {
+      "id": "p00578",
+      "midi": 66,
+      "oldRelease": 89.975,
+      "release": 89.927902,
+      "nextOnset": 90.042,
+      "handTravelMetres": 0.07937708863393765,
+      "sustainEnd": 91.173
+    },
+    {
+      "id": "p00585",
+      "midi": 64,
+      "oldRelease": 91.625,
+      "release": 91.576629,
+      "nextOnset": 91.685,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00586",
+      "midi": 66,
+      "oldRelease": 91.765,
+      "release": 91.76,
+      "nextOnset": 91.835,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00587",
+      "midi": 67,
+      "oldRelease": 92.375,
+      "release": 92.343677,
+      "nextOnset": 92.435,
+      "handTravelMetres": 0.03838137569186382,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00591",
+      "midi": 64,
+      "oldRelease": 93.545,
+      "release": 93.489391,
+      "nextOnset": 93.614,
+      "handTravelMetres": 0.09829605790671367,
+      "sustainEnd": 93.573
+    },
+    {
+      "id": "p00597",
+      "midi": 73,
+      "oldRelease": 94.175,
+      "release": 94.081826,
+      "nextOnset": 94.214,
+      "handTravelMetres": 0.11191325077934249,
+      "sustainEnd": 95.973
+    },
+    {
+      "id": "p00599",
+      "midi": 69,
+      "oldRelease": 94.775,
+      "release": 94.724031,
+      "nextOnset": 94.826,
+      "handTravelMetres": 0.057544700016595854,
+      "sustainEnd": 95.973
+    },
+    {
+      "id": "p00606",
+      "midi": 66,
+      "oldRelease": 96.575,
+      "release": 96.501185,
+      "nextOnset": 96.618,
+      "handTravelMetres": 0.08426739879692502,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00607",
+      "midi": 71,
+      "oldRelease": 97.025,
+      "release": 96.964455,
+      "nextOnset": 97.068,
+      "handTravelMetres": 0.06038161971991146,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00608",
+      "midi": 69,
+      "oldRelease": 97.165,
+      "release": 97.143,
+      "nextOnset": 97.218,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00609",
+      "midi": 66,
+      "oldRelease": 97.775,
+      "release": 97.703902,
+      "nextOnset": 97.818,
+      "handTravelMetres": 0.07937708863393765,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00610",
+      "midi": 62,
+      "oldRelease": 98.075,
+      "release": 98.011902,
+      "nextOnset": 98.126,
+      "handTravelMetres": 0.07937708863393765,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00611",
+      "midi": 66,
+      "oldRelease": 98.345,
+      "release": 98.314166,
+      "nextOnset": 98.43,
+      "handTravelMetres": 0.08250116484026154,
+      "sustainEnd": 98.373
+    },
+    {
+      "id": "p00619",
+      "midi": 71,
+      "oldRelease": 98.965,
+      "release": 98.955,
+      "nextOnset": 99.03,
+      "handTravelMetres": 0.06366460240981632,
+      "sustainEnd": 100.773
+    },
+    {
+      "id": "p00620",
+      "midi": 74,
+      "oldRelease": 99.575,
+      "release": 99.506683,
+      "nextOnset": 99.63,
+      "handTravelMetres": 0.09596981452519328,
+      "sustainEnd": 100.773
+    },
+    {
+      "id": "p00621",
+      "midi": 73,
+      "oldRelease": 99.875,
+      "release": 99.83053,
+      "nextOnset": 99.938,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 100.773
+    },
+    {
+      "id": "p00631",
+      "midi": 74,
+      "oldRelease": 101.675,
+      "release": 101.616185,
+      "nextOnset": 101.743,
+      "handTravelMetres": 0.10226659131896401,
+      "sustainEnd": 103.173
+    },
+    {
+      "id": "p00632",
+      "midi": 78,
+      "oldRelease": 101.975,
+      "release": 101.910951,
+      "nextOnset": 102.035,
+      "handTravelMetres": 0.09728842120211433,
+      "sustainEnd": 103.173
+    },
+    {
+      "id": "p00636",
+      "midi": 69,
+      "oldRelease": 103.145,
+      "release": 103.098166,
+      "nextOnset": 103.214,
+      "handTravelMetres": 0.08250116484026154,
+      "sustainEnd": 103.173
+    },
+    {
+      "id": "p00643",
+      "midi": 66,
+      "oldRelease": 103.475,
+      "release": 103.415777,
+      "nextOnset": 103.522,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 105.573
+    },
+    {
+      "id": "p00646",
+      "midi": 69,
+      "oldRelease": 104.675,
+      "release": 104.615777,
+      "nextOnset": 104.722,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 105.573
+    },
+    {
+      "id": "p00647",
+      "midi": 66,
+      "oldRelease": 104.975,
+      "release": 104.905629,
+      "nextOnset": 105.014,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 105.573
+    },
+    {
+      "id": "p00655",
+      "midi": 67,
+      "oldRelease": 106.025,
+      "release": 105.960868,
+      "nextOnset": 106.068,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 107.973
+    },
+    {
+      "id": "p00656",
+      "midi": 66,
+      "oldRelease": 106.165,
+      "release": 106.143,
+      "nextOnset": 106.218,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 107.973
+    },
+    {
+      "id": "p00659",
+      "midi": 71,
+      "oldRelease": 107.375,
+      "release": 107.278329,
+      "nextOnset": 107.418,
+      "handTravelMetres": 0.12540769513869557,
+      "sustainEnd": 107.973
+    },
+    {
+      "id": "p00661",
+      "midi": 76,
+      "oldRelease": 107.945,
+      "release": 107.871546,
+      "nextOnset": 108.03,
+      "handTravelMetres": 0.1592166313548933,
+      "sustainEnd": 107.973
+    },
+    {
+      "id": "p00668",
+      "midi": 73,
+      "oldRelease": 108.425,
+      "release": 108.380628,
+      "nextOnset": 108.48,
+      "handTravelMetres": 0.05287021845992315,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00670",
+      "midi": 66,
+      "oldRelease": 109.175,
+      "release": 109.121629,
+      "nextOnset": 109.23,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00671",
+      "midi": 64,
+      "oldRelease": 109.475,
+      "release": 109.429629,
+      "nextOnset": 109.538,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00673",
+      "midi": 70,
+      "oldRelease": 110.075,
+      "release": 110.038628,
+      "nextOnset": 110.138,
+      "handTravelMetres": 0.05287021845992315,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00674",
+      "midi": 73,
+      "oldRelease": 110.345,
+      "release": 110.303482,
+      "nextOnset": 110.435,
+      "handTravelMetres": 0.11073182424217534,
+      "sustainEnd": 110.373
+    },
+    {
+      "id": "p00681",
+      "midi": 74,
+      "oldRelease": 110.975,
+      "release": 110.896763,
+      "nextOnset": 111.035,
+      "handTravelMetres": 0.12282743219655774,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00682",
+      "midi": 78,
+      "oldRelease": 111.275,
+      "release": 111.23553,
+      "nextOnset": 111.343,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00683",
+      "midi": 76,
+      "oldRelease": 111.575,
+      "release": 111.508343,
+      "nextOnset": 111.635,
+      "handTravelMetres": 0.1019832339161687,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00684",
+      "midi": 74,
+      "oldRelease": 112.025,
+      "release": 111.974154,
+      "nextOnset": 112.085,
+      "handTravelMetres": 0.07352222861148862,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00685",
+      "midi": 73,
+      "oldRelease": 112.165,
+      "release": 112.16,
+      "nextOnset": 112.235,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00686",
+      "midi": 71,
+      "oldRelease": 112.475,
+      "release": 112.405875,
+      "nextOnset": 112.543,
+      "handTravelMetres": 0.12082413873063615,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00687",
+      "midi": 66,
+      "oldRelease": 112.745,
+      "release": 112.686486,
+      "nextOnset": 112.814,
+      "handTravelMetres": 0.10352547947244682,
+      "sustainEnd": 112.773
+    },
+    {
+      "id": "p00694",
+      "midi": 76,
+      "oldRelease": 113.375,
+      "release": 113.298569,
+      "nextOnset": 113.414,
+      "handTravelMetres": 0.08177557887291291,
+      "sustainEnd": 115.173
+    },
+    {
+      "id": "p00695",
+      "midi": 73,
+      "oldRelease": 113.675,
+      "release": 113.61453,
+      "nextOnset": 113.722,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 115.173
+    },
+    {
+      "id": "p00698",
+      "midi": 76,
+      "oldRelease": 115.145,
+      "release": 115.093651,
+      "nextOnset": 115.206,
+      "handTravelMetres": 0.07622815432050756,
+      "sustainEnd": 115.173
+    },
+    {
+      "id": "p00714",
+      "midi": 81,
+      "oldRelease": 117.545,
+      "release": 117.517167,
+      "nextOnset": 117.618,
+      "handTravelMetres": 0.05549928928473863,
+      "sustainEnd": 117.573
+    },
+    {
+      "id": "p00726",
+      "midi": 79,
+      "oldRelease": 118.144,
+      "release": 118.141387,
+      "nextOnset": 118.23,
+      "handTravelMetres": 0.03350348107950043,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00727",
+      "midi": 83,
+      "oldRelease": 118.175,
+      "release": 118.141387,
+      "nextOnset": 118.23,
+      "handTravelMetres": 0.03350348107950043,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00728",
+      "midi": 81,
+      "oldRelease": 118.475,
+      "release": 118.425005,
+      "nextOnset": 118.538,
+      "handTravelMetres": 0.07739042899480529,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00729",
+      "midi": 78,
+      "oldRelease": 118.775,
+      "release": 118.715902,
+      "nextOnset": 118.83,
+      "handTravelMetres": 0.07937708863393769,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00730",
+      "midi": 74,
+      "oldRelease": 119.375,
+      "release": 119.315902,
+      "nextOnset": 119.43,
+      "handTravelMetres": 0.07937708863393769,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00731",
+      "midi": 78,
+      "oldRelease": 119.675,
+      "release": 119.630868,
+      "nextOnset": 119.738,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00732",
+      "midi": 79,
+      "oldRelease": 119.945,
+      "release": 119.890114,
+      "nextOnset": 120.023,
+      "handTravelMetres": 0.11319439095840593,
+      "sustainEnd": 119.973
+    },
+    {
+      "id": "p00743",
+      "midi": 73,
+      "oldRelease": 120.413,
+      "release": 120.360884,
+      "nextOnset": 120.485,
+      "handTravelMetres": 0.09740937332264857,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00744",
+      "midi": 76,
+      "oldRelease": 120.417,
+      "release": 120.360884,
+      "nextOnset": 120.485,
+      "handTravelMetres": 0.09740937332264857,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00745",
+      "midi": 81,
+      "oldRelease": 120.425,
+      "release": 120.360884,
+      "nextOnset": 120.485,
+      "handTravelMetres": 0.09740937332264857,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00746",
+      "midi": 79,
+      "oldRelease": 120.565,
+      "release": 120.56,
+      "nextOnset": 120.635,
+      "handTravelMetres": 0.07352222861148862,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00747",
+      "midi": 78,
+      "oldRelease": 120.875,
+      "release": 120.83553,
+      "nextOnset": 120.943,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00748",
+      "midi": 76,
+      "oldRelease": 121.175,
+      "release": 121.10468,
+      "nextOnset": 121.235,
+      "handTravelMetres": 0.1085762980580937,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00749",
+      "midi": 73,
+      "oldRelease": 121.475,
+      "release": 121.41268,
+      "nextOnset": 121.543,
+      "handTravelMetres": 0.1085762980580937,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00750",
+      "midi": 76,
+      "oldRelease": 121.775,
+      "release": 121.747015,
+      "nextOnset": 121.835,
+      "handTravelMetres": 0.03237360035584544,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00752",
+      "midi": 81,
+      "oldRelease": 122.345,
+      "release": 122.295583,
+      "nextOnset": 122.402,
+      "handTravelMetres": 0.06555006788707396,
+      "sustainEnd": 122.373
+    },
+    {
+      "id": "p00763",
+      "midi": 67,
+      "oldRelease": 122.924,
+      "release": 122.908431,
+      "nextOnset": 123.014,
+      "handTravelMetres": 0.06402483971084978,
+      "sustainEnd": 124.773
+    },
+    {
+      "id": "p00764",
+      "midi": 73,
+      "oldRelease": 122.928,
+      "release": 122.908431,
+      "nextOnset": 123.014,
+      "handTravelMetres": 0.06402483971084978,
+      "sustainEnd": 124.773
+    },
+    {
+      "id": "p00765",
+      "midi": 76,
+      "oldRelease": 122.975,
+      "release": 122.908431,
+      "nextOnset": 123.014,
+      "handTravelMetres": 0.06402483971084978,
+      "sustainEnd": 124.773
+    },
+    {
+      "id": "p00766",
+      "midi": 73,
+      "oldRelease": 123.275,
+      "release": 123.196213,
+      "nextOnset": 123.322,
+      "handTravelMetres": 0.10041739142200422,
+      "sustainEnd": 124.773
+    },
+    {
+      "id": "p00780",
+      "midi": 69,
+      "oldRelease": 125.1915,
+      "release": 125.12791,
+      "nextOnset": 125.262,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00781",
+      "midi": 74,
+      "oldRelease": 125.1955,
+      "release": 125.12791,
+      "nextOnset": 125.262,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00782",
+      "midi": 78,
+      "oldRelease": 125.225,
+      "release": 125.12791,
+      "nextOnset": 125.262,
+      "handTravelMetres": 0.11536233744164513,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00784",
+      "midi": 74,
+      "oldRelease": 125.675,
+      "release": 125.61255,
+      "nextOnset": 125.72,
+      "handTravelMetres": 0.06740923527232748,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00789",
+      "midi": 78,
+      "oldRelease": 126.875,
+      "release": 126.81253,
+      "nextOnset": 126.92,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00790",
+      "midi": 76,
+      "oldRelease": 127.145,
+      "release": 127.091471,
+      "nextOnset": 127.212,
+      "handTravelMetres": 0.09095249755290451,
+      "sustainEnd": 127.173
+    },
+    {
+      "id": "p00804",
+      "midi": 73,
+      "oldRelease": 128.075,
+      "release": 128.02453,
+      "nextOnset": 128.132,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00805",
+      "midi": 71,
+      "oldRelease": 128.375,
+      "release": 128.25,
+      "nextOnset": 128.412,
+      "handTravelMetres": 0.16559913127120496,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00806",
+      "midi": 61,
+      "oldRelease": 128.8035,
+      "release": 128.712,
+      "nextOnset": 128.874,
+      "handTravelMetres": 0.16559913127120496,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00807",
+      "midi": 64,
+      "oldRelease": 128.8075,
+      "release": 128.712,
+      "nextOnset": 128.874,
+      "handTravelMetres": 0.16559913127120496,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00808",
+      "midi": 69,
+      "oldRelease": 128.825,
+      "release": 128.712,
+      "nextOnset": 128.874,
+      "handTravelMetres": 0.16559913127120496,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00809",
+      "midi": 71,
+      "oldRelease": 128.965,
+      "release": 128.949,
+      "nextOnset": 129.024,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 129.573
+    },
+    {
+      "id": "p00821",
+      "midi": 69,
+      "oldRelease": 130.0085,
+      "release": 129.951892,
+      "nextOnset": 130.079,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 130.776
+    },
+    {
+      "id": "p00822",
+      "midi": 74,
+      "oldRelease": 130.0125,
+      "release": 129.951892,
+      "nextOnset": 130.079,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 130.776
+    },
+    {
+      "id": "p00823",
+      "midi": 78,
+      "oldRelease": 130.025,
+      "release": 129.951892,
+      "nextOnset": 130.079,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 130.776
+    },
+    {
+      "id": "p00825",
+      "midi": 74,
+      "oldRelease": 130.775,
+      "release": 130.664469,
+      "nextOnset": 130.817,
+      "handTravelMetres": 0.14855658140176015,
+      "sustainEnd": 130.776
+    },
+    {
+      "id": "p00826",
+      "midi": 62,
+      "oldRelease": 131.063,
+      "release": 130.984469,
+      "nextOnset": 131.137,
+      "handTravelMetres": 0.14855658140176015,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00827",
+      "midi": 66,
+      "oldRelease": 131.067,
+      "release": 130.984469,
+      "nextOnset": 131.137,
+      "handTravelMetres": 0.14855658140176015,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00828",
+      "midi": 71,
+      "oldRelease": 131.075,
+      "release": 130.984469,
+      "nextOnset": 131.137,
+      "handTravelMetres": 0.14855658140176015,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00829",
+      "midi": 74,
+      "oldRelease": 131.375,
+      "release": 131.317749,
+      "nextOnset": 131.429,
+      "handTravelMetres": 0.07425238716701302,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00830",
+      "midi": 78,
+      "oldRelease": 131.675,
+      "release": 131.626889,
+      "nextOnset": 131.737,
+      "handTravelMetres": 0.07220038088542192,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00831",
+      "midi": 81,
+      "oldRelease": 131.945,
+      "release": 131.895167,
+      "nextOnset": 131.996,
+      "handTravelMetres": 0.05549928928473863,
+      "sustainEnd": 131.973
+    },
+    {
+      "id": "p00842",
+      "midi": 74,
+      "oldRelease": 132.518,
+      "release": 132.512964,
+      "nextOnset": 132.608,
+      "handTravelMetres": 0.04506552020237991,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00843",
+      "midi": 79,
+      "oldRelease": 132.522,
+      "release": 132.512964,
+      "nextOnset": 132.608,
+      "handTravelMetres": 0.04506552020237991,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00844",
+      "midi": 83,
+      "oldRelease": 132.575,
+      "release": 132.512964,
+      "nextOnset": 132.608,
+      "handTravelMetres": 0.04506552020237991,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00845",
+      "midi": 81,
+      "oldRelease": 132.875,
+      "release": 132.809777,
+      "nextOnset": 132.916,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00846",
+      "midi": 78,
+      "oldRelease": 133.175,
+      "release": 133.042587,
+      "nextOnset": 133.208,
+      "handTravelMetres": 0.17174277367945098,
+      "sustainEnd": 134.373
+    },
+    {
+      "id": "p00860",
+      "midi": 71,
+      "oldRelease": 134.7915,
+      "release": 134.744415,
+      "nextOnset": 134.862,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00861",
+      "midi": 74,
+      "oldRelease": 134.7955,
+      "release": 134.744415,
+      "nextOnset": 134.862,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00862",
+      "midi": 79,
+      "oldRelease": 134.825,
+      "release": 134.744415,
+      "nextOnset": 134.862,
+      "handTravelMetres": 0.08565327197486386,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00863",
+      "midi": 78,
+      "oldRelease": 134.965,
+      "release": 134.937,
+      "nextOnset": 135.012,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00865",
+      "midi": 79,
+      "oldRelease": 135.575,
+      "release": 135.512582,
+      "nextOnset": 135.6,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00867",
+      "midi": 79,
+      "oldRelease": 136.126,
+      "release": 136.124582,
+      "nextOnset": 136.212,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00868",
+      "midi": 83,
+      "oldRelease": 136.175,
+      "release": 136.124582,
+      "nextOnset": 136.212,
+      "handTravelMetres": 0.031352157466078404,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00869",
+      "midi": 79,
+      "oldRelease": 136.475,
+      "release": 136.412868,
+      "nextOnset": 136.52,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00870",
+      "midi": 78,
+      "oldRelease": 136.745,
+      "release": 136.685103,
+      "nextOnset": 136.812,
+      "handTravelMetres": 0.10241396389164906,
+      "sustainEnd": 136.773
+    },
+    {
+      "id": "p00881",
+      "midi": 69,
+      "oldRelease": 137.334,
+      "release": 137.296892,
+      "nextOnset": 137.424,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00882",
+      "midi": 74,
+      "oldRelease": 137.338,
+      "release": 137.296892,
+      "nextOnset": 137.424,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00883",
+      "midi": 78,
+      "oldRelease": 137.375,
+      "release": 137.296892,
+      "nextOnset": 137.424,
+      "handTravelMetres": 0.10279359950891885,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00885",
+      "midi": 74,
+      "oldRelease": 137.975,
+      "release": 137.857319,
+      "nextOnset": 138.012,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00886",
+      "midi": 62,
+      "oldRelease": 138.534,
+      "release": 138.469319,
+      "nextOnset": 138.624,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00887",
+      "midi": 66,
+      "oldRelease": 138.538,
+      "release": 138.469319,
+      "nextOnset": 138.624,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00888",
+      "midi": 69,
+      "oldRelease": 138.575,
+      "release": 138.469319,
+      "nextOnset": 138.624,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00889",
+      "midi": 74,
+      "oldRelease": 138.875,
+      "release": 138.798332,
+      "nextOnset": 138.932,
+      "handTravelMetres": 0.11460232327487957,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00890",
+      "midi": 78,
+      "oldRelease": 139.145,
+      "release": 139.096967,
+      "nextOnset": 139.217,
+      "handTravelMetres": 0.09005962358349057,
+      "sustainEnd": 139.173
+    },
+    {
+      "id": "p00899",
+      "midi": 71,
+      "oldRelease": 139.6085,
+      "release": 139.573261,
+      "nextOnset": 139.679,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 140.376
+    },
+    {
+      "id": "p00900",
+      "midi": 74,
+      "oldRelease": 139.6125,
+      "release": 139.573261,
+      "nextOnset": 139.679,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 140.376
+    },
+    {
+      "id": "p00901",
+      "midi": 79,
+      "oldRelease": 139.625,
+      "release": 139.573261,
+      "nextOnset": 139.679,
+      "handTravelMetres": 0.06433004430279837,
+      "sustainEnd": 140.376
+    },
+    {
+      "id": "p00902",
+      "midi": 78,
+      "oldRelease": 139.765,
+      "release": 139.754,
+      "nextOnset": 139.829,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 140.376
+    },
+    {
+      "id": "p00903",
+      "midi": 76,
+      "oldRelease": 140.375,
+      "release": 140.288082,
+      "nextOnset": 140.417,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 140.376
+    },
+    {
+      "id": "p00904",
+      "midi": 67,
+      "oldRelease": 140.663,
+      "release": 140.608082,
+      "nextOnset": 140.737,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 141.573
+    },
+    {
+      "id": "p00905",
+      "midi": 71,
+      "oldRelease": 140.667,
+      "release": 140.608082,
+      "nextOnset": 140.737,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 141.573
+    },
+    {
+      "id": "p00906",
+      "midi": 74,
+      "oldRelease": 140.675,
+      "release": 140.608082,
+      "nextOnset": 140.737,
+      "handTravelMetres": 0.10605154931028164,
+      "sustainEnd": 141.573
+    },
+    {
+      "id": "p00907",
+      "midi": 76,
+      "oldRelease": 140.975,
+      "release": 140.941015,
+      "nextOnset": 141.029,
+      "handTravelMetres": 0.03237360035584544,
+      "sustainEnd": 141.573
+    },
+    {
+      "id": "p00909",
+      "midi": 81,
+      "oldRelease": 141.545,
+      "release": 141.470554,
+      "nextOnset": 141.596,
+      "handTravelMetres": 0.0998031658371172,
+      "sustainEnd": 141.573
+    },
+    {
+      "id": "p00920",
+      "midi": 69,
+      "oldRelease": 142.118,
+      "release": 142.083106,
+      "nextOnset": 142.208,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00921",
+      "midi": 73,
+      "oldRelease": 142.122,
+      "release": 142.083106,
+      "nextOnset": 142.208,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00922",
+      "midi": 78,
+      "oldRelease": 142.175,
+      "release": 142.083106,
+      "nextOnset": 142.208,
+      "handTravelMetres": 0.09880924068347278,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00923",
+      "midi": 76,
+      "oldRelease": 142.475,
+      "release": 142.409201,
+      "nextOnset": 142.516,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00924",
+      "midi": 73,
+      "oldRelease": 142.775,
+      "release": 142.661998,
+      "nextOnset": 142.796,
+      "handTravelMetres": 0.1152038639880528,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00925",
+      "midi": 64,
+      "oldRelease": 143.1875,
+      "release": 143.145772,
+      "nextOnset": 143.258,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00926",
+      "midi": 67,
+      "oldRelease": 143.1915,
+      "release": 143.145772,
+      "nextOnset": 143.258,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00927",
+      "midi": 71,
+      "oldRelease": 143.225,
+      "release": 143.145772,
+      "nextOnset": 143.258,
+      "handTravelMetres": 0.07601072475498298,
+      "sustainEnd": 143.973
+    },
+    {
+      "id": "p00940",
+      "midi": 66,
+      "oldRelease": 144.875,
+      "release": 144.79568,
+      "nextOnset": 144.926,
+      "handTravelMetres": 0.10857629805809377,
+      "sustainEnd": 146.373
+    },
+    {
+      "id": "p00942",
+      "midi": 71,
+      "oldRelease": 145.775,
+      "release": 145.726677,
+      "nextOnset": 145.818,
+      "handTravelMetres": 0.038381375691863805,
+      "sustainEnd": 146.373
+    },
+    {
+      "id": "p00943",
+      "midi": 74,
+      "oldRelease": 146.075,
+      "release": 146.015683,
+      "nextOnset": 146.126,
+      "handTravelMetres": 0.07257048298034126,
+      "sustainEnd": 146.373
+    },
+    {
+      "id": "p00944",
+      "midi": 73,
+      "oldRelease": 146.345,
+      "release": 146.334652,
+      "nextOnset": 146.43,
+      "handTravelMetres": 0.045625577256622196,
+      "sustainEnd": 146.373
+    },
+    {
+      "id": "p00950",
+      "midi": 73,
+      "oldRelease": 146.975,
+      "release": 146.930628,
+      "nextOnset": 147.03,
+      "handTravelMetres": 0.05287021845992315,
+      "sustainEnd": 148.773
+    },
+    {
+      "id": "p00952",
+      "midi": 66,
+      "oldRelease": 147.575,
+      "release": 147.533629,
+      "nextOnset": 147.642,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 148.773
+    },
+    {
+      "id": "p00959",
+      "midi": 74,
+      "oldRelease": 149.225,
+      "release": 149.177868,
+      "nextOnset": 149.285,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 151.173
+    },
+    {
+      "id": "p00960",
+      "midi": 73,
+      "oldRelease": 149.365,
+      "release": 149.36,
+      "nextOnset": 149.435,
+      "handTravelMetres": 0.13009703493930985,
+      "sustainEnd": 151.173
+    },
+    {
+      "id": "p00962",
+      "midi": 69,
+      "oldRelease": 150.575,
+      "release": 150.528777,
+      "nextOnset": 150.635,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 151.173
+    },
+    {
+      "id": "p00963",
+      "midi": 66,
+      "oldRelease": 150.875,
+      "release": 150.834629,
+      "nextOnset": 150.943,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 151.173
+    },
+    {
+      "id": "p00970",
+      "midi": 64,
+      "oldRelease": 151.475,
+      "release": 151.407902,
+      "nextOnset": 151.522,
+      "handTravelMetres": 0.07937708863393772,
+      "sustainEnd": 153.573
+    },
+    {
+      "id": "p00971",
+      "midi": 68,
+      "oldRelease": 151.775,
+      "release": 151.707777,
+      "nextOnset": 151.814,
+      "handTravelMetres": 0.06520063573309698,
+      "sustainEnd": 153.573
+    },
+    {
+      "id": "p00972",
+      "midi": 71,
+      "oldRelease": 152.375,
+      "release": 152.322677,
+      "nextOnset": 152.414,
+      "handTravelMetres": 0.038381375691863805,
+      "sustainEnd": 153.573
+    },
+    {
+      "id": "p00973",
+      "midi": 74,
+      "oldRelease": 152.825,
+      "release": 152.772677,
+      "nextOnset": 152.864,
+      "handTravelMetres": 0.038381375691863805,
+      "sustainEnd": 153.573
+    },
+    {
+      "id": "p00974",
+      "midi": 71,
+      "oldRelease": 152.965,
+      "release": 152.939,
+      "nextOnset": 153.014,
+      "handTravelMetres": 0.06520063573309698,
+      "sustainEnd": 153.573
+    },
+    {
+      "id": "p00984",
+      "midi": 67,
+      "oldRelease": 155.375,
+      "release": 155.292213,
+      "nextOnset": 155.418,
+      "handTravelMetres": 0.10041739142200423,
+      "sustainEnd": 155.973
+    },
+    {
+      "id": "p00994",
+      "midi": 64,
+      "oldRelease": 156.275,
+      "release": 156.24872,
+      "nextOnset": 156.338,
+      "handTravelMetres": 0.03470421444147671,
+      "sustainEnd": 158.373
+    },
+    {
+      "id": "p00997",
+      "midi": 74,
+      "oldRelease": 157.475,
+      "release": 157.411343,
+      "nextOnset": 157.538,
+      "handTravelMetres": 0.1019832339161687,
+      "sustainEnd": 158.373
+    },
+    {
+      "id": "p00998",
+      "midi": 76,
+      "oldRelease": 157.775,
+      "release": 157.73453,
+      "nextOnset": 157.842,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 158.373
+    },
+    {
+      "id": "p00999",
+      "midi": 78,
+      "oldRelease": 158.345,
+      "release": 158.230398,
+      "nextOnset": 158.423,
+      "handTravelMetres": 0.22068346663138236,
+      "sustainEnd": 158.373
+    },
+    {
+      "id": "p01008",
+      "midi": 61,
+      "oldRelease": 158.663,
+      "release": 158.571629,
+      "nextOnset": 158.743,
+      "handTravelMetres": 0.1824678811310211,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01009",
+      "midi": 66,
+      "oldRelease": 158.667,
+      "release": 158.571629,
+      "nextOnset": 158.743,
+      "handTravelMetres": 0.1824678811310211,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01010",
+      "midi": 70,
+      "oldRelease": 158.675,
+      "release": 158.571629,
+      "nextOnset": 158.743,
+      "handTravelMetres": 0.1824678811310211,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01011",
+      "midi": 73,
+      "oldRelease": 158.975,
+      "release": 158.928777,
+      "nextOnset": 159.035,
+      "handTravelMetres": 0.06520063573309698,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01012",
+      "midi": 76,
+      "oldRelease": 159.275,
+      "release": 159.233288,
+      "nextOnset": 159.343,
+      "handTravelMetres": 0.07148108141319631,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01013",
+      "midi": 78,
+      "oldRelease": 159.575,
+      "release": 159.546714,
+      "nextOnset": 159.635,
+      "handTravelMetres": 0.03291524418867341,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01014",
+      "midi": 82,
+      "oldRelease": 160.175,
+      "release": 160.146714,
+      "nextOnset": 160.235,
+      "handTravelMetres": 0.03291524418867341,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01015",
+      "midi": 78,
+      "oldRelease": 160.475,
+      "release": 160.433288,
+      "nextOnset": 160.543,
+      "handTravelMetres": 0.07148108141319631,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01016",
+      "midi": 76,
+      "oldRelease": 160.745,
+      "release": 160.651476,
+      "nextOnset": 160.802,
+      "handTravelMetres": 0.1449434502755395,
+      "sustainEnd": 160.773
+    },
+    {
+      "id": "p01027",
+      "midi": 66,
+      "oldRelease": 161.063,
+      "release": 160.973237,
+      "nextOnset": 161.122,
+      "handTravelMetres": 0.14177267159474397,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01028",
+      "midi": 71,
+      "oldRelease": 161.067,
+      "release": 160.973237,
+      "nextOnset": 161.122,
+      "handTravelMetres": 0.14177267159474397,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01029",
+      "midi": 75,
+      "oldRelease": 161.075,
+      "release": 160.973237,
+      "nextOnset": 161.122,
+      "handTravelMetres": 0.14177267159474397,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01030",
+      "midi": 78,
+      "oldRelease": 161.375,
+      "release": 161.298569,
+      "nextOnset": 161.414,
+      "handTravelMetres": 0.0817755788729129,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01031",
+      "midi": 81,
+      "oldRelease": 161.975,
+      "release": 161.898569,
+      "nextOnset": 162.014,
+      "handTravelMetres": 0.0817755788729129,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01033",
+      "midi": 75,
+      "oldRelease": 162.575,
+      "release": 162.499902,
+      "nextOnset": 162.614,
+      "handTravelMetres": 0.0793770886339377,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01034",
+      "midi": 71,
+      "oldRelease": 162.875,
+      "release": 162.802707,
+      "nextOnset": 162.922,
+      "handTravelMetres": 0.08872736331031146,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01035",
+      "midi": 78,
+      "oldRelease": 163.145,
+      "release": 163.078977,
+      "nextOnset": 163.2,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 163.173
+    },
+    {
+      "id": "p01046",
+      "midi": 68,
+      "oldRelease": 163.5915,
+      "release": 163.524497,
+      "nextOnset": 163.662,
+      "handTravelMetres": 0.12150533578818672,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01047",
+      "midi": 71,
+      "oldRelease": 163.5955,
+      "release": 163.524497,
+      "nextOnset": 163.662,
+      "handTravelMetres": 0.12150533578818672,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01048",
+      "midi": 76,
+      "oldRelease": 163.5995,
+      "release": 163.524497,
+      "nextOnset": 163.662,
+      "handTravelMetres": 0.12150533578818672,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01049",
+      "midi": 80,
+      "oldRelease": 163.625,
+      "release": 163.524497,
+      "nextOnset": 163.662,
+      "handTravelMetres": 0.12150533578818672,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01050",
+      "midi": 78,
+      "oldRelease": 163.765,
+      "release": 163.737,
+      "nextOnset": 163.812,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01051",
+      "midi": 76,
+      "oldRelease": 164.075,
+      "release": 164.01255,
+      "nextOnset": 164.12,
+      "handTravelMetres": 0.06740923527232748,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01052",
+      "midi": 80,
+      "oldRelease": 164.375,
+      "release": 164.291283,
+      "nextOnset": 164.4,
+      "handTravelMetres": 0.06969008075938778,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01056",
+      "midi": 83,
+      "oldRelease": 165.275,
+      "release": 165.211283,
+      "nextOnset": 165.32,
+      "handTravelMetres": 0.06969008075938778,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01057",
+      "midi": 80,
+      "oldRelease": 165.545,
+      "release": 165.463325,
+      "nextOnset": 165.612,
+      "handTravelMetres": 0.14161558055613088,
+      "sustainEnd": 165.573
+    },
+    {
+      "id": "p01068",
+      "midi": 66,
+      "oldRelease": 166.134,
+      "release": 166.083033,
+      "nextOnset": 166.224,
+      "handTravelMetres": 0.12774102240960028,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01069",
+      "midi": 71,
+      "oldRelease": 166.138,
+      "release": 166.083033,
+      "nextOnset": 166.224,
+      "handTravelMetres": 0.12774102240960028,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01070",
+      "midi": 75,
+      "oldRelease": 166.142,
+      "release": 166.083033,
+      "nextOnset": 166.224,
+      "handTravelMetres": 0.12774102240960028,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01071",
+      "midi": 78,
+      "oldRelease": 166.175,
+      "release": 166.083033,
+      "nextOnset": 166.224,
+      "handTravelMetres": 0.12774102240960028,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01072",
+      "midi": 76,
+      "oldRelease": 166.475,
+      "release": 166.424868,
+      "nextOnset": 166.532,
+      "handTravelMetres": 0.0668380348304766,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01073",
+      "midi": 75,
+      "oldRelease": 166.775,
+      "release": 166.653283,
+      "nextOnset": 166.812,
+      "handTravelMetres": 0.159689720952157,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01074",
+      "midi": 63,
+      "oldRelease": 167.2035,
+      "release": 167.115283,
+      "nextOnset": 167.274,
+      "handTravelMetres": 0.159689720952157,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01075",
+      "midi": 66,
+      "oldRelease": 167.2075,
+      "release": 167.115283,
+      "nextOnset": 167.274,
+      "handTravelMetres": 0.159689720952157,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01076",
+      "midi": 73,
+      "oldRelease": 167.225,
+      "release": 167.115283,
+      "nextOnset": 167.274,
+      "handTravelMetres": 0.159689720952157,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01077",
+      "midi": 75,
+      "oldRelease": 167.365,
+      "release": 167.349,
+      "nextOnset": 167.424,
+      "handTravelMetres": 0.07905186398814382,
+      "sustainEnd": 167.973
+    },
+    {
+      "id": "p01089",
+      "midi": 68,
+      "oldRelease": 168.4085,
+      "release": 168.357977,
+      "nextOnset": 168.479,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01090",
+      "midi": 71,
+      "oldRelease": 168.4125,
+      "release": 168.357977,
+      "nextOnset": 168.479,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01091",
+      "midi": 76,
+      "oldRelease": 168.4165,
+      "release": 168.357977,
+      "nextOnset": 168.479,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01092",
+      "midi": 80,
+      "oldRelease": 168.425,
+      "release": 168.357977,
+      "nextOnset": 168.479,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01093",
+      "midi": 78,
+      "oldRelease": 168.565,
+      "release": 168.554,
+      "nextOnset": 168.629,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01094",
+      "midi": 76,
+      "oldRelease": 169.175,
+      "release": 169.076325,
+      "nextOnset": 169.217,
+      "handTravelMetres": 0.12721496226859483,
+      "sustainEnd": 169.176
+    },
+    {
+      "id": "p01095",
+      "midi": 68,
+      "oldRelease": 169.463,
+      "release": 169.415977,
+      "nextOnset": 169.537,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01096",
+      "midi": 71,
+      "oldRelease": 169.467,
+      "release": 169.415977,
+      "nextOnset": 169.537,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01097",
+      "midi": 76,
+      "oldRelease": 169.471,
+      "release": 169.415977,
+      "nextOnset": 169.537,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01098",
+      "midi": 80,
+      "oldRelease": 169.475,
+      "release": 169.415977,
+      "nextOnset": 169.537,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01099",
+      "midi": 78,
+      "oldRelease": 169.775,
+      "release": 169.72153,
+      "nextOnset": 169.829,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01100",
+      "midi": 76,
+      "oldRelease": 170.075,
+      "release": 170.00668,
+      "nextOnset": 170.137,
+      "handTravelMetres": 0.1085762980580937,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01101",
+      "midi": 73,
+      "oldRelease": 170.345,
+      "release": 170.254623,
+      "nextOnset": 170.396,
+      "handTravelMetres": 0.12847800281079247,
+      "sustainEnd": 170.373
+    },
+    {
+      "id": "p01112",
+      "midi": 61,
+      "oldRelease": 170.657,
+      "release": 170.547756,
+      "nextOnset": 170.716,
+      "handTravelMetres": 0.17683849314063382,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01113",
+      "midi": 64,
+      "oldRelease": 170.661,
+      "release": 170.547756,
+      "nextOnset": 170.716,
+      "handTravelMetres": 0.17683849314063382,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01114",
+      "midi": 68,
+      "oldRelease": 170.665,
+      "release": 170.547756,
+      "nextOnset": 170.716,
+      "handTravelMetres": 0.17683849314063382,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01115",
+      "midi": 73,
+      "oldRelease": 170.675,
+      "release": 170.547756,
+      "nextOnset": 170.716,
+      "handTravelMetres": 0.17683849314063382,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01116",
+      "midi": 76,
+      "oldRelease": 170.975,
+      "release": 170.875826,
+      "nextOnset": 171.008,
+      "handTravelMetres": 0.11191325077934249,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01117",
+      "midi": 78,
+      "oldRelease": 171.575,
+      "release": 171.504809,
+      "nextOnset": 171.608,
+      "handTravelMetres": 0.05974319380690991,
+      "sustainEnd": 172.773
+    },
+    {
+      "id": "p01132",
+      "midi": 69,
+      "oldRelease": 173.1915,
+      "release": 173.125037,
+      "nextOnset": 173.262,
+      "handTravelMetres": 0.12053365466229755,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01133",
+      "midi": 73,
+      "oldRelease": 173.1955,
+      "release": 173.125037,
+      "nextOnset": 173.262,
+      "handTravelMetres": 0.12053365466229755,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01134",
+      "midi": 76,
+      "oldRelease": 173.1995,
+      "release": 173.125037,
+      "nextOnset": 173.262,
+      "handTravelMetres": 0.12053365466229755,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01135",
+      "midi": 81,
+      "oldRelease": 173.225,
+      "release": 173.125037,
+      "nextOnset": 173.262,
+      "handTravelMetres": 0.12053365466229755,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01136",
+      "midi": 80,
+      "oldRelease": 173.365,
+      "release": 173.337,
+      "nextOnset": 173.412,
+      "handTravelMetres": 0.04812819547832644,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01137",
+      "midi": 78,
+      "oldRelease": 173.675,
+      "release": 173.595043,
+      "nextOnset": 173.72,
+      "handTravelMetres": 0.09892303927801654,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01138",
+      "midi": 81,
+      "oldRelease": 173.975,
+      "release": 173.868298,
+      "nextOnset": 174,
+      "handTravelMetres": 0.11106341727252052,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01139",
+      "midi": 73,
+      "oldRelease": 174.522,
+      "release": 174.480298,
+      "nextOnset": 174.612,
+      "handTravelMetres": 0.11106341727252052,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01140",
+      "midi": 76,
+      "oldRelease": 174.526,
+      "release": 174.480298,
+      "nextOnset": 174.612,
+      "handTravelMetres": 0.11106341727252052,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01141",
+      "midi": 80,
+      "oldRelease": 174.53,
+      "release": 174.480298,
+      "nextOnset": 174.612,
+      "handTravelMetres": 0.11106341727252052,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01142",
+      "midi": 85,
+      "oldRelease": 174.575,
+      "release": 174.480298,
+      "nextOnset": 174.612,
+      "handTravelMetres": 0.11106341727252052,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01143",
+      "midi": 81,
+      "oldRelease": 174.875,
+      "release": 174.812868,
+      "nextOnset": 174.92,
+      "handTravelMetres": 0.06683803483047661,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01144",
+      "midi": 80,
+      "oldRelease": 175.145,
+      "release": 175.06185,
+      "nextOnset": 175.212,
+      "handTravelMetres": 0.14427089666665285,
+      "sustainEnd": 175.173
+    },
+    {
+      "id": "p01155",
+      "midi": 68,
+      "oldRelease": 175.734,
+      "release": 175.702977,
+      "nextOnset": 175.824,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01156",
+      "midi": 71,
+      "oldRelease": 175.738,
+      "release": 175.702977,
+      "nextOnset": 175.824,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01157",
+      "midi": 76,
+      "oldRelease": 175.742,
+      "release": 175.702977,
+      "nextOnset": 175.824,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01158",
+      "midi": 80,
+      "oldRelease": 175.775,
+      "release": 175.702977,
+      "nextOnset": 175.824,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01159",
+      "midi": 78,
+      "oldRelease": 176.075,
+      "release": 176.02453,
+      "nextOnset": 176.132,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01160",
+      "midi": 76,
+      "oldRelease": 176.375,
+      "release": 176.257319,
+      "nextOnset": 176.412,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01161",
+      "midi": 64,
+      "oldRelease": 176.934,
+      "release": 176.869319,
+      "nextOnset": 177.024,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01162",
+      "midi": 68,
+      "oldRelease": 176.938,
+      "release": 176.869319,
+      "nextOnset": 177.024,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01163",
+      "midi": 71,
+      "oldRelease": 176.975,
+      "release": 176.869319,
+      "nextOnset": 177.024,
+      "handTravelMetres": 0.15242505309531995,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01164",
+      "midi": 76,
+      "oldRelease": 177.275,
+      "release": 177.198332,
+      "nextOnset": 177.332,
+      "handTravelMetres": 0.11460232327487957,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01165",
+      "midi": 80,
+      "oldRelease": 177.545,
+      "release": 177.526754,
+      "nextOnset": 177.617,
+      "handTravelMetres": 0.036442478047602596,
+      "sustainEnd": 177.573
+    },
+    {
+      "id": "p01174",
+      "midi": 69,
+      "oldRelease": 178.0085,
+      "release": 177.958616,
+      "nextOnset": 178.079,
+      "handTravelMetres": 0.09069039368229682,
+      "sustainEnd": 178.776
+    },
+    {
+      "id": "p01175",
+      "midi": 73,
+      "oldRelease": 178.0125,
+      "release": 177.958616,
+      "nextOnset": 178.079,
+      "handTravelMetres": 0.09069039368229682,
+      "sustainEnd": 178.776
+    },
+    {
+      "id": "p01176",
+      "midi": 76,
+      "oldRelease": 178.0165,
+      "release": 177.958616,
+      "nextOnset": 178.079,
+      "handTravelMetres": 0.09069039368229682,
+      "sustainEnd": 178.776
+    },
+    {
+      "id": "p01177",
+      "midi": 81,
+      "oldRelease": 178.025,
+      "release": 177.958616,
+      "nextOnset": 178.079,
+      "handTravelMetres": 0.09069039368229682,
+      "sustainEnd": 178.776
+    },
+    {
+      "id": "p01179",
+      "midi": 78,
+      "oldRelease": 178.775,
+      "release": 178.663586,
+      "nextOnset": 178.817,
+      "handTravelMetres": 0.15014435995068212,
+      "sustainEnd": 178.776
+    },
+    {
+      "id": "p01180",
+      "midi": 66,
+      "oldRelease": 179.063,
+      "release": 178.983586,
+      "nextOnset": 179.137,
+      "handTravelMetres": 0.15014435995068212,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01181",
+      "midi": 69,
+      "oldRelease": 179.067,
+      "release": 178.983586,
+      "nextOnset": 179.137,
+      "handTravelMetres": 0.15014435995068212,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01182",
+      "midi": 73,
+      "oldRelease": 179.071,
+      "release": 178.983586,
+      "nextOnset": 179.137,
+      "handTravelMetres": 0.15014435995068212,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01183",
+      "midi": 76,
+      "oldRelease": 179.075,
+      "release": 178.983586,
+      "nextOnset": 179.137,
+      "handTravelMetres": 0.15014435995068212,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01184",
+      "midi": 78,
+      "oldRelease": 179.375,
+      "release": 179.316005,
+      "nextOnset": 179.429,
+      "handTravelMetres": 0.07739042899480529,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01186",
+      "midi": 83,
+      "oldRelease": 179.945,
+      "release": 179.860478,
+      "nextOnset": 179.996,
+      "handTravelMetres": 0.11793925409400387,
+      "sustainEnd": 179.973
+    },
+    {
+      "id": "p01197",
+      "midi": 68,
+      "oldRelease": 180.518,
+      "release": 180.513113,
+      "nextOnset": 180.608,
+      "handTravelMetres": 0.04479599765883116,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01198",
+      "midi": 71,
+      "oldRelease": 180.522,
+      "release": 180.513113,
+      "nextOnset": 180.608,
+      "handTravelMetres": 0.04479599765883116,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01199",
+      "midi": 75,
+      "oldRelease": 180.526,
+      "release": 180.513113,
+      "nextOnset": 180.608,
+      "handTravelMetres": 0.04479599765883116,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01200",
+      "midi": 80,
+      "oldRelease": 180.575,
+      "release": 180.513113,
+      "nextOnset": 180.608,
+      "handTravelMetres": 0.04479599765883116,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01202",
+      "midi": 75,
+      "oldRelease": 181.175,
+      "release": 181.057911,
+      "nextOnset": 181.196,
+      "handTravelMetres": 0.12256037822686049,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01203",
+      "midi": 63,
+      "oldRelease": 181.718,
+      "release": 181.657747,
+      "nextOnset": 181.808,
+      "handTravelMetres": 0.14445602691169068,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01204",
+      "midi": 68,
+      "oldRelease": 181.722,
+      "release": 181.657747,
+      "nextOnset": 181.808,
+      "handTravelMetres": 0.14445602691169068,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01205",
+      "midi": 73,
+      "oldRelease": 181.775,
+      "release": 181.657747,
+      "nextOnset": 181.808,
+      "handTravelMetres": 0.14445602691169068,
+      "sustainEnd": 182.373
+    },
+    {
+      "id": "p01217",
+      "midi": 68,
+      "oldRelease": 182.661,
+      "release": 182.573193,
+      "nextOnset": 182.72,
+      "handTravelMetres": 0.1382521795714267,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01218",
+      "midi": 71,
+      "oldRelease": 182.665,
+      "release": 182.573193,
+      "nextOnset": 182.72,
+      "handTravelMetres": 0.1382521795714267,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01219",
+      "midi": 75,
+      "oldRelease": 182.669,
+      "release": 182.573193,
+      "nextOnset": 182.72,
+      "handTravelMetres": 0.1382521795714267,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01220",
+      "midi": 80,
+      "oldRelease": 182.675,
+      "release": 182.573193,
+      "nextOnset": 182.72,
+      "handTravelMetres": 0.1382521795714267,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01221",
+      "midi": 83,
+      "oldRelease": 182.975,
+      "release": 182.887951,
+      "nextOnset": 183.012,
+      "handTravelMetres": 0.09728842120211433,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01222",
+      "midi": 85,
+      "oldRelease": 183.575,
+      "release": 183.514248,
+      "nextOnset": 183.6,
+      "handTravelMetres": 0.028353846740786337,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01223",
+      "midi": 73,
+      "oldRelease": 183.861,
+      "release": 183.819577,
+      "nextOnset": 183.92,
+      "handTravelMetres": 0.05476194504398101,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01224",
+      "midi": 76,
+      "oldRelease": 183.865,
+      "release": 183.819577,
+      "nextOnset": 183.92,
+      "handTravelMetres": 0.05476194504398101,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01225",
+      "midi": 80,
+      "oldRelease": 183.869,
+      "release": 183.819577,
+      "nextOnset": 183.92,
+      "handTravelMetres": 0.05476194504398101,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01226",
+      "midi": 83,
+      "oldRelease": 183.875,
+      "release": 183.819577,
+      "nextOnset": 183.92,
+      "handTravelMetres": 0.05476194504398101,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01228",
+      "midi": 78,
+      "oldRelease": 184.475,
+      "release": 184.411629,
+      "nextOnset": 184.52,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01229",
+      "midi": 76,
+      "oldRelease": 184.745,
+      "release": 184.656729,
+      "nextOnset": 184.812,
+      "handTravelMetres": 0.1534869380639604,
+      "sustainEnd": 184.773
+    },
+    {
+      "id": "p01240",
+      "midi": 68,
+      "oldRelease": 185.2035,
+      "release": 185.112115,
+      "nextOnset": 185.274,
+      "handTravelMetres": 0.1653925016627115,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01241",
+      "midi": 72,
+      "oldRelease": 185.2075,
+      "release": 185.112115,
+      "nextOnset": 185.274,
+      "handTravelMetres": 0.1653925016627115,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01242",
+      "midi": 75,
+      "oldRelease": 185.2115,
+      "release": 185.112115,
+      "nextOnset": 185.274,
+      "handTravelMetres": 0.1653925016627115,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01243",
+      "midi": 78,
+      "oldRelease": 185.225,
+      "release": 185.112115,
+      "nextOnset": 185.274,
+      "handTravelMetres": 0.1653925016627115,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01244",
+      "midi": 80,
+      "oldRelease": 185.365,
+      "release": 185.349,
+      "nextOnset": 185.424,
+      "handTravelMetres": 0.0716897684471083,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01245",
+      "midi": 84,
+      "oldRelease": 185.975,
+      "release": 185.870674,
+      "nextOnset": 186.012,
+      "handTravelMetres": 0.12838685721774648,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01246",
+      "midi": 75,
+      "oldRelease": 186.263,
+      "release": 186.234898,
+      "nextOnset": 186.332,
+      "handTravelMetres": 0.04878294739199341,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01247",
+      "midi": 78,
+      "oldRelease": 186.267,
+      "release": 186.234898,
+      "nextOnset": 186.332,
+      "handTravelMetres": 0.04878294739199341,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01248",
+      "midi": 84,
+      "oldRelease": 186.271,
+      "release": 186.234898,
+      "nextOnset": 186.332,
+      "handTravelMetres": 0.04878294739199341,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01249",
+      "midi": 87,
+      "oldRelease": 186.275,
+      "release": 186.234898,
+      "nextOnset": 186.332,
+      "handTravelMetres": 0.04878294739199341,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01250",
+      "midi": 85,
+      "oldRelease": 186.575,
+      "release": 186.508606,
+      "nextOnset": 186.624,
+      "handTravelMetres": 0.08171000550728175,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01251",
+      "midi": 84,
+      "oldRelease": 186.875,
+      "release": 186.822172,
+      "nextOnset": 186.932,
+      "handTravelMetres": 0.0716897684471083,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01252",
+      "midi": 80,
+      "oldRelease": 187.145,
+      "release": 187.103965,
+      "nextOnset": 187.217,
+      "handTravelMetres": 0.0774622721474784,
+      "sustainEnd": 187.173
+    },
+    {
+      "id": "p01263",
+      "midi": 73,
+      "oldRelease": 187.739,
+      "release": 187.702814,
+      "nextOnset": 187.829,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01264",
+      "midi": 76,
+      "oldRelease": 187.743,
+      "release": 187.702814,
+      "nextOnset": 187.829,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01265",
+      "midi": 80,
+      "oldRelease": 187.747,
+      "release": 187.702814,
+      "nextOnset": 187.829,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01266",
+      "midi": 85,
+      "oldRelease": 187.775,
+      "release": 187.702814,
+      "nextOnset": 187.829,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01267",
+      "midi": 83,
+      "oldRelease": 188.075,
+      "release": 188.030201,
+      "nextOnset": 188.137,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01268",
+      "midi": 80,
+      "oldRelease": 188.375,
+      "release": 188.25835,
+      "nextOnset": 188.417,
+      "handTravelMetres": 0.1595692639772772,
+      "sustainEnd": 188.376
+    },
+    {
+      "id": "p01269",
+      "midi": 64,
+      "oldRelease": 188.8085,
+      "release": 188.716102,
+      "nextOnset": 188.879,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01270",
+      "midi": 68,
+      "oldRelease": 188.8125,
+      "release": 188.716102,
+      "nextOnset": 188.879,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01271",
+      "midi": 71,
+      "oldRelease": 188.8165,
+      "release": 188.716102,
+      "nextOnset": 188.879,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01272",
+      "midi": 76,
+      "oldRelease": 188.825,
+      "release": 188.716102,
+      "nextOnset": 188.879,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01274",
+      "midi": 80,
+      "oldRelease": 189.275,
+      "release": 189.230201,
+      "nextOnset": 189.337,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01275",
+      "midi": 83,
+      "oldRelease": 189.545,
+      "release": 189.449252,
+      "nextOnset": 189.596,
+      "handTravelMetres": 0.13814680823312572,
+      "sustainEnd": 189.573
+    },
+    {
+      "id": "p01286",
+      "midi": 68,
+      "oldRelease": 189.9875,
+      "release": 189.936977,
+      "nextOnset": 190.058,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01287",
+      "midi": 71,
+      "oldRelease": 189.9915,
+      "release": 189.936977,
+      "nextOnset": 190.058,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01288",
+      "midi": 76,
+      "oldRelease": 189.9955,
+      "release": 189.936977,
+      "nextOnset": 190.058,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01289",
+      "midi": 80,
+      "oldRelease": 190.025,
+      "release": 189.936977,
+      "nextOnset": 190.058,
+      "handTravelMetres": 0.09184128823682738,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01290",
+      "midi": 78,
+      "oldRelease": 190.165,
+      "release": 190.133,
+      "nextOnset": 190.208,
+      "handTravelMetres": 0.13242445561317007,
+      "sustainEnd": 191.973
+    },
+    {
+      "id": "p01304",
+      "midi": 73,
+      "oldRelease": 192.522,
+      "release": 192.485814,
+      "nextOnset": 192.612,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01305",
+      "midi": 76,
+      "oldRelease": 192.526,
+      "release": 192.485814,
+      "nextOnset": 192.612,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01306",
+      "midi": 80,
+      "oldRelease": 192.53,
+      "release": 192.485814,
+      "nextOnset": 192.612,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01307",
+      "midi": 85,
+      "oldRelease": 192.575,
+      "release": 192.485814,
+      "nextOnset": 192.612,
+      "handTravelMetres": 0.10113455223735363,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01308",
+      "midi": 83,
+      "oldRelease": 192.875,
+      "release": 192.813201,
+      "nextOnset": 192.92,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01309",
+      "midi": 80,
+      "oldRelease": 193.175,
+      "release": 193.04135,
+      "nextOnset": 193.2,
+      "handTravelMetres": 0.1595692639772772,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01310",
+      "midi": 64,
+      "oldRelease": 193.5915,
+      "release": 193.499102,
+      "nextOnset": 193.662,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01311",
+      "midi": 68,
+      "oldRelease": 193.5955,
+      "release": 193.499102,
+      "nextOnset": 193.662,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01312",
+      "midi": 71,
+      "oldRelease": 193.5995,
+      "release": 193.499102,
+      "nextOnset": 193.662,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01313",
+      "midi": 76,
+      "oldRelease": 193.625,
+      "release": 193.499102,
+      "nextOnset": 193.662,
+      "handTravelMetres": 0.16721601868914948,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01315",
+      "midi": 80,
+      "oldRelease": 194.075,
+      "release": 194.013201,
+      "nextOnset": 194.12,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01316",
+      "midi": 83,
+      "oldRelease": 194.345,
+      "release": 194.317223,
+      "nextOnset": 194.412,
+      "handTravelMetres": 0.04459804928469411,
+      "sustainEnd": 194.373
+    },
+    {
+      "id": "p01327",
+      "midi": 72,
+      "oldRelease": 194.934,
+      "release": 194.918914,
+      "nextOnset": 195.024,
+      "handTravelMetres": 0.06315540831947808,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01328",
+      "midi": 76,
+      "oldRelease": 194.938,
+      "release": 194.918914,
+      "nextOnset": 195.024,
+      "handTravelMetres": 0.06315540831947808,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01329",
+      "midi": 81,
+      "oldRelease": 194.942,
+      "release": 194.918914,
+      "nextOnset": 195.024,
+      "handTravelMetres": 0.06315540831947808,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01330",
+      "midi": 84,
+      "oldRelease": 194.975,
+      "release": 194.918914,
+      "nextOnset": 195.024,
+      "handTravelMetres": 0.06315540831947808,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01331",
+      "midi": 81,
+      "oldRelease": 195.275,
+      "release": 195.225777,
+      "nextOnset": 195.332,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01332",
+      "midi": 78,
+      "oldRelease": 195.575,
+      "release": 195.454158,
+      "nextOnset": 195.612,
+      "handTravelMetres": 0.15811607636875516,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01333",
+      "midi": 66,
+      "oldRelease": 196.134,
+      "release": 196.066158,
+      "nextOnset": 196.224,
+      "handTravelMetres": 0.15811607636875516,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01334",
+      "midi": 69,
+      "oldRelease": 196.138,
+      "release": 196.066158,
+      "nextOnset": 196.224,
+      "handTravelMetres": 0.15811607636875516,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01335",
+      "midi": 72,
+      "oldRelease": 196.142,
+      "release": 196.066158,
+      "nextOnset": 196.224,
+      "handTravelMetres": 0.15811607636875516,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01336",
+      "midi": 76,
+      "oldRelease": 196.175,
+      "release": 196.066158,
+      "nextOnset": 196.224,
+      "handTravelMetres": 0.15811607636875516,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01337",
+      "midi": 78,
+      "oldRelease": 196.475,
+      "release": 196.425777,
+      "nextOnset": 196.532,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01338",
+      "midi": 81,
+      "oldRelease": 196.745,
+      "release": 196.659426,
+      "nextOnset": 196.817,
+      "handTravelMetres": 0.15763277522457067,
+      "sustainEnd": 196.773
+    },
+    {
+      "id": "p01349",
+      "midi": 68,
+      "oldRelease": 197.063,
+      "release": 196.955219,
+      "nextOnset": 197.137,
+      "handTravelMetres": 0.20120533448445158,
+      "sustainEnd": 197.976
+    },
+    {
+      "id": "p01350",
+      "midi": 71,
+      "oldRelease": 197.067,
+      "release": 196.955219,
+      "nextOnset": 197.137,
+      "handTravelMetres": 0.20120533448445158,
+      "sustainEnd": 197.976
+    },
+    {
+      "id": "p01351",
+      "midi": 76,
+      "oldRelease": 197.071,
+      "release": 196.955219,
+      "nextOnset": 197.137,
+      "handTravelMetres": 0.20120533448445158,
+      "sustainEnd": 197.976
+    },
+    {
+      "id": "p01352",
+      "midi": 80,
+      "oldRelease": 197.075,
+      "release": 196.955219,
+      "nextOnset": 197.137,
+      "handTravelMetres": 0.20120533448445158,
+      "sustainEnd": 197.976
+    },
+    {
+      "id": "p01353",
+      "midi": 83,
+      "oldRelease": 197.375,
+      "release": 197.285066,
+      "nextOnset": 197.417,
+      "handTravelMetres": 0.11148092338053987,
+      "sustainEnd": 197.976
+    },
+    {
+      "id": "p01356",
+      "midi": 88,
+      "oldRelease": 198.275,
+      "release": 198.218097,
+      "nextOnset": 198.337,
+      "handTravelMetres": 0.08802459757237052,
+      "sustainEnd": 199.173
+    },
+    {
+      "id": "p01357",
+      "midi": 87,
+      "oldRelease": 198.575,
+      "release": 198.518897,
+      "nextOnset": 198.629,
+      "handTravelMetres": 0.07218519585067287,
+      "sustainEnd": 199.173
+    },
+    {
+      "id": "p01358",
+      "midi": 83,
+      "oldRelease": 198.875,
+      "release": 198.80668,
+      "nextOnset": 198.937,
+      "handTravelMetres": 0.10857629805809375,
+      "sustainEnd": 199.173
+    },
+    {
+      "id": "p01359",
+      "midi": 80,
+      "oldRelease": 199.145,
+      "release": 199.042,
+      "nextOnset": 199.196,
+      "handTravelMetres": 0.15951520368369282,
+      "sustainEnd": 199.173
+    },
+    {
+      "id": "p01370",
+      "midi": 66,
+      "oldRelease": 199.457,
+      "release": 199.344521,
+      "nextOnset": 199.516,
+      "handTravelMetres": 0.1826614262953457,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01371",
+      "midi": 69,
+      "oldRelease": 199.461,
+      "release": 199.344521,
+      "nextOnset": 199.516,
+      "handTravelMetres": 0.1826614262953457,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01372",
+      "midi": 75,
+      "oldRelease": 199.465,
+      "release": 199.344521,
+      "nextOnset": 199.516,
+      "handTravelMetres": 0.1826614262953457,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01373",
+      "midi": 78,
+      "oldRelease": 199.475,
+      "release": 199.344521,
+      "nextOnset": 199.516,
+      "handTravelMetres": 0.1826614262953457,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01375",
+      "midi": 83,
+      "oldRelease": 200.375,
+      "release": 200.271953,
+      "nextOnset": 200.396,
+      "handTravelMetres": 0.09728525867905172,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01376",
+      "midi": 75,
+      "oldRelease": 200.7875,
+      "release": 200.733953,
+      "nextOnset": 200.858,
+      "handTravelMetres": 0.09728525867905172,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01377",
+      "midi": 78,
+      "oldRelease": 200.7915,
+      "release": 200.733953,
+      "nextOnset": 200.858,
+      "handTravelMetres": 0.09728525867905172,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01378",
+      "midi": 81,
+      "oldRelease": 200.7955,
+      "release": 200.733953,
+      "nextOnset": 200.858,
+      "handTravelMetres": 0.09728525867905172,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01379",
+      "midi": 87,
+      "oldRelease": 200.825,
+      "release": 200.733953,
+      "nextOnset": 200.858,
+      "handTravelMetres": 0.09728525867905172,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01380",
+      "midi": 83,
+      "oldRelease": 200.965,
+      "release": 200.933,
+      "nextOnset": 201.008,
+      "handTravelMetres": 0.06747561411354477,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01381",
+      "midi": 78,
+      "oldRelease": 201.275,
+      "release": 201.208529,
+      "nextOnset": 201.316,
+      "handTravelMetres": 0.067448448462511,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01382",
+      "midi": 75,
+      "oldRelease": 201.545,
+      "release": 201.492352,
+      "nextOnset": 201.606,
+      "handTravelMetres": 0.07856723942656445,
+      "sustainEnd": 201.573
+    },
+    {
+      "id": "p01395",
+      "midi": 88,
+      "oldRelease": 202.5125,
+      "release": 202.435598,
+      "nextOnset": 202.5635,
+      "handTravelMetres": 0.10422357064396603,
+      "sustainEnd": 204.073
+    },
+    {
+      "id": "p01396",
+      "midi": 83,
+      "oldRelease": 202.825,
+      "release": 202.761201,
+      "nextOnset": 202.868,
+      "handTravelMetres": 0.06623819215528153,
+      "sustainEnd": 204.073
+    },
+    {
+      "id": "p01398",
+      "midi": 78,
+      "oldRelease": 203.7625,
+      "release": 203.705129,
+      "nextOnset": 203.8135,
+      "handTravelMetres": 0.06906809827988608,
+      "sustainEnd": 204.073
+    },
+    {
+      "id": "p01399",
+      "midi": 76,
+      "oldRelease": 204.045,
+      "release": 204.00148,
+      "nextOnset": 204.13,
+      "handTravelMetres": 0.10533667452506751,
+      "sustainEnd": 204.073
+    },
+    {
+      "id": "p01405",
+      "midi": 75,
+      "oldRelease": 204.7,
+      "release": 204.647529,
+      "nextOnset": 204.755,
+      "handTravelMetres": 0.067448448462511,
+      "sustainEnd": 206.573
+    },
+    {
+      "id": "p01406",
+      "midi": 78,
+      "oldRelease": 205.0125,
+      "release": 204.958685,
+      "nextOnset": 205.0755,
+      "handTravelMetres": 0.08426739879692503,
+      "sustainEnd": 206.573
+    },
+    {
+      "id": "p01407",
+      "midi": 83,
+      "oldRelease": 205.325,
+      "release": 205.276455,
+      "nextOnset": 205.38,
+      "handTravelMetres": 0.060381619719911454,
+      "sustainEnd": 206.573
+    },
+    {
+      "id": "p01408",
+      "midi": 81,
+      "oldRelease": 205.95,
+      "release": 205.898777,
+      "nextOnset": 206.005,
+      "handTravelMetres": 0.06520063573309699,
+      "sustainEnd": 206.573
+    },
+    {
+      "id": "p01415",
+      "midi": 80,
+      "oldRelease": 207.06413,
+      "release": 207.014024,
+      "nextOnset": 207.12413,
+      "handTravelMetres": 0.07219092740781215,
+      "sustainEnd": 209.1817
+    },
+    {
+      "id": "p01416",
+      "midi": 78,
+      "oldRelease": 207.21717,
+      "release": 207.19913,
+      "nextOnset": 207.28717,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 209.1817
+    },
+    {
+      "id": "p01417",
+      "midi": 76,
+      "oldRelease": 207.87934,
+      "release": 207.82103,
+      "nextOnset": 207.95135,
+      "handTravelMetres": 0.1085762980580937,
+      "sustainEnd": 209.1817
+    },
+    {
+      "id": "p01424",
+      "midi": 76,
+      "oldRelease": 209.86552,
+      "release": 209.789079,
+      "nextOnset": 209.90451,
+      "handTravelMetres": 0.08177557887291291,
+      "sustainEnd": 211.90897
+    },
+    {
+      "id": "p01425",
+      "midi": 73,
+      "oldRelease": 210.20642,
+      "release": 210.14595,
+      "nextOnset": 210.25342,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 211.90897
+    },
+    {
+      "id": "p01433",
+      "midi": 72,
+      "oldRelease": 212.62526,
+      "release": 212.564705,
+      "nextOnset": 212.66825,
+      "handTravelMetres": 0.06038161971991146,
+      "sustainEnd": 214.76611
+    },
+    {
+      "id": "p01435",
+      "midi": 69,
+      "oldRelease": 213.33954,
+      "release": 213.26422,
+      "nextOnset": 213.39454,
+      "handTravelMetres": 0.10857629805809377,
+      "sustainEnd": 214.76611
+    },
+    {
+      "id": "p01442",
+      "midi": 66,
+      "oldRelease": 215.50811,
+      "release": 215.464739,
+      "nextOnset": 215.57311,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 217.76611
+    },
+    {
+      "id": "p01443",
+      "midi": 64,
+      "oldRelease": 216.26811,
+      "release": 216.233394,
+      "nextOnset": 216.32311,
+      "handTravelMetres": 0.035489616791394174,
+      "sustainEnd": 217.76611
+    },
+    {
+      "id": "p01444",
+      "midi": 71,
+      "oldRelease": 216.64311,
+      "release": 216.590679,
+      "nextOnset": 216.70611,
+      "handTravelMetres": 0.08177557887291294,
+      "sustainEnd": 217.76611
+    },
+    {
+      "id": "p01446",
+      "midi": 66,
+      "oldRelease": 217.39311,
+      "release": 217.347739,
+      "nextOnset": 217.45611,
+      "handTravelMetres": 0.06906809827988607,
+      "sustainEnd": 217.76611
+    },
+    {
+      "id": "p01447",
+      "midi": 64,
+      "oldRelease": 217.73811,
+      "release": 217.720691,
+      "nextOnset": 217.82811,
+      "handTravelMetres": 0.06735343346853226,
+      "sustainEnd": 217.76611
+    },
+    {
+      "id": "p01451",
+      "midi": 66,
+      "oldRelease": 218.57892,
+      "release": 218.53145,
+      "nextOnset": 218.63892,
+      "handTravelMetres": 0.06744584864912001,
+      "sustainEnd": 221.00935
+    },
+    {
+      "id": "p01452",
+      "midi": 64,
+      "oldRelease": 218.98433,
+      "release": 218.926543,
+      "nextOnset": 219.05233,
+      "handTravelMetres": 0.10041739142200422,
+      "sustainEnd": 221.00935
+    },
+    {
+      "id": "p01453",
+      "midi": 63,
+      "oldRelease": 219.38974,
+      "release": 219.355779,
+      "nextOnset": 219.44973,
+      "handTravelMetres": 0.043112643157199204,
+      "sustainEnd": 221.00935
+    },
+    {
+      "id": "p01454",
+      "midi": 66,
+      "oldRelease": 220.20054,
+      "release": 220.15338,
+      "nextOnset": 220.26054,
+      "handTravelMetres": 0.06688780232598468,
+      "sustainEnd": 221.00935
+    },
+    {
+      "id": "p01455",
+      "midi": 71,
+      "oldRelease": 220.60595,
+      "release": 220.549168,
+      "nextOnset": 220.67395,
+      "handTravelMetres": 0.09860799612607493,
+      "sustainEnd": 221.00935
+    }
+  ]
+}

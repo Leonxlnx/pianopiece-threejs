@@ -1,0 +1,25 @@
+{
+  "fps": 30,
+  "frames": 6995,
+  "durationSeconds": 233.16666666666666,
+  "nativeFramesMeasured": 4,
+  "budgets": [
+    {
+      "videoMbps": 20,
+      "videoBytesPerCopy": 582916666.6666666,
+      "previewFrames": 876,
+      "totalBytes": 3162743287.3866663,
+      "totalGiB": 2.9455342212567723
+    },
+    {
+      "videoMbps": 30,
+      "videoBytesPerCopy": 874375000.0,
+      "previewFrames": 876,
+      "totalBytes": 4328576620.719999,
+      "totalGiB": 4.031301122829317
+    }
+  ],
+  "freeGiBAtReport": 3.913410186767578,
+  "reserveGiB": 5,
+  "basis": "Current wrapper retains chunks, concatenated video-only MP4, delivery MP4, PCM MOV, original/frozen WAVs, JPEG previews and repro inputs. Default24-frame chunks would create876 review JPEGs;30-frame chunks would reduce this to702. No settings were changed."
+}

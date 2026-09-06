@@ -1,0 +1,35 @@
+{
+  "time": "2026-09-05T20:17:08.408685+00:00",
+  "scope": "Only completed reproducible initial scene interchange for previously reviewed camera / hand diagnostics. Source, frames, reports, score, audio and video retained. Active thumb, collision and endpoint-fit work excluded.",
+  "removed": [
+    {
+      "path": "portrait-interior-fix/scene.json",
+      "bytes": 147371050
+    },
+    {
+      "path": "highrate-analysis/render-floor-baseline/scene.json",
+      "bytes": 128424372
+    },
+    {
+      "path": "highrate-analysis/render-floor-clearance/scene.json",
+      "bytes": 128424301
+    },
+    {
+      "path": "highrate-final/render-spread-priority/scene.json",
+      "bytes": 128424284
+    },
+    {
+      "path": "highrate-combined/render-residual/scene.json",
+      "bytes": 128424256
+    },
+    {
+      "path": "highrate-final/render-restlift/scene.json",
+      "bytes": 128424235
+    },
+    {
+      "path": "endpoint-review/render-three/scene.json",
+      "bytes": 128424221
+    }
+  ],
+  "bytes": 917916719
+}

@@ -1,0 +1,84 @@
+{
+  "sourceFingerprint": "34d172ba1990afa915994b744a641c7ce562959aa32cf7058c73dd4ed0f332be",
+  "width": 1920,
+  "height": 1080,
+  "environmentMaxDifference": 0.048095703125,
+  "environmentChangedValues": 1504432,
+  "rows": [
+    {
+      "time": 6.0,
+      "shot": "First light",
+      "poseSha256": "c98b4e39562a17443dba1f2b9e427bfab8e319ac8b04db8e5c1d5c407fd76070",
+      "changedChannels": 2553147,
+      "changedPixels": 1153668,
+      "maxChannelDifference": 12,
+      "meanChannelDifference": 0.976438721707819,
+      "depthMasksAfterFrame": {
+        "baseline": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        },
+        "fixed": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        }
+      }
+    },
+    {
+      "time": 105.0,
+      "shot": "The inner voice",
+      "poseSha256": "d188adb88f0bccb38ab3d999ac8ba19c834afbd797a417512e3a5f967d80205b",
+      "changedChannels": 903841,
+      "changedPixels": 652600,
+      "maxChannelDifference": 2,
+      "meanChannelDifference": 0.14529642489711933,
+      "depthMasksAfterFrame": {
+        "baseline": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        },
+        "fixed": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        }
+      }
+    },
+    {
+      "time": 170.0,
+      "shot": "A new breath",
+      "poseSha256": "b327d0eeb42757ce3e202df3c86f534c66f0c31e7017f81574e8e1ce6a52b00f",
+      "changedChannels": 878262,
+      "changedPixels": 624714,
+      "maxChannelDifference": 1,
+      "meanChannelDifference": 0.1411815200617284,
+      "depthMasksAfterFrame": {
+        "baseline": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        },
+        "fixed": {
+          "main": true,
+          "shadows": [
+            true,
+            true
+          ]
+        }
+      }
+    }
+  ]
+}

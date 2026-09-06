@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "sourceCompositionSha256": "3915abaf49b17a7df0b7d18e88a735d27923b9c64af255b5d7853471b1c4b56f",
+  "notes": 1068,
+  "changedPhysicalHolds": 407,
+  "pedalEquivalentPhysicalChanges": 397,
+  "audibleReleaseChanges": 10,
+  "totalAudibleAdvanceMs": 206.732,
+  "allAttacksPitchesVelocitiesUnchanged": true,
+  "durationTempoPedalsUnchanged": true,
+  "semantics": "A key released with pedal depth >0.1 continues until the next pedal-up; otherwise its damper release is its physical key end. One-microsecond tolerance for decimal event serialization.",
+  "changes": [
+    {
+      "id": "p00064",
+      "bar": 6,
+      "midi": 69,
+      "before": 17.942139,
+      "after": 17.917139,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00170",
+      "bar": 14,
+      "midi": 75,
+      "before": 40.405304,
+      "after": 40.380304,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00409",
+      "bar": 31,
+      "midi": 76,
+      "before": 87.673639,
+      "after": 87.648639,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00440",
+      "bar": 33,
+      "midi": 76,
+      "before": 93.224441,
+      "after": 93.199441,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00704",
+      "bar": 55,
+      "midi": 86,
+      "before": 156.194243,
+      "after": 156.169243,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00734",
+      "bar": 57,
+      "midi": 74,
+      "before": 161.823873,
+      "after": 161.798873,
+      "advanceMs": 25.0
+    },
+    {
+      "id": "p00830",
+      "bar": 63,
+      "midi": 81,
+      "before": 176.523885,
+      "after": 176.516219,
+      "advanceMs": 7.666
+    },
+    {
+      "id": "p00838",
+      "bar": 63,
+      "midi": 81,
+      "before": 177.848619,
+      "after": 177.832219,
+      "advanceMs": 16.4
+    },
+    {
+      "id": "p00939",
+      "bar": 69,
+      "midi": 86,
+      "before": 192.678489,
+      "after": 192.670823,
+      "advanceMs": 7.666
+    },
+    {
+      "id": "p01016",
+      "bar": 74,
+      "midi": 69,
+      "before": 207.858445,
+      "after": 207.833445,
+      "advanceMs": 25.0
+    }
+  ],
+  "errors": []
+}

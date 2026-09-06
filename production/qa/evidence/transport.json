@@ -1,0 +1,71 @@
+{
+  "source": "app/performance/audio.ts",
+  "sha256": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+  "at": "2026-09-05T03:06:54.357Z",
+  "results": [
+    {
+      "name": "Concurrent play creates at most one audible source",
+      "pass": true,
+      "started": 1,
+      "stillAudibleAfterPause": 0
+    },
+    {
+      "name": "Pause cancels an in-flight resume",
+      "pass": true,
+      "playing": false,
+      "sources": 0
+    },
+    {
+      "name": "Dispose cancels an in-flight resume cleanly",
+      "pass": true,
+      "rejected": false,
+      "playing": false,
+      "sources": 0
+    },
+    {
+      "name": "Starting from a seek position does not display earlier notes",
+      "pass": true,
+      "expectedMinimum": 45,
+      "actual": 45
+    },
+    {
+      "name": "Seeking to the end does not automatically restart the song",
+      "pass": true,
+      "offset": 229.03635,
+      "playing": false,
+      "lastSourceOffset": 0
+    },
+    {
+      "name": "Invalid output timestamp uses the latency fallback",
+      "pass": true,
+      "actual": 0.8450000000000006,
+      "expected": 0.8450000000000006
+    },
+    {
+      "name": "Output timestamp aligns the common clock",
+      "pass": true,
+      "actual": 0.8050000000000015,
+      "expected": 0.805
+    },
+    {
+      "name": "Rapid seeks preserve only the latest requested position",
+      "pass": true,
+      "live": 1,
+      "lastSourceOffset": 120
+    },
+    {
+      "name": "Explicit play after a completed piece restarts from zero",
+      "pass": true,
+      "playing": true,
+      "offset": 0
+    },
+    {
+      "name": "Natural completion waits for the audible end",
+      "pass": true,
+      "playingBefore": true,
+      "before": 228.92635,
+      "after": 229.03635,
+      "ended": true
+    }
+  ]
+}

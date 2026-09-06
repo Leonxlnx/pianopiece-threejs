@@ -1,0 +1,50 @@
+{
+  "at": "2026-09-05T19:09:34.779608+00:00",
+  "scope": "Offline camera composition only; desktop 24 shots at 8%, 50%, 92% of each shot. Contact and expression quality are reviewed separately.",
+  "desktop": {
+    "aspect": 1.7777777777777777,
+    "width": 1280,
+    "samples": 72,
+    "reviewed": true,
+    "blockingFramingDefects": 0,
+    "notes": [
+      "Wide views retain the complete performer and instrument; shots 2 and 23 deliberately frame the performer with part of the lid cropped.",
+      "Shots 3, 8, 12, 15, 19, 22 keep hands visible throughout the three reviewed positions.",
+      "Face shots 10 and 16 show the same character and coherent garment neckline; subsequent gaze refinement is separate.",
+      "No wall or shoulder blocks the main subject in reviewed desktop frames."
+    ]
+  },
+  "portrait": {
+    "aspect": 0.5625,
+    "width": 720,
+    "samples": 72,
+    "reviewed": true,
+    "status": "passed with targeted shot 6 correction",
+    "blockingFramingDefects": 0,
+    "notes": [
+      "24 shots show the intended performer/instrument composition across the reviewed samples.",
+      "The original shot 6 crop was corrected with a dedicated view along the piano long axis. Three targeted720px portrait renders now keep the performer, keyboard, bench and instrument interior visible.",
+      "Portrait hand shots keep both playing areas visible with deliberate partial upper-body context.",
+      "This is composition review, not validation of pending hand-pose repairs."
+    ]
+  },
+  "hashes": {
+    "app/performance/direction.ts": "872174f52ebb74ba2438700be8b6aef2d9da2a16766d61bb893fab2500065ff7",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "public/assets/score.json": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773"
+  },
+  "compiledPianistHash": "e85f297e6bc9d419b567fa30bed99c7e0abef1bc47989c37b8d9a28cfbbf8f66",
+  "correction": {
+    "name": "Across the strings portrait",
+    "times": [
+      58.206282560000005,
+      62.868978500000004,
+      67.53167444
+    ],
+    "directionSha256": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "rigSha256": "fedec1a81e52ccfc87527b3522100d8a6facd2674b6ed2a7b145e50f48cdc184",
+    "roomAuditSamples": 672,
+    "roomAuditPassed": true
+  }
+}

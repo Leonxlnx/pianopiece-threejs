@@ -1,0 +1,134 @@
+{
+  "url": "https://daybreak-piano-film.lexn8.chatgpt.site",
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/",
+      "bytes": 11099,
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "a216598e7812953337741a0a0d2ae14cdf93fec7ad3f220b6fbe37ae0b30fdcc",
+      "expectedSha256": null,
+      "exactMatch": null,
+      "pageTitlePresent": true,
+      "headers": {
+        "Content-Type": "text/html; charset=utf-8"
+      }
+    },
+    {
+      "path": "/assets/score.json",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/score.json",
+      "bytes": 302203,
+      "contentType": "application/json",
+      "sha256": "0587348ddda6c2fb7c415148ffca11c09c64e844069b0d4426fc6dff89d24f84",
+      "expectedSha256": "0587348ddda6c2fb7c415148ffca11c09c64e844069b0d4426fc6dff89d24f84",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "application/json",
+        "Content-Length": "302203",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/assets/daybreak.mp3",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/daybreak.mp3",
+      "bytes": 6627261,
+      "contentType": "audio/mpeg",
+      "sha256": "2bbe1fc4e5cacc59b8dfc9fcc2882e4808054d75073cefb13f4f7ca6d4317387",
+      "expectedSha256": "2bbe1fc4e5cacc59b8dfc9fcc2882e4808054d75073cefb13f4f7ca6d4317387",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "audio/mpeg",
+        "Content-Length": "6627261",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/assets/pianist.glb",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/pianist.glb",
+      "bytes": 10157684,
+      "contentType": "application/octet-stream",
+      "sha256": "48aa8727f23d2102ec83b6e0ce44baaeb05f3f89c106b656b2094c37cc70f014",
+      "expectedSha256": "48aa8727f23d2102ec83b6e0ce44baaeb05f3f89c106b656b2094c37cc70f014",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "10157684",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/assets/stage-poster.webp",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/stage-poster.webp",
+      "bytes": 75922,
+      "contentType": "application/octet-stream",
+      "sha256": "057ebc897902c9567fc223e6ab1eb62ed58059b726345fd6e990e966734e6314",
+      "expectedSha256": "057ebc897902c9567fc223e6ab1eb62ed58059b726345fd6e990e966734e6314",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "75922",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/assets/stage-portrait.webp",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/stage-portrait.webp",
+      "bytes": 55104,
+      "contentType": "application/octet-stream",
+      "sha256": "7c85f84349654f5a1b8ce31a74c1ca6235e2b2b0f78e0231a63dd304e7d5f3a4",
+      "expectedSha256": "7c85f84349654f5a1b8ce31a74c1ca6235e2b2b0f78e0231a63dd304e7d5f3a4",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "55104",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/assets/credits.txt",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/credits.txt",
+      "bytes": 1593,
+      "contentType": "text/plain",
+      "sha256": "a11a6661fe4097ed5a2a8166f19291a0b7faae2e1bad79509abc42d9874e704b",
+      "expectedSha256": "a11a6661fe4097ed5a2a8166f19291a0b7faae2e1bad79509abc42d9874e704b",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "text/plain",
+        "Content-Length": "1593",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "finalUrl": "https://daybreak-piano-film.lexn8.chatgpt.site/favicon.svg",
+      "bytes": 278,
+      "contentType": "image/svg+xml",
+      "sha256": "9b67ce62e5e37fb6efc3b13502dd29118d773c2b8361752bda822aac834d3da8",
+      "expectedSha256": "9b67ce62e5e37fb6efc3b13502dd29118d773c2b8361752bda822aac834d3da8",
+      "exactMatch": true,
+      "pageTitlePresent": null,
+      "headers": {
+        "Content-Type": "image/svg+xml",
+        "Content-Length": "278",
+        "Cache-Control": "public, max-age=0, must-revalidate"
+      }
+    }
+  ],
+  "authenticated": false,
+  "browserPlaybackTested": false,
+  "listeningPerformed": false
+}

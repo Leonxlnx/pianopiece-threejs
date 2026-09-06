@@ -1,0 +1,137 @@
+{
+  "samples": [
+    {
+      "job": "0ab01bd54645d81c",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24,
+      "duration": 1.0,
+      "samples": 1,
+      "frames": 24,
+      "meanFrameSeconds": 14.080522229291546,
+      "minFrameSeconds": 5.376522901002318,
+      "maxFrameSeconds": 24.468898489998537,
+      "losslessAudioExact": true,
+      "aacLagSamples": [
+        0
+      ],
+      "inputSnapshot": "/workspace/scratch/2e8cc8e77f98/video-export/work/snapshots/4c6f93dec804747a",
+      "sourceFingerprint": "4c6f93dec804747a992b28e3ff2e8848f06ef02805e07892f453cede3d0e0f4d"
+    },
+    {
+      "job": "6f4e9b12c6216abf",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration": 0.4,
+      "samples": 2,
+      "frames": 12,
+      "meanFrameSeconds": 22.39232820208387,
+      "minFrameSeconds": 8.855089127999236,
+      "maxFrameSeconds": 44.915582043999166,
+      "losslessAudioExact": true,
+      "aacLagSamples": [
+        0
+      ],
+      "inputSnapshot": "/workspace/scratch/2e8cc8e77f98/video-export/work/snapshots/0800b806fc8613b1",
+      "sourceFingerprint": "0800b806fc8613b1a45737047266e61f970cd0a54706b9bb0cebcf5329a7e0dc"
+    }
+  ],
+  "timingCaveat": "Benchmarks ran under changing shared CPU load; clip timing differences do not isolate frame-rate or thread effects.",
+  "python": "3.12.13",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "fullFrameCounts": {
+    "24fps": 5596,
+    "30fps": 6995
+  },
+  "fullFilmRendered": false,
+  "unusedReflectionOptimization": {
+    "sourceFingerprint": "7a59934c74f16c9b3689e54378585b486060f5df36de09d18960ba806c2534d8",
+    "width": 1920,
+    "height": 1080,
+    "sameContext": true,
+    "sameFrozenPosePerPair": true,
+    "alternatingOrder": true,
+    "results": [
+      {
+        "time": 186.05,
+        "frozenPoseSha256": "4632560b66512c6490c4dcb9a303989e0f80ddf0222e5079f65c2b3af0f69b87",
+        "pixelIdentical": true,
+        "changedChannels": 0,
+        "maximumChannelDifference": 0,
+        "originalSeconds": 8.22907607900197,
+        "optimizedSeconds": 9.720371388000785,
+        "speedup": 0.8465804186412332
+      },
+      {
+        "time": 26.05,
+        "frozenPoseSha256": "8b21c295ec8ad0fb9bb1ececcb2aa1bc2d378843100384143802a1130f146ec2",
+        "pixelIdentical": true,
+        "changedChannels": 0,
+        "maximumChannelDifference": 0,
+        "originalSeconds": 9.95719331300279,
+        "optimizedSeconds": 8.707734845997038,
+        "speedup": 1.1434883456034644
+      },
+      {
+        "time": 186.62,
+        "frozenPoseSha256": "e3e8716b872f468cf2a71655196a06bc5e17767f134e4a44349bd633da39be5d",
+        "pixelIdentical": true,
+        "changedChannels": 0,
+        "maximumChannelDifference": 0,
+        "originalSeconds": 8.422991328003263,
+        "optimizedSeconds": 7.497428740996838,
+        "speedup": 1.1234506680864251
+      }
+    ],
+    "allPixelIdentical": true,
+    "aggregateSpeedup": 1.0263726764239511
+  },
+  "practicalDefault": "Native24fps,1sample;30fps costs25% more frames. Reserve2sampleHDRblur for reviewed shots because it approximately doubles work.",
+  "currentSourceTimingRangeSeconds": [
+    7.497428740996838,
+    9.720371388000785
+  ],
+  "full24fpsEstimateHoursFromPairedSamples": [
+    11.65433645406064,
+    15.109777302014555
+  ],
+  "full30fpsEstimateHoursFromPairedSamples": [
+    14.5679205675758,
+    18.887221627518194
+  ],
+  "latestSnapshotClip": {
+    "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/7103572597d5e8be/daybreak-preview.mp4",
+    "snapshot": "/workspace/scratch/2e8cc8e77f98/video-export/work/snapshots/7a59934c74f16c9b",
+    "sourceFingerprint": "7a59934c74f16c9b3689e54378585b486060f5df36de09d18960ba806c2534d8",
+    "fps": 24,
+    "frames": 12,
+    "duration": 0.5,
+    "benchmark": {
+      "newFrames": 12,
+      "initializationSeconds": 89.67971171699901,
+      "frameSeconds": [
+        17.374596770998323,
+        16.225085925998428,
+        14.992692583997268,
+        12.786062095998204,
+        14.799483224996948,
+        12.338455439999962,
+        9.59290541700102,
+        11.20138156199755,
+        7.729044985000655,
+        9.989200432999496,
+        12.046656810001878,
+        10.566478672000812
+      ],
+      "medianSteadySeconds": 12.046656810001878,
+      "meanSteadySeconds": 12.024313377272021,
+      "estimatedFullFilmHours24fps": 18.691127127559508,
+      "estimatedFullFilmHours30fps": 23.363908909449385,
+      "temporalSamples": 1,
+      "note": "Shared CPU/software-renderer load affects timings; full estimates exclude startup and multiply by samples for blur."
+    },
+    "lighting": "Corrected stage shadows, environment intensity, sun/glass and source capture lift from snapshot7a59934c74f16c9b.",
+    "remainingWork": "Inputs remain provisional until final rig and remaster freeze."
+  }
+}

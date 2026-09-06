@@ -1,0 +1,76 @@
+{
+  "scope": "Thumb runtime candidate on frozen pre-active-fix score; score edits for two tiny gaps are separate. Other active cases remain composer-owned. No global acceptance claim.",
+  "hashes": {
+    "pianist-baseline.ts": "c8b22b535ef83f0bff797049f22e489dbf10a55ab4263a99fd8c493aae38352d",
+    "pianist.ts": "9b54e6291792664b34851ac4dba3192f2175065f59ec5a7b7a556799b145426c",
+    "score.json": "ff25cbb97cca511a321d33097a11da8f85500c383827e50914dc185c3e1987c2",
+    "motion-plan.json": "a91c31a4e5a6daf1444f3f21338c683c487d25c2575a73bbdf49cfc5874f0a32",
+    "thumb-transition.patch": "e759a9d1c1f380d86169995b87327c9260626e4ec421f325118ae877666addeb"
+  },
+  "whole500Hz": {
+    "partitions": 4,
+    "frames": 116580,
+    "duration": 233.144228,
+    "maxTipMps": 4.787822929282321,
+    "above5MpsSamples": 0
+  },
+  "fine2000Hz": {
+    "windows": 162,
+    "seconds": 19.61000000000112,
+    "maxTipMps": 4.809164787219856,
+    "inactiveJointExceptions": [
+      {
+        "value": 5613.659682402571,
+        "time": 101.48400000000001,
+        "speed": 4.8050193573253335,
+        "localSpeed": 4.805019386182142,
+        "turn": 5613.659682402571,
+        "joint": 1,
+        "swing": 4889.212290718583,
+        "roll": 2166.596099813481,
+        "plane": 2937.215021494776,
+        "forward": 0.5505516387072825,
+        "dorsal": -56.48524167408628,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00487",
+          "prevEnd": 101.471872,
+          "next": "p00490",
+          "nextTime": 101.495872,
+          "gap": 0.024000000000000965
+        },
+        "key": "R1"
+      },
+      {
+        "value": 3034.553803212471,
+        "time": 153.41549999999998,
+        "speed": 1.4961760151253818,
+        "localSpeed": 1.4961760315259425,
+        "turn": 3034.553803212471,
+        "joint": 2,
+        "swing": 2189.0396771300207,
+        "roll": 202.21774757521067,
+        "plane": 743.7145210593136,
+        "forward": 0.49580862649678203,
+        "dorsal": -33.05891063093265,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00691",
+          "prevEnd": 153.403546,
+          "next": "p00693",
+          "nextTime": 153.427546,
+          "gap": 0.02400000000001412
+        },
+        "key": "R1"
+      }
+    ]
+  },
+  "activeParity": {
+    "vertexComparisons": 531960,
+    "maxSkinParityMm": 0,
+    "maxActiveTipMm": 0,
+    "maxActiveQuaternionDegrees": 3.818191820832845e-06
+  }
+}

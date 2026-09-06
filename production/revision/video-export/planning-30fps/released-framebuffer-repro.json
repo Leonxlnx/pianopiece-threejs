@@ -1,0 +1,24 @@
+[
+  {
+    "bindStableBeforeRelease": false,
+    "originalIds": [
+      1,
+      2,
+      3
+    ],
+    "newId": 2,
+    "afterRelease": "GL_NO_ERROR",
+    "afterNewFramebuffer": "GL_INVALID_OPERATION"
+  },
+  {
+    "bindStableBeforeRelease": true,
+    "originalIds": [
+      1,
+      2,
+      3
+    ],
+    "newId": 2,
+    "afterRelease": "GL_NO_ERROR",
+    "afterNewFramebuffer": "GL_NO_ERROR"
+  }
+]

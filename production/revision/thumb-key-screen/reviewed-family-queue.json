@@ -1,0 +1,1928 @@
+{
+  "scope": "Frozen whole-thumb held-note screen, five fractions per note; exact core intersection after actual bevel exclusion. All 22 previously unreviewed family representatives now inspected. Five primary visible defects plus one candidate-regression family promoted; sixteen smaller-core families retained as lower-priority contact review. Eight families remain in the existing composer-owned endpoint queue.",
+  "hashes": {
+    "baseline": {
+      "score": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+      "rigSource": "fedec1a81e52ccfc87527b3522100d8a6facd2674b6ed2a7b145e50f48cdc184",
+      "compiledRig": "95c86dc13c75058c1ca836adc458a1a3d723515d679eb18600f5c1ae9c5f02d2",
+      "model": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d"
+    },
+    "candidate": {
+      "score": "8d92b2080768b6cfc8cc81a9e6ad1ff2d56577ca96078510281da5b0b090c4fb",
+      "rigSource": "fedec1a81e52ccfc87527b3522100d8a6facd2674b6ed2a7b145e50f48cdc184",
+      "compiledRig": "95c86dc13c75058c1ca836adc458a1a3d723515d679eb18600f5c1ae9c5f02d2",
+      "model": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d"
+    }
+  },
+  "baseline": {
+    "thumbNotes": 289,
+    "samples": 1445,
+    "severeNotes": 38,
+    "severeFamilies": 21,
+    "notesWithAnyCoreVertex": 216
+  },
+  "candidate": {
+    "thumbNotes": 312,
+    "samples": 1560,
+    "severeNotes": 62,
+    "severeFamilies": 30,
+    "notesWithAnyCoreVertex": 239
+  },
+  "candidateSevereAlreadyBaseline": [
+    "p00013",
+    "p00026",
+    "p00094",
+    "p00191",
+    "p00237",
+    "p00248",
+    "p00310",
+    "p00317",
+    "p00323",
+    "p00329",
+    "p00356",
+    "p00361",
+    "p00423",
+    "p00427",
+    "p00441",
+    "p00478",
+    "p00485",
+    "p00490",
+    "p00493",
+    "p00514",
+    "p00522",
+    "p00533",
+    "p00536",
+    "p00696",
+    "p00789",
+    "p00829",
+    "p00845",
+    "p00853",
+    "p00862",
+    "p00870",
+    "p00932",
+    "p00949",
+    "p00969",
+    "p00970",
+    "p00976",
+    "p00984",
+    "p01053"
+  ],
+  "newThumbAssignmentsSevere": [
+    "p00364",
+    "p00394",
+    "p00411",
+    "p00414",
+    "p00424",
+    "p00432",
+    "p00458",
+    "p00489",
+    "p00527",
+    "p00528",
+    "p00708",
+    "p00715",
+    "p00720",
+    "p00753",
+    "p00772",
+    "p00775",
+    "p00786",
+    "p00795",
+    "p00857",
+    "p00893",
+    "p00938",
+    "p00955",
+    "p00983"
+  ],
+  "existingThumbsNewlySevere": [
+    "p00419",
+    "p00781"
+  ],
+  "families": [
+    {
+      "family": "T001",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05698,
+          0.7618,
+          0.382
+        ],
+        "q": [
+          -0.01861,
+          0.71931,
+          -0.69416,
+          0.01957
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00006",
+        "p00008",
+        "p00024",
+        "p00026",
+        "p00031",
+        "p00033",
+        "p00042",
+        "p00056",
+        "p00073",
+        "p00084",
+        "p00086",
+        "p00096",
+        "p00105",
+        "p00113",
+        "p00127",
+        "p00137",
+        "p00138",
+        "p00175",
+        "p00190",
+        "p00192",
+        "p00202",
+        "p00204",
+        "p00205",
+        "p00230",
+        "p00232",
+        "p00244",
+        "p00246",
+        "p00259",
+        "p00287",
+        "p00298",
+        "p00300",
+        "p00341",
+        "p00343",
+        "p00348",
+        "p00350",
+        "p00383",
+        "p00403",
+        "p00455",
+        "p00466",
+        "p00542",
+        "p00544",
+        "p00551",
+        "p00553",
+        "p00559",
+        "p00562",
+        "p00573",
+        "p00579",
+        "p00582",
+        "p00595",
+        "p00598",
+        "p00601",
+        "p00644",
+        "p00668",
+        "p00670",
+        "p00678",
+        "p00681",
+        "p00690",
+        "p00815",
+        "p00832",
+        "p00960",
+        "p01008",
+        "p01032",
+        "p01035",
+        "p01043",
+        "p01059"
+      ],
+      "severeIds": [
+        "p00026"
+      ],
+      "maxMinimumFaceDepthMm": 3.1743097270106047,
+      "maxBelowTopMm": 4.322229744612938,
+      "representative": {
+        "id": "p00026",
+        "time": 9.167472384,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00026"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-0.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T002",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05421,
+          0.772,
+          0.334
+        ],
+        "q": [
+          -0.02157,
+          0.71344,
+          -0.70003,
+          0.02227
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00013",
+        "p00310",
+        "p00317"
+      ],
+      "severeIds": [
+        "p00013",
+        "p00310",
+        "p00317"
+      ],
+      "maxMinimumFaceDepthMm": 6.249386175474325,
+      "maxBelowTopMm": 7.21470294467863,
+      "representative": {
+        "id": "p00013",
+        "time": 4.848170372999999,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00013",
+          "p00310",
+          "p00317"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-1.jpg",
+      "priority": "confirmed-visible-core-defect",
+      "visualNote": "Thumb side/body intersects the white-key front edge; the lower thumb contour is cut away at contact. Clear solid overlap in the full-size representative, with an otherwise less extreme pose than the deepest families."
+    },
+    {
+      "family": "T008",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          0.03698,
+          0.76222,
+          0.382
+        ],
+        "q": [
+          -0.00548,
+          0.75769,
+          -0.65211,
+          0.02486
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00063",
+        "p01015",
+        "p01053"
+      ],
+      "severeIds": [
+        "p01053"
+      ],
+      "maxMinimumFaceDepthMm": 3.254569375417238,
+      "maxBelowTopMm": 3.254569375417238,
+      "representative": {
+        "id": "p01053",
+        "time": 220.715426435,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p01053"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-2.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T013",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.028,
+          0.74962,
+          0.39055
+        ],
+        "q": [
+          -0.06935,
+          0.71646,
+          -0.69115,
+          0.06466
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00094"
+      ],
+      "severeIds": [
+        "p00094"
+      ],
+      "maxMinimumFaceDepthMm": 3.1314529869863605,
+      "maxBelowTopMm": 3.1314529869863605,
+      "representative": {
+        "id": "p00094",
+        "time": 23.984526632,
+        "fraction": 0.001,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00094"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-3.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T020",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.02433,
+          0.748,
+          0.3841
+        ],
+        "q": [
+          -0.01528,
+          -0.71763,
+          0.69446,
+          0.05003
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 4,
+            "dx": 0.0705,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ids": [
+        "p00191"
+      ],
+      "severeIds": [
+        "p00191"
+      ],
+      "maxMinimumFaceDepthMm": 3.0264535220478894,
+      "maxBelowTopMm": 4.184201945779731,
+      "representative": {
+        "id": "p00191",
+        "time": 44.1922275,
+        "fraction": 0.75,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00191"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-0.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T024",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.06572,
+          0.74542,
+          0.39055
+        ],
+        "q": [
+          -0.02299,
+          0.71898,
+          -0.69424,
+          0.02381
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00219",
+        "p00278",
+        "p00590",
+        "p00687",
+        "p00696",
+        "p01021",
+        "p01040"
+      ],
+      "severeIds": [
+        "p00696"
+      ],
+      "maxMinimumFaceDepthMm": 3.6329456230498325,
+      "maxBelowTopMm": 5.004058650356136,
+      "representative": {
+        "id": "p00696",
+        "time": 154.410758163,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00696"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-4.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T025",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.0625,
+          0.75028,
+          0.37045
+        ],
+        "q": [
+          -0.10714,
+          0.73275,
+          -0.67161,
+          0.02331
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00237",
+        "p00356",
+        "p00361",
+        "p00478",
+        "p00485",
+        "p00845",
+        "p00853"
+      ],
+      "severeIds": [
+        "p00237",
+        "p00356",
+        "p00361",
+        "p00478",
+        "p00485",
+        "p00845",
+        "p00853"
+      ],
+      "maxMinimumFaceDepthMm": 3.515582880010304,
+      "maxBelowTopMm": 3.515582880010304,
+      "representative": {
+        "id": "p00237",
+        "time": 53.890328000000004,
+        "fraction": 0.5,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00237",
+          "p00356",
+          "p00361",
+          "p00478",
+          "p00485",
+          "p00845",
+          "p00853"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-5.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T027",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.00475,
+          0.74584,
+          0.382
+        ],
+        "q": [
+          -0.01916,
+          -0.71715,
+          0.69637,
+          0.01973
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 4,
+            "dx": 0.0705,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ids": [
+        "p00248"
+      ],
+      "severeIds": [
+        "p00248"
+      ],
+      "maxMinimumFaceDepthMm": 3.5954333905328095,
+      "maxBelowTopMm": 4.898159169202332,
+      "representative": {
+        "id": "p00248",
+        "time": 55.986478500000004,
+        "fraction": 0.25,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00248"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-1.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T033",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.03356,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 4,
+            "dx": 0.1175,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "ids": [
+        "p00323"
+      ],
+      "severeIds": [
+        "p00323"
+      ],
+      "maxMinimumFaceDepthMm": 5.8914909574177,
+      "maxBelowTopMm": 11.03014314541828,
+      "representative": {
+        "id": "p00323",
+        "time": 71.427246,
+        "fraction": 0.5,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00323"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-2.jpg",
+      "priority": "confirmed-visible-core-defect",
+      "visualNote": "Right thumb curls from below the front edge and reads as a small disconnected tip above the key. Same visible under-edge failure as the earlier rejected p00528 substitution."
+    },
+    {
+      "family": "T034",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          -0.03694,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          }
+        ]
+      },
+      "ids": [
+        "p00329",
+        "p00533"
+      ],
+      "severeIds": [
+        "p00329",
+        "p00533"
+      ],
+      "maxMinimumFaceDepthMm": 3.2069289664038436,
+      "maxBelowTopMm": 4.639226888179193,
+      "representative": {
+        "id": "p00329",
+        "time": 72.542756091,
+        "fraction": 0.999,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00329",
+          "p00533"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-3.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T039",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07173,
+          0.75526,
+          0.35095
+        ],
+        "q": [
+          -0.11816,
+          0.67843,
+          -0.72484,
+          0.01927
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 5,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ids": [
+        "p00364",
+        "p00394",
+        "p00458",
+        "p00489",
+        "p00720",
+        "p00753",
+        "p00857",
+        "p00893"
+      ],
+      "severeIds": [
+        "p00364",
+        "p00394",
+        "p00458",
+        "p00489",
+        "p00720",
+        "p00753",
+        "p00857",
+        "p00893"
+      ],
+      "maxMinimumFaceDepthMm": 5.792113181037228,
+      "maxBelowTopMm": 7.716244072780154,
+      "representative": {
+        "id": "p00893",
+        "time": 186.12104475,
+        "fraction": 0.75,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00364",
+          "p00394",
+          "p00458",
+          "p00489",
+          "p00720",
+          "p00753",
+          "p00857",
+          "p00893"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T041",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07525,
+          0.74058,
+          0.349
+        ],
+        "q": [
+          -0.01379,
+          0.70156,
+          -0.7105,
+          0.053
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 4,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.002
+          }
+        ]
+      },
+      "ids": [
+        "p00411",
+        "p00772"
+      ],
+      "severeIds": [
+        "p00411",
+        "p00772"
+      ],
+      "maxMinimumFaceDepthMm": 7.439229248690005,
+      "maxBelowTopMm": 14.13505033547191,
+      "representative": {
+        "id": "p00411",
+        "time": 87.8168595,
+        "fraction": 0.5,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00411",
+          "p00772"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T042",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          0.01723,
+          0.75414,
+          0.3685
+        ],
+        "q": [
+          -0.01304,
+          0.74717,
+          -0.65201,
+          0.12826
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00414",
+        "p00775"
+      ],
+      "severeIds": [
+        "p00414",
+        "p00775"
+      ],
+      "maxMinimumFaceDepthMm": 4.281577924595048,
+      "maxBelowTopMm": 5.8137540678142585,
+      "representative": {
+        "id": "p00775",
+        "time": 167.75147199,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00414",
+          "p00775"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T043",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.09875,
+          0.74058,
+          0.349
+        ],
+        "q": [
+          -0.01379,
+          0.70156,
+          -0.7105,
+          0.053
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00419",
+        "p00781"
+      ],
+      "severeIds": [
+        "p00419",
+        "p00781"
+      ],
+      "maxMinimumFaceDepthMm": 4.091832744374524,
+      "maxBelowTopMm": 5.454499169448512,
+      "representative": {
+        "id": "p00419",
+        "time": 89.424663117,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [
+          "p00419",
+          "p00781"
+        ],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-6.jpg",
+      "priority": "candidate-regression",
+      "visualNote": "Existing thumbs p00419/p00781 cross the severe-core threshold after the candidate wrist changes. The representative shows edge clipping, less dramatic than the five primary visible families; correct this bounded regression with the endpoint batch."
+    },
+    {
+      "family": "T044",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          -0.01344,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 5,
+            "dx": 0.047,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ids": [
+        "p00423"
+      ],
+      "severeIds": [
+        "p00423"
+      ],
+      "maxMinimumFaceDepthMm": 5.391714288059013,
+      "maxBelowTopMm": 9.316715149427557,
+      "representative": {
+        "id": "p00423",
+        "time": 89.75952125,
+        "fraction": 0.75,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00423"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-4.jpg",
+      "priority": "confirmed-visible-core-defect",
+      "visualNote": "Right thumb body curls under the hand and key front; the played-key surface cuts through the thumb silhouette."
+    },
+    {
+      "family": "T045",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07975,
+          0.75426,
+          0.364
+        ],
+        "q": [
+          -0.03086,
+          0.72567,
+          -0.67918,
+          0.10567
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00424",
+        "p00786"
+      ],
+      "severeIds": [
+        "p00424",
+        "p00786"
+      ],
+      "maxMinimumFaceDepthMm": 3.3551036200946127,
+      "maxBelowTopMm": 4.37326187499254,
+      "representative": {
+        "id": "p00786",
+        "time": 169.79589238699998,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00424",
+          "p00786"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T046",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05875,
+          0.7452,
+          0.337
+        ],
+        "q": [
+          -0.12258,
+          0.68907,
+          -0.71412,
+          0.01378
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 5,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ids": [
+        "p00427",
+        "p00522"
+      ],
+      "severeIds": [
+        "p00427",
+        "p00522"
+      ],
+      "maxMinimumFaceDepthMm": 7.840274756623522,
+      "maxBelowTopMm": 14.593697167231579,
+      "representative": {
+        "id": "p00427",
+        "time": 90.499989409,
+        "fraction": 0.001,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00427",
+          "p00522"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-7.jpg",
+      "priority": "confirmed-visible-core-defect",
+      "visualNote": "Left thumb body passes through the white-key front and only its distal tip/nail emerges above the key. Clearly visible under-edge fold."
+    },
+    {
+      "family": "T047",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.04323,
+          0.75396,
+          0.376
+        ],
+        "q": [
+          -0.01304,
+          0.74717,
+          -0.65201,
+          0.12826
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00432",
+        "p00527",
+        "p00795",
+        "p00938"
+      ],
+      "severeIds": [
+        "p00432",
+        "p00527",
+        "p00795",
+        "p00938"
+      ],
+      "maxMinimumFaceDepthMm": 3.0788421833810586,
+      "maxBelowTopMm": 3.0788421833810586,
+      "representative": {
+        "id": "p00938",
+        "time": 192.17748949999998,
+        "fraction": 0.5,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00432",
+          "p00527",
+          "p00795",
+          "p00938"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T050",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.01081,
+          0.74782,
+          0.3841
+        ],
+        "q": [
+          -0.09829,
+          0.75569,
+          -0.64683,
+          0.02964
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00441",
+        "p00536"
+      ],
+      "severeIds": [
+        "p00441",
+        "p00536"
+      ],
+      "maxMinimumFaceDepthMm": 3.5193114135482206,
+      "maxBelowTopMm": 4.318227125939655,
+      "representative": {
+        "id": "p00536",
+        "time": 109.29344290899999,
+        "fraction": 0.001,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00441",
+          "p00536"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-8.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T058",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.02499,
+          0.75184,
+          0.37135
+        ],
+        "q": [
+          -0.0642,
+          -0.75494,
+          0.64897,
+          0.06919
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 3,
+            "dx": 0.094,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "ids": [
+        "p00490",
+        "p00493"
+      ],
+      "severeIds": [
+        "p00490",
+        "p00493"
+      ],
+      "maxMinimumFaceDepthMm": 3.12434822649299,
+      "maxBelowTopMm": 4.30372061700568,
+      "representative": {
+        "id": "p00490",
+        "time": 101.74705375,
+        "fraction": 0.75,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00490",
+          "p00493"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-5.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T062",
+      "signature": {
+        "hand": "L",
+        "black": true,
+        "lift": 0.01028,
+        "relativeWrist": [
+          -0.0658,
+          0.7846,
+          0.319
+        ],
+        "q": [
+          -0.01861,
+          0.71931,
+          -0.69416,
+          0.01957
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": true,
+            "lift": 0.01028
+          }
+        ]
+      },
+      "ids": [
+        "p00514"
+      ],
+      "severeIds": [
+        "p00514"
+      ],
+      "maxMinimumFaceDepthMm": 3.92275726647659,
+      "maxBelowTopMm": 5.2716458545184475,
+      "representative": {
+        "id": "p00514",
+        "time": 105.87122492099999,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00514"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-9.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T063",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.03356,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 5,
+            "dx": 0.094,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ids": [
+        "p00528"
+      ],
+      "severeIds": [
+        "p00528"
+      ],
+      "maxMinimumFaceDepthMm": 5.891489838226738,
+      "maxBelowTopMm": 11.030141426311646,
+      "representative": {
+        "id": "p00528",
+        "time": 107.82541049999999,
+        "fraction": 0.5,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00528"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T066",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.025,
+          0.74626,
+          0.397
+        ],
+        "q": [
+          -0.02095,
+          0.71319,
+          -0.70033,
+          0.02133
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00571",
+        "p00655",
+        "p00970"
+      ],
+      "severeIds": [
+        "p00970"
+      ],
+      "maxMinimumFaceDepthMm": 3.445019016062867,
+      "maxBelowTopMm": 4.293377589004943,
+      "representative": {
+        "id": "p00970",
+        "time": 197.609901667,
+        "fraction": 0.999,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00970"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-10.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T086",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.01189,
+          0.74464,
+          0.3769
+        ],
+        "q": [
+          -0.09381,
+          0.73132,
+          -0.67449,
+          0.03792
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00708",
+        "p00715",
+        "p00983"
+      ],
+      "severeIds": [
+        "p00708",
+        "p00715",
+        "p00983"
+      ],
+      "maxMinimumFaceDepthMm": 4.268097239767843,
+      "maxBelowTopMm": 7.223935389262248,
+      "representative": {
+        "id": "p00715",
+        "time": 158.1436875,
+        "fraction": 0.25,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00708",
+          "p00715",
+          "p00983"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T092",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05875,
+          0.7452,
+          0.337
+        ],
+        "q": [
+          -0.12258,
+          0.68907,
+          -0.71412,
+          0.01378
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 5,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.00493
+          }
+        ]
+      },
+      "ids": [
+        "p00789",
+        "p00932",
+        "p00949"
+      ],
+      "severeIds": [
+        "p00789",
+        "p00932",
+        "p00949"
+      ],
+      "maxMinimumFaceDepthMm": 7.840274746474529,
+      "maxBelowTopMm": 14.586412154266037,
+      "representative": {
+        "id": "p00789",
+        "time": 169.88933683300002,
+        "fraction": 0.001,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00789",
+          "p00932",
+          "p00949"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-11.jpg",
+      "priority": "confirmed-visible-core-defect",
+      "visualNote": "Left thumb repeats the deep under-edge fold: key edge divides the thumb body from its visible distal tip."
+    },
+    {
+      "family": "T099",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.039,
+          0.75028,
+          0.37045
+        ],
+        "q": [
+          -0.10714,
+          0.73275,
+          -0.67161,
+          0.02331
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00829"
+      ],
+      "severeIds": [
+        "p00829"
+      ],
+      "maxMinimumFaceDepthMm": 3.986761771768932,
+      "maxBelowTopMm": 5.5720142576975995,
+      "representative": {
+        "id": "p00829",
+        "time": 176.0228855,
+        "fraction": 0.5,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00829"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-L/gl-960-12.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T103",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.06943,
+          0.75958,
+          0.3565
+        ],
+        "q": [
+          -0.06589,
+          -0.71613,
+          0.69149,
+          0.06824
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 5,
+            "dx": 0.1175,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "ids": [
+        "p00862"
+      ],
+      "severeIds": [
+        "p00862"
+      ],
+      "maxMinimumFaceDepthMm": 3.569669193503988,
+      "maxBelowTopMm": 3.569669193503988,
+      "representative": {
+        "id": "p00862",
+        "time": 181.291205667,
+        "fraction": 0.999,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00862"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-6.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T104",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.06943,
+          0.75958,
+          0.3565
+        ],
+        "q": [
+          -0.06589,
+          -0.71613,
+          0.69149,
+          0.06824
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          }
+        ]
+      },
+      "ids": [
+        "p00870"
+      ],
+      "severeIds": [
+        "p00870"
+      ],
+      "maxMinimumFaceDepthMm": 3.5696696462373945,
+      "maxBelowTopMm": 3.5696696462373945,
+      "representative": {
+        "id": "p00870",
+        "time": 182.315806333,
+        "fraction": 0.001,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00870"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-7.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    },
+    {
+      "family": "T114",
+      "signature": {
+        "hand": "L",
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05875,
+          0.7452,
+          0.35545
+        ],
+        "q": [
+          -0.03322,
+          0.727,
+          -0.68579,
+          0.00756
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "ids": [
+        "p00955"
+      ],
+      "severeIds": [
+        "p00955"
+      ],
+      "maxMinimumFaceDepthMm": 7.542502112479477,
+      "maxBelowTopMm": 13.892155829205999,
+      "representative": {
+        "id": "p00955",
+        "time": 194.826668,
+        "fraction": 0.5,
+        "hand": "L"
+      },
+      "classification": {
+        "newThumbAssignment": [
+          "p00955"
+        ],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": []
+      },
+      "alreadyInEightFamilyQueue": true,
+      "visualReviewed": false,
+      "priority": "composer-owned-endpoint-family",
+      "visualNote": "Already in the eight-family endpoint correction queue; see endpoint-visual-review/VERDICT.md and key-volume-42-summary.json for prior review. No duplicate new visual claim in this screen."
+    },
+    {
+      "family": "T117",
+      "signature": {
+        "hand": "R",
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          -0.02679,
+          0.76,
+          0.349
+        ],
+        "q": [
+          -0.02172,
+          -0.7086,
+          0.69608,
+          0.11348
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          }
+        ]
+      },
+      "ids": [
+        "p00969",
+        "p00976",
+        "p00984"
+      ],
+      "severeIds": [
+        "p00969",
+        "p00976",
+        "p00984"
+      ],
+      "maxMinimumFaceDepthMm": 3.538213966123749,
+      "maxBelowTopMm": 3.538213966123749,
+      "representative": {
+        "id": "p00969",
+        "time": 197.01581933300002,
+        "fraction": 0.001,
+        "hand": "R"
+      },
+      "classification": {
+        "newThumbAssignment": [],
+        "newlySevereExistingThumb": [],
+        "severeInBaseline": [
+          "p00969",
+          "p00976",
+          "p00984"
+        ]
+      },
+      "alreadyInEightFamilyQueue": false,
+      "visualReviewed": true,
+      "reviewImage": "/workspace/scratch/2e8cc8e77f98/thumb-key-screen/render-new-R/gl-960-8.jpg",
+      "priority": "smaller-core-contact-review",
+      "visualNote": "Representative inspected. Actual core intrusion exceeds the 3mm screen threshold, but the small contour/contact error is not promoted to a separate major posture defect. Keep this finite lower-priority geometry queue; do not treat every small overlap as a new visual blocker."
+    }
+  ],
+  "priorityCounts": {
+    "confirmed-visible-core-defect": 5,
+    "candidate-regression": 1,
+    "smaller-core-contact-review": 16,
+    "composer-owned-endpoint-family": 8
+  },
+  "baselineSevereNoLongerSevere": [
+    "p00855"
+  ]
+}

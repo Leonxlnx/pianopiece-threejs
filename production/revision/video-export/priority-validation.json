@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "nativeFramesRendered": 0,
+  "checks": [
+    "Default chronological order",
+    "Exact 33 overlapping climax chunks",
+    "All other chunks retain chronological order",
+    "Every chunk appears exactly once",
+    "Chunk limit applies to prioritized head",
+    "Exact exclusive range boundaries",
+    "Completed priority chunks stay skipped",
+    "Partial final chunk is retained",
+    "Priority time is relative to nonzero job start",
+    "Global frame timestamps remain unchanged",
+    "Configuration and chronological chunk generation unchanged",
+    "Missing, nonfinite, reversed, empty and out-of-job ranges rejected",
+    "Verified completed job remains empty: 0ab01bd54645d81c",
+    "Completed filenames/content hashes unchanged: 0ab01bd54645d81c",
+    "Verified completed job remains empty: bf61155d4ae94ce1",
+    "Completed filenames/content hashes unchanged: bf61155d4ae94ce1",
+    "Unchanged output/integrity function: prepare",
+    "Unchanged output/integrity function: chunks",
+    "Unchanged output/integrity function: chunk_paths",
+    "Unchanged output/integrity function: good_chunk",
+    "Unchanged output/integrity function: sample_times",
+    "Unchanged output/integrity function: encoder_command",
+    "Unchanged output/integrity function: assemble",
+    "Unchanged output/integrity function: load_job"
+  ],
+  "wrapperSha256": "0308090116546d5ead818c005528c6297cffb348f8c818b7bd8f488d6e4238d4",
+  "example": {
+    "rangeSecondsFromJobStart": [
+      159.156,
+      191.35
+    ],
+    "fps": 24,
+    "chunkFrames": 24,
+    "priorityChunks": 33,
+    "firstChunk": [
+      3816,
+      24
+    ],
+    "lastChunk": [
+      4584,
+      24
+    ],
+    "coveredSeconds": [
+      159,
+      192
+    ],
+    "firstFourChunkFilenames": [
+      "003816-00024.mp4",
+      "003840-00024.mp4",
+      "003864-00024.mp4",
+      "003888-00024.mp4"
+    ]
+  },
+  "existingJobs": [
+    {
+      "job": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/0ab01bd54645d81c",
+      "completedChunks": 2,
+      "pendingAfterPriority": 0,
+      "contentHashesUnchanged": true
+    },
+    {
+      "job": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/bf61155d4ae94ce1",
+      "completedChunks": 1,
+      "pendingAfterPriority": 0,
+      "contentHashesUnchanged": true
+    }
+  ]
+}

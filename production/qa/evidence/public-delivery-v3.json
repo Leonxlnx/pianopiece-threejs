@@ -1,0 +1,192 @@
+{
+  "at": "2026-09-05T04:28:01.112666+00:00",
+  "url": "https://daybreak-piano-film.lexn8.chatgpt.site",
+  "version": 3,
+  "passed": true,
+  "routes": 17,
+  "checks": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/",
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 11099,
+      "sha256": "b6509766a7cffe04a999aebd59a71086b95cf3dd024ca6d08378848d96494d34",
+      "expectedSha256": null,
+      "exactMatch": null
+    },
+    {
+      "path": "/assets/score.json",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/score.json",
+      "contentType": "application/json",
+      "bytes": 302203,
+      "sha256": "0587348ddda6c2fb7c415148ffca11c09c64e844069b0d4426fc6dff89d24f84",
+      "expectedSha256": "0587348ddda6c2fb7c415148ffca11c09c64e844069b0d4426fc6dff89d24f84",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/daybreak.mp3",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/daybreak.mp3",
+      "contentType": "audio/mpeg",
+      "bytes": 6627261,
+      "sha256": "2bbe1fc4e5cacc59b8dfc9fcc2882e4808054d75073cefb13f4f7ca6d4317387",
+      "expectedSha256": "2bbe1fc4e5cacc59b8dfc9fcc2882e4808054d75073cefb13f4f7ca6d4317387",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/pianist.glb",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/pianist.glb",
+      "contentType": "application/octet-stream",
+      "bytes": 10157684,
+      "sha256": "48aa8727f23d2102ec83b6e0ce44baaeb05f3f89c106b656b2094c37cc70f014",
+      "expectedSha256": "48aa8727f23d2102ec83b6e0ce44baaeb05f3f89c106b656b2094c37cc70f014",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/stage-poster.webp",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/stage-poster.webp",
+      "contentType": "application/octet-stream",
+      "bytes": 75922,
+      "sha256": "057ebc897902c9567fc223e6ab1eb62ed58059b726345fd6e990e966734e6314",
+      "expectedSha256": "057ebc897902c9567fc223e6ab1eb62ed58059b726345fd6e990e966734e6314",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/stage-portrait.webp",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/stage-portrait.webp",
+      "contentType": "application/octet-stream",
+      "bytes": 55104,
+      "sha256": "7c85f84349654f5a1b8ce31a74c1ca6235e2b2b0f78e0231a63dd304e7d5f3a4",
+      "expectedSha256": "7c85f84349654f5a1b8ce31a74c1ca6235e2b2b0f78e0231a63dd304e7d5f3a4",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/credits.txt",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/credits.txt",
+      "contentType": "text/plain",
+      "bytes": 1666,
+      "sha256": "3ff8774f45168d517db7568cd3787040e6a04e33ff66f116940e5558230da4bd",
+      "expectedSha256": "3ff8774f45168d517db7568cd3787040e6a04e33ff66f116940e5558230da4bd",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/software-notices.txt",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/software-notices.txt",
+      "contentType": "text/plain",
+      "bytes": 78333,
+      "sha256": "a3f2fe8021835342c697de26c419d4c40d686dd76d97b4f7296b356a3bdd78d7",
+      "expectedSha256": "a3f2fe8021835342c697de26c419d4c40d686dd76d97b4f7296b356a3bdd78d7",
+      "exactMatch": true
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/favicon.svg",
+      "contentType": "image/svg+xml",
+      "bytes": 278,
+      "sha256": "9b67ce62e5e37fb6efc3b13502dd29118d773c2b8361752bda822aac834d3da8",
+      "expectedSha256": "9b67ce62e5e37fb6efc3b13502dd29118d773c2b8361752bda822aac834d3da8",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/Performance-qnFK2dTj.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/Performance-qnFK2dTj.js",
+      "contentType": "text/javascript",
+      "bytes": 75167,
+      "sha256": "126d6978a9c7d5a824d80a92225bd60007af95a0477b75bb7abb1b3cfcc118a8",
+      "expectedSha256": "126d6978a9c7d5a824d80a92225bd60007af95a0477b75bb7abb1b3cfcc118a8",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/framework-CXnKph_e.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/framework-CXnKph_e.js",
+      "contentType": "text/javascript",
+      "bytes": 189805,
+      "sha256": "73b45b606448e4dc310fbe851d8089ee752f3eb081980b3a6fec88988820ee12",
+      "expectedSha256": "73b45b606448e4dc310fbe851d8089ee752f3eb081980b3a6fec88988820ee12",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/index-DNdwr4no.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/index-DNdwr4no.js",
+      "contentType": "text/javascript",
+      "bytes": 80765,
+      "sha256": "44963dd57810acbd6d8b37f4f5b4ed164a96b5708aa51ac5cdeec2125e682f92",
+      "expectedSha256": "44963dd57810acbd6d8b37f4f5b4ed164a96b5708aa51ac5cdeec2125e682f92",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/index-DqVdKkAV.css",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/index-DqVdKkAV.css",
+      "contentType": "text/css",
+      "bytes": 136663,
+      "sha256": "c377a77db649664729fb5c5e309cf8a99629299ea70c0c450ada606c4b36b05e",
+      "expectedSha256": "c377a77db649664729fb5c5e309cf8a99629299ea70c0c450ada606c4b36b05e",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/layout-segment-context-CAj5NOS_.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/layout-segment-context-CAj5NOS_.js",
+      "contentType": "text/javascript",
+      "bytes": 283,
+      "sha256": "2286bcb627f24f291f366c52e061c968f59e0889f0fceb03207ff4b5f0d136eb",
+      "expectedSha256": "2286bcb627f24f291f366c52e061c968f59e0889f0fceb03207ff4b5f0d136eb",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/math-CSTLxdHv.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/math-CSTLxdHv.js",
+      "contentType": "text/javascript",
+      "bytes": 577394,
+      "sha256": "6d396b3c7c371b8442c3dadcca4d53fc180f231019de69fd1fe94e4edbf49bb1",
+      "expectedSha256": "6d396b3c7c371b8442c3dadcca4d53fc180f231019de69fd1fe94e4edbf49bb1",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/rolldown-runtime-S-ySWqyJ.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/rolldown-runtime-S-ySWqyJ.js",
+      "contentType": "text/javascript",
+      "bytes": 694,
+      "sha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75",
+      "expectedSha256": "5db5ba82eef00d1dee7e86e663098c9427d01183a88d357437daff295aec3e75",
+      "exactMatch": true
+    },
+    {
+      "path": "/assets/scene-fNRVgPT1.js",
+      "status": 200,
+      "url": "https://daybreak-piano-film.lexn8.chatgpt.site/assets/scene-fNRVgPT1.js",
+      "contentType": "text/javascript",
+      "bytes": 100008,
+      "sha256": "49ff35bc2b83e02462ce5ac8dd8fe00522768f1d1ecf3bff9f412f1f6d85d805",
+      "expectedSha256": "49ff35bc2b83e02462ce5ac8dd8fe00522768f1d1ecf3bff9f412f1f6d85d805",
+      "exactMatch": true
+    }
+  ],
+  "pageDependencyPaths": [
+    "/assets/Performance-qnFK2dTj.js",
+    "/assets/framework-CXnKph_e.js",
+    "/assets/index-DNdwr4no.js",
+    "/assets/index-DqVdKkAV.css",
+    "/assets/layout-segment-context-CAj5NOS_.js",
+    "/assets/math-CSTLxdHv.js",
+    "/assets/rolldown-runtime-S-ySWqyJ.js"
+  ],
+  "unverifiedPageDependencies": [],
+  "authenticated": false,
+  "browserPlaybackTested": false,
+  "listeningPerformed": false
+}

@@ -1,0 +1,362 @@
+{
+  "sourceFingerprint": "911870882ae92597b7520040c4de6b7dea145963a49743239eb85e4782dd2825",
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/source-911870882ae92597",
+  "visualOnly": true,
+  "audioCopied": false,
+  "width": 1920,
+  "height": 1080,
+  "lpNumThreads": "4",
+  "cpuQuota": "800000 100000",
+  "initializationSeconds": 53.82433497100283,
+  "initialGlErrors": [],
+  "meshes": 1091,
+  "vertices": 842968,
+  "rows": [
+    {
+      "time": 6.0,
+      "shot": "First light",
+      "frameSeconds": 6.562524093998945,
+      "rendererTiming": {
+        "update": 0.47207848399557406,
+        "shadows": 2.5877931710056146,
+        "render": 3.5024500819999957,
+        "total": 6.562321737001184
+      },
+      "staticShadowCacheReused": false,
+      "memory": {
+        "python": {
+          "VmHWM": 996958208,
+          "VmRSS": 996958208
+        },
+        "poseServer": {},
+        "sharedCgroup": {
+          "memory.current": 17651060736,
+          "memory.max": 21474836480,
+          "cpuStat": {
+            "usage_usec": 125413319961,
+            "user_usec": 111573617848,
+            "system_usec": 13839702113,
+            "nice_usec": 35204021,
+            "nr_periods": 278476,
+            "nr_throttled": 114376,
+            "throttled_usec": 9931452131,
+            "nr_bursts": 0,
+            "burst_usec": 0
+          }
+        }
+      },
+      "sharedAverageCpuCores": 7.9772597022343845,
+      "sharedThrottledPeriods": 62,
+      "glError": "GL_NO_ERROR",
+      "peakSampledPythonRssDuringFrame": 996888576
+    },
+    {
+      "time": 26.05,
+      "shot": "Hands \u00b7 the theme",
+      "frameSeconds": 7.661639472993556,
+      "rendererTiming": {
+        "update": 0.32898925200424856,
+        "shadows": 0.20025330199860036,
+        "render": 7.132113861996913,
+        "total": 7.661356415999762
+      },
+      "staticShadowCacheReused": true,
+      "memory": {
+        "python": {
+          "VmHWM": 1005088768,
+          "VmRSS": 1005088768
+        },
+        "poseServer": {},
+        "sharedCgroup": {
+          "memory.current": 15570292736,
+          "memory.max": 21474836480,
+          "cpuStat": {
+            "usage_usec": 125474853268,
+            "user_usec": 111634057198,
+            "system_usec": 13840796070,
+            "nice_usec": 35204021,
+            "nr_periods": 278553,
+            "nr_throttled": 114451,
+            "throttled_usec": 9938712634,
+            "nr_bursts": 0,
+            "burst_usec": 0
+          }
+        }
+      },
+      "sharedAverageCpuCores": 7.993588476184295,
+      "sharedThrottledPeriods": 75,
+      "glError": "GL_NO_ERROR",
+      "peakSampledPythonRssDuringFrame": 1005088768
+    },
+    {
+      "time": 64.0,
+      "shot": "Across the strings",
+      "frameSeconds": 6.609442312997999,
+      "rendererTiming": {
+        "update": 0.24674873399635544,
+        "shadows": 0.18143676000181586,
+        "render": 6.1810051720021875,
+        "total": 6.609190666000359
+      },
+      "staticShadowCacheReused": true,
+      "memory": {
+        "python": {
+          "VmHWM": 1005182976,
+          "VmRSS": 1005182976
+        },
+        "poseServer": {},
+        "sharedCgroup": {
+          "memory.current": 15593115648,
+          "memory.max": 21474836480,
+          "cpuStat": {
+            "usage_usec": 125527526809,
+            "user_usec": 111685652208,
+            "system_usec": 13841874600,
+            "nice_usec": 35204021,
+            "nr_periods": 278619,
+            "nr_throttled": 114516,
+            "throttled_usec": 9945064299,
+            "nr_bursts": 0,
+            "burst_usec": 0
+          }
+        }
+      },
+      "sharedAverageCpuCores": 7.952616349587,
+      "sharedThrottledPeriods": 65,
+      "glError": "GL_NO_ERROR",
+      "peakSampledPythonRssDuringFrame": 1005182976
+    },
+    {
+      "time": 170.0,
+      "shot": "A new breath",
+      "frameSeconds": 3.097420042999147,
+      "rendererTiming": {
+        "update": 0.2045250489973114,
+        "shadows": 0.1354860240026028,
+        "render": 2.7572232199963764,
+        "total": 3.0972342929962906
+      },
+      "staticShadowCacheReused": true,
+      "memory": {
+        "python": {
+          "VmHWM": 1013522432,
+          "VmRSS": 1013522432
+        },
+        "poseServer": {},
+        "sharedCgroup": {
+          "memory.current": 16123826176,
+          "memory.max": 21474836480,
+          "cpuStat": {
+            "usage_usec": 125549875662,
+            "user_usec": 111704670387,
+            "system_usec": 13845205274,
+            "nice_usec": 35204021,
+            "nr_periods": 278651,
+            "nr_throttled": 114531,
+            "throttled_usec": 9946028804,
+            "nr_bursts": 0,
+            "burst_usec": 0
+          }
+        }
+      },
+      "sharedAverageCpuCores": 7.145455796356805,
+      "sharedThrottledPeriods": 15,
+      "glError": "GL_NO_ERROR",
+      "peakSampledPythonRssDuringFrame": 1013522432
+    }
+  ],
+  "peakSampledPythonRss": 1013522432,
+  "peakSampledNodeRss": null,
+  "nodeLifetimePeakRss": null,
+  "peakSampledCombinedRss": null,
+  "peakSampledSharedCgroupMemory": 18357211136,
+  "pythonLifetimePeakRss": 1013157888,
+  "memorySamplingSeconds": 0.25,
+  "estimates": {
+    "frames30fps": 6995,
+    "frames24fps": 5596,
+    "encodingAllowanceSecondsPerFrame": 0.4,
+    "meanBasedHours30fps": 12.402050439674486,
+    "medianBasedHours30fps": 13.574153474575503,
+    "observedRangeBasedHours30fps": [
+      6.7956814446608425,
+      15.664213364886091
+    ],
+    "cautiousPlanningHours30fps": [
+      12.79693125235328,
+      19.580266706107615
+    ],
+    "meanBasedHours24fps": 9.921640351739589,
+    "note": "Four representative frames under shared CPU load, not a full-film benchmark. First builds static shadows; later frames reuse them. Encoder allowance comes from prior measurement, not fresh encoding. Initialization excluded from per-frame times."
+  },
+  "interchangeRemoved": true,
+  "poseServerMemoryProbe": {
+    "sourceSnapshot": "/workspace/scratch/2e8cc8e77f98/video-export/planning-30fps/source-911870882ae92597",
+    "standaloneNodeProbe": true,
+    "simultaneousWithGlMeasurement": false,
+    "nativeFramesRendered": 0,
+    "rows": [
+      {
+        "time": 0,
+        "initialization": true,
+        "memory": {
+          "rss": 729759744,
+          "heapTotal": 553586688,
+          "heapUsed": 404590208,
+          "external": 104026210,
+          "arrayBuffers": 96705281
+        },
+        "resource": {
+          "userCPUTime": 11196813,
+          "systemCPUTime": 6591881,
+          "maxRSS": 1000320,
+          "sharedMemorySize": 0,
+          "unsharedDataSize": 0,
+          "unsharedStackSize": 0,
+          "minorPageFault": 422734,
+          "majorPageFault": 0,
+          "swappedOut": 0,
+          "fsRead": 0,
+          "fsWrite": 299384,
+          "ipcSent": 0,
+          "ipcReceived": 0,
+          "signalsCount": 0,
+          "voluntaryContextSwitches": 1737,
+          "involuntaryContextSwitches": 3569
+        }
+      },
+      {
+        "time": 6,
+        "initialization": false,
+        "memory": {
+          "rss": 443740160,
+          "heapTotal": 267730944,
+          "heapUsed": 170876248,
+          "external": 105033249,
+          "arrayBuffers": 98511412
+        },
+        "resource": {
+          "userCPUTime": 11472138,
+          "systemCPUTime": 6661427,
+          "maxRSS": 1000320,
+          "sharedMemorySize": 0,
+          "unsharedDataSize": 0,
+          "unsharedStackSize": 0,
+          "minorPageFault": 424869,
+          "majorPageFault": 0,
+          "swappedOut": 0,
+          "fsRead": 0,
+          "fsWrite": 299384,
+          "ipcSent": 0,
+          "ipcReceived": 0,
+          "signalsCount": 0,
+          "voluntaryContextSwitches": 1767,
+          "involuntaryContextSwitches": 3605
+        }
+      },
+      {
+        "time": 26.05,
+        "initialization": false,
+        "memory": {
+          "rss": 445022208,
+          "heapTotal": 257740800,
+          "heapUsed": 180124160,
+          "external": 104737703,
+          "arrayBuffers": 98215866
+        },
+        "resource": {
+          "userCPUTime": 11812590,
+          "systemCPUTime": 6711681,
+          "maxRSS": 1000320,
+          "sharedMemorySize": 0,
+          "unsharedDataSize": 0,
+          "unsharedStackSize": 0,
+          "minorPageFault": 426966,
+          "majorPageFault": 0,
+          "swappedOut": 0,
+          "fsRead": 0,
+          "fsWrite": 299384,
+          "ipcSent": 0,
+          "ipcReceived": 0,
+          "signalsCount": 0,
+          "voluntaryContextSwitches": 1812,
+          "involuntaryContextSwitches": 3649
+        }
+      },
+      {
+        "time": 64,
+        "initialization": false,
+        "memory": {
+          "rss": 446779392,
+          "heapTotal": 259477504,
+          "heapUsed": 182443464,
+          "external": 104737708,
+          "arrayBuffers": 98215871
+        },
+        "resource": {
+          "userCPUTime": 12001473,
+          "systemCPUTime": 6730416,
+          "maxRSS": 1000320,
+          "sharedMemorySize": 0,
+          "unsharedDataSize": 0,
+          "unsharedStackSize": 0,
+          "minorPageFault": 429056,
+          "majorPageFault": 0,
+          "swappedOut": 0,
+          "fsRead": 0,
+          "fsWrite": 299384,
+          "ipcSent": 0,
+          "ipcReceived": 0,
+          "signalsCount": 0,
+          "voluntaryContextSwitches": 1839,
+          "involuntaryContextSwitches": 3671
+        }
+      },
+      {
+        "time": 170,
+        "initialization": false,
+        "memory": {
+          "rss": 448516096,
+          "heapTotal": 261476352,
+          "heapUsed": 184274600,
+          "external": 104737709,
+          "arrayBuffers": 98215872
+        },
+        "resource": {
+          "userCPUTime": 12174755,
+          "systemCPUTime": 6755769,
+          "maxRSS": 1000320,
+          "sharedMemorySize": 0,
+          "unsharedDataSize": 0,
+          "unsharedStackSize": 0,
+          "minorPageFault": 431146,
+          "majorPageFault": 0,
+          "swappedOut": 0,
+          "fsRead": 0,
+          "fsWrite": 299384,
+          "ipcSent": 0,
+          "ipcReceived": 0,
+          "signalsCount": 0,
+          "voluntaryContextSwitches": 1856,
+          "involuntaryContextSwitches": 3682
+        }
+      }
+    ]
+  },
+  "memoryLimitations": "Child /proc status is unavailable in this runtime. Node RSS was measured through process.memoryUsage in a separate run of the same frozen pose-server/inputs; it is not simultaneous with GL frame RSS. CombinedRss fields in the original sample contain Python only because Node /proc was unavailable.",
+  "memorySummary": {
+    "pythonSteadyRssGiB": [
+      0.9284896850585938,
+      0.9439163208007812
+    ],
+    "nodeSteadyRssGiB": [
+      0.4132652282714844,
+      0.4177131652832031
+    ],
+    "nodePeakRssGiB": 0.9539794921875,
+    "pythonPeakRssGiB": 0.9439163208007812,
+    "estimatedSteadyCombinedGiB": 1.3616294860839844,
+    "sumOfSeparatePeakGiB": 1.8978958129882812
+  },
+  "freshInitializationFixEvidence": "../fresh-gl-fixed-diagnostic/passed.json"
+}

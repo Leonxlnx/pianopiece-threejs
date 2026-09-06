@@ -1,0 +1,25 @@
+import * as THREE from "three";
+import { lowerBound } from "./math.mjs";
+function wristMotionSampler(data) {
+  const hands = new Map(data.hands.map((hand) => [hand.side, hand.knots.map((k) => ({
+    ...k,
+    p: new THREE.Vector3().fromArray(k.position),
+    q: new THREE.Quaternion().fromArray(k.quaternion)
+  }))]));
+  return (side, time) => {
+    const knots = hands.get(side);
+    if (!knots?.length) throw new Error(`Missing ${side} wrist trajectory.`);
+    const index = lowerBound(knots, time, (k) => k.time);
+    const a = knots[Math.max(0, index - 1)];
+    const b = knots[Math.min(index, knots.length - 1)];
+    if (a === b) return { position: a.p.clone(), q: a.q.clone() };
+    const begin = b.moveStart ?? a.time;
+    const end = b.moveEnd ?? b.time;
+    const t = Math.max(0, Math.min(1, (time - begin) / Math.max(1e-6, end - begin)));
+    const u = t * t * t * (10 + t * (-15 + 6 * t));
+    return { position: a.p.clone().lerp(b.p, u), q: a.q.clone().slerp(b.q, u) };
+  };
+}
+export {
+  wristMotionSampler
+};

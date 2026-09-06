@@ -1,0 +1,62 @@
+{
+  "pairs": [
+    {
+      "view": "wide",
+      "pixels": 518400,
+      "changedPixels": 15,
+      "changedPercent": 0.002893518518518519,
+      "pixelsOver2Levels": 10,
+      "pixelsOver8Levels": 1,
+      "maxChannelDifference": 14,
+      "meanAbsoluteChannelDifference": 0.00010609567901234568,
+      "psnrDb": 80.23954670673265,
+      "changedBounds": [
+        310,
+        151,
+        562,
+        360
+      ],
+      "hashes": [
+        "181d8499f3f401c6bf1b8f233edff8100321a636636b471100ccc6de471c0131",
+        "a2b23091ebdc31e8b7e37d62a26ef2de674e0e0944345101c3a922d96966cc6c"
+      ]
+    },
+    {
+      "view": "interior",
+      "pixels": 518400,
+      "changedPixels": 20,
+      "changedPercent": 0.0038580246913580245,
+      "pixelsOver2Levels": 9,
+      "pixelsOver8Levels": 6,
+      "maxChannelDifference": 25,
+      "meanAbsoluteChannelDifference": 0.00015560699588477365,
+      "psnrDb": 75.90896636702048,
+      "changedBounds": [
+        167,
+        92,
+        669,
+        539
+      ],
+      "hashes": [
+        "a1dad22f370ec23a234eb65615a6e1ff91d3c134232f7e1ed36585819ead581a",
+        "83d55e77547a9aa691079a21429eec67597b4c933284f36b5c8e87bd6bcc5e80"
+      ]
+    }
+  ],
+  "assetHashesStillMatch": {
+    "public/assets/score.json": true,
+    "public/assets/pianist.glb": true
+  },
+  "environmentArraysExactlyEqual": {
+    "wide": {
+      "environment-capture-linear.npz": true,
+      "environment-prefiltered-linear.npz": true
+    },
+    "interior": {
+      "environment-capture-linear.npz": true,
+      "environment-prefiltered-linear.npz": true
+    }
+  },
+  "visualReview": "Opening wide and piano interior side-by-side plus amplified pixel differences inspected. Piano shape, shading, shadow placement and moving components remain visually unchanged; only isolated raster edge samples differ. No browser FPS or playback claim.",
+  "accepted": true
+}

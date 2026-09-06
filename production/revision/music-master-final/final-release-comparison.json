@@ -1,0 +1,5874 @@
+{
+  "previousScoreSha256": "3915abaf49b17a7df0b7d18e88a735d27923b9c64af255b5d7853471b1c4b56f",
+  "finalScoreSha256": "5b47b2ba244b70fd2b7a63b47baccc366bdd0c7faaccbf00959c9aa43ae05baa",
+  "notes": 1068,
+  "allAttacksPitchesVelocitiesRolesHandsUnchanged": true,
+  "durationTempoPedalsUnchanged": true,
+  "changedPhysicalHolds": 407,
+  "sameTerminalPedalEndpointChanges": 397,
+  "terminalEndpointChanges": 10,
+  "totalEndpointAdvanceMilliseconds": 206.73199999994907,
+  "physicalAdvanceMillisecondsRange": [
+    9.430999999977985,
+    138.48100000001295
+  ],
+  "continuousPedalPrecision": {
+    "binaryEndpointReportIsExactAudioEquivalence": false,
+    "reason": "The wrist report checks only whether released keys reach the same pedal-up. This renderer also models continuous half-pedal damping from physical key release, so earlier releases can produce a small extra attenuation while pedal remains partially down.",
+    "sameEndpointExtraAttenuationDbPercentiles": {
+      "min": 1.8752627069142047e-06,
+      "median": 0.00841278991225064,
+      "p95": 0.11707303180797209,
+      "max": 0.533899359324507
+    },
+    "boundInterpretation": "Extra per-voice envelope attenuation at the former key-release instant; later damping is the same. The full-mix change is smaller and depends on source decay, polyphony, restrikes and mixing."
+  },
+  "endpointChanges": [
+    {
+      "id": "p00064",
+      "bar": 6,
+      "midi": 69,
+      "previousEndpoint": 17.942139,
+      "finalEndpoint": 17.917139,
+      "advanceMilliseconds": 25.00000000000213
+    },
+    {
+      "id": "p00170",
+      "bar": 14,
+      "midi": 75,
+      "previousEndpoint": 40.405304,
+      "finalEndpoint": 40.380304,
+      "advanceMilliseconds": 24.99999999999858
+    },
+    {
+      "id": "p00409",
+      "bar": 31,
+      "midi": 76,
+      "previousEndpoint": 87.673639,
+      "finalEndpoint": 87.648639,
+      "advanceMilliseconds": 24.999999999991473
+    },
+    {
+      "id": "p00440",
+      "bar": 33,
+      "midi": 76,
+      "previousEndpoint": 93.22444100000001,
+      "finalEndpoint": 93.199441,
+      "advanceMilliseconds": 25.000000000019895
+    },
+    {
+      "id": "p00704",
+      "bar": 55,
+      "midi": 86,
+      "previousEndpoint": 156.194243,
+      "finalEndpoint": 156.169243,
+      "advanceMilliseconds": 25.000000000005684
+    },
+    {
+      "id": "p00734",
+      "bar": 57,
+      "midi": 74,
+      "previousEndpoint": 161.823873,
+      "finalEndpoint": 161.798873,
+      "advanceMilliseconds": 25.000000000005684
+    },
+    {
+      "id": "p00830",
+      "bar": 63,
+      "midi": 81,
+      "previousEndpoint": 176.52388499999998,
+      "finalEndpoint": 176.516219,
+      "advanceMilliseconds": 7.665999999971973
+    },
+    {
+      "id": "p00838",
+      "bar": 63,
+      "midi": 81,
+      "previousEndpoint": 177.84861899999999,
+      "finalEndpoint": 177.832219,
+      "advanceMilliseconds": 16.39999999997599
+    },
+    {
+      "id": "p00939",
+      "bar": 69,
+      "midi": 86,
+      "previousEndpoint": 192.67848899999998,
+      "finalEndpoint": 192.670823,
+      "advanceMilliseconds": 7.665999999971973
+    },
+    {
+      "id": "p01016",
+      "bar": 74,
+      "midi": 69,
+      "previousEndpoint": 207.858445,
+      "finalEndpoint": 207.83344499999998,
+      "advanceMilliseconds": 25.000000000005684
+    }
+  ],
+  "physicalChanges": [
+    {
+      "id": "p00002",
+      "physicalAdvanceMilliseconds": 37.206000000000074,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.7953033936840114e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 49641,
+          "endFrame": 51282,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00006",
+      "physicalAdvanceMilliseconds": 26.000000000000245,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 117055,
+          "endFrame": 118202,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00007",
+      "physicalAdvanceMilliseconds": 24.99999999999991,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.895319709465853e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 118025,
+          "endFrame": 119128,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00008",
+      "physicalAdvanceMilliseconds": 20.51399999999992,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.1925376403963116e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 129937,
+          "endFrame": 130841,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00012",
+      "physicalAdvanceMilliseconds": 29.752999999999474,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.633417460398187e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 185018,
+          "endFrame": 186330,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00013",
+      "physicalAdvanceMilliseconds": 114.86600000000013,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.4309914290802935e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 213832,
+          "endFrame": 218897,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00017",
+      "physicalAdvanceMilliseconds": 47.112000000000265,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 7.338598691087981e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 262738,
+          "endFrame": 264816,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00023",
+      "physicalAdvanceMilliseconds": 38.20600000000063,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.950692393880293e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 369795,
+          "endFrame": 371480,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00024",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 386722,
+          "endFrame": 387869,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00031",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 456604,
+          "endFrame": 457750,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00034",
+      "physicalAdvanceMilliseconds": 38.20600000000063,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.947160825694013e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 474279,
+          "endFrame": 475963,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00036",
+      "physicalAdvanceMilliseconds": 50.5260000000014,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 7.871865487216125e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 539779,
+          "endFrame": 542008,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00038",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006209760660562605,
+      "integrationSegments": [
+        {
+          "startFrame": 558735,
+          "endFrame": 561157,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00040",
+      "physicalAdvanceMilliseconds": 69.95700000000049,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007912188851567381,
+      "integrationSegments": [
+        {
+          "startFrame": 573632,
+          "endFrame": 576718,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00041",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 576144,
+          "endFrame": 577291,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00044",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 606338,
+          "endFrame": 607485,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00045",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 621722,
+          "endFrame": 622869,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00048",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 637679,
+          "endFrame": 638826,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00049",
+      "physicalAdvanceMilliseconds": 67.93799999999983,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.009601797553182063,
+      "integrationSegments": [
+        {
+          "startFrame": 650640,
+          "endFrame": 653636,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00051",
+      "physicalAdvanceMilliseconds": 53.01599999999951,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00599439323880899,
+      "integrationSegments": [
+        {
+          "startFrame": 665773,
+          "endFrame": 668111,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00052",
+      "physicalAdvanceMilliseconds": 71.76600000000022,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008112172886052883,
+      "integrationSegments": [
+        {
+          "startFrame": 680683,
+          "endFrame": 683847,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00057",
+      "physicalAdvanceMilliseconds": 29.22799999999981,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004131080455958505,
+      "integrationSegments": [
+        {
+          "startFrame": 729132,
+          "endFrame": 730421,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00059",
+      "physicalAdvanceMilliseconds": 76.21200000000172,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.010771575960028342,
+      "integrationSegments": [
+        {
+          "startFrame": 741693,
+          "endFrame": 745054,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00062",
+      "physicalAdvanceMilliseconds": 18.66399999999757,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0026408148143598196,
+      "integrationSegments": [
+        {
+          "startFrame": 760011,
+          "endFrame": 760835,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00064",
+      "physicalAdvanceMilliseconds": 25.00000000000213,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.511462844318143,
+      "integrationSegments": [
+        {
+          "startFrame": 790146,
+          "endFrame": 791248,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00065",
+      "physicalAdvanceMilliseconds": 76.06299999999777,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.010749141853595674,
+      "integrationSegments": [
+        {
+          "startFrame": 784137,
+          "endFrame": 787491,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00066",
+      "physicalAdvanceMilliseconds": 113.49200000000081,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.012832308879486309,
+      "integrationSegments": [
+        {
+          "startFrame": 800877,
+          "endFrame": 805882,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00068",
+      "physicalAdvanceMilliseconds": 51.270999999999844,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005796973102201508,
+      "integrationSegments": [
+        {
+          "startFrame": 819181,
+          "endFrame": 821442,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00069",
+      "physicalAdvanceMilliseconds": 26.45300000000006,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00374008602956057,
+      "integrationSegments": [
+        {
+          "startFrame": 820849,
+          "endFrame": 822016,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00070",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 835680,
+          "endFrame": 836826,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00073",
+      "physicalAdvanceMilliseconds": 58.940999999997246,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008332668103562538,
+      "integrationSegments": [
+        {
+          "startFrame": 864994,
+          "endFrame": 867594,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00078",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0029407908660880715,
+      "integrationSegments": [
+        {
+          "startFrame": 912069,
+          "endFrame": 913216,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00084",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 960417,
+          "endFrame": 961564,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00087",
+      "physicalAdvanceMilliseconds": 58.68200000000101,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008294209635392251,
+      "integrationSegments": [
+        {
+          "startFrame": 975886,
+          "endFrame": 978474,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00089",
+      "physicalAdvanceMilliseconds": 105.90200000000038,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.014966753862937329,
+      "integrationSegments": [
+        {
+          "startFrame": 1034167,
+          "endFrame": 1038837,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00094",
+      "physicalAdvanceMilliseconds": 38.20599999999885,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004320167924462424,
+      "integrationSegments": [
+        {
+          "startFrame": 1070345,
+          "endFrame": 1072030,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00096",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1086267,
+          "endFrame": 1087414,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00102",
+      "physicalAdvanceMilliseconds": 11.389999999998679,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0016088459184570747,
+      "integrationSegments": [
+        {
+          "startFrame": 1133636,
+          "endFrame": 1134138,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00105",
+      "physicalAdvanceMilliseconds": 44.70299999999838,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006320008269317431,
+      "integrationSegments": [
+        {
+          "startFrame": 1158039,
+          "endFrame": 1160011,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00106",
+      "physicalAdvanceMilliseconds": 129.58300000000023,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.014650112475001953,
+      "integrationSegments": [
+        {
+          "startFrame": 1173649,
+          "endFrame": 1179363,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00109",
+      "physicalAdvanceMilliseconds": 25.9999999999998,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 1208807,
+          "endFrame": 1209953,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00117",
+      "physicalAdvanceMilliseconds": 25.00000000000213,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003531769326971506,
+      "integrationSegments": [
+        {
+          "startFrame": 1270605,
+          "endFrame": 1271707,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00118",
+      "physicalAdvanceMilliseconds": 38.20599999999885,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005400209905578029,
+      "integrationSegments": [
+        {
+          "startFrame": 1283774,
+          "endFrame": 1285459,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00120",
+      "physicalAdvanceMilliseconds": 113.49200000000081,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.012832308879486309,
+      "integrationSegments": [
+        {
+          "startFrame": 1296190,
+          "endFrame": 1301195,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00122",
+      "physicalAdvanceMilliseconds": 38.20599999999885,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005400209905578029,
+      "integrationSegments": [
+        {
+          "startFrame": 1315070,
+          "endFrame": 1316755,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00132",
+      "physicalAdvanceMilliseconds": 48.04799999999787,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006791124504403469,
+      "integrationSegments": [
+        {
+          "startFrame": 1406409,
+          "endFrame": 1408528,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00134",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 1422398,
+          "endFrame": 1424821,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00137",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1455730,
+          "endFrame": 1456877,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00140",
+      "physicalAdvanceMilliseconds": 77.11700000000121,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.010899770853929304,
+      "integrationSegments": [
+        {
+          "startFrame": 1502221,
+          "endFrame": 1505622,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00141",
+      "physicalAdvanceMilliseconds": 59.04699999999963,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008345487592952634,
+      "integrationSegments": [
+        {
+          "startFrame": 1529650,
+          "endFrame": 1532254,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00144",
+      "physicalAdvanceMilliseconds": 138.48100000000585,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.015657724341063512,
+      "integrationSegments": [
+        {
+          "startFrame": 1545676,
+          "endFrame": 1551783,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00146",
+      "physicalAdvanceMilliseconds": 65.36700000000195,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007391717582329476,
+      "integrationSegments": [
+        {
+          "startFrame": 1563702,
+          "endFrame": 1566585,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00147",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 1566770,
+          "endFrame": 1567916,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00150",
+      "physicalAdvanceMilliseconds": 55.39100000000019,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007826298272653737,
+      "integrationSegments": [
+        {
+          "startFrame": 1594151,
+          "endFrame": 1596593,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00151",
+      "physicalAdvanceMilliseconds": 68.916999999999,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0097396070641256,
+      "integrationSegments": [
+        {
+          "startFrame": 1610455,
+          "endFrame": 1613494,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00153",
+      "physicalAdvanceMilliseconds": 68.55699999999842,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.009688329106565212,
+      "integrationSegments": [
+        {
+          "startFrame": 1625096,
+          "endFrame": 1628119,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00154",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 1628305,
+          "endFrame": 1629451,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00158",
+      "physicalAdvanceMilliseconds": 70.9850000000003,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008027564256078248,
+      "integrationSegments": [
+        {
+          "startFrame": 1671545,
+          "endFrame": 1674676,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00159",
+      "physicalAdvanceMilliseconds": 29.177000000004227,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004124670711263456,
+      "integrationSegments": [
+        {
+          "startFrame": 1689346,
+          "endFrame": 1690633,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00161",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 1704120,
+          "endFrame": 1705266,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00164",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 1719900,
+          "endFrame": 1721046,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00165",
+      "physicalAdvanceMilliseconds": 100.10499999999922,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.014149511414318694,
+      "integrationSegments": [
+        {
+          "startFrame": 1731265,
+          "endFrame": 1735680,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00166",
+      "physicalAdvanceMilliseconds": 24.99999999999858,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003531769326971506,
+      "integrationSegments": [
+        {
+          "startFrame": 1735504,
+          "endFrame": 1736606,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00169",
+      "physicalAdvanceMilliseconds": 50.55699999999774,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007146865334978639,
+      "integrationSegments": [
+        {
+          "startFrame": 1763864,
+          "endFrame": 1766094,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00170",
+      "physicalAdvanceMilliseconds": 47.988000000003694,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.520618148467452,
+      "integrationSegments": [
+        {
+          "startFrame": 1779758,
+          "endFrame": 1780771,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        },
+        {
+          "startFrame": 1780771,
+          "endFrame": 1781874,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00171",
+      "physicalAdvanceMilliseconds": 96.20399999999307,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.013598273370544556,
+      "integrationSegments": [
+        {
+          "startFrame": 1773874,
+          "endFrame": 1778117,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00172",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 1794085,
+          "endFrame": 1796508,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00173",
+      "physicalAdvanceMilliseconds": 70.73699999999405,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.009999201724275045,
+      "integrationSegments": [
+        {
+          "startFrame": 1825258,
+          "endFrame": 1828378,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00174",
+      "physicalAdvanceMilliseconds": 69.95700000000227,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007909624953689364,
+      "integrationSegments": [
+        {
+          "startFrame": 1808983,
+          "endFrame": 1812068,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00175",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1826305,
+          "endFrame": 1827452,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00178",
+      "physicalAdvanceMilliseconds": 59.48500000000223,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006725104134044473,
+      "integrationSegments": [
+        {
+          "startFrame": 1855596,
+          "endFrame": 1858219,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00180",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1872456,
+          "endFrame": 1873603,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00184",
+      "physicalAdvanceMilliseconds": 59.53800000000342,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00841278991225064,
+      "integrationSegments": [
+        {
+          "startFrame": 1897044,
+          "endFrame": 1899669,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00186",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 1917711,
+          "endFrame": 1920134,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00189",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1936073,
+          "endFrame": 1937220,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00190",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 1951043,
+          "endFrame": 1952190,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00191",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0035349741993190302,
+      "integrationSegments": [
+        {
+          "startFrame": 1952410,
+          "endFrame": 1953513,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00195",
+      "physicalAdvanceMilliseconds": 48.837999999996384,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006900090164219285,
+      "integrationSegments": [
+        {
+          "startFrame": 2026551,
+          "endFrame": 2028704,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00198",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 2044673,
+          "endFrame": 2047096,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00199",
+      "physicalAdvanceMilliseconds": 37.20599999999763,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005259195522286971,
+      "integrationSegments": [
+        {
+          "startFrame": 2046557,
+          "endFrame": 2048198,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00202",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 2076893,
+          "endFrame": 2078040,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00204",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 2092277,
+          "endFrame": 2093423,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00211",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 2153282,
+          "endFrame": 2154429,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00212",
+      "physicalAdvanceMilliseconds": 72.27100000000064,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008171142537247324,
+      "integrationSegments": [
+        {
+          "startFrame": 2166802,
+          "endFrame": 2169989,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00216",
+      "physicalAdvanceMilliseconds": 37.20599999999763,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005259195522286971,
+      "integrationSegments": [
+        {
+          "startFrame": 2199864,
+          "endFrame": 2201505,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00223",
+      "physicalAdvanceMilliseconds": 37.206000000004735,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005259195522286971,
+      "integrationSegments": [
+        {
+          "startFrame": 2260692,
+          "endFrame": 2262333,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00230",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 2321618,
+          "endFrame": 2322765,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00237",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 2383153,
+          "endFrame": 2384299,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00239",
+      "physicalAdvanceMilliseconds": 56.50500000000136,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00798654189002994,
+      "integrationSegments": [
+        {
+          "startFrame": 2392111,
+          "endFrame": 2394603,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00240",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 2413024,
+          "endFrame": 2415447,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00242",
+      "physicalAdvanceMilliseconds": 69.95700000000227,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007909624953689364,
+      "integrationSegments": [
+        {
+          "startFrame": 2428478,
+          "endFrame": 2431563,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00243",
+      "physicalAdvanceMilliseconds": 38.206000000002405,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005400209905578029,
+      "integrationSegments": [
+        {
+          "startFrame": 2430451,
+          "endFrame": 2432136,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00244",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 2446356,
+          "endFrame": 2447502,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00248",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0035349741993190302,
+      "integrationSegments": [
+        {
+          "startFrame": 2479602,
+          "endFrame": 2480705,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00249",
+      "physicalAdvanceMilliseconds": 98.46900000000147,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.01391876060529696,
+      "integrationSegments": [
+        {
+          "startFrame": 2519295,
+          "endFrame": 2523638,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00251",
+      "physicalAdvanceMilliseconds": 113.49200000000081,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.012832308879486309,
+      "integrationSegments": [
+        {
+          "startFrame": 2537227,
+          "endFrame": 2542232,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00254",
+      "physicalAdvanceMilliseconds": 51.270999999999844,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005796973102201508,
+      "integrationSegments": [
+        {
+          "startFrame": 2555354,
+          "endFrame": 2557615,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00255",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 2571675,
+          "endFrame": 2572822,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00256",
+      "physicalAdvanceMilliseconds": 25.452999999998838,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0035958667739219873,
+      "integrationSegments": [
+        {
+          "startFrame": 2572626,
+          "endFrame": 2573748,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00259",
+      "physicalAdvanceMilliseconds": 58.940999999997246,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.008332668103562538,
+      "integrationSegments": [
+        {
+          "startFrame": 2600636,
+          "endFrame": 2603236,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00264",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0029382269682100516,
+      "integrationSegments": [
+        {
+          "startFrame": 2647181,
+          "endFrame": 2648327,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00274",
+      "physicalAdvanceMilliseconds": 26.000000000003354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 2737914,
+          "endFrame": 2739061,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00278",
+      "physicalAdvanceMilliseconds": 90.04699999999843,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.012726548092018015,
+      "integrationSegments": [
+        {
+          "startFrame": 2760836,
+          "endFrame": 2764807,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00279",
+      "physicalAdvanceMilliseconds": 10.308999999999457,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0011665735344987555,
+      "integrationSegments": [
+        {
+          "startFrame": 2783705,
+          "endFrame": 2784160,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00289",
+      "physicalAdvanceMilliseconds": 62.603000000009956,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00884865255151391,
+      "integrationSegments": [
+        {
+          "startFrame": 2856851,
+          "endFrame": 2859612,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00292",
+      "physicalAdvanceMilliseconds": 72.23400000000879,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.010207518426864109,
+      "integrationSegments": [
+        {
+          "startFrame": 2885932,
+          "endFrame": 2889117,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00298",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 2936888,
+          "endFrame": 2938034,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00303",
+      "physicalAdvanceMilliseconds": 79.91400000000226,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.011297175025022286,
+      "integrationSegments": [
+        {
+          "startFrame": 3010455,
+          "endFrame": 3013980,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00304",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 2985108,
+          "endFrame": 2986254,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00310",
+      "physicalAdvanceMilliseconds": 114.86599999999214,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.01298870665004548,
+      "integrationSegments": [
+        {
+          "startFrame": 3042132,
+          "endFrame": 3047198,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00313",
+      "physicalAdvanceMilliseconds": 21.066000000004692,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0029773264108498452,
+      "integrationSegments": [
+        {
+          "startFrame": 3073649,
+          "endFrame": 3074578,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00314",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 3077039,
+          "endFrame": 3078185,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00317",
+      "physicalAdvanceMilliseconds": 114.86600000000635,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.01298870665004548,
+      "integrationSegments": [
+        {
+          "startFrame": 3102960,
+          "endFrame": 3108026,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00321",
+      "physicalAdvanceMilliseconds": 37.827999999990425,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005345727075670121,
+      "integrationSegments": [
+        {
+          "startFrame": 3133587,
+          "endFrame": 3135255,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00322",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 3150874,
+          "endFrame": 3153297,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00325",
+      "physicalAdvanceMilliseconds": 43.067999999991,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004871405968236561,
+      "integrationSegments": [
+        {
+          "startFrame": 3166608,
+          "endFrame": 3168508,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00326",
+      "physicalAdvanceMilliseconds": 45.08399999998858,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006371286226877817,
+      "integrationSegments": [
+        {
+          "startFrame": 3181554,
+          "endFrame": 3183542,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00330",
+      "physicalAdvanceMilliseconds": 17.761999999990508,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0020075320384890668,
+      "integrationSegments": [
+        {
+          "startFrame": 3212827,
+          "endFrame": 3213610,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00333",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 3242531,
+          "endFrame": 3243678,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00335",
+      "physicalAdvanceMilliseconds": 36.49199999999553,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.005156639607166202,
+      "integrationSegments": [
+        {
+          "startFrame": 3253919,
+          "endFrame": 3255528,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00336",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006212324558440624,
+      "integrationSegments": [
+        {
+          "startFrame": 3271320,
+          "endFrame": 3273743,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00337",
+      "physicalAdvanceMilliseconds": 53.21100000000456,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007521835399638953,
+      "integrationSegments": [
+        {
+          "startFrame": 3272353,
+          "endFrame": 3274700,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00339",
+      "physicalAdvanceMilliseconds": 69.95700000000227,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.009887031192111703,
+      "integrationSegments": [
+        {
+          "startFrame": 3286041,
+          "endFrame": 3289126,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00340",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 3288553,
+          "endFrame": 3289699,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00341",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 3303186,
+          "endFrame": 3304333,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00343",
+      "physicalAdvanceMilliseconds": 33.47800000000234,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004730391584945502,
+      "integrationSegments": [
+        {
+          "startFrame": 3315409,
+          "endFrame": 3316885,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00344",
+      "physicalAdvanceMilliseconds": 58.94099999999014,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.006666134482850031,
+      "integrationSegments": [
+        {
+          "startFrame": 3332147,
+          "endFrame": 3334747,
+          "pedal": 0.73,
+          "decayRate": 0.013017422639719015
+        }
+      ]
+    },
+    {
+      "id": "p00346",
+      "physicalAdvanceMilliseconds": 69.95700000000227,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.009890236064459228,
+      "integrationSegments": [
+        {
+          "startFrame": 3346868,
+          "endFrame": 3349954,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00347",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 3349380,
+          "endFrame": 3350527,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00348",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 3364014,
+          "endFrame": 3365160,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00349",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0035349741993190302,
+      "integrationSegments": [
+        {
+          "startFrame": 3364984,
+          "endFrame": 3366087,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00354",
+      "physicalAdvanceMilliseconds": 29.228000000003362,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.004131080455958505,
+      "integrationSegments": [
+        {
+          "startFrame": 3411152,
+          "endFrame": 3412441,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00356",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 3426471,
+          "endFrame": 3427617,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00358",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 3457971,
+          "endFrame": 3459117,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00361",
+      "physicalAdvanceMilliseconds": 40.01300000000185,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0056533948210324295,
+      "integrationSegments": [
+        {
+          "startFrame": 3502557,
+          "endFrame": 3504321,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00363",
+      "physicalAdvanceMilliseconds": 107.26600000000985,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1372040238978464,
+      "integrationSegments": [
+        {
+          "startFrame": 3516495,
+          "endFrame": 3521225,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00364",
+      "physicalAdvanceMilliseconds": 48.93200000000775,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 3519067,
+          "endFrame": 3521225,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00365",
+      "physicalAdvanceMilliseconds": 46.65099999999711,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07462100454063632,
+      "integrationSegments": [
+        {
+          "startFrame": 3519745,
+          "endFrame": 3521803,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00367",
+      "physicalAdvanceMilliseconds": 76.27099999999132,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09758019796878545,
+      "integrationSegments": [
+        {
+          "startFrame": 3533072,
+          "endFrame": 3536436,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00368",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 3535862,
+          "endFrame": 3537009,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00369",
+      "physicalAdvanceMilliseconds": 51.452999999995086,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 3549201,
+          "endFrame": 3551470,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00371",
+      "physicalAdvanceMilliseconds": 52.642999999989115,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08419337830095121,
+      "integrationSegments": [
+        {
+          "startFrame": 3564182,
+          "endFrame": 3566504,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00372",
+      "physicalAdvanceMilliseconds": 68.916999999999,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11019107521816997,
+      "integrationSegments": [
+        {
+          "startFrame": 3578499,
+          "endFrame": 3581538,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00374",
+      "physicalAdvanceMilliseconds": 73.18700000000433,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11704402461475902,
+      "integrationSegments": [
+        {
+          "startFrame": 3593344,
+          "endFrame": 3596572,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00375",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 3595999,
+          "endFrame": 3597145,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00376",
+      "physicalAdvanceMilliseconds": 67.93799999999806,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.10863193858296717,
+      "integrationSegments": [
+        {
+          "startFrame": 3608610,
+          "endFrame": 3611606,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00378",
+      "physicalAdvanceMilliseconds": 53.01599999999951,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06781881773217016,
+      "integrationSegments": [
+        {
+          "startFrame": 3623394,
+          "endFrame": 3625732,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00379",
+      "physicalAdvanceMilliseconds": 71.76599999999667,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09180776651938344,
+      "integrationSegments": [
+        {
+          "startFrame": 3637961,
+          "endFrame": 3641126,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00384",
+      "physicalAdvanceMilliseconds": 29.22799999998915,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04673784006456765,
+      "integrationSegments": [
+        {
+          "startFrame": 3685385,
+          "endFrame": 3686674,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00389",
+      "physicalAdvanceMilliseconds": 18.664000000001124,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.029841150017951262,
+      "integrationSegments": [
+        {
+          "startFrame": 3715581,
+          "endFrame": 3716404,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00390",
+      "physicalAdvanceMilliseconds": 47.152000000011185,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.060305954689983635,
+      "integrationSegments": [
+        {
+          "startFrame": 3728617,
+          "endFrame": 3730696,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00392",
+      "physicalAdvanceMilliseconds": 65.70600000000582,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.10507855741436543,
+      "integrationSegments": [
+        {
+          "startFrame": 3741755,
+          "endFrame": 3744653,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00393",
+      "physicalAdvanceMilliseconds": 107.26600000000985,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1372040238978464,
+      "integrationSegments": [
+        {
+          "startFrame": 3755689,
+          "endFrame": 3760419,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00394",
+      "physicalAdvanceMilliseconds": 48.93200000000775,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 3758261,
+          "endFrame": 3760419,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00395",
+      "physicalAdvanceMilliseconds": 53.21099999999035,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08509985308885978,
+      "integrationSegments": [
+        {
+          "startFrame": 3759029,
+          "endFrame": 3761376,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00397",
+      "physicalAdvanceMilliseconds": 76.27099999999132,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09758019796878545,
+      "integrationSegments": [
+        {
+          "startFrame": 3772266,
+          "endFrame": 3775630,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00398",
+      "physicalAdvanceMilliseconds": 31.694000000001665,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.050690070139849164,
+      "integrationSegments": [
+        {
+          "startFrame": 3774805,
+          "endFrame": 3776203,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00403",
+      "physicalAdvanceMilliseconds": 58.94099999999014,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09423711895097854,
+      "integrationSegments": [
+        {
+          "startFrame": 3818133,
+          "endFrame": 3820732,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00405",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 3835193,
+          "endFrame": 3836339,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00408",
+      "physicalAdvanceMilliseconds": 71.5629999999976,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09154670178046578,
+      "integrationSegments": [
+        {
+          "startFrame": 3862149,
+          "endFrame": 3865305,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00409",
+      "physicalAdvanceMilliseconds": 79.67599999999209,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.598883272864049,
+      "integrationSegments": [
+        {
+          "startFrame": 3862894,
+          "endFrame": 3865305,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 3865305,
+          "endFrame": 3866407,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00415",
+      "physicalAdvanceMilliseconds": 22.499999999993747,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.03596891958421344,
+      "integrationSegments": [
+        {
+          "startFrame": 3896545,
+          "endFrame": 3897537,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00424",
+      "physicalAdvanceMilliseconds": 56.4420000000041,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09024862988418067,
+      "integrationSegments": [
+        {
+          "startFrame": 3986954,
+          "endFrame": 3989443,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00426",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07025542196206849,
+      "integrationSegments": [
+        {
+          "startFrame": 4002787,
+          "endFrame": 4005209,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00428",
+      "physicalAdvanceMilliseconds": 46.75299999999538,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07476604050670171,
+      "integrationSegments": [
+        {
+          "startFrame": 4003725,
+          "endFrame": 4005787,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00429",
+      "physicalAdvanceMilliseconds": 52.309000000008155,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08364949342820605,
+      "integrationSegments": [
+        {
+          "startFrame": 4003480,
+          "endFrame": 4005787,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00431",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 4019847,
+          "endFrame": 4020993,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00436",
+      "physicalAdvanceMilliseconds": 61.56400000000417,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09844316196687446,
+      "integrationSegments": [
+        {
+          "startFrame": 4063733,
+          "endFrame": 4066448,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00439",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 4094444,
+          "endFrame": 4095590,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00440",
+      "physicalAdvanceMilliseconds": 79.6760000000063,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.604792041325317,
+      "integrationSegments": [
+        {
+          "startFrame": 4107684,
+          "endFrame": 4110095,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 4110095,
+          "endFrame": 4111198,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00445",
+      "physicalAdvanceMilliseconds": 38.206000000002405,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04887712056403195,
+      "integrationSegments": [
+        {
+          "startFrame": 4138670,
+          "endFrame": 4140355,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00449",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 4169512,
+          "endFrame": 4170658,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00452",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.039993667642527625,
+      "integrationSegments": [
+        {
+          "startFrame": 4214504,
+          "endFrame": 4215607,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00459",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.039957408651011286,
+      "integrationSegments": [
+        {
+          "startFrame": 4244404,
+          "endFrame": 4245506,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00463",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 4273502,
+          "endFrame": 4274648,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00472",
+      "physicalAdvanceMilliseconds": 39.40299999999297,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06298186826388985,
+      "integrationSegments": [
+        {
+          "startFrame": 4347552,
+          "endFrame": 4349289,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00473",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 4362784,
+          "endFrame": 4365207,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00476",
+      "physicalAdvanceMilliseconds": 28.227999999998588,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0451424444378485,
+      "integrationSegments": [
+        {
+          "startFrame": 4396194,
+          "endFrame": 4397439,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00478",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 4395366,
+          "endFrame": 4396513,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00480",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 4411504,
+          "endFrame": 4412651,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00485",
+      "physicalAdvanceMilliseconds": 57.46100000000354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09188028450241616,
+      "integrationSegments": [
+        {
+          "startFrame": 4468618,
+          "endFrame": 4471152,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00486",
+      "physicalAdvanceMilliseconds": 52.38200000000859,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08375827040275506,
+      "integrationSegments": [
+        {
+          "startFrame": 4456228,
+          "endFrame": 4458538,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00488",
+      "physicalAdvanceMilliseconds": 107.26600000000985,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1372040238978464,
+      "integrationSegments": [
+        {
+          "startFrame": 4484464,
+          "endFrame": 4489194,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00489",
+      "physicalAdvanceMilliseconds": 48.93200000000775,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 4487036,
+          "endFrame": 4489194,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00492",
+      "physicalAdvanceMilliseconds": 76.27099999999132,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09755119077557237,
+      "integrationSegments": [
+        {
+          "startFrame": 4501041,
+          "endFrame": 4504404,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00494",
+      "physicalAdvanceMilliseconds": 51.452999999995086,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08230791074210128,
+      "integrationSegments": [
+        {
+          "startFrame": 4517169,
+          "endFrame": 4519439,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00496",
+      "physicalAdvanceMilliseconds": 55.39100000000019,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08858071627442884,
+      "integrationSegments": [
+        {
+          "startFrame": 4530513,
+          "endFrame": 4532956,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00498",
+      "physicalAdvanceMilliseconds": 44.279000000003066,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0708138104314202,
+      "integrationSegments": [
+        {
+          "startFrame": 4546037,
+          "endFrame": 4547990,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00500",
+      "physicalAdvanceMilliseconds": 26.4529999999894,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04231424309957366,
+      "integrationSegments": [
+        {
+          "startFrame": 4563374,
+          "endFrame": 4564541,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00502",
+      "physicalAdvanceMilliseconds": 59.60499999999058,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09532488869646885,
+      "integrationSegments": [
+        {
+          "startFrame": 4576946,
+          "endFrame": 4579575,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00504",
+      "physicalAdvanceMilliseconds": 52.15799999999149,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06671654439007328,
+      "integrationSegments": [
+        {
+          "startFrame": 4591780,
+          "endFrame": 4594080,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00506",
+      "physicalAdvanceMilliseconds": 21.99999999999136,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.028136977416683077,
+      "integrationSegments": [
+        {
+          "startFrame": 4608328,
+          "endFrame": 4609298,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00512",
+      "physicalAdvanceMilliseconds": 30.75299999999004,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.049167192496162714,
+      "integrationSegments": [
+        {
+          "startFrame": 4653287,
+          "endFrame": 4654643,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00515",
+      "physicalAdvanceMilliseconds": 24.999999999991473,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.039993667642527625,
+      "integrationSegments": [
+        {
+          "startFrame": 4668758,
+          "endFrame": 4669861,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00521",
+      "physicalAdvanceMilliseconds": 54.94099999999946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 4725965,
+          "endFrame": 4728388,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00523",
+      "physicalAdvanceMilliseconds": 85.83299999999383,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13724028288936269,
+      "integrationSegments": [
+        {
+          "startFrame": 4725560,
+          "endFrame": 4729345,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00534",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 4817622,
+          "endFrame": 4818769,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00542",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 4879351,
+          "endFrame": 4880497,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00543",
+      "physicalAdvanceMilliseconds": 28.227999999998588,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0451424444378485,
+      "integrationSegments": [
+        {
+          "startFrame": 4880178,
+          "endFrame": 4881423,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00547",
+      "physicalAdvanceMilliseconds": 82.4309999999997,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13180143416191112,
+      "integrationSegments": [
+        {
+          "startFrame": 4949226,
+          "endFrame": 4952861,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00548",
+      "physicalAdvanceMilliseconds": 20.1370000000054,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.5088260395326767e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5003939,
+          "endFrame": 5004827,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00551",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5037845,
+          "endFrame": 5038991,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00556",
+      "physicalAdvanceMilliseconds": 23.14199999999289,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.8845848945527736e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5133434,
+          "endFrame": 5134455,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00559",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5165946,
+          "endFrame": 5167093,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00562",
+      "physicalAdvanceMilliseconds": 27.245000000007735,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.244944959907485e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5210526,
+          "endFrame": 5211728,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00563",
+      "physicalAdvanceMilliseconds": 71.33900000000892,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.888250811227253e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5235791,
+          "endFrame": 5238937,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00565",
+      "physicalAdvanceMilliseconds": 37.99899999999923,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.915376712017502e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5246475,
+          "endFrame": 5248150,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00569",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5278875,
+          "endFrame": 5280022,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00570",
+      "physicalAdvanceMilliseconds": 51.452999999995086,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.01312821466729e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5310021,
+          "endFrame": 5312290,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00571",
+      "physicalAdvanceMilliseconds": 57.39900000000375,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.938399079472415e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5325320,
+          "endFrame": 5327851,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00576",
+      "physicalAdvanceMilliseconds": 34.000000000006025,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.297352279418658e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5410399,
+          "endFrame": 5411899,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00579",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5426573,
+          "endFrame": 5427719,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00582",
+      "physicalAdvanceMilliseconds": 27.245000000007735,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.244944959907485e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5473574,
+          "endFrame": 5474776,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00585",
+      "physicalAdvanceMilliseconds": 95.53499999999815,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.1902797415035096e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 5497772,
+          "endFrame": 5501985,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00586",
+      "physicalAdvanceMilliseconds": 30.175999999997316,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.700517255937489e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5493689,
+          "endFrame": 5495020,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00592",
+      "physicalAdvanceMilliseconds": 55.672000000001276,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.669999897315204e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5588444,
+          "endFrame": 5590899,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00593",
+      "physicalAdvanceMilliseconds": 25.99999999999625,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5574191,
+          "endFrame": 5575338,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00597",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.891788141279575e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5654676,
+          "endFrame": 5655778,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00598",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5685585,
+          "endFrame": 5686732,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00603",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5766246,
+          "endFrame": 5767393,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00605",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.895319709465853e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5782777,
+          "endFrame": 5783880,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00606",
+      "physicalAdvanceMilliseconds": 38.206000000002405,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.950692393880293e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5813537,
+          "endFrame": 5815222,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00611",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.2405669677297075e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5861948,
+          "endFrame": 5863095,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00613",
+      "physicalAdvanceMilliseconds": 75.0139999999817,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 9.345942048169027e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5876887,
+          "endFrame": 5880195,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00620",
+      "physicalAdvanceMilliseconds": 44.083999999998014,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.865368554126581e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 5963087,
+          "endFrame": 5965031,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00621",
+      "physicalAdvanceMilliseconds": 97.35299999999825,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.5161022223696202e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 5988984,
+          "endFrame": 5993277,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00624",
+      "physicalAdvanceMilliseconds": 113.4919999999795,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.4140399017861538e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 6008168,
+          "endFrame": 6013173,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00626",
+      "physicalAdvanceMilliseconds": 51.271000000014055,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.387900535341646e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6026838,
+          "endFrame": 6029099,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00627",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6043702,
+          "endFrame": 6044849,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00628",
+      "physicalAdvanceMilliseconds": 28.227999999984377,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.3968023919174865e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6044530,
+          "endFrame": 6045775,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00629",
+      "physicalAdvanceMilliseconds": 49.17299999999614,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 7.65997139603938e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6056913,
+          "endFrame": 6059082,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00631",
+      "physicalAdvanceMilliseconds": 44.27900000001728,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.897152667803094e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6072879,
+          "endFrame": 6074832,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00633",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.1213400733877164e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6090932,
+          "endFrame": 6092099,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00634",
+      "physicalAdvanceMilliseconds": 59.60500000000479,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 9.284492761727768e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6105220,
+          "endFrame": 6107849,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00635",
+      "physicalAdvanceMilliseconds": 28.227999999984377,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.3968023919174865e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6107530,
+          "endFrame": 6108775,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00636",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.2405669677297075e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6121923,
+          "endFrame": 6123070,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00638",
+      "physicalAdvanceMilliseconds": 64.67799999998647,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.057625973814407e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6136135,
+          "endFrame": 6138987,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00642",
+      "physicalAdvanceMilliseconds": 38.20599999997398,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.950692393880293e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6184173,
+          "endFrame": 6185858,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00649",
+      "physicalAdvanceMilliseconds": 81.6820000000007,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.2724240175163617e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 6241330,
+          "endFrame": 6244933,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00651",
+      "physicalAdvanceMilliseconds": 113.4919999999795,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.4140399017861538e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 6258685,
+          "endFrame": 6263690,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00654",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6279043,
+          "endFrame": 6280190,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00661",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6342043,
+          "endFrame": 6343190,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00662",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6357220,
+          "endFrame": 6358367,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00666",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6406210,
+          "endFrame": 6407357,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00668",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6421970,
+          "endFrame": 6423117,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00673",
+      "physicalAdvanceMilliseconds": 38.8889999999833,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.056639439468666e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 6500643,
+          "endFrame": 6502358,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00678",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 6584307,
+          "endFrame": 6585454,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00679",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 6568747,
+          "endFrame": 6569893,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00680",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003531769326971506,
+      "integrationSegments": [
+        {
+          "startFrame": 6585278,
+          "endFrame": 6586380,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00681",
+      "physicalAdvanceMilliseconds": 27.244999999993524,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003849051689376388,
+      "integrationSegments": [
+        {
+          "startFrame": 6629471,
+          "endFrame": 6630672,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00682",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 6601015,
+          "endFrame": 6602161,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00687",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 6714376,
+          "endFrame": 6715523,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00689",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0036759885826100885,
+      "integrationSegments": [
+        {
+          "startFrame": 6731283,
+          "endFrame": 6732430,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00690",
+      "physicalAdvanceMilliseconds": 12.044999999972106,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0017017872165352723,
+      "integrationSegments": [
+        {
+          "startFrame": 6762325,
+          "endFrame": 6762856,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00696",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 6809528,
+          "endFrame": 6810674,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00697",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.003672783710262565,
+      "integrationSegments": [
+        {
+          "startFrame": 6825485,
+          "endFrame": 6826631,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00700",
+      "physicalAdvanceMilliseconds": 42.21700000002215,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0059674723110897865,
+      "integrationSegments": [
+        {
+          "startFrame": 6840506,
+          "endFrame": 6842368,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00702",
+      "physicalAdvanceMilliseconds": 19.614999999987504,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.002772214580608306,
+      "integrationSegments": [
+        {
+          "startFrame": 6856534,
+          "endFrame": 6857399,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00704",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.511603858701434,
+      "integrationSegments": [
+        {
+          "startFrame": 6887020,
+          "endFrame": 6887064,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        },
+        {
+          "startFrame": 6887064,
+          "endFrame": 6888166,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00707",
+      "physicalAdvanceMilliseconds": 51.4530000000093,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.007271855356532076,
+      "integrationSegments": [
+        {
+          "startFrame": 6918564,
+          "endFrame": 6920833,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00712",
+      "physicalAdvanceMilliseconds": 29.22799999998915,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.00412787558361098,
+      "integrationSegments": [
+        {
+          "startFrame": 6952211,
+          "endFrame": 6953499,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00717",
+      "physicalAdvanceMilliseconds": 72.79399999998759,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.010287640235552212,
+      "integrationSegments": [
+        {
+          "startFrame": 7012245,
+          "endFrame": 7015455,
+          "pedal": 0.73,
+          "decayRate": 0.016271778299648768
+        }
+      ]
+    },
+    {
+      "id": "p00719",
+      "physicalAdvanceMilliseconds": 107.26599999998143,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1372040238978464,
+      "integrationSegments": [
+        {
+          "startFrame": 7028053,
+          "endFrame": 7032783,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00720",
+      "physicalAdvanceMilliseconds": 48.931999999979325,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 7030625,
+          "endFrame": 7032783,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00721",
+      "physicalAdvanceMilliseconds": 54.422000000016624,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08702157963922603,
+      "integrationSegments": [
+        {
+          "startFrame": 7031024,
+          "endFrame": 7033424,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00722",
+      "physicalAdvanceMilliseconds": 59.9770000000035,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09590503256073037,
+      "integrationSegments": [
+        {
+          "startFrame": 7030779,
+          "endFrame": 7033424,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00723",
+      "physicalAdvanceMilliseconds": 48.86600000000385,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07813812671772172,
+      "integrationSegments": [
+        {
+          "startFrame": 7031269,
+          "endFrame": 7033424,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00725",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 7047086,
+          "endFrame": 7048233,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00729",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 7090613,
+          "endFrame": 7091759,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00731",
+      "physicalAdvanceMilliseconds": 38.738000000023476,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06193035750991586,
+      "integrationSegments": [
+        {
+          "startFrame": 7104751,
+          "endFrame": 7106459,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00734",
+      "physicalAdvanceMilliseconds": 30.894999999986794,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.526798950573661,
+      "integrationSegments": [
+        {
+          "startFrame": 7135070,
+          "endFrame": 7135330,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 7135330,
+          "endFrame": 7136433,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00735",
+      "physicalAdvanceMilliseconds": 40.35799999999767,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.051603796726061024,
+      "integrationSegments": [
+        {
+          "startFrame": 7133551,
+          "endFrame": 7135330,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00738",
+      "physicalAdvanceMilliseconds": 51.79100000000858,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08281553662333012,
+      "integrationSegments": [
+        {
+          "startFrame": 7149040,
+          "endFrame": 7151324,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00740",
+      "physicalAdvanceMilliseconds": 58.94100000000435,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07538969516078282,
+      "integrationSegments": [
+        {
+          "startFrame": 7162337,
+          "endFrame": 7164936,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00741",
+      "physicalAdvanceMilliseconds": 43.06800000000521,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06889208388105394,
+      "integrationSegments": [
+        {
+          "startFrame": 7163610,
+          "endFrame": 7165510,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00742",
+      "physicalAdvanceMilliseconds": 17.925999999988562,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.02868086228942825,
+      "integrationSegments": [
+        {
+          "startFrame": 7178684,
+          "endFrame": 7179475,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00743",
+      "physicalAdvanceMilliseconds": 29.228000000017573,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04673784006456765,
+      "integrationSegments": [
+        {
+          "startFrame": 7193298,
+          "endFrame": 7194587,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00746",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.039993667642527625,
+      "integrationSegments": [
+        {
+          "startFrame": 7208375,
+          "endFrame": 7209478,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00748",
+      "physicalAdvanceMilliseconds": 82.38800000000879,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13176517517039474,
+      "integrationSegments": [
+        {
+          "startFrame": 7220030,
+          "endFrame": 7223664,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00749",
+      "physicalAdvanceMilliseconds": 47.15199999998276,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06033496188319672,
+      "integrationSegments": [
+        {
+          "startFrame": 7235549,
+          "endFrame": 7237629,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00751",
+      "physicalAdvanceMilliseconds": 65.7059999999774,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.10507855741436543,
+      "integrationSegments": [
+        {
+          "startFrame": 7248361,
+          "endFrame": 7251259,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00752",
+      "physicalAdvanceMilliseconds": 107.26599999998143,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13723303109105942,
+      "integrationSegments": [
+        {
+          "startFrame": 7261960,
+          "endFrame": 7266691,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00753",
+      "physicalAdvanceMilliseconds": 48.93200000000775,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 7264533,
+          "endFrame": 7266691,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00754",
+      "physicalAdvanceMilliseconds": 60.31699999999773,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09644891743347551,
+      "integrationSegments": [
+        {
+          "startFrame": 7264925,
+          "endFrame": 7267585,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00755",
+      "physicalAdvanceMilliseconds": 21.427999999986014,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.034264746982945245,
+      "integrationSegments": [
+        {
+          "startFrame": 7266640,
+          "endFrame": 7267585,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00756",
+      "physicalAdvanceMilliseconds": 35.31699999999205,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.05649150878246424,
+      "integrationSegments": [
+        {
+          "startFrame": 7266027,
+          "endFrame": 7267585,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00757",
+      "physicalAdvanceMilliseconds": 76.27100000001974,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09755119077557237,
+      "integrationSegments": [
+        {
+          "startFrame": 7278204,
+          "endFrame": 7281567,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00758",
+      "physicalAdvanceMilliseconds": 35.16700000000128,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.056201436850333485,
+      "integrationSegments": [
+        {
+          "startFrame": 7280590,
+          "endFrame": 7282140,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00759",
+      "physicalAdvanceMilliseconds": 51.4530000000093,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 7293998,
+          "endFrame": 7296267,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00763",
+      "physicalAdvanceMilliseconds": 55.3910000000144,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08858071627442884,
+      "integrationSegments": [
+        {
+          "startFrame": 7307007,
+          "endFrame": 7309450,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00764",
+      "physicalAdvanceMilliseconds": 44.27900000001728,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0708138104314202,
+      "integrationSegments": [
+        {
+          "startFrame": 7322197,
+          "endFrame": 7324150,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00765",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04227798410805731,
+      "integrationSegments": [
+        {
+          "startFrame": 7339201,
+          "endFrame": 7340367,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00766",
+      "physicalAdvanceMilliseconds": 49.056000000007316,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07842819864985247,
+      "integrationSegments": [
+        {
+          "startFrame": 7338777,
+          "endFrame": 7340940,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00767",
+      "physicalAdvanceMilliseconds": 59.60500000000479,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09528862970495251,
+      "integrationSegments": [
+        {
+          "startFrame": 7352439,
+          "endFrame": 7355067,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00768",
+      "physicalAdvanceMilliseconds": 50.4529999999761,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0806762561238658,
+      "integrationSegments": [
+        {
+          "startFrame": 7353768,
+          "endFrame": 7355993,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00769",
+      "physicalAdvanceMilliseconds": 71.5629999999976,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09154670178046578,
+      "integrationSegments": [
+        {
+          "startFrame": 7366082,
+          "endFrame": 7369238,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00786",
+      "physicalAdvanceMilliseconds": 56.4420000000041,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09024862988418067,
+      "integrationSegments": [
+        {
+          "startFrame": 7488025,
+          "endFrame": 7490514,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00788",
+      "physicalAdvanceMilliseconds": 54.94099999998525,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 7503523,
+          "endFrame": 7505946,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00790",
+      "physicalAdvanceMilliseconds": 59.40599999999563,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09499855777282176,
+      "integrationSegments": [
+        {
+          "startFrame": 7503461,
+          "endFrame": 7506081,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00791",
+      "physicalAdvanceMilliseconds": 73.29500000000166,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11718906058082437,
+      "integrationSegments": [
+        {
+          "startFrame": 7502849,
+          "endFrame": 7506081,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00792",
+      "physicalAdvanceMilliseconds": 42.740000000009104,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06834819900830877,
+      "integrationSegments": [
+        {
+          "startFrame": 7504196,
+          "endFrame": 7506081,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00794",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 7520249,
+          "endFrame": 7521396,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00799",
+      "physicalAdvanceMilliseconds": 61.56400000000417,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09844316196687446,
+      "integrationSegments": [
+        {
+          "startFrame": 7563133,
+          "endFrame": 7565848,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00801",
+      "physicalAdvanceMilliseconds": 51.452999999980875,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 7577927,
+          "endFrame": 7580196,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00804",
+      "physicalAdvanceMilliseconds": 21.182000000010248,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.03386589807626547,
+      "integrationSegments": [
+        {
+          "startFrame": 7607559,
+          "endFrame": 7608493,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00806",
+      "physicalAdvanceMilliseconds": 75.6759999999872,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.12099625469004052,
+      "integrationSegments": [
+        {
+          "startFrame": 7620047,
+          "endFrame": 7623384,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00807",
+      "physicalAdvanceMilliseconds": 73.31999999999539,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11722531957234074,
+      "integrationSegments": [
+        {
+          "startFrame": 7620792,
+          "endFrame": 7624025,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00808",
+      "physicalAdvanceMilliseconds": 9.430999999977985,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.01508374047079918,
+      "integrationSegments": [
+        {
+          "startFrame": 7623609,
+          "endFrame": 7624025,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00810",
+      "physicalAdvanceMilliseconds": 62.47600000000375,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07991481730202256,
+      "integrationSegments": [
+        {
+          "startFrame": 7634586,
+          "endFrame": 7637341,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00811",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04231424309957366,
+      "integrationSegments": [
+        {
+          "startFrame": 7637506,
+          "endFrame": 7638673,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00816",
+      "physicalAdvanceMilliseconds": 61.56400000000417,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09844316196687446,
+      "integrationSegments": [
+        {
+          "startFrame": 7679926,
+          "endFrame": 7682641,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00817",
+      "physicalAdvanceMilliseconds": 68.93599999997946,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1102273342096863,
+      "integrationSegments": [
+        {
+          "startFrame": 7692455,
+          "endFrame": 7695495,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00822",
+      "physicalAdvanceMilliseconds": 54.94099999998525,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 7737431,
+          "endFrame": 7739854,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00824",
+      "physicalAdvanceMilliseconds": 69.32399999999461,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11084373706546415,
+      "integrationSegments": [
+        {
+          "startFrame": 7737817,
+          "endFrame": 7740874,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00826",
+      "physicalAdvanceMilliseconds": 44.32400000001735,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07088632841445287,
+      "integrationSegments": [
+        {
+          "startFrame": 7738919,
+          "endFrame": 7740874,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00828",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.041552804277730435,
+      "integrationSegments": [
+        {
+          "startFrame": 7754157,
+          "endFrame": 7755303,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00830",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.0271861848843646,
+      "integrationSegments": [
+        {
+          "startFrame": 7783537,
+          "endFrame": 7784365,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 7784365,
+          "endFrame": 7784703,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00836",
+      "physicalAdvanceMilliseconds": 61.56400000000417,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09844316196687446,
+      "integrationSegments": [
+        {
+          "startFrame": 7826441,
+          "endFrame": 7829156,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00837",
+      "physicalAdvanceMilliseconds": 39.40299999999297,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06301812725540619,
+      "integrationSegments": [
+        {
+          "startFrame": 7840663,
+          "endFrame": 7842401,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00838",
+      "physicalAdvanceMilliseconds": 48.06899999999814,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.322693408645626,
+      "integrationSegments": [
+        {
+          "startFrame": 7841004,
+          "endFrame": 7842401,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 7842401,
+          "endFrame": 7843124,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00839",
+      "physicalAdvanceMilliseconds": 54.94099999998525,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 7855538,
+          "endFrame": 7857961,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00843",
+      "physicalAdvanceMilliseconds": 20.291000000014492,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.032451797407128044,
+      "integrationSegments": [
+        {
+          "startFrame": 7872643,
+          "endFrame": 7873538,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00845",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 7887404,
+          "endFrame": 7888551,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00846",
+      "physicalAdvanceMilliseconds": 58.60500000000002,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09372949306974972,
+      "integrationSegments": [
+        {
+          "startFrame": 7886892,
+          "endFrame": 7889477,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00848",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 7903184,
+          "endFrame": 7904331,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00853",
+      "physicalAdvanceMilliseconds": 40.01300000001606,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06399712002634748,
+      "integrationSegments": [
+        {
+          "startFrame": 7960774,
+          "endFrame": 7962539,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00856",
+      "physicalAdvanceMilliseconds": 107.26599999998143,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13723303109105942,
+      "integrationSegments": [
+        {
+          "startFrame": 7974378,
+          "endFrame": 7979109,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00857",
+      "physicalAdvanceMilliseconds": 48.93200000000775,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 7976951,
+          "endFrame": 7979109,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00861",
+      "physicalAdvanceMilliseconds": 76.27100000001974,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09755119077557237,
+      "integrationSegments": [
+        {
+          "startFrame": 7990622,
+          "endFrame": 7993985,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00863",
+      "physicalAdvanceMilliseconds": 51.4530000000093,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 8006416,
+          "endFrame": 8008685,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00865",
+      "physicalAdvanceMilliseconds": 52.64300000001754,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08415711930943486,
+      "integrationSegments": [
+        {
+          "startFrame": 8021064,
+          "endFrame": 8023385,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00867",
+      "physicalAdvanceMilliseconds": 68.916999999999,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11019107521816997,
+      "integrationSegments": [
+        {
+          "startFrame": 8035046,
+          "endFrame": 8038085,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00869",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04227798410805731,
+      "integrationSegments": [
+        {
+          "startFrame": 8051619,
+          "endFrame": 8052785,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00873",
+      "physicalAdvanceMilliseconds": 86.08700000002045,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.110111305436834,
+      "integrationSegments": [
+        {
+          "startFrame": 8077860,
+          "endFrame": 8081656,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00880",
+      "physicalAdvanceMilliseconds": 45.08400000000279,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07208287513449224,
+      "integrationSegments": [
+        {
+          "startFrame": 8109274,
+          "endFrame": 8111262,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00887",
+      "physicalAdvanceMilliseconds": 45.08400000000279,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07208287513449224,
+      "integrationSegments": [
+        {
+          "startFrame": 8167428,
+          "endFrame": 8169416,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00890",
+      "physicalAdvanceMilliseconds": 45.797000000021626,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07324316286301526,
+      "integrationSegments": [
+        {
+          "startFrame": 8194427,
+          "endFrame": 8196447,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00892",
+      "physicalAdvanceMilliseconds": 107.26599999998143,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.13723303109105942,
+      "integrationSegments": [
+        {
+          "startFrame": 8208286,
+          "endFrame": 8213017,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00893",
+      "physicalAdvanceMilliseconds": 48.931999999979325,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07824690369227075,
+      "integrationSegments": [
+        {
+          "startFrame": 8210859,
+          "endFrame": 8213017,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00894",
+      "physicalAdvanceMilliseconds": 68.20600000000354,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.10906704648116332,
+      "integrationSegments": [
+        {
+          "startFrame": 8210902,
+          "endFrame": 8213910,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00895",
+      "physicalAdvanceMilliseconds": 37.65100000001098,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06018992591713135,
+      "integrationSegments": [
+        {
+          "startFrame": 8212250,
+          "endFrame": 8213910,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00897",
+      "physicalAdvanceMilliseconds": 76.27100000001974,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09758019796878545,
+      "integrationSegments": [
+        {
+          "startFrame": 8224529,
+          "endFrame": 8227893,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00899",
+      "physicalAdvanceMilliseconds": 51.4530000000093,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 8240324,
+          "endFrame": 8242593,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00901",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 8242813,
+          "endFrame": 8243960,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00903",
+      "physicalAdvanceMilliseconds": 55.3910000000144,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08858071627442884,
+      "integrationSegments": [
+        {
+          "startFrame": 8253333,
+          "endFrame": 8255776,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00905",
+      "physicalAdvanceMilliseconds": 44.27900000001728,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0708138104314202,
+      "integrationSegments": [
+        {
+          "startFrame": 8268523,
+          "endFrame": 8270476,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00907",
+      "physicalAdvanceMilliseconds": 26.453000000003613,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04231424309957366,
+      "integrationSegments": [
+        {
+          "startFrame": 8285526,
+          "endFrame": 8286693,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00908",
+      "physicalAdvanceMilliseconds": 52.436999999997624,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08383078838578775,
+      "integrationSegments": [
+        {
+          "startFrame": 8284954,
+          "endFrame": 8287266,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00909",
+      "physicalAdvanceMilliseconds": 59.60500000000479,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09532488869646885,
+      "integrationSegments": [
+        {
+          "startFrame": 8298764,
+          "endFrame": 8301393,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00911",
+      "physicalAdvanceMilliseconds": 92.39800000000287,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.11817530515006894,
+      "integrationSegments": [
+        {
+          "startFrame": 8311110,
+          "endFrame": 8315184,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00922",
+      "physicalAdvanceMilliseconds": 39.755999999982805,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.06356201212815134,
+      "integrationSegments": [
+        {
+          "startFrame": 8375741,
+          "endFrame": 8377494,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00923",
+      "physicalAdvanceMilliseconds": 33.999999999991815,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.05435222828299993,
+      "integrationSegments": [
+        {
+          "startFrame": 8406761,
+          "endFrame": 8408260,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00927",
+      "physicalAdvanceMilliseconds": 47.978999999997995,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07672402604858429,
+      "integrationSegments": [
+        {
+          "startFrame": 8435103,
+          "endFrame": 8437219,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00931",
+      "physicalAdvanceMilliseconds": 54.94099999998525,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 8449849,
+          "endFrame": 8452272,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00933",
+      "physicalAdvanceMilliseconds": 29.05700000002298,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.046447768132436895,
+      "integrationSegments": [
+        {
+          "startFrame": 8451252,
+          "endFrame": 8452533,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00934",
+      "physicalAdvanceMilliseconds": 56.83500000000663,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09086503273995852,
+      "integrationSegments": [
+        {
+          "startFrame": 8450027,
+          "endFrame": 8452533,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00935",
+      "physicalAdvanceMilliseconds": 56.83500000000663,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09086503273995852,
+      "integrationSegments": [
+        {
+          "startFrame": 8450027,
+          "endFrame": 8452533,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00939",
+      "physicalAdvanceMilliseconds": 85.01799999999093,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.120843159971081,
+      "integrationSegments": [
+        {
+          "startFrame": 8493372,
+          "endFrame": 8496783,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        },
+        {
+          "startFrame": 8496783,
+          "endFrame": 8497121,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p00942",
+      "physicalAdvanceMilliseconds": 50.4529999999761,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.0806762561238658,
+      "integrationSegments": [
+        {
+          "startFrame": 8509949,
+          "endFrame": 8512174,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00944",
+      "physicalAdvanceMilliseconds": 51.452999999980875,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 8524252,
+          "endFrame": 8526521,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00947",
+      "physicalAdvanceMilliseconds": 62.02500000000555,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09916834179720133,
+      "integrationSegments": [
+        {
+          "startFrame": 8552084,
+          "endFrame": 8554819,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00948",
+      "physicalAdvanceMilliseconds": 54.94100000001367,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07028442915528155,
+      "integrationSegments": [
+        {
+          "startFrame": 8567287,
+          "endFrame": 8569710,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00950",
+      "physicalAdvanceMilliseconds": 79.05399999998508,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.12639884442597585,
+      "integrationSegments": [
+        {
+          "startFrame": 8567118,
+          "endFrame": 8570604,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00954",
+      "physicalAdvanceMilliseconds": 59.60500000000479,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.09528862970495251,
+      "integrationSegments": [
+        {
+          "startFrame": 8582370,
+          "endFrame": 8584998,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00956",
+      "physicalAdvanceMilliseconds": 51.4530000000093,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.08227165175058496,
+      "integrationSegments": [
+        {
+          "startFrame": 8611806,
+          "endFrame": 8614075,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00958",
+      "physicalAdvanceMilliseconds": 88.43099999998572,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.14137380792222595,
+      "integrationSegments": [
+        {
+          "startFrame": 8624141,
+          "endFrame": 8628040,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00961",
+      "physicalAdvanceMilliseconds": 36.66499999999928,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.05863078928192854,
+      "integrationSegments": [
+        {
+          "startFrame": 8641535,
+          "endFrame": 8643152,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00964",
+      "physicalAdvanceMilliseconds": 75.90999999999326,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.12139510359672033,
+      "integrationSegments": [
+        {
+          "startFrame": 8667779,
+          "endFrame": 8671127,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00965",
+      "physicalAdvanceMilliseconds": 80.50599999998553,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.10297553590641746,
+      "integrationSegments": [
+        {
+          "startFrame": 8682629,
+          "endFrame": 8686179,
+          "pedal": 0.66,
+          "decayRate": 0.14727532515386588
+        }
+      ]
+    },
+    {
+      "id": "p00966",
+      "physicalAdvanceMilliseconds": 78.67600000000152,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.1258187005617143,
+      "integrationSegments": [
+        {
+          "startFrame": 8683812,
+          "endFrame": 8687282,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00967",
+      "physicalAdvanceMilliseconds": 48.60300000001416,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.07773927781104192,
+      "integrationSegments": [
+        {
+          "startFrame": 8685138,
+          "endFrame": 8687282,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00970",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 8714609,
+          "endFrame": 8715756,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00974",
+      "physicalAdvanceMilliseconds": 24.999999999977263,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.039993667642527625,
+      "integrationSegments": [
+        {
+          "startFrame": 8744979,
+          "endFrame": 8746082,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00984",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.04158906326924678,
+      "integrationSegments": [
+        {
+          "startFrame": 8819096,
+          "endFrame": 8820243,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00989",
+      "physicalAdvanceMilliseconds": 97.35299999999825,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.15565985057966555,
+      "integrationSegments": [
+        {
+          "startFrame": 8902296,
+          "endFrame": 8906589,
+          "pedal": 0.66,
+          "decayRate": 0.18409415644233237
+        }
+      ]
+    },
+    {
+      "id": "p00990",
+      "physicalAdvanceMilliseconds": 113.4919999999795,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.4140399017861538e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 8921480,
+          "endFrame": 8926485,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00991",
+      "physicalAdvanceMilliseconds": 37.20599999999763,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.7953033936840114e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 8925946,
+          "endFrame": 8927587,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00992",
+      "physicalAdvanceMilliseconds": 51.271000000014055,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.387900535341646e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 8940150,
+          "endFrame": 8942411,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p00994",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 8957014,
+          "endFrame": 8958161,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00996",
+      "physicalAdvanceMilliseconds": 35.583000000002585,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.541030484271916e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 8972342,
+          "endFrame": 8973911,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00997",
+      "physicalAdvanceMilliseconds": 68.916999999999,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.0732435718102201e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 8986622,
+          "endFrame": 8989661,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00998",
+      "physicalAdvanceMilliseconds": 24.999999999977263,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.891788141279575e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 8989485,
+          "endFrame": 8990587,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p00999",
+      "physicalAdvanceMilliseconds": 73.18700000001854,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.1399902105308953e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 9002183,
+          "endFrame": 9005411,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01000",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9004838,
+          "endFrame": 9005984,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01001",
+      "physicalAdvanceMilliseconds": 67.93799999999806,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.05805782860922e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 9018165,
+          "endFrame": 9021161,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01003",
+      "physicalAdvanceMilliseconds": 53.01600000001372,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.608270390165462e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9033664,
+          "endFrame": 9036003,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p01004",
+      "physicalAdvanceMilliseconds": 71.76600000002509,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 8.941930647658695e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9049501,
+          "endFrame": 9052666,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p01009",
+      "physicalAdvanceMilliseconds": 29.22799999998915,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.552191392113767e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9100732,
+          "endFrame": 9102021,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01011",
+      "physicalAdvanceMilliseconds": 76.21199999999817,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.1869600674084075e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 9114221,
+          "endFrame": 9117582,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01014",
+      "physicalAdvanceMilliseconds": 18.664000000001124,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.9064806173077037e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9133466,
+          "endFrame": 9134289,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01016",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": false,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 6.511462844318143,
+      "integrationSegments": [
+        {
+          "startFrame": 9165455,
+          "endFrame": 9166557,
+          "pedal": 0,
+          "decayRate": 30.0
+        }
+      ]
+    },
+    {
+      "id": "p01017",
+      "physicalAdvanceMilliseconds": 76.06300000000488,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.184487969678012e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 9159446,
+          "endFrame": 9162800,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01018",
+      "physicalAdvanceMilliseconds": 138.48100000001295,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.7253829530885194e-05,
+      "integrationSegments": [
+        {
+          "startFrame": 9176238,
+          "endFrame": 9182345,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p01019",
+      "physicalAdvanceMilliseconds": 28.231000000005224,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.3968023919174865e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9215278,
+          "endFrame": 9216523,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01022",
+      "physicalAdvanceMilliseconds": 19.615000000015925,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.054806481131426e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9231842,
+          "endFrame": 9232707,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01023",
+      "physicalAdvanceMilliseconds": 38.206000000002405,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 5.950692393880293e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9263524,
+          "endFrame": 9265209,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01028",
+      "physicalAdvanceMilliseconds": 17.62500000000955,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 2.1980480391401156e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9347535,
+          "endFrame": 9348313,
+          "pedal": 0.79,
+          "decayRate": 1.434438276373066e-05
+        }
+      ]
+    },
+    {
+      "id": "p01030",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9332074,
+          "endFrame": 9333221,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01032",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9383047,
+          "endFrame": 9384193,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01033",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9366835,
+          "endFrame": 9367982,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01035",
+      "physicalAdvanceMilliseconds": 22.914000000014312,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.566883868141896e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9432303,
+          "endFrame": 9433313,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01039",
+      "physicalAdvanceMilliseconds": 25.000000000005684,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 3.895319709465853e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9489932,
+          "endFrame": 9491035,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01040",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.047177141475855e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9525209,
+          "endFrame": 9526355,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01043",
+      "physicalAdvanceMilliseconds": 12.045000000000528,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 1.8752627069142047e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9578527,
+          "endFrame": 9579058,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01048",
+      "physicalAdvanceMilliseconds": 25.999999999982037,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9656274,
+          "endFrame": 9657421,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01056",
+      "physicalAdvanceMilliseconds": 26.00000000001046,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 4.050708709662134e-06,
+      "integrationSegments": [
+        {
+          "startFrame": 9775543,
+          "endFrame": 9776690,
+          "pedal": 0.79,
+          "decayRate": 1.7930478454663326e-05
+        }
+      ]
+    },
+    {
+      "id": "p01059",
+      "physicalAdvanceMilliseconds": 68.66100000002007,
+      "sameBinaryPedalEndpoint": true,
+      "extraContinuousDampingAtPreviousKeyReleaseDb": 0.533899359324507,
+      "integrationSegments": [
+        {
+          "startFrame": 9897169,
+          "endFrame": 9900196,
+          "pedal": 0.58,
+          "decayRate": 0.8955116936230584
+        }
+      ]
+    }
+  ],
+  "renderedPremasterComparison": {
+    "sameFrameCount": 10281660,
+    "differenceRmsRelativeToPreviousDb": -46.194387329749674,
+    "absoluteDifferencePeakDbfs": -20.775780379605173,
+    "previousRmsDbfs": -17.007279494492824,
+    "finalRmsDbfs": -17.011020615991733,
+    "interpretation": "Direct comparison before mastering gain, with the same source recordings and DSP settings. Describes measured waveform changes, not a critical-listening judgment."
+  },
+  "previousMastersPreserved": {
+    "daybreak-solo-master.wav": {
+      "sha256": "20dfc1528ea320ad7eff3f789c513e68d9fd63b3d82689121a1772e070af9ca5",
+      "unchanged": true
+    },
+    "daybreak-solo-master.mp3": {
+      "sha256": "09d7e5cb0ffa20709ffe68bc8dd490b4aa462132b162a45c4a58562aa6cc56b5",
+      "unchanged": true
+    }
+  }
+}

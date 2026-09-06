@@ -1,0 +1,13 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -139,7 +139,9 @@
+  const softness=.023+.023*energy*release;
+  set('mouthSmileLeft',softness);set('mouthSmileRight',softness*.94);
+  set('browInnerUp',.014+.012*release*energy);
+- set('eyeLookDownLeft',.15+.07*release);set('eyeLookDownRight',.15+.07*release);
++ // The authored down-look morph also carries the matching eyelid motion.
++ const gaze=.55+.08*release;
++ set('eyeLookDownLeft',gaze);set('eyeLookDownRight',gaze);
+  set('eyeSquintLeft',.020*energy);set('eyeSquintRight',.020*energy);
+  }
+  }

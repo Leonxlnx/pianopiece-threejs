@@ -1,0 +1,87 @@
+--- pianist-baseline.ts	2026-09-06 02:38:25.584534993 +0900
++++ pianist-thumb-only.ts	2026-09-06 02:42:08.663006320 +0900
+@@ -8,7 +8,7 @@
+ const FINGERS=['Thumb','Index','Middle','Ring','Pinky'];
+ const TIP_LENGTH=[.027,.0243,.023,.0244,.0188];
+ const PALM_Q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(v3(-1,0,0),v3(0,0,-1),v3(0,-1,0)));
+-interface FingerRig { bones:THREE.Bone[]; lengths:number[]; tip:THREE.Object3D; rest:THREE.Quaternion[]; frameOffsets:THREE.Quaternion[]; }
++interface FingerRig { bones:THREE.Bone[]; lengths:number[]; tip:THREE.Object3D; rest:THREE.Quaternion[]; frameOffsets:THREE.Quaternion[]; palmNormal:THREE.Vector3; }
+ interface HandPose { position:THREE.Vector3; q:THREE.Quaternion; }
+ interface HandKnot { time:number; end:number; notes:Note[]; pose:HandPose; }
+ interface HandRig { side:Hand; wrist:THREE.Bone; upper:THREE.Bone; lower:THREE.Bone; fingers:FingerRig[]; notes:Note[]; fingerNotes:Note[][]; plan:HandKnot[]; }
+@@ -37,15 +37,18 @@
+  for(const side of ['L','R'] as const){const word=side==='L'?'Left':'Right';const fingers:FingerRig[]=[];for(let i=0;i<5;i++){
+  const bones=[1,2,3].map(n=>this.bones.get(word+'Hand'+FINGERS[i]+n)!);if(bones.some(b=>!b))throw new Error('The performer finger rig is incomplete.');
+  const tip=new THREE.Object3D();tip.name=word+FINGERS[i]+'Contact';tip.position.set(0,TIP_LENGTH[i],0);bones[2].add(tip);
+- fingers.push({bones,tip,lengths:[bones[1].position.length(),bones[2].position.length(),TIP_LENGTH[i]],rest:bones.map(b=>b.quaternion.clone()),frameOffsets:[]});
++ fingers.push({bones,tip,lengths:[bones[1].position.length(),bones[2].position.length(),TIP_LENGTH[i]],rest:bones.map(b=>b.quaternion.clone()),frameOffsets:[],palmNormal:v3(-1,0,0)});
+  }
+  // Calibrate each phalanx roll against a complete flexion frame. Keeping a
+  // full frame avoids the axial spin of repeated shortest-arc aim rotations.
+  const wristBone=this.bones.get(word+'Hand')!,oldWristQ=wristBone.getWorldQuaternion(new THREE.Quaternion());setWorldQ(wristBone,PALM_Q);
+- for(const finger of fingers)finger.frameOffsets=finger.bones.map((bone,j)=>{
+- const child=j<2?finger.bones[j+1]:finger.tip,dir=wp(child).sub(wp(bone)).normalize(),normal=dir.clone().cross(v3(0,1,0)).normalize();
++ for(const [fi,finger] of fingers.entries()){
++ if(fi===0){const a=wp(finger.bones[1]).sub(wp(finger.bones[0])).normalize(),b=wp(finger.bones[2]).sub(wp(finger.bones[1])).normalize();finger.palmNormal.copy(b.cross(a).normalize().applyQuaternion(PALM_Q.clone().invert()));}
++ const reference=finger.palmNormal.clone().applyQuaternion(PALM_Q);
++ finger.frameOffsets=finger.bones.map((bone,j)=>{
++ const child=j<2?finger.bones[j+1]:finger.tip,dir=wp(child).sub(wp(bone)).normalize(),normal=fi===0?reference.clone().addScaledVector(dir,-reference.dot(dir)).normalize():dir.clone().cross(v3(0,1,0)).normalize();
+  const frame=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize()));return frame.invert().multiply(bone.getWorldQuaternion(new THREE.Quaternion())).normalize();
+- });setWorldQ(wristBone,oldWristQ);
++ });}setWorldQ(wristBone,oldWristQ);
+  const notes=score.notes.filter(n=>n.hand===side);this.hands.push({side,wrist:this.bones.get(word+'Hand')!,upper:this.bones.get(word+'Arm')!,lower:this.bones.get(word+'ForeArm')!,fingers,notes,fingerNotes:Array.from({length:5},(_,i)=>notes.filter(n=>n.finger===i+1)),plan:[]});
+  }
+  // Understated concert shoes follow the anatomical heel and toe pose.
+@@ -120,7 +123,7 @@
+  }
+  // Three linked phalanges share one continuous flexion plane. Coupled bends
+  // prevent the mathematically reachable but unnatural folded-back IK solution.
+- fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number){
++ fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number,palmQ?:THREE.Quaternion){
+  const [a,b,c]=f.lengths,ratio=fi===0?.35:.48,maxBend=fi===0?1.56:1.52;
+  const reach=(bend:number)=>Math.hypot(a+b*Math.cos(bend)+c*Math.cos((1+ratio)*bend),b*Math.sin(bend)+c*Math.sin((1+ratio)*bend));
+  const delta=target.clone().sub(base),d=clamp(delta.length(),reach(maxBend),a+b+c-.00003);
+@@ -129,8 +132,17 @@
+  const bend=(low+high)/2,angle=-Math.atan2(-b*Math.sin(bend)-c*Math.sin((1+ratio)*bend),a+b*Math.cos(bend)+c*Math.cos((1+ratio)*bend));
+  // Near a vertical touch, world-up no longer defines a stable flexion plane.
+  // Blend toward a palm lateral reference before that projection degenerates.
++ let normal:THREE.Vector3;
++ if(fi===0){
++ const q=palmQ??f.bones[0].parent!.getWorldQuaternion(new THREE.Quaternion());
++ const reference=f.palmNormal.clone().applyQuaternion(q);normal=reference.addScaledVector(e,-reference.dot(e));
++ if(normal.lengthSq()<1e-8)normal.copy(v3(0,1,0).applyQuaternion(q)).cross(e);
++ normal.normalize();
++ }else{
+  const natural=e.clone().cross(v3(0,1,0)).normalize(),stable=v3(1,0,0).addScaledVector(e,-e.x).normalize();
+- const horizontal=Math.hypot(target.x-base.x,target.z-base.z),normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize(),up=normal.clone().cross(e).normalize();
++ const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize();
++ }
++ const up=normal.clone().cross(e).normalize();
+  const segment=(theta:number,length:number)=>e.clone().multiplyScalar(Math.cos(theta)*length).addScaledVector(up,Math.sin(theta)*length);
+  const pip=base.clone().add(segment(angle,a)),dip=pip.clone().add(segment(angle-bend,b)),tip=dip.clone().add(segment(angle-(1+ratio)*bend,c));return {pip,dip,tip,normal,min:reach(maxBend)};
+  }
+@@ -174,7 +186,7 @@
+  const quaternion=(p:number[])=>new THREE.Quaternion().setFromEuler(new THREE.Euler(p[4],p[5],p[3],'YXZ')).multiply(PALM_Q);
+  const cost=(p:number[])=>{
+  const q=quaternion(p),w=v3(p[0],p[1],p[2]);let cost=0;
+- for(const n of notes){const fi=n.finger-1,f=hand.fingers[fi];const base=f.bones[0].position.clone().applyQuaternion(q).add(w);const black=isBlack(n.midi);const z=this.contactDepth(base.z,black,fi),target=v3(keyX(n.midi),keySurfaceY(n.midi,z)+(n.contactLift??.002),z);const length=f.lengths.reduce((a,b)=>a+b,0);const d=target.distanceTo(base);const shape=this.fingerPoints(base,target,f,fi);
++ for(const n of notes){const fi=n.finger-1,f=hand.fingers[fi];const base=f.bones[0].position.clone().applyQuaternion(q).add(w);const black=isBlack(n.midi);const z=this.contactDepth(base.z,black,fi),target=v3(keyX(n.midi),keySurfaceY(n.midi,z)+(n.contactLift??.002),z);const length=f.lengths.reduce((a,b)=>a+b,0);const d=target.distanceTo(base);const shape=this.fingerPoints(base,target,f,fi,q);
+  if(fi>0)cost+=Math.pow(Math.max(0,shape.pip.z-base.z+.003),2)*400+Math.pow(Math.max(0,shape.pip.y-base.y-.025),2)*60;
+  cost+=Math.pow(Math.max(0,d-length*.985),2)*15000+Math.pow(Math.max(0,shape.min+.001-d),2)*15000;
+  cost+=Math.pow(d-length*.88,2)*18+Math.pow(Math.max(0,target.y+.013-base.y),2)*250;
+@@ -220,14 +232,10 @@
+  const since=prev?time-prev.time-prev.duration:100,before=nxt?nxt.time-time:100;target.lerp(idle,Math.max(tooClose,behind,tooSide)*smooth(Math.min(since,before)/.07));}
+  const desired=target.clone();
+  const shape=this.fingerPoints(base,target,finger,fi);
+- // A thumb has an opposed metacarpal. Its base follows the palm's anatomical
+- // rest plane, rather than the world-up curl plane of the other four digits.
+- if(fi===0){const restDirection=finger.bones[1].position.clone().applyQuaternion(finger.bones[0].getWorldQuaternion(new THREE.Quaternion())).normalize();shape.pip.copy(joint(base,shape.dip,finger.lengths[0],finger.lengths[1],base.clone().add(restDirection)));}
+  const points=[base,shape.pip,shape.dip,shape.tip];
+  for(let j=0;j<3;j++){
+  const dir=points[j+1].clone().sub(points[j]).normalize(),normal=shape.normal;let q:THREE.Quaternion;
+- if(fi===0&&j<2){const bone=finger.bones[j],child=finger.bones[j+1],restWorld=bone.getWorldQuaternion(new THREE.Quaternion()),restDirection=child.position.clone().applyQuaternion(restWorld).normalize();q=new THREE.Quaternion().setFromUnitVectors(restDirection,dir).multiply(restWorld);}
+- else q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);
++ q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);
+  setWorldQ(finger.bones[j],q);
+  }
+  if(n&&time>=n.time&&time<n.time+n.duration)this.contacts.push({hand:hand.side,finger:fi+1,midi:n.midi,error:wp(finger.tip).distanceTo(desired)});

@@ -1,0 +1,11 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -247,7 +247,7 @@
+  const fnotes=hand.fingerNotes[fi];const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
+  let n=current.find(n=>n.finger===fi+1);let target:THREE.Vector3;
+  const base=wp(finger.bones[0]),reach=finger.lengths.reduce((a,b)=>a+b,0);
+- const idle=base.clone().add(v3(fi===0?(hand.side==='L'?1:-1)*reach*.35:0,-reach*.19,-reach*(fi===0?.81:.90)));idle.y=Math.max(idle.y,KEY_TOP+(idle.z<.230?.027:.011));
++ const idle=base.clone().add(v3(fi===0?(hand.side==='L'?1:-1)*reach*.35:0,-reach*.19,-reach*(fi===0?.81:.90)));idle.y=Math.max(idle.y,KEY_TOP+(fi===0?(idle.z<.230?.027:.011):mix(.027,.011,smooth((idle.z-.237)/.026))));
+  const keyTarget=(note:Note)=>{const v=piano.contact(note.midi,this.contactDepth(base.z,isBlack(note.midi),fi));v.y+=note.contactLift??.002;return v;};
+  if(n)target=keyTarget(n);
+  else {

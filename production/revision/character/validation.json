@@ -1,0 +1,118 @@
+{
+  "nodesExact": true,
+  "jointNamesExact": true,
+  "inverseBindMatricesExact": true,
+  "originalBodyAttributesExact": {
+    "POSITION": true,
+    "NORMAL": true,
+    "TEXCOORD_0": true,
+    "JOINTS_0": true,
+    "WEIGHTS_0": true
+  },
+  "meshChecks": [
+    {
+      "name": "base",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "female_casualsuit01",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "high-poly",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "mind_eyebrows_02",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 0.0,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "mind_eyelashes_02",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "ponytail01",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 5.960464477539063e-08,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "teeth_base",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 0.0,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999998807907104,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    },
+    {
+      "name": "tongue01",
+      "allFinite": true,
+      "indexBoundsValid": true,
+      "skinJointBoundsValid": true,
+      "maxWeightSumError": 0.0,
+      "zeroAreaTriangles": 0,
+      "normalLengthRange": [
+        0.9999999403953552,
+        1.0000001192092896
+      ],
+      "targetVertexCountsValid": true
+    }
+  ]
+}

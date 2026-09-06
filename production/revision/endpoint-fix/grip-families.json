@@ -1,0 +1,2120 @@
+{
+  "source": "candidate-forward.json",
+  "noteCount": 42,
+  "familyCount": 21,
+  "equivalence": "Same hand, assigned finger, black/white contact class, contact lift, active grip, wrist rotation and key-relative wrist position at settled attack. Quantized to10 micrometers /1e-5 quaternion component. This groups settled contact poses, not complete neighboring motion or idle fingers; worst held state remains measured independently.",
+  "families": [
+    {
+      "family": "F01",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00775",
+        "p00414"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          0.01723,
+          0.75414,
+          0.3685
+        ],
+        "q": [
+          0.01304,
+          -0.74717,
+          0.65201,
+          -0.12826
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00414",
+        "time": 88.03759000000001,
+        "value": 29.9015182987635
+      },
+      "worstForward": {
+        "id": "p00775",
+        "time": 167.7507400000013,
+        "value": 0.7635580027045925
+      },
+      "heldRepresentative": {
+        "id": "p00414",
+        "time": 88.17558500000001
+      },
+      "notes": [
+        {
+          "id": "p00775",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 167.48373,
+          "end": 167.75174,
+          "midpoint": 167.617735,
+          "sampleTime": 167.51053100000001,
+          "steady": {
+            "spread": 29.9015182987635,
+            "forward": 0.8643482456000041
+          },
+          "maxSpread": {
+            "value": 29.9015182987635,
+            "signed": 29.9015182987635,
+            "time": 167.48374
+          },
+          "minForward": {
+            "value": 0.7635580027045925,
+            "time": 167.7507400000013
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[0.01723,0.75414,0.3685],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00414",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 88.03758,
+          "end": 88.31359,
+          "midpoint": 88.17558500000001,
+          "sampleTime": 88.06518100000001,
+          "steady": {
+            "spread": 29.9015182987635,
+            "forward": 0.8643482456000041
+          },
+          "maxSpread": {
+            "value": 29.9015182987635,
+            "signed": 29.9015182987635,
+            "time": 88.03759000000001
+          },
+          "minForward": {
+            "value": 0.7640002916897644,
+            "time": 88.31259000000132
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[0.01723,0.75414,0.3685],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        }
+      ]
+    },
+    {
+      "family": "F02",
+      "hand": "L",
+      "finger": 5,
+      "ids": [
+        "p00784",
+        "p00422"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 5,
+        "black": false,
+        "lift": 0.00244,
+        "relativeWrist": [
+          0.02423,
+          0.74778,
+          0.358
+        ],
+        "q": [
+          -0.01304,
+          -0.75171,
+          0.65201,
+          -0.09828
+        ],
+        "grip": [
+          {
+            "finger": 5,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00422",
+        "time": 89.69035500000115,
+        "value": 43.052016438458004
+      },
+      "worstForward": {
+        "id": "p00422",
+        "time": 89.69035500000115,
+        "value": 0.5833967704292807
+      },
+      "heldRepresentative": {
+        "id": "p00422",
+        "time": 89.57034999999999
+      },
+      "notes": [
+        {
+          "id": "p00784",
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "time": 168.86304,
+          "end": 169.09605000000002,
+          "midpoint": 168.979545,
+          "sampleTime": 168.88634100000002,
+          "steady": {
+            "spread": -33.17049481827154,
+            "forward": 0.762588853503563
+          },
+          "maxSpread": {
+            "value": 42.817442833296255,
+            "signed": -42.817442833296255,
+            "time": 169.09505000000112
+          },
+          "minForward": {
+            "value": 0.5922521764138452,
+            "time": 169.09505000000112
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":5,\"black\":false,\"lift\":0.00244,\"relativeWrist\":[0.02423,0.74778,0.358],\"q\":[-0.01304,-0.75171,0.65201,-0.09828],\"grip\":[{\"finger\":5,\"dx\":0,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00422",
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "time": 89.449345,
+          "end": 89.69135499999999,
+          "midpoint": 89.57034999999999,
+          "sampleTime": 89.473546,
+          "steady": {
+            "spread": -33.17049481827154,
+            "forward": 0.762588853503563
+          },
+          "maxSpread": {
+            "value": 43.052016438458004,
+            "signed": -43.052016438458004,
+            "time": 89.69035500000115
+          },
+          "minForward": {
+            "value": 0.5833967704292807,
+            "time": 89.69035500000115
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":5,\"black\":false,\"lift\":0.00244,\"relativeWrist\":[0.02423,0.74778,0.358],\"q\":[-0.01304,-0.75171,0.65201,-0.09828],\"grip\":[{\"finger\":5,\"dx\":0,\"black\":false,\"lift\":0.00244}]}"
+        }
+      ]
+    },
+    {
+      "family": "F03",
+      "hand": "R",
+      "finger": 4,
+      "ids": [
+        "p00982"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00239,
+        "relativeWrist": [
+          0.00299,
+          0.775,
+          0.364
+        ],
+        "q": [
+          -0.02034,
+          -0.74856,
+          0.65182,
+          0.11988
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": -0.047,
+            "black": false,
+            "lift": 0.00301
+          },
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00239
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00982",
+        "time": 199.6323620000014,
+        "value": 55.102569118093044
+      },
+      "worstForward": {
+        "id": "p00982",
+        "time": 199.6323620000014,
+        "value": 0.4279153048472128
+      },
+      "heldRepresentative": {
+        "id": "p00982",
+        "time": 199.488357
+      },
+      "notes": [
+        {
+          "id": "p00982",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76,
+          "time": 199.343352,
+          "end": 199.633362,
+          "midpoint": 199.488357,
+          "sampleTime": 199.372353,
+          "steady": {
+            "spread": 27.354782302081684,
+            "forward": 0.5354097163462092
+          },
+          "maxSpread": {
+            "value": 55.102569118093044,
+            "signed": 55.102569118093044,
+            "time": 199.6323620000014
+          },
+          "minForward": {
+            "value": 0.4279153048472128,
+            "time": 199.6323620000014
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":4,\"black\":false,\"lift\":0.00239,\"relativeWrist\":[0.00299,0.775,0.364],\"q\":[-0.02034,-0.74856,0.65182,0.11988],\"grip\":[{\"finger\":2,\"dx\":-0.047,\"black\":false,\"lift\":0.00301},{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.00239}]}"
+        }
+      ]
+    },
+    {
+      "family": "F04",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00795",
+        "p00938",
+        "p00432",
+        "p00527"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.04323,
+          0.75396,
+          0.376
+        ],
+        "q": [
+          0.01304,
+          -0.74717,
+          0.65201,
+          -0.12826
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00938",
+        "time": 192.33183300000147,
+        "value": 17.87197463726086
+      },
+      "worstForward": {
+        "id": "p00938",
+        "time": 192.33183300000147,
+        "value": 0.9255481360806752
+      },
+      "heldRepresentative": {
+        "id": "p00938",
+        "time": 192.17748949999998
+      },
+      "notes": [
+        {
+          "id": "p00795",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 170.564189,
+          "end": 170.873523,
+          "midpoint": 170.718856,
+          "sampleTime": 170.594189,
+          "steady": {
+            "spread": 3.2954124229257995,
+            "forward": 0.9634697514588021
+          },
+          "maxSpread": {
+            "value": 17.871940554903713,
+            "signed": 17.871940554903713,
+            "time": 170.87319900000148
+          },
+          "minForward": {
+            "value": 0.9255484880951578,
+            "time": 170.87319900000148
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.04323,0.75396,0.376],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00938",
+          "hand": "L",
+          "finger": 1,
+          "midi": 59,
+          "time": 192.022823,
+          "end": 192.332156,
+          "midpoint": 192.17748949999998,
+          "sampleTime": 192.052823,
+          "steady": {
+            "spread": 3.2954124229257995,
+            "forward": 0.9634697514588021
+          },
+          "maxSpread": {
+            "value": 17.87197463726086,
+            "signed": 17.87197463726086,
+            "time": 192.33183300000147
+          },
+          "minForward": {
+            "value": 0.9255481360806752,
+            "time": 192.33183300000147
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.04323,0.75396,0.376],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00432",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 91.189986,
+          "end": 91.506895,
+          "midpoint": 91.34844050000001,
+          "sampleTime": 91.219986,
+          "steady": {
+            "spread": 3.2954124229257995,
+            "forward": 0.9634697514588021
+          },
+          "maxSpread": {
+            "value": 17.82384758715758,
+            "signed": 17.82384758715758,
+            "time": 91.50599600000152
+          },
+          "minForward": {
+            "value": 0.9256771584189595,
+            "time": 91.50599600000152
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.04323,0.75396,0.376],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00527",
+          "hand": "L",
+          "finger": 1,
+          "midi": 59,
+          "time": 107.588592,
+          "end": 107.905501,
+          "midpoint": 107.74704650000001,
+          "sampleTime": 107.618592,
+          "steady": {
+            "spread": 3.2954124229257995,
+            "forward": 0.9634697514588021
+          },
+          "maxSpread": {
+            "value": 17.82384758715759,
+            "signed": 17.82384758715759,
+            "time": 107.90460200000152
+          },
+          "minForward": {
+            "value": 0.9256771584189594,
+            "time": 107.90460200000152
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.04323,0.75396,0.376],\"q\":[0.01304,-0.74717,0.65201,-0.12826],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        }
+      ]
+    },
+    {
+      "family": "F05",
+      "hand": "R",
+      "finger": 3,
+      "ids": [
+        "p00475"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.0289,
+          0.77464,
+          0.3646
+        ],
+        "q": [
+          -0.09307,
+          -0.75727,
+          0.64546,
+          0.03547
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          },
+          {
+            "finger": 4,
+            "dx": 0.08075,
+            "black": true,
+            "lift": 0.00238
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00475",
+        "time": 98.672353,
+        "value": 46.12337952340593
+      },
+      "worstForward": {
+        "id": "p00475",
+        "time": 98.672353,
+        "value": 0.16660063508884676
+      },
+      "heldRepresentative": {
+        "id": "p00475",
+        "time": 98.904343
+      },
+      "notes": [
+        {
+          "id": "p00475",
+          "hand": "R",
+          "finger": 3,
+          "midi": 72,
+          "time": 98.672343,
+          "end": 99.136343,
+          "midpoint": 98.904343,
+          "sampleTime": 98.702343,
+          "steady": {
+            "spread": 46.12337952340593,
+            "forward": 0.16660063508884676
+          },
+          "maxSpread": {
+            "value": 46.12337952340593,
+            "signed": 46.12337952340593,
+            "time": 98.672353
+          },
+          "minForward": {
+            "value": 0.16660063508884676,
+            "time": 98.672353
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":3,\"black\":false,\"lift\":0.00327,\"relativeWrist\":[0.0289,0.77464,0.3646],\"q\":[-0.09307,-0.75727,0.64546,0.03547],\"grip\":[{\"finger\":3,\"dx\":0,\"black\":false,\"lift\":0.00327},{\"finger\":4,\"dx\":0.08075,\"black\":true,\"lift\":0.00238}]}"
+        }
+      ]
+    },
+    {
+      "family": "F06",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00489",
+        "p00394",
+        "p00893",
+        "p00753",
+        "p00857",
+        "p00364",
+        "p00720",
+        "p00458"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07173,
+          0.75526,
+          0.35095
+        ],
+        "q": [
+          0.11816,
+          -0.67843,
+          0.72484,
+          -0.01927
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 5,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00458",
+        "time": 96.2175800000014,
+        "value": 27.32924650379827
+      },
+      "worstForward": {
+        "id": "p00489",
+        "time": 101.67538200000097,
+        "value": 0.7632221791561862
+      },
+      "heldRepresentative": {
+        "id": "p00458",
+        "time": 96.08427449999999
+      },
+      "notes": [
+        {
+          "id": "p00489",
+          "hand": "L",
+          "finger": 1,
+          "midi": 52,
+          "time": 101.474372,
+          "end": 101.746849,
+          "midpoint": 101.6106105,
+          "sampleTime": 101.5016197,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 101.474382
+          },
+          "minForward": {
+            "value": 0.7632221791561862,
+            "time": 101.67538200000097
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00394",
+          "hand": "L",
+          "finger": 1,
+          "midi": 52,
+          "time": 84.948866,
+          "end": 85.22134299999999,
+          "midpoint": 85.0851045,
+          "sampleTime": 84.9761137,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 84.948876
+          },
+          "minForward": {
+            "value": 0.7632221791561866,
+            "time": 85.14987600000096
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00893",
+          "hand": "L",
+          "finger": 1,
+          "midi": 52,
+          "time": 185.922369,
+          "end": 186.18727,
+          "midpoint": 186.0548195,
+          "sampleTime": 185.9488591,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 185.922379
+          },
+          "minForward": {
+            "value": 0.7632228093464264,
+            "time": 185.922379
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00753",
+          "hand": "L",
+          "finger": 1,
+          "midi": 52,
+          "time": 164.463735,
+          "end": 164.72863700000002,
+          "midpoint": 164.59618600000002,
+          "sampleTime": 164.49022520000003,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 164.46374500000002
+          },
+          "minForward": {
+            "value": 0.7632228093464264,
+            "time": 164.46374500000002
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00857",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 180.618339,
+          "end": 180.883241,
+          "midpoint": 180.75079,
+          "sampleTime": 180.6448292,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 180.618349
+          },
+          "minForward": {
+            "value": 0.7632228093464264,
+            "time": 180.618349
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00364",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 79.524964,
+          "end": 79.79744099999999,
+          "midpoint": 79.6612025,
+          "sampleTime": 79.5522117,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 79.524974
+          },
+          "minForward": {
+            "value": 0.7632221791561866,
+            "time": 79.72597400000096
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00720",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55,
+          "time": 159.159706,
+          "end": 159.424607,
+          "midpoint": 159.2921565,
+          "sampleTime": 159.1861961,
+          "steady": {
+            "spread": -27.329246503798036,
+            "forward": 0.7632228093464264
+          },
+          "maxSpread": {
+            "value": 27.329246503798036,
+            "signed": -27.329246503798036,
+            "time": 159.159716
+          },
+          "minForward": {
+            "value": 0.7632228093464264,
+            "time": 159.159716
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        },
+        {
+          "id": "p00458",
+          "hand": "L",
+          "finger": 1,
+          "midi": 60,
+          "time": 95.92357,
+          "end": 96.244979,
+          "midpoint": 96.08427449999999,
+          "sampleTime": 95.95357,
+          "steady": {
+            "spread": -27.329246503798238,
+            "forward": 0.7632228093464256
+          },
+          "maxSpread": {
+            "value": 27.32924650379827,
+            "signed": -27.32924650379827,
+            "time": 96.2175800000014
+          },
+          "minForward": {
+            "value": 0.7632228093464256,
+            "time": 95.92358
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07173,0.75526,0.35095],\"q\":[0.11816,-0.67843,0.72484,-0.01927],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":5,\"dx\":-0.1645,\"black\":false,\"lift\":0.00244}]}"
+        }
+      ]
+    },
+    {
+      "family": "F07",
+      "hand": "R",
+      "finger": 3,
+      "ids": [
+        "p00842"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          0.0421,
+          0.7762,
+          0.3589
+        ],
+        "q": [
+          -0.05055,
+          -0.75332,
+          0.65017,
+          0.08503
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": -0.047,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          },
+          {
+            "finger": 4,
+            "dx": 0.08075,
+            "black": true,
+            "lift": 0.00238
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00842",
+        "time": 177.884729,
+        "value": 46.1010573548573
+      },
+      "worstForward": {
+        "id": "p00842",
+        "time": 177.884729,
+        "value": 0.1726875561055186
+      },
+      "heldRepresentative": {
+        "id": "p00842",
+        "time": 178.10945149999998
+      },
+      "notes": [
+        {
+          "id": "p00842",
+          "hand": "R",
+          "finger": 3,
+          "midi": 72,
+          "time": 177.884719,
+          "end": 178.334184,
+          "midpoint": 178.10945149999998,
+          "sampleTime": 177.914719,
+          "steady": {
+            "spread": 46.1010573548573,
+            "forward": 0.1726875561055186
+          },
+          "maxSpread": {
+            "value": 46.1010573548573,
+            "signed": 46.1010573548573,
+            "time": 177.884729
+          },
+          "minForward": {
+            "value": 0.1726875561055186,
+            "time": 177.884729
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":3,\"black\":false,\"lift\":0.00327,\"relativeWrist\":[0.0421,0.7762,0.3589],\"q\":[-0.05055,-0.75332,0.65017,0.08503],\"grip\":[{\"finger\":1,\"dx\":-0.047,\"black\":false,\"lift\":0.00977},{\"finger\":3,\"dx\":0,\"black\":false,\"lift\":0.00327},{\"finger\":4,\"dx\":0.08075,\"black\":true,\"lift\":0.00238}]}"
+        }
+      ]
+    },
+    {
+      "family": "F08",
+      "hand": "L",
+      "finger": 2,
+      "ids": [
+        "p00919",
+        "p00927"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          -0.04416,
+          0.77784,
+          0.352
+        ],
+        "q": [
+          0.04769,
+          -0.75522,
+          0.65039,
+          -0.06602
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00919",
+        "time": 189.51220100000108,
+        "value": 60.438425759732674
+      },
+      "worstForward": {
+        "id": "p00919",
+        "time": 189.51220100000108,
+        "value": 0.17651761552996287
+      },
+      "heldRepresentative": {
+        "id": "p00919",
+        "time": 189.400196
+      },
+      "notes": [
+        {
+          "id": "p00919",
+          "hand": "L",
+          "finger": 2,
+          "midi": 57,
+          "time": 189.287191,
+          "end": 189.513201,
+          "midpoint": 189.400196,
+          "sampleTime": 189.30979200000002,
+          "steady": {
+            "spread": -52.938282646882705,
+            "forward": 0.31312026347238087
+          },
+          "maxSpread": {
+            "value": 60.438425759732674,
+            "signed": -60.438425759732674,
+            "time": 189.51220100000108
+          },
+          "minForward": {
+            "value": 0.17651761552996287,
+            "time": 189.51220100000108
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":2,\"black\":false,\"lift\":0.00301,\"relativeWrist\":[-0.04416,0.77784,0.352],\"q\":[0.04769,-0.75522,0.65039,-0.06602],\"grip\":[{\"finger\":2,\"dx\":0,\"black\":false,\"lift\":0.00301}]}"
+        },
+        {
+          "id": "p00927",
+          "hand": "L",
+          "finger": 2,
+          "midi": 57,
+          "time": 190.666501,
+          "end": 191.228511,
+          "midpoint": 190.947506,
+          "sampleTime": 190.696501,
+          "steady": {
+            "spread": -52.938282646882705,
+            "forward": 0.31312026347238087
+          },
+          "maxSpread": {
+            "value": 59.138932669689524,
+            "signed": -59.138932669689524,
+            "time": 191.2275110000027
+          },
+          "minForward": {
+            "value": 0.2931173642705415,
+            "time": 191.2275110000027
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":2,\"black\":false,\"lift\":0.00301,\"relativeWrist\":[-0.04416,0.77784,0.352],\"q\":[0.04769,-0.75522,0.65039,-0.06602],\"grip\":[{\"finger\":2,\"dx\":0,\"black\":false,\"lift\":0.00301}]}"
+        }
+      ]
+    },
+    {
+      "family": "F09",
+      "hand": "L",
+      "finger": 2,
+      "ids": [
+        "p00604"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          -0.03169,
+          0.7798,
+          0.3385
+        ],
+        "q": [
+          0.06173,
+          -0.75467,
+          0.64921,
+          -0.07206
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00604",
+        "time": 130.60796200000001,
+        "value": 38.557777411564786
+      },
+      "worstForward": {
+        "id": "p00604",
+        "time": 130.60796200000001,
+        "value": 0.3639608399464459
+      },
+      "heldRepresentative": {
+        "id": "p00604",
+        "time": 130.81395700000002
+      },
+      "notes": [
+        {
+          "id": "p00604",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48,
+          "time": 130.607952,
+          "end": 131.01996200000002,
+          "midpoint": 130.81395700000002,
+          "sampleTime": 130.637952,
+          "steady": {
+            "spread": -38.557777411564786,
+            "forward": 0.3639608399464459
+          },
+          "maxSpread": {
+            "value": 38.557777411564786,
+            "signed": -38.557777411564786,
+            "time": 130.60796200000001
+          },
+          "minForward": {
+            "value": 0.3639608399464459,
+            "time": 130.60796200000001
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":2,\"black\":false,\"lift\":0.00301,\"relativeWrist\":[-0.03169,0.7798,0.3385],\"q\":[0.06173,-0.75467,0.64921,-0.07206],\"grip\":[{\"finger\":2,\"dx\":0,\"black\":false,\"lift\":0.00301}]}"
+        }
+      ]
+    },
+    {
+      "family": "F10",
+      "hand": "R",
+      "finger": 2,
+      "ids": [
+        "p00978"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          0.04651,
+          0.7768,
+          0.35005
+        ],
+        "q": [
+          -0.04457,
+          -0.75301,
+          0.65061,
+          0.08774
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00978",
+        "time": 198.673195,
+        "value": 52.577074546333634
+      },
+      "worstForward": {
+        "id": "p00978",
+        "time": 198.673195,
+        "value": 0.33073374434122355
+      },
+      "heldRepresentative": {
+        "id": "p00978",
+        "time": 198.9945185
+      },
+      "notes": [
+        {
+          "id": "p00978",
+          "hand": "R",
+          "finger": 2,
+          "midi": 74,
+          "time": 198.673185,
+          "end": 199.31585199999998,
+          "midpoint": 198.9945185,
+          "sampleTime": 198.703185,
+          "steady": {
+            "spread": 52.577074546333634,
+            "forward": 0.33073374434122355
+          },
+          "maxSpread": {
+            "value": 52.577074546333634,
+            "signed": 52.577074546333634,
+            "time": 198.673195
+          },
+          "minForward": {
+            "value": 0.33073374434122355,
+            "time": 198.673195
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":2,\"black\":false,\"lift\":0.00301,\"relativeWrist\":[0.04651,0.7768,0.35005],\"q\":[-0.04457,-0.75301,0.65061,0.08774],\"grip\":[{\"finger\":2,\"dx\":0,\"black\":false,\"lift\":0.00301}]}"
+        }
+      ]
+    },
+    {
+      "family": "F11",
+      "hand": "L",
+      "finger": 4,
+      "ids": [
+        "p00777",
+        "p00416"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.002,
+        "relativeWrist": [
+          -0.02375,
+          0.738,
+          0.379
+        ],
+        "q": [
+          -0.03881,
+          -0.67458,
+          0.73718,
+          -0.00229
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.002
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00777",
+        "time": 168.08456700000121,
+        "value": 48.03044975830208
+      },
+      "worstForward": {
+        "id": "p00777",
+        "time": 168.08456700000121,
+        "value": 0.12707585639929292
+      },
+      "heldRepresentative": {
+        "id": "p00777",
+        "time": 167.95706199999998
+      },
+      "notes": [
+        {
+          "id": "p00777",
+          "hand": "L",
+          "finger": 4,
+          "midi": 59,
+          "time": 167.828557,
+          "end": 168.085567,
+          "midpoint": 167.95706199999998,
+          "sampleTime": 167.854258,
+          "steady": {
+            "spread": -40.348136204080106,
+            "forward": 0.2269178651806483
+          },
+          "maxSpread": {
+            "value": 48.03044975830208,
+            "signed": -48.03044975830208,
+            "time": 168.08456700000121
+          },
+          "minForward": {
+            "value": 0.12707585639929292,
+            "time": 168.08456700000121
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.002,\"relativeWrist\":[-0.02375,0.738,0.379],\"q\":[-0.03881,-0.67458,0.73718,-0.00229],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.002}]}"
+        },
+        {
+          "id": "p00416",
+          "hand": "L",
+          "finger": 4,
+          "midi": 59,
+          "time": 88.390521,
+          "end": 88.65553100000001,
+          "midpoint": 88.523026,
+          "sampleTime": 88.417022,
+          "steady": {
+            "spread": -40.348136204080106,
+            "forward": 0.2269178651806483
+          },
+          "maxSpread": {
+            "value": 47.9819784499829,
+            "signed": -47.9819784499829,
+            "time": 88.65453100000127
+          },
+          "minForward": {
+            "value": 0.12767580699768957,
+            "time": 88.65453100000127
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.002,\"relativeWrist\":[-0.02375,0.738,0.379],\"q\":[-0.03881,-0.67458,0.73718,-0.00229],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.002}]}"
+        }
+      ]
+    },
+    {
+      "family": "F12",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00786",
+        "p00424"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07975,
+          0.75426,
+          0.364
+        ],
+        "q": [
+          0.03086,
+          -0.72567,
+          0.67918,
+          -0.10567
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00786",
+        "time": 169.7958780000028,
+        "value": 21.571883418161278
+      },
+      "worstForward": {
+        "id": "p00786",
+        "time": 169.7958780000028,
+        "value": 0.8503205694775318
+      },
+      "heldRepresentative": {
+        "id": "p00786",
+        "time": 169.5021745
+      },
+      "notes": [
+        {
+          "id": "p00786",
+          "hand": "L",
+          "finger": 1,
+          "midi": 59,
+          "time": 169.207868,
+          "end": 169.796481,
+          "midpoint": 169.5021745,
+          "sampleTime": 169.237868,
+          "steady": {
+            "spread": -17.404217527316707,
+            "forward": 0.9202081393797705
+          },
+          "maxSpread": {
+            "value": 21.571883418161278,
+            "signed": -21.571883418161278,
+            "time": 169.7958780000028
+          },
+          "minForward": {
+            "value": 0.8503205694775318,
+            "time": 169.7958780000028
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07975,0.75426,0.364],\"q\":[0.03086,-0.72567,0.67918,-0.10567],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00424",
+          "hand": "L",
+          "finger": 1,
+          "midi": 59,
+          "time": 89.802286,
+          "end": 90.40712599999999,
+          "midpoint": 90.104706,
+          "sampleTime": 89.832286,
+          "steady": {
+            "spread": -17.404217527316707,
+            "forward": 0.9202081393797705
+          },
+          "maxSpread": {
+            "value": 21.520748040080413,
+            "signed": -21.520748040080413,
+            "time": 90.40629600000288
+          },
+          "minForward": {
+            "value": 0.8504846686306781,
+            "time": 90.40629600000288
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07975,0.75426,0.364],\"q\":[0.03086,-0.72567,0.67918,-0.10567],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        }
+      ]
+    },
+    {
+      "family": "F13",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00955"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.05875,
+          0.7452,
+          0.35545
+        ],
+        "q": [
+          0.03322,
+          -0.727,
+          0.68579,
+          -0.00756
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00955",
+        "time": 194.97017300000138,
+        "value": 16.46245746914296
+      },
+      "worstForward": {
+        "id": "p00955",
+        "time": 194.97017300000138,
+        "value": 0.8160331619301463
+      },
+      "heldRepresentative": {
+        "id": "p00955",
+        "time": 194.826668
+      },
+      "notes": [
+        {
+          "id": "p00955",
+          "hand": "L",
+          "finger": 1,
+          "midi": 60,
+          "time": 194.682163,
+          "end": 194.971173,
+          "midpoint": 194.826668,
+          "sampleTime": 194.711064,
+          "steady": {
+            "spread": -14.037355925958629,
+            "forward": 0.858636943636405
+          },
+          "maxSpread": {
+            "value": 16.46245746914296,
+            "signed": -16.46245746914296,
+            "time": 194.97017300000138
+          },
+          "minForward": {
+            "value": 0.8160331619301463,
+            "time": 194.97017300000138
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.05875,0.7452,0.35545],\"q\":[0.03322,-0.727,0.68579,-0.00756],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        }
+      ]
+    },
+    {
+      "family": "F14",
+      "hand": "L",
+      "finger": 4,
+      "ids": [
+        "p00953"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00484,
+        "relativeWrist": [
+          0.01077,
+          0.76158,
+          0.34
+        ],
+        "q": [
+          -0.08402,
+          -0.7567,
+          0.6467,
+          0.04606
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00484
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00953",
+        "time": 194.61450300000126,
+        "value": 50.270986822533395
+      },
+      "worstForward": {
+        "id": "p00953",
+        "time": 194.61450300000126,
+        "value": 0.6388200782991446
+      },
+      "heldRepresentative": {
+        "id": "p00953",
+        "time": 194.483998
+      },
+      "notes": [
+        {
+          "id": "p00953",
+          "hand": "L",
+          "finger": 4,
+          "midi": 55,
+          "time": 194.352493,
+          "end": 194.61550300000002,
+          "midpoint": 194.483998,
+          "sampleTime": 194.378794,
+          "steady": {
+            "spread": -28.95212008616246,
+            "forward": 0.6924589462039836
+          },
+          "maxSpread": {
+            "value": 50.270986822533395,
+            "signed": -50.270986822533395,
+            "time": 194.61450300000126
+          },
+          "minForward": {
+            "value": 0.6388200782991446,
+            "time": 194.61450300000126
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.00484,\"relativeWrist\":[0.01077,0.76158,0.34],\"q\":[-0.08402,-0.7567,0.6467,0.04606],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.00484}]}"
+        }
+      ]
+    },
+    {
+      "family": "F15",
+      "hand": "R",
+      "finger": 2,
+      "ids": [
+        "p00858"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 2,
+        "black": false,
+        "lift": 0.00301,
+        "relativeWrist": [
+          0.05949,
+          0.7468,
+          0.3844
+        ],
+        "q": [
+          0.03467,
+          -0.71124,
+          0.69843,
+          0.07165
+        ],
+        "grip": [
+          {
+            "finger": 2,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00301
+          },
+          {
+            "finger": 4,
+            "dx": 0.05725,
+            "black": true,
+            "lift": 0.00447
+          },
+          {
+            "finger": 5,
+            "dx": 0.1175,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00858",
+        "time": 180.94484900000145,
+        "value": 57.42962976196579
+      },
+      "worstForward": {
+        "id": "p00858",
+        "time": 180.94484900000145,
+        "value": 0.2809645089701306
+      },
+      "heldRepresentative": {
+        "id": "p00858",
+        "time": 180.792844
+      },
+      "notes": [
+        {
+          "id": "p00858",
+          "hand": "R",
+          "finger": 2,
+          "midi": 74,
+          "time": 180.639839,
+          "end": 180.94584899999998,
+          "midpoint": 180.792844,
+          "sampleTime": 180.669839,
+          "steady": {
+            "spread": 18.442874226860205,
+            "forward": 0.44865049424710557
+          },
+          "maxSpread": {
+            "value": 57.42962976196579,
+            "signed": 57.42962976196579,
+            "time": 180.94484900000145
+          },
+          "minForward": {
+            "value": 0.2809645089701306,
+            "time": 180.94484900000145
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":2,\"black\":false,\"lift\":0.00301,\"relativeWrist\":[0.05949,0.7468,0.3844],\"q\":[0.03467,-0.71124,0.69843,0.07165],\"grip\":[{\"finger\":2,\"dx\":0,\"black\":false,\"lift\":0.00301},{\"finger\":4,\"dx\":0.05725,\"black\":true,\"lift\":0.00447},{\"finger\":5,\"dx\":0.1175,\"black\":false,\"lift\":0.00244}]}"
+        }
+      ]
+    },
+    {
+      "family": "F16",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00983",
+        "p00715",
+        "p00708"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.01189,
+          0.74464,
+          0.3769
+        ],
+        "q": [
+          0.09381,
+          -0.73132,
+          0.67449,
+          -0.03792
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00708",
+        "time": 156.89662400000154,
+        "value": 1.0931447044222264
+      },
+      "worstForward": {
+        "id": "p00708",
+        "time": 156.575624,
+        "value": 0.9811021430171067
+      },
+      "heldRepresentative": {
+        "id": "p00708",
+        "time": 156.748799
+      },
+      "notes": [
+        {
+          "id": "p00983",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57,
+          "time": 199.67168,
+          "end": 199.99250700000002,
+          "midpoint": 199.8320935,
+          "sampleTime": 199.70168,
+          "steady": {
+            "spread": 1.0931447044222058,
+            "forward": 0.9811021430171067
+          },
+          "maxSpread": {
+            "value": 1.0931447044222264,
+            "signed": 1.0931447044222264,
+            "time": 199.9646900000014
+          },
+          "minForward": {
+            "value": 0.9811021430171067,
+            "time": 199.67169
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.01189,0.74464,0.3769],\"q\":[0.09381,-0.73132,0.67449,-0.03792],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00715",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57,
+          "time": 158.057095,
+          "end": 158.403465,
+          "midpoint": 158.23028,
+          "sampleTime": 158.087095,
+          "steady": {
+            "spread": 1.0931447044222058,
+            "forward": 0.9811021430171067
+          },
+          "maxSpread": {
+            "value": 1.0931447044222264,
+            "signed": 1.0931447044222264,
+            "time": 158.37810500000154
+          },
+          "minForward": {
+            "value": 0.9811021430171067,
+            "time": 158.057105
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.01189,0.74464,0.3769],\"q\":[0.09381,-0.73132,0.67449,-0.03792],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        },
+        {
+          "id": "p00708",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57,
+          "time": 156.575614,
+          "end": 156.921984,
+          "midpoint": 156.748799,
+          "sampleTime": 156.605614,
+          "steady": {
+            "spread": 1.0931447044222058,
+            "forward": 0.9811021430171067
+          },
+          "maxSpread": {
+            "value": 1.0931447044222264,
+            "signed": 1.0931447044222264,
+            "time": 156.89662400000154
+          },
+          "minForward": {
+            "value": 0.9811021430171067,
+            "time": 156.575624
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.01189,0.74464,0.3769],\"q\":[0.09381,-0.73132,0.67449,-0.03792],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921}]}"
+        }
+      ]
+    },
+    {
+      "family": "F17",
+      "hand": "L",
+      "finger": 1,
+      "ids": [
+        "p00411",
+        "p00772"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00921,
+        "relativeWrist": [
+          -0.07525,
+          0.74058,
+          0.349
+        ],
+        "q": [
+          0.01379,
+          -0.70156,
+          0.7105,
+          -0.053
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00921
+          },
+          {
+            "finger": 4,
+            "dx": -0.1645,
+            "black": false,
+            "lift": 0.002
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00772",
+        "time": 167.130412,
+        "value": 21.70106176740648
+      },
+      "worstForward": {
+        "id": "p00772",
+        "time": 167.4034120000013,
+        "value": 0.9097403608703332
+      },
+      "heldRepresentative": {
+        "id": "p00772",
+        "time": 167.267066
+      },
+      "notes": [
+        {
+          "id": "p00411",
+          "hand": "L",
+          "finger": 1,
+          "midi": 60,
+          "time": 87.676139,
+          "end": 87.95758000000001,
+          "midpoint": 87.8168595,
+          "sampleTime": 87.70428310000001,
+          "steady": {
+            "spread": -21.70106176740648,
+            "forward": 0.9150364422618292
+          },
+          "maxSpread": {
+            "value": 21.70106176740648,
+            "signed": -21.70106176740648,
+            "time": 87.67614900000001
+          },
+          "minForward": {
+            "value": 0.909885438172688,
+            "time": 87.95714900000135
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07525,0.74058,0.349],\"q\":[0.01379,-0.70156,0.7105,-0.053],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":4,\"dx\":-0.1645,\"black\":false,\"lift\":0.002}]}"
+        },
+        {
+          "id": "p00772",
+          "hand": "L",
+          "finger": 1,
+          "midi": 60,
+          "time": 167.130402,
+          "end": 167.40373,
+          "midpoint": 167.267066,
+          "sampleTime": 167.15773480000001,
+          "steady": {
+            "spread": -21.70106176740648,
+            "forward": 0.9150364422618292
+          },
+          "maxSpread": {
+            "value": 21.70106176740648,
+            "signed": -21.70106176740648,
+            "time": 167.130412
+          },
+          "minForward": {
+            "value": 0.9097403608703332,
+            "time": 167.4034120000013
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":1,\"black\":false,\"lift\":0.00921,\"relativeWrist\":[-0.07525,0.74058,0.349],\"q\":[0.01379,-0.70156,0.7105,-0.053],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00921},{\"finger\":4,\"dx\":-0.1645,\"black\":false,\"lift\":0.002}]}"
+        }
+      ]
+    },
+    {
+      "family": "F18",
+      "hand": "L",
+      "finger": 4,
+      "ids": [
+        "p00430",
+        "p00525"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.00429,
+        "relativeWrist": [
+          0.01077,
+          0.76158,
+          0.34
+        ],
+        "q": [
+          -0.07626,
+          -0.75609,
+          0.64766,
+          0.05514
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00429
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00525",
+        "time": 107.47269300000107,
+        "value": 37.881013059440825
+      },
+      "worstForward": {
+        "id": "p00430",
+        "time": 90.849087,
+        "value": 0.6440595856283948
+      },
+      "heldRepresentative": {
+        "id": "p00525",
+        "time": 107.37418799999999
+      },
+      "notes": [
+        {
+          "id": "p00430",
+          "hand": "L",
+          "finger": 4,
+          "midi": 52,
+          "time": 90.849077,
+          "end": 91.102087,
+          "midpoint": 90.97558199999999,
+          "sampleTime": 90.874378,
+          "steady": {
+            "spread": -33.84016986090614,
+            "forward": 0.6440595856283948
+          },
+          "maxSpread": {
+            "value": 37.881012186810224,
+            "signed": -37.881012186810224,
+            "time": 91.07408700000107
+          },
+          "minForward": {
+            "value": 0.6440595856283948,
+            "time": 90.849087
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.00429,\"relativeWrist\":[0.01077,0.76158,0.34],\"q\":[-0.07626,-0.75609,0.64766,0.05514],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.00429}]}"
+        },
+        {
+          "id": "p00525",
+          "hand": "L",
+          "finger": 4,
+          "midi": 55,
+          "time": 107.247683,
+          "end": 107.500693,
+          "midpoint": 107.37418799999999,
+          "sampleTime": 107.272984,
+          "steady": {
+            "spread": -33.8401707447616,
+            "forward": 0.6440596016589
+          },
+          "maxSpread": {
+            "value": 37.881013059440825,
+            "signed": -37.881013059440825,
+            "time": 107.47269300000107
+          },
+          "minForward": {
+            "value": 0.6440596016589,
+            "time": 107.247693
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.00429,\"relativeWrist\":[0.01077,0.76158,0.34],\"q\":[-0.07626,-0.75609,0.64766,0.05514],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.00429}]}"
+        }
+      ]
+    },
+    {
+      "family": "F19",
+      "hand": "L",
+      "finger": 4,
+      "ids": [
+        "p00793",
+        "p00936"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 4,
+        "black": false,
+        "lift": 0.0043,
+        "relativeWrist": [
+          0.01077,
+          0.76158,
+          0.34
+        ],
+        "q": [
+          -0.07626,
+          -0.75609,
+          0.64766,
+          0.05514
+        ],
+        "grip": [
+          {
+            "finger": 4,
+            "dx": 0,
+            "black": false,
+            "lift": 0.0043
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00936",
+        "time": 191.90649900000105,
+        "value": 37.88100607444922
+      },
+      "worstForward": {
+        "id": "p00793",
+        "time": 170.230866,
+        "value": 0.6441193076657831
+      },
+      "heldRepresentative": {
+        "id": "p00936",
+        "time": 191.811994
+      },
+      "notes": [
+        {
+          "id": "p00793",
+          "hand": "L",
+          "finger": 4,
+          "midi": 52,
+          "time": 170.230856,
+          "end": 170.475866,
+          "midpoint": 170.35336099999998,
+          "sampleTime": 170.25535699999998,
+          "steady": {
+            "spread": -33.84104374102217,
+            "forward": 0.6441193076657831
+          },
+          "maxSpread": {
+            "value": 37.88100175412981,
+            "signed": -37.88100175412981,
+            "time": 170.44786600000103
+          },
+          "minForward": {
+            "value": 0.6441193076657831,
+            "time": 170.230866
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.0043,\"relativeWrist\":[0.01077,0.76158,0.34],\"q\":[-0.07626,-0.75609,0.64766,0.05514],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.0043}]}"
+        },
+        {
+          "id": "p00936",
+          "hand": "L",
+          "finger": 4,
+          "midi": 55,
+          "time": 191.689489,
+          "end": 191.93449900000002,
+          "midpoint": 191.811994,
+          "sampleTime": 191.71399,
+          "steady": {
+            "spread": -33.84104574060702,
+            "forward": 0.6441193439357233
+          },
+          "maxSpread": {
+            "value": 37.88100607444922,
+            "signed": -37.88100607444922,
+            "time": 191.90649900000105
+          },
+          "minForward": {
+            "value": 0.6441193439357233,
+            "time": 191.689499
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":4,\"black\":false,\"lift\":0.0043,\"relativeWrist\":[0.01077,0.76158,0.34],\"q\":[-0.07626,-0.75609,0.64766,0.05514],\"grip\":[{\"finger\":4,\"dx\":0,\"black\":false,\"lift\":0.0043}]}"
+        }
+      ]
+    },
+    {
+      "family": "F20",
+      "hand": "L",
+      "finger": 3,
+      "ids": [
+        "p00918",
+        "p00925"
+      ],
+      "grip": {
+        "hand": "L",
+        "finger": 3,
+        "black": false,
+        "lift": 0.00327,
+        "relativeWrist": [
+          -0.00582,
+          0.77676,
+          0.34105
+        ],
+        "q": [
+          -0.00861,
+          -0.75806,
+          0.65208,
+          0.00788
+        ],
+        "grip": [
+          {
+            "finger": 3,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00327
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00925",
+        "time": 190.62768300000147,
+        "value": 54.165918372193225
+      },
+      "worstForward": {
+        "id": "p00925",
+        "time": 190.6336830000015,
+        "value": 0.164857223411136
+      },
+      "heldRepresentative": {
+        "id": "p00925",
+        "time": 190.482087
+      },
+      "notes": [
+        {
+          "id": "p00918",
+          "hand": "L",
+          "finger": 3,
+          "midi": 55,
+          "time": 188.942363,
+          "end": 189.263191,
+          "midpoint": 189.102777,
+          "sampleTime": 188.972363,
+          "steady": {
+            "spread": -32.899324143859864,
+            "forward": 0.5682530523838215
+          },
+          "maxSpread": {
+            "value": 54.165918372193225,
+            "signed": -54.165918372193225,
+            "time": 189.24837300000146
+          },
+          "minForward": {
+            "value": 0.164857223411136,
+            "time": 189.2543730000015
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":3,\"black\":false,\"lift\":0.00327,\"relativeWrist\":[-0.00582,0.77676,0.34105],\"q\":[-0.00861,-0.75806,0.65208,0.00788],\"grip\":[{\"finger\":3,\"dx\":0,\"black\":false,\"lift\":0.00327}]}"
+        },
+        {
+          "id": "p00925",
+          "hand": "L",
+          "finger": 3,
+          "midi": 55,
+          "time": 190.321673,
+          "end": 190.642501,
+          "midpoint": 190.482087,
+          "sampleTime": 190.351673,
+          "steady": {
+            "spread": -32.899324143859864,
+            "forward": 0.5682530523838215
+          },
+          "maxSpread": {
+            "value": 54.165918372193225,
+            "signed": -54.165918372193225,
+            "time": 190.62768300000147
+          },
+          "minForward": {
+            "value": 0.164857223411136,
+            "time": 190.6336830000015
+          },
+          "signature": "{\"hand\":\"L\",\"finger\":3,\"black\":false,\"lift\":0.00327,\"relativeWrist\":[-0.00582,0.77676,0.34105],\"q\":[-0.00861,-0.75806,0.65208,0.00788],\"grip\":[{\"finger\":3,\"dx\":0,\"black\":false,\"lift\":0.00327}]}"
+        }
+      ]
+    },
+    {
+      "family": "F21",
+      "hand": "R",
+      "finger": 1,
+      "ids": [
+        "p00528"
+      ],
+      "grip": {
+        "hand": "R",
+        "finger": 1,
+        "black": false,
+        "lift": 0.00977,
+        "relativeWrist": [
+          0.03356,
+          0.74226,
+          0.3691
+        ],
+        "q": [
+          -0.01335,
+          -0.71095,
+          0.7023,
+          0.03401
+        ],
+        "grip": [
+          {
+            "finger": 1,
+            "dx": 0,
+            "black": false,
+            "lift": 0.00977
+          },
+          {
+            "finger": 5,
+            "dx": 0.094,
+            "black": false,
+            "lift": 0.00244
+          }
+        ]
+      },
+      "worstSpread": {
+        "id": "p00528",
+        "time": 107.601602,
+        "value": 3.281210434517204
+      },
+      "worstForward": {
+        "id": "p00528",
+        "time": 107.601602,
+        "value": 0.9813795110130376
+      },
+      "heldRepresentative": {
+        "id": "p00528",
+        "time": 107.82541049999999
+      },
+      "notes": [
+        {
+          "id": "p00528",
+          "hand": "R",
+          "finger": 1,
+          "midi": 79,
+          "time": 107.601592,
+          "end": 108.049229,
+          "midpoint": 107.82541049999999,
+          "sampleTime": 107.631592,
+          "steady": {
+            "spread": 3.281210434517204,
+            "forward": 0.9813795110130376
+          },
+          "maxSpread": {
+            "value": 3.281210434517204,
+            "signed": 3.281210434517204,
+            "time": 107.601602
+          },
+          "minForward": {
+            "value": 0.9813795110130376,
+            "time": 107.601602
+          },
+          "signature": "{\"hand\":\"R\",\"finger\":1,\"black\":false,\"lift\":0.00977,\"relativeWrist\":[0.03356,0.74226,0.3691],\"q\":[-0.01335,-0.71095,0.7023,0.03401],\"grip\":[{\"finger\":1,\"dx\":0,\"black\":false,\"lift\":0.00977},{\"finger\":5,\"dx\":0.094,\"black\":false,\"lift\":0.00244}]}"
+        }
+      ]
+    }
+  ]
+}

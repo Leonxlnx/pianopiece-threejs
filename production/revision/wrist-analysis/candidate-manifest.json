@@ -1,0 +1,72 @@
+{
+  "status": "Audited wrist/contact/skin/seek candidate; inactive-finger behavior handled separately.",
+  "sourceInputManifest": {
+    "source": "/workspace/sites/daybreak-piano-film",
+    "wristZFloor": 0.295,
+    "files": {
+      "input-score.json": "9a2138c6dccb3d68953b7b9ace78a5f618a1de3b2533fc6e7acac28852ff56ba",
+      "input-pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+      "pianist.mjs": "4d379dd14e158953a79067c7c75c5bb695d0f15c7007921a02740bafabc45b05",
+      "piano.mjs": "11532a76d177749198463f2fcb95c9296247b9957e53eb17be06455c30328d85",
+      "math.mjs": "152c574ece9d1c45875c0cecc35cba9295c717947f3098ca0df510ec8d7b61cf"
+    }
+  },
+  "files": {
+    "planned-score.json": {
+      "bytes": 227502,
+      "sha256": "b6c0232c886001805c7a218d7b80e5b24d6cebeb8bc25c81f8ebee30e8c6b019"
+    },
+    "score-with-motion.json": {
+      "bytes": 412709,
+      "sha256": "5b47b2ba244b70fd2b7a63b47baccc366bdd0c7faaccbf00959c9aa43ae05baa"
+    },
+    "wrist-motion.json": {
+      "bytes": 211721,
+      "sha256": "e7646b318431e34e6d67afbe08856d0370bd15c6d75985557b4f3277622825bc"
+    },
+    "motion-plan.json": {
+      "bytes": 824657,
+      "sha256": "a91c31a4e5a6daf1444f3f21338c683c487d25c2575a73bbdf49cfc5874f0a32"
+    },
+    "wrist-motion.ts": {
+      "bytes": 1402,
+      "sha256": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0"
+    },
+    "integration.patch": {
+      "bytes": 3807,
+      "sha256": "f0a0cbb544b23c9dca84f0edc9c62bc987f0b86bb676875bb5494e6b96833f32"
+    },
+    "full-rig-audit-calibrated.json": {
+      "bytes": 9321,
+      "sha256": "0a7d06e57e20507ded7eec6da1abae5159514df462c45840a6e3030cad5366e3"
+    },
+    "score-gates.json": {
+      "bytes": 301,
+      "sha256": "9abe9e90c3d3cc052bf3f2deebcf98df965fdb33ee90422a924761d3673445bd"
+    },
+    "actual-motion-report.json": {
+      "bytes": 44066,
+      "sha256": "b82d502be9e1ef169ab1062cf4478e5a69ba15816d5bef95311357cbd9f5f731"
+    },
+    "skin-calibration.json": {
+      "bytes": 9722,
+      "sha256": "372bfd981aa9bf7b7d61df90fe771867bd50ca42b210bb54742f88965f76edd6"
+    },
+    "finger-release-report.json": {
+      "bytes": 42908,
+      "sha256": "1247ef8b4fa936e7305e3e7b8e877d2775b54f4b1b82a0d5f02e1d514c747471"
+    },
+    "audible-comparison.json": {
+      "bytes": 2083,
+      "sha256": "a338f19a907587620f0a12aaf56b06f9ed1829a4b42234cbb029a55791692f29"
+    },
+    "runtime-parity.json": {
+      "bytes": 86,
+      "sha256": "1051dec1496bed3258f21359e272e7ee91f4573596f0492610fc1ea8439029e4"
+    },
+    "full-rig-audit-blended.json": {
+      "bytes": 9321,
+      "sha256": "0a7d06e57e20507ded7eec6da1abae5159514df462c45840a6e3030cad5366e3"
+    }
+  }
+}

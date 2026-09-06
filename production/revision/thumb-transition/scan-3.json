@@ -1,0 +1,272 @@
+{
+  "part": 3,
+  "parts": 4,
+  "fps": 500,
+  "first": 87429,
+  "last": 116573,
+  "counts": {
+    "frames": 29146,
+    "speedAbove3": 0,
+    "speedAbove5": 0,
+    "rotationAbove2000": 2,
+    "activeRotationAbove2000": 2
+  },
+  "thresholds": {
+    "tipSpeed": 2.5,
+    "jointSpeed": 2000,
+    "dorsalDegrees": 60,
+    "backward": -0.15
+  },
+  "maxContactMm": 0.40846988019513847,
+  "inputSha256": {
+    "rig": "9b54e6291792664b34851ac4dba3192f2175065f59ec5a7b7a556799b145426c",
+    "score": "ff25cbb97cca511a321d33097a11da8f85500c383827e50914dc185c3e1987c2",
+    "plan": "a91c31a4e5a6daf1444f3f21338c683c487d25c2575a73bbdf49cfc5874f0a32"
+  },
+  "maxima": {
+    "L1": {
+      "tip": {
+        "value": 1.5822902891418702,
+        "time": 197.642,
+        "joint": 2,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00970",
+          "prevEnd": 197.610185,
+          "next": "p00972",
+          "nextTime": 197.660185,
+          "gap": 0.050000000000010314
+        }
+      },
+      "joint": {
+        "value": 2263.6004038232136,
+        "time": 180.516,
+        "joint": 2,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "dorsal": {
+        "value": -5.552572272491222,
+        "time": 177.512,
+        "joint": 2,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00835",
+          "prevEnd": 177.510885,
+          "next": "p00840",
+          "nextTime": 177.859719,
+          "gap": 0.34883400000002013
+        }
+      }
+    },
+    "R1": {
+      "tip": {
+        "value": 1.6980436736977895,
+        "time": 196.974,
+        "joint": 1,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00966",
+          "prevEnd": 196.91184299999998,
+          "next": "p00969",
+          "nextTime": 197.015519,
+          "gap": 0.10367600000002233
+        }
+      },
+      "joint": {
+        "value": 2228.8482218609374,
+        "time": 191.638,
+        "joint": 2,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "dorsal": {
+        "value": -4.6712595989121715,
+        "time": 192.03,
+        "joint": 1,
+        "context": {
+          "active": null,
+          "activeMidi": null,
+          "prev": "p00933",
+          "prevEnd": 191.638365,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 2.3974579999999897
+        }
+      }
+    }
+  },
+  "events": [
+    {
+      "key": "L1",
+      "start": 180.516,
+      "end": 180.516,
+      "lastBad": 180.516,
+      "samples": 1,
+      "tip": {
+        "value": 0.000045146962324508306,
+        "time": 180.516,
+        "joint": null,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "localTip": {
+        "value": 0.885087308416991,
+        "time": 180.516,
+        "joint": null,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "joint": {
+        "value": 2263.6004038232136,
+        "time": 180.516,
+        "joint": 2,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "dorsal": {
+        "value": -27.98014199568007,
+        "time": 180.516,
+        "joint": null,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "backward": {
+        "value": 0.1921665021595994,
+        "time": 180.516,
+        "context": {
+          "active": "p00853",
+          "activeMidi": 60,
+          "prev": "p00847",
+          "prevEnd": 179.568357,
+          "next": "p00876",
+          "nextTime": 183.285006,
+          "gap": 3.7166490000000048
+        }
+      },
+      "active": true
+    },
+    {
+      "key": "R1",
+      "start": 191.332,
+      "end": 191.638,
+      "lastBad": 191.638,
+      "samples": 134,
+      "tip": {
+        "value": 0.2356657545395932,
+        "time": 191.638,
+        "joint": null,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "localTip": {
+        "value": 0.6857723759025501,
+        "time": 191.638,
+        "joint": null,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "joint": {
+        "value": 2228.8482218609374,
+        "time": 191.638,
+        "joint": 2,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "dorsal": {
+        "value": -27.2335176090519,
+        "time": 191.638,
+        "joint": null,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "backward": {
+        "value": -0.18199810910895345,
+        "time": 191.576,
+        "context": {
+          "active": "p00933",
+          "activeMidi": 71,
+          "prev": "p00912",
+          "prevEnd": 188.586535,
+          "next": "p00950",
+          "nextTime": 194.035823,
+          "gap": 5.44928799999999
+        }
+      },
+      "active": true
+    }
+  ]
+}

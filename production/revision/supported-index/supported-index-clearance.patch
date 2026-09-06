@@ -1,0 +1,14 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -310,8 +310,11 @@
+  if(previous)weight=Math.min(weight,envelope(contactPose(previous,end)));
+  if(next)weight=Math.min(weight,envelope(contactPose(next,start)));
+  const fallback=localPose(wp(hand.wrist),pose.q,target);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
++ // A small upward clearance follows supported index rests behind the black keys.
++ if(fi===1&&gap>=.50){const amount=smooth((base.y-KEY_TOP-.005)/.004)*smooth((base.z-.244)/.008)*smooth((time-end)/.25)*smooth((start-time)/.32);if(amount){const lift=new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),5*amount*Math.PI/180);finger.bones[0].quaternion.premultiply(pose.q.clone().invert().multiply(lift).multiply(pose.q));finger.bones[0].updateWorldMatrix(false,true);}}
++
+  continue;
+  }
+ 
+  for(let j=0;j<3;j++){

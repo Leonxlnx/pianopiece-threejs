@@ -1,0 +1,22 @@
+{
+  "scoreSha256": "3915abaf49b17a7df0b7d18e88a735d27923b9c64af255b5d7853471b1c4b56f",
+  "scoreFile": "score-frozen.json",
+  "renderScript": "render_solo_master.py",
+  "renderScriptSha256": "d8fbcb539cdff9aa93d43ca493ba75ca654b6b379c77b20fd492121ebf7ced19",
+  "sampleManifestFile": "sample-manifest-frozen.json",
+  "sampleManifestSha256": "2507cb40c3ad4fe950d2998c94b40400c118654b0df9394477ab44fb6bf29af3",
+  "sourceRepositoryCommit": "3382bf9496bba2486f5ab0de55a264d1dfc38404",
+  "sourceMappingFile": "source-mapping.json",
+  "eventAuditFile": "event-audit.json",
+  "python": "Python 3.12.13",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "rerunCommand": "python render_solo_master.py",
+  "pathOverrides": [
+    "DAYBREAK_SCORE_PATH",
+    "DAYBREAK_SAMPLE_MANIFEST_PATH",
+    "DAYBREAK_SAMPLE_ROOT"
+  ],
+  "note": "Audio code is deterministic; output-file metadata/dither and codec results may vary with tool versions. Source bytes and the frozen score are hash checked."
+}

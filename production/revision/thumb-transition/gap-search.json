@@ -1,0 +1,254 @@
+[
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00487",
+    "finger": 2,
+    "contactLift": 0.004681669630725546,
+    "maxErrorMm": 0.000023247792906244853,
+    "skinMissing": 0,
+    "minGapMm": -0.00021407291261876793,
+    "maxGapMm": -0.00021368081370987113,
+    "minForward": 0.357051628107763,
+    "maxDorsal": -8.553032897653667,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00487",
+    "finger": 3,
+    "contactLift": 0.0030919642592226325,
+    "maxErrorMm": 0.00018533092333923254,
+    "skinMissing": 0,
+    "minGapMm": -0.0006305488835511852,
+    "maxGapMm": -0.0006299645651797192,
+    "minForward": 0.6837784328120343,
+    "maxDorsal": 13.079716883428118,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00487",
+    "finger": 4,
+    "contactLift": 0.0030292216372969395,
+    "maxErrorMm": 0.000051990683715205405,
+    "skinMissing": 0,
+    "minGapMm": -0.0005807030365456711,
+    "maxGapMm": -0.0005802151382683363,
+    "minForward": 0.9203946712313069,
+    "maxDorsal": 2.780979016638534,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00487",
+    "finger": 5,
+    "contactLift": 0.0029404309161908254,
+    "maxErrorMm": 0.000044878775224806576,
+    "skinMissing": 0,
+    "minGapMm": 0.00013004258980764405,
+    "maxGapMm": 0.00013029669343467276,
+    "minForward": 0.7754003893101297,
+    "maxDorsal": -38.525787836485435,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00490",
+    "finger": 2,
+    "contactLift": 0.004907896270323005,
+    "maxErrorMm": 2.613285593194103,
+    "skinMissing": 0,
+    "minGapMm": -0.13536401825964273,
+    "maxGapMm": -0.1353638743954999,
+    "minForward": 0.8903571121129956,
+    "maxDorsal": 16.782725819740417,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00490",
+    "finger": 3,
+    "rejected": "held-finger conflict",
+    "conflicts": [
+      "p00491"
+    ]
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00490",
+    "finger": 4,
+    "contactLift": 0.0031793683927558414,
+    "maxErrorMm": 0.000017712194092685604,
+    "skinMissing": 0,
+    "minGapMm": -0.00005534535885143299,
+    "maxGapMm": -0.00005521377699491126,
+    "minForward": 0.5021426068627612,
+    "maxDorsal": -35.92044406590247,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00487",
+      "p00490"
+    ],
+    "id": "p00490",
+    "finger": 5,
+    "contactLift": 0.0034,
+    "maxErrorMm": 33.445215025496246,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.37437323655238336,
+    "maxDorsal": -36.6284249966689,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00691",
+    "finger": 2,
+    "contactLift": 0.0016335722663713829,
+    "maxErrorMm": 9.983833279402907,
+    "skinMissing": 0,
+    "minGapMm": 0.027193412535542194,
+    "maxGapMm": 0.027194009894038196,
+    "minForward": 0.32939250212338844,
+    "maxDorsal": -22.777803517279285,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00691",
+    "finger": 3,
+    "contactLift": 0.0027,
+    "maxErrorMm": 24.577910765010497,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.28891707004725914,
+    "maxDorsal": -24.099500989834468,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00691",
+    "finger": 4,
+    "contactLift": 0.0027,
+    "maxErrorMm": 50.28479448249484,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.3047390729762579,
+    "maxDorsal": -22.950361244688153,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00691",
+    "finger": 5,
+    "contactLift": 0.0034,
+    "maxErrorMm": 84.01430692900038,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.1706748952051796,
+    "maxDorsal": -20.02565087891253,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00693",
+    "finger": 2,
+    "contactLift": 0.003511462842535304,
+    "maxErrorMm": 0.000024900110371270183,
+    "skinMissing": 0,
+    "minGapMm": -0.0006659175859624611,
+    "maxGapMm": -0.0006656559380369131,
+    "minForward": 0.5485984634020454,
+    "maxDorsal": 8.069672966810089,
+    "passed": true
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00693",
+    "finger": 3,
+    "contactLift": 0.002920374511071331,
+    "maxErrorMm": 5.391915795438576,
+    "skinMissing": 0,
+    "minGapMm": -0.0061037425654886235,
+    "maxGapMm": -0.006103443182414736,
+    "minForward": 0.3737374758879076,
+    "maxDorsal": -29.054541001937885,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00693",
+    "finger": 4,
+    "contactLift": 0.0027,
+    "maxErrorMm": 31.021474792417408,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.3768527978082179,
+    "maxDorsal": -26.918161861688834,
+    "passed": false
+  },
+  {
+    "pair": [
+      "p00691",
+      "p00693"
+    ],
+    "id": "p00693",
+    "finger": 5,
+    "contactLift": 0.0034,
+    "maxErrorMm": 62.97299866624996,
+    "skinMissing": 60,
+    "minGapMm": null,
+    "maxGapMm": null,
+    "minForward": 0.21805007474153001,
+    "maxDorsal": -23.562017140343766,
+    "passed": false
+  }
+]

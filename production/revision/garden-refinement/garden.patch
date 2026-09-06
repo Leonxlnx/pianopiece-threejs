@@ -1,0 +1,137 @@
+--- a/app/performance/stage.ts
++++ b/app/performance/stage.ts
+@@ -103,43 +103,105 @@
+  for(const z of [-5.8,-2.3,1.2,4.25])block(this.group,'Ceiling cross beam',[14.7,.20,.18],[0,4.50,z],wood,.008);
+  for(const x of [-4.8,4.8])block(this.group,'Ceiling slot light',[.035,.008,10.9],[x,4.563,-1.45],glow,.001);
+ 
+- // Outside the windows: continuous terrain, a low reflecting pool and a
+- // quiet grove. Foliage is geometry and remains behind the performance.
+- const earth=new THREE.MeshStandardMaterial({name:'Garden ground',color:0x4a5447,roughness:1});
+- block(this.group,'Garden terrace',[42,.20,27],[0,-.26,-19.1],earth,.01);
++ // Outside the windows: a shallow court, a limestone walk and a layered
++ // grove. Planting covers the terrain rather than stopping at a flat edge.
++ const gardenHeight=(x:number,z:number)=>-.165+smooth((-z-12.8)/8)*(.18*Math.sin(x*.13+z*.11)+.11*Math.cos(x*.29-z*.10))+smooth((-z-26)/24)*1.8;
++ const earth=new THREE.MeshStandardMaterial({name:'Planted garden terrain',color:0x89916e,roughness:1,vertexColors:true});
++ const groundGeometry=new THREE.PlaneGeometry(90,77,mobile?38:70,mobile?34:60);groundGeometry.rotateX(-Math.PI/2);groundGeometry.translate(0,0,-43.5);
++ const groundPos=groundGeometry.attributes.position,groundColors=new Float32Array(groundPos.count*3);
++ for(let i=0;i<groundPos.count;i++){
++ const x=groundPos.getX(i),z=groundPos.getZ(i);groundPos.setY(i,gardenHeight(x,z));
++ const shade=.78+.12*Math.sin(x*.61+z*.38)+.09*Math.sin(x*1.62-z*.43)+rand(i+401)*.07;
++ groundColors.set([shade*.96,shade,shade*.83],i*3);
++ }
++ groundGeometry.setAttribute('color',new THREE.BufferAttribute(groundColors,3));groundGeometry.computeVertexNormals();
++ const ground=new THREE.Mesh(groundGeometry,earth);ground.name='Continuous planted garden';ground.receiveShadow=true;this.group.add(ground);
+  const pool=new THREE.Mesh(new THREE.PlaneGeometry(24,3.5),new THREE.MeshPhysicalMaterial({name:'Courtyard water',color:0x607572,metalness:.18,roughness:.19,clearcoat:1}));pool.name='Shallow reflecting pool';pool.rotation.x=-Math.PI/2;pool.position.set(0,-.115,-9.8);this.group.add(pool);
+- for(const z of [-8,-11.6])block(this.group,'Pool coping',[25,.16,.24],[0,-.08,z],stone,.008);
++ const paving:{p:number[],s:number[],c:THREE.Color}[]=[],curbs:{p:number[],s:number[]}[]=[];
++ // The pavers run behind the water and return at each end, leaving the
++ // central view quiet. Small joints and low edging give the court a scale.
++ for(let row=0;row<2;row++)for(let col=0;col<42;col++){
++ const shade=.80+rand(row*89+col+806)*.17;
++ paving.push({p:[-12.3+col*.60,-.095,-12.02-row*.60],s:[.592,.10,.592],c:new THREE.Color(shade,shade*.99,shade*.96)});
++ }
++ for(const side of [-1,1])for(let row=0;row<9;row++)for(let col=0;col<2;col++){
++ const shade=.83+rand(row*39+col+side+880)*.13;
++ paving.push({p:[side*(12.64+col*.60),-.095,-7.62-row*.60],s:[.592,.10,.592],c:new THREE.Color(shade,shade*.99,shade*.97)});
++ }
++ for(let col=0;col<42;col++)paving.push({p:[-12.3+col*.60,-.095,-7.62],s:[.592,.10,.592],c:new THREE.Color(.88,.87,.84)});
++ for(const z of [-8,-11.6])curbs.push({p:[0,-.08,z],s:[24.9,.16,.24]});
++ for(const side of [-1,1])curbs.push({p:[side*12.34,-.08,-9.8],s:[.24,.16,3.72]});
++ curbs.push({p:[0,-.08,-12.99],s:[25.25,.16,.11]});
++ instances(this.group,'Limestone garden paving',new THREE.BoxGeometry(1,1,1),stone,paving);
++ instances(this.group,'Low pool and planting curbs',new RoundedBoxGeometry(1,1,1,1,.015),stone,curbs);
+  const branches:{p:number[],s:number[],q:number[]}[]=[],leaves:{p:number[],s:number[],q:number[],c:THREE.Color}[]=[];
+  const up=v3(0,1,0);
+  const branch=(a:THREE.Vector3,b:THREE.Vector3,r:number)=>{const d=b.clone().sub(a);branches.push({p:a.clone().add(b).multiplyScalar(.5).toArray(),s:[r,d.length(),r],q:new THREE.Quaternion().setFromUnitVectors(up,d.normalize()).toArray()});};
++ const leafCloud=(center:THREE.Vector3,seed:number,count:number,radius:number,height:number,size:number,shade:number)=>{
++ for(let k=0;k<count;k++){
++ const j=seed+k*11,a=rand(j)*Math.PI*2,r=Math.sqrt(rand(j+1))*radius,yy=(rand(j+2)-.5)*height;
++ const q=new THREE.Quaternion().setFromEuler(new THREE.Euler((rand(j+3)-.5)*2.8,rand(j+4)*Math.PI*2,(rand(j+5)-.5)*2.2));
++ const scale=size*(.72+rand(j+6)*.68),tone=shade*(.74+rand(j+7)*.38);
++ leaves.push({p:center.clone().add(v3(Math.cos(a)*r,yy,Math.sin(a)*r)).toArray(),s:[scale,scale,scale],q:q.toArray(),c:new THREE.Color().setRGB(.67*tone,.78*tone,.45*tone)});
++ }
++ };
+  for(let i=0;i<18;i++){
+- const x=-21+i*2.5+(rand(i+6)-.5)*1.1,z=-14-rand(i+33)*10,h=3.7+rand(i+18)*3.8;
+- const base=v3(x,-.18,z),trunk=v3(x+.17*(rand(i+18)-.5),h*.78,z);
+- branch(base,trunk,.10+rand(i+20)*.055);
+- for(let n=0;n<13;n++){
+- const angle=n*2.399+i*.71,height=h*(.45+n/13*.42),start=v3(x,height,z),spread=.7+rand(i*33+n)*1.1;
+- const end=v3(x+Math.cos(angle)*spread,height+.65+rand(i*17+n)*.7,z+Math.sin(angle)*spread);
+- branch(start,end,.018+rand(i*29+n)*.018);
++ const x=-22.5+i*2.65+(rand(i+906)-.5)*2.25,z=-15-rand(i+933)*17,h=4.1+rand(i+918)*4.0;
++ const base=v3(x,gardenHeight(x,z)-.035,z),bend=v3((rand(i+210)-.5)*1.2,0,(rand(i+212)-.5)*.85),joints:THREE.Vector3[]=[base];
++ for(let j=1;j<=4;j++){
++ const t=j/4,p=base.clone().add(v3(bend.x*t*t,h*t,bend.z*t*t));
++ branch(joints[j-1],p,(.115+rand(i+920)*.055)*(1-t*.65));joints.push(p);
++ }
++ const limbCount=11+Math.floor(rand(i+960)*5);
++ for(let n=0;n<limbCount;n++){
++ const t=.30+n/limbCount*.62,angle=n*2.399+i*.71+(rand(i*55+n)-.5)*.8;
++ const height=h*t,start=base.clone().add(v3(bend.x*t*t,height,bend.z*t*t));
++ const spread=(.9+rand(i*33+n)*1.55)*(1.30-t*.56);
++ const end=start.clone().add(v3(Math.cos(angle)*spread,.45+rand(i*17+n)*.95,Math.sin(angle)*spread));
++ const elbow=start.clone().lerp(end,.53).add(v3(0,-.08-rand(i*31+n)*.21,0));
++ branch(start,elbow,.028+rand(i*29+n)*.018);branch(elbow,end,.016+rand(i*49+n)*.008);
+  for(let twig=0;twig<3;twig++){
+- const end2=end.clone().add(v3((rand(i*137+n*5+twig)-.5)*.9,.17+rand(n*8+twig)*.5,(rand(i*97+n*7+twig)-.5)*.9));
+- branch(end.clone().lerp(start,.16),end2,.0055);
+- const leafCount=mobile?22:46;
+- for(let k=0;k<leafCount;k++){
+- const seed=i*9001+n*311+twig*71+k*11;
+- const a=rand(seed)*Math.PI*2,r=Math.sqrt(rand(seed+1))*.48,yy=(rand(seed+2)-.5)*.52;
+- const pos=end2.clone().add(v3(Math.cos(a)*r,yy,Math.sin(a)*r));
+- const q=new THREE.Quaternion().setFromEuler(new THREE.Euler((rand(seed+3)-.5)*2.8,rand(seed+4)*Math.PI*2,(rand(seed+5)-.5)*2.2));
+- const scale=.72+rand(seed+6)*.68,shade=.70+rand(seed+7)*.48;
+- leaves.push({p:pos.toArray(),s:[scale,scale,scale],q:q.toArray(),c:new THREE.Color().setRGB(.50*shade,.66*shade,.37*shade)});
+- }
+- }
+- }
+- }
+- const bark=new THREE.MeshStandardMaterial({name:'Garden bark',color:0x5b5142,roughness:1});
+- instances(this.group,'Branched courtyard trees',new THREE.CylinderGeometry(.62,1,1,7),bark,branches);
++ const end2=end.clone().add(v3((rand(i*137+n*5+twig)-.5)*1.15,.08+rand(n*8+twig)*.53,(rand(i*97+n*7+twig)-.5)*1.15));
++ branch(end.clone().lerp(elbow,.18),end2,.0055);
++ leafCloud(end2,i*9001+n*311+twig*71,mobile?20:42,.50,.56,1,.88+rand(i+71)*.25);
++ }
++ }
++ }
++ // Loose drifts of low shrubs interrupt the trunks; their leaves and
++ // stems share the tree batches rather than adding a draw call per plant.
++ for(let i=0;i<44;i++){
++ const x=-18+rand(i*13+3301)*36,z=-13.65-rand(i*19+3302)*10.5,base=v3(x,gardenHeight(x,z)-.025,z),h=.36+rand(i*7+3303)*.62;
++ for(let stem=0;stem<5;stem++){
++ const a=stem*2.399+rand(i+58),r=.18+rand(i*51+stem)*.40,end=base.clone().add(v3(Math.cos(a)*r,h*(.60+rand(i*29+stem)*.40),Math.sin(a)*r));
++ branch(base,end,.0048);
++ leafCloud(end,i*5003+stem*631+73001,mobile?30:48,.34,.38,.80,.91+rand(i+441)*.12);
++ }
++ }
++ const bark=new THREE.MeshStandardMaterial({name:'Garden bark',color:0x7a7260,roughness:1});
++ instances(this.group,'Branched courtyard trees and shrubs',new THREE.CylinderGeometry(.62,1,1,7),bark,branches);
+  const leafGeometry=new THREE.BufferGeometry();leafGeometry.setAttribute('position',new THREE.Float32BufferAttribute([0,0,0,-.029,.064,0,0,.15,-.003,.029,.064,0,0,.062,.012],3));leafGeometry.setIndex([0,1,4,1,2,4,2,3,4,3,0,4]);leafGeometry.computeVertexNormals();
+- const foliage=new THREE.MeshStandardMaterial({name:'Individual garden leaves',color:0x758758,roughness:.94,side:THREE.DoubleSide});
++ const foliage=new THREE.MeshStandardMaterial({name:'Individual garden leaves',color:0x8a9a65,roughness:.94,side:THREE.DoubleSide});
+  instances(this.group,'Individual courtyard leaves',leafGeometry,foliage,leaves);
++ const grassPos:number[]=[],grassIndices:number[]=[];
++ for(let b=0;b<5;b++){
++ const a=b*2.399,c=Math.cos(a),s=Math.sin(a),lean=.09+rand(b+620)*.09,h=.27+rand(b+621)*.24,k=grassPos.length/3;
++ grassPos.push(-s*.014,0,c*.014,s*.014,0,-c*.014,c*lean*.35-s*.008,h*.52,s*lean*.35+c*.008,c*lean*.35+s*.008,h*.52,s*lean*.35-c*.008,c*lean,h,s*lean);
++ grassIndices.push(k,k+1,k+2,k+1,k+3,k+2,k+2,k+3,k+4);
++ }
++ const grassGeometry=new THREE.BufferGeometry();grassGeometry.setAttribute('position',new THREE.Float32BufferAttribute(grassPos,3));grassGeometry.setIndex(grassIndices);grassGeometry.computeVertexNormals();
++ const grass:{p:number[],s:number[],r:number,c:THREE.Color}[]=[];
++ for(let i=0;i<(mobile?550:1100);i++){
++ const x=-25+rand(i*7+12401)*50,z=-13.25-rand(i*11+12402)*27;
++ const scale=.48+rand(i*13+12403)*.80,tone=.71+rand(i*17+12404)*.34;
++ grass.push({p:[x,gardenHeight(x,z)-.018,z],s:[scale,scale,scale],r:rand(i+12405)*Math.PI*2,c:new THREE.Color(tone*.84,tone,tone*.66)});
++ }
++ instances(this.group,'Meadow grass drifts',grassGeometry,new THREE.MeshStandardMaterial({name:'Fine garden grasses',color:0x859166,roughness:1,side:THREE.DoubleSide}),grass);
++ const rocks:{p:number[],s:number[],r:number,c:THREE.Color}[]=[];
++ for(let i=0;i<26;i++){
++ const x=-18+rand(i*31+14501)*36,z=-13.7-rand(i*23+14502)*11,scale=.12+rand(i*17+14503)*.26,tone=.66+rand(i*43+14504)*.24;
++ rocks.push({p:[x,gardenHeight(x,z)+scale*.12,z],s:[scale*(1+rand(i+14505)),scale*.56,scale*(.75+rand(i+14506)*.60)],r:rand(i+14507)*6.28,c:new THREE.Color(tone,tone*.99,tone*.92)});
++ }
++ instances(this.group,'Weathered planting stones',new THREE.IcosahedronGeometry(1,1),stone,rocks);
+ 
+  this.sky=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,uniforms:{uLift:{value:0},uTime:{value:0}},vertexShader:'varying vec3 vPosition;void main(){vPosition=position;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}',fragmentShader:`varying vec3 vPosition;uniform float uLift;void main(){vec3 p=normalize(vPosition);float h=smoothstep(-.06,.75,p.y);vec3 horizon=mix(vec3(.38,.46,.50),vec3(.66,.64,.57),uLift);vec3 zenith=mix(vec3(.13,.25,.37),vec3(.24,.39,.51),uLift);vec3 c=mix(horizon,zenith,h);float sun=pow(max(0.,dot(p,normalize(vec3(-.63,.25,-.74)))),52.);c+=vec3(.25,.18,.09)*sun;gl_FragColor=vec4(c,1.);
+ #include <tonemapping_fragment>

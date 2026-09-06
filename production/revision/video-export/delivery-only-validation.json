@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "checks": [
+    "False: decoded frame order across two chunks",
+    "False: native dimensions",
+    "False: four frames retained",
+    "False: AAC sample alignment",
+    "False: old smoke score mismatch reported",
+    "False: listening remains unverified",
+    "Default archival audio remains exact",
+    "True: decoded frame order across two chunks",
+    "True: native dimensions",
+    "True: four frames retained",
+    "True: AAC sample alignment",
+    "True: old smoke score mismatch reported",
+    "True: listening remains unverified",
+    "Delivery makes one video file",
+    "Delivery does not claim a PCM output",
+    "AAC output samples unchanged by direct concat",
+    "Source interval PCM hash unchanged",
+    "Final score/master mismatch still blocks",
+    "All original smoke inputs remain unchanged"
+  ],
+  "wrapperSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "nativeFramesRendered": 0,
+  "fixture": "Two copies of the existing two-frame native smoke chunk, to test the real concat boundary. Loader substitution isolates assembly from the historical pinned wrapper; no production manifest is modified.",
+  "sourceSmoke": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/bf61155d4ae94ce1",
+  "outputs": {
+    "False": "/workspace/scratch/2e8cc8e77f98/video-export/delivery-only-check/archival",
+    "True": "/workspace/scratch/2e8cc8e77f98/video-export/delivery-only-check/delivery"
+  }
+}

@@ -1,0 +1,43 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -246,7 +246,7 @@
+  else {
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u);target=keyTarget(previous).lerp(keyTarget(next),s);target.y+=Math.sin(u*Math.PI)*Math.min(.043,.014+gap*.10);}
++ if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u);target=keyTarget(previous).lerp(keyTarget(next),s);target.y+=fi===0?Math.sin(u*Math.PI)*Math.min(.043,.014+gap*.10):Math.pow(Math.sin(u*Math.PI),2)*Math.min(.018,gap*.065);}
+  else {target=idle.clone();if(previous){const weight=1-smooth((time-end)/.19);target.lerp(keyTarget(previous),weight);}if(next){const weight=smooth(1-(start-time)/.27);target.lerp(keyTarget(next),weight);}}
+  }
+  if(!n){const delta=target.clone().sub(base),total=reach,minimum=this.fingerPoints(base,idle,finger,fi).min+.008;
+@@ -255,6 +255,31 @@
+  const desired=target.clone();
+  const shape=this.fingerPoints(base,target,finger,fi);
+  const points=[base,shape.pip,shape.dip,shape.tip];
++ if(!n&&fi>0){
++ const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3)=>{
++ const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ),p=[origin,chain.pip,chain.dip,chain.tip];
++ const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
++ return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
++ };
++ const idlePose=localPose(wp(hand.wrist),pose.q,idle);
++ const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),touch=piano.contact(note.midi,this.contactDepth(origin.z,isBlack(note.midi),fi));touch.y+=note.contactLift??.002;return localPose(anchor.position,anchor.q,touch);};
++ const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
++ const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
++ let rotations=idlePose.map(q=>q.clone());
++ if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=Math.pow(Math.sin(u*Math.PI),2)*smooth(gap/.16)*.55;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
++ else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.19);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.27);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
++ // Restrict the alternate path to a forward envelope. Contact poses outside
++ // it keep the existing IK path, so an invalid contact cannot pull the
++ // resting path through a larger MCP rotation.
++ const envelope=(qs:THREE.Quaternion[])=>{const dir=finger.bones[1].position.clone().applyQuaternion(qs[0]).normalize(),turn=finger.rest[0].angleTo(qs[0]);return Math.min(smooth((1.40-turn)/.25),smooth((dir.y-.25)/.20),smooth((.65+dir.z)/.20),smooth((.85-Math.abs(dir.x))/.20));};
++ let weight=Math.min(envelope(idlePose),envelope(rotations));
++ if(previous)weight=Math.min(weight,envelope(contactPose(previous,end)));
++ if(next)weight=Math.min(weight,envelope(contactPose(next,start)));
++ const fallback=localPose(wp(hand.wrist),pose.q,target);
++ finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
++ continue;
++ }
++
+  for(let j=0;j<3;j++){
+  const dir=points[j+1].clone().sub(points[j]).normalize(),normal=shape.normal;let q:THREE.Quaternion;
+  q=new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);

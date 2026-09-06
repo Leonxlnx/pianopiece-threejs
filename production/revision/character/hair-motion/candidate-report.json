@@ -1,0 +1,74 @@
+{
+  "sourceHashes": {
+    "math": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "piano": "26d8a7d24ce647a4dd0333d55e8eb5bd002b528443e83f3b8ed0e17c775a77fb",
+    "wrist-motion": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "pianist": "e85f297e6bc9d419b567fa30bed99c7e0abef1bc47989c37b8d9a28cfbbf8f66"
+  },
+  "glbSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "trajectoryRate": 120,
+  "tableRate": 30,
+  "duration": 233.144228,
+  "tableBytes": 135372,
+  "maxJointDegrees": [
+    0.9742273973308591,
+    0.7785487479703543,
+    0.6483722593831346,
+    0.5022845448819099
+  ],
+  "strongest": 179.6,
+  "pairs": [
+    {
+      "index": 0,
+      "time": 179.6,
+      "anglesDegrees": [
+        0.6967166788790811,
+        -0.7477099226457243,
+        0.40107045659157625,
+        -0.4744090543683217
+      ],
+      "maxDisplacementMM": 6.121690753066564,
+      "rmsDisplacementMM": 1.857037156065378,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    },
+    {
+      "index": 1,
+      "time": 186,
+      "anglesDegrees": [
+        -0.8210485204224698,
+        -0.4073729923380153,
+        -0.6250969544877282,
+        -0.24178818954520745
+      ],
+      "maxDisplacementMM": 5.82272810109884,
+      "rmsDisplacementMM": 1.7530616788550457,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    },
+    {
+      "index": 2,
+      "time": 84.3,
+      "anglesDegrees": [
+        -0.8731876797793747,
+        -0.07219268218648373,
+        -0.5168079312080026,
+        -0.08078704911344609
+      ],
+      "maxDisplacementMM": 5.217696320669403,
+      "rmsDisplacementMM": 1.5909018160644757,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+--- a/production/qa/render-revision.py
++++ b/production/qa/render-revision.py
+@@ -237,3 +237,3 @@
+  shadowed=time.perf_counter();cm=mat4(s['camera']['matrix']);eye=cm[:3,3];vp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(cm);x=np.clip((s['energy']-.2)/.72,0,1);lift=float(x*x*(3-2*x));reflect=np.diag([1,-1,1,1]).astype('f4');rcm=reflect@cm;rvp=perspective(s['camera']['fov'],s['camera']['aspect'])@np.linalg.inv(rcm);prog['reflectionVP'].write(rvp.T.astype('f4').tobytes());prog['lightIntensity'].write(np.array(s['lights'],dtype='f4').tobytes());shadows[0][0].use(1);shadows[1][0].use(2)
+- for reflectionPass,target,cvp,ceye,ww,hh in [(True,reflfbo,rvp,rcm[:3,3],W//2,H//2),(False,fbo,vp,eye,W,H)]:
++ for reflectionPass,target,cvp,ceye,ww,hh in [(False,fbo,vp,eye,W,H)]:
+   target.use();ctx.viewport=(0,0,ww,hh);target.clear(.1,.15,.2,1,depth=1.);ctx.disable(moderngl.DEPTH_TEST);bgprog['invVP'].write(np.linalg.inv(cvp).T.astype('f4').tobytes());bgprog['eye'].value=tuple(ceye);bgprog['lift']=lift;bgvao.render(moderngl.TRIANGLE_STRIP);ctx.enable(moderngl.DEPTH_TEST);prog['reflectionPass']=reflectionPass;(dummy if reflectionPass else refl).use(3)

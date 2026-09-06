@@ -1,0 +1,590 @@
+{
+  "passed": true,
+  "nativeFramesRendered": 0,
+  "wrapperSha256": "7dadf9a1668ed791f903aaaee9ec2e2d7433e55366fdbf271520e37444c29e4a",
+  "rendererSha256": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+  "checks": [
+    "initialization failure: completed chunk and metadata byte-identical",
+    "initialization failure: renderer resources released",
+    "initialization failure: precise GL exception",
+    "initialization failure: single error observation and immediate abort",
+    "initialization failure: no pending chunk accepted",
+    "initialization failure: no partial survives",
+    "initialization failure: encoder never started",
+    "initialization failure: fresh environment not certified",
+    "cached restoration failure: completed chunk and metadata byte-identical",
+    "cached restoration failure: renderer resources released",
+    "cached restoration failure: precise GL exception",
+    "cached restoration failure: single error observation and immediate abort",
+    "cached restoration failure: no pending chunk accepted",
+    "cached restoration failure: no partial survives",
+    "cached restoration failure: encoder never started",
+    "first native failure: completed chunk and metadata byte-identical",
+    "first native failure: renderer resources released",
+    "first native failure: precise GL exception",
+    "first native failure: single error observation and immediate abort",
+    "first native failure: no pending chunk accepted",
+    "first native failure: no partial survives",
+    "first native failure: active encoder terminated",
+    "later native failure: completed chunk and metadata byte-identical",
+    "later native failure: renderer resources released",
+    "later native failure: precise GL exception",
+    "later native failure: single error observation and immediate abort",
+    "later native failure: no pending chunk accepted",
+    "later native failure: no partial survives",
+    "later native failure: active encoder terminated",
+    "later native failure: earlier good frame entered only discarded partial",
+    "HDR readback failure: completed chunk and metadata byte-identical",
+    "HDR readback failure: renderer resources released",
+    "HDR readback failure: precise GL exception",
+    "HDR readback failure: single error observation and immediate abort",
+    "HDR readback failure: no pending chunk accepted",
+    "HDR readback failure: no partial survives",
+    "HDR readback failure: active encoder terminated",
+    "second temporal sample failure: completed chunk and metadata byte-identical",
+    "second temporal sample failure: renderer resources released",
+    "second temporal sample failure: precise GL exception",
+    "second temporal sample failure: single error observation and immediate abort",
+    "second temporal sample failure: no pending chunk accepted",
+    "second temporal sample failure: no partial survives",
+    "second temporal sample failure: active encoder terminated",
+    "second temporal sample failure: bad temporal sample never encoded",
+    "composite failure: completed chunk and metadata byte-identical",
+    "composite failure: renderer resources released",
+    "composite failure: precise GL exception",
+    "composite failure: single error observation and immediate abort",
+    "composite failure: no pending chunk accepted",
+    "composite failure: no partial survives",
+    "composite failure: active encoder terminated",
+    "composite failure: bad composite never encoded",
+    "clean single sample: completed chunk and metadata byte-identical",
+    "clean single sample: renderer resources released",
+    "clean single sample: clean render completes",
+    "clean single sample: completed prior chunk skipped",
+    "clean single sample: check before encoder write 4",
+    "clean single sample: check before encoder write 7",
+    "clean single sample: check before encoder write 11",
+    "clean single sample: check before encoder write 14",
+    "clean single sample: expected readback checks",
+    "clean temporal samples and cached restore: completed chunk and metadata byte-identical",
+    "clean temporal samples and cached restore: renderer resources released",
+    "clean temporal samples and cached restore: clean render completes",
+    "clean temporal samples and cached restore: completed prior chunk skipped",
+    "clean temporal samples and cached restore: check before encoder write 11",
+    "clean temporal samples and cached restore: check before encoder write 20",
+    "clean temporal samples and cached restore: check before encoder write 30",
+    "clean temporal samples and cached restore: check before encoder write 39",
+    "clean temporal samples and cached restore: expected readback checks",
+    "Existing native smoke remains complete",
+    "Existing native smoke media and metadata unchanged",
+    "Unchanged prepare",
+    "Unchanged load_job",
+    "Unchanged chunks",
+    "Unchanged prioritize_chunks",
+    "Unchanged chunk_paths",
+    "Unchanged good_chunk",
+    "Unchanged sample_times",
+    "Unchanged encoder_command",
+    "Unchanged assemble",
+    "No new explicit GL synchronization",
+    "Verified production renderer unchanged"
+  ],
+  "cases": [
+    {
+      "name": "initialization failure",
+      "error": "OpenGL error after renderer initialization: GL_OUT_OF_MEMORY. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 0,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_OUT_OF_MEMORY"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "cached restoration failure",
+      "error": "OpenGL error after cached environment restoration: GL_INVALID_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 0,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_OPERATION"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "first native failure",
+      "error": "OpenGL error after native sample for frame 2 at 0.066666667s: GL_INVALID_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 1,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_OPERATION"
+        ],
+        [
+          "encoder-terminate"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "later native failure",
+      "error": "OpenGL error after native sample for frame 3 at 0.100000000s: GL_INVALID_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 2,
+      "encodedFramesBeforeAbortOrCompletion": 1,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "native-readback",
+          2
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_OPERATION"
+        ],
+        [
+          "encoder-terminate"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "HDR readback failure",
+      "error": "OpenGL error after native sample for frame 2 at 0.062500000s: GL_INVALID_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 1,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "hdr-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_OPERATION"
+        ],
+        [
+          "encoder-terminate"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "second temporal sample failure",
+      "error": "OpenGL error after native sample for frame 2 at 0.070833333s: GL_INVALID_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 2,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "hdr-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          2
+        ],
+        [
+          "hdr-readback",
+          2
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_OPERATION"
+        ],
+        [
+          "encoder-terminate"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "composite failure",
+      "error": "OpenGL error after composited frame 2 at 0.066666667s: GL_INVALID_FRAMEBUFFER_OPERATION. Current chunk was not accepted; completed chunks remain resumable.",
+      "nativeRenderCount": 0,
+      "simulatedSamples": 2,
+      "encodedFramesBeforeAbortOrCompletion": 0,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "hdr-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          2
+        ],
+        [
+          "hdr-readback",
+          2
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "composite-readback"
+        ],
+        [
+          "gl-check",
+          "GL_INVALID_FRAMEBUFFER_OPERATION"
+        ],
+        [
+          "encoder-terminate"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "clean single sample",
+      "error": null,
+      "nativeRenderCount": 0,
+      "simulatedSamples": 4,
+      "encodedFramesBeforeAbortOrCompletion": 4,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "native-readback",
+          2
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          3
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "native-readback",
+          4
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    },
+    {
+      "name": "clean temporal samples and cached restore",
+      "error": null,
+      "nativeRenderCount": 0,
+      "simulatedSamples": 8,
+      "encodedFramesBeforeAbortOrCompletion": 4,
+      "events": [
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          1
+        ],
+        [
+          "hdr-readback",
+          1
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          2
+        ],
+        [
+          "hdr-readback",
+          2
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "composite-readback"
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "native-readback",
+          3
+        ],
+        [
+          "hdr-readback",
+          3
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          4
+        ],
+        [
+          "hdr-readback",
+          4
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "composite-readback"
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "encoder-start"
+        ],
+        [
+          "native-readback",
+          5
+        ],
+        [
+          "hdr-readback",
+          5
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          6
+        ],
+        [
+          "hdr-readback",
+          6
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "composite-readback"
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "native-readback",
+          7
+        ],
+        [
+          "hdr-readback",
+          7
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "native-readback",
+          8
+        ],
+        [
+          "hdr-readback",
+          8
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "composite-readback"
+        ],
+        [
+          "gl-check",
+          "GL_NO_ERROR"
+        ],
+        [
+          "encoder-write"
+        ],
+        [
+          "server-terminate"
+        ],
+        [
+          "context-release"
+        ]
+      ]
+    }
+  ],
+  "existingSmoke": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/bf61155d4ae94ce1"
+}

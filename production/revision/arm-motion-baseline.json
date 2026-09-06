@@ -1,0 +1,190 @@
+{
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "rigSha256": "fedec1a81e52ccfc87527b3522100d8a6facd2674b6ed2a7b145e50f48cdc184",
+  "frameRate": 120,
+  "frames": 27979,
+  "maxWristTargetErrorMm": 0.00009436227880664067,
+  "maxLengthVariationMm": 0.000027906821520318204,
+  "maxElbowSpeedMps": 1.101540718852482,
+  "maxArmAngularSpeedRadps": 4.6867055345838,
+  "nonfinite": 0,
+  "lengths": {
+    "L": [
+      {
+        "min": 0.2563629906858096,
+        "max": 0.25636301782046034
+      },
+      {
+        "min": 0.250023891818487,
+        "max": 0.2500239136491269
+      }
+    ],
+    "R": [
+      {
+        "min": 0.2563631226585725,
+        "max": 0.25636313874269595
+      },
+      {
+        "min": 0.25002391247595784,
+        "max": 0.25002394038277936
+      }
+    ]
+  },
+  "fastestElbows": [
+    {
+      "time": 43.083333333333336,
+      "hand": "L",
+      "elbowSpeedMps": 1.101540718852482,
+      "armAngularSpeedRadps": 4.269794299693941
+    },
+    {
+      "time": 43.075,
+      "hand": "L",
+      "elbowSpeedMps": 1.0993846549015525,
+      "armAngularSpeedRadps": 4.260897974857184
+    },
+    {
+      "time": 43.09166666666667,
+      "hand": "L",
+      "elbowSpeedMps": 1.0779829583174223,
+      "armAngularSpeedRadps": 4.178472093506727
+    },
+    {
+      "time": 43.06666666666667,
+      "hand": "L",
+      "elbowSpeedMps": 1.0710312766757943,
+      "armAngularSpeedRadps": 4.149827892833709
+    },
+    {
+      "time": 43.1,
+      "hand": "L",
+      "elbowSpeedMps": 1.030261045960038,
+      "armAngularSpeedRadps": 3.993037177975088
+    },
+    {
+      "time": 43.05833333333333,
+      "hand": "L",
+      "elbowSpeedMps": 1.017107454084588,
+      "armAngularSpeedRadps": 3.9390154344084647
+    },
+    {
+      "time": 188.5,
+      "hand": "L",
+      "elbowSpeedMps": 1.0024413105973566,
+      "armAngularSpeedRadps": 3.9422649050566836
+    },
+    {
+      "time": 188.49166666666667,
+      "hand": "L",
+      "elbowSpeedMps": 1.002012374962177,
+      "armAngularSpeedRadps": 3.9510949603140157
+    },
+    {
+      "time": 188.48333333333332,
+      "hand": "L",
+      "elbowSpeedMps": 0.970167729805347,
+      "armAngularSpeedRadps": 3.832657598350591
+    },
+    {
+      "time": 188.50833333333333,
+      "hand": "L",
+      "elbowSpeedMps": 0.9700866332726774,
+      "armAngularSpeedRadps": 3.7682915811164395
+    },
+    {
+      "time": 43.108333333333334,
+      "hand": "L",
+      "elbowSpeedMps": 0.9608969218629191,
+      "armAngularSpeedRadps": 3.724157526284809
+    },
+    {
+      "time": 43.05,
+      "hand": "L",
+      "elbowSpeedMps": 0.9393598065858858,
+      "armAngularSpeedRadps": 3.635108986666245
+    }
+  ],
+  "fastestArmRotations": [
+    {
+      "time": 135.90833333333333,
+      "hand": "L",
+      "elbowSpeedMps": 0.48240291372690364,
+      "armAngularSpeedRadps": 4.6867055345838
+    },
+    {
+      "time": 57.208333333333336,
+      "hand": "L",
+      "elbowSpeedMps": 0.556975812465147,
+      "armAngularSpeedRadps": 4.6755506547353605
+    },
+    {
+      "time": 57.21666666666667,
+      "hand": "L",
+      "elbowSpeedMps": 0.50261721426395,
+      "armAngularSpeedRadps": 4.658965395449636
+    },
+    {
+      "time": 135.9,
+      "hand": "L",
+      "elbowSpeedMps": 0.5262707674788322,
+      "armAngularSpeedRadps": 4.630550688377004
+    },
+    {
+      "time": 135.91666666666666,
+      "hand": "L",
+      "elbowSpeedMps": 0.42744586559188585,
+      "armAngularSpeedRadps": 4.628300624347183
+    },
+    {
+      "time": 57.2,
+      "hand": "L",
+      "elbowSpeedMps": 0.5988336927736836,
+      "armAngularSpeedRadps": 4.587804820022221
+    },
+    {
+      "time": 57.225,
+      "hand": "L",
+      "elbowSpeedMps": 0.4400674060453735,
+      "armAngularSpeedRadps": 4.5353985522929925
+    },
+    {
+      "time": 2.975,
+      "hand": "L",
+      "elbowSpeedMps": 0.2426524751872905,
+      "armAngularSpeedRadps": 4.496433790996813
+    },
+    {
+      "time": 17.841666666666665,
+      "hand": "L",
+      "elbowSpeedMps": 0.45637328909997665,
+      "armAngularSpeedRadps": 4.486660542661354
+    },
+    {
+      "time": 207.75833333333333,
+      "hand": "L",
+      "elbowSpeedMps": 0.4553304142817979,
+      "armAngularSpeedRadps": 4.479573380095161
+    },
+    {
+      "time": 2.9833333333333334,
+      "hand": "L",
+      "elbowSpeedMps": 0.2138639235670291,
+      "armAngularSpeedRadps": 4.478514194001216
+    },
+    {
+      "time": 68.325,
+      "hand": "L",
+      "elbowSpeedMps": 0.2247243869160184,
+      "armAngularSpeedRadps": 4.4772518845147395
+    }
+  ],
+  "reviewLimits": {
+    "elbowSpeedMps": 3,
+    "armAngularSpeedRadps": 20,
+    "wristTargetErrorMm": 1,
+    "lengthVariationMm": 0.001,
+    "description": "Discontinuity and reach review thresholds for this rig; not biological limits or visual approval."
+  },
+  "passed": true,
+  "scope": "Actual upper-arm, elbow and wrist transforms throughout a 120 Hz score replay. Mesh collision, appearance and live playback remain separate reviews."
+}

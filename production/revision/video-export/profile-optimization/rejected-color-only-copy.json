@@ -1,0 +1,120 @@
+{
+  "sourceFingerprint": "633cd937d0aa0660d61ada46b5325401f02f868da35f8fc161a8e17720bed96f",
+  "width": 1920,
+  "height": 1080,
+  "sameContext": true,
+  "sameFrozenPose": true,
+  "lpNumThreads": "4",
+  "rows": [
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 6.0,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "06ac68f14e7e7f62f0a26db4d83c25c7d2e36b159af71c7b4f8d764d962544bc",
+      "seconds": {
+        "baseline": 7.271251760997984,
+        "shadows": 5.256008757001837
+      },
+      "speedup": 1.3834169799111395,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 26.05,
+      "order": [
+        "shadows",
+        "baseline"
+      ],
+      "poseSha256": "e8abf342d9edf7d783fd1f4578ba44b8f324605503970f3f75332163a180ef57",
+      "seconds": {
+        "shadows": 9.859860095995828,
+        "baseline": 7.566945097001735
+      },
+      "speedup": 0.7674495401891894,
+      "pixelIdentical": false,
+      "shadowDepthIdentical": false,
+      "changedChannels": 143746,
+      "maxChannelDifference": 146,
+      "meanChannelDifference": 0.7193537808641975,
+      "maxHdrDifference": 0.78369140625,
+      "changedHdrValues": 155453
+    },
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 138.0,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "b5d68eb75ff28b1c9d73fd4ed10b2dc23d4b132acc98261338cde8ae9ae54b65",
+      "seconds": {
+        "baseline": 8.714779510999506,
+        "shadows": 4.5604606560009415
+      },
+      "speedup": 1.9109428122205263,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 1,
+      "time": 6.0,
+      "order": [
+        "shadows",
+        "baseline"
+      ],
+      "poseSha256": "06ac68f14e7e7f62f0a26db4d83c25c7d2e36b159af71c7b4f8d764d962544bc",
+      "seconds": {
+        "shadows": 7.653708112993627,
+        "baseline": 5.858546437993937
+      },
+      "speedup": 0.765452033380779,
+      "pixelIdentical": false,
+      "shadowDepthIdentical": false,
+      "changedChannels": 6730,
+      "maxChannelDifference": 145,
+      "meanChannelDifference": 0.05887827932098765,
+      "maxHdrDifference": 0.275146484375,
+      "changedHdrValues": 7229
+    },
+    {
+      "variant": "shadows",
+      "repeat": 1,
+      "time": 26.05,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "e8abf342d9edf7d783fd1f4578ba44b8f324605503970f3f75332163a180ef57",
+      "seconds": {
+        "baseline": 10.565042656002333,
+        "shadows": 8.40913589700358
+      },
+      "speedup": 1.2563767294766832,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    }
+  ]
+}

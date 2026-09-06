@@ -1,0 +1,11 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -289,7 +289,7 @@
+  return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
+  };
+  const idlePose=localPose(wp(hand.wrist),pose.q,idle);
+- const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),touch=piano.contact(note.midi,this.contactDepth(origin.z,isBlack(note.midi),fi));touch.y+=note.contactLift??.002;return localPose(anchor.position,anchor.q,touch);};
++ const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+  let rotations=idlePose.map(q=>q.clone());

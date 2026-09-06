@@ -1,0 +1,239 @@
+{
+  "sourceHashes": {
+    "math": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "piano": "26d8a7d24ce647a4dd0333d55e8eb5bd002b528443e83f3b8ed0e17c775a77fb",
+    "wrist-motion": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "pianist": "fedec1a81e52ccfc87527b3522100d8a6facd2674b6ed2a7b145e50f48cdc184",
+    "ponytail-motion": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "hair-motion-data": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932"
+  },
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "glbSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "range": [
+    169.885523,
+    175.189552
+  ],
+  "sampleHz": 120,
+  "sampleCount": 638,
+  "boneStats": {
+    "Hips": {
+      "min": [
+        -0.005678700297329289,
+        0.6269803462028504,
+        0.6288804389536381
+      ],
+      "max": [
+        0.0005789414548372455,
+        0.6269803462028504,
+        0.6288804389536381
+      ],
+      "maxAdjacentMM": 0.15053061745721585,
+      "maxAdjacentDegrees": 0.00001366037834002551,
+      "maxAngleFromStartDegrees": 0.00001366037834002551
+    },
+    "Spine": {
+      "min": [
+        -0.0022416546196217637,
+        0.741919307832612,
+        0.6265317709591331
+      ],
+      "max": [
+        0.004015987132544771,
+        0.741919307832612,
+        0.6265317709591331
+      ],
+      "maxAdjacentMM": 0.15053061745721585,
+      "maxAdjacentDegrees": 0.09826106915009797,
+      "maxAngleFromStartDegrees": 3.702995992478004
+    },
+    "Spine1": {
+      "min": [
+        -0.0004625054047118206,
+        0.8453698959078011,
+        0.6181489524332947
+      ],
+      "max": [
+        0.00481435382589358,
+        0.8456968152375983,
+        0.6243116360558469
+      ],
+      "maxAdjacentMM": 0.18474756378217622,
+      "maxAdjacentDegrees": 0.11794691994056593,
+      "maxAngleFromStartDegrees": 4.199414661129668
+    },
+    "Spine2": {
+      "min": [
+        -0.0016622943585253617,
+        0.9825627560686006,
+        0.614336800266517
+      ],
+      "max": [
+        0.00591107561743298,
+        0.9829101234586269,
+        0.6297494844192758
+      ],
+      "maxAdjacentMM": 0.4607233976564273,
+      "maxAdjacentDegrees": 0.12077860117010011,
+      "maxAngleFromStartDegrees": 4.444421980463025
+    },
+    "Head": {
+      "min": [
+        -0.004236980689995347,
+        1.1994304646727882,
+        0.5161945456041069
+      ],
+      "max": [
+        0.011170261263102815,
+        1.2059726403050088,
+        0.5466473719018013
+      ],
+      "maxAdjacentMM": 0.9432420973383676,
+      "maxAdjacentDegrees": 0.14931870670071476,
+      "maxAngleFromStartDegrees": 7.703525649948407
+    },
+    "PonytailRoot": {
+      "min": [
+        -0.015132060310188558,
+        1.3576929195634908,
+        0.5769859206143855
+      ],
+      "max": [
+        0.007878094307433397,
+        1.3619472822046057,
+        0.6271047650738203
+      ],
+      "maxAdjacentMM": 1.3071276990298666,
+      "maxAdjacentDegrees": 0.14931863780033638,
+      "maxAngleFromStartDegrees": 7.703525645469752
+    },
+    "Ponytail1": {
+      "min": [
+        -0.013569248450622877,
+        1.293956024127749,
+        0.6023818259764286
+      ],
+      "max": [
+        0.006905178040981567,
+        1.3006805597162607,
+        0.6446073044045595
+      ],
+      "maxAdjacentMM": 1.151627590615134,
+      "maxAdjacentDegrees": 0.1607651861759208,
+      "maxAngleFromStartDegrees": 7.805112922060467
+    },
+    "Ponytail2": {
+      "min": [
+        -0.01241799557739905,
+        1.22738497473812,
+        0.6275172313385612
+      ],
+      "max": [
+        0.005883549983105783,
+        1.2368203296843208,
+        0.6614909233694513
+      ],
+      "maxAdjacentMM": 1.001148798541056,
+      "maxAdjacentDegrees": 0.15860244745948884,
+      "maxAngleFromStartDegrees": 7.327750717114341
+    }
+  },
+  "clothProbeCount": 1611,
+  "maxClothAdjacentMM": 1.1230378119153468,
+  "seatProbeCount": 94,
+  "maxSeatProbeVerticalRangeMM": 1.0626069233925506,
+  "seatProbeLowestY": 0.46994827472203127,
+  "benchCushionTopY": 0.4975,
+  "maxHairRootLocalRotationDegrees": 0,
+  "maxBoundaryHeadStepOver20MicrosecondsMM": 0.0022914443222010338,
+  "footStats": {
+    "Left": {
+      "heelMinY": 0.0009999995231628409,
+      "heelMaxY": 0.0009999995231628409,
+      "heelMinZ": 0.3571982404589653,
+      "heelMaxZ": 0.3571982404589653,
+      "maxAdjacentHeelMM": 0
+    },
+    "Right": {
+      "heelMinY": -0.0016743340618935454,
+      "heelMaxY": -0.0015353723335990999,
+      "heelMinZ": 0.35360552125176126,
+      "heelMaxZ": 0.3565430044477469,
+      "maxAdjacentHeelMM": 0.77757419488544
+    }
+  },
+  "frames": [
+    {
+      "index": 0,
+      "time": 169.885523,
+      "file": "frame-00.json.gz",
+      "bytes": 5910094
+    },
+    {
+      "index": 1,
+      "time": 170.36770745454547,
+      "file": "frame-01.json.gz",
+      "bytes": 5895791
+    },
+    {
+      "index": 2,
+      "time": 170.8498919090909,
+      "file": "frame-02.json.gz",
+      "bytes": 5896867
+    },
+    {
+      "index": 3,
+      "time": 171.33207636363636,
+      "file": "frame-03.json.gz",
+      "bytes": 5896954
+    },
+    {
+      "index": 4,
+      "time": 171.81426081818182,
+      "file": "frame-04.json.gz",
+      "bytes": 5896783
+    },
+    {
+      "index": 5,
+      "time": 172.29644527272728,
+      "file": "frame-05.json.gz",
+      "bytes": 5900742
+    },
+    {
+      "index": 6,
+      "time": 172.77862972727272,
+      "file": "frame-06.json.gz",
+      "bytes": 5909141
+    },
+    {
+      "index": 7,
+      "time": 173.26081418181818,
+      "file": "frame-07.json.gz",
+      "bytes": 5902481
+    },
+    {
+      "index": 8,
+      "time": 173.74299863636364,
+      "file": "frame-08.json.gz",
+      "bytes": 5897709
+    },
+    {
+      "index": 9,
+      "time": 174.2251830909091,
+      "file": "frame-09.json.gz",
+      "bytes": 5904482
+    },
+    {
+      "index": 10,
+      "time": 174.70736754545453,
+      "file": "frame-10.json.gz",
+      "bytes": 5897501
+    },
+    {
+      "index": 11,
+      "time": 175.189552,
+      "file": "frame-11.json.gz",
+      "bytes": 5910771
+    }
+  ],
+  "scope": "120Hz torso/head/hair/leg/cloth numeric samples use actual posture, scoreEnergy and pedalPosition. Cloth probes exclude arm/hand weights. Twelve rendered poses use full production update from the captured source snapshot. No hand endpoint or listening assessment."
+}

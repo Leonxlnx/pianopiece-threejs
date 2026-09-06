@@ -1,0 +1,38 @@
+{
+  "desktop": {
+    "triangles": {
+      "before": 228836,
+      "after": 298124,
+      "delta": 69288
+    },
+    "drawCalls": {
+      "before": 87,
+      "after": 89,
+      "delta": 2
+    },
+    "instances": {
+      "before": 33771,
+      "after": 42405,
+      "delta": 8634
+    }
+  },
+  "mobile": {
+    "triangles": {
+      "before": 161444,
+      "after": 208290,
+      "delta": 46846
+    },
+    "drawCalls": {
+      "before": 87,
+      "after": 89,
+      "delta": 2
+    },
+    "instances": {
+      "before": 16923,
+      "after": 22913,
+      "delta": 5990
+    }
+  },
+  "scope": "Stage geometry totals, including the pavilion. Draw calls count one pass and one material per instance batch; they do not count shadows, reflection capture, or postprocessing.",
+  "stageSha256": "e5ff8fafb7acdaccc61f4bce0e2505100c5a7dd56d37a265057f2869106f0294"
+}

@@ -1,0 +1,285 @@
+{
+  "passed": true,
+  "issues": [],
+  "durationSeconds": 229.0363492063492,
+  "sampleRate": 44100,
+  "channels": 2,
+  "wavLoudness": {
+    "input_i": "-16.03",
+    "input_tp": "-1.27",
+    "input_lra": "7.00",
+    "input_thresh": "-26.19",
+    "output_i": "-15.00",
+    "output_tp": "-1.30",
+    "output_lra": "6.50",
+    "output_thresh": "-25.16",
+    "normalization_type": "dynamic",
+    "target_offset": "-1.00"
+  },
+  "wavSamplePeakDbfs": -1.3500014966374685,
+  "clippedSamples": 0,
+  "nonfinite": 0,
+  "finalAboveIntroRmsDb": 6.344,
+  "lastHalfSecondRmsDbfs": -240.0,
+  "lastSampleMagnitude": 0.0,
+  "velocityLayerCounts": {
+    "7": 379,
+    "11": 932,
+    "3": 21,
+    "15": 135
+  },
+  "attackLagMsPercentiles": {
+    "min": 0.204,
+    "median": 1.769,
+    "p95": 2.721,
+    "max": 3.129
+  },
+  "maxRenderTimestampRoundingMs": 0.011300000011260636,
+  "pianoPedalExtendedNotes": 1467,
+  "pianoTransposeSemitones": [
+    -1,
+    0,
+    1
+  ],
+  "supportTransposeSemitones": [
+    -1,
+    0,
+    1,
+    2
+  ],
+  "sections": [
+    {
+      "name": "First light",
+      "kind": "intro",
+      "start": 0.0,
+      "end": 9.6,
+      "masterRmsDbfs": -22.388,
+      "masterPeakDbfs": -6.699,
+      "crestDb": 15.688,
+      "pianoAboveEnsembleRmsDb": null,
+      "melodyAboveEnsembleRmsDb": null,
+      "stereoCorrelation": 0.2884
+    },
+    {
+      "name": "A quiet beginning",
+      "kind": "verse",
+      "start": 9.6,
+      "end": 38.4,
+      "masterRmsDbfs": -20.837,
+      "masterPeakDbfs": -5.81,
+      "crestDb": 15.027,
+      "pianoAboveEnsembleRmsDb": null,
+      "melodyAboveEnsembleRmsDb": null,
+      "stereoCorrelation": 0.2581
+    },
+    {
+      "name": "Toward the horizon",
+      "kind": "ascent",
+      "start": 38.4,
+      "end": 57.6,
+      "masterRmsDbfs": -18.574,
+      "masterPeakDbfs": -2.101,
+      "crestDb": 16.473,
+      "pianoAboveEnsembleRmsDb": 14.44,
+      "melodyAboveEnsembleRmsDb": 11.64,
+      "stereoCorrelation": 0.1741
+    },
+    {
+      "name": "Daybreak",
+      "kind": "chorus",
+      "start": 57.6,
+      "end": 86.4,
+      "masterRmsDbfs": -17.353,
+      "masterPeakDbfs": -1.35,
+      "crestDb": 16.003,
+      "pianoAboveEnsembleRmsDb": 13.35,
+      "melodyAboveEnsembleRmsDb": 10.68,
+      "stereoCorrelation": 0.1814
+    },
+    {
+      "name": "Afterglow",
+      "kind": "interlude",
+      "start": 86.4,
+      "end": 96.0,
+      "masterRmsDbfs": -21.493,
+      "masterPeakDbfs": -7.013,
+      "crestDb": 14.48,
+      "pianoAboveEnsembleRmsDb": 40.12,
+      "melodyAboveEnsembleRmsDb": 39.1,
+      "stereoCorrelation": 0.2685
+    },
+    {
+      "name": "The road behind",
+      "kind": "verse2",
+      "start": 96.0,
+      "end": 115.2,
+      "masterRmsDbfs": -20.453,
+      "masterPeakDbfs": -5.464,
+      "crestDb": 14.989,
+      "pianoAboveEnsembleRmsDb": 18.45,
+      "melodyAboveEnsembleRmsDb": 17.43,
+      "stereoCorrelation": 0.1475
+    },
+    {
+      "name": "One more breath",
+      "kind": "ascent2",
+      "start": 115.2,
+      "end": 124.8,
+      "masterRmsDbfs": -18.264,
+      "masterPeakDbfs": -1.664,
+      "crestDb": 16.599,
+      "pianoAboveEnsembleRmsDb": 13.51,
+      "melodyAboveEnsembleRmsDb": 10.46,
+      "stereoCorrelation": 0.1472
+    },
+    {
+      "name": "Daybreak \u00b7 reprise",
+      "kind": "reprise",
+      "start": 124.8,
+      "end": 144.0,
+      "masterRmsDbfs": -17.378,
+      "masterPeakDbfs": -1.35,
+      "crestDb": 16.028,
+      "pianoAboveEnsembleRmsDb": 13.51,
+      "melodyAboveEnsembleRmsDb": 10.75,
+      "stereoCorrelation": 0.1696
+    },
+    {
+      "name": "Before the sun",
+      "kind": "bridge",
+      "start": 144.0,
+      "end": 163.2,
+      "masterRmsDbfs": -19.108,
+      "masterPeakDbfs": -1.35,
+      "crestDb": 17.758,
+      "pianoAboveEnsembleRmsDb": 21.94,
+      "melodyAboveEnsembleRmsDb": 20.76,
+      "stereoCorrelation": 0.1292
+    },
+    {
+      "name": "Everything opens",
+      "kind": "final",
+      "start": 163.2,
+      "end": 201.6,
+      "masterRmsDbfs": -16.044,
+      "masterPeakDbfs": -1.35,
+      "crestDb": 14.694,
+      "pianoAboveEnsembleRmsDb": 14.42,
+      "melodyAboveEnsembleRmsDb": 12.33,
+      "stereoCorrelation": 0.1442
+    },
+    {
+      "name": "Home in the light",
+      "kind": "coda",
+      "start": 201.6,
+      "end": 229.03635,
+      "masterRmsDbfs": -23.828,
+      "masterPeakDbfs": -1.477,
+      "crestDb": 22.351,
+      "pianoAboveEnsembleRmsDb": 20.36,
+      "melodyAboveEnsembleRmsDb": 19.15,
+      "stereoCorrelation": 0.2051
+    }
+  ],
+  "codec": [
+    {
+      "format": "mp3",
+      "decodedFrames": 10100503,
+      "durationSeconds": 229.0363492063492,
+      "samplePeakDbfs": -1.2505198495180636,
+      "truePeakDbfs": -1.17,
+      "alignment": [
+        {
+          "atSeconds": 0.0,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 57.55,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 163.15,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 221.0,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        }
+      ],
+      "nonfinite": 0,
+      "clippedSamples": 0
+    },
+    {
+      "format": "m4a",
+      "decodedFrames": 10100736,
+      "durationSeconds": 229.0416326530612,
+      "samplePeakDbfs": -1.3111650712957847,
+      "truePeakDbfs": -1.26,
+      "alignment": [
+        {
+          "atSeconds": 0.0,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 57.55,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 163.15,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        },
+        {
+          "atSeconds": 221.0,
+          "lagSamples": 0,
+          "lagMs": 0.0
+        }
+      ],
+      "nonfinite": 0,
+      "clippedSamples": 0
+    }
+  ],
+  "peakContext": {
+    "timeSeconds": 58.82140589569161,
+    "notes": [
+      {
+        "id": "p00334",
+        "time": 58.8,
+        "duration": 0.783,
+        "midi": 74,
+        "velocity": 0.6222,
+        "hand": "R",
+        "finger": 1,
+        "role": "harmony"
+      },
+      {
+        "id": "p00335",
+        "time": 58.804,
+        "duration": 0.783,
+        "midi": 78,
+        "velocity": 0.6362,
+        "hand": "R",
+        "finger": 3,
+        "role": "harmony"
+      },
+      {
+        "id": "p00336",
+        "time": 58.812,
+        "duration": 0.863,
+        "midi": 81,
+        "velocity": 0.8102,
+        "hand": "R",
+        "finger": 5,
+        "role": "melody"
+      }
+    ]
+  },
+  "listeningPerformed": false,
+  "listeningNote": "No listening-capable tool was available. This review uses score inspection, sample provenance, signal analysis and decoded codec correlation."
+}

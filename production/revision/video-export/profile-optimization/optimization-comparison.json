@@ -1,0 +1,153 @@
+{
+  "sourceFingerprint": "633cd937d0aa0660d61ada46b5325401f02f868da35f8fc161a8e17720bed96f",
+  "width": 1920,
+  "height": 1080,
+  "sameContext": true,
+  "sameFrozenPose": true,
+  "lpNumThreads": "4",
+  "rows": [
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 6.0,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "06ac68f14e7e7f62f0a26db4d83c25c7d2e36b159af71c7b4f8d764d962544bc",
+      "seconds": {
+        "baseline": 6.988553669005341,
+        "shadows": 8.148737356998026
+      },
+      "speedup": 0.8576241155942601,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 26.05,
+      "order": [
+        "shadows",
+        "baseline"
+      ],
+      "poseSha256": "e8abf342d9edf7d783fd1f4578ba44b8f324605503970f3f75332163a180ef57",
+      "seconds": {
+        "shadows": 8.764754809999431,
+        "baseline": 9.97368492899841
+      },
+      "speedup": 1.1379308543371627,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 0,
+      "time": 138.0,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "b5d68eb75ff28b1c9d73fd4ed10b2dc23d4b132acc98261338cde8ae9ae54b65",
+      "seconds": {
+        "baseline": 13.662501872997382,
+        "shadows": 8.427888523001457
+      },
+      "speedup": 1.6211061448795365,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 1,
+      "time": 6.0,
+      "order": [
+        "shadows",
+        "baseline"
+      ],
+      "poseSha256": "06ac68f14e7e7f62f0a26db4d83c25c7d2e36b159af71c7b4f8d764d962544bc",
+      "seconds": {
+        "shadows": 5.785315287997946,
+        "baseline": 10.442736138997134
+      },
+      "speedup": 1.8050418376784656,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 1,
+      "time": 26.05,
+      "order": [
+        "baseline",
+        "shadows"
+      ],
+      "poseSha256": "e8abf342d9edf7d783fd1f4578ba44b8f324605503970f3f75332163a180ef57",
+      "seconds": {
+        "baseline": 16.11947583699657,
+        "shadows": 9.421326390001923
+      },
+      "speedup": 1.710956097869918,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    },
+    {
+      "variant": "shadows",
+      "repeat": 1,
+      "time": 138.0,
+      "order": [
+        "shadows",
+        "baseline"
+      ],
+      "poseSha256": "b5d68eb75ff28b1c9d73fd4ed10b2dc23d4b132acc98261338cde8ae9ae54b65",
+      "seconds": {
+        "shadows": 11.09515449400351,
+        "baseline": 9.479804909999075
+      },
+      "speedup": 0.8544094555080358,
+      "pixelIdentical": true,
+      "shadowDepthIdentical": true,
+      "changedChannels": 0,
+      "maxChannelDifference": 0,
+      "meanChannelDifference": 0.0,
+      "maxHdrDifference": 0.0,
+      "changedHdrValues": 0
+    }
+  ],
+  "summary": {
+    "pairs": 6,
+    "allRgbBitIdentical": true,
+    "allHdrBitIdentical": true,
+    "allShadowDepthBitIdentical": true,
+    "baselineMeanSeconds": 11.111126226165652,
+    "optimizedMeanSeconds": 8.607196143667048,
+    "aggregateSpeedup": 1.2909112376091174,
+    "aggregateTimeReductionPercent": 22.535340086426924,
+    "timingCaveat": "Same context and alternating order, root/character EGL paused. Shared container load remains variable; individual ratios are not stable."
+  }
+}

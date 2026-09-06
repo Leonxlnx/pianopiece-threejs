@@ -1,0 +1,47 @@
+{
+  "candidateSHA256": "ff25cbb97cca511a321d33097a11da8f85500c383827e50914dc185c3e1987c2",
+  "baselineSHA256": "5b47b2ba244b70fd2b7a63b47baccc366bdd0c7faaccbf00959c9aa43ae05baa",
+  "changes": [
+    {
+      "id": "p00396",
+      "changes": {
+        "finger": {
+          "before": 2,
+          "after": 3
+        },
+        "contactLift": {
+          "before": 0.003008,
+          "after": 0.003271
+        }
+      }
+    },
+    {
+      "id": "p00513",
+      "changes": {
+        "finger": {
+          "before": 3,
+          "after": 4
+        },
+        "contactLift": {
+          "before": 0.003271,
+          "after": 0.003513883939167293
+        }
+      }
+    },
+    {
+      "id": "p00874",
+      "changes": {
+        "finger": {
+          "before": 2,
+          "after": 5
+        },
+        "contactLift": {
+          "before": 0.003008,
+          "after": 0.002435
+        }
+      }
+    }
+  ],
+  "audioIdentical": true,
+  "unchangedTopLevelExceptNotes": true
+}

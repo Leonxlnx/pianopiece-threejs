@@ -1,5 +1,3 @@
-# Daybreak transfer
+# Daybreak transfer complete
 
-Full recovered project and continuation context are being imported. Read `handoff.md` after the import commit.
-
-Source checkpoint: 4079210 from the original Daybreak Sites repository. Transfer requested by the owner on 2026-09-06.
+Read [handoff.md](handoff.md) first. Imported the recovered 4079210 source snapshot plus project prompts, current findings and continuation instructions. Unsaved experiments lost to workspace maintenance are documented, not presented as recovered source.

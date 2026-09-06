@@ -1,0 +1,37 @@
+--- a/export_video.py
++++ b/export_video.py
+@@ -98,6 +98,17 @@
+ 
+ def chunks(c):
+  return [(first,min(c['chunkFrames'],c['frames']-first)) for first in range(0,c['frames'],c['chunkFrames'])]
++def prioritize_chunks(pending,c,start=None,end=None):
++ """Stable whole-chunk priority for [start,end), in seconds from job start."""
++ if start is None and end is None:return list(pending)
++ if start is None or end is None:raise ValueError('Provide both --prioritize-start and --prioritize-end.')
++ if not math.isfinite(start) or not math.isfinite(end):raise ValueError('Priority times must be finite.')
++ lo=Fraction(str(start));hi=Fraction(str(end));duration=Fraction(c.get('durationFraction',str(c['duration'])))
++ if not 0<=lo<hi<=duration:raise ValueError('Priority range must satisfy 0 <= start < end <= job duration.')
++ def overlaps(chunk):
++  first,count=chunk
++  return Fraction(first,c['fps'])<hi and Fraction(first+count,c['fps'])>lo
++ return [chunk for chunk in pending if overlaps(chunk)]+[chunk for chunk in pending if not overlaps(chunk)]
+ def chunk_paths(job,first,count):
+  stem=f'{first:06d}-{count:05d}';return job/'chunks'/f'{stem}.mp4',job/'chunks'/f'{stem}.json'
+ def good_chunk(video,metadata,first,count,c):
+@@ -167,6 +178,7 @@
+ def render(args):
+  job,c,snap,m=load_job(args.job)
+  todo=[(first,count) for first,count in chunks(c) if not good_chunk(*chunk_paths(job,first,count),first,count,c)]
++ todo=prioritize_chunks(todo,c,getattr(args,'prioritize_start',None),getattr(args,'prioritize_end',None))
+  if not todo:print(json.dumps({'alreadyComplete':True,'newFrames':0}));return
+  if not args.all:todo=todo[:args.max_chunks]
+  # EGL must be configured before Python loads its shared libraries; re-exec once.
+@@ -263,7 +275,7 @@
+  signal.signal(signal.SIGTERM,cancelled)
+  p=argparse.ArgumentParser(description=__doc__);sub=p.add_subparsers(dest='command',required=True)
+  a=sub.add_parser('prepare');a.add_argument('--project',type=Path,default=DEFAULT_PROJECT);a.add_argument('--audio',type=Path,default=DEFAULT_AUDIO);a.add_argument('--root',type=Path,default=HERE/'work');a.add_argument('--start',type=float,default=0);a.add_argument('--duration',type=float);a.add_argument('--fps',type=int,choices=[24,30],default=24);a.add_argument('--width',type=int,default=1920);a.add_argument('--chunk-frames',type=int,default=24);a.add_argument('--samples',type=int,choices=[1,2,4],default=1);a.add_argument('--shutter',type=float,default=180);a.add_argument('--crf',type=int,default=17);a.add_argument('--preset',default='medium');a.add_argument('--keep-unused-reflection',action='store_true');a.set_defaults(func=prepare)
+- a=sub.add_parser('render');a.add_argument('--job',required=True);a.add_argument('--max-chunks',type=int,default=1);a.add_argument('--all',action='store_true');a.add_argument('--egl',type=Path,default=DEFAULT_EGL);a.set_defaults(func=render)
++ a=sub.add_parser('render');a.add_argument('--job',required=True);a.add_argument('--max-chunks',type=int,default=1);a.add_argument('--all',action='store_true');a.add_argument('--egl',type=Path,default=DEFAULT_EGL);a.add_argument('--prioritize-start',type=float,help='Render pending chunks overlapping this time range first (seconds from job start).');a.add_argument('--prioritize-end',type=float,help='Exclusive end of the priority range; requires --prioritize-start.');a.set_defaults(func=render)
+  a=sub.add_parser('assemble');a.add_argument('--job',required=True);a.add_argument('--final',action='store_true');a.set_defaults(func=assemble)
+  a=sub.add_parser('status');a.add_argument('--job',required=True);a.set_defaults(func=status)
+  args=p.parse_args();args.func(args)

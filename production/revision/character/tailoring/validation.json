@@ -1,0 +1,97 @@
+{
+  "nodesExact": true,
+  "skinsExact": true,
+  "nonGarmentMeshesExact": true,
+  "garment": [
+    {
+      "material": "Concert blouse \u2022 draped panels",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        50
+      ]
+    },
+    {
+      "material": "Concert trousers \u2022 pressed wool",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        15
+      ]
+    },
+    {
+      "material": "Concert blouse \u2022 stitched binding and placket",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        50
+      ]
+    },
+    {
+      "material": "Concert trousers \u2022 seams and waistband",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        15
+      ]
+    },
+    {
+      "material": "Concert blouse \u2022 stitched binding and placket",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        48
+      ]
+    },
+    {
+      "material": "Concert blouse \u2022 dark buttons",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 5.960464477539063e-08,
+      "jointRange": [
+        0,
+        48
+      ]
+    },
+    {
+      "material": "Concert trousers \u2022 seams and waistband",
+      "finite": true,
+      "validIndices": true,
+      "zeroAreaTriangles": 0,
+      "maxWeightSumError": 1.1920928955078125e-07,
+      "jointRange": [
+        0,
+        11
+      ]
+    }
+  ],
+  "orientationChecks": [
+    {
+      "panel": 0,
+      "triangleOrientationReversals": 0,
+      "minimumRelativeNormalCosine": 0.6120613813400269
+    },
+    {
+      "panel": 1,
+      "triangleOrientationReversals": 0,
+      "minimumRelativeNormalCosine": 0.9112028479576111
+    }
+  ],
+  "outputSHA256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d"
+}

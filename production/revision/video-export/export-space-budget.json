@@ -1,0 +1,77 @@
+{
+  "durationSeconds": 233.144218,
+  "fps": 24,
+  "frames": 5596,
+  "cfrVideoSeconds": 233.16666666666666,
+  "sampleBitrates": [
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/0ab01bd54645d81c/chunks/000012-00012.mp4",
+      "durationSeconds": 0.5,
+      "Mbps": 12.795808
+    },
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/0ab01bd54645d81c/chunks/000000-00012.mp4",
+      "durationSeconds": 0.5,
+      "Mbps": 12.415584
+    },
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/6f4e9b12c6216abf/chunks/000000-00012.mp4",
+      "durationSeconds": 0.4,
+      "Mbps": 12.6642
+    },
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/bf61155d4ae94ce1/chunks/000000-00002.mp4",
+      "durationSeconds": 0.08333333333333333,
+      "Mbps": 14.336736
+    },
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/video-export/work/jobs/7103572597d5e8be/chunks/000000-00012.mp4",
+      "durationSeconds": 0.5,
+      "Mbps": 12.448736
+    }
+  ],
+  "budgets": [
+    {
+      "assumedVideoMbps": 20,
+      "items": {
+        "originalFinalWavBytes": 61690284,
+        "frozenWavCopyBytes": 61690284,
+        "retainedChunksBytes": 582916666.6666666,
+        "videoOnlyConcatBytes": 582916666.6666666,
+        "deliveryMp4Bytes": 592242435.3866667,
+        "pcmMasterMovBytes": 644606950.6666666,
+        "previewJpegsBytes": 301860000,
+        "visualSnapshotAndRuntimeInputsBytes": 60000000,
+        "transientSceneInterchangeBytes": 200000000
+      },
+      "totalBytes": 3087923287.3866663,
+      "totalGiB": 2.8758526662240422
+    },
+    {
+      "assumedVideoMbps": 30,
+      "items": {
+        "originalFinalWavBytes": 61690284,
+        "frozenWavCopyBytes": 61690284,
+        "retainedChunksBytes": 874375000.0,
+        "videoOnlyConcatBytes": 874375000.0,
+        "deliveryMp4Bytes": 883700768.72,
+        "pcmMasterMovBytes": 936065284.0,
+        "previewJpegsBytes": 301860000,
+        "visualSnapshotAndRuntimeInputsBytes": 60000000,
+        "transientSceneInterchangeBytes": 200000000
+      },
+      "totalBytes": 4253756620.7200003,
+      "totalGiB": 3.961619567796588
+    }
+  ],
+  "recommendedFreeReserveBytes": 4294967296,
+  "comfortableFreeReserveBytes": 5368709120,
+  "freeBytesAtReport": 4577075200,
+  "assumptions": [
+    "20 Mbps planning rate exceeds the observed 12.4\u201312.8 Mbps 0.4\u20130.5s native chunks; very short two-frame chunk measured14.3Mbps. CRF output bitrate is content-dependent.",
+    "Includes four H.264 copies retained by current workflow: chunks, video-only concatenation, MP4, MOV.",
+    "Includes both an original WAV and independent frozen WAV, even though the current final WAV already exists.",
+    "Includes up to702 native JPEG previews at430KB each (24-frame chunks) plus200MB transient scene interchange.",
+    "No raw full-film frame sequence. GPU shadow caches occupy RAM, not scratch disk."
+  ]
+}

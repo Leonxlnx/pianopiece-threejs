@@ -1,0 +1,209 @@
+{
+  "scoreSha256": "df63cbcd203e78704a3a079ada9641321792eae9ee762b0e67d1915eee91b9ab",
+  "rigModuleSha256": "6535c56cdad6f8c5288fa3fea000c73822803d2dc0ad9f058df37be62b494a64",
+  "modelSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "mode": "opposing",
+  "pairs": [
+    [
+      "LThumb",
+      "RThumb"
+    ],
+    [
+      "LThumb",
+      "RIndex"
+    ],
+    [
+      "LThumb",
+      "RMiddle"
+    ],
+    [
+      "LThumb",
+      "RRing"
+    ],
+    [
+      "LThumb",
+      "RPinky"
+    ],
+    [
+      "LThumb",
+      "RPalm"
+    ],
+    [
+      "LIndex",
+      "RThumb"
+    ],
+    [
+      "LIndex",
+      "RIndex"
+    ],
+    [
+      "LIndex",
+      "RMiddle"
+    ],
+    [
+      "LIndex",
+      "RRing"
+    ],
+    [
+      "LIndex",
+      "RPinky"
+    ],
+    [
+      "LIndex",
+      "RPalm"
+    ],
+    [
+      "LMiddle",
+      "RThumb"
+    ],
+    [
+      "LMiddle",
+      "RIndex"
+    ],
+    [
+      "LMiddle",
+      "RMiddle"
+    ],
+    [
+      "LMiddle",
+      "RRing"
+    ],
+    [
+      "LMiddle",
+      "RPinky"
+    ],
+    [
+      "LMiddle",
+      "RPalm"
+    ],
+    [
+      "LRing",
+      "RThumb"
+    ],
+    [
+      "LRing",
+      "RIndex"
+    ],
+    [
+      "LRing",
+      "RMiddle"
+    ],
+    [
+      "LRing",
+      "RRing"
+    ],
+    [
+      "LRing",
+      "RPinky"
+    ],
+    [
+      "LRing",
+      "RPalm"
+    ],
+    [
+      "LPinky",
+      "RThumb"
+    ],
+    [
+      "LPinky",
+      "RIndex"
+    ],
+    [
+      "LPinky",
+      "RMiddle"
+    ],
+    [
+      "LPinky",
+      "RRing"
+    ],
+    [
+      "LPinky",
+      "RPinky"
+    ],
+    [
+      "LPinky",
+      "RPalm"
+    ],
+    [
+      "LPalm",
+      "RThumb"
+    ],
+    [
+      "LPalm",
+      "RIndex"
+    ],
+    [
+      "LPalm",
+      "RMiddle"
+    ],
+    [
+      "LPalm",
+      "RRing"
+    ],
+    [
+      "LPalm",
+      "RPinky"
+    ],
+    [
+      "LPalm",
+      "RPalm"
+    ]
+  ],
+  "samples": 5047,
+  "uniformSampleRate": 8,
+  "triangles": [
+    {
+      "patch": "LThumb",
+      "count": 376
+    },
+    {
+      "patch": "LIndex",
+      "count": 549
+    },
+    {
+      "patch": "LMiddle",
+      "count": 542
+    },
+    {
+      "patch": "LRing",
+      "count": 535
+    },
+    {
+      "patch": "LPinky",
+      "count": 546
+    },
+    {
+      "patch": "LPalm",
+      "count": 279
+    },
+    {
+      "patch": "RThumb",
+      "count": 376
+    },
+    {
+      "patch": "RIndex",
+      "count": 549
+    },
+    {
+      "patch": "RMiddle",
+      "count": 542
+    },
+    {
+      "patch": "RRing",
+      "count": 535
+    },
+    {
+      "patch": "RPinky",
+      "count": 546
+    },
+    {
+      "patch": "RPalm",
+      "count": 279
+    }
+  ],
+  "pairBoundsOverlaps": 12,
+  "nonfinite": 0,
+  "crossingSamples": 0,
+  "rows": [],
+  "scope": "Selected finger and palm surface patches: >65% weight ownership at all three vertices. Exact noncoplanar edge/triangle intersections after conservative bounding boxes. Mixed web vertices, coplanar surfaces, enclosed surfaces and unsampled instants are not covered. Counts direct visual review; they are not penetration depths."
+}

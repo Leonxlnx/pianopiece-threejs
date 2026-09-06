@@ -1,0 +1,222 @@
+{
+  "scoreSha256": "5b47b2ba244b70fd2b7a63b47baccc366bdd0c7faaccbf00959c9aa43ae05baa",
+  "durationSeconds": 233.14421768707484,
+  "targetIntegratedLufs": -18.0,
+  "premaster": {
+    "integratedLufs": -14.26,
+    "truePeakDbtp": 3.3,
+    "loudnessRangeLu": 7.8,
+    "relativeThresholdLufs": -24.47
+  },
+  "linearGainDb": -4.74,
+  "compressorUsed": false,
+  "peakLimiterUsed": true,
+  "limiterCeilingDbfs": -1.65,
+  "maximumPotentialLimiterReductionDb": 0.20999999999999952,
+  "files": {
+    "wav": {
+      "filename": "daybreak-solo-master.wav",
+      "bytes": 61690284,
+      "sha256": "870afd593936ff20cc3adad5a08a18debc8ab80e1cd890f4035a16defe1a9323",
+      "codec": "pcm_s24le",
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 10281660,
+      "decodedDurationSeconds": 233.14421768707484,
+      "fullDecodePassed": true,
+      "samplePeakDbfs": -1.6499997589651147,
+      "clippedSampleCount": 0,
+      "finitePcm": true,
+      "integratedLufs": -18.99,
+      "truePeakDbtp": -1.65,
+      "loudnessRangeLu": 7.7,
+      "relativeThresholdLufs": -29.21,
+      "containerStartTimeSeconds": 0.0,
+      "containerDurationSeconds": 233.144218,
+      "bitDepth": 24
+    },
+    "mp3": {
+      "filename": "daybreak-solo-master.mp3",
+      "bytes": 9329162,
+      "sha256": "862c061c9abb36b68a7105f63fbefe6253bf70e963e261d5083b3fec24b2a004",
+      "codec": "mp3",
+      "sampleRate": 44100,
+      "channels": 2,
+      "decodedFrames": 10281660,
+      "decodedDurationSeconds": 233.14421768707484,
+      "fullDecodePassed": true,
+      "samplePeakDbfs": -1.6506020196690816,
+      "clippedSampleCount": 0,
+      "finitePcm": true,
+      "integratedLufs": -18.99,
+      "truePeakDbtp": -1.65,
+      "loudnessRangeLu": 7.7,
+      "relativeThresholdLufs": -29.21,
+      "containerStartTimeSeconds": 0.025057,
+      "containerDurationSeconds": 233.195102
+    }
+  },
+  "codecAlignment": {
+    "referenceFrames": 10281660,
+    "decodedMp3Frames": 10281660,
+    "frameDifference": 0,
+    "lagChecks": [
+      {
+        "referenceStartSeconds": 1.0,
+        "measuredLagSamples": 0,
+        "measuredLagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 35.0,
+        "measuredLagSamples": 0,
+        "measuredLagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 100.0,
+        "measuredLagSamples": 0,
+        "measuredLagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 185.0,
+        "measuredLagSamples": 0,
+        "measuredLagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 224.6,
+        "measuredLagSamples": 0,
+        "measuredLagMilliseconds": 0.0
+      }
+    ],
+    "errorRelativeRmsDb": -59.94853045720138,
+    "interpretation": "FFmpeg honors MP3 delay/padding metadata; measured decoded alignment is separate from the MP3 container start timestamp."
+  },
+  "excerpts": [
+    {
+      "label": "first-theme",
+      "masterStartSeconds": 12.391821,
+      "durationSeconds": 35.0,
+      "sameMasterGain": true,
+      "edgeFadeSeconds": {
+        "in": 0.012,
+        "out": 0.12
+      },
+      "wav": {
+        "filename": "daybreak-first-theme-excerpt.wav",
+        "bytes": 9261324,
+        "sha256": "051b065bbbaa52fedc1ab2c8e7c8bce2337d2d3dd3986fd0d59ea5a319bcb48f",
+        "codec": "pcm_s24le",
+        "sampleRate": 44100,
+        "channels": 2,
+        "decodedFrames": 1543500,
+        "decodedDurationSeconds": 35.0,
+        "fullDecodePassed": true,
+        "samplePeakDbfs": -6.05871300370869,
+        "clippedSampleCount": 0,
+        "finitePcm": true,
+        "integratedLufs": -20.23,
+        "truePeakDbtp": -6.05,
+        "loudnessRangeLu": 1.5,
+        "relativeThresholdLufs": -30.23,
+        "containerStartTimeSeconds": 0.0,
+        "containerDurationSeconds": 35.0,
+        "bitDepth": 24
+      },
+      "mp3": {
+        "filename": "daybreak-first-theme-excerpt.mp3",
+        "bytes": 1402535,
+        "sha256": "d3bf40a367853e364efd2b18307e7790bfdd342056d6e9c8abde7fc5457ecbca",
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "decodedFrames": 1543500,
+        "decodedDurationSeconds": 35.0,
+        "fullDecodePassed": true,
+        "samplePeakDbfs": -6.057884169511317,
+        "clippedSampleCount": 0,
+        "finitePcm": true,
+        "integratedLufs": -20.23,
+        "truePeakDbtp": -6.05,
+        "loudnessRangeLu": 1.5,
+        "relativeThresholdLufs": -30.23,
+        "containerStartTimeSeconds": 0.025057,
+        "containerDurationSeconds": 35.030204
+      }
+    },
+    {
+      "label": "climax",
+      "masterStartSeconds": 169.885523,
+      "durationSeconds": 30.0,
+      "sameMasterGain": true,
+      "edgeFadeSeconds": {
+        "in": 0.012,
+        "out": 0.12
+      },
+      "wav": {
+        "filename": "daybreak-climax-excerpt.wav",
+        "bytes": 7938324,
+        "sha256": "6ba97960f5d2419f4392df71684fe0759c61428b632851b63a88977adfa452c4",
+        "codec": "pcm_s24le",
+        "sampleRate": 44100,
+        "channels": 2,
+        "decodedFrames": 1323000,
+        "decodedDurationSeconds": 30.0,
+        "fullDecodePassed": true,
+        "samplePeakDbfs": -1.6499997589651147,
+        "clippedSampleCount": 0,
+        "finitePcm": true,
+        "integratedLufs": -15.87,
+        "truePeakDbtp": -1.65,
+        "loudnessRangeLu": 2.1,
+        "relativeThresholdLufs": -25.87,
+        "containerStartTimeSeconds": 0.0,
+        "containerDurationSeconds": 30.0,
+        "bitDepth": 24
+      },
+      "mp3": {
+        "filename": "daybreak-climax-excerpt.mp3",
+        "bytes": 1202959,
+        "sha256": "105c1a746e2e838841e7dd35d3c890758b96f8a52415ef206df0b5dd1e3b6f90",
+        "codec": "mp3",
+        "sampleRate": 44100,
+        "channels": 2,
+        "decodedFrames": 1323000,
+        "decodedDurationSeconds": 30.0,
+        "fullDecodePassed": true,
+        "samplePeakDbfs": -1.6476599780179966,
+        "clippedSampleCount": 0,
+        "finitePcm": true,
+        "integratedLufs": -15.87,
+        "truePeakDbtp": -1.65,
+        "loudnessRangeLu": 2.1,
+        "relativeThresholdLufs": -25.87,
+        "containerStartTimeSeconds": 0.025057,
+        "containerDurationSeconds": 30.040816
+      }
+    }
+  ],
+  "criticalListeningPerformed": false,
+  "criticalListeningLimitation": "No listening-capable tool exposed; human listening excerpts delivered.",
+  "scoreStillFrozen": true,
+  "masterVersusPremasterTimingCheck": [
+    {
+      "startSeconds": 1.0,
+      "lagSamples": 0
+    },
+    {
+      "startSeconds": 35.0,
+      "lagSamples": 0
+    },
+    {
+      "startSeconds": 185.0,
+      "lagSamples": 0
+    }
+  ],
+  "measuredLimiterReduction": {
+    "maximumDb": 0.20980148767132495,
+    "secondsAbove0_05Db": 0.0707936507936508,
+    "secondsAbove0_1Db": 0.04861678004535147
+  },
+  "everyFinalNoteAndKeyReleaseMatchesAudit": true,
+  "renderScriptSha256": "5a6fc11d10be387e9b229fcaf829304e9769273968791ae46a199688bb2a0cb1",
+  "audioEventSha256": "e68bd3b8e52b781c4c141b92d0bed1262684004723f75ae8ce73312931d00a5c"
+}

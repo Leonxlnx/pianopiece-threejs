@@ -1,0 +1,54 @@
+{
+  "scoreSha256": "36841d6ae6e3e2e20fabda64d2aa721eace7f30c22d76c8bca790cb32af5e617",
+  "duration": 229.0363492063492,
+  "sampleRate": 44100,
+  "channels": 2,
+  "pianoNotes": 1467,
+  "accompanimentEvents": 744,
+  "withinLayerGainLimitDb": [
+    -2,
+    2
+  ],
+  "pianoMaxTransposeSemitones": 1,
+  "reverb": {
+    "predelaySeconds": 0.021,
+    "rt60Seconds": 1.72,
+    "pianoWetDryRmsDb": -19,
+    "stringsWetDryRmsDb": -13.5
+  },
+  "stemBalance": {
+    "strings": {
+      "gainDb": -10.459864215902453,
+      "targetVersusChorusMelodyRmsDb": -14.0,
+      "actualReferenceRmsDb": -31.938015651223143
+    },
+    "bass": {
+      "gainDb": -5.508131108529049,
+      "targetVersusChorusMelodyRmsDb": -15.5,
+      "actualReferenceRmsDb": -33.43801584078774
+    },
+    "kick": {
+      "gainDb": -4.204282464808175,
+      "targetVersusChorusMelodyRmsDb": -20.0,
+      "actualReferenceRmsDb": -37.93801619478789
+    },
+    "snare": {
+      "gainDb": 6.732599097359416,
+      "targetVersusChorusMelodyRmsDb": -23.0,
+      "actualReferenceRmsDb": -40.93801558841154
+    },
+    "hihat": {
+      "gainDb": 10.334135158623397,
+      "targetVersusChorusMelodyRmsDb": -28.0,
+      "actualReferenceRmsDb": -45.93801581411795
+    },
+    "cymbal": {
+      "gainDb": 12.041199826559248,
+      "targetVersusChorusMelodyRmsDb": -28.5,
+      "actualReferenceRmsDb": -46.906586223219335
+    }
+  },
+  "premasterPeakDbfs": 2.9621136238931745,
+  "premasterRmsDbfs": -16.364242377737696,
+  "reviewScope": "Composition and signal review; no listening-capable tool was available."
+}

@@ -1,0 +1,98 @@
+--- a/export_video.py
++++ b/export_video.py
+@@ -145,6 +145,17 @@
+  if not all(isinstance(x,ast.Tuple) for x in [first,second]) or not isinstance(first.elts[0],ast.Constant) or first.elts[0].value is not True or not isinstance(second.elts[0],ast.Constant) or second.elts[0].value is not False:raise RuntimeError('Unexpected reflection pass order.')
+  loops[0].iter.elts=[second];return ast.fix_missing_locations(tree)
+ 
++def check_gl(ctx,stage):
++ """Inspect once and abort immediately; never drain or discard an error flag."""
++ error=ctx.error
++ if error!='GL_NO_ERROR':raise RuntimeError(f'OpenGL error after {stage}: {error}. Current chunk was not accepted; completed chunks remain resumable.')
++
++def close_renderer(r):
++ try:
++  if hasattr(r,'server'):r.server.terminate();r.server.wait()
++ finally:
++  if hasattr(r,'ctx'):r.ctx.release()
++
+ def renderer_module(snap,job,c):
+  """Execute the unmodified snapshot module; reuse its validated environment cache."""
+  cache=job/'renderer-cache';cache.mkdir(exist_ok=True)
+@@ -157,19 +168,24 @@
+   em=json.loads(meta.read_text());verified=em.get('sourceFingerprint')==c['sourceFingerprint'] and em.get('sha256')==digest(env)
+  os.environ['DAYBREAK_ENV_MODE']='sky' if verified else 'pavilion'
+  path=snap/'production/qa/render-revision.py';spec=importlib.util.spec_from_file_location('daybreak_snapshot_renderer',path);r=importlib.util.module_from_spec(spec)
+- if c.get('skipUnusedReflection',False):exec(compile(optimized_tree(path.read_text()),str(path),'exec'),r.__dict__)
+- else:spec.loader.exec_module(r)
+- if verified:
+-  import numpy as np,moderngl
+-  layers=np.load(env)['layers'];r.envAtlas.release();r.envAtlas=r.ctx.texture_array((layers.shape[2],layers.shape[1],layers.shape[0]),3,layers.astype('f2').tobytes(),dtype='f2');r.envAtlas.filter=(moderngl.LINEAR,moderngl.LINEAR);r.envAtlas.repeat_x=False;r.envAtlas.repeat_y=False;r.envAtlas.use(5);r.prog['envMode']=2
+- else:atomic_json(meta,{'sourceFingerprint':c['sourceFingerprint'],'sha256':digest(env)})
+- # The Node server exports this interchange once; both processes now retain its
+- # data in memory. Frame rendering and validated environment-cache reuse never
+- # read it again. Frozen sources regenerate it on every renderer initialization.
+- if os.environ.get('DAYBREAK_KEEP_SCENE_JSON')!='1':
+-  interchange=Path(r.ready['scene'])
+-  if interchange.parent.resolve()!=cache.resolve():raise RuntimeError('Unexpected scene interchange path; refusing cleanup.')
+-  interchange.unlink(missing_ok=True)
++ try:
++  if c.get('skipUnusedReflection',False):exec(compile(optimized_tree(path.read_text()),str(path),'exec'),r.__dict__)
++  else:spec.loader.exec_module(r)
++  check_gl(r.ctx,'renderer initialization')
++  if verified:
++   import numpy as np,moderngl
++   layers=np.load(env)['layers'];r.envAtlas.release();r.envAtlas=r.ctx.texture_array((layers.shape[2],layers.shape[1],layers.shape[0]),3,layers.astype('f2').tobytes(),dtype='f2');r.envAtlas.filter=(moderngl.LINEAR,moderngl.LINEAR);r.envAtlas.repeat_x=False;r.envAtlas.repeat_y=False;r.envAtlas.use(5);r.prog['envMode']=2
++   check_gl(r.ctx,'cached environment restoration')
++  else:atomic_json(meta,{'sourceFingerprint':c['sourceFingerprint'],'sha256':digest(env)})
++  # The Node server exports this interchange once; both processes now retain its
++  # data in memory. Frame rendering and validated environment-cache reuse never
++  # read it again. Frozen sources regenerate it on every renderer initialization.
++  if os.environ.get('DAYBREAK_KEEP_SCENE_JSON')!='1':
++   interchange=Path(r.ready['scene'])
++   if interchange.parent.resolve()!=cache.resolve():raise RuntimeError('Unexpected scene interchange path; refusing cleanup.')
++   interchange.unlink(missing_ok=True)
++ except BaseException:
++  close_renderer(r);raise
+  return r
+ 
+ def encoder_command(path,c):
+@@ -203,8 +219,10 @@
+        raw,row=r.frame(t);rows.append(row)
+        if len(times)>1:
+         hdr=np.frombuffer(r.color.read(),dtype='f2').reshape(r.H,r.W,4).astype('f4');accum=hdr if accum is None else accum+hdr
++       check_gl(r.ctx,f'native sample for frame {index} at {t:.9f}s')
+       if len(times)>1:
+        r.color.write((accum/len(times)).astype('f2').tobytes());r.outfbo.use();r.ctx.disable(moderngl.DEPTH_TEST);r.color.use(0);r.postvao.render(moderngl.TRIANGLE_STRIP);raw=r.outfbo.read(components=3,alignment=1)
++       check_gl(r.ctx,f'composited frame {index} at {pts:.9f}s')
+       rgb=np.frombuffer(raw,dtype='u1').reshape(r.H,r.W,3)[::-1].copy();p.stdin.write(rgb.tobytes())
+       elapsed=time.perf_counter()-started;frame_times.append(elapsed);newframes+=1
+       record={'index':index,'pts':pts,'samples':times,'shots':sorted({row['shot'] for row in rows}),'renderSeconds':elapsed,'rows':rows};tf.write(json.dumps(record)+'\n');tf.flush();shots.update(record['shots']);sampling.append(times)
+@@ -215,7 +233,7 @@
+     if code:raise RuntimeError('Encoding failed: '+str(video.with_suffix('.encode.log')))
+    except BaseException:
+     if p.poll() is None:p.terminate();p.wait()
+-    log.close();raise
++    log.close();partial.unlink(missing_ok=True);raise
+    pr=probe(partial);vs=next(s for s in pr['streams'] if s['codec_type']=='video')
+    if int(vs['nb_frames'])!=count:raise RuntimeError('Chunk frame count mismatch.')
+    partial.replace(video)
+@@ -224,7 +242,7 @@
+   report={'newFrames':newframes,'initializationSeconds':init,'frameSeconds':frame_times,'medianSteadySeconds':statistics.median(steady),'meanSteadySeconds':statistics.mean(steady),'estimatedFullFilmHours24fps':statistics.mean(steady)/c['samples']*math.ceil(233.144218*24)/3600,'estimatedFullFilmHours30fps':statistics.mean(steady)/c['samples']*math.ceil(233.144218*30)/3600,'temporalSamples':c['samples'],'note':'Shared CPU/software-renderer load affects timings; full estimates exclude startup and multiply by samples for blur.'}
+   atomic_json(job/'last-render.json',report);print(json.dumps({'renderReport':report}),flush=True)
+  finally:
+-  r.server.terminate();r.server.wait();r.ctx.release()
++  close_renderer(r)
+ 
+ def audio_bytes(path,start=None,count=None,float32=False):
+  cmd=['ffmpeg','-v','error','-i',str(path),'-map','0:a:0']
+--- a/README.md
++++ b/README.md
+@@ -61,6 +61,8 @@
+ 
+ Every completed chunk has a frame-count check and SHA-256. Chunk encoding uses closed GOPs; concatenation copies video packets without another lossy encode. Environment filtering is cached only when its hash and source fingerprint validate.
+ 
++The exporter checks OpenGL errors after renderer initialization, validated environment restoration, every native sample's readback, and any final motion-blur composite readback. It adds no explicit GPU synchronization. Any error aborts immediately with its stage, frame/time where applicable, and GL error name; the encoder stops and the current partial chunk is discarded. Completed chunks and their hashes remain intact. An initialization error prevents a fresh environment cache from being certified. Errors are never cleared for a retry or ignored. Prepare a new job to use these checks; existing jobs retain their pinned wrapper.
++
+ The shared installed Three.js/TypeScript dependencies are read through a symlink; their recorded dependency hashes must remain unchanged. Preserve the snapshot and work directory for a long export. Scratch is transient: the root workflow must persist the final package and valuable checkpoints before ending or leaving the workspace idle.
+ 
+ ## Timing and color

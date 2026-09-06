@@ -1,0 +1,519 @@
+{
+  "scorePath": "/workspace/sites/daybreak-piano-film/public/assets/score.json",
+  "scoreSha256": "ff25cbb97cca511a321d33097a11da8f85500c383827e50914dc185c3e1987c2",
+  "analysisLimit": "Score-only review. No listening or perceptual musical-quality certification.",
+  "sections": [
+    {
+      "section": "intro",
+      "attacks": 37,
+      "melodyAttacks": 20,
+      "melodyRange": [
+        "D4",
+        "D5"
+      ],
+      "melodyMeanVelocity": 0.5636,
+      "supportMeanVelocity": 0.3236
+    },
+    {
+      "section": "theme",
+      "attacks": 213,
+      "melodyAttacks": 86,
+      "melodyRange": [
+        "A4",
+        "B5"
+      ],
+      "melodyMeanVelocity": 0.7073,
+      "supportMeanVelocity": 0.4672
+    },
+    {
+      "section": "ascent",
+      "attacks": 112,
+      "melodyAttacks": 44,
+      "melodyRange": [
+        "A4",
+        "C6"
+      ],
+      "melodyMeanVelocity": 0.7516,
+      "supportMeanVelocity": 0.5097
+    },
+    {
+      "section": "refrain",
+      "attacks": 185,
+      "melodyAttacks": 64,
+      "melodyRange": [
+        "A4",
+        "D6"
+      ],
+      "melodyMeanVelocity": 0.8003,
+      "supportMeanVelocity": 0.566
+    },
+    {
+      "section": "middle",
+      "attacks": 126,
+      "melodyAttacks": 58,
+      "melodyRange": [
+        "E4",
+        "B5"
+      ],
+      "melodyMeanVelocity": 0.6585,
+      "supportMeanVelocity": 0.4246
+    },
+    {
+      "section": "turn",
+      "attacks": 45,
+      "melodyAttacks": 21,
+      "melodyRange": [
+        "A4",
+        "D6"
+      ],
+      "melodyMeanVelocity": 0.7339,
+      "supportMeanVelocity": 0.5012
+    },
+    {
+      "section": "final",
+      "attacks": 271,
+      "melodyAttacks": 91,
+      "melodyRange": [
+        "A4",
+        "E6"
+      ],
+      "melodyMeanVelocity": 0.88,
+      "supportMeanVelocity": 0.652
+    },
+    {
+      "section": "coda",
+      "attacks": 79,
+      "melodyAttacks": 35,
+      "melodyRange": [
+        "D4",
+        "B5"
+      ],
+      "melodyMeanVelocity": 0.6011,
+      "supportMeanVelocity": 0.3565
+    }
+  ],
+  "firstThemeBarMatches": [
+    5,
+    13,
+    29,
+    57,
+    73
+  ],
+  "completeTwoBarThemeMatches": [
+    5,
+    29,
+    57,
+    73
+  ],
+  "accompanimentFigureLabels": 14,
+  "accompanimentAttackRhythms": 9,
+  "sharedAttackRhythms": [
+    {
+      "beats": [
+        0,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "labels": [
+        "mist"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2.5
+      ],
+      "labels": [
+        "breath"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2,
+        2.5,
+        3,
+        3.5
+      ],
+      "labels": [
+        "ripple",
+        "ripple_back",
+        "ripple_up",
+        "gather",
+        "wide",
+        "wide_back"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        0.5,
+        1,
+        1.5,
+        2.5,
+        3
+      ],
+      "labels": [
+        "answer"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        0.75,
+        1.5,
+        2.5,
+        3.5
+      ],
+      "labels": [
+        "broken"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        1.5,
+        2.5
+      ],
+      "labels": [
+        "still"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        0.5,
+        1,
+        2,
+        3
+      ],
+      "labels": [
+        "fall"
+      ]
+    },
+    {
+      "beats": [
+        0,
+        1,
+        2
+      ],
+      "labels": [
+        "last_dominant"
+      ]
+    },
+    {
+      "beats": [
+        0
+      ],
+      "labels": [
+        "last"
+      ]
+    }
+  ],
+  "nonChordSupportingNotes": [
+    {
+      "id": "p00191",
+      "bar": 16,
+      "beat": 1,
+      "midi": 74,
+      "role": "countermelody",
+      "chord": "Cmaj7"
+    },
+    {
+      "id": "p00482",
+      "bar": 36,
+      "beat": 2.1,
+      "midi": 71,
+      "role": "countermelody",
+      "chord": "D7"
+    },
+    {
+      "id": "p00497",
+      "bar": 37,
+      "beat": 1.5,
+      "midi": 81,
+      "role": "countermelody",
+      "chord": "Em9"
+    },
+    {
+      "id": "p00580",
+      "bar": 44,
+      "beat": 1.5,
+      "midi": 69,
+      "role": "countermelody",
+      "chord": "G/B"
+    },
+    {
+      "id": "p01034",
+      "bar": 76,
+      "beat": 2,
+      "midi": 74,
+      "role": "countermelody",
+      "chord": "Cmaj7"
+    }
+  ],
+  "simultaneousMinorNinths": [
+    {
+      "bar": 13,
+      "time": 36.275334,
+      "bassId": "p00151",
+      "melodyId": "p00152",
+      "notes": [
+        "F#4",
+        "G5"
+      ],
+      "velocities": [
+        0.458,
+        0.709
+      ],
+      "physicalOverlapSeconds": 0.24292
+    },
+    {
+      "bar": 29,
+      "time": 80.9101,
+      "bassId": "p00372",
+      "melodyId": "p00373",
+      "notes": [
+        "F#4",
+        "G5"
+      ],
+      "velocities": [
+        0.543,
+        0.794
+      ],
+      "physicalOverlapSeconds": 0.234992
+    },
+    {
+      "bar": 65,
+      "time": 181.973173,
+      "bassId": "p00867",
+      "melodyId": "p00868",
+      "notes": [
+        "F#4",
+        "G5"
+      ],
+      "velocities": [
+        0.648,
+        0.899
+      ],
+      "physicalOverlapSeconds": 0.227416
+    },
+    {
+      "bar": 73,
+      "time": 203.527044,
+      "bassId": "p00997",
+      "melodyId": "p00998",
+      "notes": [
+        "F#4",
+        "G5"
+      ],
+      "velocities": [
+        0.443,
+        0.694
+      ],
+      "physicalOverlapSeconds": 0.251226
+    }
+  ],
+  "octaveOrLargerMelodyLeaps": [
+    {
+      "fromBar": 76,
+      "toBar": 77,
+      "notes": [
+        "G5",
+        "G4"
+      ],
+      "interval": -12,
+      "onsetGap": 2.337662
+    }
+  ],
+  "physicalTrimsNotCompletelyPedalCarried": [
+    {
+      "id": "p00064",
+      "bar": 6,
+      "role": "melody",
+      "physicalTrim": 0.025,
+      "pedalAtRelease": 0,
+      "pedalClears": [
+        17.917139
+      ]
+    },
+    {
+      "id": "p00170",
+      "bar": 14,
+      "role": "melody",
+      "physicalTrim": 0.047988,
+      "pedalAtRelease": 0.73,
+      "pedalClears": [
+        40.380304
+      ]
+    },
+    {
+      "id": "p00409",
+      "bar": 31,
+      "role": "melody",
+      "physicalTrim": 0.079676,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        87.648639
+      ]
+    },
+    {
+      "id": "p00440",
+      "bar": 33,
+      "role": "melody",
+      "physicalTrim": 0.079676,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        93.199441
+      ]
+    },
+    {
+      "id": "p00704",
+      "bar": 55,
+      "role": "melody",
+      "physicalTrim": 0.026,
+      "pedalAtRelease": 0.73,
+      "pedalClears": [
+        156.169243
+      ]
+    },
+    {
+      "id": "p00734",
+      "bar": 57,
+      "role": "melody",
+      "physicalTrim": 0.030895,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        161.798873
+      ]
+    },
+    {
+      "id": "p00830",
+      "bar": 63,
+      "role": "melody",
+      "physicalTrim": 0.026453,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        176.516219
+      ]
+    },
+    {
+      "id": "p00838",
+      "bar": 63,
+      "role": "melody",
+      "physicalTrim": 0.048069,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        177.832219
+      ]
+    },
+    {
+      "id": "p00939",
+      "bar": 69,
+      "role": "melody",
+      "physicalTrim": 0.085018,
+      "pedalAtRelease": 0.66,
+      "pedalClears": [
+        192.670823
+      ]
+    },
+    {
+      "id": "p01016",
+      "bar": 74,
+      "role": "melody",
+      "physicalTrim": 0.025,
+      "pedalAtRelease": 0,
+      "pedalClears": [
+        207.833445
+      ]
+    }
+  ],
+  "maximumPedalLatchedUniqueKeys": {
+    "time": 90.472168,
+    "uniqueMidi": [
+      48,
+      55,
+      59,
+      60,
+      62,
+      67,
+      71,
+      72,
+      74,
+      76,
+      79
+    ],
+    "uniquePitchClasses": [
+      0,
+      2,
+      4,
+      7,
+      11
+    ]
+  },
+  "finalNotes": [
+    {
+      "id": "p01062",
+      "time": 224.549784,
+      "duration": 4.361778,
+      "midi": 43,
+      "velocity": 0.23,
+      "role": "bass"
+    },
+    {
+      "id": "p01063",
+      "time": 224.553284,
+      "duration": 4.358278,
+      "midi": 50,
+      "velocity": 0.23,
+      "role": "bass"
+    },
+    {
+      "id": "p01064",
+      "time": 224.556784,
+      "duration": 4.354778,
+      "midi": 55,
+      "velocity": 0.23,
+      "role": "bass"
+    },
+    {
+      "id": "p01065",
+      "time": 224.574784,
+      "duration": 4.317333,
+      "midi": 57,
+      "velocity": 0.195,
+      "role": "harmony"
+    },
+    {
+      "id": "p01066",
+      "time": 224.578284,
+      "duration": 4.313833,
+      "midi": 59,
+      "velocity": 0.195,
+      "role": "harmony"
+    },
+    {
+      "id": "p01067",
+      "time": 224.581784,
+      "duration": 4.310333,
+      "midi": 64,
+      "velocity": 0.195,
+      "role": "harmony"
+    },
+    {
+      "id": "p01068",
+      "time": 224.585284,
+      "duration": 4.417944,
+      "midi": 67,
+      "velocity": 0.415,
+      "role": "melody"
+    }
+  ]
+}

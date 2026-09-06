@@ -1,0 +1,23 @@
+{
+  "inputSha256": {
+    "rig": "e85f297e6bc9d419b567fa30bed99c7e0abef1bc47989c37b8d9a28cfbbf8f66",
+    "score": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+    "plan": "a91c31a4e5a6daf1444f3f21338c683c487d25c2575a73bbdf49cfc5874f0a32"
+  },
+  "whole500": {
+    "frames": 116580,
+    "speedAbove3": 201,
+    "speedAbove5": 0,
+    "rotationAbove2000": 2497,
+    "activeRotationAbove2000": 21
+  },
+  "uniqueWholeSamples": 116574,
+  "events": 306,
+  "windows2000": 234,
+  "windowSeconds": 12.718000000000412,
+  "maxTip2000": 4.835476465108695,
+  "maxJoint2000": 15971.828008974411,
+  "maxContactMm": 0.9210132674082588,
+  "maxBoundaryJumpMm": 0.0004160566052374817,
+  "status": "Numerical motion/contact checkpoint passes; visible idle MCP/web defect at185.867s remains under bounded repair."
+}

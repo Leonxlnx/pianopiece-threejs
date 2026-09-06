@@ -1,0 +1,12 @@
+--- a/production/qa/render-revision.py
++++ b/production/qa/render-revision.py
+@@ -217,6 +217,9 @@
+  np.savez_compressed(ROOT/'environment-prefiltered-linear.npz',layers=np.frombuffer(b''.join(layers),dtype='f2').reshape(54,filteredSize,filteredSize,3),roughness=np.linspace(0,1,9),position=position)
+  prog['envMode']=2
+  print('ENVIRONMENT',json.dumps({'position':position.tolist(),'captureSize':size,'filteredSize':filteredSize,'roughnessLevels':9,'samples':128,'stageMeshes':len(stage),'seconds':time.perf_counter()-began,'approximation':'GGX NDF split-sum, 9 regular levels; source uses GGX VNDF CubeUV and initial sigma=.045'}),flush=True)
++ # Leave a live framebuffer bound before deleting the temporary capture targets.
++ # ModernGL restores its tracked binding when creating later depth-only FBOs.
++ fbo.use()
+  target.release();targetTex.release();filterfbo.release();filtered.release();filtervao.release();filterprog.release();cube.release()
+ 
+ if os.environ.get('DAYBREAK_ENV_MODE','pavilion')=='pavilion':capture_environment()

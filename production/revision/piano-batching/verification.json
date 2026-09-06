@@ -1,0 +1,63 @@
+{
+  "passed": true,
+  "sourceHashes": {
+    "base": "26d8a7d24ce647a4dd0333d55e8eb5bd002b528443e83f3b8ed0e17c775a77fb",
+    "candidate": "6e9d1ad46e2fa1e479a47eed9a6bd0eaf80f33f48079ac8c97ff54b3579907ee"
+  },
+  "static": {
+    "before": 99,
+    "after": 15,
+    "triangles": 36316,
+    "compared": 36316,
+    "maxPositionErrorMm": 0.0001146644352800763,
+    "maxNormalComponentError": 3.577075435856614e-08,
+    "maxUvError": 0
+  },
+  "dynamic": {
+    "snapshots": 992,
+    "hiddenAuditKeys": 88,
+    "maxDifference": 0
+  },
+  "disposal": {
+    "constructionDisposedGeometries": 410,
+    "reachableDisposedGeometries": 0
+  },
+  "memory": {
+    "before": {
+      "geometries": 197,
+      "vertices": 202408,
+      "metadataJsonBytes": 0,
+      "bufferBytes": 6027692
+    },
+    "after": {
+      "geometries": 113,
+      "vertices": 202408,
+      "metadataJsonBytes": 20154,
+      "bufferBytes": 6148052
+    },
+    "deltaBytes": 120360
+  },
+  "mainPass": {
+    "views": 144,
+    "before": {
+      "min": 23,
+      "max": 111,
+      "mean": 83.21527777777777
+    },
+    "after": {
+      "min": 19,
+      "max": 27,
+      "mean": 25.819444444444443
+    },
+    "meanTriangleIncrease": 2393.9444444444443,
+    "scope": "Three r183 structural main-pass submission counts after actual frustum culling, not measured browser renderer.info or timing; seven instance batches count once each."
+  },
+  "failures": [],
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "typecheck": {
+    "passed": true,
+    "command": "tsc --noEmit --target es2022 --module esnext --moduleResolution bundler --skipLibCheck app/performance/piano.ts",
+    "cwd": "render-project-candidate",
+    "note": "Uses the complete copied performance module directory so existing type imports resolve."
+  }
+}

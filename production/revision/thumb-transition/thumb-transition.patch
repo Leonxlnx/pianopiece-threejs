@@ -1,0 +1,38 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -247,7 +247,7 @@
+  const fnotes=hand.fingerNotes[fi];const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
+  let n=current.find(n=>n.finger===fi+1);let target:THREE.Vector3;
+  const base=wp(finger.bones[0]),reach=finger.lengths.reduce((a,b)=>a+b,0);
+- const idle=base.clone().add(v3(fi===0?(hand.side==='L'?1:-1)*reach*.35:0,-reach*.19,-reach*(fi===0?.81:.90)));idle.y=Math.max(idle.y,KEY_TOP+(idle.z<.230?.027:.011));
++ const idle=base.clone().add(v3(fi===0?(hand.side==='L'?1:-1)*reach*.35:0,-reach*.19,-reach*(fi===0?.81:.90)));idle.y=Math.max(idle.y,KEY_TOP+(fi===0?mix(.027,.011,smooth((idle.z-.230)/.030)):(idle.z<.230?.027:.011)));
+  const keyTarget=(note:Note)=>{const v=piano.contact(note.midi,this.contactDepth(base.z,isBlack(note.midi),fi));v.y+=note.contactLift??.002;return v;};
+  if(n)target=keyTarget(n);
+  else {
+@@ -259,6 +259,26 @@
+  if(!n){const delta=target.clone().sub(base),total=reach,minimum=this.fingerPoints(base,idle,finger,fi).min+.008;
+  const tooClose=1-smooth((delta.length()-minimum)/.014),behind=smooth((delta.z+total*.22)/(.035)),tooSide=smooth((Math.abs(delta.x)-total*.62)/(.025));
+  const since=prev?time-prev.time-prev.duration:100,before=nxt?nxt.time-time:100;target.lerp(idle,Math.max(tooClose,behind,tooSide)*smooth(Math.min(since,before)/.07));}
++ // The thumb travels with the palm while released. World-space targets
++ // can pass through the thumb base during wrist travel and invert its plane.
++ // Interpolate complete local joint poses between exact held-note endpoints;
++ // a soft neutral pose keeps long rests open without a key-space detour.
++ if(!n&&fi===0){
++ const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3)=>{
++ const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ),p=[origin,chain.pip,chain.dip,chain.tip];
++ const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
++ return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
++ };
++ const idlePose=localPose(wp(hand.wrist),pose.q,idle);
++ const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch);};
++ const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
++ const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
++ let rotations=idlePose.map(q=>q.clone());
++ if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=Math.pow(Math.sin(u*Math.PI),2)*smooth(gap/.22)*.35;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
++ else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.22);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.30);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
++ finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
++ continue;
++ }
+  const desired=target.clone();
+  const shape=this.fingerPoints(base,target,finger,fi);
+  const points=[base,shape.pip,shape.dip,shape.tip];

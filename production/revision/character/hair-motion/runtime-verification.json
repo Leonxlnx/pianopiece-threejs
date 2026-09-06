@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "checks": [
+    "arbitrary seeking equals sequential lookup",
+    "repeated frozen time does not accumulate rotations",
+    "root/head/hand untouched",
+    "runtime helper matches rendered candidate angles"
+  ],
+  "moduleBytes": 1106,
+  "dataBytes": 135372
+}

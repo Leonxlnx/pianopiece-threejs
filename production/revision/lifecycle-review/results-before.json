@@ -1,0 +1,126 @@
+{
+  "generatedAt": "2026-09-05T18:31:05.961Z",
+  "project": "/workspace/sites/daybreak-piano-film",
+  "sourceHashes": {
+    "scene.ts": "3dbfabfb5509aabf5b6cda725ec6a0d7976b19bc637cdf9bd1c610c774cca74b",
+    "math.ts": "d3c255aded15a1df21d64b84c6705194397ba3ca095bc277e7238238f7812468",
+    "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "Performance.tsx": "923a9bef7f6a1b6ebc701e0a58369de8f113af9c544b60de691d2670d7701521",
+    "stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91"
+  },
+  "packages": {
+    "three": "0.183.2",
+    "typescript": "5.9.3"
+  },
+  "method": "Production scene.ts, math.ts and render-settings.ts transpiled unchanged into a VM. Actual Three object tree, disposal events, textures, render targets and EffectComposer sizing/disposal API. Controlled loaders, RAF, context events, canvas, PMREM and GPU render counters. React lifecycle owner disposal is explicitly simulated, not mounted.",
+  "limitations": [
+    "No real browser, WebGL allocation, shader compilation, audio device, raster output or actual network load was exercised.",
+    "The mocked room can attach resources upon readiness; actual Stage attaches its mesh tree synchronously and its images resolve asynchronously.",
+    "Resource close/dispose counts are checked per traversal; previously disposed resources can be traversed again by late task finalizers."
+  ],
+  "summary": {
+    "passed": 15,
+    "failed": 1,
+    "total": 16
+  },
+  "results": [
+    {
+      "name": "initialize waits for both character and room before PMREM and first render",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 776.29
+    },
+    {
+      "name": "paused frames skip expensive scene work while telemetry continues",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 244.82
+    },
+    {
+      "name": "time, inspector time and camera override each invalidate the paused cache",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 206.88
+    },
+    {
+      "name": "resize dirties the paused cache once and uses logical dimensions only once",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 251.87
+    },
+    {
+      "name": "desktop and mobile target budgets, MSAA sample counts and hardware cap",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 848.92
+    },
+    {
+      "name": "context loss after initialization cancels RAF; restoration replaces PMREM and renders frozen time",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 264.82
+    },
+    {
+      "name": "loads completing while context is lost wait for restoration before PMREM/render",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 101.79
+    },
+    {
+      "name": "restoration before loads finish defers PMREM/render and creates one RAF chain",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 123.67
+    },
+    {
+      "name": "unmount during loads releases assets attached later and never starts rendering",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 175.45
+    },
+    {
+      "name": "room failure followed by owner disposal still releases a late successful actor",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 138.72
+    },
+    {
+      "name": "character failure followed by owner disposal still releases late room resources",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 177.15
+    },
+    {
+      "name": "load failure after unmount settles without starting work or double renderer disposal",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 86.45
+    },
+    {
+      "name": "PMREM failure during restoration releases its generator, restores visibility and resumes safely",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 91.99
+    },
+    {
+      "name": "dispose releases shared textures, bitmap, geometry, material, instances, skeleton and shadows once",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 165.23
+    },
+    {
+      "name": "initial PMREM failure rejects initialization and remains cleanly disposable by the owner",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 116.65
+    },
+    {
+      "name": "environment capture uses the same section-transition energy as the rendered frame",
+      "category": "consistency",
+      "status": "fail",
+      "durationMs": 224.93,
+      "error": "capture energy 0.8 differs from rendered energy 0.24444444444444466",
+      "stack": "AssertionError [ERR_ASSERTION]: capture energy 0.8 differs from rendered energy 0.24444444444444466\n    at Object.fn (file:///workspace/scratch/2e8cc8e77f98/lifecycle-review/check-scene-lifecycle.mjs:270:136)\n    at async file:///workspace/scratch/2e8cc8e77f98/lifecycle-review/check-scene-lifecycle.mjs:277:9"
+    }
+  ]
+}
