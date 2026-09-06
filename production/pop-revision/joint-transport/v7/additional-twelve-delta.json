@@ -1,0 +1,225 @@
+{
+  "baselineScoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+  "expectedNoteHashEncoding": "JSON with sorted keys, compact separators",
+  "notes": [
+    {
+      "id": "db00098",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 53,
+        "time": 26.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "23d6d4d11f23ceeea576f5a1b6d9c89a466629b021ce96bc21889f1d7d28b193"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00154",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 53,
+        "time": 40.9495,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "862807ba74c02f5720ad40117fd3b382db9c35794e437417b3a8c013e4da9e36"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00178",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 46.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "c4840cf3ac2ee7a86a8cc117094c918cf64f0486a7a38c4ddc5d78b442b773cd"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00346",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 79.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose",
+          "releasePose"
+        ],
+        "fullNoteSha256": "ad2b36d0f60b0c72b3e13efba4b3166215d9664f98401f37ac0187497ad563eb"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        },
+        "releasePose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00524",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 116.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "65481888ccf375dceb7768d1ac92bbf2ce215f74e05e021b1d7638c4f2a8c4ef"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00563",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 126.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "35e8f11119bbfb9b63aae46520e640c196fff505f4654b5ed13df115ab09b707"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00681",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 149.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose",
+          "releasePose"
+        ],
+        "fullNoteSha256": "ea99bb6102d6a4073f3adab9356aeb3c6abec5149a4fa739ba738c1f0ae18702"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        },
+        "releasePose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00740",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 159.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "17d81dc2273885aea8ffafc9c1996518d0775e6ef751f03428e9feba2b95dc4c"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00862",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 45,
+        "time": 189.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose",
+          "releasePose"
+        ],
+        "fullNoteSha256": "25e0039f58058d68ae63b52114cab4672e8813718cddbeb18ffdf355bbc7fe5d"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        },
+        "releasePose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      }
+    }
+  ]
+}

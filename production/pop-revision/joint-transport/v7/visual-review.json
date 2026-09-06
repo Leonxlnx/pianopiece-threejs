@@ -1,0 +1,61 @@
+{
+  "status": "REVIEWED_FIVE_ACTUAL_POSES_ONLY",
+  "times": [
+    26.554166667,
+    79.5,
+    89.015564,
+    89.137,
+    199.137
+  ],
+  "hashes": {
+    "work/integration-review/rh-dense-repair/joint-v7/candidate-no-e3/pianist.ts": "d7ef64fb4fa5f559a2adc46ec60caff303f9ca5ae5161c428dd4ab1540b609a9",
+    "work/integration-review/rh-dense-repair/joint-v7/candidate-no-e3/pianist.mjs": "0cf3cb902d572bb0c9a4ea34392933a734557bd294b539abfa1447e4dd83e331",
+    "work/root/joint-v7-e3-visual/score.json": "96d39423a256bb3941ad467bffa6300f781715fa3a2b9ef04f5211d822fe42ac",
+    "work/root/joint-v7-e3-render-code/pose-server.mjs": "1b513a0636f849ef398521c38d9fc153c4abd1a4d67e2d0ade7f4c3c179f6d77",
+    "work/root/joint-v7-e3-render-code/render-revision.py": "a8ba7e5e2080a109818bf93601bdd6fa1aba0c6ac51042e92fb509426e6bf7f5"
+  },
+  "reviewer": "root",
+  "findings": [
+    {
+      "poses": [
+        0,
+        1
+      ],
+      "finding": "Additional distal timing keeps a rounded LH Middle silhouette during arrival and release; no visible inversion in these views."
+    },
+    {
+      "poses": [
+        2,
+        3,
+        4
+      ],
+      "finding": "E3 thumb arrival and two held voicings show an open thumb corridor and separate contact. Other nonthumb failures remain in the numerical queue."
+    }
+  ],
+  "limitations": [
+    "Five still views do not establish continuous collision clearance.",
+    "Actual scene and posed skin; offline material lighting is approximate."
+  ],
+  "images": [
+    {
+      "file": "gl-1280-0.jpg",
+      "sha256": "a3667315f89d64adaacf72c63f0d92b24008a20b262c29d57513e6d2a6cf48a5"
+    },
+    {
+      "file": "gl-1280-1.jpg",
+      "sha256": "71477556ec4912d7f7ebbe53284c5fed497c662ee556174554dd5e0ac99d4100"
+    },
+    {
+      "file": "gl-1280-2.jpg",
+      "sha256": "c95e1509e2bb38a2e372f3458ef4e3190bf1fd87a13ed325631ccd08a8335a31"
+    },
+    {
+      "file": "gl-1280-3.jpg",
+      "sha256": "ec21ce0d83a887d634d814ce69b6cb652bb8fe1eecdb2f08efcfc1430a9e97cf"
+    },
+    {
+      "file": "gl-1280-4.jpg",
+      "sha256": "3c9c56e36afc291d8cf1199e3eb7ca3f61926a4763432299a94d4961220e78d3"
+    }
+  ]
+}

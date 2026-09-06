@@ -1,0 +1,40 @@
+{
+  "status": "Thumb numeric repair passes; pre-existing nonthumb failures retained",
+  "scoreSha256": "75546f7f489521b74a2dcca256cbec44d0e88802a897978bae5a704b198b72bb",
+  "sourceSha256": "85a3965ddc625ba48dc48850e22130e3ce435ecbbd4d8bd57fa63abcd0823d00",
+  "times": 482,
+  "pairedSkinEvaluations": 964,
+  "frameRate": 960,
+  "changedNotes": [
+    {
+      "id": "db00406",
+      "before": {
+        "midi": 48
+      },
+      "after": {
+        "midi": 52
+      }
+    },
+    {
+      "id": "db00922",
+      "before": {
+        "midi": 48
+      },
+      "after": {
+        "midi": 52
+      }
+    }
+  ],
+  "thumbPairsBefore": 4448,
+  "thumbPairsAfter": 0,
+  "thumbCoreMaxMm": 2.8165486279233543,
+  "heldPadMaxMm": 1.3018458873947925,
+  "allFiveTipMaxMps": 2.3442114544646153,
+  "maxMarkerMm": 9.023115220493097e-05,
+  "nonthumbPairDifferences": [],
+  "nonthumbKeyDifferences": [],
+  "maxNonthumbKeyDeltaMm": 2.261375531276144e-07,
+  "unchangedNotePadDifferences": [],
+  "retainedNonthumbCoreRows": 52,
+  "retainedNonthumbPairFrames": 244
+}

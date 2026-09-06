@@ -1,0 +1,441 @@
+{
+  "status": "15-route numerical pass; parent visual approval and later common-source integration pending",
+  "source": "pose-source; joint-transport-v5 plus typed duration/lift controls only",
+  "sourceHashes": {
+    "ts": "fcbc1aed59d1bdafd4eee3ab23fdf487d4571d9a1742a624e8a9504c92e4d23b",
+    "mjs": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71"
+  },
+  "baselineScoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+  "candidateScoreSha256": "06c6c0babcf201409695f5c12130b9b44f899a29f935de63263c3bda94de34fa",
+  "routes": 15,
+  "pairedGeometryTimes": 455,
+  "uniformMotionFrames": 408,
+  "frameRate": 240,
+  "heldPadSamples": 150,
+  "maxHeldPadDisplacementMm": 0,
+  "maxHeldPadGapChangeMm": 0,
+  "maxHeldPadAbsGapMm": 0.7600404216706602,
+  "maxAllFiveTipSpeedMps": 2.3554201308932923,
+  "maxActualSkinDorsalDegrees": 54.30738982078231,
+  "maxBackwardPipMm": 0,
+  "maxLhKeyCoreMm": 0,
+  "nonfinite": 0,
+  "heldWristAudibleOtherFieldsUnchanged": true,
+  "allRouteGatesPass": true,
+  "newOrIncreasedPairsOrSevereCoreRows": 0,
+  "patch": [
+    {
+      "id": "db00059",
+      "approachPose": {
+        "duration": 0.1,
+        "liftDegrees": 10
+      }
+    },
+    {
+      "id": "db00138",
+      "approachPose": {
+        "duration": 0.1,
+        "liftDegrees": 10
+      }
+    },
+    {
+      "id": "db00463",
+      "approachPose": {
+        "duration": 0.1,
+        "liftDegrees": 0
+      }
+    },
+    {
+      "id": "db00802",
+      "approachPose": {
+        "duration": 0.1,
+        "liftDegrees": 0
+      }
+    },
+    {
+      "id": "db00979",
+      "approachPose": {
+        "duration": 0.1,
+        "liftDegrees": 0
+      }
+    },
+    {
+      "id": "db00286",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00311",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00370",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00457",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00621",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00646",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00705",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00827",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00886",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    },
+    {
+      "id": "db00973",
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5
+      }
+    }
+  ],
+  "expected": [
+    {
+      "id": "db00059",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 52,
+        "time": 16.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "6b689c2b3f1644216fd59eeb1f4598d79ebcff091baef57011c735e9da1d73c3"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "liftDegrees": 10
+        }
+      }
+    },
+    {
+      "id": "db00138",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 52,
+        "time": 36.5745,
+        "duration": 0.34375,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "a72883d2718db5f7c4ee67a21833350104eec537d73616a2bf2e56ceb8af7edc"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "liftDegrees": 10
+        }
+      }
+    },
+    {
+      "id": "db00463",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 99.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "e017286f98004de49fda8a2333ddb5bb4f28d74ba2e6fdeaab34aea252251db6"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "liftDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00802",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 178.4495,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "340121dd06fb9ea8fe465d7070083a6d8fa37baf50426100b94f713c5ca6da63"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "liftDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00979",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 209.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "approachPose"
+        ],
+        "fullNoteSha256": "e6aaab4290ce8734d993e742836a37e4aa38108271cfa0d5fa2cb985998904e2"
+      },
+      "set": {
+        "approachPose": {
+          "duration": 0.1,
+          "liftDegrees": 0
+        }
+      }
+    },
+    {
+      "id": "db00286",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 69.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "40d55e85a65fb19855263bd8797d961024e41d67da8845c9fb643391db60483b"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00311",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 73.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "1634f012524c69ceadb5cb3e2421640bf6b2de6840d0193da4e0339de4ba0e58"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00370",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 83.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "acc84e48b27c394c3a929ef13b2dcd16b5b16ceff1c122a3bc4e7e87017dce68"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00457",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 98.133,
+        "duration": 0.3875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "1f82f98ece0f20084e7bdf3faffe581fbdfb7772630aa07905578b734a8f57e9"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00621",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 139.0745,
+        "duration": 0.40625,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "0ab3043b0827d2a792e9af4bc8f84f81fe7e1d41d4fd3ff369eb767b3472025c"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00646",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 143.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "7c8ee7b9f4de93c46b9b0743d967fea0be2b9c03046a23f156118e3b48ae4686"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00705",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 153.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "fb7a6d8aae3d7e448396fb7c7b49ecb9f3a7b7a7fc48ac2584f84cb010872f1a"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00827",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 183.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "35625c6f1f3acb056252234e4e17f59dc65616bd8fe71dc23dc5e5907fb8ef33"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00886",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 193.133,
+        "duration": 0.1875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "a216d10ebb34f749018cd4d5c94e495037fdd0145a2723d3782c464e6c3b63dd"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    },
+    {
+      "id": "db00973",
+      "expected": {
+        "hand": "L",
+        "finger": 3,
+        "midi": 47,
+        "time": 208.133,
+        "duration": 0.3875,
+        "absentFields": [
+          "releasePose"
+        ],
+        "fullNoteSha256": "177baa81d4b9b81a5cc289457371160a3476c21252620431494aed0e94285f4b"
+      },
+      "set": {
+        "releasePose": {
+          "duration": 0.08,
+          "liftDegrees": 5
+        }
+      }
+    }
+  ],
+  "limits": [
+    "Finite exact240Hz and contact/guard samples; not continuous collision proof.",
+    "Geometry baseline uses the same extension with all Pose fields absent, which preserves V5 arithmetic/defaults; original V5 source is frozen alongside for comparison.",
+    "Remaining Middle/Index/coupled and delegated Pinky failures are not covered by this fifteen-route pass.",
+    "No sweep, distal timing, rest clearance, physical note, wrist, or audio changes included in these15 routes."
+  ]
+}

@@ -1,0 +1,16 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -353,7 +353,12 @@
+   const distalWeight=distal===undefined?weight:1-smooth((time-end)/clamp(distal,Math.min(.010,release),release));
+   rotations.forEach((q,j)=>q.slerp(contact[j],j>0?distalWeight:weight));
+  }
+- if(next&&start-time<approach){const contact=contactPose(next,start),weight=1-smooth((start-time)/Math.max(.001,approach));rotations.forEach((q,j)=>q.slerp(contact[j],weight));}
++ if(next&&start-time<approach){
++  const contact=contactPose(next,start),weight=1-smooth((start-time)/Math.max(.001,approach));
++  const distal=next.approachPose?.distalDuration;
++  const distalWeight=distal===undefined?weight:1-smooth((start-time)/clamp(distal,Math.min(.010,approach),approach));
++  rotations.forEach((q,j)=>q.slerp(contact[j],j>0?distalWeight:weight));
++ }
+  // Lift the complete chain during each departure/arrival blend. Relative
+  // phalanx rotations remain fixed; the settled rest and contacts are exact.
+  let liftWeight=0,liftDegrees=settings.arc??20,sweepDegrees=0;

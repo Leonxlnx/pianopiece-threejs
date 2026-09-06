@@ -1,0 +1,1266 @@
+{
+  "method": "Finite exact deformed Human surface analysis with unchanged >65% digit ownership and noncoplanar edge/triangle crossing rules. Bidirectional sample-to-nearest target patch distance uses geometric outward triangle winding. Negative signed distances count as strong local inside evidence only when nearest projection lies strictly inside its face (barycentric >1e-6) and the open target patch generalized winding number is >=0.75. Vertices and centroids across each patch, grid-8 barycentric samples on every intersecting triangle, and near-intersection-to-vertex fractions 0.001/0.003/0.01/0.03/0.1/0.25/0.5 are included. Extents refer to crossing curve points, and intersected triangle area includes whole faces, not overlap area.",
+  "limitations": [
+    "Signed nearest-patch values are sampled local separations, not exact maximum solid penetration, minimum separating translation, overlap volume, or clinical anatomy.",
+    "The supplementary at-least-1-mm-from-both-boundaries statistic is a sensitivity descriptor, not a clearance gate. A zero value with zero retained samples is inconclusive and never removes the full boundary-inclusive distance or crossing failure.",
+    "Finger ownership patches are open at the web/base; the winding threshold is a local confidence filter, not watertight solid containment. Excluded boundary and inconclusive orientation counts remain visible.",
+    "Finite samples may underestimate deepest intrusion, particularly tiny slivers; raw intersection counts remain failure evidence regardless of distance.",
+    "Noncoplanar method retains the incumbent omissions for coplanar contact, mixed-web patch crossings and entirely enclosed surfaces.",
+    "Selected cases represent owner-reported residuals plus broad baseline controls. No timing window, full score clearance, key gate or final visual approval is established."
+  ],
+  "inputs": {
+    "rig": {
+      "file": "pianist.mjs",
+      "sha256": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71"
+    },
+    "piano": {
+      "file": "piano.mjs",
+      "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+    },
+    "score": {
+      "file": "score.json",
+      "sha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd"
+    },
+    "model": {
+      "file": "pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "sourceDependencies": {
+    "audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "direction.mjs": "f4851b14cd14cbe9d06e031aea88bf5b53ca41ddf3eb6bb316229e73bd0f9778",
+    "direction.ts": "2b340e05ab4a1b1a3dd16e5243f00fcb27053d576855dd8031e6285e092f3daa",
+    "hair-motion-data.mjs": "1bb0af20e05d34c9cb112888a46b688afc14dbd18e6ab84596a55ae3bb2a60ef",
+    "hair-motion-data.ts": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d",
+    "math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "pianist.mjs": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71",
+    "pianist.ts": "fcbc1aed59d1bdafd4eee3ab23fdf487d4571d9a1742a624e8a9504c92e4d23b",
+    "piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775",
+    "ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "ready-idle-input.mjs": "fc493d545862a100028679451155575f36a54ebd9ad4a0541768fefd3011733a",
+    "ready-idle-input.ts": "d555424e9c47ac04b11d5fbbf28b44303ae053c93ffbc8dfe8b348aa017b9fc3",
+    "render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "stage.mjs": "e6ee63d9b6025c2f1d1a775ce48d72860ba1d8ca155a4360bb97f5b33ab40c2e",
+    "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+    "types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "types.ts": "4f57eae4f9c617a7a4cf92e43b30d5643d5d4f94b8e516a20abef0f757a5ca15",
+    "wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0"
+  },
+  "runnerSha256": "27ebf6e10650b8b3671170c37d677edca83fd232d12bf53a21c85f4a29b4ef9a",
+  "grid": 8,
+  "evaluationBatches": [
+    {
+      "caseFile": "cases.json",
+      "caseSha256": "39442b6cce5eccfef38a49224927d9ebe2258dc134bcb48abe313a24826cea19",
+      "report": "portable-classification.json",
+      "reportSha256": "010c19e8928bbcca8c535b56eaff2eadae0b50ad34b6e5a3897f8248dc99261b"
+    },
+    {
+      "caseFile": "peak-cases.json",
+      "caseSha256": "85cd4597c978ea9529cc4cc77b83cf6d2cfe0bb13835d03479ce3f2f834c341e",
+      "report": "portable-peak-classification.json",
+      "reportSha256": "a59b0db2bee2b39dc0bc2d44bdef024e3ecc38bfdc73c72f2bbf5b2d598fd034"
+    }
+  ],
+  "ownerWindowInventorySha256": "33b098b99bc10e09d3cfe69cbab1717cbb6cced7d291cffcf597650e2216cf11",
+  "scopeNote": "Ten selected unresolved diagnostic poses. Four added poses are the owner-screened 240 Hz triangle-count peak frames for their candidate windows, not certified maximum-depth frames. Separate key failures remain in the preserved owner inventory. All ten pair failures remain recorded.",
+  "rows": [
+    {
+      "id": "middle-ring-four-pair",
+      "time": 26.529166667,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [
+        {
+          "id": "db00098",
+          "approachPose": {
+            "duration": 0.104,
+            "liftDegrees": 5
+          }
+        }
+      ],
+      "scoreSha256": "3aeed69d0bc6ca00716aedb90d273b117025f08d6fa61a6a5b924ab9e7f2425b",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 4,
+        "uniqueIntersectedTriangles": [
+          2,
+          2
+        ],
+        "intersectedTriangleAreaMm2": [
+          7.874131277383969,
+          24.523697621557467
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            0.04711272063526173,
+            0.0749083826040442,
+            0.4246900267237952
+          ],
+          "diameterMm": 0.42720373098961933
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 15.014395100040348,
+          "median": 19.761801929124264,
+          "max": 21.69365582491308
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 0.005733430217053439,
+            "winding": 0.9728666934935816,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 2.2207996202175924,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.004320036269951801,
+            "nearestFaceMinimumBarycentric": 0.0013546089375410422
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 982,
+          "negativeInteriorSamples": 21,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 21,
+          "maxLocalNegativeInteriorDistanceMm": 0.005733430217053439,
+          "maxStrongInsideDistanceMm": 0.005733430217053439,
+          "medianStrongInsideDistanceMm": 0.0013584109320242687,
+          "p95StrongInsideDistanceMm": 0.005733430216996293,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9724654498557034,
+            0.972897168933527
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 0.0057615328110062845,
+            "winding": 0.963352456945081,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0.025225224908155226,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 2.248461645679828,
+            "nearestFaceMinimumBarycentric": 0.013087566759909297
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 973,
+          "negativeInteriorSamples": 16,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 16,
+          "maxLocalNegativeInteriorDistanceMm": 0.0057615328110062845,
+          "maxStrongInsideDistanceMm": 0.0057615328110062845,
+          "medianStrongInsideDistanceMm": 0.0019205109368977396,
+          "p95StrongInsideDistanceMm": 0.005761532811004896,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9632004742754119,
+            0.9635559633184094
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 0.0057615328110062845,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 0,
+      "intersectionFailureRetained": true,
+      "classification": "Sub-0.1 mm sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "index-middle-broad-baseline",
+      "time": 89.015564,
+      "pair": [
+        "LIndex",
+        "LMiddle"
+      ],
+      "overlays": [],
+      "scoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LIndex",
+          "ownedVertices": 327,
+          "triangles": 549
+        },
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 166,
+        "uniqueIntersectedTriangles": [
+          84,
+          83
+        ],
+        "intersectedTriangleAreaMm2": [
+          590.9202749667498,
+          729.5433024712672
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            17.159999526202036,
+            19.543739352753555,
+            52.854667187220315
+          ],
+          "diameterMm": 55.34037145902317
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 29.544955103809166,
+          "median": 69.55741325329573,
+          "max": 89.63067944716113
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LIndex",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 101,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 8.013675500425977,
+            "winding": 0.9734690478509618,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 5.8342117275450525,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 9.567061469909637,
+            "nearestFaceMinimumBarycentric": 0.18541259525109197
+          },
+          "strongAwayBoundary1MmSamples": 2481,
+          "maxStrongAwayBoundary1Mm": 8.013675500425977,
+          "sampledSurfacePoints": 7266,
+          "negativeInteriorSamples": 3340,
+          "negativeBoundarySamples": 170,
+          "orientationInconclusive": 64,
+          "strongInsideSamples": 3276,
+          "maxLocalNegativeInteriorDistanceMm": 8.013675500425977,
+          "maxStrongInsideDistanceMm": 8.013675500425977,
+          "medianStrongInsideDistanceMm": 0.2904543070744672,
+          "p95StrongInsideDistanceMm": 2.844806008362473,
+          "maxExcludedBoundaryNegativeDistanceMm": 7.247658480117159,
+          "negativeInteriorWindingRange": [
+            0.5122568267643305,
+            0.991761156908025
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LMiddle",
+          "to": "LIndex",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 101,
+          "deepestStrongInside": {
+            "distanceMm": 7.1869218957344145,
+            "winding": 0.9862569660238222,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 3.5656105162260014,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 7.326716317762911,
+            "nearestFaceMinimumBarycentric": 0.13386139601841524
+          },
+          "strongAwayBoundary1MmSamples": 2623,
+          "maxStrongAwayBoundary1Mm": 7.1869218957344145,
+          "sampledSurfacePoints": 7219,
+          "negativeInteriorSamples": 3204,
+          "negativeBoundarySamples": 269,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 3204,
+          "maxLocalNegativeInteriorDistanceMm": 7.1869218957344145,
+          "maxStrongInsideDistanceMm": 7.1869218957344145,
+          "medianStrongInsideDistanceMm": 0.40610955928646986,
+          "p95StrongInsideDistanceMm": 3.2823491770199085,
+          "maxExcludedBoundaryNegativeDistanceMm": 6.518329524362185,
+          "negativeInteriorWindingRange": [
+            0.9545250485444072,
+            0.9957480035342576
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 8.013675500425977,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 8.013675500425977,
+      "intersectionFailureRetained": true,
+      "classification": "Millimeter-scale sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "middle-ring-broad-baseline",
+      "time": 74.646701,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [],
+      "scoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 138,
+        "uniqueIntersectedTriangles": [
+          61,
+          75
+        ],
+        "intersectedTriangleAreaMm2": [
+          483.82157903962565,
+          380.3949104148112
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            2.449847675570993,
+            14.82650508938843,
+            50.794130916685084
+          ],
+          "diameterMm": 51.54914372568785
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 12.330629417854281,
+          "median": 45.088106676420715,
+          "max": 84.75139563329807
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 1.6388275225385578,
+            "winding": 0.9595746234105558,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 3.5589380756462305,
+            "nearestFaceMinimumBarycentric": 0.0997850728351171
+          },
+          "strongAwayBoundary1MmSamples": 1489,
+          "maxStrongAwayBoundary1Mm": 1.4300693076079831,
+          "sampledSurfacePoints": 5798,
+          "negativeInteriorSamples": 2379,
+          "negativeBoundarySamples": 26,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 2379,
+          "maxLocalNegativeInteriorDistanceMm": 1.6388275225385578,
+          "maxStrongInsideDistanceMm": 1.6388275225385578,
+          "medianStrongInsideDistanceMm": 0.10255836950200321,
+          "p95StrongInsideDistanceMm": 0.8581425865880599,
+          "maxExcludedBoundaryNegativeDistanceMm": 1.1759959423844752,
+          "negativeInteriorWindingRange": [
+            0.9222545230150827,
+            0.9955683002853305
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 1.6202384855075924,
+            "winding": 0.9441567650819946,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 3.103871823105134,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.5788332535157388,
+            "nearestFaceMinimumBarycentric": 0.1438302738382403
+          },
+          "strongAwayBoundary1MmSamples": 1416,
+          "maxStrongAwayBoundary1Mm": 1.4125105519409609,
+          "sampledSurfacePoints": 6307,
+          "negativeInteriorSamples": 2508,
+          "negativeBoundarySamples": 23,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 2508,
+          "maxLocalNegativeInteriorDistanceMm": 1.6202384855075924,
+          "maxStrongInsideDistanceMm": 1.6202384855075924,
+          "medianStrongInsideDistanceMm": 0.126831738663772,
+          "p95StrongInsideDistanceMm": 0.8239818854150908,
+          "maxExcludedBoundaryNegativeDistanceMm": 1.0523355991641212,
+          "negativeInteriorWindingRange": [
+            0.8987379118058563,
+            0.9931896519450312
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 1.6388275225385578,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 1.4300693076079831,
+      "intersectionFailureRetained": true,
+      "classification": "Millimeter-scale sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "ring-pinky-coupled-residual",
+      "time": 56.521874,
+      "pair": [
+        "LRing",
+        "LPinky"
+      ],
+      "overlays": [
+        {
+          "id": "db00227",
+          "approachPose": {
+            "duration": 0.092,
+            "liftDegrees": 20
+          }
+        },
+        {
+          "id": "db00225",
+          "releasePose": {
+            "duration": 0.08,
+            "liftDegrees": 5
+          }
+        }
+      ],
+      "scoreSha256": "89f47146e5d875e5e430c0292fd01e2731e24f2247f3a03b9b22d04e07c63965",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        },
+        {
+          "patch": "LPinky",
+          "ownedVertices": 303,
+          "triangles": 546
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 34,
+        "uniqueIntersectedTriangles": [
+          14,
+          21
+        ],
+        "intersectedTriangleAreaMm2": [
+          142.54340462625063,
+          94.56209097249298
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            5.544787585308408,
+            11.526630736610311,
+            16.715328200426566
+          ],
+          "diameterMm": 16.7520763762117
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 30.255489524250056,
+          "median": 53.116368842581544,
+          "max": 87.67554276213721
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LRing",
+          "to": "LPinky",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 58,
+          "deepestStrongInside": {
+            "distanceMm": 3.7237756006780645,
+            "winding": 0.9637201209877873,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 2.7755575615628914e-14,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 1.199881330938255,
+            "nearestFaceMinimumBarycentric": 0.07233335743508491
+          },
+          "strongAwayBoundary1MmSamples": 467,
+          "maxStrongAwayBoundary1Mm": 3.5036065193209973,
+          "sampledSurfacePoints": 2030,
+          "negativeInteriorSamples": 626,
+          "negativeBoundarySamples": 16,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 626,
+          "maxLocalNegativeInteriorDistanceMm": 3.7237756006780645,
+          "maxStrongInsideDistanceMm": 3.7237756006780645,
+          "medianStrongInsideDistanceMm": 0.27489132719932347,
+          "p95StrongInsideDistanceMm": 2.577271408055252,
+          "maxExcludedBoundaryNegativeDistanceMm": 3.7512838949776226,
+          "negativeInteriorWindingRange": [
+            0.918320851634967,
+            0.9865387820356141
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LPinky",
+          "to": "LRing",
+          "sourceBoundaryEdges": 58,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 1.923963015735519,
+            "winding": 0.803793438135467,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 7.597883354576738,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 3.4121304189336965,
+            "nearestFaceMinimumBarycentric": 0.19226901928459458
+          },
+          "strongAwayBoundary1MmSamples": 502,
+          "maxStrongAwayBoundary1Mm": 1.923963015735519,
+          "sampledSurfacePoints": 2290,
+          "negativeInteriorSamples": 734,
+          "negativeBoundarySamples": 88,
+          "orientationInconclusive": 178,
+          "strongInsideSamples": 556,
+          "maxLocalNegativeInteriorDistanceMm": 4.205895060546006,
+          "maxStrongInsideDistanceMm": 1.923963015735519,
+          "medianStrongInsideDistanceMm": 0.17439445574873255,
+          "p95StrongInsideDistanceMm": 1.3010132768297604,
+          "maxExcludedBoundaryNegativeDistanceMm": 4.922281774610088,
+          "negativeInteriorWindingRange": [
+            0.18061148972189675,
+            0.8958167651298328
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 3.7237756006780645,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 3.5036065193209973,
+      "intersectionFailureRetained": true,
+      "classification": "Millimeter-scale sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "ring-pinky-one-pair-725",
+      "time": 156.49583333333334,
+      "pair": [
+        "LRing",
+        "LPinky"
+      ],
+      "overlays": [
+        {
+          "id": "db00725",
+          "releasePose": {
+            "duration": 0.08,
+            "liftDegrees": 25
+          }
+        }
+      ],
+      "scoreSha256": "ed0d8634b74775bcfa173cea4562b88c58195da31439ebbab554c68fad101865",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        },
+        {
+          "patch": "LPinky",
+          "ownedVertices": 303,
+          "triangles": 546
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 1,
+        "uniqueIntersectedTriangles": [
+          1,
+          1
+        ],
+        "intersectedTriangleAreaMm2": [
+          15.366104540957126,
+          5.055317493005837
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            0.07315291078563435,
+            0.30388657311986034,
+            0.18087365048483073
+          ],
+          "diameterMm": 0.3611283360782589
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 56.594576760100594,
+          "median": 56.594576760100594,
+          "max": 56.594576760100594
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LRing",
+          "to": "LPinky",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 58,
+          "deepestStrongInside": {
+            "distanceMm": 0.8614112657862839,
+            "winding": 0.9612201495586382,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 6.1889639379899455,
+            "nearestFaceMinimumBarycentric": 0.1933775788729768
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 875,
+          "negativeInteriorSamples": 8,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 8,
+          "maxLocalNegativeInteriorDistanceMm": 0.8614112657862839,
+          "maxStrongInsideDistanceMm": 0.8614112657862839,
+          "medianStrongInsideDistanceMm": 0.08614112657861109,
+          "p95StrongInsideDistanceMm": 0.8614112657862839,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9612201495586382,
+            0.9643318053116282
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LPinky",
+          "to": "LRing",
+          "sourceBoundaryEdges": 58,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": null,
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 890,
+          "negativeInteriorSamples": 10,
+          "negativeBoundarySamples": 66,
+          "orientationInconclusive": 10,
+          "strongInsideSamples": 0,
+          "maxLocalNegativeInteriorDistanceMm": 0.18156431160423536,
+          "maxStrongInsideDistanceMm": 0,
+          "medianStrongInsideDistanceMm": null,
+          "p95StrongInsideDistanceMm": null,
+          "maxExcludedBoundaryNegativeDistanceMm": 6.951195292658187,
+          "negativeInteriorWindingRange": [
+            0.3277377322660944,
+            0.6074299951173495
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 0.8614112657862839,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 0,
+      "intersectionFailureRetained": true,
+      "classification": "Submillimeter sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "ring-pinky-one-pair-906",
+      "time": 196.49583333333334,
+      "pair": [
+        "LRing",
+        "LPinky"
+      ],
+      "overlays": [
+        {
+          "id": "db00906",
+          "releasePose": {
+            "duration": 0.08,
+            "liftDegrees": 25
+          }
+        }
+      ],
+      "scoreSha256": "9a5ca71b75a5ff9fbc4ae7c42830a01f50b5e03215d17a27f110cf3dfd5402bc",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        },
+        {
+          "patch": "LPinky",
+          "ownedVertices": 303,
+          "triangles": 546
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 1,
+        "uniqueIntersectedTriangles": [
+          1,
+          1
+        ],
+        "intersectedTriangleAreaMm2": [
+          15.366104536279574,
+          5.055317492903141
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            0.0731529114618712,
+            0.3038865759471543,
+            0.1808736518896792
+          ],
+          "diameterMm": 0.36112833929801574
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 56.59457674511375,
+          "median": 56.59457674511375,
+          "max": 56.59457674511375
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LRing",
+          "to": "LPinky",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 58,
+          "deepestStrongInside": {
+            "distanceMm": 0.861411273417078,
+            "winding": 0.9612201495277027,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 6.188963934842795,
+            "nearestFaceMinimumBarycentric": 0.19337757950620582
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 875,
+          "negativeInteriorSamples": 8,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 8,
+          "maxLocalNegativeInteriorDistanceMm": 0.861411273417078,
+          "maxStrongInsideDistanceMm": 0.861411273417078,
+          "medianStrongInsideDistanceMm": 0.08614112734162807,
+          "p95StrongInsideDistanceMm": 0.861411273417078,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9612201495277027,
+            0.964331805311098
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LPinky",
+          "to": "LRing",
+          "sourceBoundaryEdges": 58,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": null,
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 890,
+          "negativeInteriorSamples": 10,
+          "negativeBoundarySamples": 66,
+          "orientationInconclusive": 10,
+          "strongInsideSamples": 0,
+          "maxLocalNegativeInteriorDistanceMm": 0.18156431162675568,
+          "maxStrongInsideDistanceMm": 0,
+          "medianStrongInsideDistanceMm": null,
+          "p95StrongInsideDistanceMm": null,
+          "maxExcludedBoundaryNegativeDistanceMm": 6.95119528937466,
+          "negativeInteriorWindingRange": [
+            0.32773773412361384,
+            0.6074299952159554
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 0.861411273417078,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 0,
+      "intersectionFailureRetained": true,
+      "classification": "Submillimeter sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "db00098-full-window-pair-peak",
+      "time": 26.520833333333332,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [
+        {
+          "id": "db00098",
+          "approachPose": {
+            "duration": 0.104,
+            "liftDegrees": 5
+          }
+        }
+      ],
+      "scoreSha256": "3aeed69d0bc6ca00716aedb90d273b117025f08d6fa61a6a5b924ab9e7f2425b",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 12,
+        "uniqueIntersectedTriangles": [
+          10,
+          2
+        ],
+        "intersectedTriangleAreaMm2": [
+          44.113462411358164,
+          24.521701356985492
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            0.7519345122801446,
+            1.1680716297967075,
+            4.270550884862057
+          ],
+          "diameterMm": 4.295930058455973
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 14.849109221575896,
+          "median": 22.5856624176762,
+          "max": 56.50490288564381
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 0.1586636133413593,
+            "winding": 0.9720776008740437,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0.44547727828087924,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.2681212392077679,
+            "nearestFaceMinimumBarycentric": 0.08407514492626482
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 1416,
+          "negativeInteriorSamples": 148,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 148,
+          "maxLocalNegativeInteriorDistanceMm": 0.1586636133413593,
+          "maxStrongInsideDistanceMm": 0.1586636133413593,
+          "medianStrongInsideDistanceMm": 0.013448121998083203,
+          "p95StrongInsideDistanceMm": 0.1423079030541007,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9697428063362655,
+            0.9761462221630993
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 0.21192610605231943,
+            "winding": 0.9628556164569312,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.22451200540392718,
+            "nearestFaceMinimumBarycentric": 0.06414296337237735
+          },
+          "strongAwayBoundary1MmSamples": 0,
+          "maxStrongAwayBoundary1Mm": 0,
+          "sampledSurfacePoints": 1141,
+          "negativeInteriorSamples": 130,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 130,
+          "maxLocalNegativeInteriorDistanceMm": 0.21192610605231943,
+          "maxStrongInsideDistanceMm": 0.21192610605231943,
+          "medianStrongInsideDistanceMm": 0.008073062147393341,
+          "p95StrongInsideDistanceMm": 0.16852114040601804,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9595605564081993,
+            0.9656848863174152
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 0.21192610605231943,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 0,
+      "intersectionFailureRetained": true,
+      "classification": "Submillimeter sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "db00181-full-window-pair-peak",
+      "time": 47.15833333333333,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [
+        {
+          "id": "db00181",
+          "approachPose": {
+            "duration": 0.088,
+            "liftDegrees": 0
+          }
+        }
+      ],
+      "scoreSha256": "5d7a3ad7535b6f95a8bedb397728860d5b0aef5d640d04bc41ddfa76d49adb54",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 43,
+        "uniqueIntersectedTriangles": [
+          23,
+          19
+        ],
+        "intersectedTriangleAreaMm2": [
+          203.27707499332317,
+          163.1027873719445
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            4.542368170726007,
+            5.585810251952483,
+            11.89155885035531
+          ],
+          "diameterMm": 12.092730810324591
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 19.824642979305725,
+          "median": 40.68767661846124,
+          "max": 73.44162114181378
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 1.4827079634183036,
+            "winding": 0.9737815391742418,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 3.465471447182333,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 1.2312996037648736,
+            "nearestFaceMinimumBarycentric": 0.1288322391556685
+          },
+          "strongAwayBoundary1MmSamples": 331,
+          "maxStrongAwayBoundary1Mm": 1.4827079634183036,
+          "sampledSurfacePoints": 2522,
+          "negativeInteriorSamples": 637,
+          "negativeBoundarySamples": 9,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 637,
+          "maxLocalNegativeInteriorDistanceMm": 1.4827079634183036,
+          "maxStrongInsideDistanceMm": 1.4827079634183036,
+          "medianStrongInsideDistanceMm": 0.12237405034780008,
+          "p95StrongInsideDistanceMm": 1.0536282244849509,
+          "maxExcludedBoundaryNegativeDistanceMm": 1.3515964098335325,
+          "negativeInteriorWindingRange": [
+            0.9605361332120478,
+            0.9813806450015922
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 1.7649896506076932,
+            "winding": 0.9624942594362293,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 2.7327825196216002,
+            "nearestFaceMinimumBarycentric": 0.07132932929890141
+          },
+          "strongAwayBoundary1MmSamples": 288,
+          "maxStrongAwayBoundary1Mm": 1.1364703985134779,
+          "sampledSurfacePoints": 2373,
+          "negativeInteriorSamples": 626,
+          "negativeBoundarySamples": 4,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 626,
+          "maxLocalNegativeInteriorDistanceMm": 1.7649896506076932,
+          "maxStrongInsideDistanceMm": 1.7649896506076932,
+          "medianStrongInsideDistanceMm": 0.03682661133366331,
+          "p95StrongInsideDistanceMm": 0.7793904700964688,
+          "maxExcludedBoundaryNegativeDistanceMm": 1.434068644184099,
+          "negativeInteriorWindingRange": [
+            0.9505869419762403,
+            0.9709544697587804
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 1.7649896506076932,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 1.4827079634183036,
+      "intersectionFailureRetained": true,
+      "classification": "Millimeter-scale sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "db00321-full-window-pair-peak",
+      "time": 74.65833333333333,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [
+        {
+          "id": "db00321",
+          "approachPose": {
+            "duration": 0.078125,
+            "liftDegrees": 0
+          }
+        }
+      ],
+      "scoreSha256": "cd7a9c6e576c4cf80dc67a005258415567301daa81c9ed7bd940a693964c90a1",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 43,
+        "uniqueIntersectedTriangles": [
+          23,
+          19
+        ],
+        "intersectedTriangleAreaMm2": [
+          207.41928501864433,
+          180.87423861434257
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            3.9588799961280676,
+            5.435984059358745,
+            12.563758769261746
+          ],
+          "diameterMm": 12.747561525260965
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 19.248595700259887,
+          "median": 40.802856072462596,
+          "max": 73.67000853618725
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 1.248949674006392,
+            "winding": 0.9729918909703544,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 1.150683847668389,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.9318336161444152,
+            "nearestFaceMinimumBarycentric": 0.18875629656391515
+          },
+          "strongAwayBoundary1MmSamples": 287,
+          "maxStrongAwayBoundary1Mm": 1.1255260090161017,
+          "sampledSurfacePoints": 2522,
+          "negativeInteriorSamples": 636,
+          "negativeBoundarySamples": 11,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 636,
+          "maxLocalNegativeInteriorDistanceMm": 1.248949674006392,
+          "maxStrongInsideDistanceMm": 1.248949674006392,
+          "medianStrongInsideDistanceMm": 0.09633815946587491,
+          "p95StrongInsideDistanceMm": 0.9214640429973668,
+          "maxExcludedBoundaryNegativeDistanceMm": 0.9301872660635326,
+          "negativeInteriorWindingRange": [
+            0.9608423576783349,
+            0.9822060879604243
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 1.476216434109348,
+            "winding": 0.9623522120935196,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 1.6430427149948994,
+            "nearestFaceMinimumBarycentric": 0.2390007231721714
+          },
+          "strongAwayBoundary1MmSamples": 288,
+          "maxStrongAwayBoundary1Mm": 1.1344816237443407,
+          "sampledSurfacePoints": 2359,
+          "negativeInteriorSamples": 624,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 624,
+          "maxLocalNegativeInteriorDistanceMm": 1.476216434109348,
+          "maxStrongInsideDistanceMm": 1.476216434109348,
+          "medianStrongInsideDistanceMm": 0.06252288099761431,
+          "p95StrongInsideDistanceMm": 1.0472915203058362,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9498365349997432,
+            0.9721101451998432
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 1.476216434109348,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 1.1344816237443407,
+      "intersectionFailureRetained": true,
+      "classification": "Millimeter-scale sampled local intrusion; crossing remains a failure"
+    },
+    {
+      "id": "db00346-full-window-pair-peak",
+      "time": 79.51666666666667,
+      "pair": [
+        "LMiddle",
+        "LRing"
+      ],
+      "overlays": [
+        {
+          "id": "db00346",
+          "releasePose": {
+            "duration": 0.068,
+            "liftDegrees": 10
+          }
+        }
+      ],
+      "scoreSha256": "a18bfd13df1a280e0b66684e1e6fd2c3542b067e0d379f446c596fc1a58f478d",
+      "expectedScope": "Explicit unresolved diagnostic pose, not a whole-film scan or final candidate approval",
+      "patchGeometry": [
+        {
+          "patch": "LMiddle",
+          "ownedVertices": 321,
+          "triangles": 542
+        },
+        {
+          "patch": "LRing",
+          "ownedVertices": 318,
+          "triangles": 535
+        }
+      ],
+      "crossing": {
+        "trianglePairs": 22,
+        "uniqueIntersectedTriangles": [
+          14,
+          4
+        ],
+        "intersectedTriangleAreaMm2": [
+          94.84839711752825,
+          49.131542094021924
+        ],
+        "intersectionCurveBounds": {
+          "axisExtentMm": [
+            1.1540872405682578,
+            2.503314934175438,
+            6.739472848154959
+          ],
+          "diameterMm": 6.76411791555207
+        },
+        "acuteCrossingAngleDegrees": {
+          "min": 8.034117405324697,
+          "median": 21.328126107428538,
+          "max": 56.99107095944127
+        }
+      },
+      "directionalSeparation": [
+        {
+          "from": "LMiddle",
+          "to": "LRing",
+          "sourceBoundaryEdges": 96,
+          "targetBoundaryEdges": 97,
+          "deepestStrongInside": {
+            "distanceMm": 0.325022794885419,
+            "winding": 0.9750924855117085,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.8996333614314386,
+            "nearestFaceMinimumBarycentric": 0.25490238458035663
+          },
+          "strongAwayBoundary1MmSamples": 37,
+          "maxStrongAwayBoundary1Mm": 0.055959035469469724,
+          "sampledSurfacePoints": 1759,
+          "negativeInteriorSamples": 281,
+          "negativeBoundarySamples": 0,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 281,
+          "maxLocalNegativeInteriorDistanceMm": 0.325022794885419,
+          "maxStrongInsideDistanceMm": 0.325022794885419,
+          "medianStrongInsideDistanceMm": 0.030052349400682243,
+          "p95StrongInsideDistanceMm": 0.22353988087438634,
+          "maxExcludedBoundaryNegativeDistanceMm": 0,
+          "negativeInteriorWindingRange": [
+            0.9669221489226467,
+            0.9781142496679701
+          ],
+          "nonfinite": 0
+        },
+        {
+          "from": "LRing",
+          "to": "LMiddle",
+          "sourceBoundaryEdges": 97,
+          "targetBoundaryEdges": 96,
+          "deepestStrongInside": {
+            "distanceMm": 0.3030211790577505,
+            "winding": 0.9613813145882203,
+            "sourcePointDistanceToSourceOpenBoundaryMm": 0.7973124216664077,
+            "targetClosestPointDistanceToTargetOpenBoundaryMm": 0.10976522049966811,
+            "nearestFaceMinimumBarycentric": 0.006586781396762862
+          },
+          "strongAwayBoundary1MmSamples": 43,
+          "maxStrongAwayBoundary1Mm": 0.09400187872042774,
+          "sampledSurfacePoints": 1421,
+          "negativeInteriorSamples": 224,
+          "negativeBoundarySamples": 2,
+          "orientationInconclusive": 0,
+          "strongInsideSamples": 224,
+          "maxLocalNegativeInteriorDistanceMm": 0.3030211790577505,
+          "maxStrongInsideDistanceMm": 0.3030211790577505,
+          "medianStrongInsideDistanceMm": 0.011964766539074164,
+          "p95StrongInsideDistanceMm": 0.209577726668384,
+          "maxExcludedBoundaryNegativeDistanceMm": 0.26768081669194216,
+          "negativeInteriorWindingRange": [
+            0.9558709272884526,
+            0.9675224685977343
+          ],
+          "nonfinite": 0
+        }
+      ],
+      "observedStrongInsideDistanceMaxMm": 0.325022794885419,
+      "observedStrongInsideDistanceAtLeast1MmFromBothPatchBoundaries": 0.09400187872042774,
+      "intersectionFailureRetained": true,
+      "classification": "Submillimeter sampled local intrusion; crossing remains a failure"
+    }
+  ]
+}

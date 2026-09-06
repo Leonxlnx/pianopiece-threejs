@@ -1,0 +1,3340 @@
+{
+  "status": "five numerical passes; five unresolved; no visual or global approval",
+  "acceptedIds": [
+    "db00390",
+    "db00666",
+    "db00725",
+    "db00847",
+    "db00906"
+  ],
+  "unresolvedIds": [
+    "db00088",
+    "db00438",
+    "db00954",
+    "db00275",
+    "db00610"
+  ],
+  "acceptedSharedReleasePose": {
+    "duration": 0.08,
+    "liftDegrees": 5,
+    "sweepDegrees": 8
+  },
+  "tolerances": {
+    "sampleRateHz": 240,
+    "guardSecondsEachEnd": 0.0042,
+    "keyCoreDepthMm": 3,
+    "allFiveTipSpeedMps": 5,
+    "actualDorsalSkinMcpDegrees": 60,
+    "backwardPipMm": 3,
+    "activePadAbsGapMm": 3,
+    "activePadDisplacementMm": 0.0001,
+    "activePadGapChangeMm": 0.0001,
+    "wristAndElbowDisplacementMm": 0.0001,
+    "contactMarkerErrorMmStrictlyLessThan": 1,
+    "affectedSurfacePairRows": 0,
+    "newOrIncreasedOtherSurfaceRows": 0,
+    "newOrIncreasedSevereCoreRows": 0,
+    "dorsalTrianglesPerHand": 77
+  },
+  "hashes": {
+    "baselineScore": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "candidateScore": "6a79d6449ee32976a348dc79c5535a62727693ad412e2eaa19de529ec599e85f",
+    "originalTS": "fcbc1aed59d1bdafd4eee3ab23fdf487d4571d9a1742a624e8a9504c92e4d23b",
+    "originalMJS": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71",
+    "sweepTS": "1a2b3ea8bafc1d7878d2fca28eaedd73f0141d4107725389d34d708798ae66dc",
+    "sweepMJS": "a288f1462be046b520129bd41650f7f906cb5e386b2793f533cc7397dff361f3",
+    "pianoMJS": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "mathMJS": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "model": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "search": "c377444663aa0d38747c5b8920d1efbbc5ba5f7348fbca10f025b5bde94b946a",
+    "verification": "956ab6bc05b32211475d3e57eb5b2659d17dacce019ebb5524732d34eca371e9"
+  },
+  "immutableInputsVerified": true,
+  "immutableFields": {
+    "onlyChanges": [
+      {
+        "id": "db00390",
+        "field": "releasePose",
+        "expectedPresent": false,
+        "expectedValue": null,
+        "value": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      {
+        "id": "db00666",
+        "field": "releasePose",
+        "expectedPresent": false,
+        "expectedValue": null,
+        "value": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      {
+        "id": "db00725",
+        "field": "releasePose",
+        "expectedPresent": false,
+        "expectedValue": null,
+        "value": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      {
+        "id": "db00847",
+        "field": "releasePose",
+        "expectedPresent": false,
+        "expectedValue": null,
+        "value": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      {
+        "id": "db00906",
+        "field": "releasePose",
+        "expectedPresent": false,
+        "expectedValue": null,
+        "value": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      }
+    ],
+    "allOtherScoreFieldsIdentical": true,
+    "audibleFieldsIdentical": true,
+    "heldContactsUnchanged": true,
+    "wristAndElbowUnchanged": true,
+    "boneLengthsAndFrameOffsetsUnchangedBySourceDiff": true
+  },
+  "phases": [
+    {
+      "phase": "family",
+      "source": "originalV5",
+      "evaluations": 180,
+      "gates": {
+        "probe": 178,
+        "dense": 2
+      },
+      "rigSha256": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71",
+      "nonfinite": 0
+    },
+    {
+      "phase": "clearance",
+      "source": "originalV5",
+      "evaluations": 360,
+      "gates": {
+        "probe": 359,
+        "dense": 1
+      },
+      "rigSha256": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71",
+      "nonfinite": 0
+    },
+    {
+      "phase": "extended",
+      "source": "originalV5",
+      "evaluations": 500,
+      "gates": {
+        "dense": 21,
+        "probe": 461,
+        "motion": 18
+      },
+      "rigSha256": "8baffc7014f23f929a33f18c889a8a330077336dc304b1acc64a0efeca9a1e71",
+      "nonfinite": 0
+    },
+    {
+      "phase": "guard",
+      "source": "guardOnly",
+      "evaluations": 80,
+      "gates": {
+        "probe": 71,
+        "motion": 4,
+        "dense": 5
+      },
+      "rigSha256": "87c4a59156c261f477bf154cb6decd0d20203f0cea540c0c3cbe9dc2489cb341",
+      "nonfinite": 0
+    },
+    {
+      "phase": "shape-limited",
+      "source": "guardOnly",
+      "evaluations": 231,
+      "gates": {
+        "dense": 32,
+        "probe": 199
+      },
+      "rigSha256": "87c4a59156c261f477bf154cb6decd0d20203f0cea540c0c3cbe9dc2489cb341",
+      "nonfinite": 0
+    },
+    {
+      "phase": "sweep",
+      "source": "optionalSweep",
+      "evaluations": 210,
+      "gates": {
+        "probe": 195,
+        "dense": 10,
+        "pass": 5
+      },
+      "rigSha256": "a288f1462be046b520129bd41650f7f906cb5e386b2793f533cc7397dff361f3",
+      "nonfinite": 0
+    },
+    {
+      "phase": "sweep10",
+      "source": "optionalSweep",
+      "evaluations": 90,
+      "gates": {
+        "dense": 11,
+        "probe": 79
+      },
+      "rigSha256": "a288f1462be046b520129bd41650f7f906cb5e386b2793f533cc7397dff361f3",
+      "nonfinite": 0
+    }
+  ],
+  "evaluations": 1651,
+  "distinctSourceIdKindSerializedConfigs": 1651,
+  "gates": {
+    "probe": 1542,
+    "dense": 82,
+    "motion": 22,
+    "pass": 5
+  },
+  "perTargetGates": {
+    "db00088": {
+      "probe": 170,
+      "dense": 10
+    },
+    "db00438": {
+      "probe": 210,
+      "dense": 8,
+      "motion": 2
+    },
+    "db00954": {
+      "probe": 206,
+      "dense": 12,
+      "motion": 2
+    },
+    "db00275": {
+      "probe": 165,
+      "dense": 6,
+      "motion": 2
+    },
+    "db00390": {
+      "probe": 126,
+      "dense": 7,
+      "motion": 3,
+      "pass": 1
+    },
+    "db00610": {
+      "probe": 167,
+      "dense": 5,
+      "motion": 1
+    },
+    "db00666": {
+      "probe": 126,
+      "dense": 7,
+      "motion": 3,
+      "pass": 1
+    },
+    "db00725": {
+      "probe": 123,
+      "dense": 10,
+      "motion": 3,
+      "pass": 1
+    },
+    "db00847": {
+      "probe": 125,
+      "dense": 8,
+      "motion": 3,
+      "pass": 1
+    },
+    "db00906": {
+      "probe": 124,
+      "dense": 9,
+      "motion": 3,
+      "pass": 1
+    }
+  },
+  "combined": {
+    "matchingTimes": 140,
+    "actualSkinEvaluations": 280,
+    "acceptedIntervals": 5,
+    "activePadVertexComparisons": 1850,
+    "activePadRows": 25,
+    "maxPadDisplacementMm": 0,
+    "maxPadGapChangeMm": 0,
+    "maxAbsPadGapMm": 0.44320887933690933,
+    "maxMarkerErrorMm": 0.5108773671373429,
+    "maxWristDisplacementMm": 0,
+    "maxElbowDisplacementMm": 0,
+    "maxAllFiveTipSpeedMps": 1.8208573430832153,
+    "maxActualDorsalMcpDegrees": 54.37265205717011,
+    "maxBackwardPipMm": 0,
+    "affectedPairRows": 0,
+    "affectedSevereKeyCoreRows": 0,
+    "increasedPairRows": 0,
+    "increasedSevereCoreRows": 0,
+    "nonfinite": 0
+  },
+  "rejectedFullIntervals": {
+    "matchingTimes": 166,
+    "actualSkinEvaluations": 332,
+    "acceptedIntervals": 0,
+    "activePadVertexComparisons": 1850,
+    "activePadRows": 25,
+    "maxPadDisplacementMm": 0,
+    "maxPadGapChangeMm": 0,
+    "maxAbsPadGapMm": 1.237459692857712,
+    "maxMarkerErrorMm": 1.1312880760306319,
+    "maxWristDisplacementMm": 0,
+    "maxElbowDisplacementMm": 0,
+    "maxAllFiveTipSpeedMps": 1.9101350243589257,
+    "maxActualDorsalMcpDegrees": 54.043274075866236,
+    "maxBackwardPipMm": 0,
+    "affectedPairRows": 68,
+    "affectedSevereKeyCoreRows": 4,
+    "increasedPairRows": 10,
+    "increasedSevereCoreRows": 4,
+    "nonfinite": 0
+  },
+  "acceptedEvidence": [
+    {
+      "id": "db00390",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": true,
+      "range": {
+        "begin": 86.47255,
+        "end": 86.56094999999999,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 8,
+      "candidateAffectedPairRows": 0,
+      "baselineTrianglePairSum": 108,
+      "candidateTrianglePairSum": 0,
+      "candidatePeakTrianglePairs": 0,
+      "candidateAffectedMaxKeyDepthMm": 2.8418538553120487,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.8208573430832153,
+        "worstTime": 86.54166666666667,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4010728490145168,
+          1.8208573430832153,
+          5.005780315495579e-08,
+          4.840152512038391e-08,
+          1.7662861337730407
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37831008564224,
+        "dorsalTime": 86.52083333333333,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37831008564224,
+          39.71043678259969,
+          40.3708544345156,
+          41.989085116972596
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.8208573430832153,
+        "worstTime": 86.54166666666667,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4010728490145168,
+          1.8208573430832153,
+          5.005780315495579e-08,
+          4.840152512038391e-08,
+          1.3114082857001517
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37263895299833,
+        "dorsalTime": 86.52083333333333,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37263895299833,
+          39.71043678259969,
+          40.3708544345156,
+          41.2668292781037
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 86.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.576876127090376,
+          "pip": 76.88722184580256,
+          "dip": 36.90588718599826
+        },
+        "worstMCP": {
+          "time": 86.52083333333333,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37831008564224,
+          "pip": 49.65498457799381,
+          "dip": 23.83439448434145
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 86.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.576876127090376,
+          "pip": 76.88722184580256,
+          "dip": 36.90588718599826
+        },
+        "worstMCP": {
+          "time": 86.52083333333333,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37263895299833,
+          "pip": 49.65498457799381,
+          "dip": 23.83439448434145
+        }
+      },
+      "failures": []
+    },
+    {
+      "id": "db00666",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": true,
+      "range": {
+        "begin": 146.47255,
+        "end": 146.56095000000002,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 8,
+      "candidateAffectedPairRows": 0,
+      "baselineTrianglePairSum": 107,
+      "candidateTrianglePairSum": 0,
+      "candidatePeakTrianglePairs": 0,
+      "candidateAffectedMaxKeyDepthMm": 2.8418533798159618,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.806561667679046,
+        "worstTime": 146.54583333333332,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.405053052933845,
+          1.806561667679046,
+          5.262416201976837e-08,
+          5.087350877531741e-08,
+          1.7662861229491302
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.373598123909034,
+        "dorsalTime": 146.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.373598123909034,
+          39.703733713310235,
+          40.36415196019042,
+          41.98223658495621
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.806561667679046,
+        "worstTime": 146.54583333333332,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.405053052933845,
+          1.806561667679046,
+          5.262416201976837e-08,
+          5.087350877531741e-08,
+          1.3114082724979654
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.3679118970008,
+        "dorsalTime": 146.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.3679118970008,
+          39.703733713310235,
+          40.36415196019042,
+          41.26012750479147
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 146.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.73366037317293,
+          "pip": 76.98123193242587,
+          "dip": 36.95101205293674
+        },
+        "worstMCP": {
+          "time": 146.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.373598123909034,
+          "pip": 49.65498455252298,
+          "dip": 23.834394488835578
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 146.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.73366037317293,
+          "pip": 76.98123193242587,
+          "dip": 36.95101205293674
+        },
+        "worstMCP": {
+          "time": 146.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.3679118970008,
+          "pip": 49.65498455252298,
+          "dip": 23.834394488835578
+        }
+      },
+      "failures": []
+    },
+    {
+      "id": "db00725",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": true,
+      "range": {
+        "begin": 156.47255,
+        "end": 156.56095000000002,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 8,
+      "candidateAffectedPairRows": 0,
+      "baselineTrianglePairSum": 99,
+      "candidateTrianglePairSum": 0,
+      "candidatePeakTrianglePairs": 0,
+      "candidateAffectedMaxKeyDepthMm": 2.841853860236776,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.806561672189387,
+        "worstTime": 156.54583333333332,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4050530509297423,
+          1.806561672189387,
+          5.193543916825827e-08,
+          5.0230538544072066e-08,
+          1.7662861340240534
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37832314127478,
+        "dorsalTime": 156.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37832314127478,
+          39.71115692869985,
+          40.37157292541127,
+          41.989593348847606
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.806561672189387,
+        "worstTime": 156.54583333333332,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4050530509297423,
+          1.806561672189387,
+          5.193543916825827e-08,
+          5.0230538544072066e-08,
+          1.3114082859024618
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37265205717011,
+        "dorsalTime": 156.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37265205717011,
+          39.71115692869985,
+          40.37157292541127,
+          41.26754546866486
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 156.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.733327388368124,
+          "pip": 76.98123198239658,
+          "dip": 36.951012057884846
+        },
+        "worstMCP": {
+          "time": 156.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37832314127478,
+          "pip": 49.65498457750978,
+          "dip": 23.83439448551217
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 156.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 19.733327388368124,
+          "pip": 76.98123198239658,
+          "dip": 36.951012057884846
+        },
+        "worstMCP": {
+          "time": 156.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37265205717011,
+          "pip": 49.65498457750978,
+          "dip": 23.83439448551217
+        }
+      },
+      "failures": []
+    },
+    {
+      "id": "db00847",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": true,
+      "range": {
+        "begin": 186.47255,
+        "end": 186.56095000000002,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 8,
+      "candidateAffectedPairRows": 0,
+      "baselineTrianglePairSum": 107,
+      "candidateTrianglePairSum": 0,
+      "candidatePeakTrianglePairs": 0,
+      "candidateAffectedMaxKeyDepthMm": 2.8418532035115462,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.7989263683701773,
+        "worstTime": 186.5375,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4010210323140244,
+          1.7989263683701773,
+          5.851345944570886e-08,
+          5.656360637284342e-08,
+          1.7662861211707088
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37276799332892,
+        "dorsalTime": 186.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37276799332892,
+          39.704747242164984,
+          40.36516071561682,
+          41.98148095152063
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.7989263683701773,
+        "worstTime": 186.5375,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.4010210323140244,
+          1.7989263683701773,
+          5.851345944570886e-08,
+          5.656360637284342e-08,
+          1.3114082701099614
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.36707911863717,
+        "dorsalTime": 186.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.36707911863717,
+          39.704747242164984,
+          40.36516071561682,
+          41.2611296048535
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 186.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 20.268270134132397,
+          "pip": 77.3011275421117,
+          "dip": 37.10456196765463
+        },
+        "worstMCP": {
+          "time": 186.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37276799332892,
+          "pip": 49.654984536009216,
+          "dip": 23.83439449645496
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 186.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 20.268270134132397,
+          "pip": 77.3011275421117,
+          "dip": 37.10456196765463
+        },
+        "worstMCP": {
+          "time": 186.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.36707911863717,
+          "pip": 49.654984536009216,
+          "dip": 23.83439449645496
+        }
+      },
+      "failures": []
+    },
+    {
+      "id": "db00906",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 5,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": true,
+      "range": {
+        "begin": 196.47255,
+        "end": 196.56095000000002,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 8,
+      "candidateAffectedPairRows": 0,
+      "baselineTrianglePairSum": 99,
+      "candidateTrianglePairSum": 0,
+      "candidatePeakTrianglePairs": 0,
+      "candidateAffectedMaxKeyDepthMm": 2.8418536893725643,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.7989263725791504,
+        "worstTime": 196.5375,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.401021030009458,
+          1.7989263725791504,
+          5.773867066056186e-08,
+          5.584887288709116e-08,
+          1.7662861324329089
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.377503068192844,
+        "dorsalTime": 196.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.377503068192844,
+          39.71214811741699,
+          40.37255934343894,
+          41.9888298187895
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.7989263725791504,
+        "worstTime": 196.5375,
+        "worstFinger": 2,
+        "perFingerSpeed": [
+          1.401021030009458,
+          1.7989263725791504,
+          5.773867066056186e-08,
+          5.584887288709116e-08,
+          1.3114082836727057
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.37182937115423,
+        "dorsalTime": 196.52083333333334,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.37182937115423,
+          39.71214811741699,
+          40.37255934343894,
+          41.268525233671674
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 196.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 20.26793608971246,
+          "pip": 77.30112759090076,
+          "dip": 37.10456197196234
+        },
+        "worstMCP": {
+          "time": 196.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.377503068192844,
+          "pip": 49.65498456202721,
+          "dip": 23.834394493029514
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 196.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 20.26793608971246,
+          "pip": 77.30112759090076,
+          "dip": 37.10456197196234
+        },
+        "worstMCP": {
+          "time": 196.52083333333334,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.37182937115423,
+          "pip": 49.65498456202721,
+          "dip": 23.834394493029514
+        }
+      },
+      "failures": []
+    }
+  ],
+  "rejectedEvidence": [
+    {
+      "id": "db00088",
+      "kind": "approach",
+      "cfg": {
+        "pose": {
+          "duration": 0.11,
+          "liftDegrees": 0,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": false,
+      "range": {
+        "begin": 23.9603,
+        "end": 24.0787,
+        "clearanceWindow": null
+      },
+      "samples": 35,
+      "baselineAffectedPairRows": 15,
+      "candidateAffectedPairRows": 15,
+      "baselineTrianglePairSum": 832,
+      "candidateTrianglePairSum": 128,
+      "candidatePeakTrianglePairs": 20,
+      "candidateAffectedMaxKeyDepthMm": 0,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 32,
+        "maxSpeed": 1.421085625248983,
+        "worstTime": 24.045833333333334,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.28984641242803955,
+          0.268169548327734,
+          0.2595953308021084,
+          0.2506265530270166,
+          1.421085625248983
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 43.146008474436265,
+        "dorsalTime": 23.995833333333334,
+        "dorsalFinger": 5,
+        "perFingerDorsal": [
+          41.993784766614226,
+          40.06774397401914,
+          40.56667023447455,
+          43.146008474436265
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 32,
+        "maxSpeed": 0.8816532681880563,
+        "worstTime": 24.0375,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.28984641242803955,
+          0.268169548327734,
+          0.2595953308021084,
+          0.2506265530270166,
+          0.8816532681880563
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 41.894870415135685,
+        "dorsalTime": 24.004166666666666,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          41.894870415135685,
+          39.950243394147165,
+          40.44924830917644,
+          41.45931215789403
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 24.033333333333335,
+          "finger": 5,
+          "backward": 0,
+          "dorsal": 21.99927713756789,
+          "pip": 41.725582744491824,
+          "dip": 20.028285746531267
+        },
+        "worstMCP": {
+          "time": 23.995833333333334,
+          "finger": 5,
+          "backward": 0,
+          "dorsal": 43.146008474436265,
+          "pip": 34.20026940046823,
+          "dip": 16.416134312498702
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 24.033333333333335,
+          "finger": 5,
+          "backward": 0,
+          "dorsal": -0.7458929090479103,
+          "pip": 42.52998130848906,
+          "dip": 20.414396264305605
+        },
+        "worstMCP": {
+          "time": 24.004166666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 41.894870415135685,
+          "pip": 24.902238016869802,
+          "dip": 11.953075816192243
+        }
+      },
+      "failures": [
+        {
+          "time": 24.004166666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 6
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737523119405744,
+          "pass": false
+        },
+        {
+          "time": 24.008333333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 14
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737523331946427,
+          "pass": false
+        },
+        {
+          "time": 24.0125,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737523604586296,
+          "pass": false
+        },
+        {
+          "time": 24.015698999999998,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 16
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375238494501676,
+          "pass": false
+        },
+        {
+          "time": 24.016666666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 12
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737523927358502,
+          "pass": false
+        },
+        {
+          "time": 24.020833333333332,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 10
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737524283457429,
+          "pass": false
+        },
+        {
+          "time": 24.025,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 10
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375246743053594,
+          "pass": false
+        },
+        {
+          "time": 24.029166666666665,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 8
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375251017747796,
+          "pass": false
+        },
+        {
+          "time": 24.033333333333335,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 8
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737525567976966,
+          "pass": false
+        },
+        {
+          "time": 24.0375,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 9
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375260751830246,
+          "pass": false
+        },
+        {
+          "time": 24.041666666666668,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 6
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737526625832181,
+          "pass": false
+        },
+        {
+          "time": 24.045833333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 4
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.04737527222577022,
+          "pass": false
+        },
+        {
+          "time": 24.05,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 2
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375278682464744,
+          "pass": false
+        },
+        {
+          "time": 24.054166666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 2
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375285659510026,
+          "pass": false
+        },
+        {
+          "time": 24.058333333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 1
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 0.047375293081602,
+          "pass": false
+        },
+        {
+          "time": 24.3179,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 1.237459692857712,
+          "marker": 1.1312880760306319,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "id": "db00438",
+      "kind": "approach",
+      "cfg": {
+        "pose": {
+          "duration": 0.14,
+          "liftDegrees": 0,
+          "sweepDegrees": 8
+        }
+      },
+      "pass": false,
+      "range": {
+        "begin": 94.5553,
+        "end": 94.7037,
+        "clearanceWindow": null
+      },
+      "samples": 42,
+      "baselineAffectedPairRows": 18,
+      "candidateAffectedPairRows": 28,
+      "baselineTrianglePairSum": 1349,
+      "candidateTrianglePairSum": 569,
+      "candidatePeakTrianglePairs": 33,
+      "candidateAffectedMaxKeyDepthMm": 2.9206970696133427,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 39,
+        "maxSpeed": 1.9101350243589257,
+        "worstTime": 94.57083333333334,
+        "worstFinger": 4,
+        "perFingerSpeed": [
+          1.179746112722791,
+          0.1344313397800161,
+          0.19335604910355714,
+          1.9101350243589257,
+          1.4354750924634117
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 52.64162312885098,
+        "dorsalTime": 94.59166666666667,
+        "dorsalFinger": 4,
+        "perFingerDorsal": [
+          36.27288952016767,
+          43.121359136331826,
+          52.64162312885098,
+          43.63000414597419
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 39,
+        "maxSpeed": 1.9101350243589257,
+        "worstTime": 94.57083333333334,
+        "worstFinger": 4,
+        "perFingerSpeed": [
+          1.179746112722791,
+          0.1344313397800161,
+          0.19335604910355714,
+          1.9101350243589257,
+          0.6861469857035464
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 52.603705874859884,
+        "dorsalTime": 94.59166666666667,
+        "dorsalFinger": 4,
+        "perFingerDorsal": [
+          36.239832807332206,
+          43.11223402548867,
+          52.603705874859884,
+          40.5013200381123
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 94.55,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 13.25136637134665,
+          "pip": 62.23334942915619,
+          "dip": 29.872014418186897
+        },
+        "worstMCP": {
+          "time": 94.59166666666667,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 52.64162312885098,
+          "pip": 44.869643677186204,
+          "dip": 21.537433480549264
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 94.55,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 13.25136637134665,
+          "pip": 62.23334942915619,
+          "dip": 29.872014418186897
+        },
+        "worstMCP": {
+          "time": 94.59166666666667,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 52.603705874859884,
+          "pip": 44.869643677186204,
+          "dip": 21.537433480549264
+        }
+      },
+      "failures": [
+        {
+          "time": 94.57083333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.874609475200757e-05,
+          "pass": false
+        },
+        {
+          "time": 94.575,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 14
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 14
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.875740434215046e-05,
+          "pass": false
+        },
+        {
+          "time": 94.5875,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 8
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 8
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.8798601142318435e-05,
+          "pass": false
+        },
+        {
+          "time": 94.59166666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 17
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 17
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.8814725239124306e-05,
+          "pass": false
+        },
+        {
+          "time": 94.59583333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 14
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 14
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.883202485369185e-05,
+          "pass": false
+        },
+        {
+          "time": 94.6,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.885048467487462e-05,
+          "pass": false
+        },
+        {
+          "time": 94.60416666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 24
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 24
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.88700878423634e-05,
+          "pass": false
+        },
+        {
+          "time": 94.60833333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 27
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 27
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.889081600697123e-05,
+          "pass": false
+        },
+        {
+          "time": 94.6125,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 27
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 27
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.8912540389812246e-05,
+          "pass": false
+        },
+        {
+          "time": 94.61666666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 29
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 29
+            }
+          ],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.893493571579939e-05,
+          "pass": false
+        },
+        {
+          "time": 94.62083333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 24
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.8957948151530216e-05,
+          "pass": false
+        },
+        {
+          "time": 94.625,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 24
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.898154738870311e-05,
+          "pass": false
+        },
+        {
+          "time": 94.62916666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 26
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.9005713075772436e-05,
+          "pass": false
+        },
+        {
+          "time": 94.63333333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 24
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.903043462137496e-05,
+          "pass": false
+        },
+        {
+          "time": 94.6375,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 30
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.905571254961049e-05,
+          "pass": false
+        },
+        {
+          "time": 94.64166666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 31
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.908139691651199e-05,
+          "pass": false
+        },
+        {
+          "time": 94.64583333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 33
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.9107239486407826e-05,
+          "pass": false
+        },
+        {
+          "time": 94.646538,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 33
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.911162533245545e-05,
+          "pass": false
+        },
+        {
+          "time": 94.65,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 29
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.913323800833695e-05,
+          "pass": false
+        },
+        {
+          "time": 94.65416666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 29
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.915965752238266e-05,
+          "pass": false
+        },
+        {
+          "time": 94.65833333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.9186907182196964e-05,
+          "pass": false
+        },
+        {
+          "time": 94.6625,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.9215074335567665e-05,
+          "pass": false
+        },
+        {
+          "time": 94.66666666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 15
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.924425525589323e-05,
+          "pass": false
+        },
+        {
+          "time": 94.67083333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 11
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.927455956619609e-05,
+          "pass": false
+        },
+        {
+          "time": 94.675,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 9
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.930610935600797e-05,
+          "pass": false
+        },
+        {
+          "time": 94.67916666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 7
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.933904178830239e-05,
+          "pass": false
+        },
+        {
+          "time": 94.68333333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 3
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.93731106570699e-05,
+          "pass": false
+        },
+        {
+          "time": 94.6875,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 1
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 4.940781648403719e-05,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "id": "db00954",
+      "kind": "approach",
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "liftDegrees": 0,
+          "sweepDegrees": 5
+        }
+      },
+      "pass": false,
+      "range": {
+        "begin": 204.5953,
+        "end": 204.7037,
+        "clearanceWindow": null
+      },
+      "samples": 33,
+      "baselineAffectedPairRows": 18,
+      "candidateAffectedPairRows": 12,
+      "baselineTrianglePairSum": 1338,
+      "candidateTrianglePairSum": 303,
+      "candidatePeakTrianglePairs": 44,
+      "candidateAffectedMaxKeyDepthMm": 0,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.4321148652919538,
+        "worstTime": 204.675,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          1.1797461141337398,
+          0.13443133632847157,
+          0.19335604617919153,
+          0.9011375376948171,
+          1.4321148652919538
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 52.64332017664128,
+        "dorsalTime": 204.59166666666667,
+        "dorsalFinger": 4,
+        "perFingerDorsal": [
+          36.28638999087655,
+          43.11579221175457,
+          52.64332017664128,
+          43.6314359985365
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.2616844681590005,
+        "worstTime": 204.675,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          1.1797461141337398,
+          0.13443133632847157,
+          0.19335604617919153,
+          0.9011375376948171,
+          1.2616844681590005
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 52.64332017664128,
+        "dorsalTime": 204.59166666666667,
+        "dorsalFinger": 4,
+        "perFingerDorsal": [
+          36.272048036250865,
+          43.11579221175457,
+          52.64332017664128,
+          41.67046157127359
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 204.5875,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 51.7486836947801,
+          "pip": 47.20736002153119,
+          "dip": 22.659537915347435
+        },
+        "worstMCP": {
+          "time": 204.59166666666667,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 52.64332017664128,
+          "pip": 44.86964378888895,
+          "dip": 21.537433476861764
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 204.5875,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 51.7486836947801,
+          "pip": 47.20736002153119,
+          "dip": 22.659537915347435
+        },
+        "worstMCP": {
+          "time": 204.59166666666667,
+          "finger": 4,
+          "backward": 0,
+          "dorsal": 52.64332017664128,
+          "pip": 44.86964378888895,
+          "dip": 21.537433476861764
+        }
+      },
+      "failures": [
+        {
+          "time": 204.64166666666668,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 4
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.876332695591792e-05,
+          "pass": false
+        },
+        {
+          "time": 204.64583333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 29
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.874316632417302e-05,
+          "pass": false
+        },
+        {
+          "time": 204.65,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 44
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.8722260502173e-05,
+          "pass": false
+        },
+        {
+          "time": 204.65416666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 36
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.870066436297314e-05,
+          "pass": false
+        },
+        {
+          "time": 204.65833333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 41
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.867838889401056e-05,
+          "pass": false
+        },
+        {
+          "time": 204.6625,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 40
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.865543611926344e-05,
+          "pass": false
+        },
+        {
+          "time": 204.66666666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 36
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.8631807425422e-05,
+          "pass": false
+        },
+        {
+          "time": 204.67083333333332,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 33
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.860750344066249e-05,
+          "pass": false
+        },
+        {
+          "time": 204.675,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 19
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.858252155514784e-05,
+          "pass": false
+        },
+        {
+          "time": 204.67916666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 9
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.85568578302069e-05,
+          "pass": false
+        },
+        {
+          "time": 204.68333333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 9
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.853058594393706e-05,
+          "pass": false
+        },
+        {
+          "time": 204.6875,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 3
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 7.850382983982396e-05,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "id": "db00275",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.06,
+          "liftDegrees": 5,
+          "sweepDegrees": 10
+        }
+      },
+      "pass": false,
+      "range": {
+        "begin": 66.47255,
+        "end": 66.56094999999999,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 12,
+      "candidateAffectedPairRows": 6,
+      "baselineTrianglePairSum": 620,
+      "candidateTrianglePairSum": 26,
+      "candidatePeakTrianglePairs": 8,
+      "candidateAffectedMaxKeyDepthMm": 5.496033211556062,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.8218346674400787,
+        "worstTime": 66.50416666666666,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.9816763707827881,
+          1.7148633172965884,
+          1.0972688558599797e-08,
+          1.0555120393334002e-08,
+          1.8218346674400787
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.0229711722017,
+        "dorsalTime": 66.51666666666667,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.0229711722017,
+          41.0492728855966,
+          41.62744643099562,
+          43.22544985727702
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.897980085240752,
+        "worstTime": 66.50416666666666,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.9816763707827881,
+          1.7148633172965884,
+          1.0972688558599797e-08,
+          1.0555120393334002e-08,
+          1.897980085240752
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.043274075866236,
+        "dorsalTime": 66.51666666666667,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.043274075866236,
+          41.0492728855966,
+          41.62744643099562,
+          42.81546843599908
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 66.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 21.441727594103163,
+          "pip": 85.96621501604442,
+          "dip": 41.26379962963051
+        },
+        "worstMCP": {
+          "time": 66.51666666666667,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.0229711722017,
+          "pip": 47.404065688432404,
+          "dip": 22.753955261061183
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 66.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 21.441727594103163,
+          "pip": 85.96621501604442,
+          "dip": 41.26379962963051
+        },
+        "worstMCP": {
+          "time": 66.51666666666667,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.043274075866236,
+          "pip": 47.404065688432404,
+          "dip": 22.753955261061183
+        }
+      },
+      "failures": [
+        {
+          "time": 66.49166666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 1
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1420972584605848e-05,
+          "pass": false
+        },
+        {
+          "time": 66.49583333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 3
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.142783909939075e-05,
+          "pass": false
+        },
+        {
+          "time": 66.5,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 4
+            }
+          ],
+          "affectedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 23,
+              "deepVertices": 16,
+              "maxDepthMm": 5.496033211556062
+            }
+          ],
+          "increasedPairs": [],
+          "increasedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 23,
+              "deepVertices": 16,
+              "maxDepthMm": 5.496033211556062
+            }
+          ],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1434962890082825e-05,
+          "pass": false
+        },
+        {
+          "time": 66.50416666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 7
+            }
+          ],
+          "affectedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 6,
+              "deepVertices": 1,
+              "maxDepthMm": 4.532312589398679
+            }
+          ],
+          "increasedPairs": [],
+          "increasedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 6,
+              "deepVertices": 1,
+              "maxDepthMm": 4.532312589398679
+            }
+          ],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.144232492807704e-05,
+          "pass": false
+        },
+        {
+          "time": 66.50833333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 8
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1449904419193117e-05,
+          "pass": false
+        },
+        {
+          "time": 66.5125,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 3
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1457677995868456e-05,
+          "pass": false
+        }
+      ]
+    },
+    {
+      "id": "db00610",
+      "kind": "release",
+      "cfg": {
+        "pose": {
+          "duration": 0.06,
+          "liftDegrees": 0,
+          "sweepDegrees": 5
+        }
+      },
+      "pass": false,
+      "range": {
+        "begin": 136.47255,
+        "end": 136.56095000000002,
+        "clearanceWindow": null
+      },
+      "samples": 28,
+      "baselineAffectedPairRows": 12,
+      "candidateAffectedPairRows": 7,
+      "baselineTrianglePairSum": 645,
+      "candidateTrianglePairSum": 69,
+      "candidatePeakTrianglePairs": 23,
+      "candidateAffectedMaxKeyDepthMm": 4.541837639427948,
+      "baselineMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.821834667296305,
+        "worstTime": 136.50416666666666,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.9749786958975342,
+          1.711398416630572,
+          1.1943301766170761e-08,
+          1.1504879491207334e-08,
+          1.821834667296305
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.022740339581574,
+        "dorsalTime": 136.51666666666668,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.022740339581574,
+          41.04902285278141,
+          41.62719598911251,
+          43.22525593076629
+        ]
+      },
+      "candidateMotion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 1.7969508145586834,
+        "worstTime": 136.50833333333333,
+        "worstFinger": 5,
+        "perFingerSpeed": [
+          0.9749786958975342,
+          1.711398416630572,
+          1.1943301766170761e-08,
+          1.1504879491207334e-08,
+          1.7969508145586834
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 54.027297637031005,
+        "dorsalTime": 136.51666666666668,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          54.027297637031005,
+          41.04902285278141,
+          41.62719598911251,
+          42.81521713149117
+        ]
+      },
+      "baselineShape": {
+        "maxPIP": {
+          "time": 136.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 21.512345499554964,
+          "pip": 85.9662150102598,
+          "dip": 41.26379962411341
+        },
+        "worstMCP": {
+          "time": 136.51666666666668,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.022740339581574,
+          "pip": 47.404065685786954,
+          "dip": 22.753955261855552
+        }
+      },
+      "candidateShape": {
+        "maxPIP": {
+          "time": 136.56666666666666,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 21.512345499554964,
+          "pip": 85.9662150102598,
+          "dip": 41.26379962411341
+        },
+        "worstMCP": {
+          "time": 136.51666666666668,
+          "finger": 2,
+          "backward": 0,
+          "dorsal": 54.027297637031005,
+          "pip": 47.404065685786954,
+          "dip": 22.753955261855552
+        }
+      },
+      "failures": [
+        {
+          "time": 136.49166666666667,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 1
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1408786728242302e-05,
+          "pass": false
+        },
+        {
+          "time": 136.49583333333334,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 2
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1415997162955306e-05,
+          "pass": false
+        },
+        {
+          "time": 136.5,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 4
+            }
+          ],
+          "affectedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 6,
+              "deepVertices": 2,
+              "maxDepthMm": 3.3118463879173166
+            }
+          ],
+          "increasedPairs": [],
+          "increasedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 6,
+              "deepVertices": 2,
+              "maxDepthMm": 3.3118463879173166
+            }
+          ],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1423503554089968e-05,
+          "pass": false
+        },
+        {
+          "time": 136.50416666666666,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 9
+            }
+          ],
+          "affectedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 10,
+              "deepVertices": 4,
+              "maxDepthMm": 4.541837639427948
+            }
+          ],
+          "increasedPairs": [],
+          "increasedCores": [
+            {
+              "patch": "LPinky",
+              "key": 42,
+              "active": false,
+              "vertices": 10,
+              "deepVertices": 4,
+              "maxDepthMm": 4.541837639427948
+            }
+          ],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1431287480080846e-05,
+          "pass": false
+        },
+        {
+          "time": 136.50833333333333,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 10
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1439329385488294e-05,
+          "pass": false
+        },
+        {
+          "time": 136.5125,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 20
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1447607829793168e-05,
+          "pass": false
+        },
+        {
+          "time": 136.51666666666668,
+          "wristDisplacementMm": 0,
+          "elbowDisplacementMm": 0,
+          "affectedPairs": [
+            {
+              "a": "LRing",
+              "b": "LPinky",
+              "kind": "neighbor",
+              "trianglePairs": 23
+            }
+          ],
+          "affectedCores": [],
+          "increasedPairs": [],
+          "increasedCores": [],
+          "padDisplacementMm": 0,
+          "padGapChangeMm": 0,
+          "padMissing": false,
+          "padMax": 0,
+          "marker": 1.1456100184105366e-05,
+          "pass": false
+        }
+      ]
+    }
+  ],
+  "guardOnlyCandidate": {
+    "promoted": false,
+    "passes": 0,
+    "finding": "Legacy160/200 ms own-flight clearance guards suppress valid rest correction after new80/100 ms transport. Effective Pose timing activates intended offsets, but finite candidates still fail surface or MCP gates.",
+    "sourceTS": "ffce9ab75bdd1b5ab81110dcb79bf854362016f63930c7e11ef681e815a2ac76",
+    "sourceMJS": "87c4a59156c261f477bf154cb6decd0d20203f0cea540c0c3cbe9dc2489cb341",
+    "diagnostics": [
+      {
+        "id": "db00088",
+        "kind": "approach",
+        "time": 24.015698999999998,
+        "ringHeld": false,
+        "ringPrevious": "db00050",
+        "ringNext": "db00089",
+        "secondsSinceRingEnd": 9.288948999999999,
+        "secondsUntilRingStart": 0.3673010000000012,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.00003637407143
+      },
+      {
+        "id": "db00438",
+        "kind": "approach",
+        "time": 94.646538,
+        "ringHeld": false,
+        "ringPrevious": "db00435",
+        "ringNext": "db00450",
+        "secondsSinceRingEnd": 0.10328800000000626,
+        "secondsUntilRingStart": 1.9279619999999937,
+        "legacyWeight": 0,
+        "poseWindowWeight": 0.20488246193809695,
+        "ringTipDisplacementMm": 0
+      },
+      {
+        "id": "db00954",
+        "kind": "approach",
+        "time": 204.64090499999998,
+        "ringHeld": false,
+        "ringPrevious": "db00951",
+        "ringNext": "db00966",
+        "secondsSinceRingEnd": 0.09765499999997473,
+        "secondsUntilRingStart": 1.9335950000000253,
+        "legacyWeight": 0,
+        "poseWindowWeight": 0.12461264341227173,
+        "ringTipDisplacementMm": 0
+      },
+      {
+        "id": "db00275",
+        "kind": "release",
+        "time": 66.513878,
+        "ringHeld": false,
+        "ringPrevious": "db00264",
+        "ringNext": "db00407",
+        "secondsSinceRingEnd": 1.970628000000005,
+        "secondsUntilRingStart": 23.49412199999999,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 11.999887635211206
+      },
+      {
+        "id": "db00390",
+        "kind": "release",
+        "time": 86.513923,
+        "ringHeld": false,
+        "ringPrevious": "db00264",
+        "ringNext": "db00407",
+        "secondsSinceRingEnd": 21.970673000000005,
+        "secondsUntilRingStart": 3.49407699999999,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.000077933979938
+      },
+      {
+        "id": "db00610",
+        "kind": "release",
+        "time": 136.521482,
+        "ringHeld": false,
+        "ringPrevious": "db00599",
+        "ringNext": "db00923",
+        "secondsSinceRingEnd": 1.9782319999999913,
+        "secondsUntilRingStart": 63.48651800000002,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 11.99988763466375
+      },
+      {
+        "id": "db00666",
+        "kind": "release",
+        "time": 146.514375,
+        "ringHeld": false,
+        "ringPrevious": "db00599",
+        "ringNext": "db00923",
+        "secondsSinceRingEnd": 11.971125,
+        "secondsUntilRingStart": 53.49362500000001,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.000077905731803
+      },
+      {
+        "id": "db00725",
+        "kind": "release",
+        "time": 156.521256,
+        "ringHeld": false,
+        "ringPrevious": "db00599",
+        "ringNext": "db00923",
+        "secondsSinceRingEnd": 21.978005999999993,
+        "secondsUntilRingStart": 43.486744000000016,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.000077933727088
+      },
+      {
+        "id": "db00847",
+        "kind": "release",
+        "time": 186.514918,
+        "ringHeld": false,
+        "ringPrevious": "db00599",
+        "ringNext": "db00923",
+        "secondsSinceRingEnd": 51.971667999999994,
+        "secondsUntilRingStart": 13.493082000000015,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.000077899738624
+      },
+      {
+        "id": "db00906",
+        "kind": "release",
+        "time": 196.520669,
+        "ringHeld": false,
+        "ringPrevious": "db00599",
+        "ringNext": "db00923",
+        "secondsSinceRingEnd": 61.977419,
+        "secondsUntilRingStart": 3.4873310000000117,
+        "legacyWeight": 1,
+        "poseWindowWeight": 1,
+        "ringTipDisplacementMm": 12.000077927773738
+      }
+    ]
+  },
+  "portableTrialEvidence": "portable-trials.json",
+  "fullCandidateVsBaselineEvidence": "combined-verification.json",
+  "fullRejectedCandidateVsBaselineEvidence": "rejected-verification.json",
+  "renderReview": "render-review-times.json"
+}

@@ -1,0 +1,86 @@
+{
+  "baseline": "Actual app tracked at b8c30b0, compiled from current app/performance; old local joint transport + accepted elbow taper.",
+  "baselineScoreSha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a",
+  "v6ScoreSha256": "b0474db884b74a74858ef0f9347ce0b8188e086fbd81eacd33ff02e79dd1ef40",
+  "keyCounts": {
+    "resolvedPatchKeyRows": 742,
+    "introducedPatchKeyRows": 170,
+    "sharedPatchKeyRows": 79,
+    "sharedDepthImproved": 36,
+    "sharedDepthWorsened": 40,
+    "sharedDepthExactWithin1e6mm": 3,
+    "resolvedWholeFrames": 623,
+    "introducedWholeFrames": 132,
+    "sharedWholeFrames": 108
+  },
+  "shape": {
+    "samplesEach": 109024,
+    "violations": [
+      0,
+      0
+    ],
+    "maxDorsalElevationDegrees": [
+      48.82303889417526,
+      57.14803152412017
+    ],
+    "maxBackwardPipMm": [
+      1.8150437260534558,
+      1.8150437260534558
+    ],
+    "changedMetricSamples": 22980
+  },
+  "motion": {
+    "maxTipSpeedMps": [
+      5.035493937091961,
+      3.8540084969470705
+    ],
+    "tipViolationRows": [
+      4,
+      0
+    ],
+    "wristRowsExact": 27254,
+    "padRowsExact": 5055
+  },
+  "keyCores": {
+    "severeFrames": [
+      731,
+      240
+    ],
+    "severeRows": [
+      821,
+      249
+    ],
+    "maxMm": [
+      7.958497411144516,
+      7.245505396238528
+    ],
+    "heldSevereRows": [
+      0,
+      0
+    ]
+  },
+  "scope": "Complete 13,628 frames per version at60 Hz and all5,055 held pad samples; pair evidence is a separate finite pilot.",
+  "pairPilot": {
+    "samplesEach": 240,
+    "hitFrames": [
+      41,
+      46
+    ],
+    "pairRows": [
+      47,
+      49
+    ],
+    "trianglePairTotal": [
+      1102,
+      2560
+    ],
+    "resolvedPairRows": 25,
+    "introducedPairRows": 27,
+    "sharedPairRows": 22,
+    "estimatedFull60Minutes": [
+      8.76916873689139,
+      8.824714110275815
+    ],
+    "fullScanLaunched": false
+  }
+}

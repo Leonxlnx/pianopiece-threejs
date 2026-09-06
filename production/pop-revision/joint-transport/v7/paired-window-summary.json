@@ -1,0 +1,727 @@
+{
+  "status": "ALL_12_V6_TO_V7_ROUTE_GATES_PASS",
+  "independentBaselineHashes": {
+    "rig": "ee81045d8e8d0d42b343549546023af96b2c3b30900cfeac42644267fb4635df",
+    "piano": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "score": "b0474db884b74a74858ef0f9347ce0b8188e086fbd81eacd33ff02e79dd1ef40",
+    "model": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+  },
+  "candidateHashes": {
+    "pianist.ts": "d7ef64fb4fa5f559a2adc46ec60caff303f9ca5ae5161c428dd4ab1540b609a9",
+    "pianist.mjs": "0cf3cb902d572bb0c9a4ea34392933a734557bd294b539abfa1447e4dd83e331",
+    "score.json": "0f2d04d87565e25e3b9f89d5d8dc230d17f508ed2daa7fd78d8b06a2287e26ef"
+  },
+  "modelSha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "counts": {
+    "routes": 12,
+    "uniqueGeometryTimes": 375,
+    "pairedRouteTimeComparisons": 381,
+    "actualSkinEvaluations": 756,
+    "uniform240MotionSamples": 345,
+    "heldPadSamples": 120
+  },
+  "maxima": {
+    "allFiveTipMetersPerSecond": 2.1358578157533836,
+    "actualDorsalSkinDegrees": 49.41639984898807,
+    "backwardPipMm": 0,
+    "keyCoreMm": 2.9146702159808524,
+    "absoluteHeldPadGapMm": 0.3193423180287702,
+    "heldSkinDisplacementMm": 0,
+    "heldPadGapChangeMm": 0
+  },
+  "failures": {
+    "nonfinite": 0,
+    "affectedPairs": 0,
+    "affectedCores": 0,
+    "introducedOrIncreasedPairs": 0,
+    "introducedOrIncreasedSevereCores": 0,
+    "failedRows": 0
+  },
+  "routes": [
+    {
+      "target": {
+        "id": "db00098",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          26.513951
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 26.470299999999998,
+      "end": 26.5787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.7076833856810933,
+        "worstTime": 26.554166666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          0.015673633768460378,
+          1.4880570744174728,
+          1.7076833856810933,
+          0.049423138229211454,
+          0.06243189886201532
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.190560649483245,
+        "dorsalTime": 26.5125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.190560649483245,
+          35.16571878713411,
+          35.87036396403722,
+          38.22229089838465
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.872397574237462,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00154",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          40.896454000000006
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 40.8453,
+      "end": 40.9537,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.7113722589671874,
+        "worstTime": 40.92916666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          0.19902432105667645,
+          1.4924612352230493,
+          1.7113722589671874,
+          0.19082365476733257,
+          0.1851961376265398
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.2062036522187,
+        "dorsalTime": 40.8875,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.2062036522187,
+          35.20618350320468,
+          35.88046973104151,
+          38.232401712791585
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.857073872127247,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00178",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          46.513887000000004
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 46.4703,
+      "end": 46.5787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.709934613606696,
+        "worstTime": 46.55416666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          0.03546928754415237,
+          1.4914210042841523,
+          1.709934613606696,
+          0.027922639753355342,
+          0.03191164554065552
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.4163491344078,
+        "dorsalTime": 46.5125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.4163491344078,
+          34.80642005229359,
+          36.03980842341002,
+          38.391898673963425
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.8735527242179093,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00346",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          79.020373
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 78.97030000000001,
+      "end": 79.0787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.7934523875855233,
+        "worstTime": 79.05416666666666,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          4.330797939417446e-09,
+          1.4948979861434082,
+          1.7934523875855233,
+          6.09075435842265e-09,
+          5.771705378284134e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.38258778431773,
+        "dorsalTime": 79.0125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.38258778431773,
+          35.58906417080328,
+          36.034220195983956,
+          38.38630425265873
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.859251473419311,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00524",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          116.521659
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 116.47030000000001,
+      "end": 116.5787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.722365421604851,
+        "worstTime": 116.55416666666666,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          0.03546928772307748,
+          1.4922495053467502,
+          1.722365421604851,
+          0.02792263975620628,
+          0.03191164561177477
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.41214104860931,
+        "dorsalTime": 116.5125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.41214104860931,
+          34.80217971323066,
+          36.03580754660816,
+          38.38789490793705
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.914670095868377,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00563",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          126.514173
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 126.47030000000001,
+      "end": 126.5787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.7223654240747115,
+        "worstTime": 126.55416666666666,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          0.03546928721729737,
+          1.492249508878865,
+          1.7223654240747115,
+          0.02792264082205726,
+          0.03191164671160569
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.41639984898807,
+        "dorsalTime": 126.5125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.41639984898807,
+          34.80548436735813,
+          36.04109169742815,
+          38.39318269124221
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.9146702159808524,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00681",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          149.01682599999998
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 148.9703,
+      "end": 149.0787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.812947215472151,
+        "worstTime": 149.05416666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          4.434442972028282e-09,
+          1.4965837825107826,
+          1.812947215472151,
+          6.238049432205767e-09,
+          5.912125274895087e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.38194824939033,
+        "dorsalTime": 149.0125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.38194824939033,
+          35.58833638223685,
+          36.033775954816306,
+          38.38585958540664
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.8333946929675613,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00740",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          159.01869699999997
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 158.9703,
+      "end": 159.0787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.8129472103473474,
+        "worstTime": 159.05416666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          5.871917013510051e-09,
+          1.496583775915259,
+          1.8129472103473474,
+          6.5833204867484265e-09,
+          6.092898723259235e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.37766046472349,
+        "dorsalTime": 159.0125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.37766046472349,
+          35.58658927766147,
+          36.02782480651874,
+          38.37990606346133
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.833394572658132,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00862",
+        "kind": "approach",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          189.01774799999998
+        ],
+        "family": "approach:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.1,
+          "distalDuration": 0.035,
+          "liftDegrees": 0,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 188.9703,
+      "end": 189.0787,
+      "frames": 33,
+      "motion": {
+        "frameRate": 240,
+        "samples": 30,
+        "maxSpeed": 1.8785829305759114,
+        "worstTime": 189.05416666666667,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          5.1909474021642715e-09,
+          1.5026173760563195,
+          1.8785829305759114,
+          7.205647815089449e-09,
+          6.818081726050858e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 49.380084986419426,
+        "dorsalTime": 189.0125,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          49.380084986419426,
+          35.58639095354981,
+          36.032408114928025,
+          38.3844901949502
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.748260948228165,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00346",
+        "kind": "release",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          79.5181575
+        ],
+        "family": "release:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 79.47655,
+      "end": 79.56495,
+      "frames": 28,
+      "motion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 2.1358578156316494,
+        "worstTime": 79.5,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          8.28842166960492e-09,
+          1.843520560501402,
+          2.1358578156316494,
+          8.59770127244606e-09,
+          7.88828667723424e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 47.11558861453784,
+        "dorsalTime": 79.53333333333333,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          47.11558861453784,
+          35.6023253377243,
+          36.04365982534381,
+          38.395751196631075
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.7223742130875195,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00681",
+        "kind": "release",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          149.5221185
+        ],
+        "family": "release:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 149.47655,
+      "end": 149.56495,
+      "frames": 28,
+      "motion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 2.1358578157533836,
+        "worstTime": 149.5,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          9.11724934844733e-09,
+          1.843520560502103,
+          2.1358578157533836,
+          9.185269580893422e-09,
+          8.417425390268095e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 47.115960294109136,
+        "dorsalTime": 149.53333333333333,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          47.115960294109136,
+          35.60275685950614,
+          36.0439944687952,
+          38.39608691269757
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.722374179140896,
+      "padSamples": 10
+    },
+    {
+      "target": {
+        "id": "db00862",
+        "kind": "release",
+        "patch": "LMiddle",
+        "neighbor": "LRing",
+        "times": [
+          189.5227325
+        ],
+        "family": "release:LMiddle->LRing"
+      },
+      "cfg": {
+        "pose": {
+          "duration": 0.08,
+          "distalDuration": 0.025,
+          "liftDegrees": 5,
+          "sweepDegrees": 0
+        }
+      },
+      "begin": 189.47655,
+      "end": 189.56495,
+      "frames": 28,
+      "motion": {
+        "frameRate": 240,
+        "samples": 25,
+        "maxSpeed": 2.135857815718369,
+        "worstTime": 189.5,
+        "worstFinger": 3,
+        "perFingerSpeed": [
+          1.0754556682921313e-08,
+          1.8435205594794553,
+          2.135857815718369,
+          1.0792983426312543e-08,
+          9.892396721184125e-09
+        ],
+        "maxBackward": 0,
+        "backwardTime": 0,
+        "perFingerBackward": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "maxDorsal": 47.11587729816924,
+        "dorsalTime": 189.53333333333333,
+        "dorsalFinger": 2,
+        "perFingerDorsal": [
+          47.11587729816924,
+          35.603665416541496,
+          36.04490308854516,
+          38.39699587117822
+        ]
+      },
+      "strict": true,
+      "maxKeyCoreMm": 2.722374001795813,
+      "padSamples": 10
+    }
+  ],
+  "limits": "Finite full influence windows with 240 Hz guards and exact held samples, not a continuous-time proof or full-film pair audit. Active LH pads measured on deformed skin against hinged keys. All LH-related neighbor/own-palm/opposing intersections screened; unrelated unchanged preexisting failures can remain. 60 degree dorsal threshold is a conservative silhouette gate, not a clinical claim. E3 variant excluded."
+}

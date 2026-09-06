@@ -26,6 +26,13 @@ touch, returns to the borrowed F-minor color, and resolves to a plain C-major
 voicing. That simple final landing is deliberate. The pedal releases before a
 complete resonance tail; the piece does not loop or fade out mid-phrase.
 
+Bars 36 and 80 now finish with an A2–E3 accompaniment beneath the held C5
+melody. The established F bass makes this a late major-seventh color; E was
+already present in the melody earlier in each bar. Only those two accompaniment
+notes change from C3 to E3. This gives the thumb a more open route while keeping
+the lead melody, rhythm, velocity and earlier voicings intact. The two bars are
+labelled Fmaj7; the passing D in the melody is unchanged.
+
 | Time (seconds) | Bars | Section |
 | --- | --- | --- |
 | 0–10 | 1–4 | First light |

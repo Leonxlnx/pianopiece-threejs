@@ -1,0 +1,21 @@
+{
+  "command": "python production/pop-revision/music/verify.py --score-only --score after_performance/score.json",
+  "passed": true,
+  "notes": 1011,
+  "duration": 227.101587,
+  "maximumPhysicalPolyphony": {
+    "L": 2,
+    "R": 2
+  },
+  "maximumHeldSpanSemitones": {
+    "L": 7,
+    "R": 7
+  },
+  "hookRepetitions": 3,
+  "sameFingerOverlaps": 0,
+  "sameKeyOverlaps": 0,
+  "blackKeyThumbs": 0,
+  "audioEventSignature": "1f8119f6d049d00ab14ec8f8b2a015c59c90eb35b557b4570a1ecea24d6f6de7",
+  "overlapNegativeControlRejected": true,
+  "stdoutTerminator": "SCORE VERIFIED"
+}

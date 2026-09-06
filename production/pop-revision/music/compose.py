@@ -278,6 +278,16 @@ for hand in ('L','R'):
 notes.sort(key=lambda n:(n['time'],n['hand'],n['midi']))
 for i,n in enumerate(notes):
     n['id']=f'db{i+1:05d}';n.pop('group')
+# Authored late voicing: retain established F bass, add its major seventh.
+# Applied after deterministic performance so prior timing/fingering stays exact.
+voicing=[]
+for n in notes:
+    if n['bar'] in (36,80) and n['hand']=='L' and n['role']=='harmony' and n['beat']==2.5 and n['midi']==midi('C3'):
+        n['midi']=midi('E3');voicing.append(n['id'])
+assert voicing==['db00406','db00922'],voicing
+for h in harmony:
+    if h['bar'] in (36,80): h['chord']='Fmaj7'
+
 score={'title':'Daybreak','bpm':96,'duration':duration,'notes':notes,
        'sections':sections,'pedals':sorted(pedals,key=lambda e:e['time']),
        'accents':accents,'harmony':harmony,'tempoMap':tempo,'accompaniment':[],
