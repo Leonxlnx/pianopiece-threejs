@@ -1,0 +1,76 @@
+{
+  "scope": "Same frozen incumbent rig and verified garment/model, eaffbe6 score versus coherentv4; actual posed Human right-arm vertices and ivory garment vertices with >65% RightArm/RightForeArm ownership. Specific two inspected poses only. Near-identical geometry establishes the ending crescent was not introduced by this score support-repair series; does not approve garment aesthetics or rule out an inherited seam defect.",
+  "inputs": {
+    "label": "Independent coherent v4 score / frozen combined incumbent rig",
+    "hashes": {
+      "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775",
+      "pianist.ts": "59dc8e3e3d55856b0741d6e8029ca4cf40951de57c828df0395db94bedd8e1f1",
+      "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+      "direction.ts": "1352a4fc49797dd312df26e4c410b331a6f99721f1c2e55f45a048019da0691f",
+      "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+      "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+      "wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+      "ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+      "hair-motion-data.ts": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d",
+      "score.json": "401c48eeb4ced0bb50189609a5aa6b1a3890cba17c5cb2894199876a4a029369",
+      "baseline-score.json": "49fd52d9ea312f85f112cbdbccdc37f0e48e91e1a08093beb67b4afd79617309",
+      "model.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "rows": [
+    {
+      "time": 190.017,
+      "parts": [
+        {
+          "material": "Human.body",
+          "vertices": 468,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory crepe blouse \u2014 softly draped",
+          "vertices": 788,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory blouse \u2014 folded facings",
+          "vertices": 172,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory sewing thread",
+          "vertices": 396,
+          "maxDisplacementMm": 0
+        }
+      ],
+      "maxRightArmBoneDisplacementMm": 0
+    },
+    {
+      "time": 220.6984765,
+      "parts": [
+        {
+          "material": "Human.body",
+          "vertices": 468,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory crepe blouse \u2014 softly draped",
+          "vertices": 788,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory blouse \u2014 folded facings",
+          "vertices": 172,
+          "maxDisplacementMm": 0
+        },
+        {
+          "material": "Ivory sewing thread",
+          "vertices": 396,
+          "maxDisplacementMm": 0
+        }
+      ],
+      "maxRightArmBoneDisplacementMm": 0
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

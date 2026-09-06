@@ -7,7 +7,7 @@ This checkpoint continues the recovered GitHub `d020ecc` source. It does not cla
 - New original 88-bar, 1,011-note, 227.101587-second composition at 96 BPM. A recurring melodic hook develops through verses, returning choruses, a quieter bridge, a higher final chorus and a resolved coda. The arrangement uses at most two held notes per hand and a maximum held span of seven semitones.
 - Matching sampled-piano master rendered after 152 physical key-release adjustments. Public MP3: 320 kbps, −19.00 LUFS integrated, −1.63 dBTP, 7.3 LU loudness range. All 10,015,180 decoded samples are finite; six separated codec comparisons show zero sample lag. No critical listening was possible in this environment.
 - Supported two-link elbow placement and a 10 cm seating/bench adjustment, preserving world-space feet and keyboard targets. Baked quintic wrist trajectories satisfy the physical release constraints.
-- Twenty-two verified active grip corrections, plus a local db00108 ring-contact correction. The idle path follows the actual moving key height, with a compact three-axis thumb rest and cadence-dependent nonthumb lift. This clears the finite severe idle-key queue; neighboring-finger crossings remain under repair.
+- A coherent 359-note held-grip revision (156 left, 203 right) with local wrist support, preserving all audible fields and eliminating same-finger held overlaps. The compact thumb uses a 29 ms short-gap arrival after the changed contact anchors. Inactive travel is being fitted with explicit routes and neighboring-finger coordination; it is not globally accepted yet.
 - Ivory crepe blouse and midnight wool trousers, eased garment geometry, rounded cuffs and facings, seam threads, placket and pearl buttons. The original adult body, face, skin, hand geometry, skeleton and bind matrices are preserved exactly. This is authored cloth, not cloth simulation.
 - Rebuilt staggered floor boards, corrected wood grain and limestone mapping, linen acoustic panels, olive upholstered seating, ceramic and stone furnishings, a reading lamp, and softer room fill. Static batches retain shadow flags and named architecture membership for audits. Lounge chairs face the performance, side returns close the entrance corners, and solid door jambs, a header and a meeting rebate remove exterior light leaks.
 - Corrected lid-prop contact against the actual underside, grounded laminated bridges and steel string tails. Dynamic keys, dampers and pedals remain separate.
@@ -18,7 +18,7 @@ This checkpoint continues the recovered GitHub `d020ecc` source. It does not cla
 
 The production build passes with the new source-asset pipeline and integrated idle changes. The five existing tests and twenty mocked lifecycle checks pass in the integration work; final verification will bind the final combination. The camera audit covers 672 room-framing samples plus 96 reduced-motion samples; keyboard geometry covers all 88 real keys and 52,800 rays.
 
-On the identical 22-note active-grip score, old idle produced 22 severe key intersections across 19 of 72 contexts. The replacement has zero severe key rows in that screen and in 167 additional dense transition samples. Opposing-hand rows fall from three to zero. Full 60 Hz motion verification is being repeated after final grip integration.
+On the identical 22-note active-grip score, old idle produced 22 severe key intersections across 19 of 72 contexts. The replacement has zero severe key rows in that screen and in 167 additional dense transition samples. Opposing-hand rows fall from three to zero. The original 60 Hz replay missed higher speed peaks; final combined movement verification now uses 240 Hz and the stricter 1.5 m/s wrist, 25 m/s² wrist acceleration and 5 m/s fingertip limits.
 
 **Do not call the whole hand collision-free.** The expanded every-note-midpoint baseline (`all-midpoint-baseline.json`) covers 863 unique times across all 1,011 notes. It finds 57 key-core rows deeper than 3 mm, 53 own-palm rows, 624 neighboring-finger rows and zero opposing-hand rows. The earlier 72-context idle screen was too narrow to establish global clearance. Independent surface localization confirms real crossings beyond the shared web in several families. Pads alone do not establish a good hand. The retained blocker is independently measured key-core penetration deeper than 3 mm; triangle-pair counts are not penetration depth. The local ring correction clears its own-palm defect across 158 matched contexts without new key or patch-pair collisions, while leaving other neighbor defects explicit.
 
@@ -28,6 +28,10 @@ The final room still uses the original moderate-detail face and ponytail. Offlin
 
 The full new native 1080p/30 fps film has not been rendered. Its inherited CPU estimate was 13–20 hours. The export script now derives duration from the actual score and uses portable paths; strict source, frame, decode and audio guards remain in place.
 
+The updated opening fallback images show the new room and ivory wardrobe at 1920×1080 and 1080×1920. Final camera B also retains its margins after the combined wrist supports; the independent paired garment review distinguishes covered internal armhole overlap from exposed skin. See `reviews/v4-independent-review.md`.
+
+The first GitHub checkpoint is available in [draft pull request #1](https://github.com/Leonxlnx/pianopiece-threejs/pull/1). Work and evidence continue on that branch.
+
 ## Evidence map
 
 | Folder or report | Scope |
@@ -35,7 +39,8 @@ The full new native 1080p/30 fps film has not been rendered. Its inherited CPU e
 | `music/` | Composition, pinned samples, render/verify scripts, frozen audible score, mastering and codec evidence |
 | `character/` | Deterministic garment generator, bind/mesh invariants and matching before/after views |
 | `hair/` | Exact-posture motion bake and dependency-signature checker |
-| `active-grips/` | Finite active repair and actual key-pad/skin evidence |
+| `active-grips/` | Earlier finite active repair and actual key-pad/skin evidence |
+| `held-grips/` | Combined LH156/RH203 fingering/contact and local wrist deltas |
 | `reviews/` | Independent hand, room and integration findings |
 | `camera-room-audit.json` | Actual architecture framing and reduced-motion camera checks |
 | `keyboard-geometry-audit.json` | Hinged key geometry against actual triangle surfaces |

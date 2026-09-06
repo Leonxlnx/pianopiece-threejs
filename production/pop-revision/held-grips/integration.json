@@ -1,0 +1,16 @@
+{
+  "scope": "Exact merge of independently fitted LH156 and RH203 held-grip deltas; inactive finger travel remains in progress.",
+  "notes": 1011,
+  "changedNotes": 359,
+  "audibleFieldsIdentical": true,
+  "sameFingerHeldOverlaps": 0,
+  "coherentV4Exact": true,
+  "sourceSha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a",
+  "baselineSha256": "26c3ba9d8d3344b16a8dc481fe9d408d98b53a4703638b619dee5a344038cd2f",
+  "heldEvidenceRig": {
+    "baseCommit": "7962f728c75292cf156dedff4c064ca82a573b0c",
+    "patch": "held-evidence-rig.patch",
+    "sourceSha256": "59dc8e3e3d55856b0741d6e8029ca4cf40951de57c828df0395db94bedd8e1f1",
+    "scope": "Frozen staged-flight rig used by v4 held evidence, with27ms thumb arrival. This is historical evidence reconstruction, not final movement acceptance."
+  }
+}

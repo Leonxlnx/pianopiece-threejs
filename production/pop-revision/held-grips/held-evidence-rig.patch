@@ -1,0 +1,29 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -323,10 +323,22 @@
+  const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+- let rotations=idlePose.map(q=>q.clone());
+- // A single smooth arch clears an intervening black key before descending.
+- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWindow=Math.min(.025+.050*smooth((gap-.16)/.12),gap*.5),restWeight=smooth((time-end)/restWindow)*smooth((start-time)/Math.min(.022+(fi===3?0:.040)*smooth((gap-.16)/.12),gap*.5))*.95;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
+- else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.11);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.16);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
++ // Release vertically before moving across the black-key line, then
++ // descend above the destination key. The held chain remains unchanged.
++ const anchorTouch=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi);return piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));};
++ const flight=(a:THREE.Vector3,b:THREE.Vector3,u:number)=>{
++  const travel=Math.hypot(b.x-a.x,b.z-a.z),height=travel<.004?Math.max(a.y,b.y)+.009:Math.max(a.y,b.y,KEY_TOP+.046);
++  const liftedA=a.clone().setY(height),liftedB=b.clone().setY(height);
++  if(u<1/3)return a.clone().lerp(liftedA,smooth(u*3));
++  if(u<2/3)return liftedA.lerp(liftedB,smooth((u-1/3)*3));
++  return liftedB.lerp(b,smooth((u-2/3)*3));
++ };
++ const restTouch=idle.clone().setY(Math.max(idle.y,KEY_TOP+.057));
++ let touch=restTouch;
++ if(previous&&next&&gap<.50)touch=flight(anchorTouch(previous,end),anchorTouch(next,start),clamp((time-end)/Math.max(.001,gap)));
++ else if(previous&&time-end<.16)touch=flight(anchorTouch(previous,end),restTouch,clamp((time-end)/.16));
++ else if(next&&start-time<.20)touch=flight(restTouch,anchorTouch(next,start),clamp(1-(start-time)/.20));
++ const rotations=localPose(wp(hand.wrist),pose.q,touch);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;
+  }

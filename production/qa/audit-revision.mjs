@@ -8,6 +8,8 @@ import {GrandPiano,keyX,isBlack,keySurfaceY} from './compiled/piano.mjs';
 import {pedalPosition,mix,smooth} from './compiled/math.mjs';
 import {keyPadContact} from './key-pad-contact.mjs';
 const out=process.argv[2]??'production/revision/rig-audit.json';
+const fps=Number(process.env.DAYBREAK_QA_FPS??240);
+if(![60,120,240].includes(fps))throw new Error('DAYBREAK_QA_FPS must be 60, 120 or 240.');
 const context=new Proxy({},{get:(a,k)=>k in a?a[k]:(...args)=>{}});
 globalThis.document={createElement:()=>({width:512,height:512,getContext:()=>context})};globalThis.self=globalThis;
 const loader=new GLTFLoader();loader.register(()=>({name:'offline-validation-textures',loadTexture:()=>Promise.resolve(new T.Texture())}));
@@ -31,7 +33,7 @@ for(const n of score.notes)for(const fraction of [.015,.25,.5,.8,.985]){
  const record={id:n.id,time,hand:n.hand,finger:n.finger,midi:n.midi,fraction,gapMm:gap*1000};if(!count)missing.push(record);else skin.push(record);
  for(const c of performer.contacts){contactSamples++;maxContact=Math.max(maxContact,c.error);}
 }
-const fps=60,frames=Math.ceil(score.duration*fps),previousWrist=[],previousTip=[],previousVelocity=[],wristPeaks=[],tipPeaks=[];let maxPip=0,maxDip=0,nonfinite=0;
+const frames=Math.ceil(score.duration*fps),previousWrist=[],previousTip=[],previousVelocity=[],wristPeaks=[],tipPeaks=[];let maxPip=0,maxDip=0,nonfinite=0;
 for(let frame=0;frame<=frames;frame++){
  const time=Math.min(frame/fps,score.duration);pose(time);
  for(const [hi,h] of performer.hands.entries()){
@@ -48,11 +50,11 @@ for(let frame=0;frame<=frames;frame++){
 // Absolute-time reproducibility under non-monotonic seeks.
 const snapshot=t=>{pose(t);return performer.hands.flatMap(h=>h.fingers.flatMap(f=>f.tip.getWorldPosition(new T.Vector3()).toArray()));};let seekError=0;
 for(const time of [0,.7,20.9,85.4,118.5,186.2,224.7,232]){const direct=snapshot(time);snapshot(198.3);snapshot(.12);const replay=snapshot(time);seekError=Math.max(seekError,...direct.map((v,i)=>Math.abs(v-replay[i])));}
-const gaps=skin.map(x=>x.gapMm).sort((a,b)=>a-b),report={scoreDuration:score.duration,pianoNotes:score.notes.length,skinSamples:skin.length,skinMissing:missing.length,skinGapMm:{min:gaps[0],p01:gaps[Math.floor(gaps.length*.01)],median:gaps[Math.floor(gaps.length*.5)],p99:gaps[Math.floor(gaps.length*.99)],max:gaps.at(-1)},skinOutside3mm:skin.filter(x=>Math.abs(x.gapMm)>3).length,frames,frameRate:fps,contactSamples,maxContactErrorMm:maxContact*1000,nonfinite,maxFingerPipDegrees:maxPip*180/Math.PI,maxFingerDipDegrees:maxDip*180/Math.PI,seekMaxErrorMm:seekError*1000,worstSkin:[...skin].sort((a,b)=>Math.abs(b.gapMm)-Math.abs(a.gapMm)).slice(0,20),wristSpeedPeaks:wristPeaks.sort((a,b)=>b.speed-a.speed).slice(0,20),tipSpeedPeaks:tipPeaks.sort((a,b)=>b.speed-a.speed).slice(0,20),missing};
-report.movementLimits={wristSpeedMps:2,wristAccelerationMps2:30,tipSpeedMps:5,description:'Engineering review thresholds for this performance; not clinical human limits.'};
+const gaps=skin.map(x=>x.gapMm).sort((a,b)=>a-b),report={scoreDuration:score.duration,pianoNotes:score.notes.length,skinSamples:skin.length,skinMissing:missing.length,skinGapMm:{min:gaps[0],p01:gaps[Math.floor(gaps.length*.01)],median:gaps[Math.floor(gaps.length*.5)],p99:gaps[Math.floor(gaps.length*.99)],max:gaps.at(-1)},skinOutside3mm:skin.filter(x=>Math.abs(x.gapMm)>3).length,frames:frames+1,frameIntervals:frames,frameRate:fps,contactSamples,maxContactErrorMm:maxContact*1000,nonfinite,maxFingerPipDegrees:maxPip*180/Math.PI,maxFingerDipDegrees:maxDip*180/Math.PI,seekMaxErrorMm:seekError*1000,worstSkin:[...skin].sort((a,b)=>Math.abs(b.gapMm)-Math.abs(a.gapMm)).slice(0,20),wristSpeedPeaks:wristPeaks.sort((a,b)=>b.speed-a.speed).slice(0,20),tipSpeedPeaks:tipPeaks.sort((a,b)=>b.speed-a.speed).slice(0,20),missing};
+report.movementLimits={wristSpeedMps:1.5,wristAccelerationMps2:25,tipSpeedMps:5,description:'Engineering review thresholds for this performance; not clinical human limits.'};
 report.maxWristSpeedMps=wristPeaks.reduce((max,x)=>Math.max(max,x.speed),0);report.maxWristAccelerationMps2=wristPeaks.reduce((max,x)=>Math.max(max,x.accel),0);report.maxTipSpeedMps=tipPeaks.reduce((max,x)=>Math.max(max,x.speed),0);
 report.passed=report.maxWristSpeedMps<=report.movementLimits.wristSpeedMps&&report.maxWristAccelerationMps2<=report.movementLimits.wristAccelerationMps2&&report.maxTipSpeedMps<=report.movementLimits.tipSpeedMps&&report.skinMissing===0&&report.skinOutside3mm===0&&report.maxContactErrorMm<1&&report.nonfinite===0&&report.seekMaxErrorMm<.001;
-report.scope='Five actual fingertip-mesh samples in every note, full 60Hz absolute-time replay, joint-bend and movement diagnostics; visual anatomy and audible playback require separate review.';
+report.scope=`Five actual fingertip-mesh samples in every note, full ${fps}Hz absolute-time replay including the exact score endpoint, joint-bend and movement diagnostics; visual anatomy and audible playback require separate review.`;
 report.inputs=Object.fromEntries([process.env.DAYBREAK_SCORE_PATH??'public/assets/score.json','public/assets/pianist.glb','production/qa/compiled/pianist.mjs','production/qa/compiled/piano.mjs','production/qa/key-pad-contact.mjs'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')]));
 fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,JSON.stringify(report,null,2));console.log(JSON.stringify({...report,worstSkin:report.worstSkin.slice(0,3),wristSpeedPeaks:report.wristSpeedPeaks.slice(0,3),tipSpeedPeaks:report.tipSpeedPeaks.slice(0,3)},null,2));
 if(!report.passed)process.exitCode=1;

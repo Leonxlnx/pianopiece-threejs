@@ -1,4 +1,4 @@
-> **Active continuation, 2026-09-06:** the new original pop revision is now implemented on `codex/daybreak-pop-revision`. Read [production/pop-revision/README.md](production/pop-revision/README.md) before the historical transfer below. Remaining hand intersections are still being repaired; this checkpoint is not a completed release. The transfer-only stop instruction below was superseded by the user's explicit request to resume.
+> **Active continuation, 2026-09-06:** the new original pop revision is now implemented on `codex/daybreak-pop-revision`. Read [context/POP-REVISION-HANDOFF.md](context/POP-REVISION-HANDOFF.md) and [production/pop-revision/README.md](production/pop-revision/README.md) before the historical transfer below. Remaining hand intersections are still being repaired; this checkpoint is not a completed release. The transfer-only stop instruction below was superseded by the user's explicit request to resume.
 
 # Daybreak: start here
 

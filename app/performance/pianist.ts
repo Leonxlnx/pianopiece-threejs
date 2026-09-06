@@ -301,7 +301,7 @@ export class Pianist {
  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
  let rotations=idlePose.map(q=>q.clone());
- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=smooth((time-end)/Math.min(.032,gap*.5))*smooth((start-time)/Math.min(.027,gap*.5))*.90;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
+ if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=smooth((time-end)/Math.min(.032,gap*.5))*smooth((start-time)/Math.min(.029,gap*.5))*.90;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
  else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.080);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.100);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
  continue;
