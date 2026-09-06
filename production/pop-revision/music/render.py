@@ -131,7 +131,7 @@ def release_envelope(start_frame,key_release_frame,length,midi):
             break
     return env,history
 
-def render():
+def render(write_stems=True):
     buses={role:np.zeros((N,2),np.float32) for role in ROLES}
     notes=SCORE['notes']
     next_strike={};next_by_pitch={}
@@ -174,7 +174,8 @@ def render():
             'voiceFrames':length,'pedalDampingSegments':history,
         })
         if i%120==0:log('Rendered',i,'/',len(notes))
-    for role,bus in buses.items():float_wav(f'dry-{role}.wav',bus)
+    if write_stems:
+        for role,bus in buses.items():float_wav(f'dry-{role}.wav',bus)
     write_json(HERE/'event-audit.json',AUDIT)
     write_json(HERE/'source-mapping.json',{
         'scoreSha256':EXPECTED_SCORE_SHA,'sampleManifestSha256':sha(SAMPLE_MANIFEST),
@@ -373,12 +374,16 @@ def master():
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser();parser.add_argument('--master-only',action='store_true')
-    parser.add_argument('--mix-only',action='store_true');args=parser.parse_args()
+    parser.add_argument('--mix-only',action='store_true')
+    parser.add_argument('--no-stems',action='store_true',help='Render fresh audio without saving optional dry role caches; all source and final-master checks remain enabled.')
+    args=parser.parse_args()
+    if args.no_stems and (args.mix_only or args.master_only):
+        parser.error('--no-stems requires a fresh complete render.')
     if args.master_only or args.mix_only:
         assert sha(HERE/'score-frozen.json')==EXPECTED_SCORE_SHA,'Cached audio belongs to another score.'
         assert json.loads((HERE/'source-mapping.json').read_text())['scoreSha256']==EXPECTED_SCORE_SHA
     if not args.master_only:
-        buses={r:decode(HERE/f'dry-{r}.wav') for r in ROLES} if args.mix_only else render()
+        buses={r:decode(HERE/f'dry-{r}.wav') for r in ROLES} if args.mix_only else render(write_stems=not args.no_stems)
         mix(buses)
         del buses
     master()
@@ -392,6 +397,7 @@ if __name__=='__main__':
         'ffmpeg':command(['ffmpeg','-version']).stdout.splitlines()[0],
         'masterWavSha256':analysis['files']['wav']['sha256'],
         'masterMp3Sha256':analysis['files']['mp3']['sha256'],
+        'optionalDryStemsWritten':not args.no_stems and not args.master_only and not args.mix_only,
         'reproduce':'python fetch_samples.py && python render.py && python verify.py',
         'sampleCredit':'Salamander Grand Piano v3 by Alexander Holm, CC BY 3.0; recordings transposed, enveloped, filtered, mixed and mastered.',
         'criticalListeningPerformed':False})

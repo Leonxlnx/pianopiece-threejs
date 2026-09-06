@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "scope": "Shared dorsal-palm helper matches the independent closeup review on all nine historical candidate transitions and the complete pilot clearance interval. This verifies the measurement, not the final animation.",
+  "comparedNormals": 543,
+  "maxNormalError": 0,
+  "triangleCounts": {
+    "L": 77,
+    "R": 77
+  },
+  "helperSha256": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f",
+  "cases": {
+    "nineHistoricalCandidates": {
+      "passed": true,
+      "comparedNormals": 381,
+      "maxNormalError": 0,
+      "triangleCounts": {
+        "L": 77,
+        "R": 77
+      },
+      "hashes": {
+        "rig": "f1182dfea36c0edff2d42d8ec1de07c11b3200f27cee3118827c1d5c1506ce90",
+        "piano": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+        "score": "fb80be6087e667e025b2cc85e1702f73e7f2114276da550dc55c5302a7ee88f6",
+        "model": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+      },
+      "helperSha256": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f",
+      "scope": "Full supplied nine-route and pilot intervals compare optimized shared helper with independent skin-normal review. No coordinates or triangle indices are published."
+    },
+    "neighborPilot": {
+      "passed": true,
+      "comparedNormals": 162,
+      "maxNormalError": 0,
+      "triangleCounts": {
+        "L": 77,
+        "R": 77
+      },
+      "hashes": {
+        "rig": "442867c52963442c2de46a0c99a32679aec4be274b458f9c064fbb9da635303e",
+        "piano": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+        "score": "b938bdffafd250f2e698f45f2a1d30b8526ab807f9d3ea5c80777ec165aef62d",
+        "model": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+      },
+      "helperSha256": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f",
+      "scope": "Full supplied nine-route and pilot intervals compare optimized shared helper with independent skin-normal review. No coordinates or triangle indices are published."
+    }
+  }
+}

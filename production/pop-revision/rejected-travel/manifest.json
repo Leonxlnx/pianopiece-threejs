@@ -1,0 +1,12 @@
+{
+  "status": "REJECTED: isolated diagnostic candidate, never integrated as the application rig",
+  "baseCommit": "368c218f51ad2d15dfabe8ac1f6f4d8195738af8",
+  "basePianistSha256": "ae6a18760a1d520186f6c5a6f5eec39e72be28ddf0801f367ecaf49bc8972b43",
+  "candidatePianistSha256": "56df241bf98ca50d5379e90570d885961385d2db62ee339350f868fb4152c14f",
+  "candidateCompiledPianistSha256": "442867c52963442c2de46a0c99a32679aec4be274b458f9c064fbb9da635303e",
+  "candidateScoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+  "report": "../reviews/isolated-92-profile-shape-scan60.json",
+  "reportFrameRate": 60,
+  "finalAcceptance": false,
+  "reconstruction": "Apply isolated-world-travel.patch to app/performance/pianist.ts from the named base commit only in an isolated checkout; compile with the pinned production exporter. Use the supplied diagnostic score. No other performance module changed."
+}

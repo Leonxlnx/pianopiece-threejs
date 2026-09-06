@@ -185,7 +185,9 @@ def renderer_module(snap,job,c):
   if os.environ.get('DAYBREAK_KEEP_SCENE_JSON')!='1':
    interchange=Path(r.ready['scene'])
    if interchange.parent.resolve()!=cache.resolve():raise RuntimeError('Unexpected scene interchange path; refusing cleanup.')
-   interchange.unlink(missing_ok=True)
+   # A retained empty placeholder also avoids workspace recovery restoring a
+   # deleted large cache. Every fresh renderer initialization regenerates it.
+   interchange.write_bytes(b'')
  except BaseException:
   close_renderer(r);raise
  return r

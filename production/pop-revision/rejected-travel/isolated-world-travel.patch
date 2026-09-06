@@ -1,0 +1,90 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -160,7 +160,7 @@
+  }
+  // Three linked phalanges share one continuous flexion plane. Coupled bends
+  // prevent the mathematically reachable but unnatural folded-back IK solution.
+- fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number,palmQ?:THREE.Quaternion,opposition=0){
++ fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number,palmQ?:THREE.Quaternion,opposition=0,planeRoll=0){
+  const [a,b,c]=f.lengths,ratio=fi===0?.35:.48,maxBend=fi===0?1.56:1.52;
+  const reach=(bend:number)=>Math.hypot(a+b*Math.cos(bend)+c*Math.cos((1+ratio)*bend),b*Math.sin(bend)+c*Math.sin((1+ratio)*bend));
+  const delta=target.clone().sub(base),d=clamp(delta.length(),reach(maxBend),a+b+c-.00003);
+@@ -180,6 +180,9 @@
+  const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize();
+  }
+  if(fi===0&&opposition!==0)normal.applyAxisAngle(e,opposition);
++ // A bounded idle route may roll the entire bend plane about its base-to-tip
++ // axis. Segment lengths, endpoint reach, and calibrated skin frames stay fixed.
++ if(fi>0&&planeRoll!==0)normal.applyAxisAngle(e,planeRoll);
+  const up=normal.clone().cross(e).normalize();
+  const segment=(theta:number,length:number)=>e.clone().multiplyScalar(Math.cos(theta)*length).addScaledVector(up,Math.sin(theta)*length);
+  const pip=base.clone().add(segment(angle,a)),dip=pip.clone().add(segment(angle-bend,b)),tip=dip.clone().add(segment(angle-(1+ratio)*bend,c));return {pip,dip,tip,normal,min:reach(maxBend)};
+@@ -259,6 +262,22 @@
+  const shoulder=wp(hand.upper);
+  const elbow=this.supportedElbow(hand,shoulder,wrist,pose.q,pressure);
+  aim(hand.upper,hand.lower,elbow);aim(hand.lower,hand.wrist,wrist);setWorldQ(hand.wrist,pose.q);
++ // Per-transition clearance moves only a fully resting neighboring digit.
++ // The source route supplies the same smooth lift/cruise/land envelope.
++ const restClearance=Array.from({length:5},()=>({offset:v3(),roll:0}));
++ for(let moving=1;moving<5;moving++){
++  const notes=hand.fingerNotes[moving];
++  for(let index=0;index<notes.length;index++)for(const kind of ['approachTravel','releaseTravel']){
++   const note=notes[index],profile=(note as any)[kind];if(!profile?.clearance)continue;
++   const previous=notes[index-1],next=notes[index+1],noteEnd=note.time+note.duration;
++   if(kind==='releaseTravel'&&next&&next.time-noteEnd<.50)continue;
++   const begin=kind==='releaseTravel'?noteEnd:previous&&note.time-previous.time-previous.duration<.50?previous.time+previous.duration:note.time-(profile.duration??.20),end=kind==='releaseTravel'?begin+(profile.duration??.16):note.time;
++   const hold=clamp(profile.clearanceHold??.040,0,.080),fade=clamp(profile.clearanceFade??.080,.060,.120);
++   if(time<begin||time>end+hold+fade)continue;
++   const liftEnd=clamp(profile.liftEnd??1/3,.05,.8),weight=smooth((time-begin)/((end-begin)*liftEnd))*smooth((end+hold+fade-time)/fade);
++   for(const clear of profile.clearance){const neighbor=clear.finger-1;if(neighbor<1||neighbor>4||neighbor===moving)continue;const offset=v3(clear.x??0,clear.y??0,clear.z??0).clampLength(0,.025);restClearance[neighbor].offset.addScaledVector(offset,weight);restClearance[neighbor].roll+=clamp(clear.roll??0,-.25,.25)*weight;}
++  }
++ }
+  for(let fi=0;fi<5;fi++){
+  const finger=hand.fingers[fi];finger.bones.forEach((b,j)=>{b.quaternion.copy(finger.rest[j]);b.updateWorldMatrix(false,true);});
+  const fnotes=hand.fingerNotes[fi];const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
+@@ -310,8 +329,8 @@
+  const shape=this.fingerPoints(base,target,finger,fi,undefined,n?.thumbOpposition??0);
+  const points=[base,shape.pip,shape.dip,shape.tip];
+  if(!n&&fi>0){
+- const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3,opposition=0)=>{
+- const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ,opposition),p=[origin,chain.pip,chain.dip,chain.tip];
++ const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3,opposition=0,planeRoll=0)=>{
++ const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ,opposition,planeRoll),p=[origin,chain.pip,chain.dip,chain.tip];
+  const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
+  return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
+  };
+@@ -323,10 +342,30 @@
+  const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+- let rotations=idlePose.map(q=>q.clone());
+- // A single smooth arch clears an intervening black key before descending.
+- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWindow=Math.min(.025+.050*smooth((gap-.16)/.12),gap*.5),restWeight=smooth((time-end)/restWindow)*smooth((start-time)/Math.min(.022+(fi===3?0:.040)*smooth((gap-.16)/.12),gap*.5))*.95;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
+- else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.11);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.16);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
++ // Release vertically before moving across the black-key line, then
++ // descend above the destination key. The held chain remains unchanged.
++ const anchorTouch=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi);return piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));};
++ let planeRoll=0;
++ const flight=(a:THREE.Vector3,b:THREE.Vector3,u:number,profile?:{height?:number,x?:number,z?:number,liftEnd?:number,landStart?:number,roll?:number})=>{
++  const travel=Math.hypot(b.x-a.x,b.z-a.z),height=travel<.004?Math.max(a.y,b.y)+.009:Math.max(a.y,b.y,KEY_TOP+.046);
++  const offset=v3(profile?.x??0,0,profile?.z??0);
++  const liftedA=a.clone().setY(profile?.height??height).add(offset),liftedB=b.clone().setY(profile?.height??height).add(offset);
++  const liftEnd=clamp(profile?.liftEnd??1/3,.05,.8),landStart=clamp(profile?.landStart??2/3,liftEnd+.05,.95);
++  planeRoll=clamp(profile?.roll??0,-.25,.25)*smooth(u/liftEnd)*smooth((1-u)/(1-landStart));
++  if(u<liftEnd)return a.clone().lerp(liftedA,smooth(u/liftEnd));
++  if(u<landStart)return liftedA.lerp(liftedB,smooth((u-liftEnd)/(landStart-liftEnd)));
++  return liftedB.lerp(b,smooth((u-landStart)/(1-landStart)));
++ };
++ const restTouch=idle.clone().setY(Math.max(idle.y,KEY_TOP+.057));
++ // An 80ms smooth guard returns the neighbor to its normal rest pose before
++ // its own release/approach path begins, so no contact or transition is displaced.
++ const clearanceWeight=(previous?smooth((time-end-((previous as any).releaseTravel?.duration??.16))/.080):1)*(next?smooth((start-time-((next as any).approachTravel?.duration??.20))/.080):1);
++ restTouch.addScaledVector(restClearance[fi].offset.clone().clampLength(0,.025),clearanceWeight);
++ let touch=restTouch;
++ if(previous&&next&&gap<.50)touch=flight(anchorTouch(previous,end),anchorTouch(next,start),clamp((time-end)/Math.max(.001,gap)),(next as any).approachTravel);
++ else if(previous&&time-end<((previous as any).releaseTravel?.duration??.16))touch=flight(anchorTouch(previous,end),restTouch,clamp((time-end)/((previous as any).releaseTravel?.duration??.16)),(previous as any).releaseTravel);
++ else if(next&&start-time<((next as any).approachTravel?.duration??.20))touch=flight(restTouch,anchorTouch(next,start),clamp(1-(start-time)/((next as any).approachTravel?.duration??.20)),(next as any).approachTravel);
++ const rotations=localPose(wp(hand.wrist),pose.q,touch,0,planeRoll+clamp(restClearance[fi].roll,-.25,.25)*clearanceWeight);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;
+  }
