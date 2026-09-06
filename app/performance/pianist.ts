@@ -361,7 +361,11 @@ export class Pianist {
   const extent=Math.max(1e-7,radius*Math.hypot(outward.x,around.x));
   const required=clamp((clearance-side*center.x)/extent,-1,1);
   const boundary=Math.acos(required);
-  angle=clamp(angle,-boundary,boundary);
+  // acos has an unbounded slope as the outward-clearance circle collapses.
+  // Taper the angular allowance before that limit so elbow motion remains
+  // smooth; a smaller angle stays farther outward on the exact same circle.
+  const roundedBoundary=boundary*smooth(boundary/.65);
+  angle=clamp(angle,-roundedBoundary,roundedBoundary);
   return center.addScaledVector(outward,radius*Math.cos(angle)).addScaledVector(around,radius*Math.sin(angle));
  }
 }

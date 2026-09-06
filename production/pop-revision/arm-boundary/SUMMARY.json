@@ -1,0 +1,477 @@
+{
+  "status": "ARM_MOTION_PASS_GARMENT_VISUAL_REVIEW_PENDING",
+  "change": "supportedElbow only: round the outward-clearance angular boundary with boundary*smooth(boundary/.65) before clamping the desired angle. Exact two-link circle and wrist targets retained.",
+  "diagnosis": "acos(required) has an unbounded derivative as required reaches1. The old allowed angle collapses to0, producing elbow speed spikes; the three measured circle steps were0.264\u20130.278rad. This is the torso-clearance boundary cusp, not an atan2 wrap or nondeterministic seek.",
+  "sourceOnlyMethodVerified": true,
+  "scoreChanged": false,
+  "baseline359Comparison": {
+    "baseline359ScoreSha256": "401c48eeb4ced0bb50189609a5aa6b1a3890cba17c5cb2894199876a4a029369",
+    "currentScoreSha256": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "noteCount": 1011,
+    "physicalNoteDifferences": [],
+    "nonNoteScoreDifferences": [],
+    "wristMotionIdentical": true,
+    "armSourceChunks": {
+      "posture": {
+        "identical": true,
+        "currentSha256": "ea5d1a49eca62c3c9b0f14defb6e57d92f00677239517205c5c52cc64612dc4b",
+        "baselineSha256": "ea5d1a49eca62c3c9b0f14defb6e57d92f00677239517205c5c52cc64612dc4b"
+      },
+      "plannedPose": {
+        "identical": true,
+        "currentSha256": "e32dc8191fb778debe022ccbce1fabc33aac9571ee405acde0b32fb716534365",
+        "baselineSha256": "e32dc8191fb778debe022ccbce1fabc33aac9571ee405acde0b32fb716534365"
+      },
+      "armUpdate": {
+        "identical": true,
+        "currentSha256": "ff310f421c13ea163c2d5198edd3f51978078a92626d493cbbb1bc98071e3fee",
+        "baselineSha256": "ff310f421c13ea163c2d5198edd3f51978078a92626d493cbbb1bc98071e3fee"
+      },
+      "supportedElbow": {
+        "identical": true,
+        "currentSha256": "620c6bb83c3713117d6a4f53131039d26e9aac5d9a537566f5862d8fb30eeb5f",
+        "baselineSha256": "620c6bb83c3713117d6a4f53131039d26e9aac5d9a537566f5862d8fb30eeb5f"
+      }
+    },
+    "wristSampler": {
+      "currentSha256": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+      "baselineSha256": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0"
+    },
+    "scope": "Physical comparison ignores only per-note approachTravel/releaseTravel metadata; all remaining note keys and every non-note top-level field are compared exactly.",
+    "passed": true
+  },
+  "baseline": {
+    "status": "FAIL",
+    "frameRate": 120,
+    "frames": 27254,
+    "failureRows": 3,
+    "maxElbowSpeedMps": 4.0999998751865006,
+    "maxAngularSpeedRadps": 19.668064950195134,
+    "failures": [
+      {
+        "time": 3.7416666666666667,
+        "hand": "R",
+        "elbowSpeedMps": 3.974920424910947,
+        "armAngularSpeedRadps": 18.959555951848532
+      },
+      {
+        "time": 103.74166666666666,
+        "hand": "R",
+        "elbowSpeedMps": 4.0999998751865006,
+        "armAngularSpeedRadps": 19.668064950195134
+      },
+      {
+        "time": 168.73333333333332,
+        "hand": "R",
+        "elbowSpeedMps": 3.808879982116107,
+        "armAngularSpeedRadps": 18.12951507019606
+      }
+    ]
+  },
+  "candidateFull": {
+    "passed": true,
+    "frameRate": 120,
+    "frames": 27254,
+    "maxElbowSpeedMps": 2.6314121818939173,
+    "maxArmAngularSpeedRadps": 12.201154270522618,
+    "maxWristTargetErrorMm": 0.00013748631500603824,
+    "maxLengthVariationMm": 4.624136162867387e-05,
+    "segmentVariationMm": {
+      "L": {
+        "upperArm": 1.533791238461646e-05,
+        "forearm": 1.1999780724636366e-05
+      },
+      "R": {
+        "upperArm": 1.4729561570447913e-05,
+        "forearm": 4.624136162867387e-05
+      }
+    },
+    "nonfinite": 0,
+    "failureRows": 0,
+    "reviewLimits": {
+      "elbowSpeedMps": 3,
+      "armAngularSpeedRadps": 20,
+      "wristTargetErrorMm": 1,
+      "lengthVariationMm": 0.001,
+      "description": "Discontinuity and reach review thresholds for this rig; not biological limits or visual approval."
+    },
+    "seek": {
+      "samples": 78,
+      "times": [
+        0,
+        0.7,
+        20.9,
+        85.4,
+        118.5,
+        186.2,
+        224.7,
+        227.101587,
+        103.73333333333333,
+        3.7333333333333334,
+        216.31666666666666,
+        216.325,
+        216.30833333333334
+      ],
+      "maxPositionErrorMm": 0,
+      "maxQuaternionComponentError": 0,
+      "positionLimitMm": 0.001,
+      "passed": true
+    },
+    "handInvariance": {
+      "transformSamples": 1144668,
+      "maxPointChangeMm": 0.00020170631612350754,
+      "maxQuaternionComponentChange": 4.1329312764903925e-06,
+      "maxContactErrorChangeMm": 3.405947445237989e-06,
+      "contactMismatchRows": 0,
+      "failures": 0,
+      "positionLimitMm": 0.001,
+      "passed": true
+    }
+  },
+  "candidateDenseNeighborhoods": {
+    "passed": true,
+    "frameRate": 240,
+    "frames": 584,
+    "maxElbowSpeedMps": 2.6933031564578807,
+    "maxArmAngularSpeedRadps": 12.3177007168952,
+    "maxWristTargetErrorMm": 0.00013471069288671525,
+    "maxLengthVariationMm": 1.106887254076483e-05,
+    "nonfinite": 0,
+    "failureRows": 0,
+    "seek": {
+      "samples": 72,
+      "times": [
+        0,
+        0.7,
+        20.9,
+        85.4,
+        118.5,
+        186.2,
+        224.7,
+        227.101587,
+        103.73333333333333,
+        3.7333333333333334,
+        103.72916666666667,
+        3.7291666666666665
+      ],
+      "maxPositionErrorMm": 0,
+      "maxQuaternionComponentError": 0,
+      "positionLimitMm": 0.001,
+      "passed": true
+    }
+  },
+  "deformationScope": {
+    "changedRowsOverPoint1Mm": 1041,
+    "largestByHand": {
+      "L": 0,
+      "R": 21.03746867652873
+    },
+    "representativeLargest": [
+      {
+        "time": 102.63333333333334,
+        "hand": "R",
+        "elbowChangeMm": 21.03746867652873,
+        "wristChangeMm": 5.71620625565939e-06
+      },
+      {
+        "time": 103.05833333333334,
+        "hand": "R",
+        "elbowChangeMm": 20.6910509867724,
+        "wristChangeMm": 5.492411232945416e-06
+      },
+      {
+        "time": 2.466666666666667,
+        "hand": "R",
+        "elbowChangeMm": 20.611157462501144,
+        "wristChangeMm": 5.622815973132727e-06
+      },
+      {
+        "time": 103.73333333333333,
+        "hand": "R",
+        "elbowChangeMm": 20.539703668373118,
+        "wristChangeMm": 5.638318111446214e-06
+      },
+      {
+        "time": 3.075,
+        "hand": "R",
+        "elbowChangeMm": 20.500119309810703,
+        "wristChangeMm": 5.515902090627913e-06
+      },
+      {
+        "time": 3.7333333333333334,
+        "hand": "R",
+        "elbowChangeMm": 20.395718747901427,
+        "wristChangeMm": 5.629163402803225e-06
+      },
+      {
+        "time": 168.425,
+        "hand": "R",
+        "elbowChangeMm": 20.10361756512988,
+        "wristChangeMm": 5.569871644996402e-06
+      },
+      {
+        "time": 105.10833333333333,
+        "hand": "R",
+        "elbowChangeMm": 19.914236301857564,
+        "wristChangeMm": 5.594629698682806e-06
+      }
+    ]
+  },
+  "garmentDense": {
+    "framesPerVersion": 584,
+    "newPairRows": 0,
+    "increasedRows": 222,
+    "pairSummaries": [
+      {
+        "pair": "LForearm/BlouseTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RForearm/BlouseTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "LUpperArm/BlouseTorso",
+        "beforeRows": 584,
+        "candidateRows": 584,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 109,
+        "maxCandidate": 109
+      },
+      {
+        "pair": "RUpperArm/BlouseTorso",
+        "beforeRows": 584,
+        "candidateRows": 584,
+        "newRows": 0,
+        "increasedRows": 16,
+        "maxBefore": 92,
+        "maxCandidate": 92
+      },
+      {
+        "pair": "LBlouseSleeve/BlouseTorso",
+        "beforeRows": 584,
+        "candidateRows": 584,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 105,
+        "maxCandidate": 105
+      },
+      {
+        "pair": "RBlouseSleeve/BlouseTorso",
+        "beforeRows": 584,
+        "candidateRows": 584,
+        "newRows": 0,
+        "increasedRows": 220,
+        "maxBefore": 84,
+        "maxCandidate": 87
+      },
+      {
+        "pair": "LForearm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RForearm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "LUpperArm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RUpperArm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      }
+    ],
+    "scope": "Paired actual noncoplanar triangle-surface intersections at240Hz across three RH arm-speed failure neighborhoods plus216.33s near-limit control, each\u00b1.30s. Same model, score and finger branch; only supportedElbow differs. >65% joint ownership at every triangle vertex excludes mixed junctions. Base blouse only; decorative facings/thread and enclosed/coplanar/unsampled crossings excluded. Counts are not depth or final visual approval."
+  },
+  "garmentGlobalControls": {
+    "framesPerVersion": 24,
+    "newPairRows": 0,
+    "increasedRows": 16,
+    "pairSummaries": [
+      {
+        "pair": "LForearm/BlouseTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RForearm/BlouseTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "LUpperArm/BlouseTorso",
+        "beforeRows": 24,
+        "candidateRows": 24,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 108,
+        "maxCandidate": 108
+      },
+      {
+        "pair": "RUpperArm/BlouseTorso",
+        "beforeRows": 24,
+        "candidateRows": 24,
+        "newRows": 0,
+        "increasedRows": 2,
+        "maxBefore": 76,
+        "maxCandidate": 75
+      },
+      {
+        "pair": "LBlouseSleeve/BlouseTorso",
+        "beforeRows": 24,
+        "candidateRows": 24,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 90,
+        "maxCandidate": 90
+      },
+      {
+        "pair": "RBlouseSleeve/BlouseTorso",
+        "beforeRows": 24,
+        "candidateRows": 24,
+        "newRows": 0,
+        "increasedRows": 15,
+        "maxBefore": 81,
+        "maxCandidate": 84
+      },
+      {
+        "pair": "LForearm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RForearm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "LUpperArm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      },
+      {
+        "pair": "RUpperArm/BodyTorso",
+        "beforeRows": 0,
+        "candidateRows": 0,
+        "newRows": 0,
+        "increasedRows": 0,
+        "maxBefore": 0,
+        "maxCandidate": 0
+      }
+    ],
+    "scope": "Paired actual noncoplanar triangle-surface intersections at the eight largest distinct full-song elbow displacements plus\u00b150ms controls. Same model, score and finger branch; only supportedElbow differs. >65% joint ownership at every triangle vertex excludes mixed junctions. Base blouse only; decorative facings/thread and enclosed/coplanar/unsampled crossings excluded. Counts are not depth or final visual approval."
+  },
+  "armholeLocalization": {
+    "poses": 7,
+    "skinPoints": 324,
+    "sleevePoints": 474,
+    "projectedCases": 1596,
+    "inFrameCases": 1596,
+    "uncoveredInFrameCases": 376,
+    "skinAlongUpperArmRange": [
+      0.37253666580373823,
+      0.7064461310924398
+    ],
+    "skinNearestSleeveDistanceMmRange": [
+      0.6846361238952778,
+      37.781649941534305
+    ],
+    "skinSleeveOutwardOffsetMmRange": [
+      0.21810392044684124,
+      23.14151793648725
+    ],
+    "minimumClothingCoverForInFrameMm": -2.474941318553192e-05,
+    "scope": "All newly introduced triangle-pair crossing points at seven worst increased right upper-arm and sleeve/torso poses, comparing original and smoothed elbow source. Exact posed opaque blouse, folded facings/buttons/thread rays using each actual material side. Current landscape/portrait camera only. Positive cover distance is millimetres of nearer garment along camera-to-crossing ray; nearest sleeve distance is unsigned surface separation, NOT penetration depth. Axial fraction0=shoulder,1=elbow. All newly introduced pair intersections in the selected poses are retained. Offscreen or occluded intersections still remain geometric overlaps."
+  },
+  "localizationUncoveredByPair": {
+    "RBlouseSleeve/BlouseTorso": 210,
+    "RUpperArm/BlouseTorso": 166
+  },
+  "approvalLimitation": "No newly intersecting pair rows or forearm/body-torso crossings in the measured poses, but counts within inherited upper-arm/blouse and sleeve/torso overlaps change.166 skin and210 sleeve camera cases have no>0.5mm nearer garment cover. Many lie at the blouse surface itself; this is not proof of a visible hole, and not proof that all new crossing points are hidden. Exact-source silhouette review remains root-owned.",
+  "integration": "Apply only supported-elbow.patch method hunk to the final shared finger source. Do not replace the complete pianist with this older frozen finger branch. No note, wrist-motion or model delta. Reverify combined source after merge.",
+  "recommendedRenderTimes": [
+    102.63333333333334,
+    168.7,
+    216.30833333333334,
+    103.44583333333334
+  ],
+  "hashes": {
+    "score.json": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "model.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "source/pianist.ts": "25845a8981bfa51e07c1ab4555775b285d4718478e8ecde4ea580a3ffbe5db3d",
+    "source/pianist.mjs": "a8b3be88d13b502c52fd398fbbb1d8d6b99eb571a646693207f53286587d05b9",
+    "candidate-source/pianist.ts": "38f295fa0c73598059447bc01bd264e64b6a9ff34361dab6c8a637175554af35",
+    "candidate-source/pianist.mjs": "c1f289d7647e9ab8bcf489f5d5eaaca4f05d72a2962b3558d9ac2d97af019fdc",
+    "source/wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "supported-elbow.patch": "66d28a77d22da20d42cf7e078333b36d307c869f88959fa74090d743e22f9f43",
+    "baseline-comparison.json": "da30cd79c0ae66e5c97b684e2537d08c2b5921a79f605bc49d12aae237b5ebd8",
+    "arm-motion-audit.json": "ef8cd20fb904acde0d8756dc77c5c770a46a3e374985e288c7539038ba138e2b",
+    "failures.json": "f15a222c6e3a98639479160d9bcce190127a955a19dab367cb68b89fe1771c34",
+    "failure-neighborhoods.json": "9e6fc4cb3b4cc674b9289a8fdb83fe906b9e146a270827835a2d629a44c870ea",
+    "raw-arm-frames.ndjson.gz": "ad405a8d4d9c999a58538d6ccf281db67cd17d82add3504bbcddf86bc8c73627",
+    "candidate-full-audit.json": "0b079952aa53cb0d28a0555ec959ce0237a4eecb370e9c8e2c2d097474c35f99",
+    "candidate-full-failures.json": "131358b5cdc8986cb0cdcba5fd8ba22e06d78032ef736651bfd4ebf8ba299b28",
+    "candidate-full-raw.ndjson.gz": "420ff59d1ef2c4fd51b6b53375916122139d939daa603614fd72502ffff7b34d",
+    "candidate-neighborhood-audit.json": "88dd77e1956a1c0a48c03b493a1fe5d50dc8c06a4f08bd53fdc39e484728d2e4",
+    "candidate-neighborhood-raw.ndjson.gz": "a3443f60bd32b51f976eadb4b3250fed31b609db206f60d6815ec0b3742490a4",
+    "candidate-garment-summary.json": "2d6c331869f9eee9c1c364db01516a81dd49920bf7cac16fd79d4ba702427685",
+    "candidate-garment-raw.json": "f366769448fd64370c7844b302097573684d58619d2fd4f92ba09327966132db",
+    "candidate-global-garment-summary.json": "4029a09fe0225691f932addcb648844d43c8b17bf2ffdacf121eb9d4c20ee5f4",
+    "candidate-global-garment-raw.json": "4b41b85f1bb953417a12e24b8abb1af6979e7825814fe4c6ff39a1759d68cb2b",
+    "candidate-armhole-localization-summary.json": "4900d700efdd305d635bd039f9238504b2690ad67b3fbfec88e00f671293d8ed",
+    "candidate-armhole-localization-raw.json": "5d33640bd18aa64f5fd2eb5af712b2c278f9827ea2d56910b6a908a339c62163",
+    "added-armhole-pairs.json": "b1e39a33dbe8e4d6fb5a8937c2c5039f623ca20a774c6d2cebaf4bf45d3b3fe5"
+  }
+}
