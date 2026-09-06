@@ -1,0 +1,83 @@
+{
+  "baselineSHA256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "assetSHA256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "nodes": 76,
+  "joints": 67,
+  "meshes": 8,
+  "totalVertices": 80579,
+  "totalTriangles": 128520,
+  "maxWeightSumError": 1.1920928955078125e-07,
+  "panelMaxMovementMm": [
+    6.2644124031066895,
+    1.599812388420105
+  ],
+  "panelMinimumNormalCosine": [
+    0.9713796377182007,
+    0.9969063997268677
+  ],
+  "garment": [
+    {
+      "primitive": 0,
+      "vertices": 6004,
+      "triangles": 10912,
+      "minTriangleDoubleAreaM2": 4.533600076683797e-06,
+      "material": "Ivory crepe blouse \u2014 softly draped"
+    },
+    {
+      "primitive": 1,
+      "vertices": 3994,
+      "triangles": 7344,
+      "minTriangleDoubleAreaM2": 3.0592771054216428e-06,
+      "material": "Midnight wool trousers \u2014 pressed"
+    },
+    {
+      "primitive": 2,
+      "vertices": 968,
+      "triangles": 1350,
+      "minTriangleDoubleAreaM2": 2.5379004000569694e-06,
+      "material": "Ivory blouse \u2014 folded facings"
+    },
+    {
+      "primitive": 3,
+      "vertices": 3084,
+      "triangles": 2206,
+      "minTriangleDoubleAreaM2": 3.0368177306172583e-08,
+      "material": "Midnight trousers \u2014 tailoring"
+    },
+    {
+      "primitive": 4,
+      "vertices": 504,
+      "triangles": 720,
+      "minTriangleDoubleAreaM2": 6.427372341022419e-07,
+      "material": "Warm pearl blouse buttons"
+    },
+    {
+      "primitive": 5,
+      "vertices": 2436,
+      "triangles": 1218,
+      "minTriangleDoubleAreaM2": 3.1151245138971717e-07,
+      "material": "Ivory sewing thread"
+    }
+  ],
+  "nonGarmentGeometryAndMorphsExact": true,
+  "embeddedImagesExact": true,
+  "bindMatricesExact": true,
+  "negativeControlsRejected": [
+    "unchanged baseline",
+    "changed inverse bind"
+  ],
+  "rebuildByteIdentical": true,
+  "pairedPose": {
+    "time": 186,
+    "nonGarmentPosedMeshesExact": 7,
+    "sourceHashes": {
+      "math": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+      "piano": "dfce41e52a8a903824cebd64ca57c1ac0777db6162fc3e443f479e964f63c59f",
+      "wrist-motion": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+      "pianist": "3c340c47852150e028a7dded4b06a058304d668a053638cb0d453e39c81d582f",
+      "ponytail-motion": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+      "hair-motion-data": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932"
+    },
+    "scoreSHA256": "0b6023723937922ec3230b733b0de9b5c5c9cc30c6de54ba96c3c45116b1c40a"
+  }
+}

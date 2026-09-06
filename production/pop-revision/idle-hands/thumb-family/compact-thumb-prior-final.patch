@@ -1,0 +1,25 @@
+--- a/src/performance/pianist.ts
++++ b/src/performance/pianist.ts
+@@ -290,17 +290,18 @@
+  // rebuilding its web from a moving world target. Preserve the original
+  // MCP/IP rest frames and lift at the carpometacarpal joint.
+  const idlePose=finger.rest.map(q=>q.clone());
+- idlePose[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),-.70))
++ idlePose[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),-.90))
+  .premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,1,0),hand.side==='L'?-.75:.75))
+- .premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,0,1),hand.side==='L'?.20:-.20));
+- idlePose[1].multiply(new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),-.15));
++ .premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,0,1),hand.side==='L'?.55:-.55));
++ idlePose[1].multiply(new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),-.45));
++ idlePose[2].multiply(new THREE.Quaternion().setFromAxisAngle(v3(1,0,0),.20));
+  // The anchor wrist frame stays fixed, but its key height follows the
+  // actual hinged key during approach and release (including pre-travel).
+  const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+  let rotations=idlePose.map(q=>q.clone());
+- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=smooth((time-end)/Math.min(.032,gap*.5))*smooth((start-time)/Math.min(.025,gap*.5))*.90;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
++ if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=smooth((time-end)/Math.min(.032,gap*.5))*smooth((start-time)/Math.min(.027,gap*.5))*.90;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
+  else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.080);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.100);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;

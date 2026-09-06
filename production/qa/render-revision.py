@@ -1,13 +1,14 @@
-import os,json,time,subprocess,base64,math
+import os,json,time,subprocess,base64,math,ctypes.util
 from pathlib import Path
 import numpy as np
 from PIL import Image
 import moderngl
-ROOT=Path(os.environ.get('DAYBREAK_QA_ROOT','/workspace/scratch/2e8cc8e77f98/render-qa'));ROOT.mkdir(parents=True,exist_ok=True)
 SOURCE=Path(__file__).resolve().parent
 PROJECT=SOURCE.parent.parent
-EGL=Path(os.environ.get('DAYBREAK_EGL_ROOT','/workspace/scratch/2e8cc8e77f98/render-libs/root'))
-ctx=moderngl.create_standalone_context(backend='egl',require=330,libegl=str(EGL/'usr/lib/x86_64-linux-gnu/libEGL.so.1'),libgl='libGL.so.1')
+ROOT=Path(os.environ.get('DAYBREAK_QA_ROOT',str(PROJECT/'work/render-qa')));ROOT.mkdir(parents=True,exist_ok=True)
+EGL=os.environ.get('DAYBREAK_EGL_ROOT')
+egl_library=str(Path(EGL)/'usr/lib/x86_64-linux-gnu/libEGL.so.1') if EGL else ctypes.util.find_library('EGL') or 'libEGL.so.1'
+ctx=moderngl.create_standalone_context(backend='egl',require=330,libegl=egl_library,libgl='libGL.so.1')
 print('RENDERER',ctx.info['GL_RENDERER'],flush=True)
 server=subprocess.Popen(['node',str(SOURCE/'pose-server.mjs')],cwd=PROJECT,stdin=subprocess.PIPE,stdout=subprocess.PIPE,text=True)
 ready=json.loads(server.stdout.readline());d=json.load(open(ready['scene']))

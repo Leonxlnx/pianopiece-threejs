@@ -8,13 +8,13 @@ import { Stage } from './compiled/stage.mjs';
 import { PERFORMANCE_LOOK } from './compiled/render-settings.mjs';
 import { Direction } from './compiled/direction.mjs';
 import { pedalPosition, mix, smooth } from './compiled/math.mjs';
-const qaRoot=process.env.DAYBREAK_QA_ROOT??'/workspace/scratch/2e8cc8e77f98/render-qa';fs.mkdirSync(qaRoot,{recursive:true});
+const qaRoot=process.env.DAYBREAK_QA_ROOT??path.resolve('work/render-qa');fs.mkdirSync(qaRoot,{recursive:true});
 const ctx=new Proxy({canvas:null},{get:(t,k)=>k in t?t[k]:(...args)=>{}});
 globalThis.document={createElement:(type)=>({width:512,height:512,getContext:()=>ctx})};globalThis.window={devicePixelRatio:1};globalThis.self=globalThis;
-const data=fs.readFileSync('public/assets/pianist.glb');const jsonLength=data.readUInt32LE(12);const modelJson=JSON.parse(data.subarray(20,20+jsonLength).toString());const binOffset=20+jsonLength+8;const bin=data.subarray(binOffset);
+const data=fs.readFileSync(process.env.DAYBREAK_MODEL_PATH??'public/assets/pianist.glb');const jsonLength=data.readUInt32LE(12);const modelJson=JSON.parse(data.subarray(20,20+jsonLength).toString());const binOffset=20+jsonLength+8;const bin=data.subarray(binOffset);
 const texPaths=[];for(let i=0;i<(modelJson.images??[]).length;i++){const im=modelJson.images[i];if(im.bufferView!==undefined){const bv=modelJson.bufferViews[im.bufferView];const p=path.join(qaRoot,`texture-${i}.${im.mimeType==='image/png'?'png':'jpg'}`);fs.writeFileSync(p,bin.subarray(bv.byteOffset??0,(bv.byteOffset??0)+bv.byteLength));texPaths.push(p);}else texPaths.push('');}
 const loader=new GLTFLoader();loader.register(parser=>({name:'offline-texture-reference',loadTexture:(idx)=>{const tx=new THREE.Texture();tx.flipY=false;tx.userData.sourcePath=texPaths[parser.json.textures[idx].source];return Promise.resolve(tx);}}));
-const gltf=await loader.parseAsync(data.buffer.slice(data.byteOffset,data.byteOffset+data.byteLength),'');const score=JSON.parse(fs.readFileSync('public/assets/score.json'));
+const gltf=await loader.parseAsync(data.buffer.slice(data.byteOffset,data.byteOffset+data.byteLength),'');const score=JSON.parse(fs.readFileSync(process.env.DAYBREAK_SCORE_PATH??'public/assets/score.json'));
 const scene=new THREE.Scene();const piano=new GrandPiano();const stage=new Stage(scene,false);const pianist=new Pianist();scene.add(piano.group,pianist.group);await pianist.load(score,gltf.scene);const direction=new Direction(score);const aspect=Number(process.env.DAYBREAK_ASPECT??16/9);const camera=new THREE.PerspectiveCamera(40,aspect,.03,180);
 stage.update(0,score.sections[0].energy,0);
 const out={time:0,shot:'',camera:{matrix:camera.matrixWorld.toArray(),fov:camera.fov,aspect},meshes:[],lines:[],points:[],lights:[],materials:[]};out.renderSettings={fogColor:new THREE.Color(PERFORMANCE_LOOK.fogColor).toArray(),fogDensity:PERFORMANCE_LOOK.fogDensity,toneMappingExposure:PERFORMANCE_LOOK.exposure,environmentIntensity:PERFORMANCE_LOOK.environmentIntensity};out.environmentCapture={lift:stage.sky.uniforms.uLift.value,position:PERFORMANCE_LOOK.environmentPosition,size:PERFORMANCE_LOOK.environmentSize,lightIntensities:[...stage.lights.map(l=>l.intensity),stage.accent.intensity]};const materials=new Map(),materialRefs=[],meshRefs=[],lightRefs=[];

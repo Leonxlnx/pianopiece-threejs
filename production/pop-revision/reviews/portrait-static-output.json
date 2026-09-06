@@ -1,0 +1,54 @@
+{
+  "samples": 276,
+  "aspectSamples": 552,
+  "obstacles": 20,
+  "candidates": [
+    {
+      "camera": {
+        "x": 1.1,
+        "y": 1.25,
+        "z": 0.25,
+        "lookZ": 0.25,
+        "fov": 30
+      },
+      "badHead": 0,
+      "badHands": 2,
+      "minHead": 1.1067622336565903,
+      "worstHand": 0.994460092075995,
+      "staticHits": 0,
+      "firstHits": []
+    },
+    {
+      "camera": {
+        "x": 1.25,
+        "y": 1.2,
+        "z": 0.2,
+        "lookZ": 0.25,
+        "fov": 30
+      },
+      "badHead": 0,
+      "badHands": 0,
+      "minHead": 1.027452400344571,
+      "worstHand": 0.9314432615688447,
+      "staticHits": 0,
+      "firstHits": []
+    },
+    {
+      "camera": {
+        "x": 1.4,
+        "y": 1.25,
+        "z": 0.25,
+        "lookZ": 0.25,
+        "fov": 26
+      },
+      "badHead": 0,
+      "badHands": 0,
+      "minHead": 1.0430938066572928,
+      "worstHand": 0.9025765335580661,
+      "staticHits": 0,
+      "firstHits": []
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

@@ -1,10 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 import * as T from 'three';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {Pianist} from './compiled/pianist.mjs';
 import {GrandPiano,keyX,isBlack,keySurfaceY} from './compiled/piano.mjs';
 import {pedalPosition,mix,smooth} from './compiled/math.mjs';
+import {keyPadContact} from './key-pad-contact.mjs';
 const out=process.argv[2]??'production/revision/rig-audit.json';
 const context=new Proxy({},{get:(a,k)=>k in a?a[k]:(...args)=>{}});
 globalThis.document={createElement:()=>({width:512,height:512,getContext:()=>context})};globalThis.self=globalThis;
@@ -21,11 +23,11 @@ for(const side of ['L','R'])for(let f=0;f<5;f++){
  const max=Math.max(...list.map(v=>v.y));pads[side+(f+1)]=list.filter(v=>v.y>max-.011).map(v=>v.i);
 }
 const performer=new Pianist(),piano=new GrandPiano();await performer.load(score,model);const v=new T.Vector3();
-function pose(time){let index=score.sections.findIndex(s=>time>=s.start&&time<s.end);if(index<0)index=score.sections.length-1;const section=score.sections[index],previous=score.sections[Math.max(0,index-1)],energy=mix(previous.energy,section.energy,smooth((time-section.start)/1.8)),pedal=pedalPosition(time,score.pedals);piano.update(time,score.notes,pedal);performer.update(time,score,piano,pedal,energy);model.updateMatrixWorld(true);body.skeleton.update();}
+function pose(time){let index=score.sections.findIndex(s=>time>=s.start&&time<s.end);if(index<0)index=score.sections.length-1;const section=score.sections[index],previous=score.sections[Math.max(0,index-1)],energy=mix(previous.energy,section.energy,smooth((time-section.start)/1.8)),pedal=pedalPosition(time,score.pedals);piano.update(time,score.notes,pedal);performer.update(time,score,piano,pedal,energy);model.updateMatrixWorld(true);body.skeleton.update();piano.group.updateMatrixWorld(true);}
 const skin=[],missing=[];let contactSamples=0,maxContact=0;
 for(const n of score.notes)for(const fraction of [.015,.25,.5,.8,.985]){
- const time=n.time+n.duration*fraction;pose(time);let gap=Infinity,count=0;const black=isBlack(n.midi),x=keyX(n.midi),half=black?.0145/2:.0227/2;
- for(const i of pads[n.hand+n.finger]){body.getVertexPosition(i,v).applyMatrix4(body.matrixWorld);if(Math.abs(v.x-x)>half||v.z<(black?.133:.230)||v.z>(black?.221:.279))continue;count++;gap=Math.min(gap,v.y-keySurfaceY(n.midi,v.z));}
+ const time=n.time+n.duration*fraction;pose(time);
+ const {gap,count}=keyPadContact(body,pads[n.hand+n.finger],piano.keys.get(n.midi).mesh);
  const record={id:n.id,time,hand:n.hand,finger:n.finger,midi:n.midi,fraction,gapMm:gap*1000};if(!count)missing.push(record);else skin.push(record);
  for(const c of performer.contacts){contactSamples++;maxContact=Math.max(maxContact,c.error);}
 }
@@ -51,5 +53,6 @@ report.movementLimits={wristSpeedMps:2,wristAccelerationMps2:30,tipSpeedMps:5,de
 report.maxWristSpeedMps=wristPeaks.reduce((max,x)=>Math.max(max,x.speed),0);report.maxWristAccelerationMps2=wristPeaks.reduce((max,x)=>Math.max(max,x.accel),0);report.maxTipSpeedMps=tipPeaks.reduce((max,x)=>Math.max(max,x.speed),0);
 report.passed=report.maxWristSpeedMps<=report.movementLimits.wristSpeedMps&&report.maxWristAccelerationMps2<=report.movementLimits.wristAccelerationMps2&&report.maxTipSpeedMps<=report.movementLimits.tipSpeedMps&&report.skinMissing===0&&report.skinOutside3mm===0&&report.maxContactErrorMm<1&&report.nonfinite===0&&report.seekMaxErrorMm<.001;
 report.scope='Five actual fingertip-mesh samples in every note, full 60Hz absolute-time replay, joint-bend and movement diagnostics; visual anatomy and audible playback require separate review.';
+report.inputs=Object.fromEntries([process.env.DAYBREAK_SCORE_PATH??'public/assets/score.json','public/assets/pianist.glb','production/qa/compiled/pianist.mjs','production/qa/compiled/piano.mjs','production/qa/key-pad-contact.mjs'].map(file=>[file,crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')]));
 fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,JSON.stringify(report,null,2));console.log(JSON.stringify({...report,worstSkin:report.worstSkin.slice(0,3),wristSpeedPeaks:report.wristSpeedPeaks.slice(0,3),tipSpeedPeaks:report.tipSpeedPeaks.slice(0,3)},null,2));
 if(!report.passed)process.exitCode=1;

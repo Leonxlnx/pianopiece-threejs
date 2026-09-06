@@ -1,0 +1,9479 @@
+{
+  "report": {
+    "scope": "Actual skinned distal fingertip vertices within the assigned key footprint, once per physical note hold; signed mesh gap, negative means penetration.",
+    "samples": 1011,
+    "missing": [],
+    "minMm": -1.0835790132912582,
+    "p05Mm": -0.785333690882628,
+    "medianMm": -0.1379331091607705,
+    "p95Mm": 0.5085229393140267,
+    "maxMm": 1.0345686636521467,
+    "belowMinus3": 0,
+    "above3": 0,
+    "worstLow": [
+      {
+        "id": "db00819",
+        "time": 181.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 55,
+        "vertices": 34,
+        "gapMm": -1.0835790132912582
+      },
+      {
+        "id": "db00638",
+        "time": 141.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 55,
+        "vertices": 34,
+        "gapMm": -1.083578892951409
+      },
+      {
+        "id": "db00303",
+        "time": 71.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 55,
+        "vertices": 34,
+        "gapMm": -1.0835788657724832
+      },
+      {
+        "id": "db00936",
+        "time": 201.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 57,
+        "vertices": 34,
+        "gapMm": -1.0835788183016781
+      },
+      {
+        "id": "db00420",
+        "time": 91.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 57,
+        "vertices": 34,
+        "gapMm": -1.083578656141393
+      },
+      {
+        "id": "db00586",
+        "time": 131.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 57,
+        "vertices": 34,
+        "gapMm": -1.0835785816837307
+      },
+      {
+        "id": "db00251",
+        "time": 61.77575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 57,
+        "vertices": 34,
+        "gapMm": -1.0835785374493367
+      },
+      {
+        "id": "db00141",
+        "time": 37.2445,
+        "hand": "L",
+        "finger": 2,
+        "midi": 52,
+        "vertices": 53,
+        "gapMm": -1.0286837256504588
+      },
+      {
+        "id": "db00062",
+        "time": 17.244500000000002,
+        "hand": "L",
+        "finger": 2,
+        "midi": 52,
+        "vertices": 53,
+        "gapMm": -1.0286836960082812
+      },
+      {
+        "id": "db00101",
+        "time": 27.244500000000002,
+        "hand": "L",
+        "finger": 2,
+        "midi": 53,
+        "vertices": 53,
+        "gapMm": -1.0286825386091047
+      },
+      {
+        "id": "db00230",
+        "time": 57.2445,
+        "hand": "L",
+        "finger": 2,
+        "midi": 48,
+        "vertices": 53,
+        "gapMm": -0.9794058735833611
+      },
+      {
+        "id": "db00120",
+        "time": 32.2445,
+        "hand": "L",
+        "finger": 2,
+        "midi": 55,
+        "vertices": 53,
+        "gapMm": -0.9794039544769317
+      },
+      {
+        "id": "db00041",
+        "time": 12.2445,
+        "hand": "L",
+        "finger": 2,
+        "midi": 55,
+        "vertices": 53,
+        "gapMm": -0.9794038898510715
+      },
+      {
+        "id": "db00278",
+        "time": 66.6195,
+        "hand": "L",
+        "finger": 2,
+        "midi": 50,
+        "vertices": 53,
+        "gapMm": -0.9535823929179843
+      },
+      {
+        "id": "db00613",
+        "time": 136.6195,
+        "hand": "L",
+        "finger": 2,
+        "midi": 50,
+        "vertices": 53,
+        "gapMm": -0.9535823451035652
+      },
+      {
+        "id": "db00572",
+        "time": 128.50441099999998,
+        "hand": "R",
+        "finger": 2,
+        "midi": 67,
+        "vertices": 53,
+        "gapMm": -0.9535623581894415
+      },
+      {
+        "id": "db00126",
+        "time": 33.189567000000004,
+        "hand": "R",
+        "finger": 2,
+        "midi": 62,
+        "vertices": 53,
+        "gapMm": -0.9309899020137902
+      },
+      {
+        "id": "db00952",
+        "time": 204.27575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 48,
+        "vertices": 35,
+        "gapMm": -0.9309879903225404
+      },
+      {
+        "id": "db00436",
+        "time": 94.27575,
+        "hand": "L",
+        "finger": 1,
+        "midi": 48,
+        "vertices": 35,
+        "gapMm": -0.9309877762161411
+      },
+      {
+        "id": "db00754",
+        "time": 163.812063,
+        "hand": "R",
+        "finger": 2,
+        "midi": 64,
+        "vertices": 53,
+        "gapMm": -0.9309875046525917
+      }
+    ],
+    "worstHigh": [
+      {
+        "id": "db00784",
+        "time": 174.1195,
+        "hand": "L",
+        "finger": 5,
+        "midi": 41,
+        "vertices": 74,
+        "gapMm": 1.0345686636521467
+      },
+      {
+        "id": "db00922",
+        "time": 199.1195,
+        "hand": "L",
+        "finger": 4,
+        "midi": 48,
+        "vertices": 59,
+        "gapMm": 0.5693095949880211
+      },
+      {
+        "id": "db00406",
+        "time": 89.1195,
+        "hand": "L",
+        "finger": 4,
+        "midi": 48,
+        "vertices": 59,
+        "gapMm": 0.5693091595765365
+      },
+      {
+        "id": "db00987",
+        "time": 211.40242899999998,
+        "hand": "R",
+        "finger": 4,
+        "midi": 76,
+        "vertices": 59,
+        "gapMm": 0.5692396689053192
+      },
+      {
+        "id": "db00498",
+        "time": 110.688426,
+        "hand": "R",
+        "finger": 4,
+        "midi": 69,
+        "vertices": 59,
+        "gapMm": 0.5692293867385345
+      },
+      {
+        "id": "db00934",
+        "time": 201.31305799999998,
+        "hand": "R",
+        "finger": 4,
+        "midi": 79,
+        "vertices": 59,
+        "gapMm": 0.5690110788227898
+      },
+      {
+        "id": "db00965",
+        "time": 206.31337699999997,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5690082865251744
+      },
+      {
+        "id": "db00449",
+        "time": 96.319909,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5690082170922706
+      },
+      {
+        "id": "db00224",
+        "time": 56.010971000000005,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5690079911490065
+      },
+      {
+        "id": "db00047",
+        "time": 13.507567,
+        "hand": "R",
+        "finger": 4,
+        "midi": 69,
+        "vertices": 59,
+        "gapMm": 0.5689946621862951
+      },
+      {
+        "id": "db00757",
+        "time": 166.00352999999998,
+        "hand": "R",
+        "finger": 4,
+        "midi": 67,
+        "vertices": 59,
+        "gapMm": 0.5456337871538874
+      },
+      {
+        "id": "db00469",
+        "time": 101.16378,
+        "hand": "R",
+        "finger": 4,
+        "midi": 67,
+        "vertices": 59,
+        "gapMm": 0.5456337860587634
+      },
+      {
+        "id": "db00313",
+        "time": 73.190471,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382448140094365
+      },
+      {
+        "id": "db00373",
+        "time": 83.191297,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382448101628468
+      },
+      {
+        "id": "db00368",
+        "time": 82.569517,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382447801479673
+      },
+      {
+        "id": "db00648",
+        "time": 143.18991,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382447699352477
+      },
+      {
+        "id": "db00702",
+        "time": 152.56353,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382447676555158
+      },
+      {
+        "id": "db00708",
+        "time": 153.19231299999998,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382447633384135
+      },
+      {
+        "id": "db00829",
+        "time": 183.18904799999999,
+        "hand": "R",
+        "finger": 4,
+        "midi": 74,
+        "vertices": 59,
+        "gapMm": 0.5382445746279219
+      },
+      {
+        "id": "db00404",
+        "time": 88.813689,
+        "hand": "R",
+        "finger": 4,
+        "midi": 72,
+        "vertices": 59,
+        "gapMm": 0.5382444323134283
+      }
+    ]
+  },
+  "records": [
+    {
+      "id": "db00001",
+      "time": 0.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 70,
+      "gapMm": 0.4183301414925067
+    },
+    {
+      "id": "db00002",
+      "time": 0.694895,
+      "hand": "R",
+      "finger": 3,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.33500854847889894
+    },
+    {
+      "id": "db00003",
+      "time": 0.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.1856349466812235
+    },
+    {
+      "id": "db00004",
+      "time": 0.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.769630156959078
+    },
+    {
+      "id": "db00005",
+      "time": 1.165981,
+      "hand": "R",
+      "finger": 5,
+      "midi": 67,
+      "vertices": 66,
+      "gapMm": -0.36221943168412984
+    },
+    {
+      "id": "db00006",
+      "time": 1.631869,
+      "hand": "R",
+      "finger": 3,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.33500856881374386
+    },
+    {
+      "id": "db00007",
+      "time": 1.928,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.32624167528594317
+    },
+    {
+      "id": "db00008",
+      "time": 2.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.4183322284152524
+    },
+    {
+      "id": "db00009",
+      "time": 2.569998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.5850941779715901
+    },
+    {
+      "id": "db00010",
+      "time": 3.193062,
+      "hand": "R",
+      "finger": 4,
+      "midi": 64,
+      "vertices": 59,
+      "gapMm": 0.013121933930104746
+    },
+    {
+      "id": "db00011",
+      "time": 3.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.541369532261804
+    },
+    {
+      "id": "db00012",
+      "time": 3.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.5500124549442376
+    },
+    {
+      "id": "db00013",
+      "time": 3.507666,
+      "hand": "R",
+      "finger": 3,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.6921133807921143
+    },
+    {
+      "id": "db00014",
+      "time": 3.81423,
+      "hand": "R",
+      "finger": 2,
+      "midi": 60,
+      "vertices": 53,
+      "gapMm": -0.7847195647321392
+    },
+    {
+      "id": "db00015",
+      "time": 4.428,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.32624164547157
+    },
+    {
+      "id": "db00016",
+      "time": 5.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.4183356662564863
+    },
+    {
+      "id": "db00017",
+      "time": 5.383457,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5085182443679281
+    },
+    {
+      "id": "db00018",
+      "time": 5.9944999999999995,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563333500842827
+    },
+    {
+      "id": "db00019",
+      "time": 5.9944999999999995,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696326567924183
+    },
+    {
+      "id": "db00020",
+      "time": 6.004749,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 66,
+      "gapMm": -0.36221749830833705
+    },
+    {
+      "id": "db00021",
+      "time": 6.312194,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.33499743889697786
+    },
+    {
+      "id": "db00022",
+      "time": 6.928,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5851164501085027
+    },
+    {
+      "id": "db00023",
+      "time": 6.937909,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.32617564615633476
+    },
+    {
+      "id": "db00024",
+      "time": 7.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.4183340499701593
+    },
+    {
+      "id": "db00025",
+      "time": 7.565767,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 70,
+      "gapMm": 0.41805272964201556
+    },
+    {
+      "id": "db00026",
+      "time": 8.187514,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085269867882714
+    },
+    {
+      "id": "db00027",
+      "time": 8.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563396652604425
+    },
+    {
+      "id": "db00028",
+      "time": 8.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.769631870152887
+    },
+    {
+      "id": "db00029",
+      "time": 8.5035,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.18560501801379026
+    },
+    {
+      "id": "db00030",
+      "time": 8.812466,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7696626656018557
+    },
+    {
+      "id": "db00031",
+      "time": 9.427999999999999,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 70,
+      "gapMm": 0.41833217334408257
+    },
+    {
+      "id": "db00032",
+      "time": 10.052999999999999,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 70,
+      "gapMm": 0.41832972284605585
+    },
+    {
+      "id": "db00033",
+      "time": 10.062973,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.7696639684072748
+    },
+    {
+      "id": "db00034",
+      "time": 10.534753,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.18560302049996924
+    },
+    {
+      "id": "db00035",
+      "time": 10.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.18563475543398322
+    },
+    {
+      "id": "db00036",
+      "time": 10.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7696302575864733
+    },
+    {
+      "id": "db00037",
+      "time": 11.004678,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5008487289782648
+    },
+    {
+      "id": "db00038",
+      "time": 11.314882,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 67,
+      "gapMm": 0.08998737673338031
+    },
+    {
+      "id": "db00039",
+      "time": 11.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5851171268352884
+    },
+    {
+      "id": "db00040",
+      "time": 11.943628,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5085135530801255
+    },
+    {
+      "id": "db00041",
+      "time": 12.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.9794038898510715
+    },
+    {
+      "id": "db00042",
+      "time": 12.552999999999999,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 74,
+      "gapMm": 0.46616042230407384
+    },
+    {
+      "id": "db00043",
+      "time": 12.562015,
+      "hand": "R",
+      "finger": 2,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.32617944247570474
+    },
+    {
+      "id": "db00044",
+      "time": 13.177999999999999,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.13950583049204823
+    },
+    {
+      "id": "db00045",
+      "time": 13.177999999999999,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.785332100178282
+    },
+    {
+      "id": "db00046",
+      "time": 13.189142,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7226961301775026
+    },
+    {
+      "id": "db00047",
+      "time": 13.507567,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5689946621862951
+    },
+    {
+      "id": "db00048",
+      "time": 13.817976,
+      "hand": "R",
+      "finger": 5,
+      "midi": 71,
+      "vertices": 67,
+      "gapMm": 0.08999227031802892
+    },
+    {
+      "id": "db00049",
+      "time": 14.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 74,
+      "gapMm": -0.007580762147019193
+    },
+    {
+      "id": "db00050",
+      "time": 14.427999999999999,
+      "hand": "L",
+      "finger": 4,
+      "midi": 50,
+      "vertices": 59,
+      "gapMm": 0.37075276513753863
+    },
+    {
+      "id": "db00051",
+      "time": 14.427999999999999,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.9309850569947375
+    },
+    {
+      "id": "db00052",
+      "time": 15.052999999999999,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.354993239805812
+    },
+    {
+      "id": "db00053",
+      "time": 15.063475,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": 0.23240342562247385
+    },
+    {
+      "id": "db00054",
+      "time": 15.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.9240653460987902
+    },
+    {
+      "id": "db00055",
+      "time": 15.539017,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 65,
+      "gapMm": -0.29564564627360124
+    },
+    {
+      "id": "db00056",
+      "time": 15.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.3262411734977766
+    },
+    {
+      "id": "db00057",
+      "time": 16.010416,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 67,
+      "gapMm": 0.08998721146602495
+    },
+    {
+      "id": "db00058",
+      "time": 16.319872,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5008489299563879
+    },
+    {
+      "id": "db00059",
+      "time": 16.619500000000002,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.1856354842983965
+    },
+    {
+      "id": "db00060",
+      "time": 16.619500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7696297821562226
+    },
+    {
+      "id": "db00061",
+      "time": 16.943938000000003,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.32617788638267253
+    },
+    {
+      "id": "db00062",
+      "time": 17.244500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -1.0286836960082812
+    },
+    {
+      "id": "db00063",
+      "time": 17.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.10789187387161281
+    },
+    {
+      "id": "db00064",
+      "time": 17.566466000000002,
+      "hand": "R",
+      "finger": 3,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.5850950699318735
+    },
+    {
+      "id": "db00065",
+      "time": 18.194595000000003,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 67,
+      "gapMm": 0.089987641124889
+    },
+    {
+      "id": "db00066",
+      "time": 18.494500000000002,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563402700655374
+    },
+    {
+      "id": "db00067",
+      "time": 18.494500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696321682859608
+    },
+    {
+      "id": "db00068",
+      "time": 18.511496,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.538226251529661
+    },
+    {
+      "id": "db00069",
+      "time": 18.819418000000002,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.7696637876041246
+    },
+    {
+      "id": "db00070",
+      "time": 19.119500000000002,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5851159223438929
+    },
+    {
+      "id": "db00071",
+      "time": 20.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.41833810439873
+    },
+    {
+      "id": "db00072",
+      "time": 20.069175,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.1856029189295505
+    },
+    {
+      "id": "db00073",
+      "time": 20.386453000000003,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.5500753070701858
+    },
+    {
+      "id": "db00074",
+      "time": 20.694763000000002,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.5411921059158553
+    },
+    {
+      "id": "db00075",
+      "time": 20.994500000000002,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950395045403408
+    },
+    {
+      "id": "db00076",
+      "time": 20.994500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.785331980411863
+    },
+    {
+      "id": "db00077",
+      "time": 21.316892000000003,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.4180509272277977
+    },
+    {
+      "id": "db00078",
+      "time": 21.619500000000002,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.4183333202402162
+    },
+    {
+      "id": "db00079",
+      "time": 21.938201000000003,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.5085229393140267
+    },
+    {
+      "id": "db00080",
+      "time": 22.244500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.9240678802794333
+    },
+    {
+      "id": "db00081",
+      "time": 22.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 69,
+      "gapMm": 0.3549935676713245
+    },
+    {
+      "id": "db00082",
+      "time": 22.569957000000002,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850932213414817
+    },
+    {
+      "id": "db00083",
+      "time": 23.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.1856327451386086
+    },
+    {
+      "id": "db00084",
+      "time": 23.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696331628824771
+    },
+    {
+      "id": "db00085",
+      "time": 23.192648000000002,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7847170304633444
+    },
+    {
+      "id": "db00086",
+      "time": 23.507199,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.2133219532300945
+    },
+    {
+      "id": "db00087",
+      "time": 23.813824,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 66,
+      "gapMm": -0.36221811215597643
+    },
+    {
+      "id": "db00088",
+      "time": 24.119500000000002,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.299336478625567
+    },
+    {
+      "id": "db00089",
+      "time": 24.428,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3220576413418552
+    },
+    {
+      "id": "db00090",
+      "time": 24.428,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7000998133340763
+    },
+    {
+      "id": "db00091",
+      "time": 25.053,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.326242126981513
+    },
+    {
+      "id": "db00092",
+      "time": 25.068340000000003,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.33499762040078984
+    },
+    {
+      "id": "db00093",
+      "time": 25.525750000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.32624140339887475
+    },
+    {
+      "id": "db00094",
+      "time": 25.53825,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 74,
+      "gapMm": 0.42638913040071724
+    },
+    {
+      "id": "db00095",
+      "time": 25.994500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.32624108400147733
+    },
+    {
+      "id": "db00096",
+      "time": 26.004429000000002,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.32200161421547246
+    },
+    {
+      "id": "db00097",
+      "time": 26.312076,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7696633169568257
+    },
+    {
+      "id": "db00098",
+      "time": 26.619500000000002,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.18563581403296947
+    },
+    {
+      "id": "db00099",
+      "time": 26.619500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.769629181514464
+    },
+    {
+      "id": "db00100",
+      "time": 26.938226,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.32617791118627615
+    },
+    {
+      "id": "db00101",
+      "time": 27.244500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -1.0286825386091047
+    },
+    {
+      "id": "db00102",
+      "time": 27.256447,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7847173126741547
+    },
+    {
+      "id": "db00103",
+      "time": 27.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.10788977124887023
+    },
+    {
+      "id": "db00104",
+      "time": 27.565303,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.692907652080188
+    },
+    {
+      "id": "db00105",
+      "time": 28.187309000000003,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.7226951012713201
+    },
+    {
+      "id": "db00106",
+      "time": 28.494500000000002,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.69294503848083
+    },
+    {
+      "id": "db00107",
+      "time": 28.494500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7847682554579238
+    },
+    {
+      "id": "db00108",
+      "time": 28.503522,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.28369180590570586
+    },
+    {
+      "id": "db00109",
+      "time": 28.812709,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 74,
+      "gapMm": 0.42639274069233846
+    },
+    {
+      "id": "db00110",
+      "time": 29.119500000000002,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.585116135224828
+    },
+    {
+      "id": "db00111",
+      "time": 30.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 70,
+      "gapMm": 0.4183297202875469
+    },
+    {
+      "id": "db00112",
+      "time": 30.062689000000002,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.5500752634401973
+    },
+    {
+      "id": "db00113",
+      "time": 30.534798000000002,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.5411919021840461
+    },
+    {
+      "id": "db00114",
+      "time": 30.994500000000002,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.18563471354759997
+    },
+    {
+      "id": "db00115",
+      "time": 30.994500000000002,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7696302739911287
+    },
+    {
+      "id": "db00116",
+      "time": 31.005027000000002,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7426973271329462
+    },
+    {
+      "id": "db00117",
+      "time": 31.315338,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.0440959312575373
+    },
+    {
+      "id": "db00118",
+      "time": 31.619500000000002,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5851172012142358
+    },
+    {
+      "id": "db00119",
+      "time": 31.943962000000003,
+      "hand": "R",
+      "finger": 5,
+      "midi": 71,
+      "vertices": 70,
+      "gapMm": 0.41804983166360277
+    },
+    {
+      "id": "db00120",
+      "time": 32.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.9794039544769317
+    },
+    {
+      "id": "db00121",
+      "time": 32.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 74,
+      "gapMm": 0.46615995402732313
+    },
+    {
+      "id": "db00122",
+      "time": 32.562083,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 67,
+      "gapMm": 0.08998731750253786
+    },
+    {
+      "id": "db00123",
+      "time": 32.879452,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.4493598421195788
+    },
+    {
+      "id": "db00124",
+      "time": 33.178000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.1395056028377084
+    },
+    {
+      "id": "db00125",
+      "time": 33.178000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7853320047312984
+    },
+    {
+      "id": "db00126",
+      "time": 33.189567000000004,
+      "hand": "R",
+      "finger": 2,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.9309899020137902
+    },
+    {
+      "id": "db00127",
+      "time": 33.818368,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5085137832232522
+    },
+    {
+      "id": "db00128",
+      "time": 34.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 74,
+      "gapMm": -0.007580686072206078
+    },
+    {
+      "id": "db00129",
+      "time": 34.428000000000004,
+      "hand": "L",
+      "finger": 4,
+      "midi": 50,
+      "vertices": 59,
+      "gapMm": 0.37075277063047807
+    },
+    {
+      "id": "db00130",
+      "time": 34.428000000000004,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.930985055020872
+    },
+    {
+      "id": "db00131",
+      "time": 35.053000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.35499324778387464
+    },
+    {
+      "id": "db00132",
+      "time": 35.063854,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.9309874678834484
+    },
+    {
+      "id": "db00133",
+      "time": 35.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.9240653558914014
+    },
+    {
+      "id": "db00134",
+      "time": 35.539480000000005,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.45644787723320146
+    },
+    {
+      "id": "db00135",
+      "time": 35.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.3262412425011352
+    },
+    {
+      "id": "db00136",
+      "time": 36.010715000000005,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 67,
+      "gapMm": 0.08999675833343268
+    },
+    {
+      "id": "db00137",
+      "time": 36.319962000000004,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.5008572071331097
+    },
+    {
+      "id": "db00138",
+      "time": 36.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.18563538670379742
+    },
+    {
+      "id": "db00139",
+      "time": 36.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7696298213832886
+    },
+    {
+      "id": "db00140",
+      "time": 36.943601,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850929065290833
+    },
+    {
+      "id": "db00141",
+      "time": 37.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -1.0286837256504588
+    },
+    {
+      "id": "db00142",
+      "time": 37.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.10789175281122887
+    },
+    {
+      "id": "db00143",
+      "time": 37.566926,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850928644896003
+    },
+    {
+      "id": "db00144",
+      "time": 38.194775,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.692907618105365
+    },
+    {
+      "id": "db00145",
+      "time": 38.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563406105198688
+    },
+    {
+      "id": "db00146",
+      "time": 38.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696321530386019
+    },
+    {
+      "id": "db00147",
+      "time": 38.511447000000004,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7847172602042374
+    },
+    {
+      "id": "db00148",
+      "time": 38.819153,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.3261777755804163
+    },
+    {
+      "id": "db00149",
+      "time": 39.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.41833356620002426
+    },
+    {
+      "id": "db00150",
+      "time": 40.053000000000004,
+      "hand": "L",
+      "finger": 4,
+      "midi": 50,
+      "vertices": 59,
+      "gapMm": 0.5085997864893166
+    },
+    {
+      "id": "db00151",
+      "time": 40.069437,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7696633551036447
+    },
+    {
+      "id": "db00152",
+      "time": 40.386497,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.32200139072458
+    },
+    {
+      "id": "db00153",
+      "time": 40.694579000000004,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 74,
+      "gapMm": 0.4263888885644995
+    },
+    {
+      "id": "db00154",
+      "time": 40.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.1856351509432752
+    },
+    {
+      "id": "db00155",
+      "time": 40.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7696296302591721
+    },
+    {
+      "id": "db00156",
+      "time": 41.316431,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.013123531464986904
+    },
+    {
+      "id": "db00157",
+      "time": 41.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.5851172616723188
+    },
+    {
+      "id": "db00158",
+      "time": 41.630972,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.6921131818257154
+    },
+    {
+      "id": "db00159",
+      "time": 41.937887,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7847176615206619
+    },
+    {
+      "id": "db00160",
+      "time": 42.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -0.744242804548545
+    },
+    {
+      "id": "db00161",
+      "time": 42.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.4183375321610283
+    },
+    {
+      "id": "db00162",
+      "time": 42.569863000000005,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.3261783821399966
+    },
+    {
+      "id": "db00163",
+      "time": 43.178000000000004,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5413674736604035
+    },
+    {
+      "id": "db00164",
+      "time": 43.178000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500148475321431
+    },
+    {
+      "id": "db00165",
+      "time": 43.192212000000005,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5008531944721284
+    },
+    {
+      "id": "db00166",
+      "time": 43.506737,
+      "hand": "R",
+      "finger": 5,
+      "midi": 71,
+      "vertices": 67,
+      "gapMm": 0.08999196258308029
+    },
+    {
+      "id": "db00167",
+      "time": 43.813448,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.41805081212176187
+    },
+    {
+      "id": "db00168",
+      "time": 44.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 69,
+      "gapMm": -0.004278691969727966
+    },
+    {
+      "id": "db00169",
+      "time": 44.428000000000004,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.3197929253198062
+    },
+    {
+      "id": "db00170",
+      "time": 44.428000000000004,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 36,
+      "gapMm": -0.7664583462818619
+    },
+    {
+      "id": "db00171",
+      "time": 45.053000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 66,
+      "gapMm": -0.22494181046839312
+    },
+    {
+      "id": "db00172",
+      "time": 45.067946,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.7136743468012519
+    },
+    {
+      "id": "db00173",
+      "time": 45.52575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426474077204986
+    },
+    {
+      "id": "db00174",
+      "time": 45.537791,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.47212440739030637
+    },
+    {
+      "id": "db00175",
+      "time": 45.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500143746502983
+    },
+    {
+      "id": "db00176",
+      "time": 46.004151,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 67,
+      "gapMm": 0.09000418946714106
+    },
+    {
+      "id": "db00177",
+      "time": 46.312012,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5008641295060068
+    },
+    {
+      "id": "db00178",
+      "time": 46.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563380800473706
+    },
+    {
+      "id": "db00179",
+      "time": 46.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696323588074483
+    },
+    {
+      "id": "db00180",
+      "time": 46.938581,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850928967264801
+    },
+    {
+      "id": "db00181",
+      "time": 47.2445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.5009414958430103
+    },
+    {
+      "id": "db00182",
+      "time": 47.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 67,
+      "gapMm": 0.09022719497642218
+    },
+    {
+      "id": "db00183",
+      "time": 47.564848000000005,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.3261755697386848
+    },
+    {
+      "id": "db00184",
+      "time": 48.187154,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.5850916866941835
+    },
+    {
+      "id": "db00185",
+      "time": 48.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.1856340793363609
+    },
+    {
+      "id": "db00186",
+      "time": 48.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696317419144671
+    },
+    {
+      "id": "db00187",
+      "time": 48.503597,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7226926792449628
+    },
+    {
+      "id": "db00188",
+      "time": 48.812996,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.013127242539767714
+    },
+    {
+      "id": "db00189",
+      "time": 49.1195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5851161268174421
+    },
+    {
+      "id": "db00190",
+      "time": 50.053000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": 0.00366801114692894
+    },
+    {
+      "id": "db00191",
+      "time": 50.06245,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5850896260110039
+    },
+    {
+      "id": "db00192",
+      "time": 50.52575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.4590671342793451
+    },
+    {
+      "id": "db00193",
+      "time": 50.52575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.6373651936392166
+    },
+    {
+      "id": "db00194",
+      "time": 50.687531,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.6929062713288969
+    },
+    {
+      "id": "db00195",
+      "time": 50.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068718844937543
+    },
+    {
+      "id": "db00196",
+      "time": 50.9945,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.07633270315343665
+    },
+    {
+      "id": "db00197",
+      "time": 51.005411,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5500726753681073
+    },
+    {
+      "id": "db00198",
+      "time": 51.303000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": 0.003666535440927099
+    },
+    {
+      "id": "db00199",
+      "time": 51.315802000000005,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5411882118704359
+    },
+    {
+      "id": "db00200",
+      "time": 51.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.45906906412651605
+    },
+    {
+      "id": "db00201",
+      "time": 51.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.6373661258635144
+    },
+    {
+      "id": "db00202",
+      "time": 51.944255,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 70,
+      "gapMm": 0.4180558775277454
+    },
+    {
+      "id": "db00203",
+      "time": 52.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.3511936860436382
+    },
+    {
+      "id": "db00204",
+      "time": 52.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 36,
+      "gapMm": -0.28921951794624867
+    },
+    {
+      "id": "db00205",
+      "time": 52.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": -0.674736900698969
+    },
+    {
+      "id": "db00206",
+      "time": 52.562205,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 70,
+      "gapMm": 0.4180522148496957
+    },
+    {
+      "id": "db00207",
+      "time": 53.178000000000004,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413683524725377
+    },
+    {
+      "id": "db00208",
+      "time": 53.178000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500145758972064
+    },
+    {
+      "id": "db00209",
+      "time": 53.190012,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.013124253181673318
+    },
+    {
+      "id": "db00210",
+      "time": 53.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013424543038431658
+    },
+    {
+      "id": "db00211",
+      "time": 53.508491,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.692112463688499
+    },
+    {
+      "id": "db00212",
+      "time": 53.803000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13775113203362555
+    },
+    {
+      "id": "db00213",
+      "time": 53.818728,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7847170902057776
+    },
+    {
+      "id": "db00214",
+      "time": 54.27575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.01342590193076365
+    },
+    {
+      "id": "db00215",
+      "time": 54.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.8032135364548498
+    },
+    {
+      "id": "db00216",
+      "time": 54.444936,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.5850920821031114
+    },
+    {
+      "id": "db00217",
+      "time": 54.7445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.7853328317272146
+    },
+    {
+      "id": "db00218",
+      "time": 55.053000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 65,
+      "gapMm": -0.28023436289403847
+    },
+    {
+      "id": "db00219",
+      "time": 55.064262,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5850909771244472
+    },
+    {
+      "id": "db00220",
+      "time": 55.3695,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426205246358514
+    },
+    {
+      "id": "db00221",
+      "time": 55.539934,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7226927736458943
+    },
+    {
+      "id": "db00222",
+      "time": 55.678000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500142330290281
+    },
+    {
+      "id": "db00223",
+      "time": 55.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426698609153576
+    },
+    {
+      "id": "db00224",
+      "time": 56.010971000000005,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5690079911490065
+    },
+    {
+      "id": "db00225",
+      "time": 56.303000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.29933693419814666
+    },
+    {
+      "id": "db00226",
+      "time": 56.319999,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 67,
+      "gapMm": 0.09000683490023587
+    },
+    {
+      "id": "db00227",
+      "time": 56.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.32205912499072564
+    },
+    {
+      "id": "db00228",
+      "time": 56.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7000984445693081
+    },
+    {
+      "id": "db00229",
+      "time": 56.943229,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5085330685952183
+    },
+    {
+      "id": "db00230",
+      "time": 57.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.9794058735833611
+    },
+    {
+      "id": "db00231",
+      "time": 57.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.46616873528082525
+    },
+    {
+      "id": "db00232",
+      "time": 57.567373,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 70,
+      "gapMm": 0.41805643413517224
+    },
+    {
+      "id": "db00233",
+      "time": 58.178000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950190115907812
+    },
+    {
+      "id": "db00234",
+      "time": 58.178000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853305231227958
+    },
+    {
+      "id": "db00235",
+      "time": 58.194903000000004,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 67,
+      "gapMm": 0.09000485078569653
+    },
+    {
+      "id": "db00236",
+      "time": 58.511345,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.44937831937019723
+    },
+    {
+      "id": "db00237",
+      "time": 58.818845,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.9309814431607277
+    },
+    {
+      "id": "db00238",
+      "time": 59.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.044372747701748594
+    },
+    {
+      "id": "db00239",
+      "time": 59.1195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7428047736115495
+    },
+    {
+      "id": "db00240",
+      "time": 60.053000000000004,
+      "hand": "L",
+      "finger": 3,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.9029855248846586
+    },
+    {
+      "id": "db00241",
+      "time": 60.069652000000005,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5500726341911566
+    },
+    {
+      "id": "db00242",
+      "time": 60.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.18563550415962027
+    },
+    {
+      "id": "db00243",
+      "time": 60.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7696293440294655
+    },
+    {
+      "id": "db00244",
+      "time": 60.542535,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5589635944788229
+    },
+    {
+      "id": "db00245",
+      "time": 60.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.3220606197278375
+    },
+    {
+      "id": "db00246",
+      "time": 60.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7000936861674134
+    },
+    {
+      "id": "db00247",
+      "time": 61.009387000000004,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.2836941084031208
+    },
+    {
+      "id": "db00248",
+      "time": 61.303000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.17636992818248487
+    },
+    {
+      "id": "db00249",
+      "time": 61.315965,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 74,
+      "gapMm": 0.4263924780522066
+    },
+    {
+      "id": "db00250",
+      "time": 61.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.04665555641658603
+    },
+    {
+      "id": "db00251",
+      "time": 61.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -1.0835785374493367
+    },
+    {
+      "id": "db00252",
+      "time": 61.937615,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5085347945051888
+    },
+    {
+      "id": "db00253",
+      "time": 62.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": 0.16481866077666663
+    },
+    {
+      "id": "db00254",
+      "time": 62.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": 0.12904545401193346
+    },
+    {
+      "id": "db00255",
+      "time": 62.553000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": -0.7988957885424197
+    },
+    {
+      "id": "db00256",
+      "time": 62.569715,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5085346146048719
+    },
+    {
+      "id": "db00257",
+      "time": 63.178000000000004,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5413677160851504
+    },
+    {
+      "id": "db00258",
+      "time": 63.178000000000004,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500150924189207
+    },
+    {
+      "id": "db00259",
+      "time": 63.19176,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.6929044854817601
+    },
+    {
+      "id": "db00260",
+      "time": 63.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013423639560139478
+    },
+    {
+      "id": "db00261",
+      "time": 63.506284,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.784714938768416
+    },
+    {
+      "id": "db00262",
+      "time": 63.803000000000004,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.2993353549669564
+    },
+    {
+      "id": "db00263",
+      "time": 63.813106000000005,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.6929044492073322
+    },
+    {
+      "id": "db00264",
+      "time": 64.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3220567072730329
+    },
+    {
+      "id": "db00265",
+      "time": 64.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.700100235778156
+    },
+    {
+      "id": "db00266",
+      "time": 64.437113,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5085348669441325
+    },
+    {
+      "id": "db00267",
+      "time": 64.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3682303845631285
+    },
+    {
+      "id": "db00268",
+      "time": 65.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.15304124086401583
+    },
+    {
+      "id": "db00269",
+      "time": 65.067525,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.585089393149496
+    },
+    {
+      "id": "db00270",
+      "time": 65.3695,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585198321851227
+    },
+    {
+      "id": "db00271",
+      "time": 65.537345,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.7226925253277505
+    },
+    {
+      "id": "db00272",
+      "time": 65.678,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.784768744420572
+    },
+    {
+      "id": "db00273",
+      "time": 65.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585193892393315
+    },
+    {
+      "id": "db00274",
+      "time": 66.003919,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.28369537289785196
+    },
+    {
+      "id": "db00275",
+      "time": 66.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.2860111882559968
+    },
+    {
+      "id": "db00276",
+      "time": 66.312003,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 74,
+      "gapMm": 0.4263930006134231
+    },
+    {
+      "id": "db00277",
+      "time": 66.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585184529066535
+    },
+    {
+      "id": "db00278",
+      "time": 66.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.9535823929179843
+    },
+    {
+      "id": "db00279",
+      "time": 66.938968,
+      "hand": "R",
+      "finger": 4,
+      "midi": 77,
+      "vertices": 59,
+      "gapMm": 0.5085379846684335
+    },
+    {
+      "id": "db00280",
+      "time": 67.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.9240651076769524
+    },
+    {
+      "id": "db00281",
+      "time": 67.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.35499450315656933
+    },
+    {
+      "id": "db00282",
+      "time": 67.56441,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.585088778915166
+    },
+    {
+      "id": "db00283",
+      "time": 68.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.1856346571581513
+    },
+    {
+      "id": "db00284",
+      "time": 68.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696314313314634
+    },
+    {
+      "id": "db00285",
+      "time": 68.18705200000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.326172948274972
+    },
+    {
+      "id": "db00286",
+      "time": 69.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563459764209256
+    },
+    {
+      "id": "db00287",
+      "time": 69.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696314756562295
+    },
+    {
+      "id": "db00288",
+      "time": 69.44205600000001,
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "vertices": 34,
+      "gapMm": -0.7107174285208018
+    },
+    {
+      "id": "db00289",
+      "time": 69.760277,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.23289854293306878
+    },
+    {
+      "id": "db00290",
+      "time": 70.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 74,
+      "gapMm": 0.29933671176873844
+    },
+    {
+      "id": "db00291",
+      "time": 70.062259,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.322007659825152
+    },
+    {
+      "id": "db00292",
+      "time": 70.066,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7001415263337973
+    },
+    {
+      "id": "db00293",
+      "time": 70.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.322061563509779
+    },
+    {
+      "id": "db00294",
+      "time": 70.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7000940989376758
+    },
+    {
+      "id": "db00295",
+      "time": 70.535047,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.13793317101051805
+    },
+    {
+      "id": "db00296",
+      "time": 70.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.3220601317919236
+    },
+    {
+      "id": "db00297",
+      "time": 70.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.700095159024472
+    },
+    {
+      "id": "db00298",
+      "time": 71.005823,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.3622153171731757
+    },
+    {
+      "id": "db00299",
+      "time": 71.00750000000001,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349879678352652
+    },
+    {
+      "id": "db00300",
+      "time": 71.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 66,
+      "gapMm": -0.1763706837722978
+    },
+    {
+      "id": "db00301",
+      "time": 71.316269,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349882593834952
+    },
+    {
+      "id": "db00302",
+      "time": 71.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.04665477757059833
+    },
+    {
+      "id": "db00303",
+      "time": 71.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -1.0835788657724832
+    },
+    {
+      "id": "db00304",
+      "time": 71.944504,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850895952818069
+    },
+    {
+      "id": "db00305",
+      "time": 72.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.35119331381372465
+    },
+    {
+      "id": "db00306",
+      "time": 72.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 36,
+      "gapMm": -0.2892197209732883
+    },
+    {
+      "id": "db00307",
+      "time": 72.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": -0.6747374523802252
+    },
+    {
+      "id": "db00308",
+      "time": 72.562378,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.17721238134527084
+    },
+    {
+      "id": "db00309",
+      "time": 72.566,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.25880572754921616
+    },
+    {
+      "id": "db00310",
+      "time": 73.03420274999999,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.2569022939605814
+    },
+    {
+      "id": "db00311",
+      "time": 73.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413688103115266
+    },
+    {
+      "id": "db00312",
+      "time": 73.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500149448763869
+    },
+    {
+      "id": "db00313",
+      "time": 73.190471,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382448140094365
+    },
+    {
+      "id": "db00314",
+      "time": 73.191,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.26610188492215414
+    },
+    {
+      "id": "db00315",
+      "time": 73.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013424290317476384
+    },
+    {
+      "id": "db00316",
+      "time": 73.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.29933496429301876
+    },
+    {
+      "id": "db00317",
+      "time": 73.81905,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.5850921821036748
+    },
+    {
+      "id": "db00318",
+      "time": 74.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3220576267207731
+    },
+    {
+      "id": "db00319",
+      "time": 74.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7000992181731558
+    },
+    {
+      "id": "db00320",
+      "time": 74.444826,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.3261760797960145
+    },
+    {
+      "id": "db00321",
+      "time": 74.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3682300991213472
+    },
+    {
+      "id": "db00322",
+      "time": 75.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.2533169569347571
+    },
+    {
+      "id": "db00323",
+      "time": 75.064693,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 65,
+      "gapMm": -0.2956360142112313
+    },
+    {
+      "id": "db00324",
+      "time": 75.066,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.23241011229790942
+    },
+    {
+      "id": "db00325",
+      "time": 75.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068694644440381
+    },
+    {
+      "id": "db00326",
+      "time": 75.54037100000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005035057408897536
+    },
+    {
+      "id": "db00327",
+      "time": 75.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904795187729245
+    },
+    {
+      "id": "db00328",
+      "time": 75.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068787539243342
+    },
+    {
+      "id": "db00329",
+      "time": 76.00750000000001,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.8526376144787351
+    },
+    {
+      "id": "db00330",
+      "time": 76.011179,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": 0.013996345957667522
+    },
+    {
+      "id": "db00331",
+      "time": 76.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.05214964034838676
+    },
+    {
+      "id": "db00332",
+      "time": 76.319981,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.3208920298819473
+    },
+    {
+      "id": "db00333",
+      "time": 76.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068987732871683
+    },
+    {
+      "id": "db00334",
+      "time": 76.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.07633152335062565
+    },
+    {
+      "id": "db00335",
+      "time": 76.94282700000001,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085269682487681
+    },
+    {
+      "id": "db00336",
+      "time": 77.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.7442403731435787
+    },
+    {
+      "id": "db00337",
+      "time": 77.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.4183362699777815
+    },
+    {
+      "id": "db00338",
+      "time": 77.566,
+      "hand": "R",
+      "finger": 1,
+      "midi": 65,
+      "vertices": 35,
+      "gapMm": -0.1820562403028747
+    },
+    {
+      "id": "db00339",
+      "time": 77.567802,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.0019118876019019737
+    },
+    {
+      "id": "db00340",
+      "time": 78.03732665,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.38933238608218623
+    },
+    {
+      "id": "db00341",
+      "time": 78.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563416225314544
+    },
+    {
+      "id": "db00342",
+      "time": 78.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.769632005405585
+    },
+    {
+      "id": "db00343",
+      "time": 78.191,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.2661021798980867
+    },
+    {
+      "id": "db00344",
+      "time": 78.194979,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 66,
+      "gapMm": -0.25690334159045314
+    },
+    {
+      "id": "db00345",
+      "time": 78.818498,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085304705717553
+    },
+    {
+      "id": "db00346",
+      "time": 79.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.1856343578671149
+    },
+    {
+      "id": "db00347",
+      "time": 79.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696319355865455
+    },
+    {
+      "id": "db00348",
+      "time": 79.43972000000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.3261745168383623
+    },
+    {
+      "id": "db00349",
+      "time": 80.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.46616801324461665
+    },
+    {
+      "id": "db00350",
+      "time": 80.066,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7001414136784678
+    },
+    {
+      "id": "db00351",
+      "time": 80.069817,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.3220077043859515
+    },
+    {
+      "id": "db00352",
+      "time": 80.52575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950353770308954
+    },
+    {
+      "id": "db00353",
+      "time": 80.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.785331582453308
+    },
+    {
+      "id": "db00354",
+      "time": 80.54235800000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.13793335668466078
+    },
+    {
+      "id": "db00355",
+      "time": 80.9945,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950492010361693
+    },
+    {
+      "id": "db00356",
+      "time": 80.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.785332517854509
+    },
+    {
+      "id": "db00357",
+      "time": 81.00750000000001,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.33498790205399587
+    },
+    {
+      "id": "db00358",
+      "time": 81.00896300000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.36221540883041303
+    },
+    {
+      "id": "db00359",
+      "time": 81.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.4661674664382387
+    },
+    {
+      "id": "db00360",
+      "time": 81.315499,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349881862114712
+    },
+    {
+      "id": "db00361",
+      "time": 81.77575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950468327494914
+    },
+    {
+      "id": "db00362",
+      "time": 81.77575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853325146109924
+    },
+    {
+      "id": "db00363",
+      "time": 81.93739000000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.32617334519280394
+    },
+    {
+      "id": "db00364",
+      "time": 82.2445,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950582945010392
+    },
+    {
+      "id": "db00365",
+      "time": 82.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853332729376161
+    },
+    {
+      "id": "db00366",
+      "time": 82.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950685348618208
+    },
+    {
+      "id": "db00367",
+      "time": 82.566,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.26610187978792776
+    },
+    {
+      "id": "db00368",
+      "time": 82.569517,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382447801479673
+    },
+    {
+      "id": "db00369",
+      "time": 83.03596375,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.25690229654096175
+    },
+    {
+      "id": "db00370",
+      "time": 83.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413688132359651
+    },
+    {
+      "id": "db00371",
+      "time": 83.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500149468775639
+    },
+    {
+      "id": "db00372",
+      "time": 83.191,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.2661018835267148
+    },
+    {
+      "id": "db00373",
+      "time": 83.191297,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382448101628468
+    },
+    {
+      "id": "db00374",
+      "time": 83.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013424283715313123
+    },
+    {
+      "id": "db00375",
+      "time": 83.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.2993349665613154
+    },
+    {
+      "id": "db00376",
+      "time": 83.812804,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.32617423707881343
+    },
+    {
+      "id": "db00377",
+      "time": 84.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.32205741821433875
+    },
+    {
+      "id": "db00378",
+      "time": 84.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7000993150044765
+    },
+    {
+      "id": "db00379",
+      "time": 84.43724900000001,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5085322747918619
+    },
+    {
+      "id": "db00380",
+      "time": 84.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.36822998876218094
+    },
+    {
+      "id": "db00381",
+      "time": 85.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.253316806214432
+    },
+    {
+      "id": "db00382",
+      "time": 85.066,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.9251729379071705
+    },
+    {
+      "id": "db00383",
+      "time": 85.06708400000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005035931118557713
+    },
+    {
+      "id": "db00384",
+      "time": 85.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068692103905931
+    },
+    {
+      "id": "db00385",
+      "time": 85.536918,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.12184420713112765
+    },
+    {
+      "id": "db00386",
+      "time": 85.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904784442291373
+    },
+    {
+      "id": "db00387",
+      "time": 85.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068752932348215
+    },
+    {
+      "id": "db00388",
+      "time": 86.003736,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.3622150041509009
+    },
+    {
+      "id": "db00389",
+      "time": 86.00750000000001,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.33498766067718844
+    },
+    {
+      "id": "db00390",
+      "time": 86.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.05214999736313786
+    },
+    {
+      "id": "db00391",
+      "time": 86.312048,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 70,
+      "gapMm": 0.04409720930687033
+    },
+    {
+      "id": "db00392",
+      "time": 86.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068954454202974
+    },
+    {
+      "id": "db00393",
+      "time": 86.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.0763316369754019
+    },
+    {
+      "id": "db00394",
+      "time": 86.939384,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 70,
+      "gapMm": 0.4180581314213727
+    },
+    {
+      "id": "db00395",
+      "time": 87.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.7442405443411904
+    },
+    {
+      "id": "db00396",
+      "time": 87.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833594621953907
+    },
+    {
+      "id": "db00397",
+      "time": 87.563993,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 65,
+      "gapMm": -0.2956227046987392
+    },
+    {
+      "id": "db00398",
+      "time": 87.566,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": 0.2324192365235067
+    },
+    {
+      "id": "db00399",
+      "time": 88.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.1856341898675007
+    },
+    {
+      "id": "db00400",
+      "time": 88.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696319796919315
+    },
+    {
+      "id": "db00401",
+      "time": 88.187004,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 69,
+      "gapMm": 0.35485666051693343
+    },
+    {
+      "id": "db00402",
+      "time": 88.503907,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 66,
+      "gapMm": -0.2569035291276611
+    },
+    {
+      "id": "db00403",
+      "time": 88.50750000000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.26610189478171176
+    },
+    {
+      "id": "db00404",
+      "time": 88.813689,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5382444323134283
+    },
+    {
+      "id": "db00405",
+      "time": 89.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": 0.42666893946030626
+    },
+    {
+      "id": "db00406",
+      "time": 89.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 48,
+      "vertices": 59,
+      "gapMm": 0.5693091595765365
+    },
+    {
+      "id": "db00407",
+      "time": 90.053,
+      "hand": "L",
+      "finger": 4,
+      "midi": 50,
+      "vertices": 59,
+      "gapMm": 0.4595131043814149
+    },
+    {
+      "id": "db00408",
+      "time": 90.06212000000001,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.32200186000796993
+    },
+    {
+      "id": "db00409",
+      "time": 90.066,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.7001446058088057
+    },
+    {
+      "id": "db00410",
+      "time": 90.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.18563550397543427
+    },
+    {
+      "id": "db00411",
+      "time": 90.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7696293249203068
+    },
+    {
+      "id": "db00412",
+      "time": 90.53524900000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": -0.02483901971561675
+    },
+    {
+      "id": "db00413",
+      "time": 90.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.32206034140003226
+    },
+    {
+      "id": "db00414",
+      "time": 90.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7000938550806302
+    },
+    {
+      "id": "db00415",
+      "time": 91.006257,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 65,
+      "gapMm": -0.2956280570834968
+    },
+    {
+      "id": "db00416",
+      "time": 91.00750000000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.2324152711142835
+    },
+    {
+      "id": "db00417",
+      "time": 91.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.17637018125049586
+    },
+    {
+      "id": "db00418",
+      "time": 91.316732,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 74,
+      "gapMm": 0.46588826868898536
+    },
+    {
+      "id": "db00419",
+      "time": 91.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.04665592380326267
+    },
+    {
+      "id": "db00420",
+      "time": 91.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -1.083578656141393
+    },
+    {
+      "id": "db00421",
+      "time": 91.944705,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 70,
+      "gapMm": 0.4180558326493111
+    },
+    {
+      "id": "db00422",
+      "time": 92.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": 0.1648178514899179
+    },
+    {
+      "id": "db00423",
+      "time": 92.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": 0.12904496659460474
+    },
+    {
+      "id": "db00424",
+      "time": 92.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.41833627090537284
+    },
+    {
+      "id": "db00425",
+      "time": 92.5626,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.3622154495401819
+    },
+    {
+      "id": "db00426",
+      "time": 92.566,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.3349911699688235
+    },
+    {
+      "id": "db00427",
+      "time": 93.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.236130602814133
+    },
+    {
+      "id": "db00428",
+      "time": 93.178,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 34,
+      "gapMm": -0.7876958890057351
+    },
+    {
+      "id": "db00429",
+      "time": 93.19093600000001,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 69,
+      "gapMm": 0.35485492812470376
+    },
+    {
+      "id": "db00430",
+      "time": 93.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 43,
+      "vertices": 53,
+      "gapMm": -0.09915329730414424
+    },
+    {
+      "id": "db00431",
+      "time": 93.50750000000001,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.23241001270146722
+    },
+    {
+      "id": "db00432",
+      "time": 93.509362,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 65,
+      "gapMm": -0.29563605153726247
+    },
+    {
+      "id": "db00433",
+      "time": 93.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": -0.00764294334221205
+    },
+    {
+      "id": "db00434",
+      "time": 93.819331,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.23241021066555678
+    },
+    {
+      "id": "db00435",
+      "time": 94.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.3707517516864378
+    },
+    {
+      "id": "db00436",
+      "time": 94.27575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 35,
+      "gapMm": -0.9309877762161411
+    },
+    {
+      "id": "db00437",
+      "time": 94.444663,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.4180506354515279
+    },
+    {
+      "id": "db00438",
+      "time": 94.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.3209457729393961
+    },
+    {
+      "id": "db00439",
+      "time": 95.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 65,
+      "gapMm": -0.3001646670536262
+    },
+    {
+      "id": "db00440",
+      "time": 95.065143,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.0019190412510194932
+    },
+    {
+      "id": "db00441",
+      "time": 95.066,
+      "hand": "R",
+      "finger": 1,
+      "midi": 65,
+      "vertices": 35,
+      "gapMm": -0.18206162491263278
+    },
+    {
+      "id": "db00442",
+      "time": 95.3695,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426057260734758
+    },
+    {
+      "id": "db00443",
+      "time": 95.540786,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.08523878097033144
+    },
+    {
+      "id": "db00444",
+      "time": 95.678,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500143390672063
+    },
+    {
+      "id": "db00445",
+      "time": 95.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426392536097786
+    },
+    {
+      "id": "db00446",
+      "time": 96.00750000000001,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.34561722302517417
+    },
+    {
+      "id": "db00447",
+      "time": 96.011337,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 65,
+      "gapMm": -0.3746663152367491
+    },
+    {
+      "id": "db00448",
+      "time": 96.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.29933692656480826
+    },
+    {
+      "id": "db00449",
+      "time": 96.319909,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5690082170922706
+    },
+    {
+      "id": "db00450",
+      "time": 96.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3220593899218027
+    },
+    {
+      "id": "db00451",
+      "time": 96.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7000982606583106
+    },
+    {
+      "id": "db00452",
+      "time": 96.9424,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085271235146793
+    },
+    {
+      "id": "db00453",
+      "time": 97.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853303323694938
+    },
+    {
+      "id": "db00454",
+      "time": 97.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950193810696732
+    },
+    {
+      "id": "db00455",
+      "time": 97.566,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7696625860141859
+    },
+    {
+      "id": "db00456",
+      "time": 97.568206,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.1856050637063511
+    },
+    {
+      "id": "db00457",
+      "time": 98.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563472958577076
+    },
+    {
+      "id": "db00458",
+      "time": 98.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696313344441874
+    },
+    {
+      "id": "db00459",
+      "time": 98.19500000000001,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.3515467741442846
+    },
+    {
+      "id": "db00460",
+      "time": 98.50750000000001,
+      "hand": "R",
+      "finger": 1,
+      "midi": 62,
+      "vertices": 33,
+      "gapMm": -0.0297818755436996
+    },
+    {
+      "id": "db00461",
+      "time": 98.510985,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.09864707747964108
+    },
+    {
+      "id": "db00462",
+      "time": 98.818116,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 74,
+      "gapMm": -0.5203874636282579
+    },
+    {
+      "id": "db00463",
+      "time": 99.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563485152367498
+    },
+    {
+      "id": "db00464",
+      "time": 99.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696313275563638
+    },
+    {
+      "id": "db00465",
+      "time": 100.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 70,
+      "gapMm": 0.4183302815921053
+    },
+    {
+      "id": "db00466",
+      "time": 100.693748,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.7696640491180462
+    },
+    {
+      "id": "db00467",
+      "time": 100.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.18563490063361332
+    },
+    {
+      "id": "db00468",
+      "time": 100.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.769630188011794
+    },
+    {
+      "id": "db00469",
+      "time": 101.16378,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5456337860587634
+    },
+    {
+      "id": "db00470",
+      "time": 101.629796,
+      "hand": "R",
+      "finger": 3,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.7136766266712113
+    },
+    {
+      "id": "db00471",
+      "time": 101.928,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.585116971658417
+    },
+    {
+      "id": "db00472",
+      "time": 102.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 70,
+      "gapMm": 0.4183305915437252
+    },
+    {
+      "id": "db00473",
+      "time": 102.569271,
+      "hand": "R",
+      "finger": 3,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.5850949814294459
+    },
+    {
+      "id": "db00474",
+      "time": 103.19083,
+      "hand": "R",
+      "finger": 4,
+      "midi": 64,
+      "vertices": 59,
+      "gapMm": 0.013121612743804967
+    },
+    {
+      "id": "db00475",
+      "time": 103.4945,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.13950550579522325
+    },
+    {
+      "id": "db00476",
+      "time": 103.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7853319022783634
+    },
+    {
+      "id": "db00477",
+      "time": 103.505435,
+      "hand": "R",
+      "finger": 3,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.692113512434922
+    },
+    {
+      "id": "db00478",
+      "time": 103.812545,
+      "hand": "R",
+      "finger": 2,
+      "midi": 60,
+      "vertices": 53,
+      "gapMm": -0.7847197023421737
+    },
+    {
+      "id": "db00479",
+      "time": 104.428,
+      "hand": "L",
+      "finger": 3,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5851169663909639
+    },
+    {
+      "id": "db00480",
+      "time": 105.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.4183321345982982
+    },
+    {
+      "id": "db00481",
+      "time": 105.381157,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5085182216205686
+    },
+    {
+      "id": "db00482",
+      "time": 105.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5413692613468468
+    },
+    {
+      "id": "db00483",
+      "time": 105.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.550012095487995
+    },
+    {
+      "id": "db00484",
+      "time": 106.003604,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 66,
+      "gapMm": -0.3622174674299261
+    },
+    {
+      "id": "db00485",
+      "time": 106.312147,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.3349974505547637
+    },
+    {
+      "id": "db00486",
+      "time": 106.928,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.3262411135848131
+    },
+    {
+      "id": "db00487",
+      "time": 106.939821,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.32617561668690787
+    },
+    {
+      "id": "db00488",
+      "time": 107.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.4183360614999909
+    },
+    {
+      "id": "db00489",
+      "time": 107.563603,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 70,
+      "gapMm": 0.418052768910937
+    },
+    {
+      "id": "db00490",
+      "time": 108.18701,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.508527061805375
+    },
+    {
+      "id": "db00491",
+      "time": 108.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563387167269685
+    },
+    {
+      "id": "db00492",
+      "time": 108.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696322525814203
+    },
+    {
+      "id": "db00493",
+      "time": 108.504136,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.18560509605625164
+    },
+    {
+      "id": "db00494",
+      "time": 108.814085,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7696626268220985
+    },
+    {
+      "id": "db00495",
+      "time": 109.428,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.41833371242994133
+    },
+    {
+      "id": "db00496",
+      "time": 110.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.41833288849457695
+    },
+    {
+      "id": "db00497",
+      "time": 110.062033,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.32617797309608676
+    },
+    {
+      "id": "db00498",
+      "time": 110.688426,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5692293867385345
+    },
+    {
+      "id": "db00499",
+      "time": 110.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5413695617906278
+    },
+    {
+      "id": "db00500",
+      "time": 110.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.5500123723245487
+    },
+    {
+      "id": "db00501",
+      "time": 111.006709,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 67,
+      "gapMm": 0.08999673861576074
+    },
+    {
+      "id": "db00502",
+      "time": 111.317185,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.5008569847871902
+    },
+    {
+      "id": "db00503",
+      "time": 111.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5851172050209685
+    },
+    {
+      "id": "db00504",
+      "time": 111.944855,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850931895547973
+    },
+    {
+      "id": "db00505",
+      "time": 112.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 40,
+      "gapMm": -0.6491431362040112
+    },
+    {
+      "id": "db00506",
+      "time": 112.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.4318478656986091
+    },
+    {
+      "id": "db00507",
+      "time": 112.562869,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7696629292086588
+    },
+    {
+      "id": "db00508",
+      "time": 113.038156,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.18560479523865858
+    },
+    {
+      "id": "db00509",
+      "time": 113.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.23612945887840908
+    },
+    {
+      "id": "db00510",
+      "time": 113.178,
+      "hand": "L",
+      "finger": 1,
+      "midi": 52,
+      "vertices": 34,
+      "gapMm": -0.7876945001350499
+    },
+    {
+      "id": "db00511",
+      "time": 113.509762,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.013124379569573463
+    },
+    {
+      "id": "db00512",
+      "time": 113.819566,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.722695416683683
+    },
+    {
+      "id": "db00513",
+      "time": 114.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": -0.011969258476018929
+    },
+    {
+      "id": "db00514",
+      "time": 114.428,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.09915012053640648
+    },
+    {
+      "id": "db00515",
+      "time": 114.428,
+      "hand": "L",
+      "finger": 1,
+      "midi": 52,
+      "vertices": 35,
+      "gapMm": -0.18499493753176832
+    },
+    {
+      "id": "db00516",
+      "time": 114.444451,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.32617595876804906
+    },
+    {
+      "id": "db00517",
+      "time": 115.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 66,
+      "gapMm": -0.2249417084391192
+    },
+    {
+      "id": "db00518",
+      "time": 115.06560400000001,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850931437235696
+    },
+    {
+      "id": "db00519",
+      "time": 115.52575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426734954302688
+    },
+    {
+      "id": "db00520",
+      "time": 115.694136,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 74,
+      "gapMm": 0.4263888587777709
+    },
+    {
+      "id": "db00521",
+      "time": 115.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500142538632513
+    },
+    {
+      "id": "db00522",
+      "time": 116.011442,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.28368945362422515
+    },
+    {
+      "id": "db00523",
+      "time": 116.319784,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7226958503536718
+    },
+    {
+      "id": "db00524",
+      "time": 116.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563393547821327
+    },
+    {
+      "id": "db00525",
+      "time": 116.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696322903275599
+    },
+    {
+      "id": "db00526",
+      "time": 116.941954,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.3261767242949132
+    },
+    {
+      "id": "db00527",
+      "time": 117.2445,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.7428076428908081
+    },
+    {
+      "id": "db00528",
+      "time": 117.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.04437168337922959
+    },
+    {
+      "id": "db00529",
+      "time": 117.56858,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.5500750393075959
+    },
+    {
+      "id": "db00530",
+      "time": 118.042721,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.13024548568607575
+    },
+    {
+      "id": "db00531",
+      "time": 118.4945,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950235808091183
+    },
+    {
+      "id": "db00532",
+      "time": 118.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853308121612557
+    },
+    {
+      "id": "db00533",
+      "time": 118.510732,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 69,
+      "gapMm": 0.15278623213788034
+    },
+    {
+      "id": "db00534",
+      "time": 118.817706,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.5008574603817539
+    },
+    {
+      "id": "db00535",
+      "time": 119.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.4183349812675319
+    },
+    {
+      "id": "db00536",
+      "time": 120.053,
+      "hand": "L",
+      "finger": 3,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5851166343154857
+    },
+    {
+      "id": "db00537",
+      "time": 120.06999,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.7136742217741521
+    },
+    {
+      "id": "db00538",
+      "time": 120.54186,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.47212430417187257
+    },
+    {
+      "id": "db00539",
+      "time": 120.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.37101513866888425
+    },
+    {
+      "id": "db00540",
+      "time": 120.9945,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 32,
+      "gapMm": -0.16562134996112032
+    },
+    {
+      "id": "db00541",
+      "time": 121.008061,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 67,
+      "gapMm": 0.09000402826564446
+    },
+    {
+      "id": "db00542",
+      "time": 121.314594,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5008635080487878
+    },
+    {
+      "id": "db00543",
+      "time": 121.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.5851172508065661
+    },
+    {
+      "id": "db00544",
+      "time": 121.937089,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5850931710081886
+    },
+    {
+      "id": "db00545",
+      "time": 122.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -0.7442429427356734
+    },
+    {
+      "id": "db00546",
+      "time": 122.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.41833718248807106
+    },
+    {
+      "id": "db00547",
+      "time": 122.56898,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.5411922875259156
+    },
+    {
+      "id": "db00548",
+      "time": 122.883837,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.8359567484631514
+    },
+    {
+      "id": "db00549",
+      "time": 123.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5413674049733475
+    },
+    {
+      "id": "db00550",
+      "time": 123.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500148152317585
+    },
+    {
+      "id": "db00551",
+      "time": 123.190366,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.5249179328356002
+    },
+    {
+      "id": "db00552",
+      "time": 123.812334,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.4180507714465209
+    },
+    {
+      "id": "db00553",
+      "time": 124.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 69,
+      "gapMm": -0.004278781870592496
+    },
+    {
+      "id": "db00554",
+      "time": 124.428,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.319793054075701
+    },
+    {
+      "id": "db00555",
+      "time": 124.428,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 36,
+      "gapMm": -0.7664584142939024
+    },
+    {
+      "id": "db00556",
+      "time": 125.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 66,
+      "gapMm": -0.2249418907465106
+    },
+    {
+      "id": "db00557",
+      "time": 125.066163,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.4180508616681289
+    },
+    {
+      "id": "db00558",
+      "time": 125.52575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.01342694525596766
+    },
+    {
+      "id": "db00559",
+      "time": 125.687725,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.6929070147471128
+    },
+    {
+      "id": "db00560",
+      "time": 125.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500142415043596
+    },
+    {
+      "id": "db00561",
+      "time": 126.003525,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7847167968016988
+    },
+    {
+      "id": "db00562",
+      "time": 126.312298,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.6929069195826809
+    },
+    {
+      "id": "db00563",
+      "time": 126.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563378445402012
+    },
+    {
+      "id": "db00564",
+      "time": 126.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696323590284937
+    },
+    {
+      "id": "db00565",
+      "time": 126.940275,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.41805126905047896
+    },
+    {
+      "id": "db00566",
+      "time": 127.2445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.500941495045093
+    },
+    {
+      "id": "db00567",
+      "time": 127.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 67,
+      "gapMm": 0.09022710412687207
+    },
+    {
+      "id": "db00568",
+      "time": 127.563246,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.5085231174523086
+    },
+    {
+      "id": "db00569",
+      "time": 128.18707099999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.6929067559682256
+    },
+    {
+      "id": "db00570",
+      "time": 128.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.1856342144321843
+    },
+    {
+      "id": "db00571",
+      "time": 128.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696316626298882
+    },
+    {
+      "id": "db00572",
+      "time": 128.50441099999998,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.9535623581894415
+    },
+    {
+      "id": "db00573",
+      "time": 128.814508,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 69,
+      "gapMm": 0.35485616894415095
+    },
+    {
+      "id": "db00574",
+      "time": 129.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 70,
+      "gapMm": 0.4183322229178721
+    },
+    {
+      "id": "db00575",
+      "time": 130.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 74,
+      "gapMm": 0.2993378635546273
+    },
+    {
+      "id": "db00576",
+      "time": 130.06199999999998,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5500726093347064
+    },
+    {
+      "id": "db00577",
+      "time": 130.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.3220619110941847
+    },
+    {
+      "id": "db00578",
+      "time": 130.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7000927256137768
+    },
+    {
+      "id": "db00579",
+      "time": 130.535792,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.558963573800475
+    },
+    {
+      "id": "db00580",
+      "time": 130.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.32206054294547926
+    },
+    {
+      "id": "db00581",
+      "time": 130.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7000937345827962
+    },
+    {
+      "id": "db00582",
+      "time": 131.007171,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.2836940950047273
+    },
+    {
+      "id": "db00583",
+      "time": 131.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.17637000943182546
+    },
+    {
+      "id": "db00584",
+      "time": 131.317623,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 74,
+      "gapMm": 0.4263924358937077
+    },
+    {
+      "id": "db00585",
+      "time": 131.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.04665569254824753
+    },
+    {
+      "id": "db00586",
+      "time": 131.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -1.0835785816837307
+    },
+    {
+      "id": "db00587",
+      "time": 131.944953,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5085347350349823
+    },
+    {
+      "id": "db00588",
+      "time": 132.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": 0.16481839924575858
+    },
+    {
+      "id": "db00589",
+      "time": 132.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": 0.12904529041590784
+    },
+    {
+      "id": "db00590",
+      "time": 132.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": -0.7988960033273873
+    },
+    {
+      "id": "db00591",
+      "time": 132.56318,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.508534578828268
+    },
+    {
+      "id": "db00592",
+      "time": 133.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.5413677897806446
+    },
+    {
+      "id": "db00593",
+      "time": 133.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500151619144411
+    },
+    {
+      "id": "db00594",
+      "time": 133.19186399999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.6929045189691951
+    },
+    {
+      "id": "db00595",
+      "time": 133.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013423411625579362
+    },
+    {
+      "id": "db00596",
+      "time": 133.510131,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7847149505280093
+    },
+    {
+      "id": "db00597",
+      "time": 133.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.2993352446587494
+    },
+    {
+      "id": "db00598",
+      "time": 133.819753,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.6929044953966068
+    },
+    {
+      "id": "db00599",
+      "time": 134.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.322056606199439
+    },
+    {
+      "id": "db00600",
+      "time": 134.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.700100309761309
+    },
+    {
+      "id": "db00601",
+      "time": 134.444192,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5085348126268041
+    },
+    {
+      "id": "db00602",
+      "time": 134.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3682302912657587
+    },
+    {
+      "id": "db00603",
+      "time": 135.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.1530411904743234
+    },
+    {
+      "id": "db00604",
+      "time": 135.066071,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850894088571534
+    },
+    {
+      "id": "db00605",
+      "time": 135.3695,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585198677708792
+    },
+    {
+      "id": "db00606",
+      "time": 135.541528,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.722692515070511
+    },
+    {
+      "id": "db00607",
+      "time": 135.678,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7847687503975687
+    },
+    {
+      "id": "db00608",
+      "time": 135.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585193845390913
+    },
+    {
+      "id": "db00609",
+      "time": 136.011494,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.2836954158648153
+    },
+    {
+      "id": "db00610",
+      "time": 136.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.28601118017335114
+    },
+    {
+      "id": "db00611",
+      "time": 136.319607,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 74,
+      "gapMm": 0.42639296888058453
+    },
+    {
+      "id": "db00612",
+      "time": 136.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585183909700865
+    },
+    {
+      "id": "db00613",
+      "time": 136.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.9535823451035652
+    },
+    {
+      "id": "db00614",
+      "time": 136.94149399999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 77,
+      "vertices": 59,
+      "gapMm": 0.5085380051974564
+    },
+    {
+      "id": "db00615",
+      "time": 137.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.9240650256342464
+    },
+    {
+      "id": "db00616",
+      "time": 137.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 69,
+      "gapMm": 0.3549945469373261
+    },
+    {
+      "id": "db00617",
+      "time": 137.568918,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850887662107729
+    },
+    {
+      "id": "db00618",
+      "time": 138.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563471354515748
+    },
+    {
+      "id": "db00619",
+      "time": 138.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696313877988414
+    },
+    {
+      "id": "db00620",
+      "time": 138.194879,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.3261729337780128
+    },
+    {
+      "id": "db00621",
+      "time": 139.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.1856346503297246
+    },
+    {
+      "id": "db00622",
+      "time": 139.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696314350071898
+    },
+    {
+      "id": "db00623",
+      "time": 139.43849699999998,
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "vertices": 34,
+      "gapMm": -0.7107173963313285
+    },
+    {
+      "id": "db00624",
+      "time": 139.753808,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.23289854858588033
+    },
+    {
+      "id": "db00625",
+      "time": 140.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 74,
+      "gapMm": 0.2993367209175313
+    },
+    {
+      "id": "db00626",
+      "time": 140.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.700141505917018
+    },
+    {
+      "id": "db00627",
+      "time": 140.06999599999997,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.32200763505230157
+    },
+    {
+      "id": "db00628",
+      "time": 140.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.322061566466636
+    },
+    {
+      "id": "db00629",
+      "time": 140.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7000940895708352
+    },
+    {
+      "id": "db00630",
+      "time": 140.54154599999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.13793316982835258
+    },
+    {
+      "id": "db00631",
+      "time": 140.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.3220600773794491
+    },
+    {
+      "id": "db00632",
+      "time": 140.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7000951913626041
+    },
+    {
+      "id": "db00633",
+      "time": 141.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349879737970518
+    },
+    {
+      "id": "db00634",
+      "time": 141.00759599999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.3622153162965436
+    },
+    {
+      "id": "db00635",
+      "time": 141.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 66,
+      "gapMm": -0.17637073972942563
+    },
+    {
+      "id": "db00636",
+      "time": 141.314167,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349882721292996
+    },
+    {
+      "id": "db00637",
+      "time": 141.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.046654858582240166
+    },
+    {
+      "id": "db00638",
+      "time": 141.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -1.083578892951409
+    },
+    {
+      "id": "db00639",
+      "time": 141.937018,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850895873664719
+    },
+    {
+      "id": "db00640",
+      "time": 142.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.3511932464910217
+    },
+    {
+      "id": "db00641",
+      "time": 142.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 36,
+      "gapMm": -0.2892197625911086
+    },
+    {
+      "id": "db00642",
+      "time": 142.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": -0.6747375265553357
+    },
+    {
+      "id": "db00643",
+      "time": 142.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.2588056893788604
+    },
+    {
+      "id": "db00644",
+      "time": 142.568649,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.17721245394375362
+    },
+    {
+      "id": "db00645",
+      "time": 143.03471480000002,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.2569023252579905
+    },
+    {
+      "id": "db00646",
+      "time": 143.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413688686600748
+    },
+    {
+      "id": "db00647",
+      "time": 143.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500149955296463
+    },
+    {
+      "id": "db00648",
+      "time": 143.18991,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382447699352477
+    },
+    {
+      "id": "db00649",
+      "time": 143.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.26610184267417125
+    },
+    {
+      "id": "db00650",
+      "time": 143.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013424161059094608
+    },
+    {
+      "id": "db00651",
+      "time": 143.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.2993348977632371
+    },
+    {
+      "id": "db00652",
+      "time": 143.81217199999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.5850921712839963
+    },
+    {
+      "id": "db00653",
+      "time": 144.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.322057562608169
+    },
+    {
+      "id": "db00654",
+      "time": 144.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7000992650942894
+    },
+    {
+      "id": "db00655",
+      "time": 144.437954,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.32617607150642325
+    },
+    {
+      "id": "db00656",
+      "time": 144.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.36823004666464154
+    },
+    {
+      "id": "db00657",
+      "time": 145.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.25331689040175576
+    },
+    {
+      "id": "db00658",
+      "time": 145.06569599999997,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 65,
+      "gapMm": -0.29563604394522436
+    },
+    {
+      "id": "db00659",
+      "time": 145.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.2324100889772307
+    },
+    {
+      "id": "db00660",
+      "time": 145.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068690598820986
+    },
+    {
+      "id": "db00661",
+      "time": 145.535809,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005035050883894776
+    },
+    {
+      "id": "db00662",
+      "time": 145.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904793789558777
+    },
+    {
+      "id": "db00663",
+      "time": 145.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068784907259822
+    },
+    {
+      "id": "db00664",
+      "time": 146.00349999999997,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": 0.013996302993479759
+    },
+    {
+      "id": "db00665",
+      "time": 146.0075,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.852637609719209
+    },
+    {
+      "id": "db00666",
+      "time": 146.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.05214964736677263
+    },
+    {
+      "id": "db00667",
+      "time": 146.3125,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.32089206058860675
+    },
+    {
+      "id": "db00668",
+      "time": 146.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068994018554768
+    },
+    {
+      "id": "db00669",
+      "time": 146.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.07633149716357313
+    },
+    {
+      "id": "db00670",
+      "time": 146.94073799999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085269748867915
+    },
+    {
+      "id": "db00671",
+      "time": 147.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.7442403245577767
+    },
+    {
+      "id": "db00672",
+      "time": 147.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.4183362588467965
+    },
+    {
+      "id": "db00673",
+      "time": 147.56292699999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.0019118011740371088
+    },
+    {
+      "id": "db00674",
+      "time": 147.56599999999997,
+      "hand": "R",
+      "finger": 1,
+      "midi": 65,
+      "vertices": 35,
+      "gapMm": -0.18205621607469968
+    },
+    {
+      "id": "db00675",
+      "time": 148.03134905,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.38933239562621846
+    },
+    {
+      "id": "db00676",
+      "time": 148.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563419185058105
+    },
+    {
+      "id": "db00677",
+      "time": 148.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.769631982457053
+    },
+    {
+      "id": "db00678",
+      "time": 148.187185,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 66,
+      "gapMm": -0.25690329653926813
+    },
+    {
+      "id": "db00679",
+      "time": 148.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.266102218733244
+    },
+    {
+      "id": "db00680",
+      "time": 148.81495099999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085304939698165
+    },
+    {
+      "id": "db00681",
+      "time": 149.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563439076002552
+    },
+    {
+      "id": "db00682",
+      "time": 149.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.76963191105206
+    },
+    {
+      "id": "db00683",
+      "time": 149.443681,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.32617452896122057
+    },
+    {
+      "id": "db00684",
+      "time": 150.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.46616798190102227
+    },
+    {
+      "id": "db00685",
+      "time": 150.06202199999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.32200774446122793
+    },
+    {
+      "id": "db00686",
+      "time": 150.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7001414134819584
+    },
+    {
+      "id": "db00687",
+      "time": 150.52575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.139503542285091
+    },
+    {
+      "id": "db00688",
+      "time": 150.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853315829402518
+    },
+    {
+      "id": "db00689",
+      "time": 150.536126,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.13793333967160315
+    },
+    {
+      "id": "db00690",
+      "time": 150.9945,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950497137604767
+    },
+    {
+      "id": "db00691",
+      "time": 150.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853325503053288
+    },
+    {
+      "id": "db00692",
+      "time": 151.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349879076582907
+    },
+    {
+      "id": "db00693",
+      "time": 151.007638,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.36221542211578583
+    },
+    {
+      "id": "db00694",
+      "time": 151.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.4661674230257429
+    },
+    {
+      "id": "db00695",
+      "time": 151.318038,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349882168991458
+    },
+    {
+      "id": "db00696",
+      "time": 151.77575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.1395047347529932
+    },
+    {
+      "id": "db00697",
+      "time": 151.77575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853325487741092
+    },
+    {
+      "id": "db00698",
+      "time": 151.944997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.326173388526918
+    },
+    {
+      "id": "db00699",
+      "time": 152.2445,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950592696199138
+    },
+    {
+      "id": "db00700",
+      "time": 152.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853333363386783
+    },
+    {
+      "id": "db00701",
+      "time": 152.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950698277098716
+    },
+    {
+      "id": "db00702",
+      "time": 152.56353,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382447676555158
+    },
+    {
+      "id": "db00703",
+      "time": 152.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.266101840293298
+    },
+    {
+      "id": "db00704",
+      "time": 153.0354484,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.2569023250693636
+    },
+    {
+      "id": "db00705",
+      "time": 153.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413688687525564
+    },
+    {
+      "id": "db00706",
+      "time": 153.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500149956140232
+    },
+    {
+      "id": "db00707",
+      "time": 153.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.26610184257302993
+    },
+    {
+      "id": "db00708",
+      "time": 153.19231299999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382447633384135
+    },
+    {
+      "id": "db00709",
+      "time": 153.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013424163382902421
+    },
+    {
+      "id": "db00710",
+      "time": 153.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.2993348947124552
+    },
+    {
+      "id": "db00711",
+      "time": 153.819889,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.3261742765320319
+    },
+    {
+      "id": "db00712",
+      "time": 154.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3220573525111181
+    },
+    {
+      "id": "db00713",
+      "time": 154.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7000993625850827
+    },
+    {
+      "id": "db00714",
+      "time": 154.44388899999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5085322397635483
+    },
+    {
+      "id": "db00715",
+      "time": 154.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3682299283017665
+    },
+    {
+      "id": "db00716",
+      "time": 155.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.2533167625203836
+    },
+    {
+      "id": "db00717",
+      "time": 155.06599999999997,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.9251729447388168
+    },
+    {
+      "id": "db00718",
+      "time": 155.06653599999999,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005035958720589484
+    },
+    {
+      "id": "db00719",
+      "time": 155.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068688169497577
+    },
+    {
+      "id": "db00720",
+      "time": 155.541844,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.12184421499594755
+    },
+    {
+      "id": "db00721",
+      "time": 155.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904781591183134
+    },
+    {
+      "id": "db00722",
+      "time": 155.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068751814386935
+    },
+    {
+      "id": "db00723",
+      "time": 156.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.33498764886286114
+    },
+    {
+      "id": "db00724",
+      "time": 156.01149199999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.3622149630228
+    },
+    {
+      "id": "db00725",
+      "time": 156.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.05215002753633513
+    },
+    {
+      "id": "db00726",
+      "time": 156.319381,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 70,
+      "gapMm": 0.04409718185516276
+    },
+    {
+      "id": "db00727",
+      "time": 156.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.1206895902819971
+    },
+    {
+      "id": "db00728",
+      "time": 156.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.07633161646647402
+    },
+    {
+      "id": "db00729",
+      "time": 156.941028,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 70,
+      "gapMm": 0.41805813035522554
+    },
+    {
+      "id": "db00730",
+      "time": 157.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.744240496022397
+    },
+    {
+      "id": "db00731",
+      "time": 157.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833594708007293
+    },
+    {
+      "id": "db00732",
+      "time": 157.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": 0.2324192618277099
+    },
+    {
+      "id": "db00733",
+      "time": 157.56921699999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 65,
+      "gapMm": -0.29562270632188525
+    },
+    {
+      "id": "db00734",
+      "time": 158.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563422037654043
+    },
+    {
+      "id": "db00735",
+      "time": 158.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696319552933373
+    },
+    {
+      "id": "db00736",
+      "time": 158.194738,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 69,
+      "gapMm": 0.3548566501017092
+    },
+    {
+      "id": "db00737",
+      "time": 158.5075,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.2588058177582786
+    },
+    {
+      "id": "db00738",
+      "time": 158.510098,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 65,
+      "gapMm": -0.28506283730467263
+    },
+    {
+      "id": "db00739",
+      "time": 158.81682199999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.17721346441945673
+    },
+    {
+      "id": "db00740",
+      "time": 159.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.1856346407560494
+    },
+    {
+      "id": "db00741",
+      "time": 159.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696318128254109
+    },
+    {
+      "id": "db00742",
+      "time": 160.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 70,
+      "gapMm": 0.4183322820942026
+    },
+    {
+      "id": "db00743",
+      "time": 160.06994699999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 70,
+      "gapMm": 0.41805628700564146
+    },
+    {
+      "id": "db00744",
+      "time": 161.007129,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5411880501539068
+    },
+    {
+      "id": "db00745",
+      "time": 161.303,
+      "hand": "L",
+      "finger": 4,
+      "midi": 48,
+      "vertices": 59,
+      "gapMm": 0.18563384585401632
+    },
+    {
+      "id": "db00746",
+      "time": 161.303,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.7696317323452329
+    },
+    {
+      "id": "db00747",
+      "time": 161.313765,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.5500727488160218
+    },
+    {
+      "id": "db00748",
+      "time": 162.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.41833317449280205
+    },
+    {
+      "id": "db00749",
+      "time": 162.56828199999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 70,
+      "gapMm": 0.4180508482847234
+    },
+    {
+      "id": "db00750",
+      "time": 163.18946799999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 71,
+      "vertices": 67,
+      "gapMm": 0.08999194961911705
+    },
+    {
+      "id": "db00751",
+      "time": 163.504384,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.4493652156251082
+    },
+    {
+      "id": "db00752",
+      "time": 163.803,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.3709984219962825
+    },
+    {
+      "id": "db00753",
+      "time": 163.803,
+      "hand": "L",
+      "finger": 1,
+      "midi": 52,
+      "vertices": 32,
+      "gapMm": -0.16561724322972093
+    },
+    {
+      "id": "db00754",
+      "time": 163.812063,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.9309875046525917
+    },
+    {
+      "id": "db00755",
+      "time": 165.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833552618919523
+    },
+    {
+      "id": "db00756",
+      "time": 165.06523299999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 69,
+      "vertices": 70,
+      "gapMm": 0.418049936014242
+    },
+    {
+      "id": "db00757",
+      "time": 166.00352999999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 67,
+      "vertices": 59,
+      "gapMm": 0.5456337871538874
+    },
+    {
+      "id": "db00758",
+      "time": 166.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.004787040452036706
+    },
+    {
+      "id": "db00759",
+      "time": 166.303,
+      "hand": "L",
+      "finger": 1,
+      "midi": 52,
+      "vertices": 34,
+      "gapMm": -0.9248255343335954
+    },
+    {
+      "id": "db00760",
+      "time": 166.312749,
+      "hand": "R",
+      "finger": 3,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.7136763453221562
+    },
+    {
+      "id": "db00761",
+      "time": 167.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.4183385013547536
+    },
+    {
+      "id": "db00762",
+      "time": 167.562649,
+      "hand": "R",
+      "finger": 5,
+      "midi": 67,
+      "vertices": 70,
+      "gapMm": 0.41805613750545145
+    },
+    {
+      "id": "db00763",
+      "time": 168.18735099999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 64,
+      "vertices": 59,
+      "gapMm": 0.013125393626189918
+    },
+    {
+      "id": "db00764",
+      "time": 168.50508299999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 62,
+      "vertices": 53,
+      "gapMm": -0.6921099621786109
+    },
+    {
+      "id": "db00765",
+      "time": 168.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950199899093185
+    },
+    {
+      "id": "db00766",
+      "time": 168.803,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853307776580776
+    },
+    {
+      "id": "db00767",
+      "time": 168.815408,
+      "hand": "R",
+      "finger": 2,
+      "midi": 60,
+      "vertices": 53,
+      "gapMm": -0.7847186499857495
+    },
+    {
+      "id": "db00768",
+      "time": 170.053,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.32624152022364683
+    },
+    {
+      "id": "db00769",
+      "time": 170.062098,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.32617685088098813
+    },
+    {
+      "id": "db00770",
+      "time": 170.689633,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.7136742752741343
+    },
+    {
+      "id": "db00771",
+      "time": 170.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.3710149466953361
+    },
+    {
+      "id": "db00772",
+      "time": 170.9945,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 32,
+      "gapMm": -0.16562121972918398
+    },
+    {
+      "id": "db00773",
+      "time": 171.00810299999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.4721240154512696
+    },
+    {
+      "id": "db00774",
+      "time": 171.318425,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 67,
+      "gapMm": 0.09000397542779925
+    },
+    {
+      "id": "db00775",
+      "time": 171.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.5851171890925988
+    },
+    {
+      "id": "db00776",
+      "time": 171.944987,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085267127051818
+    },
+    {
+      "id": "db00777",
+      "time": 172.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -0.7442427609620772
+    },
+    {
+      "id": "db00778",
+      "time": 172.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833511079270025
+    },
+    {
+      "id": "db00779",
+      "time": 172.56391399999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085268819563504
+    },
+    {
+      "id": "db00780",
+      "time": 173.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 44,
+      "vertices": 56,
+      "gapMm": 0.013726603224628597
+    },
+    {
+      "id": "db00781",
+      "time": 173.178,
+      "hand": "L",
+      "finger": 1,
+      "midi": 50,
+      "vertices": 35,
+      "gapMm": -0.8648586878958753
+    },
+    {
+      "id": "db00782",
+      "time": 173.19274499999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 68,
+      "vertices": 50,
+      "gapMm": -0.6074352790510495
+    },
+    {
+      "id": "db00783",
+      "time": 173.81997099999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.585094418902532
+    },
+    {
+      "id": "db00784",
+      "time": 174.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 1.0345686636521467
+    },
+    {
+      "id": "db00785",
+      "time": 174.428,
+      "hand": "L",
+      "finger": 4,
+      "midi": 44,
+      "vertices": 57,
+      "gapMm": 0.020490990232491235
+    },
+    {
+      "id": "db00786",
+      "time": 174.428,
+      "hand": "L",
+      "finger": 1,
+      "midi": 50,
+      "vertices": 40,
+      "gapMm": -0.8481349620852452
+    },
+    {
+      "id": "db00787",
+      "time": 174.443547,
+      "hand": "R",
+      "finger": 2,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.3261770650963003
+    },
+    {
+      "id": "db00788",
+      "time": 175.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 70,
+      "gapMm": 0.044371162595702174
+    },
+    {
+      "id": "db00789",
+      "time": 175.066995,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.9309836808119032
+    },
+    {
+      "id": "db00790",
+      "time": 175.52575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6585194367366709
+    },
+    {
+      "id": "db00791",
+      "time": 175.54211899999999,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.524926083645183
+    },
+    {
+      "id": "db00792",
+      "time": 175.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7847687759690025
+    },
+    {
+      "id": "db00793",
+      "time": 176.01143499999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5008658621689088
+    },
+    {
+      "id": "db00794",
+      "time": 176.319109,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 67,
+      "gapMm": 0.09000668507708198
+    },
+    {
+      "id": "db00795",
+      "time": 176.6195,
+      "hand": "L",
+      "finger": 3,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.6929452941818459
+    },
+    {
+      "id": "db00796",
+      "time": 176.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7847684730919458
+    },
+    {
+      "id": "db00797",
+      "time": 176.940562,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5085329075804612
+    },
+    {
+      "id": "db00798",
+      "time": 177.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853310185933493
+    },
+    {
+      "id": "db00799",
+      "time": 177.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950261638506767
+    },
+    {
+      "id": "db00800",
+      "time": 177.569472,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.32617319958205826
+    },
+    {
+      "id": "db00801",
+      "time": 178.194547,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850889037338769
+    },
+    {
+      "id": "db00802",
+      "time": 178.4945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563447595221216
+    },
+    {
+      "id": "db00803",
+      "time": 178.4945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.769631616128752
+    },
+    {
+      "id": "db00804",
+      "time": 179.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 47,
+      "vertices": 70,
+      "gapMm": 0.4183311934485845
+    },
+    {
+      "id": "db00805",
+      "time": 179.437843,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 70,
+      "gapMm": 0.4180581880965928
+    },
+    {
+      "id": "db00806",
+      "time": 180.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 74,
+      "gapMm": 0.29933678131977004
+    },
+    {
+      "id": "db00807",
+      "time": 180.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7001414547316287
+    },
+    {
+      "id": "db00808",
+      "time": 180.069844,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.32200767787071705
+    },
+    {
+      "id": "db00809",
+      "time": 180.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.3220615945705996
+    },
+    {
+      "id": "db00810",
+      "time": 180.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7000940440339276
+    },
+    {
+      "id": "db00811",
+      "time": 180.540807,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.13793310516396762
+    },
+    {
+      "id": "db00812",
+      "time": 180.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 52,
+      "vertices": 59,
+      "gapMm": 0.3220598659113838
+    },
+    {
+      "id": "db00813",
+      "time": 180.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7000953243113672
+    },
+    {
+      "id": "db00814",
+      "time": 181.006667,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 66,
+      "gapMm": -0.36221534794911303
+    },
+    {
+      "id": "db00815",
+      "time": 181.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349880008222117
+    },
+    {
+      "id": "db00816",
+      "time": 181.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 66,
+      "gapMm": -0.17637095738853859
+    },
+    {
+      "id": "db00817",
+      "time": 181.313393,
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.3349883606211801
+    },
+    {
+      "id": "db00818",
+      "time": 181.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.046655216630497875
+    },
+    {
+      "id": "db00819",
+      "time": 181.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -1.0835790132912582
+    },
+    {
+      "id": "db00820",
+      "time": 181.937039,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850896599924882
+    },
+    {
+      "id": "db00821",
+      "time": 182.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.35119291592289326
+    },
+    {
+      "id": "db00822",
+      "time": 182.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 36,
+      "gapMm": -0.2892199590136535
+    },
+    {
+      "id": "db00823",
+      "time": 182.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": -0.6747378426580353
+    },
+    {
+      "id": "db00824",
+      "time": 182.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.2588055090183561
+    },
+    {
+      "id": "db00825",
+      "time": 182.567883,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.17721263875514204
+    },
+    {
+      "id": "db00826",
+      "time": 183.03381925000002,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 66,
+      "gapMm": -0.25690245095644215
+    },
+    {
+      "id": "db00827",
+      "time": 183.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413691095201845
+    },
+    {
+      "id": "db00828",
+      "time": 183.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500152099345845
+    },
+    {
+      "id": "db00829",
+      "time": 183.18904799999999,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5382445746279219
+    },
+    {
+      "id": "db00830",
+      "time": 183.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": 0.2661016513214598
+    },
+    {
+      "id": "db00831",
+      "time": 183.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013423591600392193
+    },
+    {
+      "id": "db00832",
+      "time": 183.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.29933459596021006
+    },
+    {
+      "id": "db00833",
+      "time": 183.812007,
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.5850922163211925
+    },
+    {
+      "id": "db00834",
+      "time": 184.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3220572618949369
+    },
+    {
+      "id": "db00835",
+      "time": 184.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7000994822177198
+    },
+    {
+      "id": "db00836",
+      "time": 184.438637,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.32617612601926194
+    },
+    {
+      "id": "db00837",
+      "time": 184.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.36822979008155343
+    },
+    {
+      "id": "db00838",
+      "time": 185.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.253316669278858
+    },
+    {
+      "id": "db00839",
+      "time": 185.06478099999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 65,
+      "gapMm": -0.2956360967598659
+    },
+    {
+      "id": "db00840",
+      "time": 185.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.2324100422395059
+    },
+    {
+      "id": "db00841",
+      "time": 185.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068673088438953
+    },
+    {
+      "id": "db00842",
+      "time": 185.535261,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005035026003685772
+    },
+    {
+      "id": "db00843",
+      "time": 185.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904786668666013
+    },
+    {
+      "id": "db00844",
+      "time": 185.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068780424023817
+    },
+    {
+      "id": "db00845",
+      "time": 186.003614,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": 0.013996305857633118
+    },
+    {
+      "id": "db00846",
+      "time": 186.0075,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.8526375898015859
+    },
+    {
+      "id": "db00847",
+      "time": 186.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.052149682302493616
+    },
+    {
+      "id": "db00848",
+      "time": 186.313043,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.320892104466064
+    },
+    {
+      "id": "db00849",
+      "time": 186.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12069021221383647
+    },
+    {
+      "id": "db00850",
+      "time": 186.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.0763313778898711
+    },
+    {
+      "id": "db00851",
+      "time": 186.941669,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085301368250583
+    },
+    {
+      "id": "db00852",
+      "time": 187.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.7442400913081348
+    },
+    {
+      "id": "db00853",
+      "time": 187.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833631001531035
+    },
+    {
+      "id": "db00854",
+      "time": 187.56241799999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.001911543223931389
+    },
+    {
+      "id": "db00855",
+      "time": 187.56599999999997,
+      "hand": "R",
+      "finger": 1,
+      "midi": 65,
+      "vertices": 35,
+      "gapMm": -0.1820560552938666
+    },
+    {
+      "id": "db00856",
+      "time": 188.03160895,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.3893324224361061
+    },
+    {
+      "id": "db00857",
+      "time": 188.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563431905005423
+    },
+    {
+      "id": "db00858",
+      "time": 188.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696318778164235
+    },
+    {
+      "id": "db00859",
+      "time": 188.187567,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 66,
+      "gapMm": -0.2569031787289511
+    },
+    {
+      "id": "db00860",
+      "time": 188.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.26610237016011506
+    },
+    {
+      "id": "db00861",
+      "time": 188.81587299999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5850891729691776
+    },
+    {
+      "id": "db00862",
+      "time": 189.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563452825492988
+    },
+    {
+      "id": "db00863",
+      "time": 189.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696318022396564
+    },
+    {
+      "id": "db00864",
+      "time": 189.44429499999998,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.7445516372500682
+    },
+    {
+      "id": "db00865",
+      "time": 190.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.46616774931551586
+    },
+    {
+      "id": "db00866",
+      "time": 190.06222799999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 79,
+      "vertices": 59,
+      "gapMm": 0.4136890846554442
+    },
+    {
+      "id": "db00867",
+      "time": 190.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": -0.8381225230538192
+    },
+    {
+      "id": "db00868",
+      "time": 190.52575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950373444326924
+    },
+    {
+      "id": "db00869",
+      "time": 190.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853316555213041
+    },
+    {
+      "id": "db00870",
+      "time": 190.53689599999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 84,
+      "vertices": 65,
+      "gapMm": -0.29561958025314805
+    },
+    {
+      "id": "db00871",
+      "time": 190.9945,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.1395054448742883
+    },
+    {
+      "id": "db00872",
+      "time": 190.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853327997027204
+    },
+    {
+      "id": "db00873",
+      "time": 191.0075,
+      "hand": "R",
+      "finger": 2,
+      "midi": 79,
+      "vertices": 53,
+      "gapMm": 0.23242010689672465
+    },
+    {
+      "id": "db00874",
+      "time": 191.00856,
+      "hand": "R",
+      "finger": 5,
+      "midi": 84,
+      "vertices": 65,
+      "gapMm": -0.2956205059442274
+    },
+    {
+      "id": "db00875",
+      "time": 191.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": 0.4661670181772548
+    },
+    {
+      "id": "db00876",
+      "time": 191.31877899999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 83,
+      "vertices": 70,
+      "gapMm": -0.024819689322885807
+    },
+    {
+      "id": "db00877",
+      "time": 191.77575,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950520298522395
+    },
+    {
+      "id": "db00878",
+      "time": 191.77575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853328109284075
+    },
+    {
+      "id": "db00879",
+      "time": 191.944922,
+      "hand": "R",
+      "finger": 4,
+      "midi": 79,
+      "vertices": 59,
+      "gapMm": 0.5085387564590649
+    },
+    {
+      "id": "db00880",
+      "time": 192.2445,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.139506520017596
+    },
+    {
+      "id": "db00881",
+      "time": 192.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.785333690882628
+    },
+    {
+      "id": "db00882",
+      "time": 192.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.1395077693355784
+    },
+    {
+      "id": "db00883",
+      "time": 192.564326,
+      "hand": "R",
+      "finger": 4,
+      "midi": 79,
+      "vertices": 59,
+      "gapMm": 0.44938524797011326
+    },
+    {
+      "id": "db00884",
+      "time": 192.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.7517097506283266
+    },
+    {
+      "id": "db00885",
+      "time": 193.03595055,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 69,
+      "gapMm": 0.2531888495879153
+    },
+    {
+      "id": "db00886",
+      "time": 193.178,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": -0.5413692195803677
+    },
+    {
+      "id": "db00887",
+      "time": 193.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.5500152929620583
+    },
+    {
+      "id": "db00888",
+      "time": 193.19099999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": 0.23241814208763145
+    },
+    {
+      "id": "db00889",
+      "time": 193.193152,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 65,
+      "gapMm": -0.2956237665232564
+    },
+    {
+      "id": "db00890",
+      "time": 193.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 47,
+      "vertices": 53,
+      "gapMm": 0.013423395778033864
+    },
+    {
+      "id": "db00891",
+      "time": 193.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 74,
+      "gapMm": 0.29933447877339425
+    },
+    {
+      "id": "db00892",
+      "time": 193.82,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.5850898490893375
+    },
+    {
+      "id": "db00893",
+      "time": 194.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.32205715186195416
+    },
+    {
+      "id": "db00894",
+      "time": 194.27575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.70009953327832
+    },
+    {
+      "id": "db00895",
+      "time": 194.44316999999998,
+      "hand": "R",
+      "finger": 2,
+      "midi": 71,
+      "vertices": 53,
+      "gapMm": -0.32617425955527857
+    },
+    {
+      "id": "db00896",
+      "time": 194.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.3682296908932292
+    },
+    {
+      "id": "db00897",
+      "time": 195.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 69,
+      "gapMm": 0.2533165128085768
+    },
+    {
+      "id": "db00898",
+      "time": 195.06599999999997,
+      "hand": "R",
+      "finger": 1,
+      "midi": 69,
+      "vertices": 34,
+      "gapMm": -0.925173002688906
+    },
+    {
+      "id": "db00899",
+      "time": 195.06743999999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 74,
+      "gapMm": -0.005036060906293827
+    },
+    {
+      "id": "db00900",
+      "time": 195.3695,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068658417163647
+    },
+    {
+      "id": "db00901",
+      "time": 195.54234699999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 74,
+      "gapMm": 0.23991166138381814
+    },
+    {
+      "id": "db00902",
+      "time": 195.678,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": 0.12904767823362917
+    },
+    {
+      "id": "db00903",
+      "time": 195.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068740786774779
+    },
+    {
+      "id": "db00904",
+      "time": 196.0075,
+      "hand": "R",
+      "finger": 2,
+      "midi": 76,
+      "vertices": 53,
+      "gapMm": 0.23242035611392708
+    },
+    {
+      "id": "db00905",
+      "time": 196.01132399999997,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 65,
+      "gapMm": -0.2956206217148427
+    },
+    {
+      "id": "db00906",
+      "time": 196.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.05215007691306006
+    },
+    {
+      "id": "db00907",
+      "time": 196.318794,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 65,
+      "gapMm": -0.29562076211275823
+    },
+    {
+      "id": "db00908",
+      "time": 196.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": 0.12068986330404652
+    },
+    {
+      "id": "db00909",
+      "time": 196.6195,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 35,
+      "gapMm": -0.07633149764452174
+    },
+    {
+      "id": "db00910",
+      "time": 196.940102,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 70,
+      "gapMm": 0.4180581650086168
+    },
+    {
+      "id": "db00911",
+      "time": 197.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "vertices": 34,
+      "gapMm": -0.7442402628364819
+    },
+    {
+      "id": "db00912",
+      "time": 197.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.4183360008710446
+    },
+    {
+      "id": "db00913",
+      "time": 197.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": 0.23241939294671443
+    },
+    {
+      "id": "db00914",
+      "time": 197.56967999999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 77,
+      "vertices": 65,
+      "gapMm": -0.2956225940181634
+    },
+    {
+      "id": "db00915",
+      "time": 198.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.18563436911722686
+    },
+    {
+      "id": "db00916",
+      "time": 198.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7696318382997003
+    },
+    {
+      "id": "db00917",
+      "time": 198.19430699999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 69,
+      "gapMm": 0.3548567502632549
+    },
+    {
+      "id": "db00918",
+      "time": 198.5075,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": 0.2588059675755483
+    },
+    {
+      "id": "db00919",
+      "time": 198.509324,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 65,
+      "gapMm": -0.28506271969741537
+    },
+    {
+      "id": "db00920",
+      "time": 198.815894,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.17721332816678093
+    },
+    {
+      "id": "db00921",
+      "time": 199.1195,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": 0.4266691564658309
+    },
+    {
+      "id": "db00922",
+      "time": 199.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 48,
+      "vertices": 59,
+      "gapMm": 0.5693095949880211
+    },
+    {
+      "id": "db00923",
+      "time": 200.053,
+      "hand": "L",
+      "finger": 4,
+      "midi": 50,
+      "vertices": 59,
+      "gapMm": 0.4595127945782318
+    },
+    {
+      "id": "db00924",
+      "time": 200.06599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.700141377434349
+    },
+    {
+      "id": "db00925",
+      "time": 200.06968799999999,
+      "hand": "R",
+      "finger": 4,
+      "midi": 77,
+      "vertices": 59,
+      "gapMm": 0.3220082595188911
+    },
+    {
+      "id": "db00926",
+      "time": 200.52575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.18563535817395227
+    },
+    {
+      "id": "db00927",
+      "time": 200.52575,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.769629364247626
+    },
+    {
+      "id": "db00928",
+      "time": 200.540394,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 66,
+      "gapMm": -0.1379331091607705
+    },
+    {
+      "id": "db00929",
+      "time": 200.9945,
+      "hand": "L",
+      "finger": 4,
+      "midi": 53,
+      "vertices": 59,
+      "gapMm": 0.32205986647404483
+    },
+    {
+      "id": "db00930",
+      "time": 200.9945,
+      "hand": "L",
+      "finger": 2,
+      "midi": 57,
+      "vertices": 53,
+      "gapMm": -0.7000941271864125
+    },
+    {
+      "id": "db00931",
+      "time": 201.006217,
+      "hand": "R",
+      "finger": 5,
+      "midi": 81,
+      "vertices": 65,
+      "gapMm": -0.37466773226702
+    },
+    {
+      "id": "db00932",
+      "time": 201.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 77,
+      "vertices": 53,
+      "gapMm": -0.34561468254035166
+    },
+    {
+      "id": "db00933",
+      "time": 201.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 50,
+      "vertices": 66,
+      "gapMm": -0.17637062083863952
+    },
+    {
+      "id": "db00934",
+      "time": 201.31305799999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 79,
+      "vertices": 59,
+      "gapMm": 0.5690110788227898
+    },
+    {
+      "id": "db00935",
+      "time": 201.77575,
+      "hand": "L",
+      "finger": 3,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": -0.04665644072165964
+    },
+    {
+      "id": "db00936",
+      "time": 201.77575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": -1.0835788183016781
+    },
+    {
+      "id": "db00937",
+      "time": 201.93713,
+      "hand": "R",
+      "finger": 4,
+      "midi": 77,
+      "vertices": 59,
+      "gapMm": 0.5085367670535357
+    },
+    {
+      "id": "db00938",
+      "time": 202.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 53,
+      "vertices": 53,
+      "gapMm": 0.16481701494697187
+    },
+    {
+      "id": "db00939",
+      "time": 202.2445,
+      "hand": "L",
+      "finger": 1,
+      "midi": 57,
+      "vertices": 34,
+      "gapMm": 0.12904443399441856
+    },
+    {
+      "id": "db00940",
+      "time": 202.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 70,
+      "gapMm": 0.41833591915985124
+    },
+    {
+      "id": "db00941",
+      "time": 202.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.7696608763044788
+    },
+    {
+      "id": "db00942",
+      "time": 202.56745899999999,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.1856076056486744
+    },
+    {
+      "id": "db00943",
+      "time": 203.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.23612929349481337
+    },
+    {
+      "id": "db00944",
+      "time": 203.178,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 34,
+      "gapMm": -0.7876964142358167
+    },
+    {
+      "id": "db00945",
+      "time": 203.18865499999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 74,
+      "gapMm": 0.29919344235884715
+    },
+    {
+      "id": "db00946",
+      "time": 203.4945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 43,
+      "vertices": 53,
+      "gapMm": -0.0991545882094158
+    },
+    {
+      "id": "db00947",
+      "time": 203.503888,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.25330325716166335
+    },
+    {
+      "id": "db00948",
+      "time": 203.5075,
+      "hand": "R",
+      "finger": 2,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.6463679190824578
+    },
+    {
+      "id": "db00949",
+      "time": 203.803,
+      "hand": "L",
+      "finger": 5,
+      "midi": 40,
+      "vertices": 74,
+      "gapMm": -0.00764376542983225
+    },
+    {
+      "id": "db00950",
+      "time": 203.812006,
+      "hand": "R",
+      "finger": 3,
+      "midi": 74,
+      "vertices": 53,
+      "gapMm": -0.6921095093420648
+    },
+    {
+      "id": "db00951",
+      "time": 204.27575,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.37075123474061833
+    },
+    {
+      "id": "db00952",
+      "time": 204.27575,
+      "hand": "L",
+      "finger": 1,
+      "midi": 48,
+      "vertices": 35,
+      "gapMm": -0.9309879903225404
+    },
+    {
+      "id": "db00953",
+      "time": 204.43902999999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5850911603924036
+    },
+    {
+      "id": "db00954",
+      "time": 204.7445,
+      "hand": "L",
+      "finger": 4,
+      "midi": 43,
+      "vertices": 59,
+      "gapMm": 0.32094532704585177
+    },
+    {
+      "id": "db00955",
+      "time": 205.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 65,
+      "gapMm": -0.300165075619252
+    },
+    {
+      "id": "db00956",
+      "time": 205.06434499999997,
+      "hand": "R",
+      "finger": 3,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.0019192588338601269
+    },
+    {
+      "id": "db00957",
+      "time": 205.06599999999997,
+      "hand": "R",
+      "finger": 1,
+      "midi": 65,
+      "vertices": 35,
+      "gapMm": -0.18206172097456896
+    },
+    {
+      "id": "db00958",
+      "time": 205.3695,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013425871179251203
+    },
+    {
+      "id": "db00959",
+      "time": 205.535057,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.08523883948663435
+    },
+    {
+      "id": "db00960",
+      "time": 205.678,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.5500143553830439
+    },
+    {
+      "id": "db00961",
+      "time": 205.9945,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": 0.013426314215081447
+    },
+    {
+      "id": "db00962",
+      "time": 206.00375,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 65,
+      "gapMm": -0.37466633343630207
+    },
+    {
+      "id": "db00963",
+      "time": 206.0075,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.3456171708008382
+    },
+    {
+      "id": "db00964",
+      "time": 206.303,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 74,
+      "gapMm": 0.2993369314181482
+    },
+    {
+      "id": "db00965",
+      "time": 206.31337699999997,
+      "hand": "R",
+      "finger": 4,
+      "midi": 74,
+      "vertices": 59,
+      "gapMm": 0.5690082865251744
+    },
+    {
+      "id": "db00966",
+      "time": 206.6195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 45,
+      "vertices": 59,
+      "gapMm": 0.3220596309970736
+    },
+    {
+      "id": "db00967",
+      "time": 206.6195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7000980774516385
+    },
+    {
+      "id": "db00968",
+      "time": 206.94212399999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "vertices": 59,
+      "gapMm": 0.5085271569111871
+    },
+    {
+      "id": "db00969",
+      "time": 207.2445,
+      "hand": "L",
+      "finger": 2,
+      "midi": 48,
+      "vertices": 53,
+      "gapMm": -0.7853300469126134
+    },
+    {
+      "id": "db00970",
+      "time": 207.553,
+      "hand": "L",
+      "finger": 5,
+      "midi": 43,
+      "vertices": 66,
+      "gapMm": -0.13950166692655586
+    },
+    {
+      "id": "db00971",
+      "time": 207.562235,
+      "hand": "R",
+      "finger": 4,
+      "midi": 71,
+      "vertices": 59,
+      "gapMm": 0.1856051283350979
+    },
+    {
+      "id": "db00972",
+      "time": 207.56599999999997,
+      "hand": "R",
+      "finger": 2,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7696625465415385
+    },
+    {
+      "id": "db00973",
+      "time": 208.178,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563491089984563
+    },
+    {
+      "id": "db00974",
+      "time": 208.178,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696311919201948
+    },
+    {
+      "id": "db00975",
+      "time": 208.18783,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.3515468442284453
+    },
+    {
+      "id": "db00976",
+      "time": 208.505887,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": 0.0986471556676527
+    },
+    {
+      "id": "db00977",
+      "time": 208.5075,
+      "hand": "R",
+      "finger": 1,
+      "midi": 62,
+      "vertices": 33,
+      "gapMm": -0.02978171438539068
+    },
+    {
+      "id": "db00978",
+      "time": 208.816339,
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "vertices": 74,
+      "gapMm": -0.5203874032513323
+    },
+    {
+      "id": "db00979",
+      "time": 209.1195,
+      "hand": "L",
+      "finger": 4,
+      "midi": 47,
+      "vertices": 59,
+      "gapMm": 0.18563502922364084
+    },
+    {
+      "id": "db00980",
+      "time": 209.1195,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.7696311909052289
+    },
+    {
+      "id": "db00981",
+      "time": 210.053,
+      "hand": "L",
+      "finger": 5,
+      "midi": 48,
+      "vertices": 70,
+      "gapMm": 0.4183291355309704
+    },
+    {
+      "id": "db00982",
+      "time": 210.06240799999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 76,
+      "vertices": 70,
+      "gapMm": 0.418056348138407
+    },
+    {
+      "id": "db00983",
+      "time": 210.568572,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 70,
+      "gapMm": 0.41805799155836265
+    },
+    {
+      "id": "db00984",
+      "time": 210.719667,
+      "hand": "L",
+      "finger": 3,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.5413693741158632
+    },
+    {
+      "id": "db00985",
+      "time": 210.719667,
+      "hand": "L",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.5500122017100262
+    },
+    {
+      "id": "db00986",
+      "time": 211.07150199999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "vertices": 74,
+      "gapMm": 0.4263933863564162
+    },
+    {
+      "id": "db00987",
+      "time": 211.40242899999998,
+      "hand": "R",
+      "finger": 4,
+      "midi": 76,
+      "vertices": 59,
+      "gapMm": 0.5692396689053192
+    },
+    {
+      "id": "db00988",
+      "time": 211.72366699999998,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.3262419473706313
+    },
+    {
+      "id": "db00989",
+      "time": 212.06980399999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 72,
+      "vertices": 53,
+      "gapMm": -0.5850907998552479
+    },
+    {
+      "id": "db00990",
+      "time": 212.719667,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833532774127047
+    },
+    {
+      "id": "db00991",
+      "time": 212.731427,
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "vertices": 53,
+      "gapMm": -0.3261748302810785
+    },
+    {
+      "id": "db00992",
+      "time": 213.43395199999998,
+      "hand": "L",
+      "finger": 5,
+      "midi": 45,
+      "vertices": 74,
+      "gapMm": -0.004788602720240398
+    },
+    {
+      "id": "db00993",
+      "time": 213.43395199999998,
+      "hand": "L",
+      "finger": 1,
+      "midi": 52,
+      "vertices": 34,
+      "gapMm": -0.924826637886289
+    },
+    {
+      "id": "db00994",
+      "time": 213.449483,
+      "hand": "R",
+      "finger": 5,
+      "midi": 72,
+      "vertices": 74,
+      "gapMm": 0.42638862971056124
+    },
+    {
+      "id": "db00995",
+      "time": 213.81180099999997,
+      "hand": "R",
+      "finger": 4,
+      "midi": 69,
+      "vertices": 59,
+      "gapMm": 0.2836855231221902
+    },
+    {
+      "id": "db00996",
+      "time": 214.165212,
+      "hand": "R",
+      "finger": 3,
+      "midi": 67,
+      "vertices": 53,
+      "gapMm": -0.7226960446875541
+    },
+    {
+      "id": "db00997",
+      "time": 214.509381,
+      "hand": "L",
+      "finger": 3,
+      "midi": 45,
+      "vertices": 53,
+      "gapMm": -0.585117059943463
+    },
+    {
+      "id": "db00998",
+      "time": 214.877288,
+      "hand": "R",
+      "finger": 2,
+      "midi": 64,
+      "vertices": 53,
+      "gapMm": -0.32617828341940935
+    },
+    {
+      "id": "db00999",
+      "time": 215.57681,
+      "hand": "L",
+      "finger": 5,
+      "midi": 41,
+      "vertices": 70,
+      "gapMm": 0.41833570432614486
+    },
+    {
+      "id": "db01000",
+      "time": 215.59167399999998,
+      "hand": "R",
+      "finger": 3,
+      "midi": 65,
+      "vertices": 53,
+      "gapMm": -0.5850954263340036
+    },
+    {
+      "id": "db01001",
+      "time": 216.41014299999998,
+      "hand": "L",
+      "finger": 5,
+      "midi": 44,
+      "vertices": 72,
+      "gapMm": -0.8179965124262001
+    },
+    {
+      "id": "db01002",
+      "time": 216.41014299999998,
+      "hand": "L",
+      "finger": 2,
+      "midi": 50,
+      "vertices": 53,
+      "gapMm": -0.015497574681333504
+    },
+    {
+      "id": "db01003",
+      "time": 216.42712799999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 68,
+      "vertices": 74,
+      "gapMm": 0.3978984147128273
+    },
+    {
+      "id": "db01004",
+      "time": 216.84747099999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 67,
+      "vertices": 70,
+      "gapMm": 0.4180558182309557
+    },
+    {
+      "id": "db01005",
+      "time": 217.258918,
+      "hand": "R",
+      "finger": 5,
+      "midi": 65,
+      "vertices": 70,
+      "gapMm": 0.4180577112034012
+    },
+    {
+      "id": "db01006",
+      "time": 217.664143,
+      "hand": "L",
+      "finger": 5,
+      "midi": 44,
+      "vertices": 74,
+      "gapMm": 0.3348258781145086
+    },
+    {
+      "id": "db01007",
+      "time": 218.088463,
+      "hand": "R",
+      "finger": 5,
+      "midi": 62,
+      "vertices": 68,
+      "gapMm": -0.2501085117311286
+    },
+    {
+      "id": "db01008",
+      "time": 218.91014299999998,
+      "hand": "L",
+      "finger": 4,
+      "midi": 48,
+      "vertices": 59,
+      "gapMm": 0.18563474315180795
+    },
+    {
+      "id": "db01009",
+      "time": 218.91014299999998,
+      "hand": "L",
+      "finger": 2,
+      "midi": 52,
+      "vertices": 53,
+      "gapMm": -0.769631126270709
+    },
+    {
+      "id": "db01010",
+      "time": 218.92314299999998,
+      "hand": "R",
+      "finger": 2,
+      "midi": 55,
+      "vertices": 53,
+      "gapMm": -0.7748699078452548
+    },
+    {
+      "id": "db01011",
+      "time": 218.92698099999998,
+      "hand": "R",
+      "finger": 5,
+      "midi": 60,
+      "vertices": 66,
+      "gapMm": -0.10543154130393528
+    }
+  ]
+}

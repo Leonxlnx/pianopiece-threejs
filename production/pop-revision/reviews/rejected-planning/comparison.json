@@ -1,0 +1,258 @@
+{
+  "inputSha256": "192171e2b7c696e29c4c3d657e0a72ead5b55552cb3c4867b788f67df1b9b43a",
+  "modelSha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "scope": "Same frozen input score, body asset, inactive-finger implementation and72times. Every candidate deletes prior wristMotion, recomputes planHand poses, fitsphysicalreleaseswithunchanged75msminimum, andbakesquinticwrists. Meshscreenisactualfinitegeometrybutpaircountsarenotdepthandscreenisnotvisualreview. Failedvariantsrejectedbeforeoptionalfullrigtesting.",
+  "candidates": [
+    {
+      "candidate": "direction05",
+      "rigSha256": "0e6ba90f397ad42a35266422ce3c8cf2ace5aad7a0b8a22738c53e2e56d5f6b4",
+      "releaseChanges": 149,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "3d6553223883a7b07830b38fbb12a404346da470f54afcbde4d4d3c5568b1835",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 0,
+        "activeKeyCoreHitsOver3mm": 0,
+        "inactiveKeyCoreHitsOver3mm": 0,
+        "maxKeyCoreDepthMm": 2.6381203863031777,
+        "ownPalmRows": 1,
+        "neighborRows": 51,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.6319793723671798,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3350,
+      "ownPalmTrianglePairs": 3
+    },
+    {
+      "candidate": "mcp015-2500",
+      "rigSha256": "5a4451d6cccc69963f0c6ea1438baefa8280049f6e536d997ef6bcbbbaf9db93",
+      "releaseChanges": 162,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "fc87fe945ddf45fd08b7084ae3dd3055bba6a574623e4fbec8e06877aa444db8",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 1,
+        "activeKeyCoreHitsOver3mm": 2,
+        "inactiveKeyCoreHitsOver3mm": 0,
+        "maxKeyCoreDepthMm": 5.255803281244143,
+        "ownPalmRows": 2,
+        "neighborRows": 50,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.5108766194259795,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3704,
+      "ownPalmTrianglePairs": 49
+    },
+    {
+      "candidate": "mcp015-800",
+      "rigSha256": "b38116f9aded422188ba8b5517c1f0db3a324fa24a3ad877ee0c90b06ce2d8b2",
+      "releaseChanges": 162,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "5350a97f4112ce1bf39d52a434ed4f372a7e10f246a433ed349d79e533c6953a",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 0,
+        "activeKeyCoreHitsOver3mm": 0,
+        "inactiveKeyCoreHitsOver3mm": 0,
+        "maxKeyCoreDepthMm": 2.978414229491577,
+        "ownPalmRows": 1,
+        "neighborRows": 51,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.5108766194259795,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3725,
+      "ownPalmTrianglePairs": 3
+    },
+    {
+      "candidate": "mcp017-800",
+      "rigSha256": "6e4fad20b866fdbfa9f690250527481e868e5781b65ffe7311663ac4fec23c4c",
+      "releaseChanges": 162,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "5d399d5f093dab5706bcaff7ea1557a6d40703929a9fda4c57598b991ffba7fd",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 1,
+        "activeKeyCoreHitsOver3mm": 1,
+        "inactiveKeyCoreHitsOver3mm": 0,
+        "maxKeyCoreDepthMm": 3.0255147076134747,
+        "ownPalmRows": 2,
+        "neighborRows": 50,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.5108766194259795,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3558,
+      "ownPalmTrianglePairs": 45
+    },
+    {
+      "candidate": "w0",
+      "rigSha256": "9dc81a699cc155f51074c72eb8112da7b9942840f6d82f00c3c3bf2dce92dc7a",
+      "releaseUnresolved": [
+        {
+          "side": "R",
+          "time": 73.145471,
+          "required": 0.11619176877019848,
+          "duration": 0.11619176877019848,
+          "available": 0.0742149999999981,
+          "distance": 0.05845899417540473
+        },
+        {
+          "id": "db00310",
+          "time": 73.145471,
+          "reason": "hold too short",
+          "fitted": 0.033023231229805106
+        },
+        {
+          "side": "R",
+          "time": 83.146,
+          "required": 0.11619176877019848,
+          "duration": 0.11619176877019848,
+          "available": 0.07197499999999764,
+          "distance": 0.05845899417540473
+        },
+        {
+          "id": "db00369",
+          "time": 83.146,
+          "reason": "hold too short",
+          "fitted": 0.030783231229804642
+        },
+        {
+          "side": "R",
+          "time": 143.14491,
+          "required": 0.11619176877019848,
+          "duration": 0.11619176877019848,
+          "available": 0.07226400000000695,
+          "distance": 0.05845899417540473
+        },
+        {
+          "id": "db00645",
+          "time": 143.14491,
+          "reason": "hold too short",
+          "fitted": 0.03107223122981395
+        },
+        {
+          "side": "R",
+          "time": 153.146,
+          "required": 0.11619176877019848,
+          "duration": 0.11619176877019848,
+          "available": 0.07291199999999094,
+          "distance": 0.05845899417540473
+        },
+        {
+          "id": "db00704",
+          "time": 153.146,
+          "reason": "hold too short",
+          "fitted": 0.031720231229797946
+        },
+        {
+          "side": "R",
+          "time": 183.144048,
+          "required": 0.11619176877019848,
+          "duration": 0.11619176877019848,
+          "available": 0.07232499999999505,
+          "distance": 0.05845899417540473
+        },
+        {
+          "id": "db00826",
+          "time": 183.144048,
+          "reason": "hold too short",
+          "fitted": 0.03113323122980205
+        },
+        {
+          "side": "R",
+          "time": 193.146,
+          "required": 0.11199617436333945,
+          "duration": 0.11199617436333945,
+          "available": 0.07199899999999389,
+          "distance": 0.05431339981993397
+        },
+        {
+          "id": "db00885",
+          "time": 193.146,
+          "reason": "hold too short",
+          "fitted": 0.03500282563666701
+        }
+      ]
+    },
+    {
+      "candidate": "w0_15",
+      "rigSha256": "095ec395559d864f4a44b658316b292f0e629a315553a2f17a7862111d918e36",
+      "releaseChanges": 174,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "f3c39c934faba23adbdb2bb80b23324326e3c92fb7e8ae0f9c0afbf46a52cb61",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 6,
+        "activeKeyCoreHitsOver3mm": 4,
+        "inactiveKeyCoreHitsOver3mm": 2,
+        "maxKeyCoreDepthMm": 6.088737818212008,
+        "ownPalmRows": 10,
+        "neighborRows": 50,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.5108766194259795,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 2996,
+      "ownPalmTrianglePairs": 153
+    },
+    {
+      "candidate": "w0_35",
+      "rigSha256": "385fd5520c35c3c20edc01d3aa442e0fea1f092ca1ee309d6f2e0cbff47d4405",
+      "releaseChanges": 171,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "238413df3adc864fb51489dac14212bd484f27aa1b2dde1c27c1a4b99f5ebeb8",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 4,
+        "activeKeyCoreHitsOver3mm": 3,
+        "inactiveKeyCoreHitsOver3mm": 1,
+        "maxKeyCoreDepthMm": 5.290084912270329,
+        "ownPalmRows": 9,
+        "neighborRows": 50,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.7101804147314814,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3078,
+      "ownPalmTrianglePairs": 69
+    },
+    {
+      "candidate": "w1",
+      "rigSha256": "1d40ea33dfe303a2e5a199e393907665f61d59deab00374778b3e776a9719272",
+      "releaseChanges": 152,
+      "unresolved": 0,
+      "analyticSpeed": 1.5,
+      "analyticAcceleration": 25.000000000000007,
+      "scoreSha256": "1aeb442a3e3295c742c6f62a9538f904e9c06b058daa35f3d22f6963b0fe0308",
+      "surface": {
+        "samples": 72,
+        "keyCoreRowsOver3mm": 0,
+        "activeKeyCoreHitsOver3mm": 0,
+        "inactiveKeyCoreHitsOver3mm": 0,
+        "maxKeyCoreDepthMm": 2.978414229491577,
+        "ownPalmRows": 6,
+        "neighborRows": 51,
+        "opposingRows": 0,
+        "markerMaxErrorMm": 0.5108766194259795,
+        "nonfinite": 0
+      },
+      "neighborTrianglePairs": 3635,
+      "ownPalmTrianglePairs": 59
+    }
+  ]
+}

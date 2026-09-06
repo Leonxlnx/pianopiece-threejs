@@ -43,4 +43,13 @@ next-env.d.ts
 
 *.tsbuildinfo
 production/qa/compiled/
+production/pop-revision/hair/compiled/
+production/pop-revision/character/compiled/
+production/pop-revision/music/samples/
+production/pop-revision/music/*.wav
 __pycache__/
+
+# Restored byte-for-byte from production/assets by assets:prepare.
+/public/assets/pianist.glb
+production/pop-revision/character/*-pose.json.gz
+production/pop-revision/character/wardrobe-verify-*/

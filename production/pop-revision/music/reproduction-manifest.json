@@ -1,0 +1,15 @@
+{
+  "scoreSha256": "1aeb442a3e3295c742c6f62a9538f904e9c06b058daa35f3d22f6963b0fe0308",
+  "sampleManifestSha256": "1388afa6c6d8c0da0eb2eeb212d8ea7e3fa8447def6ad88429c119479094ae1d",
+  "rendererSha256": "5e0fcf936311e6cdfedd0f1a8be6b67a2d1c3c9e33cb6bf37eb6f269c05c7828",
+  "composerSha256": "f76b10facb2d483725d9549f433591f5b85e3771b274d56c1eace23a182bdcd2",
+  "python": "3.12.13",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers",
+  "masterWavSha256": "0db59b4ad79fe1fe0a37d830eb6399f7af58ad36d89baa255cf8a6ec73a6c8bb",
+  "masterMp3Sha256": "6a2369b711d81c58ec36ff7a96882faf80d5c1df8834d0f93f95775961adf7bb",
+  "reproduce": "python fetch_samples.py && python render.py && python verify.py",
+  "sampleCredit": "Salamander Grand Piano v3 by Alexander Holm, CC BY 3.0; recordings transposed, enveloped, filtered, mixed and mastered.",
+  "criticalListeningPerformed": false
+}

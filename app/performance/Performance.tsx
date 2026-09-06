@@ -48,7 +48,7 @@ export default function Performance(){
  if(e.key==='ArrowRight'){e.preventDefault();void seek(Math.min((score?.duration??0),time+5));}
  if(e.key==='ArrowLeft'){e.preventDefault();void seek(Math.max(0,time-5));}
  };window.addEventListener('keydown',onKey);return()=>window.removeEventListener('keydown',onKey);});
- const wake=()=>{activity.current=performance.now();setChrome(true);};const canPlay=ready&&audioReady;const duration=score?.duration??233.144228;const section=score?.sections.find(s=>time>=s.start&&time<s.end)?.name??(time>=duration?(score?.sections.at(-1)?.name??'Home in the light'):'First light');
+ const wake=()=>{activity.current=performance.now();setChrome(true);};const canPlay=ready&&audioReady;const duration=score?.duration??227.101587;const section=score?.sections.find(s=>time>=s.start&&time<s.end)?.name??(time>=duration?(score?.sections.at(-1)?.name??'Home in light'):'First light');
  return <main className={`performance ${begun?'has-begun':''} ${chrome?'show-controls':''}`} onPointerMove={wake} onPointerDown={wake}>
  <div className="world" ref={container}/><picture className={`stage-poster ${ready&&!graphicsUnavailable?'poster-hidden':''}`} aria-hidden="true"><source media="(max-aspect-ratio: 1/1)" srcSet="/assets/stage-portrait.webp"/><img src="/assets/stage-poster.webp" alt=""/></picture>
  <div className="film-shade" aria-hidden="true"/>

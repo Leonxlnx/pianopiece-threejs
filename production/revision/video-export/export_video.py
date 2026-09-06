@@ -10,9 +10,9 @@ import argparse,hashlib,json,math,os,shutil,subprocess,sys,time,importlib.util,s
 from fractions import Fraction
 
 HERE=Path(__file__).resolve().parent
-DEFAULT_PROJECT=Path('/workspace/sites/daybreak-piano-film')
-DEFAULT_AUDIO=Path('/workspace/scratch/2e8cc8e77f98/music-master/daybreak-solo-master.wav')
-DEFAULT_EGL=Path('/workspace/scratch/2e8cc8e77f98/render-libs/root')
+DEFAULT_PROJECT=HERE.parents[2]
+DEFAULT_AUDIO=DEFAULT_PROJECT/'production/pop-revision/music/daybreak-solo-master.wav'
+DEFAULT_EGL=Path(os.environ.get('DAYBREAK_EGL_ROOT','/'))
 
 def digest(path):
  with open(path,'rb') as f:return hashlib.file_digest(f,'sha256').hexdigest()
@@ -77,6 +77,7 @@ def prepare(args):
  master_score_match=json.loads(master_manifest.read_text()).get('scoreSha256')==source_score if master_manifest.exists() else None
  config={'snapshot':str(snap),'sourceFingerprint':fingerprint,'wrapperSha256':digest(__file__),'start':float(start),'duration':float(duration),'durationFraction':str(duration),'fps':args.fps,'frames':frames,'width':args.width,'height':height,'chunkFrames':args.chunk_frames,'samples':args.samples,'shutterDegrees':args.shutter,'crf':args.crf,'preset':args.preset,'audioSampleRate':rate,'audioStartSample':audio_start,'audioSamples':audio_count,'masterScoreMatch':master_score_match,'environmentMode':'pavilion','frameInterpolation':False,'temporalDomain':'linear HDR before bloom/tone mapping','colorConversion':'sRGB full RGB to BT.709 limited YUV using zscale','motionBlurCutRule':'clip shutter interval to authored shot containing frame PTS'}
  config['skipUnusedReflection']=not args.keep_unused_reflection
+ config['scoreDuration']=json.loads((snap/'public/assets/score.json').read_text())['duration']
  jobkey=hashlib.sha256(canonical(config).encode()).hexdigest()[:16];job=root/'jobs'/jobkey
  job.mkdir(parents=True,exist_ok=True);(job/'chunks').mkdir(exist_ok=True)
  if (job/'job.json').exists() and json.loads((job/'job.json').read_text())!=config:raise RuntimeError('Job hash collision or altered job manifest.')
@@ -240,7 +241,8 @@ def render(args):
    partial.replace(video)
    atomic_json(metadata,{'firstFrame':first,'frames':count,'fps':c['fps'],'sourceFingerprint':c['sourceFingerprint'],'sha256':digest(video),'elapsedSeconds':time.perf_counter()-chunk_start,'shots':sorted(shots),'sampling':sampling,'encoder':command,'probe':pr})
   steady=frame_times[1:] or frame_times
-  report={'newFrames':newframes,'initializationSeconds':init,'frameSeconds':frame_times,'medianSteadySeconds':statistics.median(steady),'meanSteadySeconds':statistics.mean(steady),'estimatedFullFilmHours24fps':statistics.mean(steady)/c['samples']*math.ceil(233.144218*24)/3600,'estimatedFullFilmHours30fps':statistics.mean(steady)/c['samples']*math.ceil(233.144218*30)/3600,'temporalSamples':c['samples'],'note':'Shared CPU/software-renderer load affects timings; full estimates exclude startup and multiply by samples for blur.'}
+  score_duration=c.get('scoreDuration',json.loads((snap/'public/assets/score.json').read_text())['duration'])
+  report={'newFrames':newframes,'initializationSeconds':init,'frameSeconds':frame_times,'medianSteadySeconds':statistics.median(steady),'meanSteadySeconds':statistics.mean(steady),'scoreDuration':score_duration,'estimatedFullFilmHours24fps':statistics.mean(steady)/c['samples']*math.ceil(score_duration*24)/3600,'estimatedFullFilmHours30fps':statistics.mean(steady)/c['samples']*math.ceil(score_duration*30)/3600,'temporalSamples':c['samples'],'note':'Shared CPU/software-renderer load affects timings; full estimates exclude startup and multiply by samples for blur.'}
   atomic_json(job/'last-render.json',report);print(json.dumps({'renderReport':report}),flush=True)
  finally:
   close_renderer(r)
