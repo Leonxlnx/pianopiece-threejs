@@ -1,14 +1,21 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
+import { pathToFileURL } from 'node:url';
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 import { GrandPiano } from './compiled/piano.mjs';
-import { Pianist } from './compiled/pianist.mjs';
+// Isolated rig candidates can use the same real scene and material renderer.
+const rigPath=path.resolve(process.env.DAYBREAK_RIG_PATH??'production/qa/compiled/pianist.mjs');
+const { Pianist }=await import(pathToFileURL(rigPath));
 import { Stage } from './compiled/stage.mjs';
 import { PERFORMANCE_LOOK } from './compiled/render-settings.mjs';
 import { Direction } from './compiled/direction.mjs';
 import { pedalPosition, mix, smooth } from './compiled/math.mjs';
 const qaRoot=process.env.DAYBREAK_QA_ROOT??path.resolve('work/render-qa');fs.mkdirSync(qaRoot,{recursive:true});
+const inputPaths={rig:rigPath,score:path.resolve(process.env.DAYBREAK_SCORE_PATH??'public/assets/score.json'),model:path.resolve(process.env.DAYBREAK_MODEL_PATH??'public/assets/pianist.glb'),piano:path.resolve('production/qa/compiled/piano.mjs'),stage:path.resolve('production/qa/compiled/stage.mjs'),direction:path.resolve('production/qa/compiled/direction.mjs'),look:path.resolve('production/qa/compiled/render-settings.mjs')};
+const renderInputs={files:Object.fromEntries(Object.entries(inputPaths).map(([name,file])=>[name,{file,sha256:crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex')}])),aspect:Number(process.env.DAYBREAK_ASPECT??16/9),shot:Number(process.env.DAYBREAK_SHOT??-1),detail:process.env.DAYBREAK_DETAIL??null};
+fs.writeFileSync(path.join(qaRoot,'scene-inputs.json'),JSON.stringify(renderInputs,null,2)+'\n');
 const ctx=new Proxy({canvas:null},{get:(t,k)=>k in t?t[k]:(...args)=>{}});
 globalThis.document={createElement:(type)=>({width:512,height:512,getContext:()=>ctx})};globalThis.window={devicePixelRatio:1};globalThis.self=globalThis;
 const data=fs.readFileSync(process.env.DAYBREAK_MODEL_PATH??'public/assets/pianist.glb');const jsonLength=data.readUInt32LE(12);const modelJson=JSON.parse(data.subarray(20,20+jsonLength).toString());const binOffset=20+jsonLength+8;const bin=data.subarray(binOffset);
