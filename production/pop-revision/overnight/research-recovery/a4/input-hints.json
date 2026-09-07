@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/Leonxlnx/pianopiece-threejs",
+  "verifiedScores": [
+    {
+      "purpose": "accepted prior baseline",
+      "gitCommit": "6114e12",
+      "gitPath": "public/assets/score.json",
+      "sha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f"
+    },
+    {
+      "purpose": "twelve-route base for current experiments",
+      "gitCommit": "4982ad7",
+      "gitPath": "public/assets/score.json",
+      "sha256": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912"
+    }
+  ],
+  "note": "Both git blobs independently hashed during bundle creation; full immutable compiled modules included. Original model must be restored separately at be034 hash."
+}

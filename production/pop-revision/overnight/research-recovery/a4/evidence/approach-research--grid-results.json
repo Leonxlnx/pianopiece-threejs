@@ -1,0 +1,1255 @@
+{
+  "status": "RESEARCH_GRID_COMPLETE; final independent CLI and motion/held/visual gates still required",
+  "samplerIndependentMatch": true,
+  "abaExact": true,
+  "inputsUnchanged": true,
+  "inputHashes": {
+    "approach-research/grid-controls.json": "dbb05a940732f8d12825761d03efefcbde0e2052a8af5a6da875f44ed8c4aa92",
+    "grid-approach.mjs": "184dbe678cd3f492888506eb38dc3b556719b781ae2786627b75a96a327baaf8",
+    "surface-sampler.mjs": "fbedeb5ee12678c55909005a3929f334888188cdba25ed33c4d233ec1c97959a",
+    "runtime-immutable.mjs": "c1df35893e277854c621f6c2006dbfde6458a4bac00d2988259164f258e073e3",
+    "hand-shape.mjs": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f",
+    "approach-research/baseline/score.json": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912",
+    "approach-research/baseline/times.json": "e792e5b5372335f58c43d8e3f80a7bd032830c05ac83c4addd90fc45dea5036e",
+    "/dev/shm/daybreak-a4-882c1c2d8c18/original-pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "inventory/integrated/compiled/audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "inventory/integrated/compiled/direction.mjs": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b",
+    "inventory/integrated/compiled/hair-motion-data.mjs": "bf76b7a56f457400434959d50bc27b0f161b3a3acd63cfdc4daf766bd67ec7a3",
+    "inventory/integrated/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "inventory/integrated/compiled/pianist.mjs": "213745de85585056a191da836f52d5ebaebca73b5153ef716fc7447b1d950ef5",
+    "inventory/integrated/compiled/piano.mjs": "958d403c1d537df5276cf694e29f7e51ccd65d482f1a3b32f8a8c48e5d46d9c2",
+    "inventory/integrated/compiled/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "inventory/integrated/compiled/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "inventory/integrated/compiled/scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "inventory/integrated/compiled/stage.mjs": "a332386e3716639edad631624fee13d70d206b228191d685d36f965e30dce51e",
+    "inventory/integrated/compiled/types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "inventory/integrated/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "inventory/integrated/compiled/wrist-volume.mjs": "f52d9478e254080893e4380e38443a557d4bcfaa1320980a05383bb6b61252ed"
+  },
+  "results": [
+    {
+      "i": 22,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "severe": 13,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 0,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.081902719873579,
+      "maxDorsal": 41.32998144451262,
+      "maxTipSpeed": 2.1102842566278883,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 25,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 40,
+        "sweepDegrees": 0
+      },
+      "severe": 5,
+      "pairRows": 2,
+      "pairIncidences": 41,
+      "keyRegressions": 1,
+      "pairRegressions": 2,
+      "maxTargetDepth": 5.418130357700862,
+      "maxDorsal": 54.517461337597155,
+      "maxTipSpeed": 2.5336977215487173,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 4,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "severe": 6,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 4,
+      "pairRegressions": 0,
+      "maxTargetDepth": 5.5151583875919785,
+      "maxDorsal": 41.530771977283216,
+      "maxTipSpeed": 3.2742077412428983,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 7,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 40,
+        "sweepDegrees": 0
+      },
+      "severe": 5,
+      "pairRows": 1,
+      "pairIncidences": 29,
+      "keyRegressions": 4,
+      "pairRegressions": 1,
+      "maxTargetDepth": 4.590017309299116,
+      "maxDorsal": 54.70763287068252,
+      "maxTipSpeed": 4.0214227133646805,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 13,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 80,
+        "sweepDegrees": 0
+      },
+      "severe": 2,
+      "pairRows": 5,
+      "pairIncidences": 207,
+      "keyRegressions": 2,
+      "pairRegressions": 5,
+      "maxTargetDepth": 5.830793507988153,
+      "maxDorsal": 54.78329810772962,
+      "maxTipSpeed": 5.641296103643996,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 10,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 60,
+        "sweepDegrees": 0
+      },
+      "severe": 3,
+      "pairRows": 4,
+      "pairIncidences": 158,
+      "keyRegressions": 3,
+      "pairRegressions": 4,
+      "maxTargetDepth": 4.962943690668242,
+      "maxDorsal": 54.7511526491811,
+      "maxTipSpeed": 4.881260002861063,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 16,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 120,
+        "sweepDegrees": 0
+      },
+      "severe": 3,
+      "pairRows": 6,
+      "pairIncidences": 267,
+      "keyRegressions": 3,
+      "pairRegressions": 6,
+      "maxTargetDepth": 3.673334638666259,
+      "maxDorsal": 54.81949180353611,
+      "maxTipSpeed": 6.501108315459923,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 43,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 40,
+        "sweepDegrees": 0
+      },
+      "severe": 15,
+      "pairRows": 3,
+      "pairIncidences": 38,
+      "keyRegressions": 6,
+      "pairRegressions": 3,
+      "maxTargetDepth": 7.202157918954677,
+      "maxDorsal": 54.50103876138877,
+      "maxTipSpeed": 1.871325477670052,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 12,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 80,
+        "sweepDegrees": -15
+      },
+      "severe": 2,
+      "pairRows": 8,
+      "pairIncidences": 761,
+      "keyRegressions": 2,
+      "pairRegressions": 8,
+      "maxTargetDepth": 5.288847451686729,
+      "maxDorsal": 54.22602827621287,
+      "maxTipSpeed": 5.650490180959755,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 17,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 120,
+        "sweepDegrees": 15
+      },
+      "severe": 2,
+      "pairRows": 8,
+      "pairIncidences": 886,
+      "keyRegressions": 2,
+      "pairRegressions": 8,
+      "maxTargetDepth": 5.220079819660217,
+      "maxDorsal": 56.49106156018037,
+      "maxTipSpeed": 6.5556363319272135,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 8,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 40,
+        "sweepDegrees": 15
+      },
+      "severe": 3,
+      "pairRows": 7,
+      "pairIncidences": 747,
+      "keyRegressions": 3,
+      "pairRegressions": 7,
+      "maxTargetDepth": 7.007658756252311,
+      "maxDorsal": 56.43668639721614,
+      "maxTipSpeed": 4.031229128371126,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 11,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 60,
+        "sweepDegrees": 15
+      },
+      "severe": 3,
+      "pairRows": 7,
+      "pairIncidences": 805,
+      "keyRegressions": 3,
+      "pairRegressions": 7,
+      "maxTargetDepth": 6.168269684856453,
+      "maxDorsal": 56.49106156018037,
+      "maxTipSpeed": 4.918661820630757,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 3,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "severe": 7,
+      "pairRows": 6,
+      "pairIncidences": 401,
+      "keyRegressions": 4,
+      "pairRegressions": 6,
+      "maxTargetDepth": 7.13234052085325,
+      "maxDorsal": 40.65396537361744,
+      "maxTipSpeed": 3.360747919366936,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 0,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "severe": 13,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 10,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.230561435381963,
+      "maxDorsal": 39.70417450027544,
+      "maxTipSpeed": 3.056833720206621,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 15,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 120,
+        "sweepDegrees": -15
+      },
+      "severe": 2,
+      "pairRows": 9,
+      "pairIncidences": 773,
+      "keyRegressions": 2,
+      "pairRegressions": 9,
+      "maxTargetDepth": 4.930399537554725,
+      "maxDorsal": 54.22602827621287,
+      "maxTipSpeed": 6.482332253139859,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 9,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 60,
+        "sweepDegrees": -15
+      },
+      "severe": 3,
+      "pairRows": 8,
+      "pairIncidences": 736,
+      "keyRegressions": 3,
+      "pairRegressions": 8,
+      "maxTargetDepth": 6.4463056188934225,
+      "maxDorsal": 53.83202463664677,
+      "maxTipSpeed": 4.924335085445936,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 6,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 40,
+        "sweepDegrees": -15
+      },
+      "severe": 4,
+      "pairRows": 7,
+      "pairIncidences": 709,
+      "keyRegressions": 4,
+      "pairRegressions": 7,
+      "maxTargetDepth": 7.077100641932496,
+      "maxDorsal": 53.448259413631554,
+      "maxTipSpeed": 4.087500000395245,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 1,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "severe": 12,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 11,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.24276089955328,
+      "maxDorsal": 39.70417450027544,
+      "maxTipSpeed": 3.017363460620891,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 14,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 80,
+        "sweepDegrees": 15
+      },
+      "severe": 4,
+      "pairRows": 8,
+      "pairIncidences": 841,
+      "keyRegressions": 4,
+      "pairRegressions": 8,
+      "maxTargetDepth": 6.665134392369543,
+      "maxDorsal": 56.49106156018037,
+      "maxTipSpeed": 5.701701557743119,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 28,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 60,
+        "sweepDegrees": 0
+      },
+      "severe": 5,
+      "pairRows": 8,
+      "pairIncidences": 238,
+      "keyRegressions": 4,
+      "pairRegressions": 8,
+      "maxTargetDepth": 4.7332672793336386,
+      "maxDorsal": 54.6900521368558,
+      "maxTipSpeed": 3.0134927427942784,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 46,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 60,
+        "sweepDegrees": 0
+      },
+      "severe": 10,
+      "pairRows": 12,
+      "pairIncidences": 246,
+      "keyRegressions": 0,
+      "pairRegressions": 12,
+      "maxTargetDepth": 5.7310168415593,
+      "maxDorsal": 54.5866379391848,
+      "maxTipSpeed": 2.2199042941162306,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 61,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 40,
+        "sweepDegrees": 0
+      },
+      "severe": 20,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 13,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.238840810144421,
+      "maxDorsal": 54.51037123541776,
+      "maxTipSpeed": 1.4508760762562016,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 34,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 120,
+        "sweepDegrees": 0
+      },
+      "severe": 3,
+      "pairRows": 12,
+      "pairIncidences": 473,
+      "keyRegressions": 2,
+      "pairRegressions": 12,
+      "maxTargetDepth": 5.945357841707521,
+      "maxDorsal": 54.86406065804803,
+      "maxTipSpeed": 4.419252455214016,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 5,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "severe": 5,
+      "pairRows": 9,
+      "pairIncidences": 834,
+      "keyRegressions": 5,
+      "pairRegressions": 9,
+      "maxTargetDepth": 7.136736902334927,
+      "maxDorsal": 42.412632294280186,
+      "maxTipSpeed": 3.2276097639443146,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 2,
+      "profile": {
+        "duration": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "severe": 8,
+      "pairRows": 7,
+      "pairIncidences": 476,
+      "keyRegressions": 7,
+      "pairRegressions": 7,
+      "maxTargetDepth": 7.173356369805372,
+      "maxDorsal": 39.70417450027544,
+      "maxTipSpeed": 3.0371992692022602,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 18,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "severe": 20,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 15,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.961021851865868,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.9265840310720808,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 35,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 120,
+        "sweepDegrees": 15
+      },
+      "severe": 2,
+      "pairRows": 14,
+      "pairIncidences": 1391,
+      "keyRegressions": 2,
+      "pairRegressions": 14,
+      "maxTargetDepth": 7.091609177245884,
+      "maxDorsal": 56.39396409958929,
+      "maxTipSpeed": 4.445006370870773,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 31,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 80,
+        "sweepDegrees": 0
+      },
+      "severe": 6,
+      "pairRows": 10,
+      "pairIncidences": 350,
+      "keyRegressions": 6,
+      "pairRegressions": 10,
+      "maxTargetDepth": 5.096415791396913,
+      "maxDorsal": 54.79344894270145,
+      "maxTipSpeed": 3.5473568905069746,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 24,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 40,
+        "sweepDegrees": -15
+      },
+      "severe": 9,
+      "pairRows": 12,
+      "pairIncidences": 1261,
+      "keyRegressions": 4,
+      "pairRegressions": 12,
+      "maxTargetDepth": 7.199872810783159,
+      "maxDorsal": 53.09607113478439,
+      "maxTipSpeed": 2.634911098352668,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 19,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "severe": 20,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 16,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.996298571754656,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.8657346908966388,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 49,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 80,
+        "sweepDegrees": 0
+      },
+      "severe": 5,
+      "pairRows": 14,
+      "pairIncidences": 437,
+      "keyRegressions": 3,
+      "pairRegressions": 14,
+      "maxTargetDepth": 4.8215602745367985,
+      "maxDorsal": 54.68581617384697,
+      "maxTipSpeed": 2.5703784722852827,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 32,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 80,
+        "sweepDegrees": 15
+      },
+      "severe": 5,
+      "pairRows": 13,
+      "pairIncidences": 1334,
+      "keyRegressions": 4,
+      "pairRegressions": 13,
+      "maxTargetDepth": 7.143267466129089,
+      "maxDorsal": 56.39396409958929,
+      "maxTipSpeed": 3.541507502946298,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 30,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 80,
+        "sweepDegrees": -15
+      },
+      "severe": 5,
+      "pairRows": 14,
+      "pairIncidences": 1361,
+      "keyRegressions": 3,
+      "pairRegressions": 14,
+      "maxTargetDepth": 5.81007813545209,
+      "maxDorsal": 54.10074604331167,
+      "maxTipSpeed": 3.596325910746631,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 26,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 40,
+        "sweepDegrees": 15
+      },
+      "severe": 6,
+      "pairRows": 12,
+      "pairIncidences": 1209,
+      "keyRegressions": 5,
+      "pairRegressions": 12,
+      "maxTargetDepth": 7.15395026478477,
+      "maxDorsal": 56.22153824056032,
+      "maxTipSpeed": 2.465067122243552,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 40,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "severe": 21,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 17,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.359359274403232,
+      "maxDorsal": 41.32678863084667,
+      "maxTipSpeed": 1.5462520981969148,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 33,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 120,
+        "sweepDegrees": -15
+      },
+      "severe": 3,
+      "pairRows": 15,
+      "pairIncidences": 1378,
+      "keyRegressions": 3,
+      "pairRegressions": 15,
+      "maxTargetDepth": 4.89332525588046,
+      "maxDorsal": 54.331255117886066,
+      "maxTipSpeed": 4.431360260081239,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 29,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 60,
+        "sweepDegrees": 15
+      },
+      "severe": 5,
+      "pairRows": 13,
+      "pairIncidences": 1283,
+      "keyRegressions": 5,
+      "pairRegressions": 13,
+      "maxTargetDepth": 7.105128398658566,
+      "maxDorsal": 56.39396409958929,
+      "maxTipSpeed": 2.984812727813773,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 27,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 60,
+        "sweepDegrees": -15
+      },
+      "severe": 6,
+      "pairRows": 14,
+      "pairIncidences": 1324,
+      "keyRegressions": 4,
+      "pairRegressions": 14,
+      "maxTargetDepth": 7.246607259105212,
+      "maxDorsal": 53.84270252174604,
+      "maxTipSpeed": 3.0911928845167966,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 67,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 80,
+        "sweepDegrees": 0
+      },
+      "severe": 13,
+      "pairRows": 18,
+      "pairIncidences": 513,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTargetDepth": 6.22510377194943,
+      "maxDorsal": 54.61175884916168,
+      "maxTipSpeed": 2.008527999192058,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 21,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "severe": 13,
+      "pairRows": 9,
+      "pairIncidences": 717,
+      "keyRegressions": 10,
+      "pairRegressions": 9,
+      "maxTargetDepth": 7.1868831968934925,
+      "maxDorsal": 40.52611888828676,
+      "maxTipSpeed": 2.2205637634266946,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 52,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 120,
+        "sweepDegrees": 0
+      },
+      "severe": 4,
+      "pairRows": 16,
+      "pairIncidences": 599,
+      "keyRegressions": 4,
+      "pairRegressions": 16,
+      "maxTargetDepth": 4.991191971885856,
+      "maxDorsal": 54.809513711030625,
+      "maxTipSpeed": 3.2269341017833124,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 36,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "severe": 26,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 20,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.971745977046418,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.3178234018965087,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 23,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "severe": 13,
+      "pairRows": 14,
+      "pairIncidences": 1390,
+      "keyRegressions": 7,
+      "pairRegressions": 14,
+      "maxTargetDepth": 7.225932848821053,
+      "maxDorsal": 42.301595500028995,
+      "maxTipSpeed": 2.0127997981059584,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 70,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 120,
+        "sweepDegrees": 0
+      },
+      "severe": 7,
+      "pairRows": 20,
+      "pairIncidences": 729,
+      "keyRegressions": 2,
+      "pairRegressions": 20,
+      "maxTargetDepth": 4.727633803512835,
+      "maxDorsal": 54.727919698922385,
+      "maxTipSpeed": 2.529330156118131,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 64,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 60,
+        "sweepDegrees": 0
+      },
+      "severe": 15,
+      "pairRows": 15,
+      "pairIncidences": 257,
+      "keyRegressions": 7,
+      "pairRegressions": 15,
+      "maxTargetDepth": 7.216794792456238,
+      "maxDorsal": 54.594525452398464,
+      "maxTipSpeed": 1.7288855279327189,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 53,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 120,
+        "sweepDegrees": 15
+      },
+      "severe": 5,
+      "pairRows": 19,
+      "pairIncidences": 1856,
+      "keyRegressions": 4,
+      "pairRegressions": 19,
+      "maxTargetDepth": 7.131991322598951,
+      "maxDorsal": 56.256810958891364,
+      "maxTipSpeed": 3.212443535675094,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 51,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 120,
+        "sweepDegrees": -15
+      },
+      "severe": 5,
+      "pairRows": 21,
+      "pairIncidences": 1989,
+      "keyRegressions": 2,
+      "pairRegressions": 21,
+      "maxTargetDepth": 5.508686100696034,
+      "maxDorsal": 54.27326260002331,
+      "maxTipSpeed": 3.2653630386289803,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 50,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 80,
+        "sweepDegrees": 15
+      },
+      "severe": 6,
+      "pairRows": 18,
+      "pairIncidences": 1762,
+      "keyRegressions": 5,
+      "pairRegressions": 18,
+      "maxTargetDepth": 7.244288453928272,
+      "maxDorsal": 56.256810958891364,
+      "maxTipSpeed": 2.53387393006838,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 47,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 60,
+        "sweepDegrees": 15
+      },
+      "severe": 9,
+      "pairRows": 18,
+      "pairIncidences": 1688,
+      "keyRegressions": 5,
+      "pairRegressions": 18,
+      "maxTargetDepth": 6.5554845936389095,
+      "maxDorsal": 56.256810958891364,
+      "maxTipSpeed": 2.1594225319564715,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 45,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 60,
+        "sweepDegrees": -15
+      },
+      "severe": 11,
+      "pairRows": 19,
+      "pairIncidences": 1897,
+      "keyRegressions": 4,
+      "pairRegressions": 19,
+      "maxTargetDepth": 7.1717618801220855,
+      "maxDorsal": 53.9218955006575,
+      "maxTipSpeed": 2.303554196245078,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 44,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 40,
+        "sweepDegrees": 15
+      },
+      "severe": 15,
+      "pairRows": 17,
+      "pairIncidences": 1625,
+      "keyRegressions": 6,
+      "pairRegressions": 17,
+      "maxTargetDepth": 5.354939927761981,
+      "maxDorsal": 56.20229454572829,
+      "maxTipSpeed": 1.7955766742351038,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 58,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "severe": 28,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 23,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.9982080626254115,
+      "maxDorsal": 41.345389296737594,
+      "maxTipSpeed": 1.1755161224958244,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 48,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 80,
+        "sweepDegrees": -15
+      },
+      "severe": 6,
+      "pairRows": 21,
+      "pairIncidences": 1947,
+      "keyRegressions": 3,
+      "pairRegressions": 21,
+      "maxTargetDepth": 7.1468028198780615,
+      "maxDorsal": 54.1046272965468,
+      "maxTipSpeed": 2.6342494984456652,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 42,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 40,
+        "sweepDegrees": -15
+      },
+      "severe": 15,
+      "pairRows": 17,
+      "pairIncidences": 1786,
+      "keyRegressions": 9,
+      "pairRegressions": 17,
+      "maxTargetDepth": 7.1976872741078,
+      "maxDorsal": 53.182675021488,
+      "maxTipSpeed": 1.9656839624311497,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 39,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "severe": 17,
+      "pairRows": 13,
+      "pairIncidences": 1006,
+      "keyRegressions": 14,
+      "pairRegressions": 13,
+      "maxTargetDepth": 7.627247383618974,
+      "maxDorsal": 40.525196451054725,
+      "maxTipSpeed": 1.6406518544483433,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 37,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "severe": 32,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 27,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.967664386672846,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.2410271006523965,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 68,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 80,
+        "sweepDegrees": 15
+      },
+      "severe": 12,
+      "pairRows": 24,
+      "pairIncidences": 2283,
+      "keyRegressions": 4,
+      "pairRegressions": 24,
+      "maxTargetDepth": 4.455551071405328,
+      "maxDorsal": 56.258568451034655,
+      "maxTipSpeed": 1.9747816561090743,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 71,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 120,
+        "sweepDegrees": 15
+      },
+      "severe": 6,
+      "pairRows": 25,
+      "pairIncidences": 2388,
+      "keyRegressions": 4,
+      "pairRegressions": 25,
+      "maxTargetDepth": 6.14355506580571,
+      "maxDorsal": 56.258568451034655,
+      "maxTipSpeed": 2.501250783446019,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 69,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 120,
+        "sweepDegrees": -15
+      },
+      "severe": 7,
+      "pairRows": 28,
+      "pairIncidences": 2581,
+      "keyRegressions": 1,
+      "pairRegressions": 28,
+      "maxTargetDepth": 6.038916621996584,
+      "maxDorsal": 54.360922638476936,
+      "maxTipSpeed": 2.5741357569024426,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 20,
+      "profile": {
+        "duration": 0.1,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "severe": 26,
+      "pairRows": 11,
+      "pairIncidences": 787,
+      "keyRegressions": 18,
+      "pairRegressions": 11,
+      "maxTargetDepth": 7.990632915787166,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.8141122992496896,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 65,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 60,
+        "sweepDegrees": 15
+      },
+      "severe": 16,
+      "pairRows": 23,
+      "pairIncidences": 2194,
+      "keyRegressions": 7,
+      "pairRegressions": 23,
+      "maxTargetDepth": 5.042531025028454,
+      "maxDorsal": 56.258568451034655,
+      "maxTipSpeed": 1.6792300900369197,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 54,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "severe": 35,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 30,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.979567013858491,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 0.9695880021176375,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 66,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 80,
+        "sweepDegrees": -15
+      },
+      "severe": 13,
+      "pairRows": 26,
+      "pairIncidences": 2517,
+      "keyRegressions": 5,
+      "pairRegressions": 26,
+      "maxTargetDepth": 7.239261778806572,
+      "maxDorsal": 54.10739609895634,
+      "maxTipSpeed": 2.0681449629033897,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 41,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "severe": 19,
+      "pairRows": 19,
+      "pairIncidences": 1942,
+      "keyRegressions": 12,
+      "pairRegressions": 19,
+      "maxTargetDepth": 6.830175933700833,
+      "maxDorsal": 42.32307134121375,
+      "maxTipSpeed": 1.4588513922379824,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 62,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 40,
+        "sweepDegrees": 15
+      },
+      "severe": 17,
+      "pairRows": 22,
+      "pairIncidences": 2114,
+      "keyRegressions": 10,
+      "pairRegressions": 22,
+      "maxTargetDepth": 6.377928815235578,
+      "maxDorsal": 56.22079676820041,
+      "maxTipSpeed": 1.3894757724169062,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 63,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 60,
+        "sweepDegrees": -15
+      },
+      "severe": 15,
+      "pairRows": 25,
+      "pairIncidences": 2458,
+      "keyRegressions": 10,
+      "pairRegressions": 25,
+      "maxTargetDepth": 7.219968576831465,
+      "maxDorsal": 53.96621040306134,
+      "maxTipSpeed": 1.7967518664079403,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 60,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 40,
+        "sweepDegrees": -15
+      },
+      "severe": 20,
+      "pairRows": 22,
+      "pairIncidences": 2304,
+      "keyRegressions": 14,
+      "pairRegressions": 22,
+      "maxTargetDepth": 7.2158088395187505,
+      "maxDorsal": 53.241980451407954,
+      "maxTipSpeed": 1.5234282512815527,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 57,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "severe": 27,
+      "pairRows": 16,
+      "pairIncidences": 1293,
+      "keyRegressions": 21,
+      "pairRegressions": 16,
+      "maxTargetDepth": 7.988292921979667,
+      "maxDorsal": 40.52914546349412,
+      "maxTipSpeed": 1.247108478549155,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 38,
+      "profile": {
+        "duration": 0.14,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "severe": 28,
+      "pairRows": 17,
+      "pairIncidences": 1136,
+      "keyRegressions": 24,
+      "pairRegressions": 17,
+      "maxTargetDepth": 7.9861757913731735,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 1.2296535860586377,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 55,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "severe": 49,
+      "pairRows": 0,
+      "pairIncidences": 0,
+      "keyRegressions": 44,
+      "pairRegressions": 0,
+      "maxTargetDepth": 7.942568361363533,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 0.9536180088460059,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 59,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "severe": 25,
+      "pairRows": 25,
+      "pairIncidences": 2480,
+      "keyRegressions": 20,
+      "pairRegressions": 25,
+      "maxTargetDepth": 7.954299709172052,
+      "maxDorsal": 42.33274130747457,
+      "maxTipSpeed": 1.1082345800803222,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    },
+    {
+      "i": 56,
+      "profile": {
+        "duration": 0.18,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "severe": 37,
+      "pairRows": 22,
+      "pairIncidences": 1442,
+      "keyRegressions": 32,
+      "pairRegressions": 22,
+      "maxTargetDepth": 7.988892519522506,
+      "maxDorsal": 39.675845471090355,
+      "maxTipSpeed": 0.9568983214858701,
+      "motionScope": "Quick tip check skips sub-1/960s exact-boundary neighbors; independent uniform240/960Hz gate remains required."
+    }
+  ]
+}

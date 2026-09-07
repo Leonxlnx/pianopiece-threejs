@@ -1,0 +1,358 @@
+{
+  "status": "120Hz discovery completed; independent gates pending",
+  "independentBaselineExact": true,
+  "abaExact": true,
+  "inputsUnchanged": true,
+  "inputHashes": {
+    "grid-idle.mjs": "1e6b4f4a02117b2f4539d1aaee540ae6e314a4a54adecacddc0c784ac69098c6",
+    "surface-sampler.mjs": "fbedeb5ee12678c55909005a3929f334888188cdba25ed33c4d233ec1c97959a",
+    "runtime-immutable.mjs": "c1df35893e277854c621f6c2006dbfde6458a4bac00d2988259164f258e073e3",
+    "approach-idle/grid-controls.json": "ad005da5ef11c75f8b5ea2043b3b11520b9f11cfe6647eaef8501d8386393dfa",
+    "paired-approach/quick-times.json": "53d594a63f8d2c89404ce0fe95a6d365d0ea297080c727fe6ebcd2af387b473a",
+    "approach-idle/candidate/score.json": "c4b7316b3caaed296b7345a9ba8aef85bde02f6fe6ea87cd70c72463eb0a9fe4",
+    "approach-idle/candidate/compiled/pianist.mjs": "1eddf57b9c019109ea4ff921922f55e038c29794e0e0b6b9176ca4c1c8d24d1c",
+    "/dev/shm/daybreak-a4-882c1c2d8c18/original-pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+  },
+  "results": [
+    {
+      "i": 4,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": 25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1240,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    },
+    {
+      "i": 9,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 10,
+        "sweepDegrees": 25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1379,
+      "keyRegressions": 0,
+      "pairRegressions": 9,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 57.87449256966125
+    },
+    {
+      "i": 14,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": 25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1418,
+      "keyRegressions": 0,
+      "pairRegressions": 10,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 57.91874284027006
+    },
+    {
+      "i": 19,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 35,
+        "sweepDegrees": 25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1418,
+      "keyRegressions": 0,
+      "pairRegressions": 10,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 57.91874284027006
+    },
+    {
+      "i": 3,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1436,
+      "keyRegressions": 0,
+      "pairRegressions": 10,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    },
+    {
+      "i": 8,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 10,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1668,
+      "keyRegressions": 0,
+      "pairRegressions": 12,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 56.74895856333505
+    },
+    {
+      "i": 13,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1676,
+      "keyRegressions": 0,
+      "pairRegressions": 13,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 56.78005713042229
+    },
+    {
+      "i": 18,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 35,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1676,
+      "keyRegressions": 0,
+      "pairRegressions": 13,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 56.78005713042229
+    },
+    {
+      "i": 2,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2088,
+      "keyRegressions": 0,
+      "pairRegressions": 17,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    },
+    {
+      "i": 12,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2057,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 54.98541625348955
+    },
+    {
+      "i": 17,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 35,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2057,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 54.98541625348955
+    },
+    {
+      "i": 7,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 10,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2091,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 54.97742399685073
+    },
+    {
+      "i": 11,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 3609,
+      "keyRegressions": 0,
+      "pairRegressions": 29,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 53.995044592601275
+    },
+    {
+      "i": 16,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 35,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 3609,
+      "keyRegressions": 0,
+      "pairRegressions": 29,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 54.359569887099084
+    },
+    {
+      "i": 6,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 10,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 3826,
+      "keyRegressions": 0,
+      "pairRegressions": 30,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 53.22722293252095
+    },
+    {
+      "i": 1,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 4254,
+      "keyRegressions": 0,
+      "pairRegressions": 31,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    },
+    {
+      "i": 15,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 35,
+        "sweepDegrees": -25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 5127,
+      "keyRegressions": 0,
+      "pairRegressions": 49,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 53.95156467462074
+    },
+    {
+      "i": 10,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 20,
+        "sweepDegrees": -25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 5131,
+      "keyRegressions": 0,
+      "pairRegressions": 49,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 53.35266518868708
+    },
+    {
+      "i": 5,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 10,
+        "sweepDegrees": -25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 5665,
+      "keyRegressions": 0,
+      "pairRegressions": 49,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    },
+    {
+      "i": 0,
+      "profile": {
+        "afterRelease": 0.16,
+        "beforeNext": 0.12,
+        "blend": 0.06,
+        "liftDegrees": 0,
+        "sweepDegrees": -25
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 5775,
+      "keyRegressions": 0,
+      "pairRegressions": 50,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 52.501924846959504
+    }
+  ]
+}

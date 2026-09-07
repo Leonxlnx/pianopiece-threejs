@@ -1,0 +1,819 @@
+{
+  "status": "Discovery grid only; full independent verification required",
+  "phase": "release",
+  "times": 42,
+  "independentBaselineExact": true,
+  "abaExact": true,
+  "results": [
+    {
+      "i": 2,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.291406505254948,
+      "pairs": 7,
+      "keyRegressions": 1,
+      "pairRegressions": 1,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.343169975262505
+    },
+    {
+      "i": 1,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 7.150478901931462,
+      "pairs": 28,
+      "keyRegressions": 1,
+      "pairRegressions": 2,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.483768590685412
+    },
+    {
+      "i": 8,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.586499580096106,
+      "pairs": 32,
+      "keyRegressions": 1,
+      "pairRegressions": 2,
+      "maxDorsal": 50.64164277552263,
+      "maxTipSpeed": 7.648444872164529
+    },
+    {
+      "i": 11,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 35,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.070686438773065,
+      "pairs": 61,
+      "keyRegressions": 1,
+      "pairRegressions": 3,
+      "maxDorsal": 54.825321067160544,
+      "maxTipSpeed": 8.014449941555698
+    },
+    {
+      "i": 14,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 50,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.84248570229834,
+      "pairs": 75,
+      "keyRegressions": 1,
+      "pairRegressions": 3,
+      "maxDorsal": 54.825321067160544,
+      "maxTipSpeed": 8.303329089211276
+    },
+    {
+      "i": 17,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 75,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 4.334219377203907,
+      "pairs": 96,
+      "keyRegressions": 1,
+      "pairRegressions": 3,
+      "maxDorsal": 54.825321067160544,
+      "maxTipSpeed": 9.122498769503682
+    },
+    {
+      "i": 5,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 10,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 4.304936099659818,
+      "pairs": 17,
+      "keyRegressions": 2,
+      "pairRegressions": 2,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.910744991482547
+    },
+    {
+      "i": 6,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 2.817079158544067,
+      "pairs": 243,
+      "keyRegressions": 0,
+      "pairRegressions": 5,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.454186686808077
+    },
+    {
+      "i": 9,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 35,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 0,
+      "pairs": 357,
+      "keyRegressions": 0,
+      "pairRegressions": 5,
+      "maxDorsal": 53.25584467292841,
+      "maxTipSpeed": 6.781828088429136
+    },
+    {
+      "i": 12,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 50,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 2.3083817979320798,
+      "pairs": 366,
+      "keyRegressions": 0,
+      "pairRegressions": 5,
+      "maxDorsal": 53.25584467292841,
+      "maxTipSpeed": 7.2997396628533044
+    },
+    {
+      "i": 15,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 75,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 1.4079978722795206,
+      "pairs": 385,
+      "keyRegressions": 0,
+      "pairRegressions": 5,
+      "maxDorsal": 53.25584467292841,
+      "maxTipSpeed": 8.163073944048929
+    },
+    {
+      "i": 29,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 35,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.192459476893564,
+      "pairs": 97,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.60693137259287,
+      "maxTipSpeed": 5.5647666416648
+    },
+    {
+      "i": 32,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 50,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.993989734543293,
+      "pairs": 119,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.83719043190817,
+      "maxTipSpeed": 5.773389030229277
+    },
+    {
+      "i": 35,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 75,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 4.479996359150973,
+      "pairs": 152,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.83719043190817,
+      "maxTipSpeed": 5.802222025937971
+    },
+    {
+      "i": 10,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 35,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 4.940256545629296,
+      "pairs": 198,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.033989752490115,
+      "maxTipSpeed": 7.334532025076772
+    },
+    {
+      "i": 13,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 50,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.496914214172699,
+      "pairs": 208,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.033989752490115,
+      "maxTipSpeed": 7.7404461917845655
+    },
+    {
+      "i": 16,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 75,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 4.272668068283359,
+      "pairs": 232,
+      "keyRegressions": 1,
+      "pairRegressions": 4,
+      "maxDorsal": 54.033989752490115,
+      "maxTipSpeed": 8.579904331833163
+    },
+    {
+      "i": 26,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.32485802097621,
+      "pairs": 84,
+      "keyRegressions": 2,
+      "pairRegressions": 3,
+      "maxDorsal": 50.54725965940713,
+      "maxTipSpeed": 4.769223859342687
+    },
+    {
+      "i": 3,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 10,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.289890926269526,
+      "pairs": 111,
+      "keyRegressions": 2,
+      "pairRegressions": 3,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.559959484775378
+    },
+    {
+      "i": 27,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 35,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 2.6167613683504287,
+      "pairs": 494,
+      "keyRegressions": 0,
+      "pairRegressions": 6,
+      "maxDorsal": 52.449683140095864,
+      "maxTipSpeed": 4.742907202758088
+    },
+    {
+      "i": 30,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 50,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 1.412699049881394,
+      "pairs": 521,
+      "keyRegressions": 0,
+      "pairRegressions": 6,
+      "maxDorsal": 53.49418443639462,
+      "maxTipSpeed": 5.054764341958147
+    },
+    {
+      "i": 28,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 35,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 5.070767697798962,
+      "pairs": 312,
+      "keyRegressions": 1,
+      "pairRegressions": 5,
+      "maxDorsal": 53.3790268693356,
+      "maxTipSpeed": 5.098954898408666
+    },
+    {
+      "i": 4,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 10,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 7.235167819697297,
+      "pairs": 89,
+      "keyRegressions": 2,
+      "pairRegressions": 4,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.402174208262648
+    },
+    {
+      "i": 44,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 20,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.935006773504837,
+      "pairs": 99,
+      "keyRegressions": 2,
+      "pairRegressions": 4,
+      "maxDorsal": 50.42541931920655,
+      "maxTipSpeed": 3.822809634580058
+    },
+    {
+      "i": 7,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.155251816981511,
+      "pairs": 118,
+      "keyRegressions": 2,
+      "pairRegressions": 4,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 6.981665134744489
+    },
+    {
+      "i": 47,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 35,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.6805376354977515,
+      "pairs": 123,
+      "keyRegressions": 2,
+      "pairRegressions": 4,
+      "maxDorsal": 54.672867670108246,
+      "maxTipSpeed": 4.444149385588895
+    },
+    {
+      "i": 50,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 50,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 4.744500944602881,
+      "pairs": 154,
+      "keyRegressions": 2,
+      "pairRegressions": 4,
+      "maxDorsal": 54.823256793591916,
+      "maxTipSpeed": 4.9304961794186495
+    },
+    {
+      "i": 23,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 10,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 4.93420690305213,
+      "pairs": 31,
+      "keyRegressions": 3,
+      "pairRegressions": 3,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.345037431240948
+    },
+    {
+      "i": 0,
+      "profile": {
+        "duration": 0.025,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 7.0531776741517564,
+      "pairs": 75,
+      "keyRegressions": 3,
+      "pairRegressions": 3,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 7.151821985513941
+    },
+    {
+      "i": 20,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 7.0626764195648795,
+      "pairs": 13,
+      "keyRegressions": 4,
+      "pairRegressions": 2,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.023742498162983
+    },
+    {
+      "i": 38,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 0,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 7.084048492771833,
+      "pairs": 17,
+      "keyRegressions": 4,
+      "pairRegressions": 2,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.1649582033815014
+    },
+    {
+      "i": 33,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 75,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 0,
+      "pairs": 551,
+      "keyRegressions": 0,
+      "pairRegressions": 7,
+      "maxDorsal": 53.49418443639462,
+      "maxTipSpeed": 5.070407749294253
+    },
+    {
+      "i": 31,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 50,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 6.408254071653019,
+      "pairs": 342,
+      "keyRegressions": 1,
+      "pairRegressions": 6,
+      "maxDorsal": 54.16156938897423,
+      "maxTipSpeed": 5.361340295432005
+    },
+    {
+      "i": 34,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 75,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 4.374904649395662,
+      "pairs": 373,
+      "keyRegressions": 1,
+      "pairRegressions": 6,
+      "maxDorsal": 54.16156938897423,
+      "maxTipSpeed": 5.376393065266919
+    },
+    {
+      "i": 24,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 5.090949962979041,
+      "pairs": 398,
+      "keyRegressions": 1,
+      "pairRegressions": 6,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.105218747404075
+    },
+    {
+      "i": 53,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 75,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.82173574793854,
+      "pairs": 184,
+      "keyRegressions": 2,
+      "pairRegressions": 5,
+      "maxDorsal": 54.823256793591916,
+      "maxTipSpeed": 5.163712477252823
+    },
+    {
+      "i": 25,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 7.005986097291361,
+      "pairs": 185,
+      "keyRegressions": 2,
+      "pairRegressions": 5,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.356860235194862
+    },
+    {
+      "i": 41,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 10,
+        "sweepDegrees": 15
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 6.115119797616309,
+      "pairs": 43,
+      "keyRegressions": 3,
+      "pairRegressions": 4,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.445986697376841
+    },
+    {
+      "i": 45,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 35,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 0,
+      "pairs": 626,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxDorsal": 52.53020902642536,
+      "maxTipSpeed": 3.7816786857640614
+    },
+    {
+      "i": 48,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 50,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 1.7099108777579723,
+      "pairs": 665,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxDorsal": 53.55484803557674,
+      "maxTipSpeed": 4.312873918975605
+    },
+    {
+      "i": 51,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 75,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 0,
+      "maxTargetDepth": 1.7799862982889048,
+      "pairs": 692,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxDorsal": 53.55484803557674,
+      "maxTipSpeed": 4.6988399908727345
+    },
+    {
+      "i": 46,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 35,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 7.173019017336191,
+      "pairs": 430,
+      "keyRegressions": 1,
+      "pairRegressions": 7,
+      "maxDorsal": 53.584769418791545,
+      "maxTipSpeed": 4.06872601509985
+    },
+    {
+      "i": 49,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 50,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 5.065567639771396,
+      "pairs": 454,
+      "keyRegressions": 1,
+      "pairRegressions": 7,
+      "maxDorsal": 54.185604458788546,
+      "maxTipSpeed": 4.571262339293518
+    },
+    {
+      "i": 19,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 7.0935577171322155,
+      "pairs": 60,
+      "keyRegressions": 3,
+      "pairRegressions": 5,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.019660574675069
+    },
+    {
+      "i": 22,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 10,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 6.4222710933660165,
+      "pairs": 130,
+      "keyRegressions": 3,
+      "pairRegressions": 5,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.060663463552334
+    },
+    {
+      "i": 42,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 20,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 1,
+      "maxTargetDepth": 5.03047741300805,
+      "pairs": 516,
+      "keyRegressions": 1,
+      "pairRegressions": 8,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.2260107748091293
+    },
+    {
+      "i": 43,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 20,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 6.722117845183783,
+      "pairs": 223,
+      "keyRegressions": 2,
+      "pairRegressions": 7,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.4498319583737573
+    },
+    {
+      "i": 52,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 75,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 2,
+      "maxTargetDepth": 3.504046406351047,
+      "pairs": 484,
+      "keyRegressions": 2,
+      "pairRegressions": 7,
+      "maxDorsal": 54.185604458788546,
+      "maxTipSpeed": 4.899351129579109
+    },
+    {
+      "i": 40,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 10,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 6.660854822966689,
+      "pairs": 158,
+      "keyRegressions": 3,
+      "pairRegressions": 6,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.1870058240429673
+    },
+    {
+      "i": 21,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 10,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 5.510150976829498,
+      "pairs": 230,
+      "keyRegressions": 3,
+      "pairRegressions": 6,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.086718480496378
+    },
+    {
+      "i": 18,
+      "profile": {
+        "duration": 0.04,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 7.176677318331215,
+      "pairs": 142,
+      "keyRegressions": 4,
+      "pairRegressions": 5,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 4.509326660577496
+    },
+    {
+      "i": 37,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 6.9350610638480585,
+      "pairs": 79,
+      "keyRegressions": 4,
+      "pairRegressions": 6,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.1708507923868563
+    },
+    {
+      "i": 39,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 10,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 3,
+      "maxTargetDepth": 6.575619936002863,
+      "pairs": 285,
+      "keyRegressions": 3,
+      "pairRegressions": 8,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.246654401605857
+    },
+    {
+      "i": 36,
+      "profile": {
+        "duration": 0.05,
+        "liftDegrees": 0,
+        "sweepDegrees": -15
+      },
+      "targetSevere": 5,
+      "maxTargetDepth": 7.094994707616708,
+      "pairs": 200,
+      "keyRegressions": 5,
+      "pairRegressions": 7,
+      "maxDorsal": 50.417373965671445,
+      "maxTipSpeed": 3.5967892569145916
+    }
+  ]
+}
