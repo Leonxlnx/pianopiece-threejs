@@ -1,0 +1,7 @@
+# Frozen natural joint-transport candidate V6
+
+This is an isolated diagnostic candidate, not the integrated application. It combines3 G4 distal release controls,5 LH Pinky sweep controls and15 LH lower-arc controls on the natural V5 transport, plus the accepted elbow taper. Its input score retains the earlier92 travel profiles because this freezes the exact measured state; only their resting-neighbor clearance fields are used by this candidate.
+
+Root reviewed all11 included actual-mesh images. The observed silhouettes are approved, while whole-song surfaces remain blocked: the complete60Hz actual-key-core screen finds240 failing frames and249 patch/key rows, all during inactive motion. The complete failure inventory and all unchanged thresholds are included. A shape pass does not establish key or neighboring-finger clearance. The supplementary contact classifier retains its10 failed geometric controls and explicitly describes finite/open-patch measurement limits.
+
+To reproduce this source, start from commit b8c30b0e21d56606e6b158b8079d86c316c0d18f, apply `candidate.patch`, and replace `public/assets/score.json` with this frozen `score.json`. Use the repository's asset-restoration/build and QA tools. `manifest.json` records the exact frozen source/score hashes; individual family summaries retain their own pre-combination provenance. The final shared source needs renewed global checks after all pending repairs are combined. No final audio manifest may be relabeled to this score.

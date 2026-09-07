@@ -1,0 +1,212 @@
+[
+  {
+    "name": "offset15",
+    "before": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 14,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 18,
+      "maxKeyCoreDepthMm": 7.081902719873579,
+      "ownPalmRows": 0,
+      "neighborRows": 0,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 7,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 7,
+      "maxKeyCoreDepthMm": 5.112618333335428,
+      "ownPalmRows": 0,
+      "neighborRows": 18,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "severeRegressions": 2,
+    "pairRegressions": 18,
+    "shallowIncreases": [
+      {
+        "time": 115.92060866666665,
+        "patch": "RMiddle",
+        "key": 68,
+        "beforeMm": 0,
+        "afterMm": 2.519110388555727
+      },
+      {
+        "time": 115.953942,
+        "patch": "RMiddle",
+        "key": 67,
+        "beforeMm": 0,
+        "afterMm": 1.9808364617494023
+      }
+    ],
+    "motion": {
+      "variant": "approach-offset/offset15",
+      "frameRate": 240,
+      "samples": 62,
+      "maxTipSpeed": 2.778122339511316,
+      "maxWristSpeed": 0.3173012991080609,
+      "maxWristAcceleration": 14.528746666646775,
+      "maxDorsal": 54.484274117880425,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "offset25",
+    "before": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 14,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 18,
+      "maxKeyCoreDepthMm": 7.081902719873579,
+      "ownPalmRows": 0,
+      "neighborRows": 0,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 8,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 8,
+      "maxKeyCoreDepthMm": 5.909542818775259,
+      "ownPalmRows": 0,
+      "neighborRows": 36,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "severeRegressions": 3,
+    "pairRegressions": 36,
+    "shallowIncreases": [
+      {
+        "time": 115.90810866666666,
+        "patch": "RMiddle",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.0611277674872364
+      },
+      {
+        "time": 115.953942,
+        "patch": "RMiddle",
+        "key": 67,
+        "beforeMm": 0,
+        "afterMm": 1.9808364617494023
+      }
+    ],
+    "motion": {
+      "variant": "approach-offset/offset25",
+      "frameRate": 240,
+      "samples": 62,
+      "maxTipSpeed": 2.778122339511316,
+      "maxWristSpeed": 0.3173012991080609,
+      "maxWristAcceleration": 14.528746666646775,
+      "maxDorsal": 54.484274117880425,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "offset35",
+    "before": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 14,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 18,
+      "maxKeyCoreDepthMm": 7.081902719873579,
+      "ownPalmRows": 0,
+      "neighborRows": 0,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 9,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 9,
+      "maxKeyCoreDepthMm": 7.00983478923483,
+      "ownPalmRows": 0,
+      "neighborRows": 41,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "severeRegressions": 4,
+    "pairRegressions": 41,
+    "shallowIncreases": [
+      {
+        "time": 115.953942,
+        "patch": "RMiddle",
+        "key": 67,
+        "beforeMm": 0,
+        "afterMm": 1.9808364617494023
+      }
+    ],
+    "motion": {
+      "variant": "approach-offset/offset35",
+      "frameRate": 240,
+      "samples": 62,
+      "maxTipSpeed": 3.2849967601734464,
+      "maxWristSpeed": 0.3173012991080609,
+      "maxWristAcceleration": 14.528746666646775,
+      "maxDorsal": 54.484274117880425,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "offsetn15",
+    "before": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 14,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 18,
+      "maxKeyCoreDepthMm": 7.081902719873579,
+      "ownPalmRows": 0,
+      "neighborRows": 0,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 65,
+      "keyCoreRowsOver3mm": 5,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 5,
+      "maxKeyCoreDepthMm": 5.112618333335428,
+      "ownPalmRows": 0,
+      "neighborRows": 38,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "severeRegressions": 0,
+    "pairRegressions": 38,
+    "shallowIncreases": [
+      {
+        "time": 115.953942,
+        "patch": "RMiddle",
+        "key": 67,
+        "beforeMm": 0,
+        "afterMm": 1.9808364617494023
+      }
+    ],
+    "motion": {
+      "variant": "approach-offset/offsetn15",
+      "frameRate": 240,
+      "samples": 62,
+      "maxTipSpeed": 2.778122339511316,
+      "maxWristSpeed": 0.3173012991080609,
+      "maxWristAcceleration": 14.528746666646775,
+      "maxDorsal": 54.484274117880425,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  }
+]

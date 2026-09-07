@@ -1,0 +1,1311 @@
+{
+  "scope": "Representative retained actual crossing points at seven worst/new left upper-arm and sleeve/torso poses. Exact posed opaque blouse, folded facings/buttons/thread rays using each actual material side. Current landscape/portrait camera only. Positive cover distance is millimetres of nearer garment along camera-to-crossing ray; nearest sleeve distance is unsigned surface separation, NOT penetration depth. Axial fraction0=shoulder,1=elbow. Four stored intersections per pair/pose, not all triangles. Offscreen or occluded intersections still remain geometric overlaps.",
+  "inputs": {
+    "label": "Independent coherent v4 score / frozen combined incumbent rig",
+    "hashes": {
+      "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775",
+      "pianist.ts": "59dc8e3e3d55856b0741d6e8029ca4cf40951de57c828df0395db94bedd8e1f1",
+      "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+      "direction.ts": "1352a4fc49797dd312df26e4c410b331a6f99721f1c2e55f45a048019da0691f",
+      "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+      "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+      "wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+      "ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+      "hair-motion-data.ts": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d",
+      "score.json": "401c48eeb4ced0bb50189609a5aa6b1a3890cba17c5cb2894199876a4a029369",
+      "baseline-score.json": "49fd52d9ea312f85f112cbdbccdc37f0e48e91e1a08093beb67b4afd79617309",
+      "model.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "poses": 7,
+  "skinPoints": 28,
+  "sleevePoints": 28,
+  "projectedCases": 112,
+  "inFrameCases": 80,
+  "uncoveredInFrameCases": 0,
+  "uncovered": [],
+  "skinAlongUpperArmRange": [
+    0.40857218669938256,
+    0.46140820616916706
+  ],
+  "skinNearestSleeveDistanceMmRange": [
+    16.736261226069363,
+    20.249036342571003
+  ],
+  "skinSleeveOutwardOffsetMmRange": [
+    3.483437284508589,
+    20.096198887340183
+  ],
+  "minimumClothingCoverForInFrameMm": 182.4239518989934,
+  "reports": [
+    {
+      "time": 24.428,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4408152740634628,
+          "nearestSleeveDistanceMm": 19.759033078772323,
+          "sleeveOutwardOffsetMm": 19.60640768386463,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 211.37654893412093,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 295.00917682712327,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4532995105595078,
+          "nearestSleeveDistanceMm": 17.666260097695435,
+          "sleeveOutwardOffsetMm": 7.375252902629364,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 220.14973569886877,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 296.7858334763922,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4408152740634628,
+          "nearestSleeveDistanceMm": 19.759033078772323,
+          "sleeveOutwardOffsetMm": 19.60640768386463,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 211.37654893412093,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 295.00917682712327,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4574771036509649,
+          "nearestSleeveDistanceMm": 16.736261226069363,
+          "sleeveOutwardOffsetMm": 6.766341759606184,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 223.06568478503263,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 297.41930972415133,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5189495073735458,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 209.59392600713335,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 274.3169664255594,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5193826441876331,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 210.51573856221296,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 274.91287507251275,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5174647591911989,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": 2.5162255378758902e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 225.49197019350953,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 285.856718431698,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5241821272612778,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 230.06199057434472,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 287.66344704557434,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 56.6195,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.44687778873593476,
+          "nearestSleeveDistanceMm": 19.117328914496348,
+          "sleeveOutwardOffsetMm": 18.997163217306788,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 202.01785124141037,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 219.99104970352025,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4583136307865407,
+          "nearestSleeveDistanceMm": 17.72616179406382,
+          "sleeveOutwardOffsetMm": 3.653639888603826,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 233.10750713429985,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 206.42183082312027,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.45186349581162544,
+          "nearestSleeveDistanceMm": 19.21645026041251,
+          "sleeveOutwardOffsetMm": 5.5273735402324595,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 220.08585370632306,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory blouse \u2014 folded facings"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 213.7138061288355,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.45828437111280834,
+          "nearestSleeveDistanceMm": 17.734311839034522,
+          "sleeveOutwardOffsetMm": 3.6662929252178174,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 233.02677886441003,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 206.46698380213024,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5158003620785439,
+          "nearestSleeveDistanceMm": 1.1102230246251565e-13,
+          "sleeveOutwardOffsetMm": -6.016952453797543e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 182.4239518989934,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 247.3854195080225,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5236816062587732,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 202.0387190436632,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory blouse \u2014 folded facings"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 240.7227057293455,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5253630283766866,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 207.42608863758426,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory blouse \u2014 folded facings"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 238.59001261264413,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5236816062587732,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 202.0387190436632,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory blouse \u2014 folded facings"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 240.7227057293455,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 64.1642495,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.41403907056516326,
+          "nearestSleeveDistanceMm": 19.937521715623937,
+          "sleeveOutwardOffsetMm": 19.66968778045775,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 297.34727897594615,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 242.88607399077745,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4135698670367766,
+          "nearestSleeveDistanceMm": 20.09077547647949,
+          "sleeveOutwardOffsetMm": 19.887472007202497,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 299.0602032388621,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 244.42164110740538,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.40859489152056466,
+          "nearestSleeveDistanceMm": 20.239053957709427,
+          "sleeveOutwardOffsetMm": 20.013909349187923,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 299.18837010947817,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 244.4306381726129,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.41443559670008534,
+          "nearestSleeveDistanceMm": 19.67012972616781,
+          "sleeveOutwardOffsetMm": 19.25094687725102,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 294.2322855874235,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 240.04332357189995,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.49714917252260726,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 322.02448819231574,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 279.61120916885386,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.49823686276717305,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 321.1913825407682,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 278.4049188477944,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.4944568110120248,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": 2.6106512664363513e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 323.3895772929314,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 281.6349080669429,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.49281187959297007,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": -2.6044189179143554e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 324.0299438579028,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 282.63524715956476,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 64.27575,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.43109144401552685,
+          "nearestSleeveDistanceMm": 20.19608689282078,
+          "sleeveOutwardOffsetMm": 20.092351137716744,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 321.3256374451108,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 272.6659657493515,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4363754929843767,
+          "nearestSleeveDistanceMm": 19.7478236763452,
+          "sleeveOutwardOffsetMm": 19.641188230706632,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 318.1276716725523,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 268.85066193526706,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.44169847946247703,
+          "nearestSleeveDistanceMm": 19.28138417556191,
+          "sleeveOutwardOffsetMm": 19.171791284476434,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 314.3247299638743,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 264.53321231549063,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4476443976185367,
+          "nearestSleeveDistanceMm": 19.59212191247902,
+          "sleeveOutwardOffsetMm": 19.44544637249762,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 300.404414569448,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 247.2171544868411,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5137511247756854,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 338.69495510661454,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 304.00174177320685,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5135974500831687,
+          "nearestSleeveDistanceMm": 1.1102230246251565e-13,
+          "sleeveOutwardOffsetMm": 2.6575867733610607e-15,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 338.8853109737595,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 304.2850892552149,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5178283518635388,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 332.748920655201,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 295.10723718140497,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5244917826587142,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 323.8986130746331,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 281.9129586955365,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 134.16425,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4140503526018354,
+          "nearestSleeveDistanceMm": 19.946182224683895,
+          "sleeveOutwardOffsetMm": 19.68255714945673,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 302.50429549675096,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 243.18674117963735,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4135754761107594,
+          "nearestSleeveDistanceMm": 20.100347731753473,
+          "sleeveOutwardOffsetMm": 19.900974743712915,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 304.05280680150383,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 244.6957778853802,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.40857218669938256,
+          "nearestSleeveDistanceMm": 20.249036342571003,
+          "sleeveOutwardOffsetMm": 20.027653042155052,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 303.958943382828,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 244.60262357225116,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4144548902671942,
+          "nearestSleeveDistanceMm": 19.67690565457356,
+          "sleeveOutwardOffsetMm": 19.263057331492043,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 299.6668163524392,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 240.42229503995216,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.49722681125224466,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 328.77448655436046,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 284.5646828888597,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.4983202501471096,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": 2.6282745938910208e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 328.03957397129267,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 283.3950324056227,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.49446496777528043,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": -2.6093175795887064e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 329.9302091807892,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 286.506117935426,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.4927943672931344,
+          "nearestSleeveDistanceMm": 2.7755575615628914e-14,
+          "sleeveOutwardOffsetMm": -2.6029646094459743e-14,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 330.4374247492787,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 287.4121473781042,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 134.27575,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.43095298696839723,
+          "nearestSleeveDistanceMm": 20.2004733347494,
+          "sleeveOutwardOffsetMm": 20.096198887340183,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 328.66205488874425,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 276.30543889157263,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4360866315344498,
+          "nearestSleeveDistanceMm": 19.767678572311638,
+          "sleeveOutwardOffsetMm": 19.659195515954202,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 325.87946665333425,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 272.70997495154336,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4415580409453047,
+          "nearestSleeveDistanceMm": 19.28776289229884,
+          "sleeveOutwardOffsetMm": 19.178708462030635,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 322.4111638298677,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 268.3472813038339,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4475469476542305,
+          "nearestSleeveDistanceMm": 19.60160273605323,
+          "sleeveOutwardOffsetMm": 19.454663199816196,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 309.40926151487514,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 251.65308607076665,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5136862435312058,
+          "nearestSleeveDistanceMm": 1.1102230246251565e-13,
+          "sleeveOutwardOffsetMm": -2.87967156195646e-15,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 345.897356693309,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 311.3595508127993,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5134940296668247,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 346.07589126688066,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 311.6611646338692,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5178371284579761,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 340.5794133987925,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 303.37976331732807,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5245013544737693,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": true,
+              "coverDistanceMm": 332.6440098891914,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": true,
+              "coverDistanceMm": 290.95293758761363,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "time": 206.6195,
+      "details": [
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.45013477697511234,
+          "nearestSleeveDistanceMm": 18.74197141844787,
+          "sleeveOutwardOffsetMm": 6.302809503539343,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 211.93412414037797,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 293.80057458855526,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4591458015172142,
+          "nearestSleeveDistanceMm": 17.517231493755226,
+          "sleeveOutwardOffsetMm": 4.169981536276146,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 229.4269238597444,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 302.5533429500984,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.46140820616916706,
+          "nearestSleeveDistanceMm": 16.94339150173977,
+          "sleeveOutwardOffsetMm": 3.483437284508589,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 233.93633836070143,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 304.59222451582303,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LUpperArm/BlouseTorso",
+          "alongUpperArm": 0.4540925016778939,
+          "nearestSleeveDistanceMm": 18.589490658489044,
+          "sleeveOutwardOffsetMm": 5.5925580333646145,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 220.64127462170558,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 298.208718985139,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5164968390485842,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 198.93709413852832,
+              "coveredByCloth": true,
+              "nearestMaterial": "Warm pearl blouse buttons"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 265.1480310741121,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5221847736435575,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 205.72656377761538,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 272.51187514205276,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5221847736435575,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 205.72656377761538,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 272.51187514205276,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        },
+        {
+          "pair": "LBlouseSleeve/BlouseTorso",
+          "alongUpperArm": 0.5253201277420055,
+          "nearestSleeveDistanceMm": 0,
+          "sleeveOutwardOffsetMm": 0,
+          "views": [
+            {
+              "aspect": 1.7777777777777777,
+              "inFrame": false,
+              "coverDistanceMm": 213.9351202474586,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            },
+            {
+              "aspect": 0.5625,
+              "inFrame": false,
+              "coverDistanceMm": 278.2896534530086,
+              "coveredByCloth": true,
+              "nearestMaterial": "Ivory crepe blouse \u2014 softly draped"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

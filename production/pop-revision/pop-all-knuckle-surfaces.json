@@ -1,0 +1,2674 @@
+{
+  "inputs": {
+    "rig": {
+      "path": "production/qa/compiled/pianist.mjs",
+      "sha256": "2eae26624c6b6f4351db79fd144b67e228534946ffe9589eee264892734e963a"
+    },
+    "piano": {
+      "path": "production/qa/compiled/piano.mjs",
+      "sha256": "941106fadc0e8efe8f223a4598f660873b84743bfbe31cdf0b237d4621270b0c"
+    },
+    "score": {
+      "path": "public/assets/score.json",
+      "sha256": "0b6023723937922ec3230b733b0de9b5c5c9cc30c6de54ba96c3c45116b1c40a"
+    },
+    "model": {
+      "path": "public/assets/pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "selection": "evenly spaced per-hand note midpoints, section-center note midpoints, opening and ending",
+  "summary": {
+    "samples": 49,
+    "keyCoreRowsOver3mm": 27,
+    "activeKeyCoreHitsOver3mm": 23,
+    "inactiveKeyCoreHitsOver3mm": 23,
+    "maxKeyCoreDepthMm": 7.337344531369583,
+    "ownPalmRows": 49,
+    "neighborRows": 33,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 8.552864390877764,
+    "nonfinite": 0
+  },
+  "ownership": {
+    "ownedVertices": [
+      {
+        "patch": "LThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "LIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "LMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "LRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "LPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "LPalm",
+        "count": 190,
+        "triangles": 279
+      },
+      {
+        "patch": "RThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "RIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "RMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "RRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "RPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "RPalm",
+        "count": 190,
+        "triangles": 279
+      }
+    ],
+    "mixedWebVertices": 232
+  },
+  "scope": "Exact production deformed Human vertices against all 88 actual animated rounded-key inner boxes; original-box nearest-face depth. Whole hand-owned and mixed web vertices included for key cores. Exact noncoplanar edge/triangle intersections for >65%-owned digit/palm patches; mixed web, coplanar and completely enclosed surfaces excluded from pair tests. Counts are not penetration depth or visual approval. Finite sampling cannot establish continuous clearance.",
+  "rows": [
+    {
+      "time": 0,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 0.304875,
+      "active": [
+        {
+          "id": "db00001",
+          "hand": "L",
+          "finger": 5,
+          "midi": 48
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.2520053900419494
+    },
+    {
+      "time": 0.8350515000000001,
+      "active": [
+        {
+          "id": "db00002",
+          "hand": "R",
+          "finger": 3,
+          "midi": 64
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 54,
+          "active": false,
+          "vertices": 19,
+          "deepVertices": 14,
+          "maxDepthMm": 6.79996685642617
+        },
+        {
+          "patch": "LRing",
+          "key": 51,
+          "active": false,
+          "vertices": 18,
+          "deepVertices": 10,
+          "maxDepthMm": 6.69616000146267
+        },
+        {
+          "patch": "RMiddle",
+          "key": 63,
+          "active": true,
+          "vertices": 11,
+          "deepVertices": 7,
+          "maxDepthMm": 5.714601560157073
+        },
+        {
+          "patch": "RMiddle",
+          "key": 64,
+          "active": true,
+          "vertices": 6,
+          "deepVertices": 0,
+          "maxDepthMm": 1.7321236148063468
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 42
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 31
+        }
+      ],
+      "markerMaxErrorMm": 0.00015046009001383226
+    },
+    {
+      "time": 5.304875,
+      "active": [
+        {
+          "id": "db00016",
+          "hand": "L",
+          "finger": 5,
+          "midi": 41
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RRing",
+          "key": 69,
+          "active": false,
+          "vertices": 36,
+          "deepVertices": 30,
+          "maxDepthMm": 6.887009292831703
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 17
+        }
+      ],
+      "markerMaxErrorMm": 0.2520147290424262
+    },
+    {
+      "time": 16.521746999999998,
+      "active": [
+        {
+          "id": "db00058",
+          "hand": "R",
+          "finger": 4,
+          "midi": 67
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 55,
+          "active": false,
+          "vertices": 17,
+          "deepVertices": 5,
+          "maxDepthMm": 4.0151426528084455
+        },
+        {
+          "patch": "RRing",
+          "key": 68,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 13,
+          "maxDepthMm": 5.2510021893874
+        },
+        {
+          "patch": "RRing",
+          "key": 67,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 0,
+          "maxDepthMm": 2.2639320321929945
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 51
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 19
+        }
+      ],
+      "markerMaxErrorMm": 0.0001517777315267558
+    },
+    {
+      "time": 17.287,
+      "active": [
+        {
+          "id": "db00061",
+          "hand": "R",
+          "finger": 2,
+          "midi": 64
+        },
+        {
+          "id": "db00062",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 18,
+          "maxDepthMm": 6.86763856305031
+        },
+        {
+          "patch": "LIndex",
+          "key": 50,
+          "active": true,
+          "vertices": 17,
+          "deepVertices": 9,
+          "maxDepthMm": 4.8560874032707035
+        },
+        {
+          "patch": "LIndex",
+          "key": 52,
+          "active": true,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 1.4867054236036292
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 46,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 2.7754260756849836
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LIndex",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "LThumb",
+          "b": "LIndex",
+          "kind": "neighbor",
+          "trianglePairs": 71
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 4
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 4.1930193231285146e-05
+    },
+    {
+      "time": 30.202845500000002,
+      "active": [
+        {
+          "id": "db00111",
+          "hand": "L",
+          "finger": 5,
+          "midi": 48
+        },
+        {
+          "id": "db00112",
+          "hand": "R",
+          "finger": 2,
+          "midi": 64
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 0.2520050630606129
+    },
+    {
+      "time": 31.517212999999998,
+      "active": [
+        {
+          "id": "db00117",
+          "hand": "R",
+          "finger": 5,
+          "midi": 72
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LMiddle",
+          "key": 52,
+          "active": false,
+          "vertices": 2,
+          "deepVertices": 0,
+          "maxDepthMm": 2.1101468807466217
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 54
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.637602539829964
+    },
+    {
+      "time": 33.31425,
+      "active": [
+        {
+          "id": "db00124",
+          "hand": "L",
+          "finger": 5,
+          "midi": 50
+        },
+        {
+          "id": "db00125",
+          "hand": "L",
+          "finger": 2,
+          "midi": 55
+        },
+        {
+          "id": "db00126",
+          "hand": "R",
+          "finger": 2,
+          "midi": 62
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 56,
+          "active": true,
+          "vertices": 17,
+          "deepVertices": 10,
+          "maxDepthMm": 6.248493537420033
+        },
+        {
+          "patch": "LIndex",
+          "key": 55,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.3144569281557947
+        },
+        {
+          "patch": "LIndex",
+          "key": 54,
+          "active": true,
+          "vertices": 6,
+          "deepVertices": 0,
+          "maxDepthMm": 2.623506118546559
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 0.2510889138350645
+    },
+    {
+      "time": 46.0825885,
+      "active": [
+        {
+          "id": "db00175",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        },
+        {
+          "id": "db00176",
+          "hand": "R",
+          "finger": 5,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RRing",
+          "key": 72,
+          "active": false,
+          "vertices": 3,
+          "deepVertices": 0,
+          "maxDepthMm": 1.6538757701508588
+        },
+        {
+          "patch": "RRing",
+          "key": 73,
+          "active": false,
+          "vertices": 16,
+          "deepVertices": 12,
+          "maxDepthMm": 4.645438126090057
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 6
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 49
+        }
+      ],
+      "markerMaxErrorMm": 0.24919131503951347
+    },
+    {
+      "time": 47.78925,
+      "active": [
+        {
+          "id": "db00182",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00183",
+          "hand": "R",
+          "finger": 2,
+          "midi": 67
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 0.2490684631339027
+    },
+    {
+      "time": 58.326750000000004,
+      "active": [
+        {
+          "id": "db00233",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00234",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        },
+        {
+          "id": "db00235",
+          "hand": "R",
+          "finger": 5,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": true,
+          "vertices": 17,
+          "deepVertices": 10,
+          "maxDepthMm": 6.24844837422317
+        },
+        {
+          "patch": "LIndex",
+          "key": 48,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.3148104070565
+        },
+        {
+          "patch": "RRing",
+          "key": 73,
+          "active": false,
+          "vertices": 22,
+          "deepVertices": 14,
+          "maxDepthMm": 6.035662177586304
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 6
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 41
+        }
+      ],
+      "markerMaxErrorMm": 0.25110500834314364
+    },
+    {
+      "time": 60.179875,
+      "active": [
+        {
+          "id": "db00240",
+          "hand": "L",
+          "finger": 3,
+          "midi": 50
+        },
+        {
+          "id": "db00241",
+          "hand": "R",
+          "finger": 2,
+          "midi": 69
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 0.00012081180409052496
+    },
+    {
+      "time": 60.6826915,
+      "active": [
+        {
+          "id": "db00242",
+          "hand": "L",
+          "finger": 4,
+          "midi": 53
+        },
+        {
+          "id": "db00243",
+          "hand": "L",
+          "finger": 2,
+          "midi": 57
+        },
+        {
+          "id": "db00244",
+          "hand": "R",
+          "finger": 3,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 7.95004019351894e-05
+    },
+    {
+      "time": 69.277625,
+      "active": [
+        {
+          "id": "db00286",
+          "hand": "L",
+          "finger": 4,
+          "midi": 47
+        },
+        {
+          "id": "db00287",
+          "hand": "L",
+          "finger": 2,
+          "midi": 50
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        }
+      ],
+      "markerMaxErrorMm": 7.125497295647902e-05
+    },
+    {
+      "time": 73.03886349999999,
+      "active": [
+        {
+          "id": "db00310",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LMiddle",
+          "key": 46,
+          "active": false,
+          "vertices": 27,
+          "deepVertices": 15,
+          "maxDepthMm": 5.61376379973394
+        },
+        {
+          "patch": "RIndex",
+          "key": 70,
+          "active": false,
+          "vertices": 24,
+          "deepVertices": 11,
+          "maxDepthMm": 4.413312072814021
+        },
+        {
+          "patch": "RIndex",
+          "key": 71,
+          "active": false,
+          "vertices": 40,
+          "deepVertices": 32,
+          "maxDepthMm": 7.319773995387746
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        }
+      ],
+      "markerMaxErrorMm": 0.2768434262189437
+    },
+    {
+      "time": 79.277625,
+      "active": [
+        {
+          "id": "db00346",
+          "hand": "L",
+          "finger": 4,
+          "midi": 45
+        },
+        {
+          "id": "db00347",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RIndex",
+          "key": 68,
+          "active": false,
+          "vertices": 49,
+          "deepVertices": 40,
+          "maxDepthMm": 7.23129508362657
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 18
+        }
+      ],
+      "markerMaxErrorMm": 6.854611918085375e-05
+    },
+    {
+      "time": 83.04051249999999,
+      "active": [
+        {
+          "id": "db00369",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": false,
+          "vertices": 22,
+          "deepVertices": 16,
+          "maxDepthMm": 6.529310345248867
+        },
+        {
+          "patch": "LMiddle",
+          "key": 46,
+          "active": false,
+          "vertices": 27,
+          "deepVertices": 21,
+          "maxDepthMm": 6.298990080577549
+        },
+        {
+          "patch": "RIndex",
+          "key": 70,
+          "active": false,
+          "vertices": 33,
+          "deepVertices": 19,
+          "maxDepthMm": 4.996283818820321
+        },
+        {
+          "patch": "RIndex",
+          "key": 71,
+          "active": false,
+          "vertices": 38,
+          "deepVertices": 28,
+          "maxDepthMm": 7.006415529249854
+        },
+        {
+          "patch": "RRing",
+          "key": 75,
+          "active": false,
+          "vertices": 32,
+          "deepVertices": 25,
+          "maxDepthMm": 6.849430553584251
+        },
+        {
+          "patch": "RRing",
+          "key": 74,
+          "active": false,
+          "vertices": 18,
+          "deepVertices": 6,
+          "maxDepthMm": 3.4420177205262137
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 29
+        }
+      ],
+      "markerMaxErrorMm": 0.27684342089113795
+    },
+    {
+      "time": 85.117375,
+      "active": [
+        {
+          "id": "db00381",
+          "hand": "L",
+          "finger": 5,
+          "midi": 45
+        },
+        {
+          "id": "db00382",
+          "hand": "R",
+          "finger": 1,
+          "midi": 69
+        },
+        {
+          "id": "db00383",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RThumb",
+          "key": 71,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 3,
+          "maxDepthMm": 4.373188684816953
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.372440630171215
+    },
+    {
+      "time": 90.179875,
+      "active": [
+        {
+          "id": "db00407",
+          "hand": "L",
+          "finger": 4,
+          "midi": 50
+        },
+        {
+          "id": "db00408",
+          "hand": "R",
+          "finger": 4,
+          "midi": 69
+        },
+        {
+          "id": "db00409",
+          "hand": "R",
+          "finger": 2,
+          "midi": 65
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RRing",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 17
+        },
+        {
+          "a": "RThumb",
+          "b": "RIndex",
+          "kind": "neighbor",
+          "trianglePairs": 160
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 15
+        }
+      ],
+      "markerMaxErrorMm": 0.00010231030417778892
+    },
+    {
+      "time": 93.2693735,
+      "active": [
+        {
+          "id": "db00427",
+          "hand": "L",
+          "finger": 4,
+          "midi": 43
+        },
+        {
+          "id": "db00428",
+          "hand": "L",
+          "finger": 1,
+          "midi": 48
+        },
+        {
+          "id": "db00429",
+          "hand": "R",
+          "finger": 5,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 47,
+          "active": true,
+          "vertices": 1,
+          "deepVertices": 1,
+          "maxDepthMm": 3.284403719049589
+        },
+        {
+          "patch": "LMiddle",
+          "key": 44,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 5,
+          "maxDepthMm": 5.772441688738084
+        },
+        {
+          "patch": "RIndex",
+          "key": 70,
+          "active": false,
+          "vertices": 68,
+          "deepVertices": 47,
+          "maxDepthMm": 7.044893504232041
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 43
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 28
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.7276386509456227
+    },
+    {
+      "time": 101.16825,
+      "active": [
+        {
+          "id": "db00467",
+          "hand": "L",
+          "finger": 4,
+          "midi": 52
+        },
+        {
+          "id": "db00468",
+          "hand": "L",
+          "finger": 2,
+          "midi": 55
+        },
+        {
+          "id": "db00469",
+          "hand": "R",
+          "finger": 4,
+          "midi": 67
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 7.887269252504537e-05
+    },
+    {
+      "time": 105.304875,
+      "active": [
+        {
+          "id": "db00480",
+          "hand": "L",
+          "finger": 5,
+          "midi": 45
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RRing",
+          "key": 69,
+          "active": false,
+          "vertices": 36,
+          "deepVertices": 31,
+          "maxDepthMm": 7.337344531369583
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        }
+      ],
+      "markerMaxErrorMm": 0.2520065335535586
+    },
+    {
+      "time": 106.514022,
+      "active": [
+        {
+          "id": "db00485",
+          "hand": "R",
+          "finger": 3,
+          "midi": 69
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 54,
+          "active": false,
+          "vertices": 13,
+          "deepVertices": 11,
+          "maxDepthMm": 6.342654678887561
+        },
+        {
+          "patch": "RMiddle",
+          "key": 68,
+          "active": true,
+          "vertices": 11,
+          "deepVertices": 7,
+          "maxDepthMm": 5.714688404883706
+        },
+        {
+          "patch": "RMiddle",
+          "key": 69,
+          "active": true,
+          "vertices": 6,
+          "deepVertices": 0,
+          "maxDepthMm": 1.732153836280781
+        },
+        {
+          "patch": "RMiddle",
+          "key": 70,
+          "active": true,
+          "vertices": 2,
+          "deepVertices": 0,
+          "maxDepthMm": 2.456963887373931
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 31
+        }
+      ],
+      "markerMaxErrorMm": 0.00012198343699583893
+    },
+    {
+      "time": 118.652625,
+      "active": [
+        {
+          "id": "db00531",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00532",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        },
+        {
+          "id": "db00533",
+          "hand": "R",
+          "finger": 5,
+          "midi": 72
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": true,
+          "vertices": 17,
+          "deepVertices": 10,
+          "maxDepthMm": 6.2484469713200985
+        },
+        {
+          "patch": "LIndex",
+          "key": 48,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.3148100382350822
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.5488917448375555
+    },
+    {
+      "time": 120.21014650000001,
+      "active": [
+        {
+          "id": "db00536",
+          "hand": "L",
+          "finger": 3,
+          "midi": 50
+        },
+        {
+          "id": "db00537",
+          "hand": "R",
+          "finger": 3,
+          "midi": 69
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 36
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 60
+        }
+      ],
+      "markerMaxErrorMm": 0.00012013209310790556
+    },
+    {
+      "time": 121.516469,
+      "active": [
+        {
+          "id": "db00542",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RRing",
+          "key": 73,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 13,
+          "maxDepthMm": 5.250984883812205
+        },
+        {
+          "patch": "RRing",
+          "key": 72,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 0,
+          "maxDepthMm": 2.2639450302942565
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 50
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 19
+        }
+      ],
+      "markerMaxErrorMm": 0.00016559283076248235
+    },
+    {
+      "time": 132.27875,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00588",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00589",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 15
+        }
+      ],
+      "markerMaxErrorMm": 0.0001539659745984852
+    },
+    {
+      "time": 135.117375,
+      "active": [
+        {
+          "id": "db00603",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00604",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 36
+        }
+      ],
+      "markerMaxErrorMm": 0.8036327723713867
+    },
+    {
+      "time": 136.0899315,
+      "active": [
+        {
+          "id": "db00608",
+          "hand": "L",
+          "finger": 3,
+          "midi": 48
+        },
+        {
+          "id": "db00609",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LMiddle",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "LThumb",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 60
+        },
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 54
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RRing",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 15
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 15
+        }
+      ],
+      "markerMaxErrorMm": 0.0001477383838545828
+    },
+    {
+      "time": 142.287,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00640",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00641",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 11,
+          "deepVertices": 3,
+          "maxDepthMm": 4.284386638258364
+        },
+        {
+          "patch": "LIndex",
+          "key": 51,
+          "active": true,
+          "vertices": 10,
+          "deepVertices": 6,
+          "maxDepthMm": 6.021756245898069
+        },
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": true,
+          "vertices": 6,
+          "deepVertices": 1,
+          "maxDepthMm": 3.45810675955438
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LIndex",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 14
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 26
+        }
+      ],
+      "markerMaxErrorMm": 7.5661793640435e-05
+    },
+    {
+      "time": 147.14261299999998,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 55,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 4,
+          "maxDepthMm": 3.243595911090247
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 15
+        }
+      ],
+      "markerMaxErrorMm": 1.6271245571197313e-05
+    },
+    {
+      "time": 150.179875,
+      "active": [
+        {
+          "id": "db00684",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        },
+        {
+          "id": "db00685",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00686",
+          "hand": "R",
+          "finger": 2,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 4
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RRing",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 17
+        },
+        {
+          "a": "RThumb",
+          "b": "RIndex",
+          "kind": "neighbor",
+          "trianglePairs": 160
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 15
+        }
+      ],
+      "markerMaxErrorMm": 0.6827757124585289
+    },
+    {
+      "time": 152.711125,
+      "active": [
+        {
+          "id": "db00701",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00702",
+          "hand": "R",
+          "finger": 4,
+          "midi": 74
+        },
+        {
+          "id": "db00703",
+          "hand": "R",
+          "finger": 2,
+          "midi": 71
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RIndex",
+          "key": 70,
+          "active": true,
+          "vertices": 15,
+          "deepVertices": 9,
+          "maxDepthMm": 6.016616763715621
+        },
+        {
+          "patch": "RIndex",
+          "key": 71,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.380930479515375
+        },
+        {
+          "patch": "RRing",
+          "key": 75,
+          "active": true,
+          "vertices": 18,
+          "deepVertices": 13,
+          "maxDepthMm": 5.448030592550751
+        },
+        {
+          "patch": "RRing",
+          "key": 74,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 0,
+          "maxDepthMm": 2.197685361213786
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 14
+        }
+      ],
+      "markerMaxErrorMm": 0.2510993656314223
+    },
+    {
+      "time": 157.142903,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 55,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 4,
+          "maxDepthMm": 3.2923891693202867
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.25213647344148393
+    },
+    {
+      "time": 169.133,
+      "active": [
+        {
+          "id": "db00765",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00766",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        },
+        {
+          "id": "db00767",
+          "hand": "R",
+          "finger": 2,
+          "midi": 60
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": true,
+          "vertices": 17,
+          "deepVertices": 10,
+          "maxDepthMm": 6.248448645733956
+        },
+        {
+          "patch": "LIndex",
+          "key": 48,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.314809960174302
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RIndex",
+          "kind": "neighbor",
+          "trianglePairs": 12
+        }
+      ],
+      "markerMaxErrorMm": 0.2511056920554206
+    },
+    {
+      "time": 170.22675,
+      "active": [
+        {
+          "id": "db00768",
+          "hand": "L",
+          "finger": 2,
+          "midi": 50
+        },
+        {
+          "id": "db00769",
+          "hand": "R",
+          "finger": 2,
+          "midi": 65
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        }
+      ],
+      "markerMaxErrorMm": 3.832825663502617e-05
+    },
+    {
+      "time": 173.39461999999997,
+      "active": [
+        {
+          "id": "db00780",
+          "hand": "L",
+          "finger": 4,
+          "midi": 44
+        },
+        {
+          "id": "db00781",
+          "hand": "L",
+          "finger": 1,
+          "midi": 50
+        },
+        {
+          "id": "db00782",
+          "hand": "R",
+          "finger": 3,
+          "midi": 68
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 38
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.00014397121318881722
+    },
+    {
+      "time": 182.711125,
+      "active": [
+        {
+          "id": "db00823",
+          "hand": "L",
+          "finger": 5,
+          "midi": 43
+        },
+        {
+          "id": "db00824",
+          "hand": "R",
+          "finger": 2,
+          "midi": 71
+        },
+        {
+          "id": "db00825",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RIndex",
+          "key": 70,
+          "active": true,
+          "vertices": 9,
+          "deepVertices": 2,
+          "maxDepthMm": 3.6707245404503097
+        },
+        {
+          "patch": "RIndex",
+          "key": 71,
+          "active": true,
+          "vertices": 11,
+          "deepVertices": 0,
+          "maxDepthMm": 2.262429799950949
+        },
+        {
+          "patch": "RMiddle",
+          "key": 74,
+          "active": true,
+          "vertices": 2,
+          "deepVertices": 0,
+          "maxDepthMm": 1.422795781920616
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 14
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RMiddle",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 3
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 6
+        }
+      ],
+      "markerMaxErrorMm": 0.5778171623755993
+    },
+    {
+      "time": 185.6754175,
+      "active": [
+        {
+          "id": "db00842",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        },
+        {
+          "id": "db00843",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.25262049699938
+    },
+    {
+      "time": 193.22675,
+      "active": [
+        {
+          "id": "db00886",
+          "hand": "L",
+          "finger": 3,
+          "midi": 47
+        },
+        {
+          "id": "db00887",
+          "hand": "L",
+          "finger": 2,
+          "midi": 50
+        },
+        {
+          "id": "db00888",
+          "hand": "R",
+          "finger": 2,
+          "midi": 74
+        },
+        {
+          "id": "db00889",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RIndex",
+          "key": 73,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 5,
+          "maxDepthMm": 4.00992236247269
+        },
+        {
+          "patch": "RIndex",
+          "key": 75,
+          "active": true,
+          "vertices": 25,
+          "deepVertices": 10,
+          "maxDepthMm": 5.603685886975962
+        },
+        {
+          "patch": "RIndex",
+          "key": 74,
+          "active": true,
+          "vertices": 12,
+          "deepVertices": 0,
+          "maxDepthMm": 2.3146387562138493
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.2512190071909437
+    },
+    {
+      "time": 195.117375,
+      "active": [
+        {
+          "id": "db00897",
+          "hand": "L",
+          "finger": 5,
+          "midi": 45
+        },
+        {
+          "id": "db00898",
+          "hand": "R",
+          "finger": 1,
+          "midi": 69
+        },
+        {
+          "id": "db00899",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RThumb",
+          "key": 71,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 3,
+          "maxDepthMm": 4.373189007299216
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.37243976606954077
+    },
+    {
+      "time": 195.2075965,
+      "active": [
+        {
+          "id": "db00897",
+          "hand": "L",
+          "finger": 5,
+          "midi": 45
+        },
+        {
+          "id": "db00898",
+          "hand": "R",
+          "finger": 1,
+          "midi": 69
+        },
+        {
+          "id": "db00899",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "RThumb",
+          "key": 71,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 3,
+          "maxDepthMm": 4.373188990473342
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RPinky",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 5
+        }
+      ],
+      "markerMaxErrorMm": 0.3724401839365509
+    },
+    {
+      "time": 203.22675,
+      "active": [
+        {
+          "id": "db00943",
+          "hand": "L",
+          "finger": 4,
+          "midi": 43
+        },
+        {
+          "id": "db00944",
+          "hand": "L",
+          "finger": 1,
+          "midi": 48
+        },
+        {
+          "id": "db00945",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 47,
+          "active": true,
+          "vertices": 1,
+          "deepVertices": 1,
+          "maxDepthMm": 3.2844055388862037
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.49726207789002425
+    },
+    {
+      "time": 205.6752135,
+      "active": [
+        {
+          "id": "db00959",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00960",
+          "hand": "L",
+          "finger": 2,
+          "midi": 48
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LMiddle",
+          "key": 46,
+          "active": false,
+          "vertices": 9,
+          "deepVertices": 6,
+          "maxDepthMm": 5.365297957614312
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RRing",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 28
+        },
+        {
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 6
+        }
+      ],
+      "markerMaxErrorMm": 0.00015632012800187927
+    },
+    {
+      "time": 218.37262950000002,
+      "active": [
+        {
+          "id": "db01007",
+          "hand": "R",
+          "finger": 5,
+          "midi": 62
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0.5419804373902648
+    },
+    {
+      "time": 220.6984765,
+      "active": [
+        {
+          "id": "db01008",
+          "hand": "L",
+          "finger": 4,
+          "midi": 48
+        },
+        {
+          "id": "db01009",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db01010",
+          "hand": "R",
+          "finger": 2,
+          "midi": 55
+        },
+        {
+          "id": "db01011",
+          "hand": "R",
+          "finger": 5,
+          "midi": 60
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 8.55286177145092
+    },
+    {
+      "time": 220.881981,
+      "active": [
+        {
+          "id": "db01008",
+          "hand": "L",
+          "finger": 4,
+          "midi": 48
+        },
+        {
+          "id": "db01009",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db01010",
+          "hand": "R",
+          "finger": 2,
+          "midi": 55
+        },
+        {
+          "id": "db01011",
+          "hand": "R",
+          "finger": 5,
+          "midi": 60
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 24
+        },
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 16
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 8.552864390877764
+    },
+    {
+      "time": 227.101587,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 25
+        }
+      ],
+      "markerMaxErrorMm": 0
+    }
+  ],
+  "evidenceFormat": "Portable numerical report: raw vertex coordinates, triangle-index pairs, bone-weight dumps and workspace paths omitted; all failure cases, counts and thresholds retained.",
+  "assetProvenance": "Fictional CC0 avatar and procedural piano from this repository; not personal biometric data."
+}

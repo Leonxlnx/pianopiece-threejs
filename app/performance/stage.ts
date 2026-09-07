@@ -1,7 +1,9 @@
 import * as THREE from 'three';
 import { Reflector } from 'three/addons/objects/Reflector.js';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { v3, rand, mix, smooth } from './math';
+import { DUST_LOOK } from './render-settings';
 
 function surfaceMap(url:string,x:number,y:number,pending:Promise<void>[]){
  let texture:THREE.Texture;
@@ -17,6 +19,15 @@ function surfaceMap(url:string,x:number,y:number,pending:Promise<void>[]){
 }
 function block(parent:THREE.Object3D,name:string,size:number[],position:number[],mat:THREE.Material,r=.008){
  const mesh=new THREE.Mesh(new RoundedBoxGeometry(size[0],size[1],size[2],2,r),mat);
+ if(mat.name==='Honed limestone'){
+ const g=mesh.geometry,p=g.attributes.position,n=g.attributes.normal,uv=g.attributes.uv;
+ for(let i=0;i<p.count;i++){
+ const x=p.getX(i)+position[0],y=p.getY(i)+position[1],z=p.getZ(i)+position[2];
+ if(Math.abs(n.getX(i))>.5)uv.setXY(i,z,y);
+ else if(Math.abs(n.getY(i))>.5)uv.setXY(i,x,z);
+ else uv.setXY(i,x,y);
+ }
+ }
  mesh.name=name;mesh.position.set(position[0],position[1],position[2]);mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;
 }
 function instances(parent:THREE.Object3D,name:string,geometry:THREE.BufferGeometry,material:THREE.Material,poses:{p:number[],s?:number[],r?:number,q?:number[],c?:THREE.Color}[]){
@@ -31,8 +42,11 @@ export class Stage {
  const map=(url:string,x:number,y:number)=>surfaceMap(url,x,y,this.pendingTextures);
  this.group.name='Daybreak recital pavilion';scene.add(this.group);
  const walnut=map('/assets/materials/walnut.png',1,1),limestone=map('/assets/materials/limestone.png',1.5,1.5);
- const wood=new THREE.MeshPhysicalMaterial({name:'Satin walnut',color:0xb09b86,map:walnut,roughness:.46,metalness:0,clearcoat:.20,clearcoatRoughness:.39});
+ const wood=new THREE.MeshPhysicalMaterial({name:'Satin walnut',color:0xc2b39e,map:walnut,roughness:.50,metalness:0,clearcoat:.16,clearcoatRoughness:.43});
+ const wallGrain=map('/assets/materials/walnut.png',4,.8);
+ const wallWood=new THREE.MeshPhysicalMaterial({name:'Quarter-sawn wall joinery',color:0xd0c1ad,map:wallGrain,roughness:.58,clearcoat:.10});
  const stone=new THREE.MeshStandardMaterial({name:'Honed limestone',color:0xb7b6af,map:limestone,roughness:.81});
+ const stoneJoint=new THREE.MeshStandardMaterial({name:'Recessed limestone joints',color:0x85867e,roughness:.96});
  const dark=new THREE.MeshStandardMaterial({name:'Shadow joints',color:0x242529,roughness:.87});
  const bronze=new THREE.MeshStandardMaterial({name:'Brushed bronze frames',color:0x4d4539,metalness:.80,roughness:.35});
  const plaster=new THREE.MeshStandardMaterial({name:'Acoustic plaster',color:0xc8c5bb,roughness:.92});
@@ -41,14 +55,24 @@ export class Stage {
 
  // Grounded room geometry and a continuous walking surface: no floating stage.
  block(this.group,'Floor structure',[15.5,.24,13.5],[0,-.142,-1.2],dark,.008);
- const boards:{p:number[],c:THREE.Color}[]=[];
- for(let row=0;row<50;row++)for(let col=0;col<8;col++){
- const z=-7.55+row*.27,x=-7.6+col*1.9+(row%2)*.95;
- if(x>7.1)continue;
- const c=new THREE.Color().setRGB(.79+rand(row*39+col)*.15,.77+rand(row*39+col)*.13,.72+rand(row*39+col)*.12);
- boards.push({p:[x+.948,-.014,z+.134],c});
+ // Clip staggered boards at BOTH walls. The former odd courses left half a
+ // metre of bare foundation beside one wall and protruded through the other.
+ for(let variant=0;variant<4;variant++){
+ const boards:{p:number[],s:number[],c:THREE.Color}[]=[];
+ for(let row=0;row<48;row++)for(let col=-1;col<9;col++){
+ if(((row*7+col+12)%4)!==variant)continue;
+ const z=-7.0+row*.26,start=-7.23+col*1.85+(row%3)*.617;
+ const left=Math.max(-7.23,start),right=Math.min(7.23,start+1.85);
+ if(right-left<.003)continue;
+ const tone=.88+rand(row*39+col+330)*.10;
+ boards.push({p:[(left+right)/2,-.014,z+.129],s:[right-left-.0016,1,1],c:new THREE.Color(tone,tone*.98,tone*.94)});
  }
- instances(this.group,'Individual walnut floorboards',new RoundedBoxGeometry(1.893,.030,.265,1,.002),wood,boards);
+ const grain=map('/assets/materials/walnut.png',.28,1.6);grain.offset.set(variant*.219,variant*.137);
+ const finish=new THREE.MeshPhysicalMaterial({name:'Oiled walnut floor '+variant,color:0xcbbb9f,map:grain,roughness:.54,clearcoat:.12,clearcoatRoughness:.48});
+ const plank=new RoundedBoxGeometry(1,.030,.2584,1,.0008),uv=plank.attributes.uv;
+ for(let i=0;i<uv.count;i++){const u=uv.getX(i);uv.setXY(i,uv.getY(i),1-u);}
+ instances(this.group,'Fitted walnut floorboards '+variant,plank,finish,boards);
+ }
  // The broad reflection stays very weak: varnished wood is not a polished mirror.
  this.reflector=new Reflector(new THREE.PlaneGeometry(5.4,5.4),{textureWidth:mobile?512:1024,textureHeight:mobile?512:1024,color:0x1d1711,clipBias:.006,multisample:0});
  this.reflector.name='Subtle floor sheen';this.reflector.rotation.x=-Math.PI/2;this.reflector.position.set(0,.001,-.55);
@@ -64,6 +88,7 @@ export class Stage {
  for(let i=0;i<7;i++){
  const x=-7.2+i*2.4;
  block(this.group,'Window pier '+i,[.31,4.3,.70],[x,2.2,-7.02],stone,.018);
+ for(let course=1;course<6;course++)block(this.group,'Pier stone bed joint',[.275,.0025,.003],[x,.05+course*.71,-6.668],stoneJoint,.0003);
  if(i<6){
  const center=x+1.2;
  block(this.group,'Window sill '+i,[2.12,.055,.82],[center,.335,-7.02],stone,.01);
@@ -75,16 +100,28 @@ export class Stage {
  }
  // Side walls stay outside the intimate camera orbit and ground the room.
  for(const side of [-1,1]){
- block(this.group,'Limestone side return',[.45,4.75,11.8],[side*7.47,2.23,-1.02],stone,.016);
- block(this.group,'Low walnut acoustic lining',[.048,1.10,10.6],[side*7.225,.65,-1.35],wood,.006);
- block(this.group,'Bronze baseboard',[.035,.055,11.8],[side*7.22,.063,-1.02],bronze,.003);
- block(this.group,'Upper wall reveal',[.12,.08,11.8],[side*7.20,4.18,-1.02],dark,.002);
- block(this.group,'Concealed wall light',[.014,.018,11.65],[side*7.13,4.17,-1.02],glow,.001);
+ // Overlap the entrance wall at z=5.305; the former 4.88 m end left an
+ // open corner that appeared as a bright vertical slit in portrait shots.
+ block(this.group,'Limestone side return',[.45,4.75,12.4],[side*7.47,2.23,-.72],stone,.016);
+ block(this.group,'Low walnut acoustic lining',[.048,1.10,10.6],[side*7.225,.65,-1.35],wallWood,.006);
+ // Narrow board and masonry joints establish construction scale. The wall
+ // behind them stays continuous, including the previously repaired corners.
+ for(let panel=1;panel<14;panel++)block(this.group,'Walnut lining panel joint',[.004,1.084,.0032],[side*7.198,.65,-6.65+panel*(10.6/14)],dark,.0003);
+ for(let course=0;course<5;course++)block(this.group,'Side wall stone bed joint',[.004,.0025,12.32],[side*7.243,1.25+course*.71,-.72],stoneJoint,.0003);
+ for(let course=0;course<4;course++)for(let joint=0;joint<8;joint++){
+ const z=-6.85+joint*1.55+(course%2)*.775;
+ if(z>5.4)continue;
+ block(this.group,'Side wall stone head joint',[.004,.707,.0025],[side*7.243,1.605+course*.71,z],stoneJoint,.0003);
+ }
+ block(this.group,'Bronze baseboard',[.035,.055,12.4],[side*7.22,.063,-.72],bronze,.003);
+ block(this.group,'Upper wall reveal',[.12,.08,12.4],[side*7.20,4.18,-.72],dark,.002);
+ block(this.group,'Concealed wall light',[.014,.018,12.25],[side*7.13,4.17,-.72],glow,.001);
  }
  // The camera-facing end of the pavilion is an actual enclosed entrance,
  // so portrait views look into architecture rather than an unbounded sky.
  for(const side of [-1,1]){
  block(this.group,'Entrance wall',[6.06,4.72,.35],[side*4.54,2.24,5.48],stone,.014);
+ for(const y of [2.52,3.23,3.94])block(this.group,'Entrance wall stone bed joint',[6.02,.0025,.004],[side*4.54,y,5.303],stoneJoint,.0003);
  block(this.group,'Entrance acoustic panel',[4.80,2.18,.045],[side*4.43,1.38,5.283],wood,.006);
  block(this.group,'Entrance panel lower reveal',[4.80,.020,.025],[side*4.43,.281,5.25],bronze,.002);
  }
@@ -92,10 +129,46 @@ export class Stage {
  const doorMap=map('/assets/materials/walnut.png',.65,1.65),doorWood=new THREE.MeshStandardMaterial({name:'Walnut entrance joinery',color:0x92806b,map:doorMap,roughness:.54});
  for(const side of [-1,1]){
  block(this.group,'Solid entrance door',[1.42,2.60,.065],[side*.728,1.337,5.43],doorWood,.004);
+ block(this.group,'Entrance door frame jamb',[.085,2.68,.10],[side*1.468,1.337,5.44],doorWood,.004);
  block(this.group,'Entrance door stile',[.026,2.61,.09],[side*1.464,1.337,5.38],bronze,.002);
  block(this.group,'Bronze door pull',[.013,.35,.045],[side*.122,1.18,5.361],bronze,.004);
  }
+ // Real jamb/header rebates and a meeting strip close the clearances around
+ // the leaves. Those clearances previously exposed the exterior sky.
+ block(this.group,'Entrance door frame header',[3.02,.13,.10],[0,2.69,5.44],doorWood,.004);
+ block(this.group,'Entrance door meeting rebate',[.040,2.61,.022],[0,1.337,5.465],dark,.002);
  block(this.group,'Entrance threshold',[2.95,.026,.30],[0,.004,5.36],stone,.004);
+ // A recital room has acoustic treatment and places to sit. These pieces
+ // remain beyond the performance camera orbit and leave the piano uncluttered.
+ const linen=new THREE.MeshStandardMaterial({name:'Warm woven acoustic linen',color:0xbab3a4,roughness:.96});
+ const wool=new THREE.MeshStandardMaterial({name:'Olive wool upholstery',color:0x596454,roughness:.94});
+ const ceramic=new THREE.MeshPhysicalMaterial({name:'Matte chalk ceramic',color:0xd9d3c6,roughness:.71,clearcoat:.05});
+ for(const side of [-1,1])for(let panel=0;panel<6;panel++){
+ const z=-5.65+panel*1.54;
+ block(this.group,'Acoustic panel shadow gap',[.055,2.17,1.27],[side*7.188,2.63,z],dark,.007);
+ block(this.group,'Linen acoustic wall panel',[.059,2.11,1.21],[side*7.149,2.63,z],linen,.010);
+ for(const dz of [-.63,.63])block(this.group,'Panel walnut stile',[.071,2.19,.025],[side*7.106,2.63,z+dz],wallWood,.003);
+ }
+ for(const z of [-3.8,.3]){
+ const seat=new THREE.Group();seat.name='Window-side lounge seat';seat.position.set(5.72,0,z);seat.rotation.y=Math.PI/2;this.group.add(seat);
+ block(seat,'Chair upholstered seat',[.76,.14,.70],[0,.48,0],wool,.065);
+ const back=block(seat,'Chair upholstered back',[.76,.70,.13],[0,.82,.30],wool,.055);back.rotation.x=-.10;
+ for(const x of [-.38,.38]){
+ block(seat,'Chair walnut arm',[.055,.055,.77],[x,.70,.0],wood,.022);
+ for(const zz of [-.27,.29])block(seat,'Chair solid leg',[.043,.68,.043],[x,.34,zz],wood,.007);
+ }
+ }
+ // A low side table with a turned stoneware vessel gives the architecture
+ // a readable human scale without an ornamental object on every surface.
+ block(this.group,'Side table top',[.80,.055,.80],[5.64,.47,-1.76],stone,.020);
+ for(const x of [5.33,5.95])for(const z of [-2.07,-1.45])block(this.group,'Side table bronze leg',[.022,.44,.022],[x,.22,z],bronze,.003);
+ const profile=[[0,0],[.092,0],[.117,.045],[.122,.17],[.081,.265],[.054,.29],[.054,.315],[.044,.318],[.043,.294]].map(([x,y])=>new THREE.Vector2(x,y));
+ const vase=new THREE.Mesh(new THREE.LatheGeometry(profile,40),ceramic);vase.name='Hand-thrown stoneware';vase.position.set(5.62,.50,-1.73);vase.castShadow=true;vase.receiveShadow=true;this.group.add(vase);
+ const lamp=new THREE.Group();lamp.name='Reading light';lamp.position.set(6.12,0,-4.57);this.group.add(lamp);
+ block(lamp,'Lamp base',[.29,.025,.29],[0,.028,0],bronze,.04);
+ block(lamp,'Lamp stem',[.016,1.62,.016],[0,.84,0],bronze,.006);
+ const shade=new THREE.Mesh(new THREE.CylinderGeometry(.16,.235,.30,40,1,true),linen);shade.name='Linen lamp shade';shade.material=linen.clone();shade.material.side=THREE.DoubleSide;shade.position.y=1.56;shade.castShadow=true;lamp.add(shade);
+ const lampInner=new THREE.Mesh(new THREE.CircleGeometry(.205,40),glow);lampInner.rotation.x=Math.PI/2;lampInner.position.y=1.42;lamp.add(lampInner);
  block(this.group,'Ceiling slab',[15.45,.25,13.35],[0,4.98,-1.17],plaster,.02);
  const slats:{p:number[]}[]=[];
  for(let i=0;i<42;i++)slats.push({p:[-7.21+i*.351,4.69,-1.17]});
@@ -163,7 +236,7 @@ export class Stage {
  for(let twig=0;twig<3;twig++){
  const end2=end.clone().add(v3((rand(i*137+n*5+twig)-.5)*1.15,.08+rand(n*8+twig)*.53,(rand(i*97+n*7+twig)-.5)*1.15));
  branch(end.clone().lerp(elbow,.18),end2,.0055);
- leafCloud(end2,i*9001+n*311+twig*71,mobile?20:42,.50,.56,1,.88+rand(i+71)*.25);
+ leafCloud(end2,i*9001+n*311+twig*71,mobile?32:72,.50,.56,1,.88+rand(i+71)*.25);
  }
  }
  }
@@ -175,6 +248,18 @@ export class Stage {
  const a=stem*2.399+rand(i+58),r=.18+rand(i*51+stem)*.40,end=base.clone().add(v3(Math.cos(a)*r,h*(.60+rand(i*29+stem)*.40),Math.sin(a)*r));
  branch(base,end,.0048);
  leafCloud(end,i*5003+stem*631+73001,mobile?30:48,.34,.38,.80,.91+rand(i+441)*.12);
+ }
+ }
+ // Overlapping leaf clouds give low planting a ragged silhouette, while
+ // retaining real gaps and the same individual-leaf material as the grove.
+ for(let drift=0;drift<18;drift++){
+ const x=-20+drift*2.35+(rand(drift+91001)-.5)*2.1,z=-15.2-rand(drift+91002)*12.4;
+ const height=.42+rand(drift+91003)*.60,width=.75+rand(drift+91004)*.78;
+ for(let lobe=0;lobe<3;lobe++){
+ const xx=x+(lobe-1)*width*.58,zz=z+(rand(drift*9+lobe+91005)-.5)*.65;
+ const base=v3(xx,gardenHeight(xx,zz)-.02,zz),center=base.clone().add(v3(0,height*.65,0));
+ branch(base,center,.008);
+ leafCloud(center,drift*701+lobe*97+95001,mobile?180:480,width*.65,height*1.25,.9,.84+rand(drift+91006)*.15);
  }
  }
  const bark=new THREE.MeshStandardMaterial({name:'Garden bark',color:0x7a7260,roughness:1});
@@ -208,21 +293,49 @@ export class Stage {
 #include <colorspace_fragment>
 }`});
  this.group.add(new THREE.Mesh(new THREE.SphereGeometry(90,32,20),this.sky));
- scene.add(new THREE.HemisphereLight(0xc2d5e2,0x5f4934,.56));
- const key=new THREE.SpotLight(0xffead4,112,25,.75,.86,2);key.position.set(-3.4,4.25,-2.2);key.target.position.set(0,.92,.42);key.castShadow=true;key.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);key.shadow.bias=-.00018;key.shadow.normalBias=.004;key.shadow.radius=4;scene.add(key,key.target);this.lights.push(key);
- const fill=new THREE.SpotLight(0xc6dcf1,62,24,.85,.95,2);fill.position.set(4.3,3.5,1.3);fill.target.position.set(0,.85,.2);scene.add(fill,fill.target);this.lights.push(fill);
- const sun=new THREE.SpotLight(0xffdbad,330,40,.64,.73,2);sun.position.set(-5.5,4.8,-12);sun.target.position.set(0,.5,.4);sun.castShadow=true;sun.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);sun.shadow.bias=-.0002;sun.shadow.normalBias=.006;sun.shadow.radius=3;scene.add(sun,sun.target);this.lights.push(sun);
+ scene.add(new THREE.HemisphereLight(0xd7e0e7,0x79634d,.95));
+ const key=new THREE.SpotLight(0xffead4,94,25,.75,.86,2);key.position.set(-3.4,4.25,-2.2);key.target.position.set(0,.92,.42);key.castShadow=true;key.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);key.shadow.bias=-.00018;key.shadow.normalBias=.004;key.shadow.radius=4;scene.add(key,key.target);this.lights.push(key);
+ const fill=new THREE.SpotLight(0xc6dcf1,92,24,.85,.95,2);fill.position.set(4.3,3.5,1.3);fill.target.position.set(0,.85,.2);scene.add(fill,fill.target);this.lights.push(fill);
+ const sun=new THREE.SpotLight(0xffdbad,265,40,.64,.73,2);sun.position.set(-5.5,4.8,-12);sun.target.position.set(0,.5,.4);sun.castShadow=true;sun.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);sun.shadow.bias=-.0002;sun.shadow.normalBias=.006;sun.shadow.radius=3;scene.add(sun,sun.target);this.lights.push(sun);
  this.accent=new THREE.PointLight(0xffe1bd,.20,4,2);this.accent.position.set(0,1.6,1.7);scene.add(this.accent);
  const count=mobile?90:190,positions=new Float32Array(count*3),seeds=new Float32Array(count),sizes=new Float32Array(count);
  for(let i=0;i<count;i++){positions.set([(rand(i+4)-.5)*9,.2+rand(i+21)*4,(rand(i+66)-.5)*8-1],i*3);seeds[i]=rand(i+55)*6.28;sizes[i]=.8+rand(i+43)*1.3;}
  const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));geometry.setAttribute('aSize',new THREE.BufferAttribute(sizes,1));geometry.setAttribute('aSeed',new THREE.BufferAttribute(seeds,1));
- const material=new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{uTime:{value:0},uLift:{value:0},uPixel:{value:typeof window!=='undefined'?Math.min(window.devicePixelRatio,1.7):1}},vertexShader:`attribute float aSize;attribute float aSeed;uniform float uTime;uniform float uPixel;varying float alpha;void main(){vec3 p=position;p.x+=sin(uTime*.07+aSeed)*.11;p.y+=sin(uTime*.06+aSeed*2.)*.09;vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=clamp(aSize*uPixel*8./(-mv.z),.6,2.2);alpha=.10+.12*pow(sin(aSeed+uTime*.11),2.);}`,fragmentShader:`varying float alpha;uniform float uLift;void main(){float a=smoothstep(.5,.07,length(gl_PointCoord-.5))*alpha;gl_FragColor=vec4(vec3(.93,.86,.70),a);}`});
+ const material=new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{uTime:{value:0},uPixel:{value:1},uDrift:{value:new THREE.Vector4(...DUST_LOOK.drift)},uSize:{value:new THREE.Vector3(...DUST_LOOK.size)},uAlpha:{value:new THREE.Vector3(...DUST_LOOK.alpha)},uColor:{value:new THREE.Vector3(...DUST_LOOK.color)},uEdge:{value:DUST_LOOK.edge}},vertexShader:`attribute float aSize;attribute float aSeed;uniform float uTime;uniform float uPixel;uniform vec4 uDrift;uniform vec3 uSize;uniform vec3 uAlpha;varying float alpha;void main(){vec3 p=position;p.x+=sin(uTime*uDrift.x+aSeed)*uDrift.y;p.y+=sin(uTime*uDrift.z+aSeed*2.)*uDrift.w;vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=uPixel*clamp(aSize*uSize.x/(-mv.z),uSize.y,uSize.z);float pulse=sin(aSeed+uTime*uAlpha.x);alpha=uAlpha.y+uAlpha.z*pulse*pulse;}`,fragmentShader:`varying float alpha;uniform vec3 uColor;uniform float uEdge;void main(){float a=(1.-smoothstep(uEdge,.5,length(gl_PointCoord-.5)))*alpha;gl_FragColor=vec4(uColor,a);}`});
  this.dust=new THREE.Points(geometry,material);this.group.add(this.dust);
+ this.batchArchitecture();
+ }
+ batchArchitecture(){
+ // Static opaque joinery shares a draw call per material. Keep instancing,
+ // glazing, light sources, the sky and the live reflector independent.
+ this.group.updateMatrixWorld(true);
+ const groups=new Map<string,THREE.Mesh[]>();
+ this.group.traverse(o=>{
+ const m=o as THREE.Mesh;if(!m.isMesh||(m as THREE.InstancedMesh).isInstancedMesh||Array.isArray(m.material))return;
+ const mat=m.material;if(mat.transparent||(mat as THREE.ShaderMaterial).isShaderMaterial)return;
+ const architecture=/wall|side return|pier|lintel|door|ceiling|beam|lining|panel|reveal/i.test(m.name);
+ m.userData.architecture=architecture;
+ const key=[mat.uuid,m.castShadow,m.receiveShadow,m.renderOrder,m.layers.mask,architecture].join('/');
+ const list=groups.get(key)??[];list.push(m);groups.set(key,list);
+ });
+ const removed=new Set<THREE.BufferGeometry>();
+ for(const meshes of groups.values()){
+ if(meshes.length<2)continue;
+ const geometries=meshes.map(m=>{const g=m.geometry.clone();g.applyMatrix4(m.matrixWorld);g.clearGroups();if(!g.index)return g;const flat=g.toNonIndexed();g.dispose();return flat;});
+ const merged=mergeGeometries(geometries,false);geometries.forEach(g=>g.dispose());if(!merged)continue;
+ const first=meshes[0],batch=new THREE.Mesh(merged,first.material);batch.name='Pavilion · '+(first.material as THREE.Material).name;
+ batch.castShadow=first.castShadow;batch.receiveShadow=first.receiveShadow;batch.renderOrder=first.renderOrder;batch.layers.mask=first.layers.mask;
+ batch.userData.architecture=first.userData.architecture;let vertexStart=0;
+ batch.userData.sourceParts=meshes.map(m=>{const vertexCount=m.geometry.index?.count??m.geometry.attributes.position.count;const part={name:m.name,vertexStart,vertexCount};vertexStart+=vertexCount;return part;});
+ for(const m of meshes){m.removeFromParent();removed.add(m.geometry);}this.group.add(batch);
+ }
+ this.group.traverse(o=>{const m=o as THREE.Mesh;if(m.geometry)removed.delete(m.geometry);});
+ removed.forEach(g=>g.dispose());
  }
  update(time:number,energy:number,pulse:number){
  const lift=smooth((energy-.2)/.72);this.sky.uniforms.uLift.value=lift;this.sky.uniforms.uTime.value=time;
- const m=this.dust.material as THREE.ShaderMaterial;m.uniforms.uTime.value=time;m.uniforms.uLift.value=lift;
- this.lights[0].intensity=mix(108,121,lift);this.lights[2].intensity=mix(300,400,lift);this.accent.intensity=.16+pulse*.07;
+ const m=this.dust.material as THREE.ShaderMaterial;m.uniforms.uTime.value=time;
+ this.lights[0].intensity=mix(88,100,lift);this.lights[2].intensity=mix(240,320,lift);this.accent.intensity=.16+pulse*.07;
  }
  whenReady(){return Promise.all(this.pendingTextures);}
  dispose(){this.reflector.dispose();}

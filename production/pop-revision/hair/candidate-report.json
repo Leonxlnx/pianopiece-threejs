@@ -1,0 +1,76 @@
+{
+  "sourceHashes": {
+    "math": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "piano": "64c0d1a2512161957d4f066fa8b214f5fbf8410626a0484a6c598eddf10cc7cb",
+    "wrist-motion": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "pianist": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+    "ponytail-motion": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "hair-motion-data": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d"
+  },
+  "glbSha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "scoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "trajectoryRate": 120,
+  "tableRate": 30,
+  "duration": 227.101587,
+  "tableBytes": 127196,
+  "maxJointDegrees": [
+    0.9858797640290482,
+    0.6755605420828926,
+    0.6772490699206036,
+    0.40767354926282373
+  ],
+  "strongest": 188.46666666666667,
+  "pairs": [
+    {
+      "index": 0,
+      "time": 188.46666666666667,
+      "anglesDegrees": [
+        0.7362507667431079,
+        -0.5700930061551691,
+        0.41596735926497774,
+        -0.3305966477904851
+      ],
+      "maxDisplacementMM": 5.4754018435737395,
+      "rmsDisplacementMM": 1.6686809856246763,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    },
+    {
+      "index": 1,
+      "time": 186,
+      "anglesDegrees": [
+        0.06187944187412891,
+        -0.5099324376664327,
+        -0.14896902673401408,
+        -0.3271589010197001
+      ],
+      "maxDisplacementMM": 3.1121939079254815,
+      "rmsDisplacementMM": 0.9379683507819242,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    },
+    {
+      "index": 2,
+      "time": 84.3,
+      "anglesDegrees": [
+        -0.7946924618464518,
+        0.10370536091867902,
+        -0.4050811611574921,
+        -0.07333859777674538
+      ],
+      "maxDisplacementMM": 4.5334547183327185,
+      "rmsDisplacementMM": 1.3954215337969826,
+      "pinnedVertices": 2326,
+      "pinnedMaxMM": 0,
+      "rootMatrixUnchanged": true,
+      "rootQuaternionUnchanged": true,
+      "nonHairChanged": []
+    }
+  ]
+}

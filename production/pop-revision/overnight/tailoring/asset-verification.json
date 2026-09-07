@@ -1,0 +1,49 @@
+{
+  "inputSHA256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "candidateSHA256": "3b10d4739ab5d403397991d795146054f18939d10de4dddd858bc6c42e6b8f25",
+  "protectedPrimitivesExact": 9,
+  "bodyAndRigExact": true,
+  "trousersExact": true,
+  "embeddedImagesExact": true,
+  "garment": [
+    {
+      "primitive": 0,
+      "vertices": 6004,
+      "triangles": 10912,
+      "minDoubleAreaM2": 4.533606443146709e-06
+    },
+    {
+      "primitive": 1,
+      "vertices": 3994,
+      "triangles": 7344,
+      "minDoubleAreaM2": 3.0592771054216428e-06
+    },
+    {
+      "primitive": 2,
+      "vertices": 1104,
+      "triangles": 1482,
+      "minDoubleAreaM2": 2.495854914741358e-06
+    },
+    {
+      "primitive": 3,
+      "vertices": 3084,
+      "triangles": 2206,
+      "minDoubleAreaM2": 3.0368177306172583e-08
+    },
+    {
+      "primitive": 4,
+      "vertices": 504,
+      "triangles": 720,
+      "minDoubleAreaM2": 6.427372341022419e-07
+    },
+    {
+      "primitive": 5,
+      "vertices": 2436,
+      "triangles": 1218,
+      "minDoubleAreaM2": 3.1151245138971717e-07
+    }
+  ],
+  "panelMaxMoveMm": 3.8172428607940674,
+  "panelWeightsAndUVExact": true,
+  "unchangedNegativeControlRejected": true
+}

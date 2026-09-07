@@ -1,0 +1,359 @@
+{
+  "status": "COMPLETE_SOURCE_BOUND_WHOLE_SONG_60_HZ_PAIR_COMPARISON",
+  "baselineGitCommit": "b8c30b0e21d56606e6b158b8079d86c316c0d18f",
+  "baselineMatchesTrackedCommitExactly": true,
+  "inputReports": {
+    "current": {
+      "file": "current-pairs60.json",
+      "sha256": "5928d5df90527d87095e18028cb4b48b94d3651b61fe64d717f4c4f5ac750e1d",
+      "inputs": {
+        "rig": {
+          "file": "pianist.mjs",
+          "sha256": "43c5989539f1bc4029d50b6223709c10618ff6df96b5a5abf219594ff137c2cf"
+        },
+        "piano": {
+          "file": "piano.mjs",
+          "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+        },
+        "score": {
+          "file": "score.json",
+          "sha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a"
+        },
+        "model": {
+          "file": "pianist.glb",
+          "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+        }
+      },
+      "rigTsSha256": "577fb14cd0e20dec5d0563b4dbc2e205cc1b0ef2d900b7ff379da97093797512"
+    },
+    "v6": {
+      "file": "v6-pairs60.json",
+      "sha256": "8c721eb76a8846c524ebfc0160741801f2eb47f9501d5cb5f243984bab271265",
+      "inputs": {
+        "rig": {
+          "file": "pianist.mjs",
+          "sha256": "ee81045d8e8d0d42b343549546023af96b2c3b30900cfeac42644267fb4635df"
+        },
+        "piano": {
+          "file": "piano.mjs",
+          "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+        },
+        "score": {
+          "file": "score.json",
+          "sha256": "b0474db884b74a74858ef0f9347ce0b8188e086fbd81eacd33ff02e79dd1ef40"
+        },
+        "model": {
+          "file": "pianist.glb",
+          "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+        }
+      },
+      "rigTsSha256": "26db9864514b523f825b6afcc6232eb5a2429ee6889bbf6ebf6662853f8eb500"
+    }
+  },
+  "coverage": {
+    "samplesPerSource": 13628,
+    "frameRate": 60,
+    "exactPilotScalarMatchesPerSource": 240,
+    "sourceAndDependencyHashesStable": true
+  },
+  "current": {
+    "expectedFrames": 13628,
+    "observedFrames": 13628,
+    "scoreDuration": 227.101587,
+    "coveredThroughSeconds": 227.101587,
+    "frameRate": 60,
+    "nonfinite": 0,
+    "hitFrames": 1516,
+    "pairRows": 1731,
+    "trianglePairTotal": 41442,
+    "heldInvolvedFrames": 60,
+    "heldInvolvedRows": 60,
+    "maxMarkerErrorMm": 0.87381527376263,
+    "pilotMatches": 240,
+    "byKind": {
+      "neighbor": {
+        "frames": 1516,
+        "pairRows": 1719,
+        "trianglePairs": 41163,
+        "heldInvolvedFrames": 60,
+        "heldInvolvedRows": 60
+      },
+      "own-palm": {
+        "frames": 12,
+        "pairRows": 12,
+        "trianglePairs": 279,
+        "heldInvolvedFrames": 0,
+        "heldInvolvedRows": 0
+      },
+      "opposing": {
+        "frames": 0,
+        "pairRows": 0,
+        "trianglePairs": 0,
+        "heldInvolvedFrames": 0,
+        "heldInvolvedRows": 0
+      }
+    },
+    "timing": {
+      "elapsedSeconds": 458.016584128,
+      "prepareSeconds": 108.72123346799908,
+      "pairSeconds": 347.46572902799824
+    }
+  },
+  "v6": {
+    "expectedFrames": 13628,
+    "observedFrames": 13628,
+    "scoreDuration": 227.101587,
+    "coveredThroughSeconds": 227.101587,
+    "frameRate": 60,
+    "nonfinite": 0,
+    "hitFrames": 1434,
+    "pairRows": 1569,
+    "trianglePairTotal": 94731,
+    "heldInvolvedFrames": 42,
+    "heldInvolvedRows": 42,
+    "maxMarkerErrorMm": 0.87381527376263,
+    "pilotMatches": 240,
+    "byKind": {
+      "neighbor": {
+        "frames": 1434,
+        "pairRows": 1557,
+        "trianglePairs": 94434,
+        "heldInvolvedFrames": 42,
+        "heldInvolvedRows": 42
+      },
+      "own-palm": {
+        "frames": 12,
+        "pairRows": 12,
+        "trianglePairs": 297,
+        "heldInvolvedFrames": 0,
+        "heldInvolvedRows": 0
+      },
+      "opposing": {
+        "frames": 0,
+        "pairRows": 0,
+        "trianglePairs": 0,
+        "heldInvolvedFrames": 0,
+        "heldInvolvedRows": 0
+      }
+    },
+    "timing": {
+      "elapsedSeconds": 449.681528965,
+      "prepareSeconds": 107.41307057799932,
+      "pairSeconds": 340.2179603529991
+    }
+  },
+  "changes": {
+    "introduced": {
+      "rows": 737,
+      "frames": 705,
+      "trianglePairDelta": 41380,
+      "beforeTrianglePairs": 0,
+      "afterTrianglePairs": 41380,
+      "heldInvolvedRows": 0,
+      "heldInvolvedFrames": 0
+    },
+    "resolved": {
+      "rows": 899,
+      "frames": 840,
+      "trianglePairDelta": -17797,
+      "beforeTrianglePairs": 17797,
+      "afterTrianglePairs": 0,
+      "heldInvolvedRows": 18,
+      "heldInvolvedFrames": 18
+    },
+    "increased-count": {
+      "rows": 647,
+      "frames": 614,
+      "trianglePairDelta": 32273,
+      "beforeTrianglePairs": 15999,
+      "afterTrianglePairs": 48272,
+      "heldInvolvedRows": 0,
+      "heldInvolvedFrames": 0
+    },
+    "decreased-count": {
+      "rows": 150,
+      "frames": 150,
+      "trianglePairDelta": -2567,
+      "beforeTrianglePairs": 7376,
+      "afterTrianglePairs": 4809,
+      "heldInvolvedRows": 42,
+      "heldInvolvedFrames": 42
+    },
+    "equal-count": {
+      "rows": 35,
+      "frames": 35,
+      "trianglePairDelta": 0,
+      "beforeTrianglePairs": 270,
+      "afterTrianglePairs": 270,
+      "heldInvolvedRows": 0,
+      "heldInvolvedFrames": 0
+    }
+  },
+  "changesByKind": {
+    "neighbor": {
+      "introduced": {
+        "rows": 737,
+        "frames": 705,
+        "trianglePairDelta": 41380,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 41380,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "resolved": {
+        "rows": 899,
+        "frames": 840,
+        "trianglePairDelta": -17797,
+        "beforeTrianglePairs": 17797,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 18,
+        "heldInvolvedFrames": 18
+      },
+      "increased-count": {
+        "rows": 641,
+        "frames": 614,
+        "trianglePairDelta": 32255,
+        "beforeTrianglePairs": 15800,
+        "afterTrianglePairs": 48055,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "decreased-count": {
+        "rows": 150,
+        "frames": 150,
+        "trianglePairDelta": -2567,
+        "beforeTrianglePairs": 7376,
+        "afterTrianglePairs": 4809,
+        "heldInvolvedRows": 42,
+        "heldInvolvedFrames": 42
+      },
+      "equal-count": {
+        "rows": 29,
+        "frames": 29,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 190,
+        "afterTrianglePairs": 190,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      }
+    },
+    "own-palm": {
+      "introduced": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "resolved": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "increased-count": {
+        "rows": 6,
+        "frames": 6,
+        "trianglePairDelta": 18,
+        "beforeTrianglePairs": 199,
+        "afterTrianglePairs": 217,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "decreased-count": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "equal-count": {
+        "rows": 6,
+        "frames": 6,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 80,
+        "afterTrianglePairs": 80,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      }
+    },
+    "opposing": {
+      "introduced": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "resolved": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "increased-count": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "decreased-count": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      },
+      "equal-count": {
+        "rows": 0,
+        "frames": 0,
+        "trianglePairDelta": 0,
+        "beforeTrianglePairs": 0,
+        "afterTrianglePairs": 0,
+        "heldInvolvedRows": 0,
+        "heldInvolvedFrames": 0
+      }
+    }
+  },
+  "changedObservedIntervals": 1352,
+  "sourceAwareEventContexts": 1293,
+  "sourceNoteEventIndexes": 1673,
+  "limits": [
+    "All original strict >65% ownership and two-sided noncoplanar edge/triangle rules retained. No pair tolerance or gate is changed.",
+    "Triangle-pair counts measure incidence, not penetration depth, area, volume, or visual severity. Equal-count rows may still have different geometry.",
+    "All 13,628 frame rows per source, including zero-hit frames, are retained. Delta index contains every observed union frame/patch-pair row, including equal counts.",
+    "State labels follow each actual source: current short gaps use a continuous complete-pose arch; V6 nonthumb departure/arrival durations are independent and may have per-note overrides. Held/support context and previous/next notes remain explicit.",
+    "60 Hz finite sampling can miss shorter contacts. Mixed-web, coplanar/edge-only and fully enclosed pair surfaces remain outside this incumbent screen. Key/pad/shape/garment/motion/visual gates are separate."
+  ],
+  "scoreEquality": {
+    "scoreStructureEqualAfterRemovingOnlyPoseTravelControls": true,
+    "excludedNoteFields": [
+      "approachPose",
+      "approachTravel",
+      "releasePose",
+      "releaseTravel"
+    ],
+    "notes": 1011,
+    "duration": 227.101587,
+    "normalizedScoreSha256": "02a5d3b17d9ae11e71a17267ef3a8dd138aaad8e778001e25c4435790c3ebf2a",
+    "currentRawScoreSha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a",
+    "v6RawScoreSha256": "b0474db884b74a74858ef0f9347ce0b8188e086fbd81eacd33ff02e79dd1ef40"
+  }
+}

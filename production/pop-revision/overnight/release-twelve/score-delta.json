@@ -1,0 +1,758 @@
+[
+  {
+    "id": "db00083",
+    "expected": {
+      "time": 23.133,
+      "duration": 0.3625,
+      "midi": 45,
+      "velocity": 0.4,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 10,
+      "beat": 1,
+      "writtenDuration": 0.3625,
+      "id": "db00083",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      }
+    },
+    "replacement": {
+      "time": 23.133,
+      "duration": 0.3625,
+      "midi": 45,
+      "velocity": 0.4,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 10,
+      "beat": 1,
+      "writtenDuration": 0.3625,
+      "id": "db00083",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00346",
+    "expected": {
+      "time": 79.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.548,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 32,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00346",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      }
+    },
+    "replacement": {
+      "time": 79.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.548,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 32,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00346",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00390",
+    "expected": {
+      "time": 86.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.605,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 35,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00390",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      }
+    },
+    "replacement": {
+      "time": 86.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.605,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 35,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00390",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00408",
+    "expected": {
+      "time": 90.01712,
+      "duration": 0.370313,
+      "midi": 69,
+      "velocity": 0.828,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 37,
+      "beat": 0,
+      "writtenDuration": 0.370313,
+      "id": "db00408",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.001,
+        "z": -0.016,
+        "liftEnd": 0.15,
+        "landStart": 0.6666666666666666,
+        "roll": -0.25
+      }
+    },
+    "replacement": {
+      "time": 90.01712,
+      "duration": 0.370313,
+      "midi": 69,
+      "velocity": 0.828,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 37,
+      "beat": 0,
+      "writtenDuration": 0.370313,
+      "id": "db00408",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.001,
+        "z": -0.016,
+        "liftEnd": 0.15,
+        "landStart": 0.6666666666666666,
+        "roll": -0.25
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.001,
+        "z": -0.016,
+        "liftEnd": 0.15,
+        "landStart": 0.6666666666666666,
+        "roll": -0.25,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00509",
+    "expected": {
+      "time": 113.133,
+      "duration": 0.3625,
+      "midi": 47,
+      "velocity": 0.43,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 46,
+      "beat": 1,
+      "writtenDuration": 0.3625,
+      "id": "db00509",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.03
+      }
+    },
+    "replacement": {
+      "time": 113.133,
+      "duration": 0.3625,
+      "midi": 47,
+      "velocity": 0.43,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 46,
+      "beat": 1,
+      "writtenDuration": 0.3625,
+      "id": "db00509",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.03
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.03,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00520",
+    "expected": {
+      "time": 115.649136,
+      "duration": 0.246875,
+      "midi": 72,
+      "velocity": 0.685,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 47,
+      "beat": 1,
+      "writtenDuration": 0.246875,
+      "id": "db00520",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0
+      }
+    },
+    "replacement": {
+      "time": 115.649136,
+      "duration": 0.246875,
+      "midi": 72,
+      "velocity": 0.685,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 47,
+      "beat": 1,
+      "writtenDuration": 0.246875,
+      "id": "db00520",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00666",
+    "expected": {
+      "time": 146.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.635,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 59,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00666",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      }
+    },
+    "replacement": {
+      "time": 146.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.635,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 59,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00666",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00681",
+    "expected": {
+      "time": 149.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.578,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 60,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00681",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      }
+    },
+    "replacement": {
+      "time": 149.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.578,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 60,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00681",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00739",
+    "expected": {
+      "time": 158.771822,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.797,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 64,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00739",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03
+      }
+    },
+    "replacement": {
+      "time": 158.771822,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.797,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 64,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00739",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00847",
+    "expected": {
+      "time": 186.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.72,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 75,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00847",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      }
+    },
+    "replacement": {
+      "time": 186.258,
+      "duration": 0.21875,
+      "midi": 45,
+      "velocity": 0.72,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 75,
+      "beat": 2,
+      "writtenDuration": 0.21875,
+      "id": "db00847",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "liftDegrees": 5,
+        "sweepDegrees": 8
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": -0.015,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00862",
+    "expected": {
+      "time": 189.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.663,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 76,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00862",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      }
+    },
+    "replacement": {
+      "time": 189.0745,
+      "duration": 0.40625,
+      "midi": 45,
+      "velocity": 0.663,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 76,
+      "beat": 2.5,
+      "writtenDuration": 0.40625,
+      "id": "db00862",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "approachPose": {
+        "duration": 0.1,
+        "distalDuration": 0.035,
+        "liftDegrees": 0,
+        "sweepDegrees": 0
+      },
+      "releasePose": {
+        "duration": 0.08,
+        "distalDuration": 0.025,
+        "liftDegrees": 5,
+        "sweepDegrees": 0
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00920",
+    "expected": {
+      "time": 198.770894,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.857,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 80,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00920",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03
+      }
+    },
+    "replacement": {
+      "time": 198.770894,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.857,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 80,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00920",
+      "contactLift": 0.003,
+      "contactZ": 0.229,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0,
+        "z": -0.03,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  }
+]

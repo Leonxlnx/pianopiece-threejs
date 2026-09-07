@@ -1,0 +1,11 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -235,7 +235,7 @@
+  if(fi>0)cost+=Math.pow(Math.max(0,shape.pip.z-base.z+.003),2)*400+Math.pow(Math.max(0,shape.pip.y-base.y-.025),2)*60;
+  cost+=Math.pow(Math.max(0,d-length*.985),2)*15000+Math.pow(Math.max(0,shape.min+.001-d),2)*15000;
+  cost+=Math.pow(d-length*.88,2)*18+Math.pow(Math.max(0,target.y+(fi===0?.017:.031)-base.y),2)*1800;
+- if(fi>0){const forward=shape.pip.clone().sub(base).normalize();cost+=Math.pow(Math.max(0,forward.z+.24),2)*.015+Math.pow(Math.max(0,Math.abs(forward.x)-.48),2)*.03;}
++ if(fi>0){const forward=shape.pip.clone().sub(base).normalize();cost+=Math.pow(Math.max(0,forward.z+.24),2)*.5+Math.pow(Math.max(0,Math.abs(forward.x)-.48),2)*.5;}
+  }
+  cost+=Math.pow(Math.max(0,w.distanceTo(shoulder)-.490),2)*18000;
+  cost+=Math.pow(p[0]-initial[0],2)*.14+Math.pow(p[1]-initial[1],2)*.18+Math.pow(p[2]-initial[2],2)*.06;

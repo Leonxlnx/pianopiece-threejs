@@ -1,0 +1,2320 @@
+{
+  "baseline": {
+    "calls": 89,
+    "triangles": 298124,
+    "meshes": [
+      {
+        "name": "Floor structure",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Individual walnut floorboards",
+        "material": "Satin walnut",
+        "triangles": 43200,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Subtle floor sheen",
+        "material": "ReflectorShader",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Rear foundation",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Rear lintel",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 0",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 0",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 0",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 1",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 1",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 1",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 2",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 2",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 2",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 3",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 3",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 3",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 4",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 4",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 4",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 5",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 5",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 5",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 6",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Limestone side return",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low walnut acoustic lining",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze baseboard",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Upper wall reveal",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Concealed wall light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Limestone side return",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low walnut acoustic lining",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze baseboard",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Upper wall reveal",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Concealed wall light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance wall",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance acoustic panel",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance panel lower reveal",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance wall",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance acoustic panel",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance panel lower reveal",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Door lintel",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Solid entrance door",
+        "material": "Walnut entrance joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance door stile",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze door pull",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Solid entrance door",
+        "material": "Walnut entrance joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance door stile",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze door pull",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance threshold",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling slab",
+        "material": "Acoustic plaster",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Timber acoustic ceiling battens",
+        "material": "Satin walnut",
+        "triangles": 4536,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling slot light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling slot light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Continuous planted garden",
+        "material": "Planted garden terrain",
+        "triangles": 8400,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Shallow reflecting pool",
+        "material": "Courtyard water",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Limestone garden paving",
+        "material": "Honed limestone",
+        "triangles": 1944,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low pool and planting curbs",
+        "material": "Honed limestone",
+        "triangles": 540,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Branched courtyard trees and shrubs",
+        "material": "Garden bark",
+        "triangles": 39956,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Individual courtyard leaves",
+        "material": "Individual garden leaves",
+        "triangles": 156648,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Meadow grass drifts",
+        "material": "Fine garden grasses",
+        "triangles": 16500,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Weathered planting stones",
+        "material": "Honed limestone",
+        "triangles": 2080,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "",
+        "material": "",
+        "triangles": 1216,
+        "castShadow": false,
+        "receiveShadow": false
+      }
+    ]
+  },
+  "current": {
+    "calls": 33,
+    "triangles": 321912,
+    "meshes": [
+      {
+        "name": "Fitted walnut floorboards 0",
+        "material": "Oiled walnut floor 0",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 1",
+        "material": "Oiled walnut floor 1",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 2",
+        "material": "Oiled walnut floor 2",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 3",
+        "material": "Oiled walnut floor 3",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Subtle floor sheen",
+        "material": "ReflectorShader",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Glazing 0",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 1",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 2",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 3",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 4",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 5",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Hand-thrown stoneware",
+        "material": "Matte chalk ceramic",
+        "triangles": 640,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen lamp shade",
+        "material": "Warm woven acoustic linen",
+        "triangles": 80,
+        "castShadow": true,
+        "receiveShadow": false
+      },
+      {
+        "name": "Ceiling slab",
+        "material": "Acoustic plaster",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Timber acoustic ceiling battens",
+        "material": "Satin walnut",
+        "triangles": 4536,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Continuous planted garden",
+        "material": "Planted garden terrain",
+        "triangles": 8400,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Shallow reflecting pool",
+        "material": "Courtyard water",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Limestone garden paving",
+        "material": "Honed limestone",
+        "triangles": 1944,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low pool and planting curbs",
+        "material": "Honed limestone",
+        "triangles": 540,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Branched courtyard trees and shrubs",
+        "material": "Garden bark",
+        "triangles": 39956,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Individual courtyard leaves",
+        "material": "Individual garden leaves",
+        "triangles": 156648,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Meadow grass drifts",
+        "material": "Fine garden grasses",
+        "triangles": 16500,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Weathered planting stones",
+        "material": "Honed limestone",
+        "triangles": 2080,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "",
+        "material": "",
+        "triangles": 1216,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Architecture \u00b7 Shadow joints",
+        "material": "Shadow joints",
+        "triangles": 4500,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Honed limestone",
+        "material": "Honed limestone",
+        "triangles": 6600,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Brushed bronze frames",
+        "material": "Brushed bronze frames",
+        "triangles": 11400,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Quarter-sawn wall joinery",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 7800,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Warm concealed lighting",
+        "material": "Warm concealed lighting",
+        "triangles": 1240,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Satin walnut",
+        "material": "Satin walnut",
+        "triangles": 5400,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Walnut entrance joinery",
+        "material": "Walnut entrance joinery",
+        "triangles": 600,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Warm woven acoustic linen",
+        "material": "Warm woven acoustic linen",
+        "triangles": 3600,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Architecture \u00b7 Olive wool upholstery",
+        "material": "Olive wool upholstery",
+        "triangles": 1200,
+        "castShadow": true,
+        "receiveShadow": true
+      }
+    ]
+  },
+  "unbatched": {
+    "calls": 166,
+    "triangles": 321912,
+    "meshes": [
+      {
+        "name": "Floor structure",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 0",
+        "material": "Oiled walnut floor 0",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 1",
+        "material": "Oiled walnut floor 1",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 2",
+        "material": "Oiled walnut floor 2",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Fitted walnut floorboards 3",
+        "material": "Oiled walnut floor 3",
+        "triangles": 11232,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Subtle floor sheen",
+        "material": "ReflectorShader",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Rear foundation",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Rear lintel",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 0",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 0",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 0",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 0",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 1",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 1",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 1",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 1",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 2",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 2",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 2",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 2",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 3",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 3",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 3",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 3",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 4",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 4",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 4",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 4",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 5",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window sill 5",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window head 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Glazing 5",
+        "material": "Window glass",
+        "triangles": 300,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze jamb 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window transom 5",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Window pier 6",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Limestone side return",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low walnut acoustic lining",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze baseboard",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Upper wall reveal",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Concealed wall light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Limestone side return",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low walnut acoustic lining",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze baseboard",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Upper wall reveal",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Concealed wall light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance wall",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance acoustic panel",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance panel lower reveal",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance wall",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance acoustic panel",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance panel lower reveal",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Door lintel",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Solid entrance door",
+        "material": "Walnut entrance joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance door stile",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze door pull",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Solid entrance door",
+        "material": "Walnut entrance joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance door stile",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Bronze door pull",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Entrance threshold",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Acoustic panel shadow gap",
+        "material": "Shadow joints",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen acoustic wall panel",
+        "material": "Warm woven acoustic linen",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Panel walnut stile",
+        "material": "Quarter-sawn wall joinery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair upholstered seat",
+        "material": "Olive wool upholstery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair upholstered back",
+        "material": "Olive wool upholstery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair walnut arm",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair walnut arm",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair upholstered seat",
+        "material": "Olive wool upholstery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair upholstered back",
+        "material": "Olive wool upholstery",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair walnut arm",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair walnut arm",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Chair solid leg",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Side table top",
+        "material": "Honed limestone",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Side table bronze leg",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Side table bronze leg",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Side table bronze leg",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Side table bronze leg",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Hand-thrown stoneware",
+        "material": "Matte chalk ceramic",
+        "triangles": 640,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Lamp base",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Lamp stem",
+        "material": "Brushed bronze frames",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Linen lamp shade",
+        "material": "Warm woven acoustic linen",
+        "triangles": 80,
+        "castShadow": true,
+        "receiveShadow": false
+      },
+      {
+        "name": "",
+        "material": "Warm concealed lighting",
+        "triangles": 40,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Ceiling slab",
+        "material": "Acoustic plaster",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Timber acoustic ceiling battens",
+        "material": "Satin walnut",
+        "triangles": 4536,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling cross beam",
+        "material": "Satin walnut",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling slot light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Ceiling slot light",
+        "material": "Warm concealed lighting",
+        "triangles": 300,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Continuous planted garden",
+        "material": "Planted garden terrain",
+        "triangles": 8400,
+        "castShadow": false,
+        "receiveShadow": true
+      },
+      {
+        "name": "Shallow reflecting pool",
+        "material": "Courtyard water",
+        "triangles": 2,
+        "castShadow": false,
+        "receiveShadow": false
+      },
+      {
+        "name": "Limestone garden paving",
+        "material": "Honed limestone",
+        "triangles": 1944,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Low pool and planting curbs",
+        "material": "Honed limestone",
+        "triangles": 540,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Branched courtyard trees and shrubs",
+        "material": "Garden bark",
+        "triangles": 39956,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Individual courtyard leaves",
+        "material": "Individual garden leaves",
+        "triangles": 156648,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Meadow grass drifts",
+        "material": "Fine garden grasses",
+        "triangles": 16500,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "Weathered planting stones",
+        "material": "Honed limestone",
+        "triangles": 2080,
+        "castShadow": true,
+        "receiveShadow": true
+      },
+      {
+        "name": "",
+        "material": "",
+        "triangles": 1216,
+        "castShadow": false,
+        "receiveShadow": false
+      }
+    ]
+  },
+  "auditNamesBefore": [
+    "Rear lintel",
+    "Window pier 0",
+    "Window pier 1",
+    "Window pier 2",
+    "Window pier 3",
+    "Window pier 4",
+    "Window pier 5",
+    "Window pier 6",
+    "Low walnut acoustic lining",
+    "Upper wall reveal",
+    "Concealed wall light",
+    "Low walnut acoustic lining",
+    "Upper wall reveal",
+    "Concealed wall light",
+    "Entrance wall",
+    "Entrance acoustic panel",
+    "Entrance panel lower reveal",
+    "Entrance wall",
+    "Entrance acoustic panel",
+    "Entrance panel lower reveal",
+    "Door lintel",
+    "Solid entrance door",
+    "Entrance door stile",
+    "Bronze door pull",
+    "Solid entrance door",
+    "Entrance door stile",
+    "Bronze door pull",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Acoustic panel shadow gap",
+    "Linen acoustic wall panel",
+    "Panel walnut stile",
+    "Panel walnut stile",
+    "Ceiling slab",
+    "Timber acoustic ceiling battens",
+    "Ceiling cross beam",
+    "Ceiling cross beam",
+    "Ceiling cross beam",
+    "Ceiling cross beam",
+    "Ceiling slot light",
+    "Ceiling slot light"
+  ],
+  "auditNamesAfter": [
+    "Ceiling slab",
+    "Timber acoustic ceiling battens",
+    "Architecture \u00b7 Quarter-sawn wall joinery"
+  ],
+  "cameras": {
+    "samples": 672,
+    "failures": [],
+    "furnitureSightlineHits": [],
+    "minClearance": 0.2999999999999998,
+    "shots": [
+      {
+        "start": 0,
+        "end": 10,
+        "name": "First light",
+        "kind": "wide",
+        "section": "First light"
+      },
+      {
+        "start": 10,
+        "end": 20,
+        "name": "A window opens",
+        "kind": "performance",
+        "section": "A window opens"
+      },
+      {
+        "start": 20,
+        "end": 30,
+        "name": "Hands \u00b7 the theme",
+        "kind": "hands",
+        "section": "A window opens"
+      },
+      {
+        "start": 30,
+        "end": 40,
+        "name": "The answering phrase",
+        "kind": "performance",
+        "section": "A window opens"
+      },
+      {
+        "start": 40,
+        "end": 50,
+        "name": "Room to breathe",
+        "kind": "wide",
+        "section": "A window opens"
+      },
+      {
+        "start": 50,
+        "end": 60,
+        "name": "Across the strings",
+        "kind": "interior",
+        "section": "Closer to the morning"
+      },
+      {
+        "start": 60,
+        "end": 70,
+        "name": "A little farther",
+        "kind": "wide",
+        "section": "Closer to the morning"
+      },
+      {
+        "start": 70,
+        "end": 80,
+        "name": "Daybreak",
+        "kind": "wide",
+        "section": "Daybreak"
+      },
+      {
+        "start": 80,
+        "end": 90,
+        "name": "Daybreak \u00b7 touch",
+        "kind": "hands",
+        "section": "Daybreak"
+      },
+      {
+        "start": 90,
+        "end": 100,
+        "name": "The inner voice",
+        "kind": "portrait",
+        "section": "Daybreak"
+      },
+      {
+        "start": 100,
+        "end": 110,
+        "name": "What the night kept",
+        "kind": "performance",
+        "section": "The room breathes"
+      },
+      {
+        "start": 110,
+        "end": 120,
+        "name": "Left hand \u00b7 response",
+        "kind": "left-hand",
+        "section": "A light left on"
+      },
+      {
+        "start": 120,
+        "end": 130,
+        "name": "A quieter answer",
+        "kind": "performance",
+        "section": "A light left on"
+      },
+      {
+        "start": 130,
+        "end": 140,
+        "name": "The light returns",
+        "kind": "wide",
+        "section": "A little nearer"
+      },
+      {
+        "start": 140,
+        "end": 150,
+        "name": "The chorus returns",
+        "kind": "wide",
+        "section": "Daybreak returns"
+      },
+      {
+        "start": 150,
+        "end": 160,
+        "name": "The answering hands",
+        "kind": "hands",
+        "section": "Daybreak returns"
+      },
+      {
+        "start": 160,
+        "end": 170,
+        "name": "Before the sun",
+        "kind": "portrait",
+        "section": "Before the sun"
+      },
+      {
+        "start": 170,
+        "end": 180,
+        "name": "A quieter answer",
+        "kind": "left-hand",
+        "section": "Before the sun"
+      },
+      {
+        "start": 180,
+        "end": 190,
+        "name": "Everything opens",
+        "kind": "wide",
+        "section": "Everything opens"
+      },
+      {
+        "start": 190,
+        "end": 195,
+        "name": "The highest note",
+        "kind": "hands",
+        "section": "Everything opens"
+      },
+      {
+        "start": 195,
+        "end": 200,
+        "name": "Coming home",
+        "kind": "performance",
+        "section": "Everything opens"
+      },
+      {
+        "start": 200,
+        "end": 210,
+        "name": "Home in the light",
+        "kind": "hands",
+        "section": "Everything opens"
+      },
+      {
+        "start": 210,
+        "end": 218.857143,
+        "name": "The last phrase",
+        "kind": "performance",
+        "section": "Home in the light"
+      },
+      {
+        "start": 218.857143,
+        "end": 227.101587,
+        "name": "Daybreak \u00b7 ending",
+        "kind": "wide",
+        "section": "Home in the light"
+      }
+    ]
+  },
+  "prop": {
+    "seat": [
+      0.487967596550712,
+      1.5380741081725495,
+      -0.79
+    ],
+    "meshBottomLocalY": -0.012,
+    "seatLocalY": -0.007,
+    "penetrationMm": 5,
+    "allRayHits": [
+      {
+        "distance": 0.5960675516574846,
+        "name": "Static piano parts"
+      }
+    ]
+  },
+  "evidenceFormat": "Portable numerical report: raw vertex coordinates, triangle-index pairs, bone-weight dumps and workspace paths omitted; all failure cases, counts and thresholds retained.",
+  "assetProvenance": "Fictional CC0 avatar and procedural piano from this repository; not personal biometric data."
+}

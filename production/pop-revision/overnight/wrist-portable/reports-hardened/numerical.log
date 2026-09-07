@@ -1,0 +1,112 @@
+{
+  "inputs": {
+    "app/performance/pianist.ts": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+    "production/qa/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "public/assets/pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "public/assets/score.json": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f"
+  },
+  "candidateSha256": "b57c94f98a845d53947dab52b40a8f83621f866d0104f7a0ac3a2c984f6d3ae8",
+  "changedVertices": 542,
+  "frames": 457,
+  "protectedAttributeChanges": 0,
+  "maxProtectedWorldError": 0,
+  "maxBoneMatrixChange": 0,
+  "maxDirectRepeatError": 0,
+  "maxCpuGpuError": 7.389281222067558e-8,
+  "maxNormalGpuError": 3.4199535842783434e-7,
+  "maxCorrection": 0.04530663089384526,
+  "minBlendDeterminant": 0.24295435465778614,
+  "fallBackFrames": 0,
+  "newKeyCoreVertices": 0,
+  "wristRadius": [
+    {
+      "time": 0,
+      "vertices": 127,
+      "beforeMin": 0.617073920945755,
+      "beforeMean": 0.7433822876128477,
+      "afterMin": 0.9999882552745946,
+      "afterMean": 1.0000002101404117
+    },
+    {
+      "time": 6,
+      "vertices": 127,
+      "beforeMin": 0.6073405958296946,
+      "beforeMean": 0.7606943682945002,
+      "afterMin": 0.999978785654248,
+      "afterMean": 0.999999537177205
+    },
+    {
+      "time": 26.05,
+      "vertices": 127,
+      "beforeMin": 0.5947355570884109,
+      "beforeMean": 0.7005807770581062,
+      "afterMin": 0.9999807739276555,
+      "afterMean": 0.9999993786661002
+    },
+    {
+      "time": 64,
+      "vertices": 127,
+      "beforeMin": 0.5842855840314742,
+      "beforeMean": 0.7580758787217572,
+      "afterMin": 0.999988940957955,
+      "afterMean": 0.999999808472621
+    },
+    {
+      "time": 96,
+      "vertices": 127,
+      "beforeMin": 0.6269565426590606,
+      "beforeMean": 0.7613023990375464,
+      "afterMin": 0.9999783396527061,
+      "afterMean": 0.9999994162863295
+    },
+    {
+      "time": 130,
+      "vertices": 127,
+      "beforeMin": 0.5564914380784961,
+      "beforeMean": 0.7050537133923864,
+      "afterMin": 0.9999783901328592,
+      "afterMean": 0.9999992397800967
+    },
+    {
+      "time": 170,
+      "vertices": 127,
+      "beforeMin": 0.5451360408196226,
+      "beforeMean": 0.7053080066497214,
+      "afterMin": 0.9999815199212819,
+      "afterMean": 0.999999684510639
+    },
+    {
+      "time": 210,
+      "vertices": 127,
+      "beforeMin": 0.6643887668387293,
+      "beforeMean": 0.7460304433824323,
+      "afterMin": 0.9999900242795375,
+      "afterMean": 1.000000012852445
+    },
+    {
+      "time": 227.101587,
+      "vertices": 127,
+      "beforeMin": 0.5726088125428069,
+      "beforeMean": 0.7346002280995938,
+      "afterMin": 0.999989319673375,
+      "afterMean": 1.000000150603837
+    }
+  ],
+  "negativeControls": {
+    "nonrigidFallbacks": 269,
+    "absoluteMorphCancellationFallbacks": 542,
+    "lbsTwistRadius": 0.5000000000000001,
+    "radiusOracleDetectsCollapse": true
+  },
+  "seekMaxError": 0,
+  "performanceMs": {
+    "median": 1.2566329999999653,
+    "p95": 5.451608999999735,
+    "max": 17.10123300000032
+  },
+  "options": {
+    "rollForearm": true,
+    "smoothWeights": 8
+  }
+}
+WRIST_CORRECTION_NUMERICAL_PASS

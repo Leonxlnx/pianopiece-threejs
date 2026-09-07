@@ -1,0 +1,40 @@
+{
+  "scope": "Immutable pre-volume wrist correction verification baseline; does not certify later posture changes or altered assets.",
+  "modelSha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "scoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "files": {
+    "surface-final.mjs": "433fa078995c8722570641574ab60ac8ffddf28a43c84e3f6b10001da904730a",
+    "forearm-twist.mjs": "12d70dfc799c706cecf4b6345f78ae40032047c60c7e06793f2c86686837e18b",
+    "wrist-volume.ts": "f64dac6b277d53f221aa911c2040be6a08b7ca11e1b8f164e2d53238bdd09dff",
+    "load.mjs": "2e6856f41521010b21a34f146961c0e9dbb93576c848e332b06cf1f9e4a88bae",
+    "verify-typed.mjs": "d8f006b30e2835967b060bf8f77bd11797497cf292d3aac74e7cd24e22ad485c",
+    "verify.mjs": "c05cc041ac25b1fa8a2687ecf3d917750f593307b7a620fe8d9cb0137d2b6e4e",
+    "wrist-volume.mjs": "b57c94f98a845d53947dab52b40a8f83621f866d0104f7a0ac3a2c984f6d3ae8",
+    "baseline/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "baseline/hair-motion-data.mjs": "1bb0af20e05d34c9cb112888a46b688afc14dbd18e6ab84596a55ae3bb2a60ef",
+    "baseline/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "baseline/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "baseline/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "baseline/pianist.ts": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+    "baseline/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "baseline/score.json": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f"
+  },
+  "dependencyVersions": {
+    "three": "0.183.2",
+    "typescript": "5.9.3"
+  },
+  "dependencyFiles": {
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/three/examples/jsm/loaders/GLTFLoader.js": "e4e692923224a10bbc00be04365d6356b5e8c48b2bbd1f22a7fe929591646fb8",
+    "node_modules/three/examples/jsm/utils/BufferGeometryUtils.js": "fda7e946b8e0b5ab39b779206589e7a1079a22eb24efb89d7223e03fdfb1f751",
+    "node_modules/three/examples/jsm/geometries/RoundedBoxGeometry.js": "c1b7c9bd2cddff2e3f3a0723f618a3d364a47450e3d25771d21faed88410bec8",
+    "node_modules/three/src/objects/SkinnedMesh.js": "e9209d9e61f3226a809106881ca134a1ebc54c46f0f0df32bc00707b00113a6f",
+    "node_modules/three/src/renderers/shaders/ShaderChunk/skinning_vertex.glsl.js": "4422467001348636551ce64f1e6631d8a5032b7ac2788596c2dc5269618c7602",
+    "node_modules/three/src/renderers/shaders/ShaderChunk/skinnormal_vertex.glsl.js": "5e6f1857d196e7ca79cc4e2ee35fbd128ca74003ad8b96484723d918ca631e49",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6",
+    "node_modules/typescript/lib/typescript.js": "3ae902c92cc44dace175c0e69e13a4b0899f6983c6121d76b9ab8dd5795e7675"
+  }
+}

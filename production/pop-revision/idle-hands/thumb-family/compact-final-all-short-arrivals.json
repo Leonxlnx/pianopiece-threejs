@@ -1,0 +1,2693 @@
+{
+  "inputs": {
+    "rig": {
+      "path": "analysis/hand-fit/thumb-family/compact-final/pianist.mjs",
+      "sha256": "c11ea6b62b903c2ba344677f2009fdd6cf3b17ddb12881f8ba235662d4a8657a"
+    },
+    "piano": {
+      "path": "analysis/hand-fit/thumb-family/baseline/piano.mjs",
+      "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+    },
+    "score": {
+      "path": "analysis/hand-fit/thumb-family/score.json",
+      "sha256": "4f284b5c25d9dcfa724c075e56179f64643c1c52ad310b7c8f4df33ac32a4d9d"
+    },
+    "model": {
+      "path": "public/assets/pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "selection": "explicit",
+  "summary": {
+    "samples": 160,
+    "keyCoreRowsOver3mm": 15,
+    "activeKeyCoreHitsOver3mm": 10,
+    "inactiveKeyCoreHitsOver3mm": 5,
+    "maxKeyCoreDepthMm": 6.944008123728973,
+    "ownPalmRows": 0,
+    "neighborRows": 0,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.00010257264036149527,
+    "nonfinite": 0
+  },
+  "ownership": {
+    "ownedVertices": [
+      {
+        "patch": "LThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "LIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "LMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "LRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "LPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "LPalm",
+        "count": 190,
+        "triangles": 279
+      },
+      {
+        "patch": "RThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "RIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "RMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "RRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "RPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "RPalm",
+        "count": 190,
+        "triangles": 279
+      }
+    ],
+    "mixedWebVertices": 232
+  },
+  "scope": "THUMB-SPECIFIC: key cores include every checked vertex with any thumb-bone weight; pair tests include every thumb/palm, thumb/neighbor and opposing thumb/hand owned-patch pairing. Other digits unchanged by this candidate are outside this screen. Exact production deformed Human vertices against all 88 actual animated rounded-key inner boxes; original-box nearest-face depth. Whole hand-owned and mixed web vertices included for key cores. Exact noncoplanar edge/triangle intersections for >65%-owned digit/palm patches; mixed web, coplanar and completely enclosed surfaces excluded from pair tests. Counts are not penetration depth or visual approval. Finite sampling cannot establish continuous clearance.",
+  "rows": [
+    {
+      "time": 50.9175,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.92161111111111,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.92572222222222,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.929833333333335,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.93394444444444,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.93805555555556,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.942166666666665,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.94627777777778,
+      "active": [],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": false,
+          "vertices": 14,
+          "deepVertices": 9,
+          "maxDepthMm": 4.477894407516225
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 50.95038888888889,
+      "active": [
+        {
+          "id": "db00195",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00196",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 20,
+          "deepVertices": 9,
+          "maxDepthMm": 6.944008120343015
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 7.440683527445239e-05
+    },
+    {
+      "time": 50.9545,
+      "active": [
+        {
+          "id": "db00195",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00196",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 20,
+          "deepVertices": 9,
+          "maxDepthMm": 6.944008123728973
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 7.443913852542825e-05
+    },
+    {
+      "time": 52.1675,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.697187397250089e-05
+    },
+    {
+      "time": 52.17161111111111,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.6988213442746744e-05
+    },
+    {
+      "time": 52.17572222222222,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.700576980829183e-05
+    },
+    {
+      "time": 52.179833333333335,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.702469728022966e-05
+    },
+    {
+      "time": 52.18394444444444,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.7044552875669696e-05
+    },
+    {
+      "time": 52.18805555555556,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.706491362784589e-05
+    },
+    {
+      "time": 52.192166666666665,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.708574874108324e-05
+    },
+    {
+      "time": 52.19627777777778,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 6,
+          "maxDepthMm": 3.8790273066920955
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.7107026214624886e-05
+    },
+    {
+      "time": 52.20038888888889,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        },
+        {
+          "id": "db00203",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00204",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.2785486960136305
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.829229879769742e-05
+    },
+    {
+      "time": 52.2045,
+      "active": [
+        {
+          "id": "db00202",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        },
+        {
+          "id": "db00203",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00204",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278548696001418
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.832382406149137e-05
+    },
+    {
+      "time": 62.1675,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.241888313796563e-05
+    },
+    {
+      "time": 62.17161111111111,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.243356516465934e-05
+    },
+    {
+      "time": 62.17572222222222,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.244888523793425e-05
+    },
+    {
+      "time": 62.179833333333335,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.246486630317507e-05
+    },
+    {
+      "time": 62.18394444444444,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.248137446623103e-05
+    },
+    {
+      "time": 62.18805555555556,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.24982803860124e-05
+    },
+    {
+      "time": 62.192166666666665,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.251555601110876e-05
+    },
+    {
+      "time": 62.19627777777778,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.253317203331668e-05
+    },
+    {
+      "time": 62.20038888888889,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00253",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00254",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 8.931914810839204e-05
+    },
+    {
+      "time": 62.2045,
+      "active": [
+        {
+          "id": "db00252",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00253",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00254",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 8.928548445850552e-05
+    },
+    {
+      "time": 72.1675,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.000102350471535111
+    },
+    {
+      "time": 72.17161111111112,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010237215390166951
+    },
+    {
+      "time": 72.17572222222222,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010239478890814229
+    },
+    {
+      "time": 72.17983333333333,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010241840928908074
+    },
+    {
+      "time": 72.18394444444445,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010244280905380314
+    },
+    {
+      "time": 72.18805555555555,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010246779029829788
+    },
+    {
+      "time": 72.19216666666667,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.0001024933091081984
+    },
+    {
+      "time": 72.19627777777778,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 6,
+          "maxDepthMm": 3.8422467440536456
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010251932100357722
+    },
+    {
+      "time": 72.20038888888888,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00305",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00306",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278548959694263
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010254577999576453
+    },
+    {
+      "time": 72.2045,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00305",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00306",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278548959941177
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010257264036149527
+    },
+    {
+      "time": 77.1675,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3494737236244356e-05
+    },
+    {
+      "time": 77.17161111111112,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.351687816442511e-05
+    },
+    {
+      "time": 77.17572222222222,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.353957248081347e-05
+    },
+    {
+      "time": 77.17983333333333,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3562797521491657e-05
+    },
+    {
+      "time": 77.18394444444445,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.358652140358438e-05
+    },
+    {
+      "time": 77.18805555555555,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.361071024145816e-05
+    },
+    {
+      "time": 77.19216666666667,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.36353326734218e-05
+    },
+    {
+      "time": 77.19627777777778,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.366035751835226e-05
+    },
+    {
+      "time": 77.20038888888888,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00336",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.368575119670703e-05
+    },
+    {
+      "time": 77.2045,
+      "active": [
+        {
+          "id": "db00335",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00336",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3711480426255474e-05
+    },
+    {
+      "time": 87.1675,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.253360170437169e-05
+    },
+    {
+      "time": 87.17161111111112,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.257357980300799e-05
+    },
+    {
+      "time": 87.17572222222222,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.2615213555774e-05
+    },
+    {
+      "time": 87.17983333333333,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.265864738459084e-05
+    },
+    {
+      "time": 87.18394444444445,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.270339302831746e-05
+    },
+    {
+      "time": 87.18805555555555,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.27489788379989e-05
+    },
+    {
+      "time": 87.19216666666667,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.279534715295043e-05
+    },
+    {
+      "time": 87.19627777777778,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.284243778388298e-05
+    },
+    {
+      "time": 87.20038888888888,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00395",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.289019180285492e-05
+    },
+    {
+      "time": 87.2045,
+      "active": [
+        {
+          "id": "db00394",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00395",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.293854637010218e-05
+    },
+    {
+      "time": 92.1675,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.6750598861543326e-05
+    },
+    {
+      "time": 92.17161111111112,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.677080953231654e-05
+    },
+    {
+      "time": 92.17572222222222,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.679251530953716e-05
+    },
+    {
+      "time": 92.17983333333333,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.681592204979108e-05
+    },
+    {
+      "time": 92.18394444444445,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.68404538437841e-05
+    },
+    {
+      "time": 92.18805555555555,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.686556236905689e-05
+    },
+    {
+      "time": 92.19216666666667,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.689121104737576e-05
+    },
+    {
+      "time": 92.19627777777778,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.691736275732424e-05
+    },
+    {
+      "time": 92.20038888888888,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        },
+        {
+          "id": "db00422",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00423",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 9.045386296054127e-05
+    },
+    {
+      "time": 92.2045,
+      "active": [
+        {
+          "id": "db00421",
+          "hand": "R",
+          "finger": 5,
+          "midi": 76
+        },
+        {
+          "id": "db00422",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00423",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 9.041814208745638e-05
+    },
+    {
+      "time": 132.16750000000002,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.232008219052358e-05
+    },
+    {
+      "time": 132.17161111111113,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.233578460422152e-05
+    },
+    {
+      "time": 132.17572222222225,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.235217639841079e-05
+    },
+    {
+      "time": 132.17983333333333,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.23692836444036e-05
+    },
+    {
+      "time": 132.18394444444445,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.238695765128391e-05
+    },
+    {
+      "time": 132.18805555555556,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.240505326338879e-05
+    },
+    {
+      "time": 132.19216666666668,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.242354035342937e-05
+    },
+    {
+      "time": 132.19627777777777,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.244238788111406e-05
+    },
+    {
+      "time": 132.20038888888888,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00588",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00589",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 8.971261150578963e-05
+    },
+    {
+      "time": 132.2045,
+      "active": [
+        {
+          "id": "db00587",
+          "hand": "R",
+          "finger": 4,
+          "midi": 76
+        },
+        {
+          "id": "db00588",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00589",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 8.96770576156614e-05
+    },
+    {
+      "time": 142.16750000000002,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010227885355895308
+    },
+    {
+      "time": 142.17161111111113,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010230113657209454
+    },
+    {
+      "time": 142.17572222222225,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010232441871423235
+    },
+    {
+      "time": 142.17983333333333,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010234873702891863
+    },
+    {
+      "time": 142.18394444444445,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010237387073373165
+    },
+    {
+      "time": 142.18805555555556,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010239960513214123
+    },
+    {
+      "time": 142.19216666666668,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010242589606549772
+    },
+    {
+      "time": 142.19627777777777,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 6,
+          "maxDepthMm": 3.818626887980625
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010245269793415497
+    },
+    {
+      "time": 142.20038888888888,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00640",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00641",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278548999642752
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010247996240058103
+    },
+    {
+      "time": 142.2045,
+      "active": [
+        {
+          "id": "db00639",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00640",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00641",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278548999979372
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.0001025076433431205
+    },
+    {
+      "time": 147.16750000000002,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.350319317702223e-05
+    },
+    {
+      "time": 147.17161111111113,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.352610355783695e-05
+    },
+    {
+      "time": 147.17572222222225,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.354959423710514e-05
+    },
+    {
+      "time": 147.17983333333333,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3573642278839695e-05
+    },
+    {
+      "time": 147.18394444444445,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.359821372057455e-05
+    },
+    {
+      "time": 147.18805555555556,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.362327260275278e-05
+    },
+    {
+      "time": 147.19216666666668,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.364878661783375e-05
+    },
+    {
+      "time": 147.19627777777777,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.367472343692113e-05
+    },
+    {
+      "time": 147.20038888888888,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00671",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.370104804191954e-05
+    },
+    {
+      "time": 147.2045,
+      "active": [
+        {
+          "id": "db00670",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00671",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.372772583622877e-05
+    },
+    {
+      "time": 157.16750000000002,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.257589852833949e-05
+    },
+    {
+      "time": 157.17161111111113,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.26175288563018e-05
+    },
+    {
+      "time": 157.17572222222225,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.266090954794896e-05
+    },
+    {
+      "time": 157.17983333333333,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.27062012303439e-05
+    },
+    {
+      "time": 157.18394444444445,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.275287354327995e-05
+    },
+    {
+      "time": 157.18805555555556,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.280041546094358e-05
+    },
+    {
+      "time": 157.19216666666668,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.284876678949638e-05
+    },
+    {
+      "time": 157.19627777777777,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.28978664719432e-05
+    },
+    {
+      "time": 157.20038888888888,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00730",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.2947651488604e-05
+    },
+    {
+      "time": 157.2045,
+      "active": [
+        {
+          "id": "db00729",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00730",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.299805896062078e-05
+    },
+    {
+      "time": 182.16750000000002,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010193426553262564
+    },
+    {
+      "time": 182.17161111111113,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.0001019597542748601
+    },
+    {
+      "time": 182.17572222222225,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010198643185940733
+    },
+    {
+      "time": 182.17983333333333,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010201435365138062
+    },
+    {
+      "time": 182.18394444444445,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010204323842902153
+    },
+    {
+      "time": 182.18805555555556,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.0001020728144682235
+    },
+    {
+      "time": 182.19216666666668,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010210303092392524
+    },
+    {
+      "time": 182.19627777777777,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": false,
+          "vertices": 11,
+          "deepVertices": 6,
+          "maxDepthMm": 3.7379565157144024
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010213383473812762
+    },
+    {
+      "time": 182.20038888888888,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00821",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00822",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278549218088458
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010216517310506428
+    },
+    {
+      "time": 182.2045,
+      "active": [
+        {
+          "id": "db00820",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        },
+        {
+          "id": "db00821",
+          "hand": "L",
+          "finger": 2,
+          "midi": 52
+        },
+        {
+          "id": "db00822",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 53,
+          "active": true,
+          "vertices": 21,
+          "deepVertices": 11,
+          "maxDepthMm": 6.278549217688112
+        }
+      ],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010219699101836532
+    },
+    {
+      "time": 187.16750000000002,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.354189906061649e-05
+    },
+    {
+      "time": 187.17161111111113,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.356854776224714e-05
+    },
+    {
+      "time": 187.17572222222225,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3595900259196615e-05
+    },
+    {
+      "time": 187.17983333333333,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.36239311782897e-05
+    },
+    {
+      "time": 187.18394444444445,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3652598409054026e-05
+    },
+    {
+      "time": 187.18805555555556,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3681857620975555e-05
+    },
+    {
+      "time": 187.19216666666668,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.371167052206786e-05
+    },
+    {
+      "time": 187.19627777777777,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.374199920336554e-05
+    },
+    {
+      "time": 187.20038888888888,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00852",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.3772802491197266e-05
+    },
+    {
+      "time": 187.2045,
+      "active": [
+        {
+          "id": "db00851",
+          "hand": "R",
+          "finger": 4,
+          "midi": 72
+        },
+        {
+          "id": "db00852",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 5.380404016658859e-05
+    },
+    {
+      "time": 189.989,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 189.99311111111112,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 189.99722222222223,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 190.00133333333332,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 190.00544444444444,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 190.00955555555555,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 1.344804305186455e-05
+    },
+    {
+      "time": 190.01366666666667,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 1.3478980987772077e-05
+    },
+    {
+      "time": 190.01777777777775,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        },
+        {
+          "id": "db00866",
+          "hand": "R",
+          "finger": 2,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.00209504905674e-05
+    },
+    {
+      "time": 190.02188888888887,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        },
+        {
+          "id": "db00866",
+          "hand": "R",
+          "finger": 2,
+          "midi": 79
+        },
+        {
+          "id": "db00867",
+          "hand": "R",
+          "finger": 1,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.007407832717944e-05
+    },
+    {
+      "time": 190.02599999999998,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        },
+        {
+          "id": "db00866",
+          "hand": "R",
+          "finger": 2,
+          "midi": 79
+        },
+        {
+          "id": "db00867",
+          "hand": "R",
+          "finger": 1,
+          "midi": 76
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.0127038791407405e-05
+    },
+    {
+      "time": 197.16750000000002,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.280844999673192e-05
+    },
+    {
+      "time": 197.17161111111113,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.285725695835538e-05
+    },
+    {
+      "time": 197.17572222222225,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.290823545174412e-05
+    },
+    {
+      "time": 197.17983333333333,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.296161482391206e-05
+    },
+    {
+      "time": 197.18394444444445,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.301669099877355e-05
+    },
+    {
+      "time": 197.18805555555556,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.307278366978385e-05
+    },
+    {
+      "time": 197.19216666666668,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.312982416733029e-05
+    },
+    {
+      "time": 197.19627777777777,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.318774241905584e-05
+    },
+    {
+      "time": 197.20038888888888,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00911",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.32464660193189e-05
+    },
+    {
+      "time": 197.2045,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        },
+        {
+          "id": "db00911",
+          "hand": "L",
+          "finger": 1,
+          "midi": 55
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.330592284729792e-05
+    },
+    {
+      "time": 202.16750000000002,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.502537973259213e-05
+    },
+    {
+      "time": 202.17161111111113,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.504969676051724e-05
+    },
+    {
+      "time": 202.17572222222225,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.507517242014356e-05
+    },
+    {
+      "time": 202.17983333333333,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.51018803492056e-05
+    },
+    {
+      "time": 202.18394444444445,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.51295182665217e-05
+    },
+    {
+      "time": 202.18805555555556,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.515779505353623e-05
+    },
+    {
+      "time": 202.19216666666668,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.518666513514725e-05
+    },
+    {
+      "time": 202.19627777777777,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.521608151834606e-05
+    },
+    {
+      "time": 202.20038888888888,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        },
+        {
+          "id": "db00938",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00939",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 9.169150293253122e-05
+    },
+    {
+      "time": 202.2045,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        },
+        {
+          "id": "db00938",
+          "hand": "L",
+          "finger": 2,
+          "midi": 53
+        },
+        {
+          "id": "db00939",
+          "hand": "L",
+          "finger": 1,
+          "midi": 57
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 9.165352936795832e-05
+    }
+  ],
+  "evidenceFormat": "Portable numerical report: raw vertex coordinates, triangle-index pairs, bone-weight dumps and workspace paths omitted; all failure cases, counts and thresholds retained.",
+  "assetProvenance": "Fictional CC0 avatar and procedural piano from this repository; not personal biometric data."
+}

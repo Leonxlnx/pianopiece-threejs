@@ -1,0 +1,115 @@
+{
+  "at_creation": {
+    "noteChanges": [
+      {
+        "id": "db00406",
+        "changes": {
+          "midi": {
+            "before": 48,
+            "after": 52
+          },
+          "finger": {
+            "before": 4,
+            "after": 2
+          }
+        }
+      },
+      {
+        "id": "db00407",
+        "changes": {
+          "finger": {
+            "before": 4,
+            "after": 5
+          }
+        }
+      },
+      {
+        "id": "db00922",
+        "changes": {
+          "midi": {
+            "before": 48,
+            "after": 52
+          },
+          "finger": {
+            "before": 4,
+            "after": 2
+          }
+        }
+      },
+      {
+        "id": "db00923",
+        "changes": {
+          "finger": {
+            "before": 4,
+            "after": 5
+          }
+        }
+      }
+    ],
+    "otherChangedFields": {
+      "harmony": true
+    },
+    "noteCount": 1011,
+    "scoreSha256": "37b7b101dcd11ff91d1472b17ab80617d8fa90d7e5644b5bb2922f9fc782c217"
+  },
+  "after_performance": {
+    "noteChanges": [
+      {
+        "id": "db00406",
+        "changes": {
+          "midi": {
+            "before": 48,
+            "after": 52
+          }
+        }
+      },
+      {
+        "id": "db00922",
+        "changes": {
+          "midi": {
+            "before": 48,
+            "after": 52
+          }
+        }
+      }
+    ],
+    "otherChangedFields": {
+      "harmony": true
+    },
+    "noteCount": 1011,
+    "scoreSha256": "12793de01790d03ace3a5f62d0af7c881fe817f1c3a5af731187033dd584db83",
+    "harmonyChanges": [
+      {
+        "bar": 36,
+        "before": {
+          "bar": 36,
+          "time": 87.5,
+          "duration": 2.5,
+          "chord": "Fadd9"
+        },
+        "after": {
+          "bar": 36,
+          "time": 87.5,
+          "duration": 2.5,
+          "chord": "Fmaj7"
+        }
+      },
+      {
+        "bar": 80,
+        "before": {
+          "bar": 80,
+          "time": 197.5,
+          "duration": 2.5,
+          "chord": "Fadd9"
+        },
+        "after": {
+          "bar": 80,
+          "time": 197.5,
+          "duration": 2.5,
+          "chord": "Fmaj7"
+        }
+      }
+    ],
+    "exactlyTwoPitchesAndTwoLabels": true
+  }
+}

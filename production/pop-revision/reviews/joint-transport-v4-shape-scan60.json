@@ -1,0 +1,892 @@
+{
+  "scoreDuration": 227.101587,
+  "pianoNotes": 1011,
+  "skinSamples": 5055,
+  "skinMissing": 0,
+  "skinGapMm": {
+    "min": -1.8461399433807868,
+    "p01": -1.10560884834765,
+    "median": 0.1184138678934632,
+    "p99": 1.709407913900507,
+    "max": 2.646864876492794
+  },
+  "skinOutside3mm": 0,
+  "frames": 13628,
+  "frameIntervals": 13627,
+  "frameRate": 60,
+  "contactSamples": 33886,
+  "maxContactErrorMm": 0.87381527376263,
+  "nonfinite": 0,
+  "maxFingerPipDegrees": 87.08925714853075,
+  "maxFingerDipDegrees": 41.80283626290441,
+  "seekMaxErrorMm": 0,
+  "worstSkin": [
+    {
+      "id": "db00193",
+      "time": 50.4854375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.015,
+      "gapMm": 2.646864876492794
+    },
+    {
+      "id": "db00193",
+      "time": 50.558875,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.25,
+      "gapMm": 2.6468648115085536
+    },
+    {
+      "id": "db00193",
+      "time": 50.637,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.6468644667390073
+    },
+    {
+      "id": "db00193",
+      "time": 50.73075,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.6468640688041
+    },
+    {
+      "id": "db00193",
+      "time": 50.7885625,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.985,
+      "gapMm": 2.6468639036908437
+    },
+    {
+      "id": "db00201",
+      "time": 51.7354375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.015,
+      "gapMm": 2.646863296478563
+    },
+    {
+      "id": "db00201",
+      "time": 51.808875,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.25,
+      "gapMm": 2.6468632582232754
+    },
+    {
+      "id": "db00201",
+      "time": 51.887,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.646862880368861
+    },
+    {
+      "id": "db00201",
+      "time": 51.98075,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.6468624691753373
+    },
+    {
+      "id": "db00201",
+      "time": 52.0385625,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.985,
+      "gapMm": 2.646862321291077
+    },
+    {
+      "id": "db00850",
+      "time": 186.746375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.472775486684342
+    },
+    {
+      "id": "db00850",
+      "time": 186.8495,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.4727754571569616
+    },
+    {
+      "id": "db00909",
+      "time": 196.746375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.47277529477985
+    },
+    {
+      "id": "db00909",
+      "time": 196.8495,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.472775263813176
+    },
+    {
+      "id": "db00669",
+      "time": 146.746375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.4727751752006144
+    },
+    {
+      "id": "db00669",
+      "time": 146.8495,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.4727751437486623
+    },
+    {
+      "id": "db00334",
+      "time": 76.746375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.5,
+      "gapMm": 2.4727751084553384
+    },
+    {
+      "id": "db00850",
+      "time": 186.91309375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.985,
+      "gapMm": 2.4727750961486272
+    },
+    {
+      "id": "db00334",
+      "time": 76.8495,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.8,
+      "gapMm": 2.472775087251522
+    },
+    {
+      "id": "db00850",
+      "time": 186.6604375,
+      "hand": "L",
+      "finger": 1,
+      "midi": 55,
+      "fraction": 0.25,
+      "gapMm": 2.472775056367782
+    }
+  ],
+  "wristSpeedPeaks": [
+    {
+      "time": 122.41666666666667,
+      "hand": "L",
+      "speed": 1.4893452678002357,
+      "accel": 2.935460687527131
+    },
+    {
+      "time": 42.416666666666664,
+      "hand": "L",
+      "speed": 1.489345266144311,
+      "accel": 2.9354605955350874
+    },
+    {
+      "time": 202.41666666666666,
+      "hand": "L",
+      "speed": 1.4847508866652568,
+      "accel": 1.7049966142836248
+    },
+    {
+      "time": 92.41666666666667,
+      "hand": "L",
+      "speed": 1.484750886432715,
+      "accel": 1.7049965931764233
+    },
+    {
+      "time": 92.4,
+      "hand": "L",
+      "speed": 1.4563342765465825,
+      "accel": 10.931534031677629
+    },
+    {
+      "time": 202.4,
+      "hand": "L",
+      "speed": 1.4563342764273426,
+      "accel": 10.931533775942762
+    },
+    {
+      "time": 122.4,
+      "hand": "L",
+      "speed": 1.4404209230081755,
+      "accel": 12.355998753579208
+    },
+    {
+      "time": 42.4,
+      "hand": "L",
+      "speed": 1.4404209228854497,
+      "accel": 12.355998878146794
+    },
+    {
+      "time": 172.41666666666666,
+      "hand": "L",
+      "speed": 1.4174720284226558,
+      "accel": 10.559722186143578
+    },
+    {
+      "time": 172.43333333333334,
+      "hand": "L",
+      "speed": 1.39934744017856,
+      "accel": 1.0874752946526398
+    },
+    {
+      "time": 122.43333333333334,
+      "hand": "L",
+      "speed": 1.3728201017465569,
+      "accel": 6.991509963222888
+    },
+    {
+      "time": 42.43333333333333,
+      "hand": "L",
+      "speed": 1.372820100232153,
+      "accel": 6.991509954731651
+    },
+    {
+      "time": 202.43333333333334,
+      "hand": "L",
+      "speed": 1.3546859739036134,
+      "accel": 7.80389476570076
+    },
+    {
+      "time": 92.43333333333334,
+      "hand": "L",
+      "speed": 1.3546859738111383,
+      "accel": 7.803894757296829
+    },
+    {
+      "time": 87.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412116839413,
+      "accel": 4.390203876545025
+    },
+    {
+      "time": 157.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412113586526,
+      "accel": 4.390203851944144
+    },
+    {
+      "time": 197.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412100468173,
+      "accel": 4.390203735165116
+    },
+    {
+      "time": 77.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412067194893,
+      "accel": 4.390203633193254
+    },
+    {
+      "time": 147.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412065913278,
+      "accel": 4.390203619835244
+    },
+    {
+      "time": 187.43333333333334,
+      "hand": "L",
+      "speed": 1.3141412052642718,
+      "accel": 4.390203499246266
+    }
+  ],
+  "tipSpeedPeaks": [
+    {
+      "time": 48.766666666666666,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.725934584824005
+    },
+    {
+      "time": 181.26666666666668,
+      "hand": "R",
+      "finger": 3,
+      "speed": 3.6981592268447447
+    },
+    {
+      "time": 141.26666666666668,
+      "hand": "R",
+      "finger": 3,
+      "speed": 3.673253688342657
+    },
+    {
+      "time": 190.01666666666668,
+      "hand": "R",
+      "finger": 1,
+      "speed": 3.6122256051887454
+    },
+    {
+      "time": 108.76666666666667,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.581670486052042
+    },
+    {
+      "time": 186.26666666666668,
+      "hand": "R",
+      "finger": 5,
+      "speed": 3.5812303854533476
+    },
+    {
+      "time": 216.31666666666666,
+      "hand": "L",
+      "finger": 5,
+      "speed": 3.572460135139789
+    },
+    {
+      "time": 146.26666666666668,
+      "hand": "R",
+      "finger": 5,
+      "speed": 3.5343596591840964
+    },
+    {
+      "time": 81.26666666666667,
+      "hand": "R",
+      "finger": 3,
+      "speed": 3.5312619087916746
+    },
+    {
+      "time": 50.81666666666667,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.5256414691716427
+    },
+    {
+      "time": 8.766666666666667,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.5079445527708506
+    },
+    {
+      "time": 166.26666666666668,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.5060364368505614
+    },
+    {
+      "time": 52.06666666666667,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.5019451013270353
+    },
+    {
+      "time": 113.73333333333333,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.4708472878279184
+    },
+    {
+      "time": 41.583333333333336,
+      "hand": "R",
+      "finger": 2,
+      "speed": 3.4626391856945222
+    },
+    {
+      "time": 71.26666666666667,
+      "hand": "R",
+      "finger": 3,
+      "speed": 3.398364397185814
+    },
+    {
+      "time": 182.2,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.3724043593376485
+    },
+    {
+      "time": 142.2,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.3642354712748195
+    },
+    {
+      "time": 72.2,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.361874235920298
+    },
+    {
+      "time": 52.2,
+      "hand": "L",
+      "finger": 1,
+      "speed": 3.3486177783518727
+    }
+  ],
+  "missing": [],
+  "movementLimits": {
+    "wristSpeedMps": 1.5,
+    "wristAccelerationMps2": 25,
+    "tipSpeedMps": 5,
+    "dorsalElevationDegrees": 60,
+    "backwardPipMm": 3,
+    "description": "Engineering review thresholds for this performance; not clinical human limits."
+  },
+  "handShape": {
+    "sampleCount": 109024,
+    "violations": 0,
+    "violationsByState": {
+      "held": 0,
+      "released": 0
+    },
+    "maxDorsalElevationDegrees": 57.14803152412017,
+    "maxBackwardPipMm": 1.8150437260534558,
+    "backwardPeaks": [
+      {
+        "time": 182.2,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.48987682930377,
+        "backwardPipMm": 1.8150437260534558,
+        "pipDegrees": 74.91003432397329,
+        "dipDegrees": 35.9568353352496
+      },
+      {
+        "time": 182.21666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49008002713018,
+        "backwardPipMm": 1.8150436035285489,
+        "pipDegrees": 74.91003433003921,
+        "dipDegrees": 35.95683536096831
+      },
+      {
+        "time": 182.23333333333332,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.490276774582686,
+        "backwardPipMm": 1.815043478939099,
+        "pipDegrees": 74.91003433811454,
+        "dipDegrees": 35.95683538046095
+      },
+      {
+        "time": 182.25,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49046002510639,
+        "backwardPipMm": 1.8150433549879164,
+        "pipDegrees": 74.91003434788871,
+        "dipDegrees": 35.95683539286742
+      },
+      {
+        "time": 182.26666666666668,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.490626830044658,
+        "backwardPipMm": 1.8150432338573386,
+        "pipDegrees": 74.91003435878214,
+        "dipDegrees": 35.9568353982809
+      },
+      {
+        "time": 142.2,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.490814335908055,
+        "backwardPipMm": 1.8150431370775322,
+        "pipDegrees": 74.91003438503577,
+        "dipDegrees": 35.95683523918967
+      },
+      {
+        "time": 182.28333333333333,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.4907770897077,
+        "backwardPipMm": 1.8150431175484871,
+        "pipDegrees": 74.91003437007217,
+        "dipDegrees": 35.95683539747319
+      },
+      {
+        "time": 142.21666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49102252309345,
+        "backwardPipMm": 1.8150430246525462,
+        "pipDegrees": 74.91003438991825,
+        "dipDegrees": 35.956835264556695
+      },
+      {
+        "time": 72.2,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.490998498099415,
+        "backwardPipMm": 1.8150430120426886,
+        "pipDegrees": 74.91003439863789,
+        "dipDegrees": 35.956835224556336
+      },
+      {
+        "time": 182.3,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.490912026566594,
+        "backwardPipMm": 1.8150430081312896,
+        "pipDegrees": 74.91003438099834,
+        "dipDegrees": 35.956835391647935
+      },
+      {
+        "time": 142.23333333333332,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.491216087235735,
+        "backwardPipMm": 1.8150429120362688,
+        "pipDegrees": 74.91003439686793,
+        "dipDegrees": 35.9568352835046
+      },
+      {
+        "time": 182.31666666666666,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.491033483501624,
+        "backwardPipMm": 1.8150429078128694,
+        "pipDegrees": 74.91003439081784,
+        "dipDegrees": 35.95683538221914
+      },
+      {
+        "time": 72.21666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49121085262468,
+        "backwardPipMm": 1.815042900741276,
+        "pipDegrees": 74.91003440333917,
+        "dipDegrees": 35.95683524897501
+      },
+      {
+        "time": 182.33333333333334,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49114324514894,
+        "backwardPipMm": 1.8150428188780376,
+        "pipDegrees": 74.91003439885662,
+        "dipDegrees": 35.95683537065611
+      },
+      {
+        "time": 142.25,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49139002505682,
+        "backwardPipMm": 1.8150428013715136,
+        "pipDegrees": 74.91003440549571,
+        "dipDegrees": 35.95683529562782
+      },
+      {
+        "time": 72.23333333333333,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.491405922338394,
+        "backwardPipMm": 1.8150427898888932,
+        "pipDegrees": 74.91003441011544,
+        "dipDegrees": 35.95683526692687
+      },
+      {
+        "time": 182.35,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.491242051320697,
+        "backwardPipMm": 1.815042743845835,
+        "pipDegrees": 74.9100344045385,
+        "dipDegrees": 35.95683535845097
+      },
+      {
+        "time": 142.26666666666668,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.491543164529464,
+        "backwardPipMm": 1.8150426943673026,
+        "pipDegrees": 74.91003441520787,
+        "dipDegrees": 35.95683530129649
+      },
+      {
+        "time": 182.36666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49132994713928,
+        "backwardPipMm": 1.8150426851107626,
+        "pipDegrees": 74.91003440741078,
+        "dipDegrees": 35.956835346990275
+      },
+      {
+        "time": 72.25,
+        "hand": "L",
+        "finger": 2,
+        "held": true,
+        "dorsalElevationDegrees": 18.49157949590835,
+        "backwardPipMm": 1.8150426814682319,
+        "pipDegrees": 74.91003441854575,
+        "dipDegrees": 35.956835278169564
+      }
+    ],
+    "peaks": [
+      {
+        "time": 193.1,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 57.14803152412017,
+        "backwardPipMm": 0,
+        "pipDegrees": 51.713844514653964,
+        "dipDegrees": 24.82264396147554
+      },
+      {
+        "time": 22.15,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.89254480025481,
+        "backwardPipMm": 0,
+        "pipDegrees": 54.279128033236596,
+        "dipDegrees": 26.053984296401204
+      },
+      {
+        "time": 67.15,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.82137976888403,
+        "backwardPipMm": 0,
+        "pipDegrees": 54.12401643533471,
+        "dipDegrees": 25.97953122911598
+      },
+      {
+        "time": 137.15,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.820612479359475,
+        "backwardPipMm": 0,
+        "pipDegrees": 54.12401641298273,
+        "dipDegrees": 25.979531235113544
+      },
+      {
+        "time": 15.433333333333334,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.373004055984204,
+        "backwardPipMm": 0,
+        "pipDegrees": 56.16806452536393,
+        "dipDegrees": 26.960674256992483
+      },
+      {
+        "time": 35.43333333333333,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.372778871126215,
+        "backwardPipMm": 0,
+        "pipDegrees": 56.168064524600155,
+        "dipDegrees": 26.96067425698074
+      },
+      {
+        "time": 124.35,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.27726080791339,
+        "backwardPipMm": 0,
+        "pipDegrees": 65.56230828688629,
+        "dipDegrees": 31.46991454978911
+      },
+      {
+        "time": 124.76666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.26516358483688,
+        "backwardPipMm": 0,
+        "pipDegrees": 44.98273803713358,
+        "dipDegrees": 21.591717954408153
+      },
+      {
+        "time": 44.766666666666666,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.26145577142707,
+        "backwardPipMm": 0,
+        "pipDegrees": 44.98273799385111,
+        "dipDegrees": 21.591717951761066
+      },
+      {
+        "time": 54.18333333333333,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.23677214364415,
+        "backwardPipMm": 0,
+        "pipDegrees": 43.8667850375765,
+        "dipDegrees": 21.05605833342325
+      },
+      {
+        "time": 124.33333333333333,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.2067101177522,
+        "backwardPipMm": 0,
+        "pipDegrees": 45.27312162608887,
+        "dipDegrees": 21.731102131851145
+      },
+      {
+        "time": 44.333333333333336,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.20610803295401,
+        "backwardPipMm": 0,
+        "pipDegrees": 45.273121602345874,
+        "dipDegrees": 21.73110213278556
+      },
+      {
+        "time": 44.35,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 56.0829932639383,
+        "backwardPipMm": 0,
+        "pipDegrees": 65.56230827010552,
+        "dipDegrees": 31.46991457673289
+      },
+      {
+        "time": 192.48333333333332,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.97119945268982,
+        "backwardPipMm": 0,
+        "pipDegrees": 39.37418885515273,
+        "dipDegrees": 18.899610993869814
+      },
+      {
+        "time": 183.11666666666667,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.74060164419058,
+        "backwardPipMm": 0,
+        "pipDegrees": 69.54728725919806,
+        "dipDegrees": 33.382687929502495
+      },
+      {
+        "time": 143.11666666666667,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.7089958512238,
+        "backwardPipMm": 0,
+        "pipDegrees": 69.54728722370693,
+        "dipDegrees": 33.38268793029175
+      },
+      {
+        "time": 153.11666666666667,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.70131910240764,
+        "backwardPipMm": 0,
+        "pipDegrees": 69.54728722051108,
+        "dipDegrees": 33.38268793292534
+      },
+      {
+        "time": 117.16666666666667,
+        "hand": "L",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.66042031026062,
+        "backwardPipMm": 0,
+        "pipDegrees": 63.94026156230793,
+        "dipDegrees": 30.691333538341485
+      },
+      {
+        "time": 73.11666666666666,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.6547544033784,
+        "backwardPipMm": 0,
+        "pipDegrees": 69.54728722787571,
+        "dipDegrees": 33.38268791686676
+      },
+      {
+        "time": 83.11666666666666,
+        "hand": "R",
+        "finger": 2,
+        "held": false,
+        "dorsalElevationDegrees": 55.65099699184234,
+        "backwardPipMm": 0,
+        "pipDegrees": 69.54728722731006,
+        "dipDegrees": 33.3826879176395
+      }
+    ],
+    "dorsalPalmTriangleCounts": {
+      "L": 77,
+      "R": 77
+    },
+    "definition": "Signed proximal elevation above the area-weighted actual dorsal-palm skin plane. Palm triangles have at least 90% wrist ownership, centers at 25\u201380% of knuckle span, and initial normals within 60 degrees of local negative Z. Thumb shape requires separate review."
+  },
+  "maxWristSpeedMps": 1.4893452678002357,
+  "maxWristAccelerationMps2": 24.336629997807318,
+  "maxTipSpeedMps": 3.725934584824005,
+  "passed": true,
+  "scope": "Five actual fingertip-mesh samples in every note, full 60Hz absolute-time replay including the exact score endpoint, joint-bend and movement diagnostics; visual anatomy and audible playback require separate review.",
+  "inputs": {
+    "analysis/hand-fit/rh-travel/joint-transport-v4/score.json": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "public/assets/pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "analysis/hand-fit/rh-travel/joint-transport-v4/pianist.mjs": "a8b3be88d13b502c52fd398fbbb1d8d6b99eb571a646693207f53286587d05b9",
+    "production/qa/compiled/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "production/qa/key-pad-contact.mjs": "939d56a79a470da8c05791b4306595b7b3250708f209ae9c6fab8d5825c84da4",
+    "production/qa/hand-shape.mjs": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f"
+  },
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

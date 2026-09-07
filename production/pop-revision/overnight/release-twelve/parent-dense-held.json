@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "samples": 3351,
+  "times": 1650,
+  "minGapMm": -1.556868287958757,
+  "maxGapMm": 2.472775063502075,
+  "maxDifferenceMm": 0,
+  "bad": [],
+  "scope": "Actual assigned-key distal pads at 240Hz throughout twelve selected note holds and every simultaneous held note during their guarded release intervals; held boundaries offset only one microsecond to remain held.",
+  "inputHashes": {
+    "release-twelve/score.json": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912",
+    "short-gap/score.json": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+    "release-twelve/windows.json": "1f520440641713f502eadcf214c6d03371d4209985240a595cc3f7ad172f0a16",
+    "dense-held.mjs": "43a896b64787303418d74f254ef73147d24510a117034c423aa63e3ae2a89890",
+    "key-pad-contact.mjs": "939d56a79a470da8c05791b4306595b7b3250708f209ae9c6fab8d5825c84da4",
+    "../pianopiece-threejs/public/assets/pianist.glb": "3b10d4739ab5d403397991d795146054f18939d10de4dddd858bc6c42e6b8f25",
+    "release-twelve/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "short-gap/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "release-twelve/compiled/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "short-gap/compiled/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "release-twelve/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "short-gap/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "release-twelve/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "short-gap/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260"
+  },
+  "inputsUnchanged": true
+}

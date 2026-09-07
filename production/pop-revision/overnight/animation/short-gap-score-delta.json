@@ -1,0 +1,70 @@
+[
+  {
+    "id": "db00493",
+    "expected": {
+      "time": 108.459136,
+      "duration": 0.245949,
+      "midi": 71,
+      "velocity": 0.572,
+      "hand": "R",
+      "finger": 2,
+      "role": "melody",
+      "bar": 44,
+      "beat": 1.5,
+      "writtenDuration": 0.246875,
+      "id": "db00493",
+      "contactLift": 0.003
+    },
+    "replacement": {
+      "time": 108.459136,
+      "duration": 0.245949,
+      "midi": 71,
+      "velocity": 0.572,
+      "hand": "R",
+      "finger": 2,
+      "role": "melody",
+      "bar": 44,
+      "beat": 1.5,
+      "writtenDuration": 0.246875,
+      "id": "db00493",
+      "contactLift": 0.003,
+      "releasePose": {
+        "liftDegrees": 15
+      }
+    }
+  },
+  {
+    "id": "db00757",
+    "expected": {
+      "time": 165.95853,
+      "duration": 0.245219,
+      "midi": 67,
+      "velocity": 0.602,
+      "hand": "R",
+      "finger": 2,
+      "role": "melody",
+      "bar": 67,
+      "beat": 1.5,
+      "writtenDuration": 0.246875,
+      "id": "db00757",
+      "contactLift": 0.003
+    },
+    "replacement": {
+      "time": 165.95853,
+      "duration": 0.245219,
+      "midi": 67,
+      "velocity": 0.602,
+      "hand": "R",
+      "finger": 2,
+      "role": "melody",
+      "bar": 67,
+      "beat": 1.5,
+      "writtenDuration": 0.246875,
+      "id": "db00757",
+      "contactLift": 0.003,
+      "releasePose": {
+        "liftDegrees": 15
+      }
+    }
+  }
+]

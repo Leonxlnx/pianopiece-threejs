@@ -1,0 +1,109 @@
+{
+  "scope": "Character-specific handoffs and source reviewed; global project continuation owned by parent",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "a9c5ccbb2a40fbd11ffe71a60cf4dd1fd0e7cb56c19c4b1b0da7c0b585753a98"
+    },
+    {
+      "path": "handoff.md",
+      "sha256": "6c2ceb65c95a28e417daf61354df9d9750e567087326b18366676d6b8d8ec17b"
+    },
+    {
+      "path": "TRANSFER.md",
+      "sha256": "85f909c379a6cb8633daf84f5b1acca87ff0b458e8357fdf724d569ed815dc45"
+    },
+    {
+      "path": "context/USER-PROMPTS.md",
+      "sha256": "ac953ab3d042f1c8529562f0e21fb2c003209633e15a4f598c6193e120ff3346"
+    },
+    {
+      "path": "context/STATUS-AND-NEXT-STEPS.md",
+      "sha256": "9a022255f6e5748bd4c0d36d8802ca9d3ce9a8d6702209fb7152391ac1e89ed5"
+    },
+    {
+      "path": "context/TECHNICAL-HANDOFF.md",
+      "sha256": "b065d7604f330366cc7cfeeac5791894b91e09178dfea3a08b2d4e12725babcf"
+    },
+    {
+      "path": "production/revision/current-state.json",
+      "sha256": "3352b3c02632d2ce2b55bc6e32bdce8143166057c92a94bb4988c7a878100184"
+    },
+    {
+      "path": "production/revision/character/README.md",
+      "sha256": "56cfb508e46ef3391d8f8039a9ef263c89ff704151dde6c4aedacda0e55a94ba"
+    },
+    {
+      "path": "production/revision/character/tailoring/README.md",
+      "sha256": "e065cf06c1068b4ce0191e68f0e78cfc5e7b2263f5c8ba72cf5bb24811ae0d91"
+    },
+    {
+      "path": "production/revision/character/gaze-candidate/README.md",
+      "sha256": "b9941bb4c7884f20ddefcff82e6b0405cade1815ac9656a7da6d255586dc8619"
+    },
+    {
+      "path": "production/revision/character/hair-motion/README.md",
+      "sha256": "684dbd540af33d71754b77f73697f630543032e6c2c056400651d60cbf6a25cb"
+    },
+    {
+      "path": "production/revision/character/phrase-check/README.md",
+      "sha256": "9b383c1ec3f3be4fb3eaeeab242adcac8d7ddacf41d1f1c6ba7d804b80dd076d"
+    },
+    {
+      "path": "production/licenses/performer.md",
+      "sha256": "6f1a46fbe8eda2a743911d6d1ab981a360ddf14a2b4f899c24c4e43f36806c64"
+    },
+    {
+      "path": "production/qa/evidence/skin-temporal.md",
+      "sha256": "c502967826b108d72a8479fce4f1ed72a36a0df2b6f82d290a15f4c563fcb407"
+    },
+    {
+      "path": "production/qa/evidence/camera-review.md",
+      "sha256": "5112777b83e5988f9baeb3555bb80b7d5747d7b3eb5838bbba51fd4eb896821b"
+    },
+    {
+      "path": "production/qa/evidence/rig-motion.md",
+      "sha256": "4ba92eb9612911f3e5e91aeaff0f06564748bb73bb361442109a92e2cadc51af"
+    },
+    {
+      "path": "production/revision/character/refine_character.py",
+      "sha256": "6799fc90ecab79dccf8c0f169761f55b1e4b0d9b1a75d93423dc3a1ae1d6ad46"
+    },
+    {
+      "path": "production/revision/character/glb_tools.py",
+      "sha256": "619591eebb1e8e84259741e205b8e4ae5ef78915270ff498a99b39625a176f5e"
+    },
+    {
+      "path": "production/revision/character/tailoring/tailor_garment.py",
+      "sha256": "a462579b9e097c1d68a9aaede48446ae5ef3e07a140350044e2e09d523130bae"
+    },
+    {
+      "path": "production/revision/character/hair-motion/bake-hair-motion.mjs",
+      "sha256": "68c065c3c962d6d3e7893675d8ba97ade99ce6c621294383a3750972f96477a6"
+    },
+    {
+      "path": "production/revision/character/hair-motion/check-posture-inputs.mjs",
+      "sha256": "36bc5156827e29edc6d019b409e73797a1121c9bae35ee554cb12809889bf6f2"
+    },
+    {
+      "path": "production/revision/character/hair-motion/verify-runtime.mjs",
+      "sha256": "c8685e75cf4dcf752b70a67e3ea7981b912bbaa84397ab56ee8290169f161c5e"
+    },
+    {
+      "path": "production/revision/character/hair-motion/measure-gaze.mjs",
+      "sha256": "e3b8acd6a0116f044ae62012e71af4427e24bfe4a343144c3142c8e1703013a7"
+    },
+    {
+      "path": "production/revision/character/phrase-check/check-phrase.mjs",
+      "sha256": "be250a0bb60a61925741416fb3b5a4cc622931da70cae68fbe09cbcce433fa0d"
+    },
+    {
+      "path": "production/revision/character/gaze-candidate/candidate.patch",
+      "sha256": "f67555357b21f547d3975c212c58138430085a3d3691c605e546701d6bed8442"
+    }
+  ],
+  "retainedImagesInspected": [
+    "production/revision/character/phrase-check/phrase-strip.jpg",
+    "production/qa/camera-coverage/current-landscape-sheet-1.png"
+  ]
+}

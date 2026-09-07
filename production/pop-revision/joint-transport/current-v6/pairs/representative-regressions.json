@@ -1,0 +1,611 @@
+{
+  "selection": "One maximum candidate triangle-incidence frame per regressing patch pair. Incidence is not penetration depth or visual severity. Complete improvements and regressions remain in pair-row-deltas.json.",
+  "sourceReports": {
+    "current": {
+      "file": "current-pairs60.json",
+      "sha256": "5928d5df90527d87095e18028cb4b48b94d3651b61fe64d717f4c4f5ac750e1d",
+      "inputs": {
+        "rig": {
+          "file": "pianist.mjs",
+          "sha256": "43c5989539f1bc4029d50b6223709c10618ff6df96b5a5abf219594ff137c2cf"
+        },
+        "piano": {
+          "file": "piano.mjs",
+          "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+        },
+        "score": {
+          "file": "score.json",
+          "sha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a"
+        },
+        "model": {
+          "file": "pianist.glb",
+          "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+        }
+      },
+      "rigTsSha256": "577fb14cd0e20dec5d0563b4dbc2e205cc1b0ef2d900b7ff379da97093797512"
+    },
+    "v6": {
+      "file": "v6-pairs60.json",
+      "sha256": "8c721eb76a8846c524ebfc0160741801f2eb47f9501d5cb5f243984bab271265",
+      "inputs": {
+        "rig": {
+          "file": "pianist.mjs",
+          "sha256": "ee81045d8e8d0d42b343549546023af96b2c3b30900cfeac42644267fb4635df"
+        },
+        "piano": {
+          "file": "piano.mjs",
+          "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+        },
+        "score": {
+          "file": "score.json",
+          "sha256": "b0474db884b74a74858ef0f9347ce0b8188e086fbd81eacd33ff02e79dd1ef40"
+        },
+        "model": {
+          "file": "pianist.glb",
+          "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+        }
+      },
+      "rigTsSha256": "26db9864514b523f825b6afcc6232eb5a2429ee6889bbf6ebf6662853f8eb500"
+    }
+  },
+  "regressingPairs": [
+    {
+      "kind": "neighbor",
+      "a": "LMiddle",
+      "b": "LRing",
+      "rows": 351,
+      "frames": 351,
+      "introducedRows": 312,
+      "increasedRows": 39,
+      "trianglePairDelta": 23819,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 3623,
+        "time": 60.38333333333333,
+        "a": "LMiddle",
+        "b": "LRing",
+        "kind": "neighbor",
+        "change": "introduced",
+        "trianglePairDelta": 214,
+        "before": null,
+        "after": {
+          "frame": 3623,
+          "time": 60.38333333333333,
+          "active": [
+            {
+              "id": "db00241",
+              "hand": "R",
+              "finger": 2,
+              "midi": 69
+            }
+          ],
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 214,
+          "states": [
+            {
+              "state": "release",
+              "note": "db00240",
+              "midi": 50,
+              "previous": "db00240",
+              "previousMidi": 50,
+              "next": "db00242",
+              "nextMidi": 53,
+              "gapSeconds": 0.12899999999999778,
+              "sinceEnd": 0.03158333333333019,
+              "effectiveDuration": 0.06449999999999889,
+              "pose": null
+            },
+            {
+              "state": "idle",
+              "previous": "db00227",
+              "previousMidi": 45,
+              "next": "db00264",
+              "nextMidi": 45,
+              "gapSeconds": 7.3125
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "neighbor",
+      "a": "RMiddle",
+      "b": "RRing",
+      "rows": 294,
+      "frames": 294,
+      "introducedRows": 143,
+      "increasedRows": 151,
+      "trianglePairDelta": 21001,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 5887,
+        "time": 98.11666666666666,
+        "a": "RMiddle",
+        "b": "RRing",
+        "kind": "neighbor",
+        "change": "introduced",
+        "trianglePairDelta": 236,
+        "before": null,
+        "after": {
+          "frame": 5887,
+          "time": 98.11666666666666,
+          "active": [],
+          "a": "RMiddle",
+          "b": "RRing",
+          "kind": "neighbor",
+          "trianglePairs": 236,
+          "states": [
+            {
+              "state": "approach",
+              "note": "db00459",
+              "midi": 69,
+              "previous": "db00456",
+              "previousMidi": 71,
+              "next": "db00459",
+              "nextMidi": 69,
+              "gapSeconds": 0.13304399999999816,
+              "untilStart": 0.03333333333334565,
+              "effectiveDuration": 0.06652199999999908,
+              "pose": null
+            },
+            {
+              "state": "idle",
+              "previous": "db00443",
+              "previousMidi": 72,
+              "next": "db00624",
+              "nextMidi": 74,
+              "gapSeconds": 43.84270900000001
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "neighbor",
+      "a": "RIndex",
+      "b": "RMiddle",
+      "rows": 267,
+      "frames": 267,
+      "introducedRows": 93,
+      "increasedRows": 174,
+      "trianglePairDelta": 16462,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 206,
+        "time": 3.433333333333333,
+        "a": "RIndex",
+        "b": "RMiddle",
+        "kind": "neighbor",
+        "change": "increased-count",
+        "trianglePairDelta": 10,
+        "before": {
+          "frame": 206,
+          "time": 3.433333333333333,
+          "active": [],
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 199,
+          "states": [
+            {
+              "state": "short-gap",
+              "previous": "db00010",
+              "previousMidi": 64,
+              "next": "db00014",
+              "nextMidi": 60,
+              "gapSeconds": 0.37429299999999976,
+              "sinceEnd": 0.03839633333333303,
+              "untilStart": 0.33589666666666673,
+              "normalizedTime": 0.10258362655281572
+            },
+            {
+              "state": "approach",
+              "note": "db00013",
+              "midi": 62,
+              "previous": "db00006",
+              "previousMidi": 64,
+              "next": "db00013",
+              "nextMidi": 62,
+              "gapSeconds": 1.1351719999999998,
+              "untilStart": 0.029332666666666896,
+              "effectiveDuration": 0.16,
+              "pose": null
+            }
+          ],
+          "activeInvolved": false
+        },
+        "after": {
+          "frame": 206,
+          "time": 3.433333333333333,
+          "active": [],
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 209,
+          "states": [
+            {
+              "state": "release",
+              "note": "db00010",
+              "midi": 64,
+              "previous": "db00010",
+              "previousMidi": 64,
+              "next": "db00014",
+              "nextMidi": 60,
+              "gapSeconds": 0.37429299999999976,
+              "sinceEnd": 0.03839633333333303,
+              "effectiveDuration": 0.08,
+              "pose": null
+            },
+            {
+              "state": "approach",
+              "note": "db00013",
+              "midi": 62,
+              "previous": "db00006",
+              "previousMidi": 64,
+              "next": "db00013",
+              "nextMidi": 62,
+              "gapSeconds": 1.1351719999999998,
+              "untilStart": 0.029332666666666896,
+              "effectiveDuration": 0.1,
+              "pose": null
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "neighbor",
+      "a": "LRing",
+      "b": "LPinky",
+      "rows": 245,
+      "frames": 245,
+      "introducedRows": 84,
+      "increasedRows": 161,
+      "trianglePairDelta": 6480,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 12981,
+        "time": 216.35,
+        "a": "LRing",
+        "b": "LPinky",
+        "kind": "neighbor",
+        "change": "increased-count",
+        "trianglePairDelta": 89,
+        "before": {
+          "frame": 12981,
+          "time": 216.35,
+          "active": [],
+          "a": "LRing",
+          "b": "LPinky",
+          "kind": "neighbor",
+          "trianglePairs": 48,
+          "states": [
+            {
+              "state": "idle",
+              "previous": "db00966",
+              "previousMidi": 45,
+              "gapSeconds": 999793.08175
+            },
+            {
+              "state": "short-gap",
+              "previous": "db00999",
+              "previousMidi": 41,
+              "next": "db01001",
+              "nextMidi": 44,
+              "gapSeconds": 0.06999999999999318,
+              "sinceEnd": 0.05485699999999838,
+              "untilStart": 0.0151429999999948,
+              "normalizedTime": 0.7836714285714818
+            }
+          ],
+          "activeInvolved": false
+        },
+        "after": {
+          "frame": 12981,
+          "time": 216.35,
+          "active": [],
+          "a": "LRing",
+          "b": "LPinky",
+          "kind": "neighbor",
+          "trianglePairs": 137,
+          "states": [
+            {
+              "state": "idle",
+              "previous": "db00966",
+              "previousMidi": 45,
+              "gapSeconds": 999793.08175
+            },
+            {
+              "state": "approach",
+              "note": "db01001",
+              "midi": 44,
+              "previous": "db00999",
+              "previousMidi": 41,
+              "next": "db01001",
+              "nextMidi": 44,
+              "gapSeconds": 0.06999999999999318,
+              "untilStart": 0.0151429999999948,
+              "effectiveDuration": 0.03499999999999659,
+              "pose": null
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "neighbor",
+      "a": "RRing",
+      "b": "RPinky",
+      "rows": 172,
+      "frames": 172,
+      "introducedRows": 81,
+      "increasedRows": 91,
+      "trianglePairDelta": 3875,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 11548,
+        "time": 192.46666666666667,
+        "a": "RRing",
+        "b": "RPinky",
+        "kind": "neighbor",
+        "change": "increased-count",
+        "trianglePairDelta": 115,
+        "before": {
+          "frame": 11548,
+          "time": 192.46666666666667,
+          "active": [],
+          "a": "RRing",
+          "b": "RPinky",
+          "kind": "neighbor",
+          "trianglePairs": 22,
+          "states": [
+            {
+              "state": "idle",
+              "previous": "db00624",
+              "previousMidi": 74,
+              "next": "db00959",
+              "nextMidi": 72,
+              "gapSeconds": 65.61117899999999
+            },
+            {
+              "state": "approach",
+              "note": "db00883",
+              "midi": 79,
+              "previous": "db00876",
+              "previousMidi": 83,
+              "next": "db00883",
+              "nextMidi": 79,
+              "gapSeconds": 0.7517970000000105,
+              "untilStart": 0.052659333333338054,
+              "effectiveDuration": 0.16,
+              "pose": null
+            }
+          ],
+          "activeInvolved": false
+        },
+        "after": {
+          "frame": 11548,
+          "time": 192.46666666666667,
+          "active": [],
+          "a": "RRing",
+          "b": "RPinky",
+          "kind": "neighbor",
+          "trianglePairs": 137,
+          "states": [
+            {
+              "state": "idle",
+              "previous": "db00624",
+              "previousMidi": 74,
+              "next": "db00959",
+              "nextMidi": 72,
+              "gapSeconds": 65.61117899999999
+            },
+            {
+              "state": "approach",
+              "note": "db00883",
+              "midi": 79,
+              "previous": "db00876",
+              "previousMidi": 83,
+              "next": "db00883",
+              "nextMidi": 79,
+              "gapSeconds": 0.7517970000000105,
+              "untilStart": 0.052659333333338054,
+              "effectiveDuration": 0.1,
+              "pose": null
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "neighbor",
+      "a": "LIndex",
+      "b": "LMiddle",
+      "rows": 49,
+      "frames": 49,
+      "introducedRows": 24,
+      "increasedRows": 25,
+      "trianglePairDelta": 1998,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 5341,
+        "time": 89.01666666666667,
+        "a": "LIndex",
+        "b": "LMiddle",
+        "kind": "neighbor",
+        "change": "increased-count",
+        "trianglePairDelta": 123,
+        "before": {
+          "frame": 5341,
+          "time": 89.01666666666667,
+          "active": [
+            {
+              "id": "db00404",
+              "hand": "R",
+              "finger": 3,
+              "midi": 72
+            }
+          ],
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 45,
+          "states": [
+            {
+              "state": "approach",
+              "note": "db00405",
+              "midi": 45,
+              "previous": "db00400",
+              "previousMidi": 48,
+              "next": "db00405",
+              "nextMidi": 45,
+              "gapSeconds": 0.554000000000002,
+              "untilStart": 0.057833333333334735,
+              "effectiveDuration": 0.16,
+              "pose": null
+            },
+            {
+              "state": "idle",
+              "previous": "db00399",
+              "previousMidi": 45,
+              "next": "db00410",
+              "nextMidi": 53,
+              "gapSeconds": 1.960250000000002
+            }
+          ],
+          "activeInvolved": false
+        },
+        "after": {
+          "frame": 5341,
+          "time": 89.01666666666667,
+          "active": [
+            {
+              "id": "db00404",
+              "hand": "R",
+              "finger": 3,
+              "midi": 72
+            }
+          ],
+          "a": "LIndex",
+          "b": "LMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 168,
+          "states": [
+            {
+              "state": "approach",
+              "note": "db00405",
+              "midi": 45,
+              "previous": "db00400",
+              "previousMidi": 48,
+              "next": "db00405",
+              "nextMidi": 45,
+              "gapSeconds": 0.554000000000002,
+              "untilStart": 0.057833333333334735,
+              "effectiveDuration": 0.1,
+              "pose": null
+            },
+            {
+              "state": "idle",
+              "previous": "db00399",
+              "previousMidi": 45,
+              "next": "db00410",
+              "nextMidi": 53,
+              "gapSeconds": 1.960250000000002
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    },
+    {
+      "kind": "own-palm",
+      "a": "LThumb",
+      "b": "LPalm",
+      "rows": 6,
+      "frames": 6,
+      "introducedRows": 0,
+      "increasedRows": 6,
+      "trianglePairDelta": 18,
+      "representativeByHighestIncidenceOnly": {
+        "frame": 11943,
+        "time": 199.05,
+        "a": "LThumb",
+        "b": "LPalm",
+        "kind": "own-palm",
+        "change": "increased-count",
+        "trianglePairDelta": 7,
+        "before": {
+          "frame": 11943,
+          "time": 199.05,
+          "active": [
+            {
+              "id": "db00920",
+              "hand": "R",
+              "finger": 3,
+              "midi": 72
+            }
+          ],
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 48,
+          "states": [
+            {
+              "state": "approach",
+              "note": "db00922",
+              "midi": 48,
+              "previous": "db00911",
+              "previousMidi": 55,
+              "next": "db00922",
+              "nextMidi": 48,
+              "gapSeconds": 1.7338359999999966,
+              "untilStart": 0.024499999999989086,
+              "effectiveDuration": 0.1,
+              "pose": null
+            },
+            {
+              "state": "hand-support"
+            }
+          ],
+          "activeInvolved": false
+        },
+        "after": {
+          "frame": 11943,
+          "time": 199.05,
+          "active": [
+            {
+              "id": "db00920",
+              "hand": "R",
+              "finger": 3,
+              "midi": 72
+            }
+          ],
+          "a": "LThumb",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 55,
+          "states": [
+            {
+              "state": "approach",
+              "note": "db00922",
+              "midi": 48,
+              "previous": "db00911",
+              "previousMidi": 55,
+              "next": "db00922",
+              "nextMidi": 48,
+              "gapSeconds": 1.7338359999999966,
+              "untilStart": 0.024499999999989086,
+              "effectiveDuration": 0.1,
+              "pose": null
+            },
+            {
+              "state": "hand-support"
+            }
+          ],
+          "activeInvolved": false
+        }
+      }
+    }
+  ]
+}

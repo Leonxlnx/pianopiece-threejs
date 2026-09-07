@@ -1,0 +1,65 @@
+{
+  "inputSHA256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "candidateSHA256": "3b10d4739ab5d403397991d795146054f18939d10de4dddd858bc6c42e6b8f25",
+  "scope": "All blouse triangles with a vertex moving over 5 micrometres against actual rendered body triangles, 7 exact poses; manual moving visual review remains necessary",
+  "analyticControlsPassed": 4,
+  "poses": [
+    {
+      "time": 0,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 15,
+      "candidateIntersectingPairs": 15,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 53,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 15,
+      "candidateIntersectingPairs": 15,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 95.44,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 8,
+      "candidateIntersectingPairs": 8,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 108.72,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 0,
+      "candidateIntersectingPairs": 0,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 170,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 0,
+      "candidateIntersectingPairs": 0,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 186,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 9,
+      "candidateIntersectingPairs": 9,
+      "newPairs": [],
+      "clearedPairs": []
+    },
+    {
+      "time": 226.5,
+      "alteredTriangles": 2620,
+      "baselineIntersectingPairs": 0,
+      "candidateIntersectingPairs": 0,
+      "newPairs": [],
+      "clearedPairs": []
+    }
+  ],
+  "passed": true
+}

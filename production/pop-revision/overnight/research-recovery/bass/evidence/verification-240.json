@@ -1,0 +1,164 @@
+{
+  "passed": true,
+  "id": "db00407",
+  "profile": {
+    "duration": 0.14,
+    "liftDegrees": 0,
+    "sweepDegrees": 0,
+    "jointPath": [
+      {
+        "at": 0,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 0
+      },
+      {
+        "at": 0.2857142857142857,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 0
+      },
+      {
+        "at": 0.3857142857142857,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 10
+      },
+      {
+        "at": 0.41428571428571426,
+        "lift": 2.5,
+        "sweep": -3.5,
+        "roll": 10
+      },
+      {
+        "at": 0.44285714285714284,
+        "lift": 0,
+        "sweep": -5,
+        "roll": 0
+      },
+      {
+        "at": 0.5714285714285714,
+        "lift": 0,
+        "sweep": -5,
+        "roll": 0
+      },
+      {
+        "at": 0.6428571428571428,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 0
+      },
+      {
+        "at": 0.7428571428571428,
+        "lift": 8,
+        "sweep": 0,
+        "roll": 0
+      },
+      {
+        "at": 0.8428571428571427,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 0
+      },
+      {
+        "at": 1,
+        "lift": 0,
+        "sweep": 0,
+        "roll": 0
+      }
+    ]
+  },
+  "coverage": {
+    "windows": [
+      {
+        "id": "db00407",
+        "hand": "L",
+        "finger": 4,
+        "start": 90.35175,
+        "end": 90.49175
+      }
+    ],
+    "times": 50,
+    "geometryFps": 240,
+    "motionFps": [
+      240,
+      960
+    ],
+    "guardsSeconds": 0.025,
+    "maxGapSeconds": 0.004166666666677088
+  },
+  "surface": {
+    "oldTarget": 499,
+    "newTarget": 0,
+    "oldMiddle": 760,
+    "newMiddle": 81,
+    "shallowIncreases": [
+      {
+        "time": 90.41008333333332,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.303552712817958
+      }
+    ]
+  },
+  "invariants": {
+    "unrelatedQuaternionError": 0,
+    "endpointSkinErrorMm": 0,
+    "heldSkinErrorMm": 0
+  },
+  "negativeControls": 16,
+  "inputsUnchanged": true,
+  "inputHashes": {
+    "/dev/shm/daybreak-bass-882c1c2d8c18/ring-route-v2-final/times.json": "ef0981b584597d6a25dce92ca16c565c15914b78cc9cd2bb60cd8aafb6d5d8dc",
+    "/dev/shm/daybreak-bass-882c1c2d8c18/ring-route-v2-final/windows.json": "696a2401fdb78c2e7386d0b7ac00627baf5c8d59a7067ea723c5a8b048305fb3",
+    "/dev/shm/daybreak-night-882c1c2d8c18/original-pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/direction.mjs": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/hair-motion-data.mjs": "bf76b7a56f457400434959d50bc27b0f161b3a3acd63cfdc4daf766bd67ec7a3",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/pianist.mjs": "213745de85585056a191da836f52d5ebaebca73b5153ef716fc7447b1d950ef5",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/piano.mjs": "958d403c1d537df5276cf694e29f7e51ccd65d482f1a3b32f8a8c48e5d46d9c2",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/stage.mjs": "a332386e3716639edad631624fee13d70d206b228191d685d36f965e30dce51e",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/compiled/wrist-volume.mjs": "f52d9478e254080893e4380e38443a557d4bcfaa1320980a05383bb6b61252ed",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/baseline/score.json": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/check-profile-960.mjs": "57b92e8331a2724e5ed559ed4ba5852477961c4f38fbae0bc66049c36758cae1",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/check-profile.mjs": "35e09fea0e264b5ae05d1de381da99554305a6a8d25b14cb4bb9809532bc5acc",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/dense-held.mjs": "04619737cd4350119ece8134dd3c81da7d3674ba35fe2296475e93bb12f01391",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/feasible.mjs": "f38f8b367084afc5f9dbce9af2ad074a8512abc0738db87641378e3fb4c08064",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/hand-shape.mjs": "c553e34af18e585a9bc6dce8a502d282fa794b44f703ad487a66b30cb96dad7f",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/key-pad-contact.mjs": "939d56a79a470da8c05791b4306595b7b3250708f209ae9c6fab8d5825c84da4",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/motion-validity.mjs": "dbf540c4d31731bcd4279d32e68f73ecb1d710f2b16acae2e20401fd5c65728c",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/motion.mjs": "2755bb5b74c8c67b930fbb322d98c8ef6a805a137d7bfeb534243ebbdb9a3b0e",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/probe-angles-fine.mjs": "8e4609c4b3272218cff0e8505d661728b00ed6f3a9f9a9795edc4d3c2b029693",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/probe-angles.mjs": "94e8bbf64925cf477a6a9751301fed239c5c7eca3a7398d58b4beff429804188",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/probe-roll.mjs": "909a24a4b8bd0b26cf12e432c599d2c54367f42c9934a944acfe0243e867c263",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/runtime.mjs": "4324346ecdbce6477131b58decf25a04478731ed62fdfc3341dd0ea36602bb7f",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/search.mjs": "d9326edbd50b582db601d78994f35c21f55b0c2b410f8b5cda75062961312c6a",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/surface-sampler.mjs": "fbedeb5ee12678c55909005a3929f334888188cdba25ed33c4d233ec1c97959a",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/surfaces.mjs": "5c9bfe08a065e4770f7cd7ce6e5db573131920c52aae00836a5a7e474ab37363",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/verify-960.mjs": "04e88254d3c264e95b61f11436db974422cb5a08478bc23b2e5d4efffc14ef1b",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/qa/verify.mjs": "b7d399695b4bdddfa16fae14852a0255ca1a7748b43076fb29033846dcc9a46e",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/direction.mjs": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/hair-motion-data.mjs": "bf76b7a56f457400434959d50bc27b0f161b3a3acd63cfdc4daf766bd67ec7a3",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/pianist.mjs": "e2fc3f12a5bdf5facac8416eb4580af2845a1504c9d2bbf54dd0381b2420cce6",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/piano.mjs": "958d403c1d537df5276cf694e29f7e51ccd65d482f1a3b32f8a8c48e5d46d9c2",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/stage.mjs": "a332386e3716639edad631624fee13d70d206b228191d685d36f965e30dce51e",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/compiled/wrist-volume.mjs": "f52d9478e254080893e4380e38443a557d4bcfaa1320980a05383bb6b61252ed",
+    "/workspace/scratch/882c1c2d8c18/bass-transition-research/ring-route-v2/score.json": "4af5c2d706b7bb849de58f24885938cd81d18fc33001afc58e174e1e48f6f7ed",
+    "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f"
+  },
+  "scope": "One finite guarded left-ring release. Actual animated key inner boxes and noncoplanar triangle crossings for strongly owned hand patches. Mixed webs checked against keys; pair counts do not cover coplanar or enclosed surfaces. Existing unrelated defects preserved."
+}

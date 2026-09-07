@@ -1,0 +1,56 @@
+{
+  "status": "SCOPED_STILL_APPROVAL",
+  "review": "Four exact native actual-skin stills inspected. The edited right index keeps a continuous rounded shape and modest arch across departure and mid-gap, without a visible new key crossing. Current other-finger holds and settled silhouettes remain distinct. Wrist narrowing is an existing unrelated defect; no whole-hand visual perfection is claimed.",
+  "inputs": {
+    "rig": {
+      "file": "$PROJECT/production/qa/compiled/pianist.mjs",
+      "sha256": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331"
+    },
+    "score": {
+      "file": "$PROJECT/public/assets/score.json",
+      "sha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f"
+    },
+    "model": {
+      "file": "$PROJECT/public/assets/pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    },
+    "piano": {
+      "file": "$PROJECT/production/qa/compiled/piano.mjs",
+      "sha256": "958d403c1d537df5276cf694e29f7e51ccd65d482f1a3b32f8a8c48e5d46d9c2"
+    },
+    "stage": {
+      "file": "$PROJECT/production/qa/compiled/stage.mjs",
+      "sha256": "a332386e3716639edad631624fee13d70d206b228191d685d36f965e30dce51e"
+    },
+    "direction": {
+      "file": "$PROJECT/production/qa/compiled/direction.mjs",
+      "sha256": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b"
+    },
+    "look": {
+      "file": "$PROJECT/production/qa/compiled/render-settings.mjs",
+      "sha256": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635"
+    }
+  },
+  "images": [
+    {
+      "path": "$PROJECT/work/night/short-gap-review/gl-1280-0.jpg",
+      "time": 108.717585,
+      "sha256": "0c1ecbc0727e3895d53ffdcfbb57e5b18cf248e3db89e1015932e469b951cfff"
+    },
+    {
+      "path": "$PROJECT/work/night/short-gap-review/gl-1280-1.jpg",
+      "time": 108.731085,
+      "sha256": "8a69ba48826fe0b486b9458ae128bec1638bedfa1540be5da84e8cd1adb408fc"
+    },
+    {
+      "path": "$PROJECT/work/night/short-gap-review/gl-1280-2.jpg",
+      "time": 166.216249,
+      "sha256": "e508679e4bd0396b4534ea5e1bda53cb648821c524d91c1bb98945bb72b90b5f"
+    },
+    {
+      "path": "$PROJECT/work/night/short-gap-review/gl-1280-3.jpg",
+      "time": 166.229749,
+      "sha256": "f8e321f1c34337f177e505f24b9fc7b6eebc7299a6179827b0942e33af1eacc4"
+    }
+  ]
+}

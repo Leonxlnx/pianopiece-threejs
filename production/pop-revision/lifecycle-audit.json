@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-09-06T09:30:06.001Z",
+  "project": "",
+  "sourceHashes": {
+    "scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "Performance.tsx": "5ff97caa1340af4fa9804cdea7f9b25c76bfbfccb398126e988ace62396a2515",
+    "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+    "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775"
+  },
+  "packages": {
+    "three": "0.183.2",
+    "typescript": "5.9.3"
+  },
+  "method": "Production scene.ts, math.ts and render-settings.ts transpiled unchanged into a VM. Actual Three object tree, disposal events, textures, render targets, EffectComposer sizing/order/swaps/disposal and pass constructors/settings. Controlled loaders, RAF, context events, canvas, PMREM and per-pass GPU draw replacement. React lifecycle owner disposal is explicitly simulated, not mounted.",
+  "limitations": [
+    "No real browser, WebGL allocation, shader compilation, audio device, raster output or actual network load was exercised.",
+    "The mocked room can attach resources upon readiness; actual Stage attaches its mesh tree synchronously and its images resolve asynchronously.",
+    "Resource close/dispose counts are checked per traversal; previously disposed resources can be traversed again by late task finalizers."
+  ],
+  "summary": {
+    "passed": 20,
+    "failed": 0,
+    "total": 20
+  },
+  "results": [
+    {
+      "name": "initialize waits for both character and room before PMREM and first render",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 1062.3
+    },
+    {
+      "name": "piano material readiness also gates the initial PMREM and render",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 244.15
+    },
+    {
+      "name": "paused frames skip expensive scene work while telemetry continues",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 303.72
+    },
+    {
+      "name": "time, inspector time and camera override each invalidate the paused cache",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 320.63
+    },
+    {
+      "name": "resize dirties the paused cache once and uses logical dimensions only once",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 522.31
+    },
+    {
+      "name": "desktop and mobile target budgets, MSAA sample counts and hardware cap",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 1101.15
+    },
+    {
+      "name": "screen-only output avoids alternating two full-size MSAA scene targets",
+      "category": "performance",
+      "status": "pass",
+      "durationMs": 139.84
+    },
+    {
+      "name": "context loss after initialization cancels RAF; restoration replaces PMREM and renders frozen time",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 131.11
+    },
+    {
+      "name": "loads completing while context is lost wait for restoration before PMREM/render",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 171.63
+    },
+    {
+      "name": "restoration before loads finish defers PMREM/render and creates one RAF chain",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 188.18
+    },
+    {
+      "name": "unmount during loads releases assets attached later and never starts rendering",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 155.79
+    },
+    {
+      "name": "room failure followed by owner disposal still releases a late successful actor",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 251.43
+    },
+    {
+      "name": "character failure followed by owner disposal still releases late room resources",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 330.46
+    },
+    {
+      "name": "unmount while piano material is pending releases late piano resources",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 367.37
+    },
+    {
+      "name": "piano material failure propagates and late character success is still disposed",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 488.94
+    },
+    {
+      "name": "load failure after unmount settles without starting work or double renderer disposal",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 547.89
+    },
+    {
+      "name": "PMREM failure during restoration releases its generator, restores visibility and resumes safely",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 256.11
+    },
+    {
+      "name": "dispose releases shared textures, bitmap, geometry, material, instances, skeleton and shadows once",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 436.31
+    },
+    {
+      "name": "initial PMREM failure rejects initialization and remains cleanly disposable by the owner",
+      "category": "regression",
+      "status": "pass",
+      "durationMs": 306.27
+    },
+    {
+      "name": "environment capture uses the same section-transition energy as the rendered frame",
+      "category": "consistency",
+      "status": "pass",
+      "durationMs": 165.07
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

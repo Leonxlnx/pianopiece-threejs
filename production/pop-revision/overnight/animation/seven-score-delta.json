@@ -1,0 +1,379 @@
+[
+  {
+    "id": "db00094",
+    "expected": {
+      "time": 25.49325,
+      "duration": 0.370313,
+      "midi": 72,
+      "velocity": 0.655,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 11,
+      "beat": 0.75,
+      "writtenDuration": 0.370313,
+      "id": "db00094",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "roll": 0.25
+      }
+    },
+    "replacement": {
+      "time": 25.49325,
+      "duration": 0.370313,
+      "midi": 72,
+      "velocity": 0.655,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 11,
+      "beat": 0.75,
+      "writtenDuration": 0.370313,
+      "id": "db00094",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "roll": 0.25
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0.25,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00399",
+    "expected": {
+      "time": 88.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.57,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 36,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00399",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      }
+    },
+    "replacement": {
+      "time": 88.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.57,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 36,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00399",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00404",
+    "expected": {
+      "time": 88.768689,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.767,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 36,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00404",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": -0.015,
+        "z": -0.03,
+        "roll": -0.15
+      }
+    },
+    "replacement": {
+      "time": 88.768689,
+      "duration": 0.49375,
+      "midi": 72,
+      "velocity": 0.767,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 36,
+      "beat": 2,
+      "writtenDuration": 0.49375,
+      "id": "db00404",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": -0.015,
+        "z": -0.03,
+        "roll": -0.15
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": -0.015,
+        "z": -0.03,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": -0.15,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00734",
+    "expected": {
+      "time": 158.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.6,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 64,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00734",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      }
+    },
+    "replacement": {
+      "time": 158.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.6,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 64,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00734",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00915",
+    "expected": {
+      "time": 198.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.685,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 80,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00915",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      }
+    },
+    "replacement": {
+      "time": 198.133,
+      "duration": 0.3875,
+      "midi": 45,
+      "velocity": 0.685,
+      "hand": "L",
+      "finger": 3,
+      "role": "harmony",
+      "bar": 80,
+      "beat": 1,
+      "writtenDuration": 0.3875,
+      "id": "db00915",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.776,
+        "x": 0.015,
+        "z": -0.015,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00986",
+    "expected": {
+      "time": 211.026502,
+      "duration": 0.263333,
+      "midi": 79,
+      "velocity": 0.635,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 85,
+      "beat": 1.5,
+      "writtenDuration": 0.263333,
+      "id": "db00986",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.76,
+        "x": 0.03,
+        "z": -0.015,
+        "roll": 0.15
+      },
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.034999999999999996,
+        "z": 0,
+        "roll": 0.15
+      }
+    },
+    "replacement": {
+      "time": 211.026502,
+      "duration": 0.263333,
+      "midi": 79,
+      "velocity": 0.635,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 85,
+      "beat": 1.5,
+      "writtenDuration": 0.263333,
+      "id": "db00986",
+      "contactLift": 0.003,
+      "approachTravel": {
+        "height": 0.76,
+        "x": 0.03,
+        "z": -0.015,
+        "roll": 0.15
+      },
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.034999999999999996,
+        "z": 0,
+        "roll": 0.15
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0.034999999999999996,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0.15,
+        "duration": 0.16
+      }
+    }
+  },
+  {
+    "id": "db00994",
+    "expected": {
+      "time": 213.404483,
+      "duration": 0.282143,
+      "midi": 72,
+      "velocity": 0.585,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 86,
+      "beat": 1,
+      "writtenDuration": 0.282143,
+      "id": "db00994",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "roll": 0.15
+      }
+    },
+    "replacement": {
+      "time": 213.404483,
+      "duration": 0.282143,
+      "midi": 72,
+      "velocity": 0.585,
+      "hand": "R",
+      "finger": 5,
+      "role": "melody",
+      "bar": 86,
+      "beat": 1,
+      "writtenDuration": 0.282143,
+      "id": "db00994",
+      "contactLift": 0.003,
+      "releaseTravel": {
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "roll": 0.15
+      },
+      "releaseWaypoint": {
+        "enabled": true,
+        "height": 0.765,
+        "x": 0.03,
+        "z": 0,
+        "liftEnd": 0.3333333333333333,
+        "landStart": 0.6666666666666666,
+        "roll": 0.15,
+        "duration": 0.16
+      }
+    }
+  }
+]

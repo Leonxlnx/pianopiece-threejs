@@ -1,0 +1,26 @@
+import fs from 'node:fs';
+import crypto from 'node:crypto';
+import {T,setup,project,rigPath,baselineSource} from './load.mjs';
+import {createWristVolumeCorrector} from './wrist-volume.mjs';
+import {redistributeForearmTwist} from './forearm-twist.mjs';
+const inputs=Object.fromEntries(['app/performance/pianist.ts','production/qa/compiled/pianist.mjs','public/assets/pianist.glb','public/assets/score.json'].map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(f==='production/qa/compiled/pianist.mjs'?rigPath:f==='app/performance/pianist.ts'?baselineSource:f==='public/assets/pianist.glb'?(process.env.DAYBREAK_MODEL??project+'/'+f):f==='public/assets/score.json'?(process.env.DAYBREAK_SCORE??project+'/'+f):project+'/'+f)).digest('hex')]));
+const {body,pose,pianist,score}=await setup(),c=createWristVolumeCorrector(T,body,{rollForearm:true,smoothWeights:Number(process.argv[2]??0)}),changed=new Set(c.entries.map(e=>e.id)),ids=body.geometry.index.array;
+const si=body.geometry.attributes.skinIndex,sw=body.geometry.attributes.skinWeight,bones=body.skeleton.bones;
+const canonical=new Map(),weld=new Map();for(let id=0;id<si.count;id++){const key=Array.from(c.basePos.slice(id*3,id*3+3)).join(',');if(!canonical.has(key))canonical.set(key,id);weld.set(id,canonical.get(key));}
+const localVertices=new Set();for(let id=0;id<si.count;id++){let weight=0;for(let j=0;j<4;j++)if(/(ForeArm|Hand)/.test(bones[si.getComponent(id,j)].name))weight+=sw.getComponent(id,j);if(weight>.5)localVertices.add(id);}
+const triangles=[],affected=[];for(let i=0;i<ids.length;i+=3){const v=Array.from(ids.slice(i,i+3));if(v.every(x=>localVertices.has(x))){triangles.push({id:i/3,v});if(v.some(x=>changed.has(x)))affected.push({id:i/3,v});}}
+function hit(a,b,c,d,e){const delta=b.clone().sub(a),length=delta.length();if(length<1e-8)return false;const p=new T.Ray(a,delta.divideScalar(length)).intersectTriangle(c,d,e,false,new T.Vector3());if(!p)return false;const t=p.distanceTo(a);return t>1e-7&&t<length-1e-7;}
+function snapshot(){const points=new Map([...localVertices].map(id=>[id,body.getVertexPosition(id,new T.Vector3()).applyMatrix4(body.matrixWorld)]));const all=triangles.map(t=>({...t,p:t.v.map(v=>points.get(v))}));for(const t of all){t.box=new T.Box3().setFromPoints(t.p);t.area=new T.Triangle(...t.p).getArea();}return {points,all};}
+function intersections(s){const result=new Set();for(const a of s.all.filter(t=>affected.some(v=>v.id===t.id)))for(const b of s.all){if(a.id===b.id||!a.box.intersectsBox(b.box)||a.v.some(v=>b.v.some(w=>weld.get(v)===weld.get(w))))continue;let found=false;for(let i=0;i<3&&!found;i++)found=hit(a.p[i],a.p[(i+1)%3],...b.p)||hit(b.p[i],b.p[(i+1)%3],...a.p);if(found)result.add([a.id,b.id].sort((a,b)=>a-b).join(':'));}return result;}
+const rows=[],exports=[];
+const selected=[0,26.05,64,130,170,210,...score.sections.map(s=>(s.start+s.end)/2)];for(const side of ['L','R']){const ns=score.notes.filter(n=>n.hand===side);for(let i=0;i<40;i++){const n=ns[Math.round(i*(ns.length-1)/39)];selected.push(n.time+n.duration*.5);}}
+for(const time of [...new Set(selected)].sort((a,b)=>a-b)){
+ c.restore();pose(time);const before=snapshot(),old=intersections(before);c.update();const after=snapshot(),current=intersections(after);
+ const a=before.all.filter(t=>affected.some(v=>v.id===t.id)),b=after.all.filter(t=>affected.some(v=>v.id===t.id));
+ rows.push({time,beforePairs:[...old],afterPairs:[...current],newPairs:[...current].filter(v=>!old.has(v)),oldDegenerate:a.filter(t=>t.area<1e-10).map(t=>t.id),newDegenerate:b.filter(t=>t.area<1e-10).map(t=>t.id),triangleAreaRatios:a.map((t,i)=>b[i].area/t.area).sort((a,b)=>a-b).filter((v,i,x)=>i===0||i===Math.floor(x.length/2)||i===x.length-1)});
+ if(time===170){const convert=s=>s.all.map(t=>({id:t.id,v:t.v,p:t.p.map(p=>p.toArray())}));exports.push({name:'LBS',triangles:convert(before)},{name:'DQ wrist',triangles:convert(after)});c.restore();pose(time);redistributeForearmTwist(T,pianist,1,0);body.updateWorldMatrix(true,false);body.skeleton.update();exports.push({name:'Forearm twist 100%',triangles:convert(snapshot())});pose(time);redistributeForearmTwist(T,pianist,.5,0);body.updateWorldMatrix(true,false);body.skeleton.update();exports.push({name:'Forearm twist 50%',triangles:convert(snapshot())});}
+}
+const positive=hit(new T.Vector3(0,0,-1),new T.Vector3(0,0,1),new T.Vector3(-1,-1,0),new T.Vector3(1,-1,0),new T.Vector3(0,1,0)),negative=hit(new T.Vector3(2,2,-1),new T.Vector3(2,2,1),new T.Vector3(-1,-1,0),new T.Vector3(1,-1,0),new T.Vector3(0,1,0));
+const report={inputs,candidateSha256:crypto.createHash('sha256').update(fs.readFileSync(new URL('wrist-volume.mjs',import.meta.url))).digest('hex'),options:{rollForearm:true,smoothWeights:Number(process.argv[2]??0)},triangles:triangles.length,affectedTriangles:affected.length,negativeControls:{intersectingSegmentDetected:positive,disjointSegmentRejected:!negative,actualBaselineCrossings:rows.reduce((sum,r)=>sum+r.beforePairs.length,0)},rows};
+fs.writeFileSync(new URL('surface-final.json',import.meta.url),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report,null,2));
+if(!positive||negative||rows.some(r=>r.newPairs.length||r.newDegenerate.some(id=>!r.oldDegenerate.includes(id))))process.exitCode=1;else console.log('WRIST_SURFACE_NO_NEW_CROSSINGS');

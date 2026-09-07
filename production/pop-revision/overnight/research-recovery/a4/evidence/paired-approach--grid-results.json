@@ -1,0 +1,338 @@
+{
+  "status": "120Hz discovery completed; independent gates pending",
+  "independentBaselineExact": true,
+  "abaExact": true,
+  "inputsUnchanged": true,
+  "inputHashes": {
+    "grid-paired.mjs": "0df2219b6c4563322da0cf871f4ba5a80d3bc0b7f63e8fd71cafa57022a2a0b3",
+    "surface-sampler.mjs": "fbedeb5ee12678c55909005a3929f334888188cdba25ed33c4d233ec1c97959a",
+    "runtime-immutable.mjs": "c1df35893e277854c621f6c2006dbfde6458a4bac00d2988259164f258e073e3",
+    "paired-approach/grid-controls.json": "93222447977546745136a82ef1e489dbd9ed3b6144ded83b79023cfe235af0a6",
+    "paired-approach/quick-times.json": "53d594a63f8d2c89404ce0fe95a6d365d0ea297080c727fe6ebcd2af387b473a",
+    "paired-approach/candidate/score.json": "c4b7316b3caaed296b7345a9ba8aef85bde02f6fe6ea87cd70c72463eb0a9fe4",
+    "paired-approach/candidate/compiled/pianist.mjs": "1471b13cc1f8fe517d74570c465b340d97f536b55ed54a2cb4f4d86328338c28",
+    "/dev/shm/daybreak-a4-882c1c2d8c18/original-pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+  },
+  "results": [
+    {
+      "i": 10,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.04,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 995,
+      "keyRegressions": 0,
+      "pairRegressions": 7,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 78.24407943895137
+    },
+    {
+      "i": 2,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.04,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1007,
+      "keyRegressions": 0,
+      "pairRegressions": 7,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 78.19765741774441
+    },
+    {
+      "i": 14,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.04,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1034,
+      "keyRegressions": 0,
+      "pairRegressions": 7,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 86.95355504832233
+    },
+    {
+      "i": 0,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.025,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1003,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 81.24172339639632
+    },
+    {
+      "i": 6,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.04,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1060,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 86.75898513415535
+    },
+    {
+      "i": 4,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.025,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1132,
+      "keyRegressions": 0,
+      "pairRegressions": 8,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 88.0998061726526
+    },
+    {
+      "i": 12,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.025,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1208,
+      "keyRegressions": 0,
+      "pairRegressions": 9,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 86.475669614206
+    },
+    {
+      "i": 8,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.025,
+        "z": -0.02,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 6,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1115,
+      "keyRegressions": 2,
+      "pairRegressions": 8,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 81.39095516069709
+    },
+    {
+      "i": 3,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.04,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1322,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 78.70963721592953
+    },
+    {
+      "i": 1,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.025,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1721,
+      "keyRegressions": 0,
+      "pairRegressions": 18,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 82.38273601492497
+    },
+    {
+      "i": 5,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.025,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2162,
+      "keyRegressions": 0,
+      "pairRegressions": 21,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 87.18730792286759
+    },
+    {
+      "i": 11,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.04,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1731,
+      "keyRegressions": 0,
+      "pairRegressions": 22,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 78.72785372733959
+    },
+    {
+      "i": 7,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.04,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.5
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 1871,
+      "keyRegressions": 0,
+      "pairRegressions": 22,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 88.8295721014146
+    },
+    {
+      "i": 9,
+      "profile": {
+        "enabled": true,
+        "height": 0.78,
+        "x": -0.025,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 5,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2282,
+      "keyRegressions": 1,
+      "pairRegressions": 24,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 82.39190458374208
+    },
+    {
+      "i": 15,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.04,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2418,
+      "keyRegressions": 0,
+      "pairRegressions": 27,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 88.38631283404192
+    },
+    {
+      "i": 13,
+      "profile": {
+        "enabled": true,
+        "height": 0.79,
+        "x": -0.025,
+        "z": 0,
+        "liftEnd": 0.2,
+        "landStart": 0.9,
+        "roll": 0,
+        "duration": 0.6
+      },
+      "targetSevere": 4,
+      "maxTargetDepth": 4.577329984369605,
+      "pairIncidences": 2796,
+      "keyRegressions": 0,
+      "pairRegressions": 28,
+      "maxTipSpeed": 2.4668635770649616,
+      "maxDorsal": 85.83795503598037
+    }
+  ]
+}

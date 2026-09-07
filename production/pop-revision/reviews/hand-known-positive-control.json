@@ -1,0 +1,650 @@
+{
+  "inputs": {
+    "rig": {
+      "path": "analysis/hand-review/compiled/pianist.mjs",
+      "sha256": "151ea48922e5136f8698f3d2f6431f0e7aee0b5583119fbca7f3b1e10a7689e7"
+    },
+    "piano": {
+      "path": "analysis/hand-review/compiled/piano.mjs",
+      "sha256": "1d9b1b7acae335d1ab1fd505c9687e2c06d0a1c265e2a45372eb5a4ae6114966"
+    },
+    "score": {
+      "path": "analysis/hand-review/input-score.json",
+      "sha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773"
+    },
+    "model": {
+      "path": "public/assets/pianist.glb",
+      "sha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d"
+    }
+  },
+  "selection": "explicit",
+  "summary": {
+    "samples": 4,
+    "keyCoreRowsOver3mm": 4,
+    "activeKeyCoreHitsOver3mm": 2,
+    "inactiveKeyCoreHitsOver3mm": 36,
+    "maxKeyCoreDepthMm": 7.9142262411523445,
+    "ownPalmRows": 1,
+    "neighborRows": 4,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 9.576254258422848e-05,
+    "nonfinite": 0
+  },
+  "ownership": {
+    "ownedVertices": [
+      {
+        "patch": "LThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "LIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "LMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "LRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "LPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "LPalm",
+        "count": 190,
+        "triangles": 279
+      },
+      {
+        "patch": "RThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "RIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "RMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "RRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "RPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "RPalm",
+        "count": 190,
+        "triangles": 279
+      }
+    ],
+    "mixedWebVertices": 232
+  },
+  "scope": "Exact production deformed Human vertices against all 88 actual animated rounded-key inner boxes; original-box nearest-face depth. Whole hand-owned and mixed web vertices included for key cores. Exact noncoplanar edge/triangle intersections for >65%-owned digit/palm patches; mixed web, coplanar and completely enclosed surfaces excluded from pair tests. Counts are not penetration depth or visual approval. Finite sampling cannot establish continuous clearance.",
+  "rows": [
+    {
+      "time": 98.746043,
+      "active": [
+        {
+          "id": "p00473",
+          "hand": "L",
+          "finger": 4,
+          "midi": 50
+        },
+        {
+          "id": "p00474",
+          "hand": "L",
+          "finger": 1,
+          "midi": 62
+        },
+        {
+          "id": "p00475",
+          "hand": "R",
+          "finger": 3,
+          "midi": 72
+        },
+        {
+          "id": "p00476",
+          "hand": "R",
+          "finger": 4,
+          "midi": 78
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 60,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 1,
+          "maxDepthMm": 4.002346561222614
+        },
+        {
+          "patch": "LThumb",
+          "key": 62,
+          "active": true,
+          "vertices": 2,
+          "deepVertices": 0,
+          "maxDepthMm": 1.4152743879281005
+        },
+        {
+          "patch": "LIndex",
+          "key": 56,
+          "active": false,
+          "vertices": 3,
+          "deepVertices": 0,
+          "maxDepthMm": 2.8798618238751184
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LRing",
+          "b": "LPinky",
+          "kind": "neighbor",
+          "trianglePairs": 136
+        },
+        {
+          "a": "RThumb",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 32
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 45
+        },
+        {
+          "a": "RRing",
+          "b": "RPinky",
+          "kind": "neighbor",
+          "trianglePairs": 43
+        }
+      ],
+      "markerMaxErrorMm": 6.860483699458538e-05
+    },
+    {
+      "time": 188.70254,
+      "active": [
+        {
+          "id": "p00913",
+          "hand": "L",
+          "finger": 5,
+          "midi": 49
+        },
+        {
+          "id": "p00914",
+          "hand": "L",
+          "finger": 2,
+          "midi": 61
+        },
+        {
+          "id": "p00915",
+          "hand": "R",
+          "finger": 2,
+          "midi": 73
+        },
+        {
+          "id": "p00916",
+          "hand": "R",
+          "finger": 3,
+          "midi": 76
+        },
+        {
+          "id": "p00917",
+          "hand": "R",
+          "finger": 4,
+          "midi": 81
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 58,
+          "active": false,
+          "vertices": 38,
+          "deepVertices": 24,
+          "maxDepthMm": 6.314947452791
+        },
+        {
+          "patch": "LThumb",
+          "key": 57,
+          "active": false,
+          "vertices": 12,
+          "deepVertices": 7,
+          "maxDepthMm": 7.369308913737105
+        },
+        {
+          "patch": "LThumb",
+          "key": 55,
+          "active": false,
+          "vertices": 5,
+          "deepVertices": 3,
+          "maxDepthMm": 6.978033320447108
+        },
+        {
+          "patch": "LIndex",
+          "key": 58,
+          "active": true,
+          "vertices": 5,
+          "deepVertices": 1,
+          "maxDepthMm": 3.7480963451349547
+        },
+        {
+          "patch": "LPalm",
+          "key": 56,
+          "active": false,
+          "vertices": 7,
+          "deepVertices": 5,
+          "maxDepthMm": 6.732030653289603
+        },
+        {
+          "patch": "LPalm",
+          "key": 54,
+          "active": false,
+          "vertices": 6,
+          "deepVertices": 5,
+          "maxDepthMm": 6.188116288116441
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 56,
+          "active": false,
+          "vertices": 4,
+          "deepVertices": 4,
+          "maxDepthMm": 5.515594026605286
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 54,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 1,
+          "maxDepthMm": 3.622788888244549
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 55,
+          "active": false,
+          "vertices": 4,
+          "deepVertices": 3,
+          "maxDepthMm": 6.111794133227266
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LThumb",
+          "b": "LIndex",
+          "kind": "neighbor",
+          "trianglePairs": 74
+        },
+        {
+          "a": "RIndex",
+          "b": "RMiddle",
+          "kind": "neighbor",
+          "trianglePairs": 67
+        },
+        {
+          "a": "RRing",
+          "b": "RPinky",
+          "kind": "neighbor",
+          "trianglePairs": 66
+        }
+      ],
+      "markerMaxErrorMm": 2.9819999377566776e-05
+    },
+    {
+      "time": 191.861656,
+      "active": [
+        {
+          "id": "p00936",
+          "hand": "L",
+          "finger": 5,
+          "midi": 55
+        },
+        {
+          "id": "p00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 84
+        }
+      ],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 57,
+          "active": false,
+          "vertices": 4,
+          "deepVertices": 3,
+          "maxDepthMm": 6.837771425917238
+        },
+        {
+          "patch": "LThumb",
+          "key": 59,
+          "active": false,
+          "vertices": 26,
+          "deepVertices": 19,
+          "maxDepthMm": 7.466175815652121
+        },
+        {
+          "patch": "LIndex",
+          "key": 56,
+          "active": false,
+          "vertices": 47,
+          "deepVertices": 28,
+          "maxDepthMm": 7.062137368609667
+        },
+        {
+          "patch": "LIndex",
+          "key": 57,
+          "active": false,
+          "vertices": 14,
+          "deepVertices": 8,
+          "maxDepthMm": 6.5067028465172205
+        },
+        {
+          "patch": "LIndex",
+          "key": 55,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 2.9013934468430644
+        },
+        {
+          "patch": "LMiddle",
+          "key": 54,
+          "active": false,
+          "vertices": 32,
+          "deepVertices": 23,
+          "maxDepthMm": 6.848940578784046
+        },
+        {
+          "patch": "LMiddle",
+          "key": 53,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 1,
+          "maxDepthMm": 4.7932293656537395
+        },
+        {
+          "patch": "LPinky",
+          "key": 53,
+          "active": true,
+          "vertices": 4,
+          "deepVertices": 0,
+          "maxDepthMm": 2.6183186840725847
+        },
+        {
+          "patch": "LPinky",
+          "key": 52,
+          "active": true,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 1.4382473813429053
+        },
+        {
+          "patch": "LPalm",
+          "key": 55,
+          "active": false,
+          "vertices": 15,
+          "deepVertices": 10,
+          "maxDepthMm": 7.796101604291672
+        },
+        {
+          "patch": "LPalm",
+          "key": 53,
+          "active": false,
+          "vertices": 10,
+          "deepVertices": 9,
+          "maxDepthMm": 6.442634067131498
+        },
+        {
+          "patch": "LPalm",
+          "key": 52,
+          "active": false,
+          "vertices": 3,
+          "deepVertices": 3,
+          "maxDepthMm": 7.270137670646215
+        },
+        {
+          "patch": "LPalm",
+          "key": 57,
+          "active": false,
+          "vertices": 8,
+          "deepVertices": 5,
+          "maxDepthMm": 7.1465361765253865
+        },
+        {
+          "patch": "RThumb",
+          "key": 77,
+          "active": false,
+          "vertices": 10,
+          "deepVertices": 7,
+          "maxDepthMm": 7.446814583625616
+        },
+        {
+          "patch": "RThumb",
+          "key": 76,
+          "active": false,
+          "vertices": 14,
+          "deepVertices": 7,
+          "maxDepthMm": 7.689004243409736
+        },
+        {
+          "patch": "RIndex",
+          "key": 78,
+          "active": false,
+          "vertices": 66,
+          "deepVertices": 56,
+          "maxDepthMm": 6.949333417488241
+        },
+        {
+          "patch": "RIndex",
+          "key": 77,
+          "active": false,
+          "vertices": 22,
+          "deepVertices": 14,
+          "maxDepthMm": 7.9142262411523445
+        },
+        {
+          "patch": "RIndex",
+          "key": 79,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 2.0298395688499173
+        },
+        {
+          "patch": "RMiddle",
+          "key": 80,
+          "active": false,
+          "vertices": 29,
+          "deepVertices": 17,
+          "maxDepthMm": 6.491549336837182
+        },
+        {
+          "patch": "RPalm",
+          "key": 81,
+          "active": false,
+          "vertices": 10,
+          "deepVertices": 9,
+          "maxDepthMm": 5.543729537400455
+        },
+        {
+          "patch": "RPalm",
+          "key": 83,
+          "active": false,
+          "vertices": 6,
+          "deepVertices": 2,
+          "maxDepthMm": 7.787908197033455
+        },
+        {
+          "patch": "RPalm",
+          "key": 77,
+          "active": false,
+          "vertices": 8,
+          "deepVertices": 6,
+          "maxDepthMm": 5.9512533858810945
+        },
+        {
+          "patch": "RPalm",
+          "key": 79,
+          "active": false,
+          "vertices": 1,
+          "deepVertices": 0,
+          "maxDepthMm": 2.009647721905261
+        },
+        {
+          "patch": "RMixedWeb",
+          "key": 79,
+          "active": false,
+          "vertices": 9,
+          "deepVertices": 6,
+          "maxDepthMm": 6.357192148430557
+        },
+        {
+          "patch": "RMixedWeb",
+          "key": 77,
+          "active": false,
+          "vertices": 8,
+          "deepVertices": 6,
+          "maxDepthMm": 6.410145916408871
+        },
+        {
+          "patch": "RMixedWeb",
+          "key": 81,
+          "active": false,
+          "vertices": 2,
+          "deepVertices": 2,
+          "maxDepthMm": 7.140098152829233
+        },
+        {
+          "patch": "RMixedWeb",
+          "key": 83,
+          "active": false,
+          "vertices": 2,
+          "deepVertices": 1,
+          "maxDepthMm": 5.499541228829341
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 55,
+          "active": false,
+          "vertices": 4,
+          "deepVertices": 4,
+          "maxDepthMm": 6.785616271845346
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 53,
+          "active": false,
+          "vertices": 3,
+          "deepVertices": 3,
+          "maxDepthMm": 7.50296243866988
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 52,
+          "active": false,
+          "vertices": 6,
+          "deepVertices": 3,
+          "maxDepthMm": 6.256251777347566
+        },
+        {
+          "patch": "LMixedWeb",
+          "key": 57,
+          "active": false,
+          "vertices": 6,
+          "deepVertices": 6,
+          "maxDepthMm": 7.549954639599288
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LPinky",
+          "b": "LPalm",
+          "kind": "own-palm",
+          "trianglePairs": 11
+        },
+        {
+          "a": "RThumb",
+          "b": "RPalm",
+          "kind": "own-palm",
+          "trianglePairs": 11
+        },
+        {
+          "a": "RRing",
+          "b": "RPinky",
+          "kind": "neighbor",
+          "trianglePairs": 109
+        }
+      ],
+      "markerMaxErrorMm": 9.576254258422848e-05
+    },
+    {
+      "time": 233.144228,
+      "active": [],
+      "keyHits": [
+        {
+          "patch": "LThumb",
+          "key": 52,
+          "active": false,
+          "vertices": 22,
+          "deepVertices": 13,
+          "maxDepthMm": 5.9260860483935085
+        },
+        {
+          "patch": "LIndex",
+          "key": 49,
+          "active": false,
+          "vertices": 3,
+          "deepVertices": 0,
+          "maxDepthMm": 2.879852449757192
+        },
+        {
+          "patch": "RThumb",
+          "key": 59,
+          "active": false,
+          "vertices": 5,
+          "deepVertices": 2,
+          "maxDepthMm": 3.3703723944055186
+        },
+        {
+          "patch": "RIndex",
+          "key": 61,
+          "active": false,
+          "vertices": 2,
+          "deepVertices": 0,
+          "maxDepthMm": 2.6374439045536713
+        }
+      ],
+      "surfaceHits": [
+        {
+          "a": "LMiddle",
+          "b": "LRing",
+          "kind": "neighbor",
+          "trianglePairs": 4
+        }
+      ],
+      "markerMaxErrorMm": 0
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}

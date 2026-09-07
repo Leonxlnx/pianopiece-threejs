@@ -1,0 +1,205 @@
+{
+  "format": "Scalar numerical reports. Original reports remain untouched; gzip decompresses to the portable JSON whose exact hash is listed. Raw geometry columns and workspace paths are omitted, preserving all failures, cases, counts, thresholds and source hashes.",
+  "reports": [
+    {
+      "file": "current-v6/SUMMARY.json",
+      "sourceReportSha256": "582378649c4df7b02cfb35f6188de1ac556676b271e7cd298f4bbf069c609398",
+      "portableJsonSha256": "582378649c4df7b02cfb35f6188de1ac556676b271e7cd298f4bbf069c609398",
+      "fileSha256": "582378649c4df7b02cfb35f6188de1ac556676b271e7cd298f4bbf069c609398",
+      "sourceBytes": 1897,
+      "fileBytes": 1897
+    },
+    {
+      "file": "current-v6/key-deltas.json.gz",
+      "sourceReportSha256": "49f7e9602485eda2675aa15d8a6cbad3300e1fd4e5101786f900013a814880f5",
+      "portableJsonSha256": "49f7e9602485eda2675aa15d8a6cbad3300e1fd4e5101786f900013a814880f5",
+      "fileSha256": "d36e65c9e60998ecc87eb381ee0c8dbe2d9a5a873d178bd67893b7078839c849",
+      "sourceBytes": 611962,
+      "fileBytes": 52031
+    },
+    {
+      "file": "current-v6/current-key60.json.gz",
+      "sourceReportSha256": "2df549f95ca30a8f85d87801c7887ad97cc04d3d3c9651c9e13c6cdb60186e78",
+      "portableJsonSha256": "59d7887683af07c5c5964a582a19ff9e2fd3245c01d06c309b2249c652f362ab",
+      "fileSha256": "d78ce24b33446cf6c3844f8858669b68ecd4d5bc30c68f389ca133b8b7632cca",
+      "sourceBytes": 669583,
+      "fileBytes": 48622
+    },
+    {
+      "file": "current-v6/v6-key60.json.gz",
+      "sourceReportSha256": "bebf12788ecf4b7dcc1b8e1b0f2237954bee27e19f873cdab9d2d9c507a29586",
+      "portableJsonSha256": "786a02aeaff9bc09bb27b75720548d081f4ccdedee39ad0e5f464b29377d92df",
+      "fileSha256": "a3cd19cc104beaa2675db57189de10027e3f6438cf8ca8a721772223deb28f31",
+      "sourceBytes": 219216,
+      "fileBytes": 19760
+    },
+    {
+      "file": "current-v6/motion-failure-deltas.json",
+      "sourceReportSha256": "cecb14b00327db28be4c4b742451f695fd9d976b78ff6e07152a2e1f8d2cf4b2",
+      "portableJsonSha256": "cecb14b00327db28be4c4b742451f695fd9d976b78ff6e07152a2e1f8d2cf4b2",
+      "fileSha256": "cecb14b00327db28be4c4b742451f695fd9d976b78ff6e07152a2e1f8d2cf4b2",
+      "sourceBytes": 716,
+      "fileBytes": 716
+    },
+    {
+      "file": "current-v6/shape-metric-deltas.json.gz",
+      "sourceReportSha256": "4ca94c49e6dc883fca5b6f65f8017dc06eea7ac69f8be3076f74563d0756ef05",
+      "portableJsonSha256": "66d9e7c1509b2af1c4a8f9fcd2b165bdd47639c61851e761510fd06be8ddbe04",
+      "fileSha256": "622599ee606ad2f9427ceea8bbb44f4c52dee696e6bedafb934494c6752fc9bb",
+      "sourceBytes": 10402474,
+      "fileBytes": 1988174
+    },
+    {
+      "file": "current-v6/pairs/comparison-summary.json",
+      "sourceReportSha256": "9d60766ee146eeded5ca85dd9b24ec1b06321e30b6969276f0766f38a2912099",
+      "portableJsonSha256": "5dfc50d58c15141322f3c295b4864e5c396b55d4ec7d34df5da8062882acf453",
+      "fileSha256": "5dfc50d58c15141322f3c295b4864e5c396b55d4ec7d34df5da8062882acf453",
+      "sourceBytes": 7739,
+      "fileBytes": 10669
+    },
+    {
+      "file": "current-v6/pairs/current-pairs60.json.gz",
+      "sourceReportSha256": "5928d5df90527d87095e18028cb4b48b94d3651b61fe64d717f4c4f5ac750e1d",
+      "portableJsonSha256": "3818e4d7db40d841464195ddb8081678dec99947d89da13bc6d9485e5ef01b5c",
+      "fileSha256": "6567d0915ac1921573b2fcf9dfea81eccdf7cef78061c0a785ca30d29b8e7e16",
+      "sourceBytes": 2726680,
+      "fileBytes": 179698
+    },
+    {
+      "file": "current-v6/pairs/v6-pairs60.json.gz",
+      "sourceReportSha256": "8c721eb76a8846c524ebfc0160741801f2eb47f9501d5cb5f243984bab271265",
+      "portableJsonSha256": "e66eb4ff55853f9690761bd56153f8c882714e257eeb8a68e00f3a8c0f9c520f",
+      "fileSha256": "fe5d160f4fa1a0d204bb236dc1589f420ff7f5492ef298f749d2db212ff80af5",
+      "sourceBytes": 2646882,
+      "fileBytes": 173814
+    },
+    {
+      "file": "current-v6/pairs/pair-row-deltas.json.gz",
+      "sourceReportSha256": "8a61bfb4e9dbba975af83bf55f90158e3ca85b7e34322a04cf26f30e70890b1d",
+      "portableJsonSha256": "e315349b326b38a0dcc5b92dec3fc559b5793e748a1cf8978882f0494cbabe21",
+      "fileSha256": "5fd734f5c8a2e51fa4881259df1105917f87b6a69f5b0cfd4927dba38b6d63b1",
+      "sourceBytes": 2050885,
+      "fileBytes": 133786
+    },
+    {
+      "file": "current-v6/pairs/changed-intervals.json.gz",
+      "sourceReportSha256": "250d87a60be5ece7082ebfdde57bab80d786bc3f9de8511d62ad5aa0729b6134",
+      "portableJsonSha256": "6afa3cc8e2418e7b049a7a186015340aefdfaf457cfb5fe3d406a6668612c3c6",
+      "fileSha256": "097f533cb63b18d0f36be538775511b2480039806b9d4e35b4127447bfd2c654",
+      "sourceBytes": 770020,
+      "fileBytes": 66875
+    },
+    {
+      "file": "current-v6/pairs/event-contexts.json.gz",
+      "sourceReportSha256": "709ba7cfe2db3a9f05a8741f6ca40ac2e0d571a554f832af1a5d20dd7df38521",
+      "portableJsonSha256": "419b40da8adb550428f0a5d48c458ab1b47aa4a327bc481b12fbb2d10f296f68",
+      "fileSha256": "c116243df56417327a62f719a414b9a1917c8def99dfff5e563962a272e10b8d",
+      "sourceBytes": 2453104,
+      "fileBytes": 160842
+    },
+    {
+      "file": "current-v6/pairs/representative-regressions.json",
+      "sourceReportSha256": "c19cc98f4917b2e6646b08c42678231f4fa430ddec5b3ed8358f6dcc7b168546",
+      "portableJsonSha256": "c19cc98f4917b2e6646b08c42678231f4fa430ddec5b3ed8358f6dcc7b168546",
+      "fileSha256": "c19cc98f4917b2e6646b08c42678231f4fa430ddec5b3ed8358f6dcc7b168546",
+      "sourceBytes": 17313,
+      "fileBytes": 17313
+    },
+    {
+      "file": "current-v6/pairs/method-equality.json",
+      "sourceReportSha256": "62de5b215243951eb48da78a14d7c939a1e7795bcf7fa84f7e5d85c679e02009",
+      "portableJsonSha256": "62de5b215243951eb48da78a14d7c939a1e7795bcf7fa84f7e5d85c679e02009",
+      "fileSha256": "62de5b215243951eb48da78a14d7c939a1e7795bcf7fa84f7e5d85c679e02009",
+      "sourceBytes": 698,
+      "fileBytes": 698
+    },
+    {
+      "file": "current-v6/pairs/score-equality.json",
+      "sourceReportSha256": "2a4c059b75b399008fab4a02893e00fb9f317ac24d381ea31aac02aab7f0cab5",
+      "portableJsonSha256": "2a4c059b75b399008fab4a02893e00fb9f317ac24d381ea31aac02aab7f0cab5",
+      "fileSha256": "2a4c059b75b399008fab4a02893e00fb9f317ac24d381ea31aac02aab7f0cab5",
+      "sourceBytes": 504,
+      "fileBytes": 504
+    },
+    {
+      "file": "v7/additional-twelve-delta.json",
+      "sourceReportSha256": "85f641040199771bee79a9a38e1101ab7883f6252ec64882fde3bf2c81ab557b",
+      "portableJsonSha256": "85f641040199771bee79a9a38e1101ab7883f6252ec64882fde3bf2c81ab557b",
+      "fileSha256": "85f641040199771bee79a9a38e1101ab7883f6252ec64882fde3bf2c81ab557b",
+      "sourceBytes": 5350,
+      "fileBytes": 5350
+    },
+    {
+      "file": "v7/key-comparison.json.gz",
+      "sourceReportSha256": "824a8c66506fa2808c900253e9d17bbca485de398f2082c6a55835974180f59d",
+      "portableJsonSha256": "824a8c66506fa2808c900253e9d17bbca485de398f2082c6a55835974180f59d",
+      "fileSha256": "f2e4ac7ed51f3011441a8875d3f20bda07abbb076ba625eeb17fc14f0ff2fb4e",
+      "sourceBytes": 381399,
+      "fileBytes": 19882
+    },
+    {
+      "file": "v7/paired-window-summary.json",
+      "sourceReportSha256": "a7abed09abc24b2e018abe2fde57bde263c39fe22ec0a5ac304360e2bdf63efa",
+      "portableJsonSha256": "a7abed09abc24b2e018abe2fde57bde263c39fe22ec0a5ac304360e2bdf63efa",
+      "fileSha256": "a7abed09abc24b2e018abe2fde57bde263c39fe22ec0a5ac304360e2bdf63efa",
+      "sourceBytes": 18112,
+      "fileBytes": 18112
+    },
+    {
+      "file": "v7/v7-severe-residuals.json",
+      "sourceReportSha256": "f3c22bf34d045af55ca21fee5e9d1eed0e606fa5c4415222d49e8f859ac6379a",
+      "portableJsonSha256": "f3c22bf34d045af55ca21fee5e9d1eed0e606fa5c4415222d49e8f859ac6379a",
+      "fileSha256": "f3c22bf34d045af55ca21fee5e9d1eed0e606fa5c4415222d49e8f859ac6379a",
+      "sourceBytes": 146801,
+      "fileBytes": 146801
+    },
+    {
+      "file": "v7/all-depth-aggregate-differences.json",
+      "sourceReportSha256": "b77fe811aad85d0d859a2612299ea24d8ef7dece176066d8e67f307ceaf1d663",
+      "portableJsonSha256": "b77fe811aad85d0d859a2612299ea24d8ef7dece176066d8e67f307ceaf1d663",
+      "fileSha256": "b77fe811aad85d0d859a2612299ea24d8ef7dece176066d8e67f307ceaf1d663",
+      "sourceBytes": 1788,
+      "fileBytes": 1788
+    },
+    {
+      "file": "e3-voicing/SUMMARY.json",
+      "sourceReportSha256": "2beaec67ae71cde09691ab7420f797d37bdb41c0a056ce8eafeb0cefe1fcdad8",
+      "portableJsonSha256": "16bb7d38891c00f50b1c0b2c53ea6ccaae5075882ba311ed5933faed1735efdf",
+      "fileSha256": "16bb7d38891c00f50b1c0b2c53ea6ccaae5075882ba311ed5933faed1735efdf",
+      "sourceBytes": 1036,
+      "fileBytes": 1037
+    },
+    {
+      "file": "e3-voicing/approved-voicing-delta.json",
+      "sourceReportSha256": "4649a5697769ef53fa1afa01ae14e2721072dfd8d1afc50faa88f8de118f4715",
+      "portableJsonSha256": "d41b9f8d62e1fe7058260405e8e3912ab6e912b51d9b082cf0daa3ee4bb6f584",
+      "fileSha256": "d41b9f8d62e1fe7058260405e8e3912ab6e912b51d9b082cf0daa3ee4bb6f584",
+      "sourceBytes": 661,
+      "fileBytes": 662
+    },
+    {
+      "file": "e3-voicing/reproduction/COMPARISON.json",
+      "sourceReportSha256": "aec8dd35a685796861b2a119b666ae8986f1a11929620bb3f2f582d2316f2a82",
+      "portableJsonSha256": "5f5668aea661f96300eac90c3e506ab617da72740f831b1100456cd89813a798",
+      "fileSha256": "5f5668aea661f96300eac90c3e506ab617da72740f831b1100456cd89813a798",
+      "sourceBytes": 2201,
+      "fileBytes": 2202
+    },
+    {
+      "file": "e3-voicing/reproduction/VALIDATION.json",
+      "sourceReportSha256": "4909f24e6142973cd774cfb08f9563b07afd145e80e8a22690970912b73103e7",
+      "portableJsonSha256": "376920791e954bd89650f68cd2cd7498ad047e12cb04ec3527012028b8638e0f",
+      "fileSha256": "376920791e954bd89650f68cd2cd7498ad047e12cb04ec3527012028b8638e0f",
+      "sourceBytes": 569,
+      "fileBytes": 570
+    },
+    {
+      "file": "v7/visual-review.json",
+      "sourceReportSha256": "d1bdfc45a643dbce3264c4d09af6b46e2d7f732e9f6de65dd5bc5259783e6e80",
+      "portableJsonSha256": "d1bdfc45a643dbce3264c4d09af6b46e2d7f732e9f6de65dd5bc5259783e6e80",
+      "fileSha256": "d1bdfc45a643dbce3264c4d09af6b46e2d7f732e9f6de65dd5bc5259783e6e80",
+      "sourceBytes": 2133,
+      "fileBytes": 2133
+    }
+  ]
+}

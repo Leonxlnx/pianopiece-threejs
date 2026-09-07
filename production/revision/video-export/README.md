@@ -1,12 +1,13 @@
 # Daybreak offline video export
 
+The current pop revision lasts 227.101587 seconds and needs 6,814 native frames at 30 fps. Its final export must be prepared after the final hand animation and matching lossless master are verified; no completed new full film is claimed.
+
 `export_video.py` wraps the current production QA renderer and pose server. It does not edit the Site checkout and does not use a browser. Output remains an offline approximation of the Three.js stage.
 
 ## Prepare and render a motion sample
 
 ```bash
-python export_video.py prepare --start 186.05 --duration 1 --width 1920 --fps 24 --chunk-frames 12
-python export_video.py render --job /absolute/job/path --max-chunks 1
+python export_video.py prepare --start 190.20 --duration 1 --width 1920 --fps 30 --chunk-frames 30
 python export_video.py render --job /absolute/job/path --max-chunks 1
 python export_video.py assemble --job /absolute/job/path
 ```
@@ -34,20 +35,20 @@ Use the returned job with `render --all` when ready to start the full film. Then
 To inspect the climax first, optionally prioritize its overlapping pending chunks:
 
 ```bash
-python export_video.py render --job /absolute/job/path --prioritize-start 159.156 --prioritize-end 191.35 --max-chunks 4
+python export_video.py render --job /absolute/job/path --prioritize-start 180 --prioritize-end 210 --max-chunks 4
 ```
 
 Both priority times are seconds from the prepared job's start; for a full film starting at zero they are the score times. The range is `[start, end)`, must fit within the job duration, and selects whole chunks that overlap it. A chunk touching only an excluded endpoint is not selected. Priority chunks run chronologically first, followed by all other pending chunks chronologically. `--max-chunks` applies after this ordering; `--all` processes all pending chunks in that order. Repeat the flags on each invocation while you want this priority. Omit them to resume chronologically.
 
-Priority changes scheduling only. Global frame indices/timestamps, chunk filenames, encoding settings, integrity hashes and final chronological assembly stay unchanged. Completed chunks remain verified and skipped. With 24fps and 24-frame chunks, the example selects the 33 whole chunks spanning 159–192 seconds. Use a newly prepared job with this wrapper version; older jobs keep their original pinned CLI.
+Priority changes scheduling only. Global frame indices/timestamps, chunk filenames, encoding settings, integrity hashes and final chronological assembly stay unchanged. Completed chunks remain verified and skipped. With 30 fps and 60-frame chunks, the example selects the 15 whole chunks spanning 180–210 seconds. Use a newly prepared job with this wrapper version; older jobs keep their original pinned CLI.
 
 Default inputs:
 
-- Project: `/workspace/sites/daybreak-piano-film`
-- Lossless master: `/workspace/scratch/2e8cc8e77f98/music-master/daybreak-solo-master.wav`
-- EGL libraries: `/workspace/scratch/2e8cc8e77f98/render-libs/root`
+- Project: the repository containing this wrapper.
+- Lossless master: `production/pop-revision/music/daybreak-solo-master.wav` in that repository. Generate it with the pinned music renderer and sample manifest.
+- EGL libraries: the directory supplied through `DAYBREAK_EGL_ROOT` or `--egl`, containing the required `usr/lib` and Mesa configuration files.
 
-All paths can be supplied explicitly. Prefer the WAV over gapless-decoded MP3 when creating a master.
+All paths can be supplied explicitly. Prefer the WAV over gapless-decoded MP3 when creating a master. The renderer and audio reproduction manifest must belong to the exact frozen score, including its physical performance metadata. Do not relabel an older master manifest to bypass the final correspondence check.
 
 ## Motion sampling
 
@@ -73,8 +74,8 @@ The shared installed Three.js/TypeScript dependencies are read through a symlink
 
 The master is sampled at 44.1kHz. The wrapper trims audio by integer sample indices, preserves gain and sample rate, and checks that the MOV's decoded PCM24 exactly matches the source interval. Delivery AAC alignment is checked by cross-correlation near the beginning, middle and end.
 
-Video is CFR. A duration that is not an integer number of frames uses `ceil(duration * fps)` frames; the final video hold can extend beyond the audio by less than one frame. The full 233.144218-second master therefore needs 5,596 frames at 24fps or 6,995 at 30fps. Music is not stretched or padded to change its performance length.
+Video is CFR. A duration that is not an integer number of frames uses `ceil(duration * fps)` frames; the final video hold can extend beyond the audio by less than one frame. The current 227.101587-second master therefore needs 5,451 frames at 24 fps or 6,814 at 30 fps. Music is not stretched or padded to change its performance length.
 
 Encoding uses CRF 17 H.264, the medium preset, and two encoder threads. FFmpeg zscale converts the renderer's full-range sRGB to limited-range BT.709 YUV; the output carries corresponding color tags. GPU-independent software rendering through llvmpipe is substantially slower than real-time playback. Use the measured reports rather than assuming real-time export speed.
 
-The video wrapper removes regenerated renderer-cache/scene.json after the renderer has loaded it into memory. It is not needed by frame rendering, resume validation, or environment-cache validation. Set DAYBREAK_KEEP_SCENE_JSON=1 when invoking render to retain this large interchange for diagnostics. Immutable source snapshots, extracted textures, environment NPZ/metadata, and output evidence remain available. Existing jobs resume their pinned wrapper; prepare a new job to use this cleanup improvement.
+The video wrapper truncates regenerated `renderer-cache/scene.json` to an empty placeholder after both processes have loaded it into memory. This prevents recovery maintenance from restoring an unnecessarily large deleted cache. It is not needed by frame rendering, resume validation, or environment-cache validation. Set DAYBREAK_KEEP_SCENE_JSON=1 when invoking render to retain this large interchange for diagnostics. Immutable source snapshots, extracted textures, environment NPZ/metadata, and output evidence remain available. Existing jobs resume their pinned wrapper; prepare a new job to use this cleanup improvement. The placeholder is regenerated before the next renderer initialization and is never used as an immutable source input.

@@ -1,0 +1,56 @@
+{
+  "scope": "Reviewed actual scene opening pose at absolute time0, new wardrobe/interior. Offline source geometry with approximate lighting, not browser screenshot. Future local travel fields cannot be assumed identical without final pose check.",
+  "time": 0,
+  "inputHashes": {
+    "hair-motion-data.mjs": "1bb0af20e05d34c9cb112888a46b688afc14dbd18e6ab84596a55ae3bb2a60ef",
+    "wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "hair-motion-data.ts": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d",
+    "stage.mjs": "e6ee63d9b6025c2f1d1a775ce48d72860ba1d8ca155a4360bb97f5b33ab40c2e",
+    "scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "pianist.ts": "59dc8e3e3d55856b0741d6e8029ca4cf40951de57c828df0395db94bedd8e1f1",
+    "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775",
+    "ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "pianist.mjs": "709697a8442a016d13b99a82d05ff31edb31e22eed580f4340e2bebfb04707b8",
+    "score.json": "401c48eeb4ced0bb50189609a5aa6b1a3890cba17c5cb2894199876a4a029369",
+    "direction.ts": "2b340e05ab4a1b1a3dd16e5243f00fcb27053d576855dd8031e6285e092f3daa",
+    "types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "audit-motion240.mjs": "6098b9355a50aa97cae4b064fcaae3efbd542def3364aad96c4a96b320853c41",
+    "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "direction.mjs": "f4851b14cd14cbe9d06e031aea88bf5b53ca41ddf3eb6bb316229e73bd0f9778",
+    "render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "ready-idle-input.mjs": "fc493d545862a100028679451155575f36a54ebd9ad4a0541768fefd3011733a",
+    "audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "ready-idle-input.ts": "d555424e9c47ac04b11d5fbbf28b44303ae053c93ffbc8dfe8b348aa017b9fc3",
+    "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+    "math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9"
+  },
+  "posters": [
+    {
+      "asset": "public/assets/stage-poster.webp",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "bytes": 269178,
+      "sha256": "6d1f29acab2ee269cc10b7bf261f325e32388785eba809209cd9fbcce6a0a675",
+      "sourceImageSha256": "bf148cb1ff47129522a6a8f6821aa314ca8b28c3bfe31372abcf06780c17eec4"
+    },
+    {
+      "asset": "public/assets/stage-portrait.webp",
+      "dimensions": [
+        1080,
+        1920
+      ],
+      "bytes": 252984,
+      "sha256": "d0355e1b9f36dd11f85ace78c3bfeeb0a1d038ff81aa544de132d82d53b0f0c2",
+      "sourceImageSha256": "960fc4b133967658add4f264f83d040e383a55e700dbb2f6c417cede587a6502"
+    }
+  ]
+}

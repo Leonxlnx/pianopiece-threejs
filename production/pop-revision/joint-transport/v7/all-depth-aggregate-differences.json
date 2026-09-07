@@ -1,0 +1,73 @@
+{
+  "scope": "Aggregate all sampled inner-key hits, including <=3 mm. These are not new severe failures; complete severe per-frame comparison is key-comparison.json. No below-threshold per-frame row stream was saved by the original V6 scanner.",
+  "beforeAnyHitFrames": 1540,
+  "afterAnyHitFrames": 1551,
+  "changes": [
+    {
+      "patch": "LMiddle",
+      "key": 44,
+      "before": {
+        "patch": "LMiddle",
+        "key": 44,
+        "hitFrames": 2,
+        "deepFrames": 0,
+        "vertices": 4,
+        "deepVertices": 0,
+        "maxDepthMm": 2.6502560910505735
+      },
+      "after": {
+        "patch": "LMiddle",
+        "key": 44,
+        "hitFrames": 12,
+        "deepFrames": 0,
+        "vertices": 20,
+        "deepVertices": 0,
+        "maxDepthMm": 2.6502560910505735
+      }
+    },
+    {
+      "patch": "LMiddle",
+      "key": 46,
+      "before": {
+        "patch": "LMiddle",
+        "key": 46,
+        "hitFrames": 11,
+        "deepFrames": 4,
+        "vertices": 60,
+        "deepVertices": 8,
+        "maxDepthMm": 3.1538366038904586
+      },
+      "after": {
+        "patch": "LMiddle",
+        "key": 46,
+        "hitFrames": 21,
+        "deepFrames": 4,
+        "vertices": 118,
+        "deepVertices": 8,
+        "maxDepthMm": 3.1538366038904586
+      }
+    },
+    {
+      "patch": "LMiddle",
+      "key": 54,
+      "before": {
+        "patch": "LMiddle",
+        "key": 54,
+        "hitFrames": 76,
+        "deepFrames": 12,
+        "vertices": 860,
+        "deepVertices": 120,
+        "maxDepthMm": 4.906817958489739
+      },
+      "after": {
+        "patch": "LMiddle",
+        "key": 54,
+        "hitFrames": 77,
+        "deepFrames": 12,
+        "vertices": 866,
+        "deepVertices": 120,
+        "maxDepthMm": 4.906817958489739
+      }
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "status": "LOCAL_NUMERICAL_AND_NATIVE_SAMPLED_VISUAL_CHECKS_PASS; parent full-song integrated audit pending",
+  "scoreSHA256": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912",
+  "baselineScoreSHA256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "sourceSHA256": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+  "compiledRigSHA256": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+  "notes": [
+    "db00083",
+    "db00346",
+    "db00390",
+    "db00408",
+    "db00509",
+    "db00520",
+    "db00666",
+    "db00681",
+    "db00739",
+    "db00847",
+    "db00862",
+    "db00920"
+  ],
+  "invariants": {
+    "quaternionError": 0,
+    "endpointSkinErrorMm": 0,
+    "heldSkinErrorMm": 0
+  },
+  "before": {
+    "samples": 660,
+    "keyCoreRowsOver3mm": 22,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 26,
+    "maxKeyCoreDepthMm": 7.150070888810048,
+    "ownPalmRows": 0,
+    "neighborRows": 70,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.35189696235621304,
+    "nonfinite": 0
+  },
+  "after": {
+    "samples": 660,
+    "keyCoreRowsOver3mm": 9,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 13,
+    "maxKeyCoreDepthMm": 7.150070888810048,
+    "ownPalmRows": 0,
+    "neighborRows": 17,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.35189696235621304,
+    "nonfinite": 0
+  },
+  "motion240Hz": {
+    "variant": "release-twelve",
+    "frameRate": 240,
+    "samples": 624,
+    "maxTipSpeed": 2.8832722312896313,
+    "maxWristSpeed": 0.36401052043793114,
+    "maxWristAcceleration": 14.496763761962004,
+    "maxDorsal": 57.038568069288544,
+    "maxBackwardMm": 0,
+    "failures": []
+  },
+  "motion960Hz": {
+    "variant": "release-twelve",
+    "frameRate": 960,
+    "samples": 2436,
+    "maxTipSpeed": 2.9025680693557177,
+    "maxWristSpeed": 0.3646090295440121,
+    "maxWristAcceleration": 14.816388378542959,
+    "maxDorsal": 57.04799848784739,
+    "maxBackwardMm": 0,
+    "failures": [],
+    "rowsOmitted": "Transient dense joint snapshots removed after summary extraction to recover disk; exact measurement rerunnable from motion-batch.mjs."
+  },
+  "denseHeld": {
+    "passed": true,
+    "samples": 3351,
+    "times": 1650,
+    "minGapMm": -1.556868287958757,
+    "maxGapMm": 2.472775063502075,
+    "maxDifferenceMm": 0,
+    "bad": [],
+    "scope": "Actual assigned-key distal pads at 240Hz throughout twelve selected note holds and every simultaneous held note during their guarded release intervals; held boundaries offset only one microsecond to remain held.",
+    "inputsUnchanged": true
+  },
+  "coverage": {
+    "windows": 12,
+    "times": 660,
+    "fps": 240,
+    "guardSeconds": 0.025,
+    "maxTimestampErrorSeconds": 0
+  },
+  "newShallowContacts": [
+    {
+      "id": "db00408",
+      "rows": [
+        {
+          "time": 90.39159966666666,
+          "patch": "RMiddle",
+          "key": 68,
+          "before": 2.243321650176121,
+          "after": 2.3656780291196333
+        },
+        {
+          "time": 90.39576633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.7238714026547317
+        },
+        {
+          "time": 90.47076633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.6867262166975214
+        },
+        {
+          "time": 90.474933,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.7652560794720893
+        },
+        {
+          "time": 90.47909966666666,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.8121478328616556
+        },
+        {
+          "time": 90.48326633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.8333408696378237
+        },
+        {
+          "time": 90.487433,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.840390644610724
+        },
+        {
+          "time": 90.49159966666666,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.843626998717652
+        },
+        {
+          "time": 90.49576633333334,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.811730664003531
+        },
+        {
+          "time": 90.499933,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.4650078101849937
+        }
+      ]
+    },
+    {
+      "id": "db00739",
+      "rows": [
+        {
+          "time": 159.290572,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.9757429946354885
+        },
+        {
+          "time": 159.29473866666666,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.8176686249930665
+        },
+        {
+          "time": 159.29890533333332,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6267669629156942
+        },
+        {
+          "time": 159.303072,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.618305257682099
+        }
+      ]
+    },
+    {
+      "id": "db00920",
+      "rows": [
+        {
+          "time": 199.289644,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.9757430160854415
+        },
+        {
+          "time": 199.29381066666667,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.817668649319163
+        },
+        {
+          "time": 199.29797733333334,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6267669881300804
+        },
+        {
+          "time": 199.302144,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6183052825418662
+        }
+      ]
+    }
+  ],
+  "renderTimes": [
+    {
+      "id": "db00083",
+      "patch": "LMiddle",
+      "time": 23.516333333333336,
+      "baselineDefectScore": 253.53808986992576
+    },
+    {
+      "id": "db00346",
+      "patch": "LMiddle",
+      "time": 79.50158333333333,
+      "baselineDefectScore": 278.63006469294737
+    },
+    {
+      "id": "db00390",
+      "patch": "LPinky",
+      "time": 86.51008333333333,
+      "baselineDefectScore": 304.52174533247
+    },
+    {
+      "id": "db00408",
+      "patch": "RMiddle",
+      "time": 90.40826633333333,
+      "baselineDefectScore": 708.2826604056846
+    },
+    {
+      "id": "db00509",
+      "patch": "LMiddle",
+      "time": 113.54133333333333,
+      "baselineDefectScore": 136
+    },
+    {
+      "id": "db00520",
+      "patch": "RPinky",
+      "time": 115.94184433333334,
+      "baselineDefectScore": 61
+    },
+    {
+      "id": "db00666",
+      "patch": "LPinky",
+      "time": 146.51008333333334,
+      "baselineDefectScore": 304.5216979461196
+    },
+    {
+      "id": "db00681",
+      "patch": "LMiddle",
+      "time": 149.50158333333331,
+      "baselineDefectScore": 278.6300613231707
+    },
+    {
+      "id": "db00739",
+      "patch": "RMiddle",
+      "time": 159.28223866666664,
+      "baselineDefectScore": 400.1081751987185
+    },
+    {
+      "id": "db00847",
+      "patch": "LPinky",
+      "time": 186.51008333333334,
+      "baselineDefectScore": 304.5216800331596
+    },
+    {
+      "id": "db00862",
+      "patch": "LMiddle",
+      "time": 189.50158333333331,
+      "baselineDefectScore": 278.63004371807
+    },
+    {
+      "id": "db00920",
+      "patch": "RMiddle",
+      "time": 199.28131066666666,
+      "baselineDefectScore": 400.1090097270095
+    }
+  ],
+  "rejected20RouteCandidates": [
+    "db00096",
+    "db00163",
+    "db00286",
+    "db00457",
+    "db00522",
+    "db00621",
+    "db00973",
+    "db00995"
+  ],
+  "visualReviewSHA256": "65697e03fd5908505120dd3e367829f42d73f3154c3114d78434a4985c7fa498"
+}

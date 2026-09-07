@@ -1,0 +1,44 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -57,7 +57,7 @@
+  if((o as THREE.Bone).isBone){const b=o as THREE.Bone;this.bones.set(b.name,b);this.rest.set(b.name,b.quaternion.clone());}
+  if((o as THREE.Mesh).isMesh){const m=o as THREE.Mesh;
+  // Footwear replaces the covered foot surface, as in a clothed character asset.
+- if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
++ if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index!.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
+  m.castShadow=true;m.receiveShadow=true;m.frustumCulled=false;const mats=Array.isArray(m.material)?m.material:[m.material];for(const mat of mats){const p=mat as THREE.MeshStandardMaterial;if(p.map)p.map.anisotropy=4;if(p.normalMap)p.normalMap.anisotropy=4;}
+  if((m as THREE.SkinnedMesh).morphTargetDictionary)this.blinkMeshes.push(m as THREE.SkinnedMesh);
+  }
+@@ -346,6 +346,19 @@
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+  const release=Math.min(previous?.releasePose?.duration??settings.release??.080,gap*.5),approach=Math.min(next?.approachPose?.duration??settings.approach??.100,gap*.5);
++ // Only expressly reviewed long releases use a world-space waypoint.
++ // Held notes and every unflagged joint-transport route retain V7 exactly.
++ const route=previous?.releaseWaypoint;
++ if(route?.enabled&&gap>=.50&&route.duration>0&&route.duration<=gap-approach&&time-end<route.duration){
++  const anchor=this.plannedPose(hand,end),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=previous!.contactZ??this.contactDepth(origin.z,isBlack(previous!.midi),fi);
++  const contact=piano.contact(previous!.midi,z).add(v3(0,previous!.contactLift??.002,0));
++  const u=clamp((time-end)/route.duration),liftEnd=clamp(route.liftEnd,.05,.45),landStart=clamp(route.landStart,liftEnd+.05,.95);
++  const lift=smooth(u/liftEnd),land=smooth((u-landStart)/(1-landStart)),cruise=smooth((u-liftEnd)/(landStart-liftEnd)),envelope=lift*(1-land);
++  const touch=contact.clone().lerp(restTouch,cruise);touch.x+=route.x*envelope;touch.z+=route.z*envelope;touch.y=mix(mix(contact.y,route.height,lift),restTouch.y,land);
++  const rotations=localPose(wp(hand.wrist),pose.q,touch,0,route.roll*envelope);
++  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
++  continue;
++ }
+  let rotations=natural.map(q=>q.clone());
+  if(previous&&time-end<release){
+   const contact=contactPose(previous,end),weight=1-smooth((time-end)/Math.max(.001,release));
+--- a/app/performance/types.ts
++++ b/app/performance/types.ts
+@@ -1,7 +1,9 @@
+ import type { WristMotionData } from './wrist-motion';
+ export type Hand = 'L' | 'R';
+ export interface JointPoseControl { duration?: number; distalDuration?: number; liftDegrees?: number; sweepDegrees?: number; }
+-export interface Note { approachPose?: JointPoseControl; releasePose?: JointPoseControl; id: string; time: number; duration: number; midi: number; velocity: number; contactLift?: number; contactZ?: number; thumbOpposition?: number; hand: Hand; finger: number; role?:string; }
++/** Explicitly enabled, finite release routes; legacy travel fields stay inert. */
++export interface FingerReleaseWaypoint { enabled: true; height: number; x: number; z: number; liftEnd: number; landStart: number; roll: number; duration: number; }
++export interface Note { releaseWaypoint?: FingerReleaseWaypoint; approachPose?: JointPoseControl; releasePose?: JointPoseControl; id: string; time: number; duration: number; midi: number; velocity: number; contactLift?: number; contactZ?: number; thumbOpposition?: number; hand: Hand; finger: number; role?:string; }
+ export interface Section { name: string; start: number; end: number; energy: number; }
+ export interface Score { title: string; bpm: number; duration: number; notes: Note[]; sections: Section[]; pedals: {time:number;value:number}[]; accents: {time:number;energy:number}[]; harmony?: {bar:number;time:number;duration:number;chord:string}[]; tempoMap?:{time:number;bpm:number}[]; wristMotion?:WristMotionData; }
+ export interface Telemetry { time:number; activeNotes:number[]; contacts:{hand:Hand;finger:number;midi:number;error:number}[]; fps:number; triangles:number; calls:number; shot:string; ready:boolean; }

@@ -1,3 +1,5 @@
+> **Historical recovery record.** Current pop-revision source and status are described in [POP-REVISION-HANDOFF.md](POP-REVISION-HANDOFF.md) and [the revision report](../production/pop-revision/README.md). The old durations, asset hashes and unintegrated-work statements below describe the earlier recovered checkpoint.
+
 # Status and continuation decisions
 
 This is a reconstruction from the retained project conversation and the recovered Git snapshot, not a claim that scratch-only artifacts survived. The application source remains at the accepted 4079210 checkpoint. Later experiments below are **provisional** unless explicitly identified as integrated.

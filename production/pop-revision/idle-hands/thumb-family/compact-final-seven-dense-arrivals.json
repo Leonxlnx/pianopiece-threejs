@@ -1,0 +1,194 @@
+{
+  "inputs": {
+    "rig": {
+      "path": "analysis/hand-fit/thumb-family/compact-final/pianist.mjs",
+      "sha256": "c11ea6b62b903c2ba344677f2009fdd6cf3b17ddb12881f8ba235662d4a8657a"
+    },
+    "piano": {
+      "path": "analysis/hand-fit/thumb-family/baseline/piano.mjs",
+      "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+    },
+    "score": {
+      "path": "analysis/hand-fit/thumb-family/score.json",
+      "sha256": "4f284b5c25d9dcfa724c075e56179f64643c1c52ad310b7c8f4df33ac32a4d9d"
+    },
+    "model": {
+      "path": "public/assets/pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    }
+  },
+  "selection": "explicit",
+  "summary": {
+    "samples": 7,
+    "keyCoreRowsOver3mm": 0,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 0,
+    "maxKeyCoreDepthMm": 0,
+    "ownPalmRows": 0,
+    "neighborRows": 0,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.00010247894711558343,
+    "nonfinite": 0
+  },
+  "ownership": {
+    "ownedVertices": [
+      {
+        "patch": "LThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "LIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "LMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "LRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "LPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "LPalm",
+        "count": 190,
+        "triangles": 279
+      },
+      {
+        "patch": "RThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "RIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "RMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "RRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "RPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "RPalm",
+        "count": 190,
+        "triangles": 279
+      }
+    ],
+    "mixedWebVertices": 232
+  },
+  "scope": "THUMB-SPECIFIC: key cores include every checked vertex with any thumb-bone weight; pair tests include every thumb/palm, thumb/neighbor and opposing thumb/hand owned-patch pairing. Other digits unchanged by this candidate are outside this screen. Exact production deformed Human vertices against all 88 actual animated rounded-key inner boxes; original-box nearest-face depth. Whole hand-owned and mixed web vertices included for key cores. Exact noncoplanar edge/triangle intersections for >65%-owned digit/palm patches; mixed web, coplanar and completely enclosed surfaces excluded from pair tests. Counts are not penetration depth or visual approval. Finite sampling cannot establish continuous clearance.",
+  "rows": [
+    {
+      "time": 72.173177575,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.0001023806647878805
+    },
+    {
+      "time": 72.189863199,
+      "active": [
+        {
+          "id": "db00304",
+          "hand": "R",
+          "finger": 3,
+          "midi": 74
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0.00010247894711558343
+    },
+    {
+      "time": 189.994148489,
+      "active": [],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 0
+    },
+    {
+      "time": 190.010826517,
+      "active": [
+        {
+          "id": "db00865",
+          "hand": "L",
+          "finger": 5,
+          "midi": 40
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 1.3457621549956946e-05
+    },
+    {
+      "time": 197.175013338,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.289928023649582e-05
+    },
+    {
+      "time": 197.191667971,
+      "active": [
+        {
+          "id": "db00910",
+          "hand": "R",
+          "finger": 5,
+          "midi": 79
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.31228567244204e-05
+    },
+    {
+      "time": 202.188057798,
+      "active": [
+        {
+          "id": "db00937",
+          "hand": "R",
+          "finger": 4,
+          "midi": 77
+        }
+      ],
+      "keyHits": [],
+      "surfaceHits": [],
+      "markerMaxErrorMm": 6.515781064149734e-05
+    }
+  ],
+  "evidenceFormat": "Portable numerical report: raw vertex coordinates, triangle-index pairs, bone-weight dumps and workspace paths omitted; all failure cases, counts and thresholds retained.",
+  "assetProvenance": "Fictional CC0 avatar and procedural piano from this repository; not personal biometric data."
+}

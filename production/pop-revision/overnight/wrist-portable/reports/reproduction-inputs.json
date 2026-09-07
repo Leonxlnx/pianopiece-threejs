@@ -1,0 +1,28 @@
+{
+  "model": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/public/assets/pianist.glb",
+  "score": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/public/assets/score.json",
+  "modelSha256": "3b10d4739ab5d403397991d795146054f18939d10de4dddd858bc6c42e6b8f25",
+  "scoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "manifest": {
+    "scope": "Immutable pre-volume wrist correction verification baseline; does not certify later posture changes or altered assets.",
+    "modelSha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "scoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+    "files": {
+      "surface-final.mjs": "433fa078995c8722570641574ab60ac8ffddf28a43c84e3f6b10001da904730a",
+      "forearm-twist.mjs": "12d70dfc799c706cecf4b6345f78ae40032047c60c7e06793f2c86686837e18b",
+      "wrist-volume.ts": "f64dac6b277d53f221aa911c2040be6a08b7ca11e1b8f164e2d53238bdd09dff",
+      "load.mjs": "2e6856f41521010b21a34f146961c0e9dbb93576c848e332b06cf1f9e4a88bae",
+      "verify-typed.mjs": "d8f006b30e2835967b060bf8f77bd11797497cf292d3aac74e7cd24e22ad485c",
+      "verify.mjs": "c05cc041ac25b1fa8a2687ecf3d917750f593307b7a620fe8d9cb0137d2b6e4e",
+      "wrist-volume.mjs": "b57c94f98a845d53947dab52b40a8f83621f866d0104f7a0ac3a2c984f6d3ae8",
+      "baseline/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+      "baseline/hair-motion-data.mjs": "1bb0af20e05d34c9cb112888a46b688afc14dbd18e6ab84596a55ae3bb2a60ef",
+      "baseline/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+      "baseline/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+      "baseline/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+      "baseline/pianist.ts": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+      "baseline/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4"
+    }
+  },
+  "scope": "surfaces"
+}

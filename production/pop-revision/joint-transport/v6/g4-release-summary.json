@@ -1,0 +1,59 @@
+{
+  "status": "finite actual-surface and motion gates passed; root visual/coherent integration review remains",
+  "ids": [
+    "db00324",
+    "db00659",
+    "db00840"
+  ],
+  "fields": {
+    "releasePose": {
+      "distalDuration": 0.035
+    }
+  },
+  "surfaceFrames": 276,
+  "surfaceFrameRate": 960,
+  "motionFrameRate": 240,
+  "maxWholeRHCoreMm": 2.7866232455810436,
+  "newOrIncreasedOtherPairs": 0,
+  "indexSurfacePairs": 0,
+  "retainedBaselineOtherPairRows": 19,
+  "retainedBaselineOtherPairs": [
+    "RRing/RPinky"
+  ],
+  "maxAllFiveTipMps": 4.529658445305668,
+  "maxSkinMcpDegrees": 54.85400572218103,
+  "maxBackwardPipMm": 0,
+  "maxMarkerMm": 0.510871072632367,
+  "padSamples": 34,
+  "padGapMm": {
+    "min": -0.04472860555881919,
+    "max": 0.15116382447122323
+  },
+  "windows": [
+    {
+      "id": "db00324",
+      "begin": 75.38714633333333,
+      "end": 75.47547966666666,
+      "frames": 92
+    },
+    {
+      "id": "db00659",
+      "begin": 145.38714633333333,
+      "end": 145.47547966666667,
+      "frames": 92
+    },
+    {
+      "id": "db00840",
+      "begin": 185.38714633333333,
+      "end": 185.47547966666667,
+      "frames": 92
+    }
+  ],
+  "frozenInputs": {
+    "rig": "6a1d6ff7ddc669dc3f9671079364405561bcb41e32583c8ae6fad6baf9662b76",
+    "piano": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "score": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "model": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+  },
+  "sourceSha256": "321ca3181e999a86de5886a581bf6401892468d78b880c91fdf0b935778fe38b"
+}

@@ -1,0 +1,58 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_INHERITED_ARMHOLE_OVERLAPS",
+  "scope": "Root inspected six paired actual-source offline images at102.633333,168.700000,216.308333 seconds and an extra candidate image at103.445833. These targeted views cover the maximum elbow displacement and increased garment pair counts. No newly visible torso/cuff hole or skin protrusion was observed in these views; sleeve/torso self-overlaps remain present and are not claimed absent. Final combined-source numerical re-verification remains required.",
+  "camera": {
+    "eye": [
+      0.9,
+      1.22,
+      0
+    ],
+    "target": [
+      0.1,
+      0.99,
+      0.65
+    ],
+    "fov": 45,
+    "width": 1280,
+    "height": 720
+  },
+  "offlineLimit": "Native actual posed meshes/materials with approximate offline shading; not a browser or full-motion review.",
+  "images": {
+    "baseline-0.jpg": "88867187b4a965d70ace769c8bf000a9b4ea76f632c6b557e83edffae6d9fd5c",
+    "baseline-1.jpg": "7602a67f62493a5f5480493ac1464092a91bc2c96e88160fc0844002f56f015f",
+    "baseline-2.jpg": "48edc3ee2c43acc9091ce579da3756e1eda9670184a9fb026ffb5c530808e7ee",
+    "candidate-0.jpg": "3a7d6e9d184fb7b68971133b5e66ec01f403c33cef5c6d2cc474a546e76e312e",
+    "candidate-1.jpg": "91efb8983bf1d414aa15a49876a85b973ee350dd5ca51e04f60885524e3f5768",
+    "candidate-2.jpg": "4e4db49fed497b3ca8ebbba07dbd6da6e2c02f03dd597c1741f0713d6d4c89e6",
+    "candidate-extra.jpg": "15bfc62eaa099f329b13fef0043d7da2c16fb3b4dcf64e4f77170493558c3a66"
+  },
+  "inputHashes": {
+    "score.json": "9133e02225a71eda5d1c780d089645e89fb90e49fc789bd98ea23afc040c9cfd",
+    "model.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "source/pianist.ts": "25845a8981bfa51e07c1ab4555775b285d4718478e8ecde4ea580a3ffbe5db3d",
+    "source/pianist.mjs": "a8b3be88d13b502c52fd398fbbb1d8d6b99eb571a646693207f53286587d05b9",
+    "candidate-source/pianist.ts": "38f295fa0c73598059447bc01bd264e64b6a9ff34361dab6c8a637175554af35",
+    "candidate-source/pianist.mjs": "c1f289d7647e9ab8bcf489f5d5eaaca4f05d72a2962b3558d9ac2d97af019fdc",
+    "source/wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "supported-elbow.patch": "66d28a77d22da20d42cf7e078333b36d307c869f88959fa74090d743e22f9f43",
+    "baseline-comparison.json": "da30cd79c0ae66e5c97b684e2537d08c2b5921a79f605bc49d12aae237b5ebd8",
+    "arm-motion-audit.json": "ef8cd20fb904acde0d8756dc77c5c770a46a3e374985e288c7539038ba138e2b",
+    "failures.json": "f15a222c6e3a98639479160d9bcce190127a955a19dab367cb68b89fe1771c34",
+    "failure-neighborhoods.json": "9e6fc4cb3b4cc674b9289a8fdb83fe906b9e146a270827835a2d629a44c870ea",
+    "raw-arm-frames.ndjson.gz": "ad405a8d4d9c999a58538d6ccf281db67cd17d82add3504bbcddf86bc8c73627",
+    "candidate-full-audit.json": "0b079952aa53cb0d28a0555ec959ce0237a4eecb370e9c8e2c2d097474c35f99",
+    "candidate-full-failures.json": "131358b5cdc8986cb0cdcba5fd8ba22e06d78032ef736651bfd4ebf8ba299b28",
+    "candidate-full-raw.ndjson.gz": "420ff59d1ef2c4fd51b6b53375916122139d939daa603614fd72502ffff7b34d",
+    "candidate-neighborhood-audit.json": "88dd77e1956a1c0a48c03b493a1fe5d50dc8c06a4f08bd53fdc39e484728d2e4",
+    "candidate-neighborhood-raw.ndjson.gz": "a3443f60bd32b51f976eadb4b3250fed31b609db206f60d6815ec0b3742490a4",
+    "candidate-garment-summary.json": "2d6c331869f9eee9c1c364db01516a81dd49920bf7cac16fd79d4ba702427685",
+    "candidate-garment-raw.json": "f366769448fd64370c7844b302097573684d58619d2fd4f92ba09327966132db",
+    "candidate-global-garment-summary.json": "4029a09fe0225691f932addcb648844d43c8b17bf2ffdacf121eb9d4c20ee5f4",
+    "candidate-global-garment-raw.json": "4b41b85f1bb953417a12e24b8abb1af6979e7825814fe4c6ff39a1759d68cb2b",
+    "candidate-armhole-localization-summary.json": "4900d700efdd305d635bd039f9238504b2690ad67b3fbfec88e00f671293d8ed",
+    "candidate-armhole-localization-raw.json": "5d33640bd18aa64f5fd2eb5af712b2c278f9827ea2d56910b6a908a339c62163",
+    "added-armhole-pairs.json": "b1e39a33dbe8e4d6fb5a8937c2c5039f623ca20a774c6d2cebaf4bf45d3b3fe5"
+  },
+  "appliedPatchSHA256": "66d28a77d22da20d42cf7e078333b36d307c869f88959fa74090d743e22f9f43",
+  "integratedPianistSHA256": "577fb14cd0e20dec5d0563b4dbc2e205cc1b0ef2d900b7ff379da97093797512"
+}

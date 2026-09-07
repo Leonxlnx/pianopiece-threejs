@@ -1,0 +1,2655 @@
+[
+  {
+    "name": "default",
+    "before": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 22,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 28,
+      "maxKeyCoreDepthMm": 7.205602479126924,
+      "ownPalmRows": 0,
+      "neighborRows": 14,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 14,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 14,
+      "maxKeyCoreDepthMm": 7.23298514306131,
+      "ownPalmRows": 0,
+      "neighborRows": 94,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.0001519556859623891,
+      "nonfinite": 0
+    },
+    "severeRegressions": 9,
+    "pairRegressions": 80,
+    "shallowIncreases": [
+      {
+        "time": 115.95185400000001,
+        "patch": "RIndex",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.6803077173250256
+      }
+    ],
+    "motion": {
+      "variant": "fingering-research/default",
+      "frameRate": 240,
+      "samples": 315,
+      "maxTipSpeed": 3.1589407020451663,
+      "maxWristSpeed": 0.6258048332176435,
+      "maxWristAcceleration": 19.85910689963541,
+      "maxDorsal": 54.4510799260202,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "front",
+    "before": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 22,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 28,
+      "maxKeyCoreDepthMm": 7.205602479126924,
+      "ownPalmRows": 0,
+      "neighborRows": 14,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 74,
+      "activeKeyCoreHitsOver3mm": 53,
+      "inactiveKeyCoreHitsOver3mm": 21,
+      "maxKeyCoreDepthMm": 7.243882095004317,
+      "ownPalmRows": 0,
+      "neighborRows": 92,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.0001519556859623891,
+      "nonfinite": 0
+    },
+    "severeRegressions": 69,
+    "pairRegressions": 78,
+    "shallowIncreases": [
+      {
+        "time": 116.19352066666667,
+        "patch": "RIndex",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.493306044600463
+      }
+    ],
+    "motion": {
+      "variant": "fingering-research/front",
+      "frameRate": 240,
+      "samples": 315,
+      "maxTipSpeed": 3.0036282777071546,
+      "maxWristSpeed": 0.6258048332176435,
+      "maxWristAcceleration": 19.85910689963541,
+      "maxDorsal": 54.4510799260202,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "same",
+    "before": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 22,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 28,
+      "maxKeyCoreDepthMm": 7.205602479126924,
+      "ownPalmRows": 0,
+      "neighborRows": 14,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 11,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 11,
+      "maxKeyCoreDepthMm": 7.0588368825979515,
+      "ownPalmRows": 0,
+      "neighborRows": 36,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00018302111683846957,
+      "nonfinite": 0
+    },
+    "severeRegressions": 6,
+    "pairRegressions": 22,
+    "shallowIncreases": [
+      {
+        "time": 115.92268733333334,
+        "patch": "RIndex",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.1424630729609957
+      },
+      {
+        "time": 115.94352066666667,
+        "patch": "RIndex",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.7380248131027574
+      },
+      {
+        "time": 115.94352066666667,
+        "patch": "RIndex",
+        "key": 71,
+        "beforeMm": 0,
+        "afterMm": 1.8656526595880463
+      },
+      {
+        "time": 115.94768733333333,
+        "patch": "RIndex",
+        "key": 69,
+        "beforeMm": 0,
+        "afterMm": 2.205804764703001
+      },
+      {
+        "time": 115.94768733333333,
+        "patch": "RIndex",
+        "key": 71,
+        "beforeMm": 0,
+        "afterMm": 2.7215689827548575
+      },
+      {
+        "time": 115.95185400000001,
+        "patch": "RIndex",
+        "key": 69,
+        "beforeMm": 0,
+        "afterMm": 2.368820785865644
+      },
+      {
+        "time": 115.95602066666667,
+        "patch": "RIndex",
+        "key": 69,
+        "beforeMm": 0,
+        "afterMm": 1.958621146434969
+      },
+      {
+        "time": 116.18518733333335,
+        "patch": "RIndex",
+        "key": 71,
+        "beforeMm": 0,
+        "afterMm": 1.9226054806235489
+      },
+      {
+        "time": 116.19768733333333,
+        "patch": "RIndex",
+        "key": 70,
+        "beforeMm": 0,
+        "afterMm": 2.616851654135499
+      }
+    ],
+    "motion": {
+      "variant": "fingering-research/same",
+      "frameRate": 240,
+      "samples": 315,
+      "maxTipSpeed": 3.4293062860487997,
+      "maxWristSpeed": 0.6258048332176435,
+      "maxWristAcceleration": 19.85910689963541,
+      "maxDorsal": 54.4510799260202,
+      "maxBackwardMm": 0,
+      "failures": []
+    }
+  },
+  {
+    "name": "back",
+    "before": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 22,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 28,
+      "maxKeyCoreDepthMm": 7.205602479126924,
+      "ownPalmRows": 0,
+      "neighborRows": 14,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.00017695780230181615,
+      "nonfinite": 0
+    },
+    "after": {
+      "samples": 329,
+      "keyCoreRowsOver3mm": 5,
+      "activeKeyCoreHitsOver3mm": 0,
+      "inactiveKeyCoreHitsOver3mm": 5,
+      "maxKeyCoreDepthMm": 5.158546683448395,
+      "ownPalmRows": 69,
+      "neighborRows": 33,
+      "opposingRows": 0,
+      "markerMaxErrorMm": 0.0001519556859623891,
+      "nonfinite": 0
+    },
+    "severeRegressions": 0,
+    "pairRegressions": 93,
+    "shallowIncreases": [
+      {
+        "time": 116.18518733333335,
+        "patch": "RIndex",
+        "key": 71,
+        "beforeMm": 0,
+        "afterMm": 2.5403477575197675
+      }
+    ],
+    "motion": {
+      "variant": "fingering-research/back",
+      "frameRate": 240,
+      "samples": 315,
+      "maxTipSpeed": 4.353339850229562,
+      "maxWristSpeed": 0.6258048332176435,
+      "maxWristAcceleration": 19.85910689963541,
+      "maxDorsal": 54.4510799260202,
+      "maxBackwardMm": 13.31544108682875,
+      "failures": [
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.93935400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            0.39776154700558725,
+            2.226550842925701,
+            0.34462948371120594,
+            0.3232118533453836,
+            0.7698071299117474
+          ],
+          "wristSpeed": 0.28287892193696235,
+          "wristAccel": 6.638686361375325,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 33.50767043192668,
+              "backwardMm": 4.227218228866181,
+              "pip": 76.85547342999956
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.87275185366488,
+              "backwardMm": 0,
+              "pip": 39.04820027398502
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.91671618679397,
+              "backwardMm": 0,
+              "pip": 39.87011269647195
+            },
+            {
+              "finger": 5,
+              "dorsal": 13.450889787029347,
+              "backwardMm": 0,
+              "pip": 55.964858776257884
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.94352066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            0.33613720629917515,
+            2.021729798543248,
+            0.2913578701402257,
+            0.27333788704889683,
+            0.5497482646760171
+          ],
+          "wristSpeed": 0.2388570726086537,
+          "wristAccel": 10.56524383880369,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 28.923549733393838,
+              "backwardMm": 6.3970713375109405,
+              "pip": 79.56373289321343
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.84101457980648,
+              "backwardMm": 0,
+              "pip": 39.18108847815698
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.84273068962486,
+              "backwardMm": 0,
+              "pip": 39.9757588246463
+            },
+            {
+              "finger": 5,
+              "dorsal": 13.393663036992981,
+              "backwardMm": 0,
+              "pip": 52.47521578498149
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.94768733333333,
+          "hand": "R",
+          "tipSpeeds": [
+            0.2578366191322922,
+            1.7429815785614158,
+            0.22359435441117903,
+            0.20980960052391906,
+            0.28058619345953223
+          ],
+          "wristSpeed": 0.1830970517462629,
+          "wristAccel": 13.38240500698597,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 24.54912875545844,
+              "backwardMm": 8.375163795685648,
+              "pip": 81.912056360639
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.80948368024698,
+              "backwardMm": 0,
+              "pip": 39.2807546296048
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.77850024809492,
+              "backwardMm": 0,
+              "pip": 40.05416286783807
+            },
+            {
+              "finger": 5,
+              "dorsal": 12.510185147871734,
+              "backwardMm": 0,
+              "pip": 49.586891463295316
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.95185400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            0.1720541999377807,
+            1.4324996202663314,
+            0.1492055882855305,
+            0.14004945036154814,
+            0.04245747844347476
+          ],
+          "wristSpeed": 0.12212313156647472,
+          "wristAccel": 14.633740843137524,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 20.580462860642246,
+              "backwardMm": 10.073454498352842,
+              "pip": 83.86820554756402
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.782002776862306,
+              "backwardMm": 0,
+              "pip": 39.34520540550672
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.729333835026466,
+              "backwardMm": 0,
+              "pip": 40.10466038511956
+            },
+            {
+              "finger": 5,
+              "dorsal": 11.224872718164455,
+              "backwardMm": 0,
+              "pip": 47.57895111727757
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.95602066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            0.09070193519452412,
+            1.0903054111661643,
+            0.07868650394081986,
+            0.07383832154666121,
+            0.1874857537477705
+          ],
+          "wristSpeed": 0.06436137168812921,
+          "wristAccel": 13.862822370791916,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 16.075517395172046,
+              "backwardMm": 11.520258739255718,
+              "pip": 84.2677081014213
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.76137736872816,
+              "backwardMm": 0,
+              "pip": 39.37909189300429
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.69680512230955,
+              "backwardMm": 0,
+              "pip": 40.13057358185087
+            },
+            {
+              "finger": 5,
+              "dorsal": 9.638856616582569,
+              "backwardMm": 0,
+              "pip": 45.10390886951996
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.96018733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            0.028385624556532114,
+            0.7835258119691938,
+            0.024631552518630917,
+            0.02310758287147678,
+            0.32721917456104765
+          ],
+          "wristSpeed": 0.020139619265507107,
+          "wristAccel": 10.613220581439071,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 11.690089748705484,
+              "backwardMm": 12.595703909479727,
+              "pip": 83.51561836449591
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.74511547851448,
+              "backwardMm": 0,
+              "pip": 39.389722943811456
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.676693935174654,
+              "backwardMm": 0,
+              "pip": 40.13854686896891
+            },
+            {
+              "finger": 5,
+              "dorsal": 7.635264839169786,
+              "backwardMm": 0,
+              "pip": 41.89133724638923
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.964354,
+          "hand": "R",
+          "tipSpeeds": [
+            0.0014241541136392286,
+            0.49489086361151824,
+            0.0012426730334123078,
+            0.0011717562475836874,
+            0.43862378431395926
+          ],
+          "wristSpeed": 0.00101040715651535,
+          "wristAccel": 4.591010906165269,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 8.197255874609318,
+              "backwardMm": 13.199514222901943,
+              "pip": 82.19640739461768
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.72755647532206,
+              "backwardMm": 0,
+              "pip": 39.39038737910485
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.65905129491301,
+              "backwardMm": 0,
+              "pip": 40.13921130416661
+            },
+            {
+              "finger": 5,
+              "dorsal": 4.856110278867742,
+              "backwardMm": 0,
+              "pip": 37.50536293317832
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.96852066666668,
+          "hand": "R",
+          "tipSpeeds": [
+            8.403710389696813e-9,
+            0.1621423236490505,
+            8.716409340160166e-9,
+            8.361177288737218e-9,
+            0.5205056672123448
+          ],
+          "wristSpeed": 5.710695172512437e-9,
+          "wristAccel": 0.24249714449044446,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.835048792624403,
+              "backwardMm": 13.31544108682875,
+              "pip": 81.32323927396999
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.70327974541081,
+              "backwardMm": 0,
+              "pip": 39.39038737438518
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.63477309132228,
+              "backwardMm": 0,
+              "pip": 40.13921129946238
+            },
+            {
+              "finger": 5,
+              "dorsal": 0.8309079185369606,
+              "backwardMm": 0,
+              "pip": 31.384533237072876
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.97268733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            1.122571569208895e-8,
+            6.205624764108734e-9,
+            1.1843588495841652e-8,
+            1.1977221669382849e-8,
+            0.5730645511754338
+          ],
+          "wristSpeed": 8.213080037515774e-9,
+          "wristAccel": 9.341697593627946e-7,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.841433696887116,
+              "backwardMm": 13.31544103719301,
+              "pip": 81.32323927226362
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.66823260767722,
+              "backwardMm": 0,
+              "pip": 39.39038737029225
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.59972381119108,
+              "backwardMm": 0,
+              "pip": 40.139211295461664
+            },
+            {
+              "finger": 5,
+              "dorsal": -5.221223396328936,
+              "backwardMm": 0,
+              "pip": 22.58667074984291
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.976854,
+          "hand": "R",
+          "tipSpeeds": [
+            1.103220730108383e-8,
+            6.102734578262004e-9,
+            1.157752300094694e-8,
+            1.1672713180519284e-8,
+            0.5949890662933219
+          ],
+          "wristSpeed": 8.029163613340927e-9,
+          "wristAccel": 7.091323578406482e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.855381915087988,
+              "backwardMm": 13.315440989412398,
+              "pip": 81.32323927040939
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.589738172735395,
+              "backwardMm": 0,
+              "pip": 39.39038736607662
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.52122456781509,
+              "backwardMm": 0,
+              "pip": 40.1392112913314
+            },
+            {
+              "finger": 5,
+              "dorsal": -19.73032637856083,
+              "backwardMm": 0,
+              "pip": 2.9212117348386752
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.98102066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            1.0836205567387858e-8,
+            5.996456933677827e-9,
+            1.1311873786552795e-8,
+            1.136834699059483e-8,
+            0.3975922101053367
+          ],
+          "wristSpeed": 7.84559065635575e-9,
+          "wristAccel": 7.061368456588473e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.856039080577671,
+              "backwardMm": 13.31544094351228,
+              "pip": 81.32323926841295
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59099863377865,
+              "backwardMm": 0,
+              "pip": 39.39038736174661
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.522485243807026,
+              "backwardMm": 0,
+              "pip": 40.13921128708012
+            },
+            {
+              "finger": 5,
+              "dorsal": -18.895947517332147,
+              "backwardMm": 0,
+              "pip": 2.9212117608061403
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.98518733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            1.0638793794507817e-8,
+            5.887226433718369e-9,
+            1.10480064139644e-8,
+            1.1065825837538517e-8,
+            0.35179045927690183
+          ],
+          "wristSpeed": 7.66359139862056e-9,
+          "wristAccel": 6.992876028614113e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8566814178806315,
+              "backwardMm": 13.315440899503873,
+              "pip": 81.3232392662807
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59215398740601,
+              "backwardMm": 0,
+              "pip": 39.39038735731097
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.523640800796564,
+              "backwardMm": 0,
+              "pip": 40.13921128271653
+            },
+            {
+              "finger": 5,
+              "dorsal": -18.145424552689953,
+              "backwardMm": 0,
+              "pip": 2.921211784507891
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.989354,
+          "hand": "R",
+          "tipSpeeds": [
+            1.044069410009431e-8,
+            5.7762716078208194e-9,
+            1.0786553214155003e-8,
+            1.0766248027792014e-8,
+            0.2942373578490988
+          ],
+          "wristSpeed": 7.483944736276074e-9,
+          "wristAccel": 6.895212106047681e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8572753945330325,
+              "backwardMm": 13.315440857391557,
+              "pip": 81.32323926401955
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59311972682988,
+              "backwardMm": 0,
+              "pip": 39.39038735277929
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.524606719147144,
+              "backwardMm": 0,
+              "pip": 40.13921127825018
+            },
+            {
+              "finger": 5,
+              "dorsal": -17.509296349031505,
+              "backwardMm": 0,
+              "pip": 2.9212118048450217
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.99352066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            1.024255879129156e-8,
+            5.66386856883319e-9,
+            1.0528243899915613e-8,
+            1.0470551903997269e-8,
+            0.22724659446090345
+          ],
+          "wristSpeed": 7.307443611621476e-9,
+          "wristAccel": 6.772759154280641e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.857833504732096,
+              "backwardMm": 13.31544081716929,
+              "pip": 81.3232392616373
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59379156153029,
+              "backwardMm": 0,
+              "pip": 39.39038734816084
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.52527870099494,
+              "backwardMm": 0,
+              "pip": 40.13921127369064
+            },
+            {
+              "finger": 5,
+              "dorsal": -17.013030508446445,
+              "backwardMm": 0,
+              "pip": 2.921211820916963
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 115.99768733333335,
+          "hand": "R",
+          "tipSpeeds": [
+            1.0044601096695635e-8,
+            5.5509689173259625e-9,
+            1.0273157316525905e-8,
+            1.0179198377233758e-8,
+            0.15154004334403837
+          ],
+          "wristSpeed": 7.1343896299534546e-9,
+          "wristAccel": 6.62750854111475e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.858304816270331,
+              "backwardMm": 13.315440778824794,
+              "pip": 81.32323925914208
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.594111865319014,
+              "backwardMm": 0,
+              "pip": 39.39038734346524
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.52559910691886,
+              "backwardMm": 0,
+              "pip": 40.13921126904823
+            },
+            {
+              "finger": 5,
+              "dorsal": -16.67984533619913,
+              "backwardMm": 0,
+              "pip": 2.9212118319397264
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.00185400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            9.847128977242167e-9,
+            5.437605633304058e-9,
+            1.002155984703242e-8,
+            9.892798214133545e-9,
+            0.06613747517324511
+          ],
+          "wristSpeed": 6.965196711832207e-9,
+          "wristAccel": 6.465551632605218e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.85869275150175,
+              "backwardMm": 13.315440742338092,
+              "pip": 81.32323925654164
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59401029791985,
+              "backwardMm": 0,
+              "pip": 39.39038733870241
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.525497590884406,
+              "backwardMm": 0,
+              "pip": 40.13921126433232
+            },
+            {
+              "finger": 5,
+              "dorsal": -16.53402705197657,
+              "backwardMm": 0,
+              "pip": 2.9212118371363154
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.00602066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            9.649915106142542e-9,
+            5.3244781949584165e-9,
+            9.773169432398405e-9,
+            9.611224492867765e-9,
+            0.08852452445330652
+          ],
+          "wristSpeed": 6.79976884906386e-9,
+          "wristAccel": 6.292404014960452e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.859023193445583,
+              "backwardMm": 13.315440707684589,
+              "pip": 81.32323925384567
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.594393746186796,
+              "backwardMm": 0,
+              "pip": 39.39038733388215
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.525881124663506,
+              "backwardMm": 0,
+              "pip": 40.139211259553754
+            },
+            {
+              "finger": 5,
+              "dorsal": -16.27961278582181,
+              "backwardMm": 0,
+              "pip": 2.9212118448983078
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.01018733333333,
+          "hand": "R",
+          "tipSpeeds": [
+            9.452897498010408e-9,
+            5.2118198099246845e-9,
+            9.527339685209464e-9,
+            9.334158800893703e-9,
+            0.3343064873495668
+          ],
+          "wristSpeed": 6.637834043256019e-9,
+          "wristAccel": 6.113535084512303e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8593718803253045,
+              "backwardMm": 13.315440674837586,
+              "pip": 81.32323925106292
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.59715006998824,
+              "backwardMm": 0,
+              "pip": 39.390387329014935
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.52863774852921,
+              "backwardMm": 0,
+              "pip": 40.139211254722085
+            },
+            {
+              "finger": 5,
+              "dorsal": -15.309319795786527,
+              "backwardMm": 0,
+              "pip": 2.9212118725176266
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.01435400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            9.256035916956094e-9,
+            5.099826103642556e-9,
+            9.284306128139539e-9,
+            9.061933098094489e-9,
+            0.5666276619507042
+          ],
+          "wristSpeed": 6.479740554174456e-9,
+          "wristAccel": 5.920692872411576e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.859768654315538,
+              "backwardMm": 13.31544064376089,
+              "pip": 81.32323924820292
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.60227165275308,
+              "backwardMm": 0,
+              "pip": 39.390387324109994
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.533759850444596,
+              "backwardMm": 0,
+              "pip": 40.13921124984777
+            },
+            {
+              "finger": 5,
+              "dorsal": -13.650779350830229,
+              "backwardMm": 0,
+              "pip": 2.921211918869402
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.01852066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            9.05878468669631e-9,
+            4.988515046571021e-9,
+            9.042967264432883e-9,
+            8.79374887989585e-9,
+            0.7846189325785773
+          ],
+          "wristSpeed": 6.32463936835857e-9,
+          "wristAccel": 5.73624537122881e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8602136881056985,
+              "backwardMm": 13.315440614420304,
+              "pip": 81.32323924527424
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.609841728718024,
+              "backwardMm": 0,
+              "pip": 39.39038731917811
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.541330672967916,
+              "backwardMm": 0,
+              "pip": 40.139211244941755
+            },
+            {
+              "finger": 5,
+              "dorsal": -11.3287708448081,
+              "backwardMm": 0,
+              "pip": 2.9212119821049387
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.02268733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            8.860981536210174e-9,
+            4.87844020744168e-9,
+            8.802881832499056e-9,
+            8.52911084687462e-9,
+            0.984897192428165
+          ],
+          "wristSpeed": 6.172382435938635e-9,
+          "wristAccel": 5.549897783111346e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.860747419729665,
+              "backwardMm": 13.315440586778472,
+              "pip": 81.32323924228736
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.61988641345074,
+              "backwardMm": 0,
+              "pip": 39.390387314229294
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.551376341708874,
+              "backwardMm": 0,
+              "pip": 40.13921124001309
+            },
+            {
+              "finger": 5,
+              "dorsal": -8.379495492406592,
+              "backwardMm": 0,
+              "pip": 2.921212058599369
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.026854,
+          "hand": "R",
+          "tipSpeeds": [
+            8.651865399529844e-9,
+            4.738790511452769e-9,
+            8.566773933204585e-9,
+            8.272213569878547e-9,
+            1.2146249674851837
+          ],
+          "wristSpeed": 6.0296630054246606e-9,
+          "wristAccel": 4.964748979679636e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847914142081199,
+              "backwardMm": 13.31544056048628,
+              "pip": 81.32323923923674
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.71400991180049,
+              "backwardMm": 0,
+              "pip": 39.390387309271674
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.645506292195485,
+              "backwardMm": 0,
+              "pip": 40.13921123507162
+            },
+            {
+              "finger": 5,
+              "dorsal": 10.721461267619663,
+              "backwardMm": 0,
+              "pip": 22.875705585903216
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.03102066666668,
+          "hand": "R",
+          "tipSpeeds": [
+            8.393309743359498e-9,
+            4.454569076558346e-9,
+            8.343976811240254e-9,
+            8.036931712689181e-9,
+            1.2723849778325118
+          ],
+          "wristSpeed": 5.924015784035187e-9,
+          "wristAccel": 5.2654129863125496e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.843507480749206,
+              "backwardMm": 13.315440534029,
+              "pip": 81.32323923606202
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.76197084396628,
+              "backwardMm": 0,
+              "pip": 39.39038730430899
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.69347090081463,
+              "backwardMm": 0,
+              "pip": 40.13921123011922
+            },
+            {
+              "finger": 5,
+              "dorsal": 21.390954812727763,
+              "backwardMm": 0,
+              "pip": 31.510781654310204
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.03518733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            8.128762082542196e-9,
+            4.147919086116663e-9,
+            8.121065751113225e-9,
+            7.804524168027874e-9,
+            1.247326307767877
+          ],
+          "wristSpeed": 5.829163795375356e-9,
+          "wristAccel": 5.651699958396177e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.842010124437421,
+              "backwardMm": 13.315440507118748,
+              "pip": 81.32323923276148
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.79371193171852,
+              "backwardMm": 0,
+              "pip": 39.39038729934927
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.72521467266307,
+              "backwardMm": 0,
+              "pip": 40.13921122516506
+            },
+            {
+              "finger": 5,
+              "dorsal": 29.17544560665993,
+              "backwardMm": 0,
+              "pip": 36.287448322353754
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.039354,
+          "hand": "R",
+          "tipSpeeds": [
+            7.865649972735894e-9,
+            3.837250968468384e-9,
+            7.89669821247253e-9,
+            7.572983610156169e-9,
+            1.1600128821600673
+          ],
+          "wristSpeed": 5.7415220427065625e-9,
+          "wristAccel": 5.757447180494492e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.842225212454674,
+              "backwardMm": 13.315440479651109,
+              "pip": 81.32323922934178
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.814426384138535,
+              "backwardMm": 0,
+              "pip": 39.39038729440273
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.74593108225499,
+              "backwardMm": 0,
+              "pip": 40.13921122021929
+            },
+            {
+              "finger": 5,
+              "dorsal": 34.80057027639217,
+              "backwardMm": 0,
+              "pip": 38.538574369895656
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.04352066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            7.606192236833481e-9,
+            3.5223579138412756e-9,
+            7.673246045980488e-9,
+            7.344399562262638e-9,
+            1.010420289084947
+          ],
+          "wristSpeed": 5.662806405125523e-9,
+          "wristAccel": 5.8995545989403355e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.843424306033095,
+              "backwardMm": 13.315440451513894,
+              "pip": 81.3232392258091
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.826783663815256,
+              "backwardMm": 0,
+              "pip": 39.390387289478724
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.75828971036267,
+              "backwardMm": 0,
+              "pip": 40.139211215291056
+            },
+            {
+              "finger": 5,
+              "dorsal": 38.55112113446921,
+              "backwardMm": 0,
+              "pip": 39.018964963041256
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.04768733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            7.352440622782797e-9,
+            3.2050141412182084e-9,
+            7.451341661082062e-9,
+            7.119334601633356e-9,
+            0.7985598090367374
+          ],
+          "wristSpeed": 5.593376855223764e-9,
+          "wristAccel": 6.034826342217332e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8450027923789,
+              "backwardMm": 13.315440422610457,
+              "pip": 81.32323922216995
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.833033985780176,
+              "backwardMm": 0,
+              "pip": 39.39038728458687
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76454087644082,
+              "backwardMm": 0,
+              "pip": 40.13921121039039
+            },
+            {
+              "finger": 5,
+              "dorsal": 40.74471957623875,
+              "backwardMm": 0,
+              "pip": 38.456847608843674
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.051854,
+          "hand": "R",
+          "tipSpeeds": [
+            7.274009613970596e-9,
+            3.018905513718984e-9,
+            7.419901253967736e-9,
+            7.123777842328198e-9,
+            0.5244290754963613
+          ],
+          "wristSpeed": 5.670831931962718e-9,
+          "wristAccel": 8.217357354676737e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.846373938205306,
+              "backwardMm": 13.315440391167776,
+              "pip": 81.3232392185305
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83540339307722,
+              "backwardMm": 0,
+              "pip": 39.390387279775155
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76691073170587,
+              "backwardMm": 0,
+              "pip": 40.13921120557095
+            },
+            {
+              "finger": 5,
+              "dorsal": 41.79259204054326,
+              "backwardMm": 0,
+              "pip": 37.6243028485052
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.05602066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            6.8640547634320784e-9,
+            2.5628402694409417e-9,
+            7.01070014046869e-9,
+            6.675329635806449e-9,
+            0.1880345321252533
+          ],
+          "wristSpeed": 5.478809332421358e-9,
+          "wristAccel": 9.76841662084577e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847060411674893,
+              "backwardMm": 13.315440360573639,
+              "pip": 81.32323921469568
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.835714208798606,
+              "backwardMm": 0,
+              "pip": 39.39038727497307
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76722168961536,
+              "backwardMm": 0,
+              "pip": 40.13921120075126
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.087548419759074,
+              "backwardMm": 0,
+              "pip": 37.23228258922935
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.06018733333335,
+          "hand": "R",
+          "tipSpeeds": [
+            6.64462775063331e-9,
+            2.251104193566675e-9,
+            6.806855608290314e-9,
+            6.4730740051860575e-9,
+            5.7779194167564595e-9
+          ],
+          "wristSpeed": 5.442318692157383e-9,
+          "wristAccel": 6.400767991633382e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847272737414368,
+              "backwardMm": 13.315440328980078,
+              "pip": 81.32323921077794
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83542265852833,
+              "backwardMm": 0,
+              "pip": 39.39038727023115
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.766930146647816,
+              "backwardMm": 0,
+              "pip": 40.13921119598822
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08725659998943,
+              "backwardMm": 0,
+              "pip": 37.232282584363155
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.06435400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            6.442460878146978e-9,
+            1.9478489102126606e-9,
+            6.613549781800725e-9,
+            6.282701721387392e-9,
+            5.622421895086366e-9
+          ],
+          "wristSpeed": 5.41746103744094e-9,
+          "wristAccel": 6.48633010257398e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847474828587356,
+              "backwardMm": 13.315440296337078,
+              "pip": 81.32323920678557
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.8351387809342,
+              "backwardMm": 0,
+              "pip": 39.390387265558445
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.766646275426474,
+              "backwardMm": 0,
+              "pip": 40.13921119129026
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08697248645202,
+              "backwardMm": 0,
+              "pip": 37.23228257959453
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.06852066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            6.259901706360442e-9,
+            1.6589737052113498e-9,
+            6.4326785919701365e-9,
+            6.105751997043598e-9,
+            5.4822939636981375e-9
+          ],
+          "wristSpeed": 5.403807820645247e-9,
+          "wristAccel": 6.545753356903717e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847627257148188,
+              "backwardMm": 13.315440262611611,
+              "pip": 81.3232392027278
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834913984347274,
+              "backwardMm": 0,
+              "pip": 39.3903872609637
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76642148256369,
+              "backwardMm": 0,
+              "pip": 40.13921118666765
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08674754547247,
+              "backwardMm": 0,
+              "pip": 37.2322825749325
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.07268733333333,
+          "hand": "R",
+          "tipSpeeds": [
+            6.099291623757771e-9,
+            1.3939247552232888e-9,
+            6.2664189846079274e-9,
+            5.944210589592297e-9,
+            5.3591674359205305e-9
+          ],
+          "wristSpeed": 5.400935585995799e-9,
+          "wristAccel": 6.574802292599934e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84779568389366,
+              "backwardMm": 13.315440227785746,
+              "pip": 81.32323919861332
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83468031317039,
+              "backwardMm": 0,
+              "pip": 39.3903872564553
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.766187816978864,
+              "backwardMm": 0,
+              "pip": 40.13921118212813
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08651366838118,
+              "backwardMm": 0,
+              "pip": 37.23228257038426
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.07685400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            5.9628351366239756e-9,
+            1.1677467624146358e-9,
+            6.116747189067265e-9,
+            5.799971988194689e-9,
+            5.2544035817871595e-9
+          ],
+          "wristSpeed": 5.408201689791157e-9,
+          "wristAccel": 6.56978776046369e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84793539973111,
+              "backwardMm": 13.315440191856155,
+              "pip": 81.32323919445261
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834483268588926,
+              "backwardMm": 0,
+              "pip": 39.39038725204243
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76599077670977,
+              "backwardMm": 0,
+              "pip": 40.139211177681354
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08631646306057,
+              "backwardMm": 0,
+              "pip": 37.23228256595636
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.08102066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            5.851345149375093e-9,
+            1.0031696375222895e-9,
+            5.985417503609999e-9,
+            5.674633775242211e-9,
+            5.169139648148095e-9
+          ],
+          "wristSpeed": 5.424290603038809e-9,
+          "wristAccel": 6.55162677468481e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8480307101044025,
+              "backwardMm": 13.315440154832492,
+              "pip": 81.32323919025542
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83435086788371,
+              "backwardMm": 0,
+              "pip": 39.39038724773263
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.7658583790604,
+              "backwardMm": 0,
+              "pip": 40.139211173335006
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08618394570119,
+              "backwardMm": 0,
+              "pip": 37.232282561655595
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.08518733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            5.765408139307747e-9,
+            9.284527855995048e-10,
+            5.873397912063978e-9,
+            5.5689625007999884e-9,
+            5.1035589092964395e-9
+          ],
+          "wristSpeed": 5.447692385142928e-9,
+          "wristAccel": 6.493642958884873e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.848128185533407,
+              "backwardMm": 13.315440116740906,
+              "pip": 81.32323918603296
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834217846419236,
+              "backwardMm": 0,
+              "pip": 39.390387243535514
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76572536100035,
+              "backwardMm": 0,
+              "pip": 40.13921116909865
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08605079771275,
+              "backwardMm": 0,
+              "pip": 37.232282557491004
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.089354,
+          "hand": "R",
+          "tipSpeeds": [
+            5.7047476962758925e-9,
+            9.579738242747559e-10,
+            5.781528696946304e-9,
+            5.483690110558892e-9,
+            5.057621103565713e-9
+          ],
+          "wristSpeed": 5.476952553052589e-9,
+          "wristAccel": 6.409996545585289e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.848199143417211,
+              "backwardMm": 13.315440077621643,
+              "pip": 81.32323918179613
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83412423347352,
+              "backwardMm": 0,
+              "pip": 39.390387239458576
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.765631750802825,
+              "backwardMm": 0,
+              "pip": 40.13921116498039
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08595708213467,
+              "backwardMm": 0,
+              "pip": 37.232282553467805
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.09352066666668,
+          "hand": "R",
+          "tipSpeeds": [
+            5.668282814496041e-9,
+            1.075891734643284e-9,
+            5.709932462209735e-9,
+            5.418660616124906e-9,
+            5.0306512117152045e-9
+          ],
+          "wristSpeed": 5.51034765630741e-9,
+          "wristAccel": 6.302906087701436e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84825504537391,
+              "backwardMm": 13.315440037528159,
+              "pip": 81.32323917755686
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834049830255616,
+              "backwardMm": 0,
+              "pip": 39.39038723550943
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76555734968444,
+              "backwardMm": 0,
+              "pip": 40.13921116098857
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08588260013135,
+              "backwardMm": 0,
+              "pip": 37.23228254959348
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.09768733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            5.6536934707209815e-9,
+            1.250017785898415e-9,
+            5.657647797638979e-9,
+            5.372872073395621e-9,
+            5.020853712190242e-9
+          ],
+          "wristSpeed": 5.54557737665412e-9,
+          "wristAccel": 6.169086305628603e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.848289684437147,
+              "backwardMm": 13.315439996530898,
+              "pip": 81.3232391733265
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834007215343725,
+              "backwardMm": 0,
+              "pip": 39.39038723169647
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76551473637152,
+              "backwardMm": 0,
+              "pip": 40.139211157131314
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08583992504897,
+              "backwardMm": 0,
+              "pip": 37.23228254587408
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.101854,
+          "hand": "R",
+          "tipSpeeds": [
+            5.658420618609173e-9,
+            1.4532517712759688e-9,
+            5.623700780018007e-9,
+            5.345248213681227e-9,
+            5.026628647777939e-9
+          ],
+          "wristSpeed": 5.5808746507413054e-9,
+          "wristAccel": 6.016275509699429e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8482989050898855,
+              "backwardMm": 13.315439954712016,
+              "pip": 81.32323916911753
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83400233051887,
+              "backwardMm": 0,
+              "pip": 39.39038722802694
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76550985251218,
+              "backwardMm": 0,
+              "pip": 40.139211153415886
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08583500309821,
+              "backwardMm": 0,
+              "pip": 37.23228254231594
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.10602066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            5.67952897733833e-9,
+            1.668192300519992e-9,
+            5.606512983014447e-9,
+            5.334029484074764e-9,
+            5.0457728286458375e-9
+          ],
+          "wristSpeed": 5.614285529499905e-9,
+          "wristAccel": 5.850496777260172e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.848283882612418,
+              "backwardMm": 13.315439912165273,
+              "pip": 81.32323916494254
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834036241909004,
+              "backwardMm": 0,
+              "pip": 39.39038722450798
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76554376452806,
+              "backwardMm": 0,
+              "pip": 40.139211149849864
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08586889035464,
+              "backwardMm": 0,
+              "pip": 37.232282538924615
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.11018733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            5.713329286151348e-9,
+            1.884502009155929e-9,
+            5.603862793242e-9,
+            5.336975594894527e-9,
+            5.075557512821915e-9
+          ],
+          "wristSpeed": 5.643824388717708e-9,
+          "wristAccel": 5.673242363866747e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8482548580650375,
+              "backwardMm": 13.315439868996748,
+              "pip": 81.32323916081303
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83407950866415,
+              "backwardMm": 0,
+              "pip": 39.39038722114625
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76558703050823,
+              "backwardMm": 0,
+              "pip": 40.139211146440545
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.085912182384305,
+              "backwardMm": 0,
+              "pip": 37.232282535705835
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.114354,
+          "hand": "R",
+          "tipSpeeds": [
+            5.756492774831662e-9,
+            2.095694164603307e-9,
+            5.613707591604644e-9,
+            5.3519038245521645e-9,
+            5.113738408643411e-9
+          ],
+          "wristSpeed": 5.667752600758504e-9,
+          "wristAccel": 5.496372074704071e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8482078634084775,
+              "backwardMm": 13.315439825321796,
+              "pip": 81.32323915674309
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834162075462636,
+              "backwardMm": 0,
+              "pip": 39.39038721794863
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76566959727569,
+              "backwardMm": 0,
+              "pip": 40.1392111431945
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.085994750414706,
+              "backwardMm": 0,
+              "pip": 37.232282532664705
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.11852066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            5.805217376868461e-9,
+            2.297895373290939e-9,
+            5.6331645898294035e-9,
+            5.376046904502295e-9,
+            5.157306661819311e-9
+          ],
+          "wristSpeed": 5.68420148061046e-9,
+          "wristAccel": 5.325050721539464e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.848146455262286,
+              "backwardMm": 13.315439781266758,
+              "pip": 81.32323915274429
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83425468163124,
+              "backwardMm": 0,
+              "pip": 39.390387214921354
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.765762202006044,
+              "backwardMm": 0,
+              "pip": 40.13921114011859
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08608740733499,
+              "backwardMm": 0,
+              "pip": 37.232282529805445
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.12268733333335,
+          "hand": "R",
+          "tipSpeeds": [
+            5.856456226383948e-9,
+            2.4883131113116202e-9,
+            5.660123884073506e-9,
+            5.407054433602062e-9,
+            5.2040211069768134e-9
+          ],
+          "wristSpeed": 5.691906683300245e-9,
+          "wristAccel": 5.1638733963512426e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84806054765746,
+              "backwardMm": 13.315439736963363,
+              "pip": 81.3232391488298
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83439427930797,
+              "backwardMm": 0,
+              "pip": 39.39038721206983
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76590179862364,
+              "backwardMm": 0,
+              "pip": 40.13921113721841
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08622704393112,
+              "backwardMm": 0,
+              "pip": 37.23228252713399
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.12685400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            5.907194051654631e-9,
+            2.6649455885220474e-9,
+            5.6921734447027664e-9,
+            5.4427003723688e-9,
+            5.2516443361574456e-9
+          ],
+          "wristSpeed": 5.6896061595234174e-9,
+          "wristAccel": 5.021943599999567e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847961796022608,
+              "backwardMm": 13.315439692549724,
+              "pip": 81.32323914501215
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83454365261667,
+              "backwardMm": 0,
+              "pip": 39.3903872094003
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76605116969791,
+              "backwardMm": 0,
+              "pip": 40.13921113450008
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.0863764976399,
+              "backwardMm": 0,
+              "pip": 37.232282524652945
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.13102066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            5.954002738501911e-9,
+            2.8261941386970486e-9,
+            5.7264538686899575e-9,
+            5.479991492263969e-9,
+            5.29732910900905e-9
+          ],
+          "wristSpeed": 5.675582927090737e-9,
+          "wristAccel": 4.9136473929453865e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847853226412353,
+              "backwardMm": 13.315439648174776,
+              "pip": 81.32323914130414
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83471586902714,
+              "backwardMm": 0,
+              "pip": 39.39038720691768
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.7662233844215,
+              "backwardMm": 0,
+              "pip": 40.13921113196931
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.086548777018834,
+              "backwardMm": 0,
+              "pip": 37.23228252236729
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.13518733333333,
+          "hand": "R",
+          "tipSpeeds": [
+            5.995285024550117e-9,
+            2.9713712927580112e-9,
+            5.7615578860320076e-9,
+            5.517644400544685e-9,
+            5.339950841313955e-9
+          ],
+          "wristSpeed": 5.649541153945119e-9,
+          "wristAccel": 4.834711022427907e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847722460281384,
+              "backwardMm": 13.315439603985679,
+              "pip": 81.32323913771747
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.834919431506755,
+              "backwardMm": 0,
+              "pip": 39.39038720462681
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76642694450492,
+              "backwardMm": 0,
+              "pip": 40.139211129630375
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08675242766747,
+              "backwardMm": 0,
+              "pip": 37.23228252028096
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.13935400000001,
+          "hand": "R",
+          "tipSpeeds": [
+            6.028342706160712e-9,
+            3.0992956226573344e-9,
+            5.7951973636226745e-9,
+            5.553295844197823e-9,
+            5.377364066758926e-9
+          ],
+          "wristSpeed": 5.610284562740463e-9,
+          "wristAccel": 4.8002031677344e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847576640880046,
+              "backwardMm": 13.315439560137088,
+              "pip": 81.32323913426497
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83513950730758,
+              "backwardMm": 0,
+              "pip": 39.39038720253187
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76664701699372,
+              "backwardMm": 0,
+              "pip": 40.13921112748858
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08697262397982,
+              "backwardMm": 0,
+              "pip": 37.232282518395465
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.14352066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            6.051706578143098e-9,
+            3.2093560148748537e-9,
+            5.82597959372542e-9,
+            5.585524828479614e-9,
+            5.408234824132268e-9
+          ],
+          "wristSpeed": 5.557336726043413e-9,
+          "wristAccel": 4.807235688068207e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.847427710487572,
+              "backwardMm": 13.315439516785155,
+              "pip": 81.32323913095854
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83537496596888,
+              "backwardMm": 0,
+              "pip": 39.39038720063711
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.766882473297315,
+              "backwardMm": 0,
+              "pip": 40.13921112554779
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08720817169943,
+              "backwardMm": 0,
+              "pip": 37.23228251671531
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.14768733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            6.0638263681594945e-9,
+            3.301243092112388e-9,
+            5.852325993544399e-9,
+            5.612854198167287e-9,
+            5.43132979112465e-9
+          ],
+          "wristSpeed": 5.490176697063998e-9,
+          "wristAccel": 4.863367182015382e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.8472594396148905,
+              "backwardMm": 13.315439474089086,
+              "pip": 81.32323912780917
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.835625411429916,
+              "backwardMm": 0,
+              "pip": 39.3903871989456
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.767132914627304,
+              "backwardMm": 0,
+              "pip": 40.13921112381186
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08745876760953,
+              "backwardMm": 0,
+              "pip": 37.23228251524111
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.151854,
+          "hand": "R",
+          "tipSpeeds": [
+            6.063543920390006e-9,
+            3.374286649035554e-9,
+            5.873292442584057e-9,
+            5.634259401582828e-9,
+            5.445627593981612e-9
+          ],
+          "wristSpeed": 5.408518407283859e-9,
+          "wristAccel": 4.961186198148886e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84708569403611,
+              "backwardMm": 13.315439432208699,
+              "pip": 81.32323912482875
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83589670738514,
+              "backwardMm": 0,
+              "pip": 39.390387197461216
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76740420752222,
+              "backwardMm": 0,
+              "pip": 40.139211122284344
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08773017836898,
+              "backwardMm": 0,
+              "pip": 37.23228251397612
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.15602066666668,
+          "hand": "R",
+          "tipSpeeds": [
+            6.049961538812796e-9,
+            3.4284657337821457e-9,
+            5.8879425912032785e-9,
+            5.648686260825288e-9,
+            5.4503908229963685e-9
+          ],
+          "wristSpeed": 5.31217416973434e-9,
+          "wristAccel": 5.108120117603265e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84688642123416,
+              "backwardMm": 13.315439391305805,
+              "pip": 81.32323912202747
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.8361971504597,
+              "backwardMm": 0,
+              "pip": 39.390387196186055
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.767704646059435,
+              "backwardMm": 0,
+              "pip": 40.139211120967595
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08803078720167,
+              "backwardMm": 0,
+              "pip": 37.23228251292015
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.16018733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            6.022442266074263e-9,
+            3.4630611102456636e-9,
+            5.8955493232074195e-9,
+            5.655516788895231e-9,
+            5.444966156051922e-9
+          ],
+          "wristSpeed": 5.2010434065113204e-9,
+          "wristAccel": 5.292931315882856e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.846692454167022,
+              "backwardMm": 13.31543935154217,
+              "pip": 81.32323911941654
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83648410068364,
+              "backwardMm": 0,
+              "pip": 39.39038719512276
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.767991591383016,
+              "backwardMm": 0,
+              "pip": 40.139211119864555
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08831791657505,
+              "backwardMm": 0,
+              "pip": 37.232282512077205
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.164354,
+          "hand": "R",
+          "tipSpeeds": [
+            5.980704148385155e-9,
+            3.478394070741342e-9,
+            5.8959284313934645e-9,
+            5.6543466323984024e-9,
+            5.429089870984746e-9
+          ],
+          "wristSpeed": 5.0753896724931875e-9,
+          "wristAccel": 5.5174960433836984e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.846491057032881,
+              "backwardMm": 13.315439313079768,
+              "pip": 81.32323911700563
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.836798701626435,
+              "backwardMm": 0,
+              "pip": 39.39038719427279
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76830618880197,
+              "backwardMm": 0,
+              "pip": 40.13921111897688
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08863265024201,
+              "backwardMm": 0,
+              "pip": 37.23228251144468
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.16852066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            5.923952875151669e-9,
+            3.4735691802294038e-9,
+            5.888179684397953e-9,
+            5.644378840477824e-9,
+            5.401944926327375e-9
+          ],
+          "wristSpeed": 4.934865405435523e-9,
+          "wristAccel": 5.780551157107006e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.84627710005582,
+              "backwardMm": 13.315439276085305,
+              "pip": 81.32323911480485
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83711664554763,
+              "backwardMm": 0,
+              "pip": 39.39038719363811
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76862412744785,
+              "backwardMm": 0,
+              "pip": 40.139211118306
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.08895078718608,
+              "backwardMm": 0,
+              "pip": 37.23228251102458
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.17268733333334,
+          "hand": "R",
+          "tipSpeeds": [
+            5.852682255622554e-9,
+            3.4488432958616465e-9,
+            5.872707281988781e-9,
+            5.625756777432886e-9,
+            5.363888693116819e-9
+          ],
+          "wristSpeed": 4.780373445241929e-9,
+          "wristAccel": 6.063643407997518e-8,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 6.846069175098887,
+              "backwardMm": 13.315439240721261,
+              "pip": 81.32323911282319
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83743269962781,
+              "backwardMm": 0,
+              "pip": 39.39038719321881
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76894017708953,
+              "backwardMm": 0,
+              "pip": 40.13921111785337
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.089267006393385,
+              "backwardMm": 0,
+              "pip": 37.232282510816745
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.176854,
+          "hand": "R",
+          "tipSpeeds": [
+            0.0016549701878695007,
+            0.3227075967485591,
+            0.001599435512404257,
+            0.0016463833681571905,
+            0.0016782800499854861
+          ],
+          "wristSpeed": 0.0017069607007553866,
+          "wristAccel": 0.4096696272395379,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 8.234893394691296,
+              "backwardMm": 12.89256388590343,
+              "pip": 81.25874433967338
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.83650306994635,
+              "backwardMm": 0,
+              "pip": 39.39038719314802
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.76813340739957,
+              "backwardMm": 0,
+              "pip": 40.139211117737595
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.088762060658645,
+              "backwardMm": 0,
+              "pip": 37.23228251086925
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.18102066666667,
+          "hand": "R",
+          "tipSpeeds": [
+            0.023036876065771445,
+            1.5498670029236505,
+            0.022206556010589604,
+            0.022861682483456363,
+            0.023136008372055678
+          ],
+          "wristSpeed": 0.023759283612282328,
+          "wristAccel": 5.292557498771704,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 13.360002716441825,
+              "backwardMm": 10.794309413956704,
+              "pip": 79.6324646340888
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.81888219172434,
+              "backwardMm": 0,
+              "pip": 39.38972275407446
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.75219136161637,
+              "backwardMm": 0,
+              "pip": 40.13854667844039
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.07439843570361,
+              "backwardMm": 0,
+              "pip": 37.22829586615716
+            }
+          ]
+        },
+        {
+          "id": "db00518-db00522-db00523-refinger",
+          "time": 116.18518733333335,
+          "hand": "R",
+          "tipSpeeds": [
+            0.07019417793932468,
+            2.6332535660791256,
+            0.06783751541232833,
+            0.06960554909790617,
+            0.0704668327528306
+          ],
+          "wristSpeed": 0.07238033639299031,
+          "wristAccel": 11.669052667360651,
+          "fingers": [
+            {
+              "finger": 2,
+              "dorsal": 21.09648300093129,
+              "backwardMm": 7.142418857421228,
+              "pip": 76.42142888008904
+            },
+            {
+              "finger": 3,
+              "dorsal": 39.76596535927718,
+              "backwardMm": 0,
+              "pip": 39.38972275989341
+            },
+            {
+              "finger": 4,
+              "dorsal": 39.702411876351405,
+              "backwardMm": 0,
+              "pip": 40.1358889199261
+            },
+            {
+              "finger": 5,
+              "dorsal": 42.02954747347995,
+              "backwardMm": 0,
+              "pip": 37.21567149087146
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

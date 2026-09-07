@@ -1,0 +1,365 @@
+{
+  "candidate": "release-twelve",
+  "accepted": [
+    "db00083",
+    "db00346",
+    "db00390",
+    "db00408",
+    "db00509",
+    "db00520",
+    "db00666",
+    "db00681",
+    "db00739",
+    "db00847",
+    "db00862",
+    "db00920"
+  ],
+  "rejected": [],
+  "results": [
+    {
+      "id": "db00083",
+      "hand": "L",
+      "finger": 3,
+      "start": 23.4955,
+      "end": 23.6555,
+      "patch": "LMiddle",
+      "beforeTargetPairs": 582,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 1,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00346",
+      "hand": "L",
+      "finger": 3,
+      "start": 79.48075,
+      "end": 79.64075,
+      "patch": "LMiddle",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 4,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00390",
+      "hand": "L",
+      "finger": 5,
+      "start": 86.47675,
+      "end": 86.63674999999999,
+      "patch": "LPinky",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 1,
+      "improvedShallow": 0,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00408",
+      "hand": "R",
+      "finger": 3,
+      "start": 90.387433,
+      "end": 90.547433,
+      "patch": "RMiddle",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 6,
+      "improvedShallow": 1,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [
+        {
+          "time": 90.39159966666666,
+          "patch": "RMiddle",
+          "key": 68,
+          "before": 2.243321650176121,
+          "after": 2.3656780291196333
+        },
+        {
+          "time": 90.39576633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.7238714026547317
+        },
+        {
+          "time": 90.47076633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.6867262166975214
+        },
+        {
+          "time": 90.474933,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.7652560794720893
+        },
+        {
+          "time": 90.47909966666666,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.8121478328616556
+        },
+        {
+          "time": 90.48326633333333,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.8333408696378237
+        },
+        {
+          "time": 90.487433,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.840390644610724
+        },
+        {
+          "time": 90.49159966666666,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.843626998717652
+        },
+        {
+          "time": 90.49576633333334,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.811730664003531
+        },
+        {
+          "time": 90.499933,
+          "patch": "RMiddle",
+          "key": 70,
+          "before": 0,
+          "after": 2.4650078101849937
+        }
+      ],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00509",
+      "hand": "L",
+      "finger": 3,
+      "start": 113.49549999999999,
+      "end": 113.65549999999999,
+      "patch": "LMiddle",
+      "beforeTargetPairs": 815,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 0,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00520",
+      "hand": "R",
+      "finger": 5,
+      "start": 115.896011,
+      "end": 116.056011,
+      "patch": "RPinky",
+      "beforeTargetPairs": 322,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 0,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00666",
+      "hand": "L",
+      "finger": 5,
+      "start": 146.47675,
+      "end": 146.63675,
+      "patch": "LPinky",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 1,
+      "improvedShallow": 0,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00681",
+      "hand": "L",
+      "finger": 3,
+      "start": 149.48075,
+      "end": 149.64075,
+      "patch": "LMiddle",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 4,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00739",
+      "hand": "R",
+      "finger": 3,
+      "start": 159.265572,
+      "end": 159.425572,
+      "patch": "RMiddle",
+      "beforeTargetPairs": 1011,
+      "afterTargetPairs": 0,
+      "clearedSevere": 2,
+      "improvedShallow": 1,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [
+        {
+          "time": 159.290572,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.9757429946354885
+        },
+        {
+          "time": 159.29473866666666,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.8176686249930665
+        },
+        {
+          "time": 159.29890533333332,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6267669629156942
+        },
+        {
+          "time": 159.303072,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.618305257682099
+        }
+      ],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00847",
+      "hand": "L",
+      "finger": 5,
+      "start": 186.47675,
+      "end": 186.63675,
+      "patch": "LPinky",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 1,
+      "improvedShallow": 0,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00862",
+      "hand": "L",
+      "finger": 3,
+      "start": 189.48075,
+      "end": 189.64075,
+      "patch": "LMiddle",
+      "beforeTargetPairs": 0,
+      "afterTargetPairs": 0,
+      "clearedSevere": 0,
+      "improvedShallow": 4,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    },
+    {
+      "id": "db00920",
+      "hand": "R",
+      "finger": 3,
+      "start": 199.264644,
+      "end": 199.424644,
+      "patch": "RMiddle",
+      "beforeTargetPairs": 1011,
+      "afterTargetPairs": 0,
+      "clearedSevere": 2,
+      "improvedShallow": 1,
+      "keyRegressions": [],
+      "pairRegressions": [],
+      "shallowIncreases": [
+        {
+          "time": 199.289644,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.9757430160854415
+        },
+        {
+          "time": 199.29381066666667,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.817668649319163
+        },
+        {
+          "time": 199.29797733333334,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6267669881300804
+        },
+        {
+          "time": 199.302144,
+          "patch": "RMiddle",
+          "key": 73,
+          "before": 0,
+          "after": 2.6183052825418662
+        }
+      ],
+      "motionFailures": [],
+      "improves": true,
+      "passed": true
+    }
+  ]
+}

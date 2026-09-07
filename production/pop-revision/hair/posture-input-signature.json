@@ -1,0 +1,9 @@
+{
+  "signature": {
+    "scoreInputs": "dc3c8effc511630adf3690b057179cf5ce74f95e3d74ae5c4f00f0dd05913311",
+    "headTransformSource": "0c561ae6f95315b3d1a87e7ff51ab8eff825e3d1965b512c70cc907797109f21"
+  },
+  "bakedFullScoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "fields": "score duration/bpm; sections start/end/energy; harmony time/duration; notes time/midi/velocity/role/hand; head-transform source through its first world-matrix update",
+  "excluded": "fingers, lift/release, wrist curves, pedal events, eye morph values and hair-helper calls do not drive the sampled head/root transform"
+}

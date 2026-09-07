@@ -1,0 +1,143 @@
+{
+  "passedForEditedRoutes": true,
+  "scope": "All twelve exact native sampled stills manually viewed by release researcher and independently by parent. Targeted released digits retain continuous rounded silhouettes and avoid new visible crossings. This is not a whole-hand clearance claim.",
+  "inputs": {
+    "files": {
+      "rig": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/production/qa/compiled/pianist.mjs",
+        "sha256": "213745de85585056a191da836f52d5ebaebca73b5153ef716fc7447b1d950ef5"
+      },
+      "score": {
+        "file": "/workspace/scratch/882c1c2d8c18/animation-research/release-twelve/score.json",
+        "sha256": "90751a15d17721f1f72595089c567e47f22e729ba485e921105c7bb7189ca912"
+      },
+      "model": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/public/assets/pianist.glb",
+        "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+      },
+      "piano": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/production/qa/compiled/piano.mjs",
+        "sha256": "958d403c1d537df5276cf694e29f7e51ccd65d482f1a3b32f8a8c48e5d46d9c2"
+      },
+      "stage": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/production/qa/compiled/stage.mjs",
+        "sha256": "a332386e3716639edad631624fee13d70d206b228191d685d36f965e30dce51e"
+      },
+      "direction": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/production/qa/compiled/direction.mjs",
+        "sha256": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b"
+      },
+      "look": {
+        "file": "/workspace/scratch/882c1c2d8c18/pianopiece-threejs/production/qa/compiled/render-settings.mjs",
+        "sha256": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635"
+      }
+    },
+    "aspect": 1.7777777777777777,
+    "shot": -1,
+    "detail": "hands"
+  },
+  "images": [
+    {
+      "id": "db00083",
+      "patch": "LMiddle",
+      "time": 23.516333333333336,
+      "baselineDefectScore": 253.53808986992576,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-0.jpg",
+      "sha256": "d0b6ee64eaeab1ab971b339c5f4d8f637fa5856178824e7171ad7c4b9d404844"
+    },
+    {
+      "id": "db00346",
+      "patch": "LMiddle",
+      "time": 79.50158333333333,
+      "baselineDefectScore": 278.63006469294737,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-1.jpg",
+      "sha256": "60288d764d25bc748812d547eff1a105d476dabd5863044b8a3cfc8d3e8fb82d"
+    },
+    {
+      "id": "db00390",
+      "patch": "LPinky",
+      "time": 86.51008333333333,
+      "baselineDefectScore": 304.52174533247,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-2.jpg",
+      "sha256": "c39b8a8d7c33771ed9ff2b5c64ecd5a373017325552adcf16a70c9af14f4caf7"
+    },
+    {
+      "id": "db00408",
+      "patch": "RMiddle",
+      "time": 90.40826633333333,
+      "baselineDefectScore": 708.2826604056846,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-3.jpg",
+      "sha256": "654e6d00b16a1730d06e8715f94a6977f9c421221fac366914cb9c473b14cd81"
+    },
+    {
+      "id": "db00509",
+      "patch": "LMiddle",
+      "time": 113.54133333333333,
+      "baselineDefectScore": 136,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-4.jpg",
+      "sha256": "340cfe0a260f78976e383ac9bad4db1f1603b1a19e305372808808d6a1e44401"
+    },
+    {
+      "id": "db00520",
+      "patch": "RPinky",
+      "time": 115.94184433333334,
+      "baselineDefectScore": 61,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-5.jpg",
+      "sha256": "bd9b83f46739930d3cd94e07e5560063ed3e92fb0017922f87f2fe06ca061e6c"
+    },
+    {
+      "id": "db00666",
+      "patch": "LPinky",
+      "time": 146.51008333333334,
+      "baselineDefectScore": 304.5216979461196,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-6.jpg",
+      "sha256": "30ae09718a650e5e6e9681734f8fb2afef55e79be5ece830efb3ae76637ef2c9"
+    },
+    {
+      "id": "db00681",
+      "patch": "LMiddle",
+      "time": 149.50158333333331,
+      "baselineDefectScore": 278.6300613231707,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-7.jpg",
+      "sha256": "16ec2461556b0ca620b5e8bb2844cbc41674811a920622a22c2fbab00cfa1a7b"
+    },
+    {
+      "id": "db00739",
+      "patch": "RMiddle",
+      "time": 159.28223866666664,
+      "baselineDefectScore": 400.1081751987185,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-8.jpg",
+      "sha256": "fc0d3c4b6f386ad1b7f8e9d4d7e15fd88ab171b60866150d22785494a0553db3"
+    },
+    {
+      "id": "db00847",
+      "patch": "LPinky",
+      "time": 186.51008333333334,
+      "baselineDefectScore": 304.5216800331596,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-9.jpg",
+      "sha256": "2e2ec0655cf591629a0f394aed928d97d291ade3d4ebf25cab2a259ec2634849"
+    },
+    {
+      "id": "db00862",
+      "patch": "LMiddle",
+      "time": 189.50158333333331,
+      "baselineDefectScore": 278.63004371807,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-10.jpg",
+      "sha256": "24d7d6398723c75c251444ed0d27fe2fc9366fbc82bdb46466b0aa50d1c7ac15"
+    },
+    {
+      "id": "db00920",
+      "patch": "RMiddle",
+      "time": 199.28131066666666,
+      "baselineDefectScore": 400.1090097270095,
+      "file": "/dev/shm/daybreak-night-882c1c2d8c18/twelve-candidate/gl-1280-11.jpg",
+      "sha256": "38592b1b3cadb3d7c751df5e9e6d51e8f6f9171b4ed1b674588981869cf0d27e"
+    }
+  ],
+  "observations": [
+    "Targeted left middle/pinky and right pinky releases have readable individual silhouettes.",
+    "Right middle lift at90.408 seconds is emphatic but retains connected rounded joints; no through-palm fold visible in this view.",
+    "Inherited left ring crossing around90.4 and right middle approach key penetration around115.94 remain separate unresolved defects and are visible.",
+    "Native frames bind integrated wrist corrector213745de and original be034 model; standalone numerical candidate compiled3d09 differs in wrist volume only."
+  ]
+}

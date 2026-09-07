@@ -1,0 +1,92 @@
+{
+  "status": "SCOPED_STILL_APPROVAL",
+  "review": "All seven native actual-mesh stills inspected. Each targeted moving digit clears the neighboring finger and retains a continuous rounded chain. Pinky releases splay visibly sideways but are bounded and unbroken. Existing wrist narrowing and unrelated curled right-middle poses in the left-hand trials remain separate defects, not dismissed by this scoped route review. No continuous-motion or whole-song clearance claim.",
+  "inputs": {
+    "rig": {
+      "file": "$RESEARCH/candidate/compiled/pianist.mjs",
+      "sha256": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331"
+    },
+    "score": {
+      "file": "$RESEARCH/release-seven/score.json",
+      "sha256": "5cfa21bd93091b5d5b5b1c88b5c866552118d4636463575c1373770b632f5d52"
+    },
+    "model": {
+      "file": "$PROJECT/public/assets/pianist.glb",
+      "sha256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    },
+    "piano": {
+      "file": "$PROJECT/production/qa/compiled/piano.mjs",
+      "sha256": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79"
+    },
+    "stage": {
+      "file": "$PROJECT/production/qa/compiled/stage.mjs",
+      "sha256": "29b0969732bc1f42d3f10adbb00158f10823c905af250f0641e53c1264522df6"
+    },
+    "direction": {
+      "file": "$PROJECT/production/qa/compiled/direction.mjs",
+      "sha256": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b"
+    },
+    "look": {
+      "file": "$PROJECT/production/qa/compiled/render-settings.mjs",
+      "sha256": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635"
+    }
+  },
+  "images": [
+    {
+      "id": "db00094",
+      "time": 25.909396333333333,
+      "patch": "RPinky",
+      "baselineTargetPairs": 60,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-0.jpg",
+      "sha256": "f6771bdbaf82bce4d1f8def722939673d31545664292d7fa56dcb22e50e66202"
+    },
+    {
+      "id": "db00399",
+      "time": 88.56633333333333,
+      "patch": "LMiddle",
+      "baselineTargetPairs": 132,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-1.jpg",
+      "sha256": "b00ac32e0adebf437e1c921f7b7f8916421c323a02c8a05fac1a95c7c4a682bb"
+    },
+    {
+      "id": "db00404",
+      "time": 89.312439,
+      "patch": "RMiddle",
+      "baselineTargetPairs": 136,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-2.jpg",
+      "sha256": "7f3a7107eaa5cc9aff98c1e4d5c0555097e686b3070b7025958ccbf54f495fd8"
+    },
+    {
+      "id": "db00734",
+      "time": 158.56633333333332,
+      "patch": "LMiddle",
+      "baselineTargetPairs": 132,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-3.jpg",
+      "sha256": "0f1795cdd7a881cfb85225f3130402f6a20d0ba03e369aea297cbde4de771f0e"
+    },
+    {
+      "id": "db00915",
+      "time": 198.56633333333332,
+      "patch": "LMiddle",
+      "baselineTargetPairs": 132,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-4.jpg",
+      "sha256": "2cf92fdb00a94947ca36fb2aec029157c3ef2c85e1ac4cc7db22e630bf4f846b"
+    },
+    {
+      "id": "db00986",
+      "time": 211.3356683333333,
+      "patch": "RPinky",
+      "baselineTargetPairs": 62,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-5.jpg",
+      "sha256": "6428c02c77e91e4b625c6c168f9e74eff7d81f6c8c1dde0176447a993603c7e8"
+    },
+    {
+      "id": "db00994",
+      "time": 213.7324593333333,
+      "patch": "RPinky",
+      "baselineTargetPairs": 61,
+      "path": "$PROJECT/work/night/seven-candidate/gl-1280-6.jpg",
+      "sha256": "9208e7d195e9e5f8ed86f6d8704ed27d66ddc443cc826be9e68b02b90eaf8822"
+    }
+  ]
+}

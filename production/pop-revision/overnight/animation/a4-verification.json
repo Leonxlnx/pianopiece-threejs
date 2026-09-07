@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "scope": "Only the two explicitly enabled complete160ms A4 releases with guarded240Hz actual-skin sampling, exact boundaries and own-finger held samples; existing V7 full-song defects remain.",
+  "samples": 110,
+  "positiveControl": 8,
+  "cleared": 8,
+  "remainingUnchangedSevereRows": 7,
+  "shallowIncreases": [
+    {
+      "time": 95.40295599999999,
+      "patch": "RIndex",
+      "key": 68,
+      "beforeMm": 0,
+      "afterMm": 2.092616530406599
+    },
+    {
+      "time": 205.402158,
+      "patch": "RIndex",
+      "key": 68,
+      "beforeMm": 0,
+      "afterMm": 2.0926259415264825
+    }
+  ],
+  "motion": {
+    "variant": "candidate",
+    "samples": 104,
+    "maxTipSpeed": 3.8074314004445515,
+    "maxWristSpeed": 0.36964343714326425,
+    "maxWristAcceleration": 11.952834530308307,
+    "maxDorsal": 57.92924055045601,
+    "maxBackwardMm": 0
+  },
+  "invariants": {
+    "otherQuaternionError": 0,
+    "heldSkinErrorMm": 0,
+    "endpointSkinErrorMm": 0
+  },
+  "hashes": {
+    "candidate/app/performance/pianist.ts": "7d68864d5b646f76c951814234aef79d8241a496a2ffdfe65c224f2a103472a2",
+    "candidate/app/performance/types.ts": "b8a25a82da31c03f8555327f50dda72f0ab456c288550ebcc3983167f0a2e896",
+    "candidate/score.json": "fef1f5363433d00ecbbb6162abf6c5c10f9b2ec0b86c64e88c375985402e0a6c",
+    "candidate/compiled/piano.mjs": "f8953670a15920735245c059a83e81fba20a97b3713a6d8f2a7a7c3fbd6b6e79",
+    "candidate/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "candidate/compiled/stage.mjs": "29b0969732bc1f42d3f10adbb00158f10823c905af250f0641e53c1264522df6",
+    "candidate/compiled/direction.mjs": "e8619b32d8f93f24149bc1b0ba9cc91f5af0e8d3ee51828236ddfbdace75ae6b",
+    "candidate/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "candidate/compiled/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "candidate/compiled/wrist-motion.mjs": "01560bf53ea4cc3b295ad77d6657eebd16112537bcd64221034355c9158da260",
+    "candidate/compiled/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "candidate/compiled/hair-motion-data.mjs": "1bb0af20e05d34c9cb112888a46b688afc14dbd18e6ab84596a55ae3bb2a60ef",
+    "../pianopiece-threejs/public/assets/pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "audit-hand-surfaces.mjs": "9d326350e64629a92f29aa22ef68feff8d6494ca5603ead4c70ec79a9937cc7a",
+    "motion-local.mjs": "b24f511d01ca1e5e9fcea94de14f7bcc15216e25e2b1b677e70458e1570b2c70",
+    "verify-candidate.mjs": "d8c09b7fbd09de51937c1b754c397a7f5138a3760eabc6aceb9d81f3febf71bd"
+  }
+}

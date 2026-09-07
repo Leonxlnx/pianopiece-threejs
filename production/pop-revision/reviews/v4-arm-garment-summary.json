@@ -1,0 +1,1002 @@
+{
+  "scope": "Paired actual noncoplanar triangle-surface intersections at selected largest translated/rotated support knots and distributed affected knots, plus transition midpoints. Same frozen incumbent rig/model for both, before=eaffbe6 score and v4=new coherent score. >65% joint ownership at every triangle vertex excludes mixed junctions. Garment base blouse only; decorative facings/thread and fully enclosed/coplanar/unsampled crossings not covered. Counts are not depth; hidden body-torso diagnostics are not automatically visible clothing failure.",
+  "inputs": {
+    "label": "Independent coherent v4 score / frozen combined incumbent rig",
+    "hashes": {
+      "piano.ts": "1603d7b74e44c636f95caf86b23188c5d4d3989e1c39890bf77967a26e845775",
+      "pianist.ts": "59dc8e3e3d55856b0741d6e8029ca4cf40951de57c828df0395db94bedd8e1f1",
+      "stage.ts": "085135da0985acfdf72bb641ccee4c71149f968543b4581f099c858a1d045ded",
+      "direction.ts": "1352a4fc49797dd312df26e4c410b331a6f99721f1c2e55f45a048019da0691f",
+      "math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+      "render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+      "wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+      "ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+      "hair-motion-data.ts": "cb8a31a9f267f4645240cdb4dc77b7e73c10a14efb26b0b7fefa3f1f2c39503d",
+      "score.json": "401c48eeb4ced0bb50189609a5aa6b1a3890cba17c5cb2894199876a4a029369",
+      "baseline-score.json": "49fd52d9ea312f85f112cbdbccdc37f0e48e91e1a08093beb67b4afd79617309",
+      "model.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc"
+    },
+    "preSupportScoreSha256": "26c3ba9d8d3344b16a8dc481fe9d408d98b53a4703638b619dee5a344038cd2f"
+  },
+  "affectedWristKnots": 28,
+  "selectedWristKnots": 28,
+  "samplesPerVersion": 56,
+  "patchTriangleCounts": {
+    "RUpperArm": 335,
+    "BodyTorso": 33,
+    "RForearm": 390,
+    "LUpperArm": 335,
+    "LForearm": 390,
+    "BlouseTorso": 6181,
+    "LBlouseSleeve": 1333,
+    "RBlouseSleeve": 1317
+  },
+  "maxSpecifiedSupportTranslationMm": 56.60388679233961,
+  "maxObservedElbowDisplacementMm": 56.79552921551064,
+  "maxObservedWristDisplacementMm": 56.60386110734649,
+  "pairSummaries": [
+    {
+      "pair": "LForearm/BlouseTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    },
+    {
+      "pair": "RForearm/BlouseTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    },
+    {
+      "pair": "LUpperArm/BlouseTorso",
+      "beforeRows": 49,
+      "v4Rows": 54,
+      "newRows": 5,
+      "increasedRows": 22,
+      "maxBefore": 105,
+      "maxV4": 106
+    },
+    {
+      "pair": "RUpperArm/BlouseTorso",
+      "beforeRows": 56,
+      "v4Rows": 56,
+      "newRows": 0,
+      "increasedRows": 5,
+      "maxBefore": 110,
+      "maxV4": 110
+    },
+    {
+      "pair": "LBlouseSleeve/BlouseTorso",
+      "beforeRows": 56,
+      "v4Rows": 56,
+      "newRows": 0,
+      "increasedRows": 19,
+      "maxBefore": 92,
+      "maxV4": 116
+    },
+    {
+      "pair": "RBlouseSleeve/BlouseTorso",
+      "beforeRows": 56,
+      "v4Rows": 56,
+      "newRows": 0,
+      "increasedRows": 13,
+      "maxBefore": 91,
+      "maxV4": 91
+    },
+    {
+      "pair": "LForearm/BodyTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    },
+    {
+      "pair": "RForearm/BodyTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    },
+    {
+      "pair": "LUpperArm/BodyTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    },
+    {
+      "pair": "RUpperArm/BodyTorso",
+      "beforeRows": 0,
+      "v4Rows": 0,
+      "newRows": 0,
+      "increasedRows": 0,
+      "maxBefore": 0,
+      "maxV4": 0
+    }
+  ],
+  "newlyIntersecting": [
+    {
+      "time": 56.6195,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 31,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.711026311559344,
+      "wristDisplacementMm": 46.957416785002266
+    },
+    {
+      "time": 64.1642495,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 16,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 73,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.459999871638665,
+      "wristDisplacementMm": 23.478707985857895
+    },
+    {
+      "time": 64.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 34,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.510799596042105,
+      "wristDisplacementMm": 46.95741671567155
+    },
+    {
+      "time": 134.16425,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 16,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 73,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.45458126233083,
+      "wristDisplacementMm": 23.478707984778413
+    },
+    {
+      "time": 134.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 34,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.50425243027593,
+      "wristDisplacementMm": 46.95741671423062
+    }
+  ],
+  "worstIncreases": [
+    {
+      "time": 24.428,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 84,
+        "LBlouseSleeve/BlouseTorso": 55,
+        "RBlouseSleeve/BlouseTorso": 88,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 34,
+        "RUpperArm/BlouseTorso": 84,
+        "LBlouseSleeve/BlouseTorso": 113,
+        "RBlouseSleeve/BlouseTorso": 88,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.420342807755155,
+      "wristDisplacementMm": 46.957416553970994
+    },
+    {
+      "time": 206.6195,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 31,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 104,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.75587494395715,
+      "wristDisplacementMm": 46.9574167984523
+    },
+    {
+      "time": 96.6195,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 31,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 102,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.729226454949625,
+      "wristDisplacementMm": 46.95741678414373
+    },
+    {
+      "time": 56.6195,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 31,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.711026311559344,
+      "wristDisplacementMm": 46.957416785002266
+    },
+    {
+      "time": 64.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 34,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.510799596042105,
+      "wristDisplacementMm": 46.95741671567155
+    },
+    {
+      "time": 134.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 34,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 96,
+        "RBlouseSleeve/BlouseTorso": 84,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 39.50425243027593,
+      "wristDisplacementMm": 46.95741671423062
+    },
+    {
+      "time": 24.3269315,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 84,
+        "LBlouseSleeve/BlouseTorso": 55,
+        "RBlouseSleeve/BlouseTorso": 88,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 21,
+        "RUpperArm/BlouseTorso": 84,
+        "LBlouseSleeve/BlouseTorso": 88,
+        "RBlouseSleeve/BlouseTorso": 88,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.47098486135778,
+      "wristDisplacementMm": 23.47870790177614
+    },
+    {
+      "time": 204.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 25,
+        "RUpperArm/BlouseTorso": 98,
+        "LBlouseSleeve/BlouseTorso": 90,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 56,
+        "RUpperArm/BlouseTorso": 98,
+        "LBlouseSleeve/BlouseTorso": 90,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 34.51925871574181,
+      "wristDisplacementMm": 36.99999339776585
+    },
+    {
+      "time": 94.27575,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 25,
+        "RUpperArm/BlouseTorso": 96,
+        "LBlouseSleeve/BlouseTorso": 91,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 55,
+        "RUpperArm/BlouseTorso": 96,
+        "LBlouseSleeve/BlouseTorso": 90,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 34.52854585747336,
+      "wristDisplacementMm": 36.999993398752935
+    },
+    {
+      "time": 96.51843149999999,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 97,
+        "LBlouseSleeve/BlouseTorso": 56,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 19,
+        "RUpperArm/BlouseTorso": 97,
+        "LBlouseSleeve/BlouseTorso": 84,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.570384619207037,
+      "wristDisplacementMm": 23.478707990800796
+    },
+    {
+      "time": 206.51843150000002,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 95,
+        "LBlouseSleeve/BlouseTorso": 56,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 19,
+        "RUpperArm/BlouseTorso": 95,
+        "LBlouseSleeve/BlouseTorso": 84,
+        "RBlouseSleeve/BlouseTorso": 89,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.578163241340825,
+      "wristDisplacementMm": 23.47870799530448
+    },
+    {
+      "time": 56.518431500000005,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 1,
+        "RUpperArm/BlouseTorso": 94,
+        "LBlouseSleeve/BlouseTorso": 56,
+        "RBlouseSleeve/BlouseTorso": 87,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 19,
+        "RUpperArm/BlouseTorso": 94,
+        "LBlouseSleeve/BlouseTorso": 83,
+        "RBlouseSleeve/BlouseTorso": 87,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.563286179805154,
+      "wristDisplacementMm": 23.47870799148335
+    },
+    {
+      "time": 204.16425,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 23,
+        "RUpperArm/BlouseTorso": 98,
+        "LBlouseSleeve/BlouseTorso": 91,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 32,
+        "RUpperArm/BlouseTorso": 98,
+        "LBlouseSleeve/BlouseTorso": 116,
+        "RBlouseSleeve/BlouseTorso": 90,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 17.215028376062573,
+      "wristDisplacementMm": 18.499996577571878
+    },
+    {
+      "time": 94.16425,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 23,
+        "RUpperArm/BlouseTorso": 96,
+        "LBlouseSleeve/BlouseTorso": 92,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 32,
+        "RUpperArm/BlouseTorso": 96,
+        "LBlouseSleeve/BlouseTorso": 116,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 17.22380434178983,
+      "wristDisplacementMm": 18.49999657987452
+    },
+    {
+      "time": 112.441,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 85,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 76,
+        "RBlouseSleeve/BlouseTorso": 87,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 106,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 82,
+        "RBlouseSleeve/BlouseTorso": 87,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 35.69261572231163,
+      "wristDisplacementMm": 32.6496404487652
+    },
+    {
+      "time": 64.1642495,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 16,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 73,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.459999871638665,
+      "wristDisplacementMm": 23.478707985857895
+    },
+    {
+      "time": 134.16425,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 0,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 54,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 16,
+        "RUpperArm/BlouseTorso": 106,
+        "LBlouseSleeve/BlouseTorso": 73,
+        "RBlouseSleeve/BlouseTorso": 85,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 19.45458126233083,
+      "wristDisplacementMm": 23.478707984778413
+    },
+    {
+      "time": 112.2445,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 85,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 74,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 99,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 83,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 56.79552921551064,
+      "wristDisplacementMm": 56.60386110734649
+    },
+    {
+      "time": 112.553,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 87,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 76,
+        "RBlouseSleeve/BlouseTorso": 91,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 89,
+        "RUpperArm/BlouseTorso": 99,
+        "LBlouseSleeve/BlouseTorso": 83,
+        "RBlouseSleeve/BlouseTorso": 91,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso",
+        "LBlouseSleeve/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 11.90043893969944,
+      "wristDisplacementMm": 9.999996536389316
+    },
+    {
+      "time": 112.05687499999999,
+      "before": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 95,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 88,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "v4": {
+        "LForearm/BlouseTorso": 0,
+        "RForearm/BlouseTorso": 0,
+        "LUpperArm/BlouseTorso": 101,
+        "RUpperArm/BlouseTorso": 101,
+        "LBlouseSleeve/BlouseTorso": 82,
+        "RBlouseSleeve/BlouseTorso": 86,
+        "LForearm/BodyTorso": 0,
+        "RForearm/BodyTorso": 0,
+        "LUpperArm/BodyTorso": 0,
+        "RUpperArm/BodyTorso": 0
+      },
+      "newlyIntersectingPairs": [],
+      "increasedPairs": [
+        "LUpperArm/BlouseTorso"
+      ],
+      "elbowDisplacementMm": 26.120381732020576,
+      "wristDisplacementMm": 28.301931637459155
+    }
+  ],
+  "evidenceFormat": "Portable numerical report. Raw vertex locations, triangle-index pairs, bone-weight dumps and private workspace paths are omitted. All failure cases, counts and tolerances are retained.",
+  "assetProvenance": "Measurements of this repository's fictional CC0 avatar and procedural piano; no personal biometric data."
+}
