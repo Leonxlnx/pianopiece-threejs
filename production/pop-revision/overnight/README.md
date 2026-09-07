@@ -9,3 +9,7 @@ The runtime MP3 at public/assets/daybreak.mp3 is the fresh E3 master, SHA-256 7a
 Piano refinements add connected tapered cast webs with positive string clearance, longer tuning-pin shafts seated into two supporting plate beds, and a separately mapped walnut lid underside. Lighting uses more room fill and less direct contrast. These were compared with inspected piano and architecture photographs; copyrighted reference photos are not redistributed. The revised pin lengths, fourth-web joint and final grain direction were corrected after independent coordinate review.
 
 The original Site still returns project-not-found. Public deployment and the complete desktop film have not been delivered. This is a durable improvement checkpoint, not a declaration that the task is finished.
+
+## Subsequent integrated checkpoints
+
+The earlier paragraph describes the first recovery checkpoint. Wrist-volume repair and freshly baked hair are now integrated; see wrist/INTEGRATED.md and the current overnight context log. Tailored3b10 model and twelve further release routes are integrated and pass the combined full-song motion/contact audit in release-twelve/integrated-full-song-motion.json. Actual unrelated finger intersections remain and elbow alignment is still a candidate. See animation-portable/ and wrist-portable/ for frozen baseline reproductions.

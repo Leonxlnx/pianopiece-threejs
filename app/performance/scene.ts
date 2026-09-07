@@ -53,7 +53,7 @@ export class PerformanceScene {
  finally{pmrem.dispose();this.piano.group.visible=true;this.pianist.group.visible=true;this.stage.reflector.visible=true;this.stage.dust.visible=true;}
  }
  pixelRatio(){const w=Math.max(1,this.container.clientWidth),h=Math.max(1,this.container.clientHeight),mobile=w<700;return Math.min(window.devicePixelRatio,mobile?1.5:1.7,Math.sqrt((mobile?1_500_000:3_200_000)/(w*h)));}
- resize(){const w=this.container.clientWidth,h=this.container.clientHeight;if(w===0||h===0)return;const ratio=this.pixelRatio();this.camera.aspect=w/h;this.camera.updateProjectionMatrix();this.renderer.setPixelRatio(ratio);this.renderer.setSize(w,h);this.composer.setPixelRatio(ratio);this.composer.setSize(w,h);this.dirty=true;}
+ resize(){const w=this.container.clientWidth,h=this.container.clientHeight;if(w===0||h===0)return;const ratio=this.pixelRatio();this.camera.aspect=w/h;this.camera.updateProjectionMatrix();this.renderer.setPixelRatio(ratio);this.renderer.setSize(w,h);this.composer.setPixelRatio(ratio);this.composer.setSize(w,h);(this.stage.dust.material as THREE.ShaderMaterial).uniforms.uPixel.value=ratio;this.dirty=true;}
  tick=(now:number)=>{
  if(this.disposed||this.contextLost)return;const dt=(now-this.lastFrame)/1000;if(dt>0&&dt<1)this.fps=mix(this.fps,1/dt,.04);this.lastFrame=now;
  const time=this.showTime>=0?this.showTime:this.getTime();

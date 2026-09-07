@@ -32,3 +32,13 @@ Integrated the reviewed skin-pronation/wrist-volume repair while preserving all 
 The supported preview server now runs. The cloud browser cannot create WebGL because its renderer is disabled, but the app's audio-only fallback successfully played, paused, sought to the end, restarted, muted and displayed credits through actual UI interactions. No critical listening or browser3D appearance is claimed. The original Sites project still returns404.
 
 Garment3b10 passed protected-asset, seven-pose actual triangle and trim attachment checks and was visually compared at0/53/170seconds; its archive has not been installed in this checkpoint. Elbow alignment and twelve additional release profiles remain candidates. Continuous overnight work remains active;06:00 target not yet reached.
+
+## Integrated wardrobe and release checkpoint,00:15 China
+
+The tailored3b10 model is installed through the existing compressed-asset pipeline. Twelve additional selected release profiles are integrated in score90751 after parent independent660-time surface and3,351dense-pad checks and all12native closeups. The combined current-model/current-score240Hz full-song audit passes54,506frames and5,055held-pad samples, with all inputs unchanged. Motion maxima are unchanged: tip4.963512m/s, wrist1.499355m/s, wrist acceleration24.957809m/s². Actual surface defects remain in the global inventory; these numbers are not full-song collision clearance.
+
+Portable earlier-animation and wrist-volume packages now preserve their exact baseline rigs and scores, dependency identities, and guarded numerical checks. Root repeated the former all-phase package and checked the new wrist wrapper's pinned inputs; the independent wrist numerical/surface reruns are recorded in the prior checkpoint. Reports must use fresh folders; originalbe034 model is restored separately when reproducing older checkpoints.
+
+Current score90751 preserves the same audible fields and baked functional head transforms. Browser/native dust now share quieter drift, size, color and opacity settings, with defined smoothstep/squared-sine math and actual renderer pixel ratio updated on resize. The latest room detail adds narrow walnut/stone joints and denser individual garden leaves. The rejected opaque shrub-mass version was discarded after native comparison.
+
+Native1920×1080 samples render in approximately1.3–1.9seconds per frame in this environment; this is a sample benchmark, not a promised full-film finish time. Large reproducible scene caches now use a separate memory-backed runtime after workspace disk exhaustion; code, accepted assets and numerical evidence continue to be saved to GitHub. The existing public Site remains404.

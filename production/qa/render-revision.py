@@ -113,8 +113,11 @@ lineobjects=[]
 for m in d.get('lines',[]):
  v=np.array(m['vertices'],dtype='f4').reshape(-1,3);c=np.array(m['colors'],dtype='f4').reshape(-1,3) if m['colors'] else np.tile(m['color'],(len(v),1));buf=ctx.buffer(np.hstack([v,c]).astype('f4').tobytes());va=ctx.simple_vertex_array(lineprog,buf,'in_pos','in_color');lineobjects.append((va,mat4(m['matrix']),m['opacity']))
 dustprog=ctx.program(vertex_shader="""#version 330
-in vec3 in_pos;in float in_size;in float in_seed;uniform float t;uniform mat4 view;uniform mat4 projection;out float alpha;void main(){vec3 p=in_pos;p.x+=sin(t*.085+in_seed)*.18;p.y+=sin(t*.06+in_seed*2.)*.14;p.z+=cos(t*.035+in_seed)*.2;vec4 mv=view*vec4(p,1.);gl_Position=projection*mv;gl_PointSize=clamp(in_size*17./(-mv.z),.7,3.5);alpha=.18+.35*pow(sin(in_seed+t*.11),2.);}""",fragment_shader="""#version 330
-in float alpha;out vec4 color;uniform float lift;void main(){float d=length(gl_PointCoord-.5);float a=smoothstep(.5,.05,d)*alpha;color=vec4(mix(vec3(.68,.79,.9),vec3(1.,.8,.52),lift),a*.55);}""")
+in vec3 in_pos;in float in_size;in float in_seed;uniform float t;uniform mat4 view;uniform mat4 projection;uniform vec4 drift;uniform vec3 pointSize;uniform vec3 opacity;out float alpha;void main(){vec3 p=in_pos;p.x+=sin(t*drift.x+in_seed)*drift.y;p.y+=sin(t*drift.z+in_seed*2.)*drift.w;vec4 mv=view*vec4(p,1.);gl_Position=projection*mv;gl_PointSize=clamp(in_size*pointSize.x/(-mv.z),pointSize.y,pointSize.z);float pulse=sin(in_seed+t*opacity.x);alpha=opacity.y+opacity.z*pulse*pulse;}""",fragment_shader="""#version 330
+in float alpha;out vec4 color;uniform vec3 tint;uniform float edge;void main(){float a=(1.-smoothstep(edge,.5,length(gl_PointCoord-.5)))*alpha;color=vec4(tint,a);}""")
+dust=d.get('renderSettings',{}).get('dust',{'drift':[.07,.11,.06,.09],'size':[8,.6,2.2],'alpha':[.11,.025,.045],'color':[.93,.86,.70],'edge':.07})
+for uniform,key in [('drift','drift'),('pointSize','size'),('opacity','alpha'),('tint','color')]:dustprog[uniform]=tuple(dust[key])
+dustprog['edge']=dust['edge']
 dustobjects=[]
 for m in d.get('points',[]):
  v=np.array(m['vertices'],dtype='f4').reshape(-1,3);buf=ctx.buffer(np.column_stack([v,m['sizes'],m['seeds']]).astype('f4').tobytes());dustobjects.append(ctx.simple_vertex_array(dustprog,buf,'in_pos','in_size','in_seed'))
@@ -288,7 +291,7 @@ def frame(t):
   for va,model,opacity in lineobjects:
    lineprog['model'].write(model.T.astype('f4').tobytes());lineprog['opacity']=opacity;va.render(moderngl.LINES)
   if not reflectionPass:
-   ctx.enable(moderngl.PROGRAM_POINT_SIZE);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE);ctx.fbo.depth_mask=False;dustprog['t']=t;dustprog['lift']=lift;dustprog['view'].write(np.linalg.inv(cm).T.astype('f4').tobytes());dustprog['projection'].write(perspective(s['camera']['fov'],s['camera']['aspect']).T.astype('f4').tobytes())
+   ctx.enable(moderngl.PROGRAM_POINT_SIZE);ctx.blend_func=(moderngl.SRC_ALPHA,moderngl.ONE);ctx.fbo.depth_mask=False;dustprog['t']=t;dustprog['view'].write(np.linalg.inv(cm).T.astype('f4').tobytes());dustprog['projection'].write(perspective(s['camera']['fov'],s['camera']['aspect']).T.astype('f4').tobytes())
    for va in dustobjects:va.render(moderngl.POINTS)
    ctx.fbo.depth_mask=True
   ctx.disable(moderngl.BLEND)

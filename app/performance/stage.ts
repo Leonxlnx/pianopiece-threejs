@@ -3,6 +3,7 @@ import { Reflector } from 'three/addons/objects/Reflector.js';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
 import { v3, rand, mix, smooth } from './math';
+import { DUST_LOOK } from './render-settings';
 
 function surfaceMap(url:string,x:number,y:number,pending:Promise<void>[]){
  let texture:THREE.Texture;
@@ -45,6 +46,7 @@ export class Stage {
  const wallGrain=map('/assets/materials/walnut.png',4,.8);
  const wallWood=new THREE.MeshPhysicalMaterial({name:'Quarter-sawn wall joinery',color:0xd0c1ad,map:wallGrain,roughness:.58,clearcoat:.10});
  const stone=new THREE.MeshStandardMaterial({name:'Honed limestone',color:0xb7b6af,map:limestone,roughness:.81});
+ const stoneJoint=new THREE.MeshStandardMaterial({name:'Recessed limestone joints',color:0x85867e,roughness:.96});
  const dark=new THREE.MeshStandardMaterial({name:'Shadow joints',color:0x242529,roughness:.87});
  const bronze=new THREE.MeshStandardMaterial({name:'Brushed bronze frames',color:0x4d4539,metalness:.80,roughness:.35});
  const plaster=new THREE.MeshStandardMaterial({name:'Acoustic plaster',color:0xc8c5bb,roughness:.92});
@@ -86,6 +88,7 @@ export class Stage {
  for(let i=0;i<7;i++){
  const x=-7.2+i*2.4;
  block(this.group,'Window pier '+i,[.31,4.3,.70],[x,2.2,-7.02],stone,.018);
+ for(let course=1;course<6;course++)block(this.group,'Pier stone bed joint',[.275,.0025,.003],[x,.05+course*.71,-6.668],stoneJoint,.0003);
  if(i<6){
  const center=x+1.2;
  block(this.group,'Window sill '+i,[2.12,.055,.82],[center,.335,-7.02],stone,.01);
@@ -101,6 +104,15 @@ export class Stage {
  // open corner that appeared as a bright vertical slit in portrait shots.
  block(this.group,'Limestone side return',[.45,4.75,12.4],[side*7.47,2.23,-.72],stone,.016);
  block(this.group,'Low walnut acoustic lining',[.048,1.10,10.6],[side*7.225,.65,-1.35],wallWood,.006);
+ // Narrow board and masonry joints establish construction scale. The wall
+ // behind them stays continuous, including the previously repaired corners.
+ for(let panel=1;panel<14;panel++)block(this.group,'Walnut lining panel joint',[.004,1.084,.0032],[side*7.198,.65,-6.65+panel*(10.6/14)],dark,.0003);
+ for(let course=0;course<5;course++)block(this.group,'Side wall stone bed joint',[.004,.0025,12.32],[side*7.243,1.25+course*.71,-.72],stoneJoint,.0003);
+ for(let course=0;course<4;course++)for(let joint=0;joint<8;joint++){
+ const z=-6.85+joint*1.55+(course%2)*.775;
+ if(z>5.4)continue;
+ block(this.group,'Side wall stone head joint',[.004,.707,.0025],[side*7.243,1.605+course*.71,z],stoneJoint,.0003);
+ }
  block(this.group,'Bronze baseboard',[.035,.055,12.4],[side*7.22,.063,-.72],bronze,.003);
  block(this.group,'Upper wall reveal',[.12,.08,12.4],[side*7.20,4.18,-.72],dark,.002);
  block(this.group,'Concealed wall light',[.014,.018,12.25],[side*7.13,4.17,-.72],glow,.001);
@@ -109,6 +121,7 @@ export class Stage {
  // so portrait views look into architecture rather than an unbounded sky.
  for(const side of [-1,1]){
  block(this.group,'Entrance wall',[6.06,4.72,.35],[side*4.54,2.24,5.48],stone,.014);
+ for(const y of [2.52,3.23,3.94])block(this.group,'Entrance wall stone bed joint',[6.02,.0025,.004],[side*4.54,y,5.303],stoneJoint,.0003);
  block(this.group,'Entrance acoustic panel',[4.80,2.18,.045],[side*4.43,1.38,5.283],wood,.006);
  block(this.group,'Entrance panel lower reveal',[4.80,.020,.025],[side*4.43,.281,5.25],bronze,.002);
  }
@@ -223,7 +236,7 @@ export class Stage {
  for(let twig=0;twig<3;twig++){
  const end2=end.clone().add(v3((rand(i*137+n*5+twig)-.5)*1.15,.08+rand(n*8+twig)*.53,(rand(i*97+n*7+twig)-.5)*1.15));
  branch(end.clone().lerp(elbow,.18),end2,.0055);
- leafCloud(end2,i*9001+n*311+twig*71,mobile?20:42,.50,.56,1,.88+rand(i+71)*.25);
+ leafCloud(end2,i*9001+n*311+twig*71,mobile?32:72,.50,.56,1,.88+rand(i+71)*.25);
  }
  }
  }
@@ -235,6 +248,18 @@ export class Stage {
  const a=stem*2.399+rand(i+58),r=.18+rand(i*51+stem)*.40,end=base.clone().add(v3(Math.cos(a)*r,h*(.60+rand(i*29+stem)*.40),Math.sin(a)*r));
  branch(base,end,.0048);
  leafCloud(end,i*5003+stem*631+73001,mobile?30:48,.34,.38,.80,.91+rand(i+441)*.12);
+ }
+ }
+ // Overlapping leaf clouds give low planting a ragged silhouette, while
+ // retaining real gaps and the same individual-leaf material as the grove.
+ for(let drift=0;drift<18;drift++){
+ const x=-20+drift*2.35+(rand(drift+91001)-.5)*2.1,z=-15.2-rand(drift+91002)*12.4;
+ const height=.42+rand(drift+91003)*.60,width=.75+rand(drift+91004)*.78;
+ for(let lobe=0;lobe<3;lobe++){
+ const xx=x+(lobe-1)*width*.58,zz=z+(rand(drift*9+lobe+91005)-.5)*.65;
+ const base=v3(xx,gardenHeight(xx,zz)-.02,zz),center=base.clone().add(v3(0,height*.65,0));
+ branch(base,center,.008);
+ leafCloud(center,drift*701+lobe*97+95001,mobile?180:480,width*.65,height*1.25,.9,.84+rand(drift+91006)*.15);
  }
  }
  const bark=new THREE.MeshStandardMaterial({name:'Garden bark',color:0x7a7260,roughness:1});
@@ -276,7 +301,7 @@ export class Stage {
  const count=mobile?90:190,positions=new Float32Array(count*3),seeds=new Float32Array(count),sizes=new Float32Array(count);
  for(let i=0;i<count;i++){positions.set([(rand(i+4)-.5)*9,.2+rand(i+21)*4,(rand(i+66)-.5)*8-1],i*3);seeds[i]=rand(i+55)*6.28;sizes[i]=.8+rand(i+43)*1.3;}
  const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(positions,3));geometry.setAttribute('aSize',new THREE.BufferAttribute(sizes,1));geometry.setAttribute('aSeed',new THREE.BufferAttribute(seeds,1));
- const material=new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{uTime:{value:0},uLift:{value:0},uPixel:{value:typeof window!=='undefined'?Math.min(window.devicePixelRatio,1.7):1}},vertexShader:`attribute float aSize;attribute float aSeed;uniform float uTime;uniform float uPixel;varying float alpha;void main(){vec3 p=position;p.x+=sin(uTime*.07+aSeed)*.11;p.y+=sin(uTime*.06+aSeed*2.)*.09;vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=clamp(aSize*uPixel*8./(-mv.z),.6,2.2);alpha=.10+.12*pow(sin(aSeed+uTime*.11),2.);}`,fragmentShader:`varying float alpha;uniform float uLift;void main(){float a=smoothstep(.5,.07,length(gl_PointCoord-.5))*alpha;gl_FragColor=vec4(vec3(.93,.86,.70),a);}`});
+ const material=new THREE.ShaderMaterial({transparent:true,depthWrite:false,blending:THREE.AdditiveBlending,uniforms:{uTime:{value:0},uPixel:{value:1},uDrift:{value:new THREE.Vector4(...DUST_LOOK.drift)},uSize:{value:new THREE.Vector3(...DUST_LOOK.size)},uAlpha:{value:new THREE.Vector3(...DUST_LOOK.alpha)},uColor:{value:new THREE.Vector3(...DUST_LOOK.color)},uEdge:{value:DUST_LOOK.edge}},vertexShader:`attribute float aSize;attribute float aSeed;uniform float uTime;uniform float uPixel;uniform vec4 uDrift;uniform vec3 uSize;uniform vec3 uAlpha;varying float alpha;void main(){vec3 p=position;p.x+=sin(uTime*uDrift.x+aSeed)*uDrift.y;p.y+=sin(uTime*uDrift.z+aSeed*2.)*uDrift.w;vec4 mv=modelViewMatrix*vec4(p,1.);gl_Position=projectionMatrix*mv;gl_PointSize=clamp(aSize*uPixel*uSize.x/(-mv.z),uSize.y,uSize.z);float pulse=sin(aSeed+uTime*uAlpha.x);alpha=uAlpha.y+uAlpha.z*pulse*pulse;}`,fragmentShader:`varying float alpha;uniform vec3 uColor;uniform float uEdge;void main(){float a=(1.-smoothstep(uEdge,.5,length(gl_PointCoord-.5)))*alpha;gl_FragColor=vec4(uColor,a);}`});
  this.dust=new THREE.Points(geometry,material);this.group.add(this.dust);
  this.batchArchitecture();
  }
@@ -309,7 +334,7 @@ export class Stage {
  }
  update(time:number,energy:number,pulse:number){
  const lift=smooth((energy-.2)/.72);this.sky.uniforms.uLift.value=lift;this.sky.uniforms.uTime.value=time;
- const m=this.dust.material as THREE.ShaderMaterial;m.uniforms.uTime.value=time;m.uniforms.uLift.value=lift;
+ const m=this.dust.material as THREE.ShaderMaterial;m.uniforms.uTime.value=time;
  this.lights[0].intensity=mix(88,100,lift);this.lights[2].intensity=mix(240,320,lift);this.accent.intensity=.16+pulse*.07;
  }
  whenReady(){return Promise.all(this.pendingTextures);}
