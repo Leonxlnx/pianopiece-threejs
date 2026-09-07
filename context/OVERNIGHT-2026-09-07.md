@@ -24,3 +24,11 @@ Keep the fitted musical score. Rerunning the composer is not a substitute for pr
 ## Recovered runtime checkpoint, approximately23:28 China
 
 Restored integrated V7/E3+9 finite release routes+2 short-gap lift controls and matching reproduced MP3. Full240Hz audit passed54506frames/5055skin samples, finger4.963512m/s, wrist1.499355m/s, acceleration24.957809m/s². See production/pop-revision/overnight. The audit now hashes inputs before replay and rejects input changes; its final unequal time interval uses measured elapsed time. Wrist volume, other collisions, final hair, online preview and full film remain outstanding. Piano cast-frame supports, tuning-pin support and lid veneer refined against inspected references. Root cleared only completed reproducible scene/download caches after disk pressure.
+
+## Wrist and fresh hair checkpoint, approximately00:02 China
+
+Integrated the reviewed skin-pronation/wrist-volume repair while preserving all finger-owned vertices and existing bone/key motion. Parent numerical and96-pose surface reruns passed; the combined54506-frame audit also passed, including5055held-pad samples. Fresh hair data was baked against the current actual head transforms and its functional input signature matches.
+
+The supported preview server now runs. The cloud browser cannot create WebGL because its renderer is disabled, but the app's audio-only fallback successfully played, paused, sought to the end, restarted, muted and displayed credits through actual UI interactions. No critical listening or browser3D appearance is claimed. The original Sites project still returns404.
+
+Garment3b10 passed protected-asset, seven-pose actual triangle and trim attachment checks and was visually compared at0/53/170seconds; its archive has not been installed in this checkpoint. Elbow alignment and twelve additional release profiles remain candidates. Continuous overnight work remains active;06:00 target not yet reached.

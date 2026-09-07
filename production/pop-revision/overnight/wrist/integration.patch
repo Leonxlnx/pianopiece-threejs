@@ -1,0 +1,34 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -6,6 +6,7 @@
+ import type { Note, Score, Hand, Telemetry } from './types';
+ import { wristMotionSampler } from './wrist-motion';
+ import { ponytailMotion } from './ponytail-motion';
++import { createWristVolumeCorrector } from './wrist-volume';
+ 
+ const FINGERS=['Thumb','Index','Middle','Ring','Pinky'];
+ const TIP_LENGTH=[.027,.0243,.023,.0244,.0188];
+@@ -49,6 +50,7 @@
+  score?:Score;
+  wristMotion?:ReturnType<typeof wristMotionSampler>;
+  hairMotion?:ReturnType<typeof ponytailMotion>;
++ skinVolume?:ReturnType<typeof createWristVolumeCorrector>;
+  group=new THREE.Group(); model?:THREE.Group; bones=new Map<string,THREE.Bone>();rest=new Map<string,THREE.Quaternion>(); hands:HandRig[]=[]; contacts:Telemetry['contacts']=[]; head=v3(0,1.28,.64); ready=false; poseCache=new Map<string,{position:THREE.Vector3,q:THREE.Quaternion}>(); blinkMeshes:THREE.SkinnedMesh[]=[]; shoes=new Map<string,THREE.Mesh>();
+  async load(score:Score,preparedModel?:THREE.Group){
+  this.score=score;
+@@ -58,6 +60,7 @@
+  if((o as THREE.Mesh).isMesh){const m=o as THREE.Mesh;
+  // Footwear replaces the covered foot surface, as in a clothed character asset.
+  if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index!.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
++ if(m.name==='Human'&&(m as THREE.SkinnedMesh).isSkinnedMesh)this.skinVolume=createWristVolumeCorrector(THREE,m as THREE.SkinnedMesh,{rollForearm:true,smoothWeights:8});
+  m.castShadow=true;m.receiveShadow=true;m.frustumCulled=false;const mats=Array.isArray(m.material)?m.material:[m.material];for(const mat of mats){const p=mat as THREE.MeshStandardMaterial;if(p.map)p.map.anisotropy=4;if(p.normalMap)p.normalMap.anisotropy=4;}
+  if((m as THREE.SkinnedMesh).morphTargetDictionary)this.blinkMeshes.push(m as THREE.SkinnedMesh);
+  }
+@@ -397,6 +400,7 @@
+  if(n&&time>=n.time&&time<n.time+n.duration)this.contacts.push({hand:hand.side,finger:fi+1,midi:n.midi,error:wp(finger.tip).distanceTo(desired)});
+  }
+  }
++ this.skinVolume?.update();
+  }
+ 
+  supportedElbow(hand:HandRig,shoulder:THREE.Vector3,wrist:THREE.Vector3,palmQ:THREE.Quaternion,pressure:number){

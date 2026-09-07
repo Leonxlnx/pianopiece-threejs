@@ -1,9 +1,9 @@
 {
   "matchesBakedFunctionalInputs": true,
-  "currentFullScoreSha256": "661d2ac0801f54902a293e5d29c92718249a199462d39efa34d587927ffe025a",
-  "fullScoreChanged": true,
+  "currentFullScoreSha256": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+  "fullScoreChanged": false,
   "signature": {
-    "scoreInputs": "279d3c195a1928c4fe34480976f827b30213e143c12cf5817a8af19123c332ca",
+    "scoreInputs": "dc3c8effc511630adf3690b057179cf5ce74f95e3d74ae5c4f00f0dd05913311",
     "headTransformSource": "0c561ae6f95315b3d1a87e7ff51ab8eff825e3d1965b512c70cc907797109f21"
   },
   "scope": "This check covers score fields and posture code driving head transforms. Recheck separately if the model placement, keyX mapping, shared math helpers or head/neck rig change."

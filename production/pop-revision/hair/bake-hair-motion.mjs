@@ -11,7 +11,7 @@ const THREE = await import(pathToFileURL(requireProject.resolve('three')));
 const { GLTFLoader } = await import(pathToFileURL(requireProject.resolve('three/addons/loaders/GLTFLoader.js')));
 fs.mkdirSync(path.join(out, 'compiled'), { recursive: true });
 const sourceHashes = {};
-const compileNames = ['math', 'piano', 'wrist-motion', 'pianist', 'ponytail-motion', 'hair-motion-data'].filter(name => fs.existsSync(path.join(project, 'app/performance', name + '.ts')));
+const compileNames = fs.readdirSync(path.join(project, 'app/performance')).filter(name => name.endsWith('.ts') && !name.endsWith('.d.ts')).map(name => name.slice(0, -3)).sort();
 for (const name of compileNames) {
   const text = fs.readFileSync(path.join(project, 'app/performance', name + '.ts'), 'utf8');
   sourceHashes[name] = crypto.createHash('sha256').update(text).digest('hex');
