@@ -1,0 +1,43 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -377,9 +377,18 @@
+  }
+  // Lift the complete chain during each departure/arrival blend. Relative
+  // phalanx rotations remain fixed; the settled rest and contacts are exact.
+- let liftWeight=0,liftDegrees=settings.arc??20,sweepDegrees=0;
+- if(previous&&time-end<release){const u=smooth((time-end)/Math.max(.001,release));liftWeight=4*u*(1-u);liftDegrees=previous.releasePose?.liftDegrees??liftDegrees;sweepDegrees=previous.releasePose?.sweepDegrees??0;}
+- if(next&&start-time<approach){const u=smooth((start-time)/Math.max(.001,approach));liftWeight=Math.max(liftWeight,4*u*(1-u));liftDegrees=next.approachPose?.liftDegrees??liftDegrees;sweepDegrees=next.approachPose?.sweepDegrees??0;}
++ let liftWeight=0,liftDegrees=settings.arc??20,sweepDegrees=0,rollDegrees=0;
++ if(previous&&time-end<release){
++  const u=smooth((time-end)/Math.max(.001,release));liftWeight=4*u*(1-u);liftDegrees=previous.releasePose?.liftDegrees??liftDegrees;sweepDegrees=previous.releasePose?.sweepDegrees??0;
++  const path=previous.releasePose?.jointPath;
++  if(path&&path.length>=2){
++   const progress=clamp((time-end)/Math.max(.001,release));
++   const found=path.findIndex(p=>p.at>=progress),index=found<0?path.length-1:Math.max(1,found);
++   const a=path[index-1],b=path[index],weight=smooth((progress-a.at)/(b.at-a.at));
++   liftWeight=1;liftDegrees=mix(a.lift,b.lift,weight);sweepDegrees=mix(a.sweep,b.sweep,weight);rollDegrees=mix(a.roll??0,b.roll??0,weight);
++  }
++ }
++ if(next&&start-time<approach){const u=smooth((start-time)/Math.max(.001,approach));liftWeight=Math.max(liftWeight,4*u*(1-u));liftDegrees=next.approachPose?.liftDegrees??liftDegrees;sweepDegrees=next.approachPose?.sweepDegrees??0;rollDegrees=0;}
+  if(liftWeight>0){
+   const proximal=finger.bones[1].position.clone().applyQuaternion(rotations[0]).normalize().applyQuaternion(pose.q),dorsal=v3(0,0,-1).applyQuaternion(pose.q),axis=proximal.clone().cross(v3(0,1,0));
+   const elevation=Math.asin(clamp(proximal.dot(dorsal),-1,1)),available=Math.max(0,55*Math.PI/180-elevation),angle=Math.min(liftDegrees*Math.PI/180*liftWeight,available);
+@@ -387,6 +396,7 @@
+   // A small joint-space sweep clears a neighboring digit without altering
+   // relative PIP/DIP rotations. The envelope is zero at contact and rest.
+   if(sweepDegrees!==0)rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,0,-1),sweepDegrees*Math.PI/180*liftWeight));
++  if(rollDegrees!==0){const axial=finger.bones[1].position.clone().applyQuaternion(rotations[0]).normalize();rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(axial,rollDegrees*Math.PI/180));}
+  }
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;
+--- a/app/performance/types.ts
++++ b/app/performance/types.ts
+@@ -1,6 +1,7 @@
+ import type { WristMotionData } from './wrist-motion';
+ export type Hand = 'L' | 'R';
+-export interface JointPoseControl { duration?: number; distalDuration?: number; liftDegrees?: number; sweepDegrees?: number; }
++export interface JointPoseKeyframe { at: number; lift: number; sweep: number; roll?: number; }
++export interface JointPoseControl { jointPath?: JointPoseKeyframe[]; duration?: number; distalDuration?: number; liftDegrees?: number; sweepDegrees?: number; }
+ /** Explicitly enabled, finite release routes; legacy travel fields stay inert. */
+ export interface FingerReleaseWaypoint { enabled: true; height: number; x: number; z: number; liftEnd: number; landStart: number; roll: number; duration: number; }
+ export interface Note { releaseWaypoint?: FingerReleaseWaypoint; approachPose?: JointPoseControl; releasePose?: JointPoseControl; id: string; time: number; duration: number; midi: number; velocity: number; contactLift?: number; contactZ?: number; thumbOpposition?: number; hand: Hand; finger: number; role?:string; }

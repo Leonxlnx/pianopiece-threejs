@@ -1,0 +1,9 @@
+# V3 supplement to the frozen bass checkpoint
+
+Apply this typed `integration.patch` and the unchanged `score-delta.json`. It supersedes the v2 patch. This version adds the parent's requested final-segment fallback and resets axial roll in the following approach branch. Candidate score remains `4af5c2d706b7bb849de58f24885938cd81d18fc33001afc58e174e1e48f6f7ed`. The compiled pianist is `4e6ecf33cee5c8f61ddd9aad7c6616314ddae5781311ec662351d6f829773cfb`.
+
+Strict TypeScript checking passed with zero diagnostics. Across 198 poses—every guarded 960 Hz sample, held/context poses, and the next same-finger approach—the full Human skin and every bone's local position/quaternion/scale are exactly identical to v2. A one-degree roll perturbation was detected as a 0.703 mm skin change, then restoring it returned exact equality. The proof captures code, dependency, model, score, and timestamp hashes before and after.
+
+The full v2 frozen checkpoint is in the sibling `checkpoint/` folder and remains unchanged. For a portable proof, use a new scratch folder containing `qa/` copied from that checkpoint. Copy its `candidate/` to `ring-route-v2/`, duplicate this as `ring-route-v3/`, replace v3's compiled `pianist.mjs` and `types.mjs` with this supplement's copies, and copy `verify-equivalence.mjs` and `equivalence-times.json` beside its score. Provide the project's locked node_modules dependency and set `DAYBREAK_MODEL_PATH` to the original be034 model. Running `node ring-route-v3/verify-equivalence.mjs` writes only the v3 `equivalence.json` report.
+
+The parent reviewed all four exact-time v2 closeups: ring–pinky overlap is avoided and the motion is restrained. The incoming index/middle remain visibly curled; the inherited middle–ring intersections are being investigated separately. Parent independent numerical verification is still the final acceptance gate.

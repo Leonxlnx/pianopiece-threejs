@@ -1,7 +1,6 @@
 import type { WristMotionData } from './wrist-motion';
 export type Hand = 'L' | 'R';
-export interface JointPoseKeyframe { at: number; lift: number; sweep: number; roll?: number; }
-export interface JointPoseControl { jointPath?: JointPoseKeyframe[]; duration?: number; distalDuration?: number; liftDegrees?: number; sweepDegrees?: number; }
+export interface JointPoseControl { duration?: number; distalDuration?: number; liftDegrees?: number; sweepDegrees?: number; }
 /** Explicitly enabled, finite release routes; legacy travel fields stay inert. */
 export interface FingerReleaseWaypoint { enabled: true; height: number; x: number; z: number; liftEnd: number; landStart: number; roll: number; duration: number; }
 export interface Note { releaseWaypoint?: FingerReleaseWaypoint; approachPose?: JointPoseControl; releasePose?: JointPoseControl; id: string; time: number; duration: number; midi: number; velocity: number; contactLift?: number; contactZ?: number; thumbOpposition?: number; hand: Hand; finger: number; role?:string; }

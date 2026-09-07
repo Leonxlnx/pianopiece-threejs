@@ -383,12 +383,12 @@ export class Pianist {
   const path=previous.releasePose?.jointPath;
   if(path&&path.length>=2){
    const progress=clamp((time-end)/Math.max(.001,release));
-   const found=path.findIndex(p=>p.at>=progress),index=found<0?path.length-1:Math.max(1,found);
+   const index=Math.max(1,path.findIndex(p=>p.at>=progress));
    const a=path[index-1],b=path[index],weight=smooth((progress-a.at)/(b.at-a.at));
    liftWeight=1;liftDegrees=mix(a.lift,b.lift,weight);sweepDegrees=mix(a.sweep,b.sweep,weight);rollDegrees=mix(a.roll??0,b.roll??0,weight);
   }
  }
- if(next&&start-time<approach){const u=smooth((start-time)/Math.max(.001,approach));liftWeight=Math.max(liftWeight,4*u*(1-u));liftDegrees=next.approachPose?.liftDegrees??liftDegrees;sweepDegrees=next.approachPose?.sweepDegrees??0;rollDegrees=0;}
+ if(next&&start-time<approach){const u=smooth((start-time)/Math.max(.001,approach));liftWeight=Math.max(liftWeight,4*u*(1-u));liftDegrees=next.approachPose?.liftDegrees??liftDegrees;sweepDegrees=next.approachPose?.sweepDegrees??0;}
  if(liftWeight>0){
   const proximal=finger.bones[1].position.clone().applyQuaternion(rotations[0]).normalize().applyQuaternion(pose.q),dorsal=v3(0,0,-1).applyQuaternion(pose.q),axis=proximal.clone().cross(v3(0,1,0));
   const elevation=Math.asin(clamp(proximal.dot(dorsal),-1,1)),available=Math.max(0,55*Math.PI/180-elevation),angle=Math.min(liftDegrees*Math.PI/180*liftWeight,available);

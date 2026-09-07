@@ -4,6 +4,19 @@ set -euo pipefail
 script_directory="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 project_directory="$(dirname "$script_directory")"
 cd "$project_directory"
+
+# Accept the same DAYBREAK_ prefix as the other render options. Never silently
+# render the default poses when a caller supplied an explicit prefixed value.
+for render_option in WIDTH TIMES; do
+  render_prefixed="DAYBREAK_$render_option"
+  if [[ -v "$render_prefixed" ]]; then
+    if [[ -v "$render_option" && "${!render_option}" != "${!render_prefixed}" ]]; then
+      echo "Conflicting $render_option and $render_prefixed values" >&2
+      exit 2
+    fi
+    export "$render_option=${!render_prefixed}"
+  fi
+done
 node scripts/compile-performance.mjs --verify
 
 # System EGL is sufficient on a normal workstation. A separately prepared

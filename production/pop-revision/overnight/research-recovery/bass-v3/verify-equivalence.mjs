@@ -1,0 +1,13 @@
+import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';import {runtime,T} from '../qa/runtime.mjs';
+const root=new URL('../',import.meta.url).pathname,old=root+'ring-route-v2',now=root+'ring-route-v3',model=process.env.DAYBREAK_MODEL_PATH;
+const timesPath=now+'/equivalence-times.json';
+const files=[new URL(import.meta.url).pathname,root+'qa/runtime.mjs',timesPath,model,...[old,now].flatMap(v=>[v+'/score.json',...fs.readdirSync(v+'/compiled').filter(f=>f.endsWith('.mjs')).map(f=>v+'/compiled/'+f)])];
+const hashes=()=>Object.fromEntries(files.map(f=>[f,crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex')])),before=hashes();
+const times=JSON.parse(fs.readFileSync(timesPath));times.push(0,90.15,90.20,90.35,90.55,94.1,94.15,94.23075,94.24,170,226.5);
+const a=await runtime(old),b=await runtime(now);let maxBoneError=0,maxSkinError=0;
+function skinError(){let max=0;for(let i=0;i<a.body.geometry.attributes.position.count;i++){const p=a.body.getVertexPosition(i,new T.Vector3()).applyMatrix4(a.body.matrixWorld),q=b.body.getVertexPosition(i,new T.Vector3()).applyMatrix4(b.body.matrixWorld);assert.ok([...p.toArray(),...q.toArray()].every(Number.isFinite));max=Math.max(max,p.distanceTo(q));}return max;}
+for(const t of times){a.pose(t);b.pose(t);for(let i=0;i<a.body.skeleton.bones.length;i++){const x=a.body.skeleton.bones[i],y=b.body.skeleton.bones[i];assert.equal(x.name,y.name);const u=[...x.position.toArray(),...x.quaternion.toArray(),...x.scale.toArray()],v=[...y.position.toArray(),...y.quaternion.toArray(),...y.scale.toArray()];assert.ok([...u,...v].every(Number.isFinite));for(let j=0;j<u.length;j++)maxBoneError=Math.max(maxBoneError,Math.abs(u[j]-v[j]));}maxSkinError=Math.max(maxSkinError,skinError());}
+assert.equal(maxBoneError,0);assert.equal(maxSkinError,0);
+const knot=b.score.notes.find(n=>n.id==='db00407').releasePose.jointPath[2],original=knot.roll;knot.roll+=1;a.pose(90.40575);b.pose(90.40575);const negativeControlDetectedMm=skinError()*1000;assert.ok(negativeControlDetectedMm>1e-5);knot.roll=original;b.pose(90.40575);assert.equal(skinError(),0);
+assert.deepEqual(hashes(),before);
+const report={passed:true,samples:times.length,scope:'Complete guarded960Hz window, held/context samples, and next same-finger approach. Actual complete Human skin and all bone position/quaternion/scale components are identical for valid score data after the segment clamp and approach-roll reset.',maxBoneError,maxSkinErrorMm:maxSkinError*1000,negativeControlDetectedMm,inputsUnchanged:true,inputHashes:before};fs.writeFileSync(now+'/equivalence.json',JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({...report,inputHashes:undefined},null,2));

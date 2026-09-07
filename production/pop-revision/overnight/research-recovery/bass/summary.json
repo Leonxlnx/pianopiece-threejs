@@ -1,0 +1,81 @@
+{
+  "candidate": "ring-route-v2",
+  "numericalPassed": true,
+  "parentVisualPending": true,
+  "parentRerunPending": true,
+  "scoreSha256": "4af5c2d706b7bb849de58f24885938cd81d18fc33001afc58e174e1e48f6f7ed",
+  "rigSha256": "e2fc3f12a5bdf5facac8416eb4580af2845a1504c9d2bbf54dd0381b2420cce6",
+  "surface240": {
+    "oldTarget": 499,
+    "newTarget": 0,
+    "oldMiddle": 760,
+    "newMiddle": 81,
+    "shallowIncreases": [
+      {
+        "time": 90.41008333333332,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.303552712817958
+      }
+    ]
+  },
+  "surface960": {
+    "oldTarget": 1999,
+    "newTarget": 0,
+    "oldMiddle": 3147,
+    "newMiddle": 319,
+    "shallowIncreases": [
+      {
+        "time": 90.40799999999999,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.9034265916188517
+      },
+      {
+        "time": 90.40904166666665,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.9358089435794765
+      },
+      {
+        "time": 90.41008333333332,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.303552712817958
+      },
+      {
+        "time": 90.41112499999998,
+        "patch": "LRing",
+        "key": 51,
+        "beforeMm": 0,
+        "afterMm": 2.6726708859944326
+      }
+    ]
+  },
+  "invariants": {
+    "unrelatedQuaternionError": 0,
+    "endpointSkinErrorMm": 0,
+    "heldSkinErrorMm": 0
+  },
+  "motion960": {
+    "frameRate": 960,
+    "samples": 185,
+    "maxTipSpeed": 3.6051497263491274,
+    "maxWristSpeed": 0.364623050604068,
+    "maxWristAcceleration": 11.822539090720255,
+    "maxDorsal": 56.03998892227426,
+    "maxBackwardMm": 0
+  },
+  "held": {
+    "samples": 309,
+    "times": 131,
+    "minGapMm": -0.8080360294294708,
+    "maxGapMm": 0.3358833926879745,
+    "maxDifferenceMm": 0
+  },
+  "scope": "One finite guarded left-ring release. Actual animated key inner boxes and noncoplanar triangle crossings for strongly owned hand patches. Mixed webs checked against keys; pair counts do not cover coplanar or enclosed surfaces. Existing unrelated defects preserved."
+}
