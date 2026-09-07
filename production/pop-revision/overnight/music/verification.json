@@ -1,0 +1,99 @@
+{
+  "notes": 1011,
+  "duration": 227.101587,
+  "maximumPhysicalPolyphony": {
+    "L": 2,
+    "R": 2
+  },
+  "maximumHeldSpanSemitones": {
+    "L": 7,
+    "R": 7
+  },
+  "fingers": {
+    "L5": 153,
+    "R3": 93,
+    "L3": 97,
+    "L2": 219,
+    "R5": 132,
+    "R2": 219,
+    "L4": 12,
+    "L1": 65,
+    "R1": 17,
+    "R4": 4
+  },
+  "hookRepetitions": 3,
+  "sameFingerOverlaps": 0,
+  "sameKeyOverlaps": 0,
+  "blackKeyThumbs": 0,
+  "audioEventSignature": "ffcd6fc938012bcf1e2b7d1d0025f1c66ff8bb7e3873c397748b46595526c60b",
+  "lastKeyRelease": 222.881981,
+  "overlapNegativeControlRejected": true,
+  "currentScoreSha256": "96d39423a256bb3941ad467bffa6300f781715fa3a2b9ef04f5211d822fe42ac",
+  "frozenScoreSha256": "96d39423a256bb3941ad467bffa6300f781715fa3a2b9ef04f5211d822fe42ac",
+  "audioMatchesAudibleScoreFields": true,
+  "masters": {
+    "wav": {
+      "frames": 10015180,
+      "peak": 0.8269895315170288,
+      "loudness": {
+        "input_i": "-19.00",
+        "input_tp": "-1.64",
+        "input_lra": "7.30",
+        "input_thresh": "-29.16",
+        "output_i": "-16.75",
+        "output_tp": "-1.50",
+        "output_lra": "6.40",
+        "output_thresh": "-26.90",
+        "normalization_type": "dynamic",
+        "target_offset": "-1.25"
+      },
+      "sha256": "e9ae0843c74feefff046cd8a4ddf65f75f355be5e780b6dd67ab450ac2d6a2c1"
+    },
+    "mp3": {
+      "frames": 10015180,
+      "peak": 0.8272280097007751,
+      "loudness": {
+        "input_i": "-19.00",
+        "input_tp": "-1.63",
+        "input_lra": "7.30",
+        "input_thresh": "-29.16",
+        "output_i": "-16.75",
+        "output_tp": "-1.50",
+        "output_lra": "6.40",
+        "output_thresh": "-26.90",
+        "normalization_type": "dynamic",
+        "target_offset": "-1.25"
+      },
+      "sha256": "7a51eff7a95877498e8de5982862b045b15cdf48e1b03c03e805c15b40128ec8"
+    }
+  },
+  "codecAlignment": [
+    {
+      "time": 1,
+      "lagSamples": 0
+    },
+    {
+      "time": 35,
+      "lagSamples": 0
+    },
+    {
+      "time": 75,
+      "lagSamples": 0
+    },
+    {
+      "time": 150,
+      "lagSamples": 0
+    },
+    {
+      "time": 190,
+      "lagSamples": 0
+    },
+    {
+      "time": 219,
+      "lagSamples": 0
+    }
+  ],
+  "legalRecordingsVerified": 59,
+  "criticalListeningPerformed": false,
+  "limitation": "No audio listening capability is available; score, source, signal and codec checks are real, but they are not critical listening."
+}

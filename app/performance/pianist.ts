@@ -57,7 +57,7 @@ export class Pianist {
  if((o as THREE.Bone).isBone){const b=o as THREE.Bone;this.bones.set(b.name,b);this.rest.set(b.name,b.quaternion.clone());}
  if((o as THREE.Mesh).isMesh){const m=o as THREE.Mesh;
  // Footwear replaces the covered foot surface, as in a clothed character asset.
- if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
+ if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index!.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
  m.castShadow=true;m.receiveShadow=true;m.frustumCulled=false;const mats=Array.isArray(m.material)?m.material:[m.material];for(const mat of mats){const p=mat as THREE.MeshStandardMaterial;if(p.map)p.map.anisotropy=4;if(p.normalMap)p.normalMap.anisotropy=4;}
  if((m as THREE.SkinnedMesh).morphTargetDictionary)this.blinkMeshes.push(m as THREE.SkinnedMesh);
  }
@@ -160,7 +160,7 @@ export class Pianist {
  }
  // Three linked phalanges share one continuous flexion plane. Coupled bends
  // prevent the mathematically reachable but unnatural folded-back IK solution.
- fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number,palmQ?:THREE.Quaternion,opposition=0){
+ fingerPoints(base:THREE.Vector3,target:THREE.Vector3,f:FingerRig,fi:number,palmQ?:THREE.Quaternion,opposition=0,planeRoll=0){
  const [a,b,c]=f.lengths,ratio=fi===0?.35:.48,maxBend=fi===0?1.56:1.52;
  const reach=(bend:number)=>Math.hypot(a+b*Math.cos(bend)+c*Math.cos((1+ratio)*bend),b*Math.sin(bend)+c*Math.sin((1+ratio)*bend));
  const delta=target.clone().sub(base),d=clamp(delta.length(),reach(maxBend),a+b+c-.00003);
@@ -180,6 +180,9 @@ export class Pianist {
  const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize();
  }
  if(fi===0&&opposition!==0)normal.applyAxisAngle(e,opposition);
+ // A bounded idle route may roll the entire bend plane about its base-to-tip
+ // axis. Segment lengths, endpoint reach, and calibrated skin frames stay fixed.
+ if(fi>0&&planeRoll!==0)normal.applyAxisAngle(e,planeRoll);
  const up=normal.clone().cross(e).normalize();
  const segment=(theta:number,length:number)=>e.clone().multiplyScalar(Math.cos(theta)*length).addScaledVector(up,Math.sin(theta)*length);
  const pip=base.clone().add(segment(angle,a)),dip=pip.clone().add(segment(angle-bend,b)),tip=dip.clone().add(segment(angle-(1+ratio)*bend,c));return {pip,dip,tip,normal,min:reach(maxBend)};
@@ -259,6 +262,22 @@ export class Pianist {
  const shoulder=wp(hand.upper);
  const elbow=this.supportedElbow(hand,shoulder,wrist,pose.q,pressure);
  aim(hand.upper,hand.lower,elbow);aim(hand.lower,hand.wrist,wrist);setWorldQ(hand.wrist,pose.q);
+ // Per-transition clearance moves only a fully resting neighboring digit.
+ // The source route supplies the same smooth lift/cruise/land envelope.
+ const restClearance=Array.from({length:5},()=>({offset:v3(),roll:0}));
+ for(let moving=1;moving<5;moving++){
+  const notes=hand.fingerNotes[moving];
+  for(let index=0;index<notes.length;index++)for(const kind of ['approachTravel','releaseTravel']){
+   const note=notes[index],profile=(note as any)[kind];if(!profile?.clearance)continue;
+   const previous=notes[index-1],next=notes[index+1],noteEnd=note.time+note.duration;
+   if(kind==='releaseTravel'&&next&&next.time-noteEnd<.50)continue;
+   const begin=kind==='releaseTravel'?noteEnd:previous&&note.time-previous.time-previous.duration<.50?previous.time+previous.duration:note.time-(profile.duration??.20),end=kind==='releaseTravel'?begin+(profile.duration??.16):note.time;
+   const hold=clamp(profile.clearanceHold??.040,0,.080),fade=clamp(profile.clearanceFade??.080,.060,.120);
+   if(time<begin||time>end+hold+fade)continue;
+   const liftEnd=clamp(profile.liftEnd??1/3,.05,.8),weight=smooth((time-begin)/((end-begin)*liftEnd))*smooth((end+hold+fade-time)/fade);
+   for(const clear of profile.clearance){const neighbor=clear.finger-1;if(neighbor<1||neighbor>4||neighbor===moving)continue;const offset=v3(clear.x??0,clear.y??0,clear.z??0).clampLength(0,.025);restClearance[neighbor].offset.addScaledVector(offset,weight);restClearance[neighbor].roll+=clamp(clear.roll??0,-.25,.25)*weight;}
+  }
+ }
  for(let fi=0;fi<5;fi++){
  const finger=hand.fingers[fi];finger.bones.forEach((b,j)=>{b.quaternion.copy(finger.rest[j]);b.updateWorldMatrix(false,true);});
  const fnotes=hand.fingerNotes[fi];const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
@@ -310,23 +329,62 @@ export class Pianist {
  const shape=this.fingerPoints(base,target,finger,fi,undefined,n?.thumbOpposition??0);
  const points=[base,shape.pip,shape.dip,shape.tip];
  if(!n&&fi>0){
- const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3,opposition=0)=>{
- const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ,opposition),p=[origin,chain.pip,chain.dip,chain.tip];
- const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
- return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
+ // Preserve the existing clear settled rest, and transport complete joint
+ // poses through travel. Intermediate world tips near MCP can force a claw.
+ const localPose=(wristPosition:THREE.Vector3,wristQ:THREE.Quaternion,touch:THREE.Vector3,opposition=0,planeRoll=0)=>{
+  const origin=finger.bones[0].position.clone().applyQuaternion(wristQ).add(wristPosition),chain=this.fingerPoints(origin,touch,finger,fi,wristQ,opposition,planeRoll),p=[origin,chain.pip,chain.dip,chain.tip];
+  const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
+  return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
  };
- // Keep the whole released digit above the black-key front edge. A low
- // tip target could arch while its proximal skin remained inside a key.
- const idlePose=localPose(wp(hand.wrist),pose.q,idle.clone().setY(Math.max(idle.y,KEY_TOP+.057)));
- // The anchor wrist frame stays fixed, but its key height follows the
- // actual hinged key during approach and release (including pre-travel).
+ const settings=(this as any).jointTransport??{};
+ const restTouch=idle.clone().setY(Math.max(idle.y,KEY_TOP+.057));
+ const ownEnd=prev&&prev.time+prev.duration<=time?prev.time+prev.duration:-100,ownStart=nxt&&nxt.time>=time?nxt.time:1e6;
+ const clearanceWeight=smooth((time-ownEnd-((prev as any)?.releaseTravel?.duration??.16))/.080)*smooth((ownStart-time-((nxt as any)?.approachTravel?.duration??.20))/.080);
+ restTouch.addScaledVector(restClearance[fi].offset.clone().clampLength(0,.025),clearanceWeight);
+ const natural=localPose(wp(hand.wrist),pose.q,restTouch,0,clamp(restClearance[fi].roll,-.25,.25)*clearanceWeight);
  const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=piano.contact(note.midi,z).add(v3(0,note.contactLift??.002,0));return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
- let rotations=idlePose.map(q=>q.clone());
- // A single smooth arch clears an intervening black key before descending.
- if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWindow=Math.min(.025+.050*smooth((gap-.16)/.12),gap*.5),restWeight=smooth((time-end)/restWindow)*smooth((start-time)/Math.min(.022+(fi===3?0:.040)*smooth((gap-.16)/.12),gap*.5))*.95;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
- else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.11);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.16);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
+ const release=Math.min(previous?.releasePose?.duration??settings.release??.080,gap*.5),approach=Math.min(next?.approachPose?.duration??settings.approach??.100,gap*.5);
+ // Only expressly reviewed long releases use a world-space waypoint.
+ // Held notes and every unflagged joint-transport route retain V7 exactly.
+ const route=previous?.releaseWaypoint;
+ if(route?.enabled&&gap>=.50&&route.duration>0&&route.duration<=gap-approach&&time-end<route.duration){
+  const anchor=this.plannedPose(hand,end),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=previous!.contactZ??this.contactDepth(origin.z,isBlack(previous!.midi),fi);
+  const contact=piano.contact(previous!.midi,z).add(v3(0,previous!.contactLift??.002,0));
+  const u=clamp((time-end)/route.duration),liftEnd=clamp(route.liftEnd,.05,.45),landStart=clamp(route.landStart,liftEnd+.05,.95);
+  const lift=smooth(u/liftEnd),land=smooth((u-landStart)/(1-landStart)),cruise=smooth((u-liftEnd)/(landStart-liftEnd)),envelope=lift*(1-land);
+  const touch=contact.clone().lerp(restTouch,cruise);touch.x+=route.x*envelope;touch.z+=route.z*envelope;touch.y=mix(mix(contact.y,route.height,lift),restTouch.y,land);
+  const rotations=localPose(wp(hand.wrist),pose.q,touch,0,route.roll*envelope);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;
+ }
+ let rotations=natural.map(q=>q.clone());
+ if(previous&&time-end<release){
+  const contact=contactPose(previous,end),weight=1-smooth((time-end)/Math.max(.001,release));
+  const distal=previous.releasePose?.distalDuration;
+  const distalWeight=distal===undefined?weight:1-smooth((time-end)/clamp(distal,Math.min(.010,release),release));
+  rotations.forEach((q,j)=>q.slerp(contact[j],j>0?distalWeight:weight));
+ }
+ if(next&&start-time<approach){
+  const contact=contactPose(next,start),weight=1-smooth((start-time)/Math.max(.001,approach));
+  const distal=next.approachPose?.distalDuration;
+  const distalWeight=distal===undefined?weight:1-smooth((start-time)/clamp(distal,Math.min(.010,approach),approach));
+  rotations.forEach((q,j)=>q.slerp(contact[j],j>0?distalWeight:weight));
+ }
+ // Lift the complete chain during each departure/arrival blend. Relative
+ // phalanx rotations remain fixed; the settled rest and contacts are exact.
+ let liftWeight=0,liftDegrees=settings.arc??20,sweepDegrees=0;
+ if(previous&&time-end<release){const u=smooth((time-end)/Math.max(.001,release));liftWeight=4*u*(1-u);liftDegrees=previous.releasePose?.liftDegrees??liftDegrees;sweepDegrees=previous.releasePose?.sweepDegrees??0;}
+ if(next&&start-time<approach){const u=smooth((start-time)/Math.max(.001,approach));liftWeight=Math.max(liftWeight,4*u*(1-u));liftDegrees=next.approachPose?.liftDegrees??liftDegrees;sweepDegrees=next.approachPose?.sweepDegrees??0;}
+ if(liftWeight>0){
+  const proximal=finger.bones[1].position.clone().applyQuaternion(rotations[0]).normalize().applyQuaternion(pose.q),dorsal=v3(0,0,-1).applyQuaternion(pose.q),axis=proximal.clone().cross(v3(0,1,0));
+  const elevation=Math.asin(clamp(proximal.dot(dorsal),-1,1)),available=Math.max(0,55*Math.PI/180-elevation),angle=Math.min(liftDegrees*Math.PI/180*liftWeight,available);
+  if(axis.lengthSq()>1e-8&&angle>0)rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(axis.normalize().applyQuaternion(pose.q.clone().invert()),angle));
+  // A small joint-space sweep clears a neighboring digit without altering
+  // relative PIP/DIP rotations. The envelope is zero at contact and rest.
+  if(sweepDegrees!==0)rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,0,-1),sweepDegrees*Math.PI/180*liftWeight));
+ }
  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
  continue;
  }

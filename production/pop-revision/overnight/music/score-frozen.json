@@ -1372,16 +1372,6 @@
         "x": 0.03,
         "z": 0,
         "roll": 0.25
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.765,
-        "x": 0.03,
-        "z": 0,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0.25,
-        "duration": 0.16
       }
     },
     {
@@ -5950,16 +5940,6 @@
         "height": 0.776,
         "x": 0.015,
         "z": -0.015
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.776,
-        "x": 0.015,
-        "z": -0.015,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0,
-        "duration": 0.16
       }
     },
     {
@@ -6036,16 +6016,6 @@
         "x": -0.015,
         "z": -0.03,
         "roll": -0.15
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.765,
-        "x": -0.015,
-        "z": -0.03,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": -0.15,
-        "duration": 0.16
       }
     },
     {
@@ -6593,16 +6563,6 @@
         "z": 0,
         "roll": -0.25,
         "liftEnd": 0.05
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.79,
-        "x": -0.015,
-        "z": -0.03,
-        "liftEnd": 0.15,
-        "landStart": 0.6666666666666666,
-        "roll": 0,
-        "duration": 0.16
       }
     },
     {
@@ -7393,10 +7353,7 @@
       "beat": 1.5,
       "writtenDuration": 0.246875,
       "id": "db00493",
-      "contactLift": 0.003,
-      "releasePose": {
-        "liftDegrees": 15
-      }
+      "contactLift": 0.003
     },
     {
       "time": 108.769085,
@@ -11025,16 +10982,6 @@
         "height": 0.776,
         "x": 0.015,
         "z": -0.015
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.776,
-        "x": 0.015,
-        "z": -0.015,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0,
-        "duration": 0.16
       }
     },
     {
@@ -11375,10 +11322,7 @@
       "beat": 1.5,
       "writtenDuration": 0.246875,
       "id": "db00757",
-      "contactLift": 0.003,
-      "releasePose": {
-        "liftDegrees": 15
-      }
+      "contactLift": 0.003
     },
     {
       "time": 166.258,
@@ -13740,16 +13684,6 @@
         "height": 0.776,
         "x": 0.015,
         "z": -0.015
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.776,
-        "x": 0.015,
-        "z": -0.015,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0,
-        "duration": 0.16
       }
     },
     {
@@ -14364,16 +14298,6 @@
         "liftEnd": 0.15,
         "landStart": 0.6666666666666666,
         "roll": 0
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.79,
-        "x": -0.015,
-        "z": -0.03,
-        "liftEnd": 0.15,
-        "landStart": 0.6666666666666666,
-        "roll": 0,
-        "duration": 0.16
       }
     },
     {
@@ -14829,16 +14753,6 @@
         "x": 0.034999999999999996,
         "z": 0,
         "roll": 0.15
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.765,
-        "x": 0.034999999999999996,
-        "z": 0,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0.15,
-        "duration": 0.16
       }
     },
     {
@@ -14958,16 +14872,6 @@
         "x": 0.03,
         "z": 0,
         "roll": 0.15
-      },
-      "releaseWaypoint": {
-        "enabled": true,
-        "height": 0.765,
-        "x": 0.03,
-        "z": 0,
-        "liftEnd": 0.3333333333333333,
-        "landStart": 0.6666666666666666,
-        "roll": 0.15,
-        "duration": 0.16
       }
     },
     {

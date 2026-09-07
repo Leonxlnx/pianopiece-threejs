@@ -15,8 +15,8 @@ export function keySurfaceY(midi:number,z:number,down=1){const black=isBlack(mid
 function outline(inset=0){const s=new THREE.Shape();s.moveTo(-.752+inset,-.015+inset);s.lineTo(.752-inset,-.015+inset);s.lineTo(.752-inset,.57);s.bezierCurveTo(.75-inset,.92,.35-inset,1.02,.32-inset,1.57);s.bezierCurveTo(.30-inset,2.13,.07,2.48,-.33,2.48-inset);s.bezierCurveTo(-.58,2.48-inset,-.752+inset,2.32,-.752+inset,2.10);s.closePath();return s;}
 function slab(shape:THREE.Shape,depth:number,mat:THREE.Material,y:number,parent:THREE.Object3D){const geo=new THREE.ExtrudeGeometry(shape,{depth,steps:1,bevelEnabled:true,bevelSize:.007,bevelThickness:.006,bevelSegments:3,curveSegments:48});geo.rotateX(-Math.PI/2);const mesh=new THREE.Mesh(geo,mat);mesh.position.y=y;mesh.castShadow=true;mesh.receiveShadow=true;parent.add(mesh);return mesh;}
 function box(parent:THREE.Object3D,w:number,h:number,d:number,x:number,y:number,z:number,mat:THREE.Material,r=.005){const m=new THREE.Mesh(new RoundedBoxGeometry(w,h,d,2,r),mat);m.position.set(x,y,z);m.castShadow=true;m.receiveShadow=true;parent.add(m);return m;}
-function woodTexture(pending:Promise<void>[]){
- const url='/assets/materials/spruce.png';
+function woodTexture(pending:Promise<void>[],name='spruce'){
+ const url=`/assets/materials/${name}.png`;
  let texture:THREE.Texture;
  if(typeof Image==='undefined')texture=new THREE.Texture();
  else{let complete!:()=>void,failed!:(error:unknown)=>void;const ready=new Promise<void>((resolve,reject)=>{complete=resolve;failed=reject;});texture=new THREE.TextureLoader().load(url,()=>complete(),undefined,failed);pending.push(ready);}
@@ -79,6 +79,7 @@ export class GrandPiano {
  const lacquer=new THREE.MeshPhysicalMaterial({color:0x090c0f,metalness:.025,roughness:.20,clearcoat:1,clearcoatRoughness:.095});
  const edge=new THREE.MeshPhysicalMaterial({color:0x18191b,metalness:.03,roughness:.23,clearcoat:1,clearcoatRoughness:.10});
  const wood=new THREE.MeshStandardMaterial({color:0xd6c5a4,map:woodTexture(this.pendingTextures),roughness:.50});
+ const lidVeneer=new THREE.MeshPhysicalMaterial({color:0x9b7954,map:woodTexture(this.pendingTextures,'walnut'),roughness:.42,clearcoat:.18,clearcoatRoughness:.32});
  const brass=new THREE.MeshStandardMaterial({color:0xc49b55,metalness:.90,roughness:.29});
  const gold=new THREE.MeshStandardMaterial({color:0xb2975d,metalness:.58,roughness:.43});
  const felt=new THREE.MeshStandardMaterial({color:0x5a1420,roughness:1});
@@ -90,7 +91,28 @@ export class GrandPiano {
  const rim=outline();const hole=outline(.035);rim.holes.push(new THREE.Path(hole.getPoints(72)));slab(rim,.2,lacquer,.745,this.group);
  // Cast iron plate, bridges and belly braces.
  const plate=outline(.085);const hole2=outline(.20);plate.holes.push(new THREE.Path(hole2.getPoints(72)));slab(plate,.026,gold,.83,this.group);
- for(let i=0;i<4;i++){const z=-.42-i*.43;segment(this.group,v3(-.66,.815,z),v3(.42-i*.12,.816,z-.12),.021,gold,.020,10);}
+ // Tapered webs form a connected cast plate below the speaking strings.
+ // Their crowns stop at .848: even the lowest treble course stays clear.
+ const castWeb=(a:THREE.Vector2,b:THREE.Vector2,startWidth:number,endWidth:number,name:string)=>{
+ const axis=b.clone().sub(a).normalize(),normal=new THREE.Vector2(-axis.y,axis.x);
+ const points=[a.clone().addScaledVector(normal,startWidth/2),b.clone().addScaledVector(normal,endWidth/2),b.clone().addScaledVector(normal,-endWidth/2),a.clone().addScaledVector(normal,-startWidth/2)];
+ const shape=new THREE.Shape(points);shape.closePath();
+ const web=slab(shape,.018,gold,.824,this.group);web.name=name;
+ };
+ for(const [i,a,b] of [
+ [0,[-.654,.32],[.626,.36]],
+ [1,[-.654,.84],[.300,1.18]],
+ [2,[-.654,1.48],[.168,1.91]],
+ [3,[-.607,2.10],[-.0547,2.33335]],
+ ] as const)castWeb(new THREE.Vector2(...a),new THREE.Vector2(...b),.061,.043,`Tapered cast plate web ${i+1}`);
+ // The pinblock supports the tuning pins at the two string-bank heights;
+ // the former thin perimeter left the bass tuning pins visibly suspended.
+ const bassPinbed=box(this.group,.407,.047,.102,-.440,.8635,-.175,gold,.005);
+ bassPinbed.name='Raised bass tuning pin bed';
+ const treblePinbed=box(this.group,.918,.021,.108,.198,.8405,-.169,gold,.005);
+ treblePinbed.name='Treble tuning pin bed';
+ const pinFelt=box(this.group,1.303,.002,.012,-.016,.849,-.223,felt,.001);
+ pinFelt.name='Red felt along plate termination';
  // One course layout drives string speaking lengths, both bridges, tuning
  // pins, hitch pins and damper placement. The bass bank crosses above tenor.
  const courses=Array.from({length:88},(_,i)=>{
@@ -145,9 +167,10 @@ export class GrandPiano {
  const mesh=new THREE.Mesh(mergeGeometries(parts),mat);mesh.name=name;mesh.castShadow=true;this.group.add(mesh);parts.forEach(g=>g.dispose());
  }
  const windingGeometry=new THREE.BufferGeometry();windingGeometry.setAttribute('position',new THREE.Float32BufferAttribute(windings,3));const windingMesh=new THREE.LineSegments(windingGeometry,new THREE.LineBasicMaterial({color:0x77563c,transparent:true,opacity:.50}));windingMesh.name='Bass winding ridges';this.group.add(windingMesh);
- const pins=new THREE.InstancedMesh(new THREE.CylinderGeometry(.0024,.0027,.015,8),new THREE.MeshStandardMaterial({color:0x6b7070,metalness:.94,roughness:.30}),pinPositions.length);
+ // The exposed tops stay fixed while longer shafts enter the pin beds.
+ const pins=new THREE.InstancedMesh(new THREE.CylinderGeometry(.0024,.0027,.023,8),new THREE.MeshStandardMaterial({color:0x6b7070,metalness:.94,roughness:.30}),pinPositions.length);
  const hitches=new THREE.InstancedMesh(new THREE.CylinderGeometry(.0018,.002,.009,7),brass,hitchPositions.length),dummy=new THREE.Object3D();
- for(let i=0;i<pinPositions.length;i++){dummy.position.copy(pinPositions[i]).add(v3(0,.004,0));dummy.updateMatrix();pins.setMatrixAt(i,dummy.matrix);dummy.position.copy(hitchPositions[i]).add(v3(0,-.001,0));dummy.updateMatrix();hitches.setMatrixAt(i,dummy.matrix);}
+ for(let i=0;i<pinPositions.length;i++){dummy.position.copy(pinPositions[i]);dummy.updateMatrix();pins.setMatrixAt(i,dummy.matrix);dummy.position.copy(hitchPositions[i]).add(v3(0,-.001,0));dummy.updateMatrix();hitches.setMatrixAt(i,dummy.matrix);}
  pins.name='Tuning pin for each string';hitches.name='Hitch pins beyond each bridge';pins.castShadow=true;this.group.add(pins,hitches);
  // Soft felt meets each damped course. The highest treble rings freely.
  const count=this.damperRest.length,damperWood=new THREE.MeshPhysicalMaterial({color:0x201b16,roughness:.36,clearcoat:.2}),damperFelt=new THREE.MeshStandardMaterial({color:0xd6cbb7,roughness:1});
@@ -189,7 +212,12 @@ export class GrandPiano {
  const c=document.createElement('canvas');c.width=512;c.height=96;const ct=c.getContext('2d')!;ct.clearRect(0,0,512,96);ct.fillStyle='#bc9e66';ct.font='32px Georgia';ct.textAlign='center';ct.fillText('D A Y B R E A K',256,55);const tex=new THREE.CanvasTexture(c);tex.colorSpace=THREE.SRGBColorSpace;const label=new THREE.Mesh(new THREE.PlaneGeometry(.205,.039),new THREE.MeshBasicMaterial({map:tex,transparent:true,depthWrite:false}));label.position.set(0,.829,.1292);this.group.add(label);
  // Raised lid rotates around the bass rim; soundboard remains physically open.
  const lidPivot=new THREE.Group();lidPivot.position.set(-.75,.963,0);this.group.add(lidPivot);const lid=slab(outline(),.035,lacquer,0,lidPivot);lid.position.x=.75;lidPivot.rotation.z=.44;
- const lidInside=slab(outline(.034),.009,wood,-.006,lidPivot);lidInside.position.x=.75;
+ const lidInside=slab(outline(.034),.009,lidVeneer,-.006,lidPivot);lidInside.position.x=.75;lidInside.name='Satin walnut lid underside';
+ // Planar grain coordinates prevent the generic extrusion UVs stretching
+ // the veneer across the curved tail and preserve an even timber scale.
+ const lidPositions=lidInside.geometry.attributes.position,grainUV=new Float32Array(lidPositions.count*2);
+ for(let i=0;i<lidPositions.count;i++){grainUV[i*2]=lidPositions.getX(i)*.65;grainUV[i*2+1]=lidPositions.getZ(i)*.75;}
+ lidInside.geometry.setAttribute('uv',new THREE.BufferAttribute(grainUV,2));
  lidPivot.updateMatrix();
  lidInside.geometry.computeBoundingBox();
  const propSeat=v3(1.365,lidInside.position.y+lidInside.geometry.boundingBox!.min.y-.0005,-.79).applyMatrix4(lidPivot.matrix);

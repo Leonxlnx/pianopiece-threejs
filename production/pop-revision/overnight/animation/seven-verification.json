@@ -1,0 +1,150 @@
+{
+  "passed": true,
+  "scope": "Seven guarded finite release intervals,385 actual-skin samples and364240Hz motion samples; selected targets improve with inherited unrelated failures retained.",
+  "statistics": [
+    {
+      "id": "db00094",
+      "baselineTargetPairIncidences": 331,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": []
+    },
+    {
+      "id": "db00399",
+      "baselineTargetPairIncidences": 582,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": []
+    },
+    {
+      "id": "db00404",
+      "baselineTargetPairIncidences": 1218,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 2,
+      "shallowIncreases": [
+        {
+          "time": 89.362439,
+          "key": 70,
+          "patch": "RMiddle",
+          "beforeMm": 0,
+          "afterMm": 2.0728110449877297
+        },
+        {
+          "time": 89.36660566666666,
+          "key": 70,
+          "patch": "RMiddle",
+          "beforeMm": 0,
+          "afterMm": 2.1824220739340427
+        },
+        {
+          "time": 89.37077233333333,
+          "key": 70,
+          "patch": "RMiddle",
+          "beforeMm": 0,
+          "afterMm": 2.096029563448787
+        }
+      ]
+    },
+    {
+      "id": "db00734",
+      "baselineTargetPairIncidences": 582,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": []
+    },
+    {
+      "id": "db00915",
+      "baselineTargetPairIncidences": 582,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": []
+    },
+    {
+      "id": "db00986",
+      "baselineTargetPairIncidences": 338,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": [
+        {
+          "time": 211.377335,
+          "key": 82,
+          "patch": "RPinky",
+          "beforeMm": 0,
+          "afterMm": 2.118381800687741
+        },
+        {
+          "time": 211.38150166666665,
+          "key": 82,
+          "patch": "RPinky",
+          "beforeMm": 0,
+          "afterMm": 2.477456707652259
+        },
+        {
+          "time": 211.3856683333333,
+          "key": 82,
+          "patch": "RPinky",
+          "beforeMm": 0,
+          "afterMm": 2.366324838486311
+        }
+      ]
+    },
+    {
+      "id": "db00994",
+      "baselineTargetPairIncidences": 323,
+      "candidateTargetPairIncidences": 0,
+      "clearedSevereKeys": 0,
+      "shallowIncreases": []
+    }
+  ],
+  "invariants": {
+    "quaternionError": 0,
+    "endpointSkinErrorMm": 0,
+    "heldSkinErrorMm": 0
+  },
+  "before": {
+    "samples": 385,
+    "keyCoreRowsOver3mm": 19,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 22,
+    "maxKeyCoreDepthMm": 7.063091484989014,
+    "ownPalmRows": 0,
+    "neighborRows": 84,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.5177643171550407,
+    "nonfinite": 0
+  },
+  "after": {
+    "samples": 385,
+    "keyCoreRowsOver3mm": 17,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 20,
+    "maxKeyCoreDepthMm": 7.063091484989014,
+    "ownPalmRows": 0,
+    "neighborRows": 21,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.5177643171550407,
+    "nonfinite": 0
+  },
+  "motion": {
+    "variant": "release-seven",
+    "frameRate": 240,
+    "samples": 364,
+    "maxTipSpeed": 2.0704790130287316,
+    "maxWristSpeed": 0.5784903647531836,
+    "maxWristAcceleration": 13.961781802979544,
+    "maxDorsal": 53.40956062180246,
+    "maxBackwardMm": 0,
+    "failures": []
+  },
+  "hashes": {
+    "candidate/app/performance/pianist.ts": "7d68864d5b646f76c951814234aef79d8241a496a2ffdfe65c224f2a103472a2",
+    "candidate/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "candidate/score.json": "fef1f5363433d00ecbbb6162abf6c5c10f9b2ec0b86c64e88c375985402e0a6c",
+    "release-seven/score.json": "5cfa21bd93091b5d5b5b1c88b5c866552118d4636463575c1373770b632f5d52",
+    "../pianopiece-threejs/public/assets/pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "audit-hand-surfaces.mjs": "9d326350e64629a92f29aa22ef68feff8d6494ca5603ead4c70ec79a9937cc7a",
+    "motion-batch.mjs": "396ed0bd52d600257fe91de2f763eed131de74a442121dc7dd87e90587f26bae",
+    "verify-seven.mjs": "cbee1c8f9bd7e1fa62f6327a34d7482568e4ab90eaac00ba549a24062e15a1df",
+    "release-seven/times.json": "c038d2652d0d93840f86f6117c56c9c7422c97cebac64c29aa320fdd42bcd504"
+  }
+}

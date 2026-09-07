@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "scope": "Both entire64ms gaps, exact held boundaries,64 actual-skin samples, uniform240Hz local motion plus960Hz motion check. Other inherited full-song collisions are outside this repair.",
+  "invariants": {
+    "quaternionError": 0,
+    "endpointSkinErrorMm": 0,
+    "heldSkinErrorMm": 0
+  },
+  "baselinePeakTipSpeedMps": 5.274668764800113,
+  "candidatePeakTipSpeedMps": 4.824965192904467,
+  "densePeakTipSpeedMps": 4.889783148111984,
+  "actualSkinBefore": {
+    "samples": 64,
+    "keyCoreRowsOver3mm": 0,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 0,
+    "maxKeyCoreDepthMm": 2.185815907586486,
+    "ownPalmRows": 0,
+    "neighborRows": 12,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.24049745196891217,
+    "nonfinite": 0
+  },
+  "actualSkinAfter": {
+    "samples": 64,
+    "keyCoreRowsOver3mm": 0,
+    "activeKeyCoreHitsOver3mm": 0,
+    "inactiveKeyCoreHitsOver3mm": 0,
+    "maxKeyCoreDepthMm": 2.185815907586486,
+    "ownPalmRows": 0,
+    "neighborRows": 10,
+    "opposingRows": 0,
+    "markerMaxErrorMm": 0.24049745196891217,
+    "nonfinite": 0
+  },
+  "reducedPairIncidences": 236,
+  "motion": {
+    "variant": "short-gap",
+    "frameRate": 240,
+    "samples": 58,
+    "maxTipSpeed": 4.824965192904467,
+    "maxWristSpeed": 0.17828285619121412,
+    "maxWristAcceleration": 3.444972641768364,
+    "maxDorsal": 47.80516149301838,
+    "maxBackwardMm": 0,
+    "failures": []
+  },
+  "denseMotion": {
+    "variant": "short-gap",
+    "frameRate": 960,
+    "samples": 222,
+    "maxTipSpeed": 4.889783148111984,
+    "maxWristSpeed": 0.1836360071881699,
+    "maxWristAcceleration": 3.44686508599569,
+    "maxDorsal": 48.33993392330675,
+    "maxBackwardMm": 0,
+    "failures": []
+  },
+  "hashes": {
+    "candidate/app/performance/pianist.ts": "7d68864d5b646f76c951814234aef79d8241a496a2ffdfe65c224f2a103472a2",
+    "candidate/compiled/pianist.mjs": "3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331",
+    "release-seven/score.json": "5cfa21bd93091b5d5b5b1c88b5c866552118d4636463575c1373770b632f5d52",
+    "short-gap/score.json": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+    "../pianopiece-threejs/public/assets/pianist.glb": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+    "audit-hand-surfaces.mjs": "9d326350e64629a92f29aa22ef68feff8d6494ca5603ead4c70ec79a9937cc7a",
+    "motion-batch.mjs": "396ed0bd52d600257fe91de2f763eed131de74a442121dc7dd87e90587f26bae",
+    "verify-short-gap.mjs": "b603bc45238c7a76ae36ed2e49227b001fb9b73cd2a173c4d8197c0615c40d81",
+    "short-gap/times.json": "5534a2376ed73d68f8621a869664f5d1a2b03549c7c99ba1f88be37bee0b8079"
+  }
+}

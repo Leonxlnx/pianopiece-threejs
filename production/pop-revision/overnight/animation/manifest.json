@@ -1,0 +1,52 @@
+{
+  "status": "SCOPED_NUMERICAL_CHECKPOINT_SHORT_GAP_VISUAL_REVIEW_AND_COMBINED_FULL_SONG_AUDIT_PENDING",
+  "sourceMeaning": "ExactV7 plus explicit finite release waypoint branch. No default world-space solver restored. Only pianist.ts and types.ts are source replacements; preserve all other current modules.",
+  "scoreMeaning": "Exact saved fittedV7/E3 score plus9 explicit release waypoints and2 release-only15degree arc controls; all audible fields preserved relative toV7/E3.",
+  "modelSHA256": "be0341c8b4749721dc884eae7adfd5966dfa8db7c7f15319e4ddae49a71879bc",
+  "newWaypointNotes": [
+    "db00440",
+    "db00956",
+    "db00404",
+    "db00094",
+    "db00399",
+    "db00734",
+    "db00915",
+    "db00994",
+    "db00986"
+  ],
+  "shortGapNotes": [
+    "db00493",
+    "db00757"
+  ],
+  "sha256": {
+    "pianist.ts": "03911a26a65d969e47f6a431e5946562ba9d713c21172d98d334f2240ac30b50",
+    "types.ts": "b8a25a82da31c03f8555327f50dda72f0ab456c288550ebcc3983167f0a2e896",
+    "score.json": "53be5f55cae2417b07c21ae546c909c78eb7ed3473dfdb190a2d706af210d35f",
+    "a4-verification.json": "21ee75274355c98e003b17fcf93b52295ea18a8c3b88aa48da5b65884975ad79",
+    "seven-verification.json": "f976ed249ed3b67c4479c2daa290d65a3955b0112355138f8fa774a9a3cec22d",
+    "short-gap-verification.json": "fa4098dfb7e3334e05aeff41d7ee266e65d5956a5ba91b161f85cd282d0dcba3",
+    "a4-source.patch": "377dc27f9ae3c98c6a98edfe8cccfde12bd5b6d4627060684609a18868dac7a8",
+    "a4-score-delta.json": "bf202fc2df506fbc02fbd6e6a1bee7b405cd6a1509bf31c4b7e7ad883bfd98ec",
+    "seven-score-delta.json": "0d5c49728bac1653784c9983c4ebc031dd4dc9e5e0d3792ff7acbb65fa2cd269",
+    "short-gap-score-delta.json": "d9c401f37f9f77c1d2dd08a2b1b4772fce92f7a331280ba5403b4fa04111c371",
+    "type-narrowing-change.json": "c86e86dd95a9bcdd3bd18b9cd75c472e16e9990bec7a41e76082a0bffa645afb"
+  },
+  "limits": {
+    "heldPadMm": 3,
+    "keyCoreMm": 3,
+    "tipSpeedMps": 5,
+    "wristSpeedMps": 1.5,
+    "wristAccelerationMps2": 25,
+    "dorsalDegrees": 60,
+    "backwardPipMm": 3
+  },
+  "retainedLimitations": [
+    "Inherited unrelated skin collisions remain.",
+    "A4 creates2 shallow key rows, max2.092626mm.",
+    "Seven release batch creates6 shallow key rows, max2.477457mm.",
+    "Shortgap lowers inherited speed failures with0 new/increased key contacts at any depth.",
+    "Shortgap native visual review pending; root owns final full-song240Hz audit and runtime integration.",
+    "Audio must be rendered against the approvedE3 pitches; the saved runtime olderMP3 is not relabeled."
+  ],
+  "typeOnlyProof": "type-narrowing-change.json records new TS source while strict typecheck passes and the exact transpiled rig remains3d09f763de9bd87efb06ae067c35fe98ab59aadefd2b64bb02bc869c85aab331. Earlier report TS hashes identify pre-assertion source; numerical and rendered runtime bytes are identical."
+}

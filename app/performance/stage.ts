@@ -268,10 +268,10 @@ export class Stage {
 #include <colorspace_fragment>
 }`});
  this.group.add(new THREE.Mesh(new THREE.SphereGeometry(90,32,20),this.sky));
- scene.add(new THREE.HemisphereLight(0xd7e0e7,0x79634d,.76));
- const key=new THREE.SpotLight(0xffead4,112,25,.75,.86,2);key.position.set(-3.4,4.25,-2.2);key.target.position.set(0,.92,.42);key.castShadow=true;key.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);key.shadow.bias=-.00018;key.shadow.normalBias=.004;key.shadow.radius=4;scene.add(key,key.target);this.lights.push(key);
- const fill=new THREE.SpotLight(0xc6dcf1,80,24,.85,.95,2);fill.position.set(4.3,3.5,1.3);fill.target.position.set(0,.85,.2);scene.add(fill,fill.target);this.lights.push(fill);
- const sun=new THREE.SpotLight(0xffdbad,330,40,.64,.73,2);sun.position.set(-5.5,4.8,-12);sun.target.position.set(0,.5,.4);sun.castShadow=true;sun.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);sun.shadow.bias=-.0002;sun.shadow.normalBias=.006;sun.shadow.radius=3;scene.add(sun,sun.target);this.lights.push(sun);
+ scene.add(new THREE.HemisphereLight(0xd7e0e7,0x79634d,.95));
+ const key=new THREE.SpotLight(0xffead4,94,25,.75,.86,2);key.position.set(-3.4,4.25,-2.2);key.target.position.set(0,.92,.42);key.castShadow=true;key.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);key.shadow.bias=-.00018;key.shadow.normalBias=.004;key.shadow.radius=4;scene.add(key,key.target);this.lights.push(key);
+ const fill=new THREE.SpotLight(0xc6dcf1,92,24,.85,.95,2);fill.position.set(4.3,3.5,1.3);fill.target.position.set(0,.85,.2);scene.add(fill,fill.target);this.lights.push(fill);
+ const sun=new THREE.SpotLight(0xffdbad,265,40,.64,.73,2);sun.position.set(-5.5,4.8,-12);sun.target.position.set(0,.5,.4);sun.castShadow=true;sun.shadow.mapSize.set(mobile?1024:2048,mobile?1024:2048);sun.shadow.bias=-.0002;sun.shadow.normalBias=.006;sun.shadow.radius=3;scene.add(sun,sun.target);this.lights.push(sun);
  this.accent=new THREE.PointLight(0xffe1bd,.20,4,2);this.accent.position.set(0,1.6,1.7);scene.add(this.accent);
  const count=mobile?90:190,positions=new Float32Array(count*3),seeds=new Float32Array(count),sizes=new Float32Array(count);
  for(let i=0;i<count;i++){positions.set([(rand(i+4)-.5)*9,.2+rand(i+21)*4,(rand(i+66)-.5)*8-1],i*3);seeds[i]=rand(i+55)*6.28;sizes[i]=.8+rand(i+43)*1.3;}
@@ -310,7 +310,7 @@ export class Stage {
  update(time:number,energy:number,pulse:number){
  const lift=smooth((energy-.2)/.72);this.sky.uniforms.uLift.value=lift;this.sky.uniforms.uTime.value=time;
  const m=this.dust.material as THREE.ShaderMaterial;m.uniforms.uTime.value=time;m.uniforms.uLift.value=lift;
- this.lights[0].intensity=mix(108,121,lift);this.lights[2].intensity=mix(300,400,lift);this.accent.intensity=.16+pulse*.07;
+ this.lights[0].intensity=mix(88,100,lift);this.lights[2].intensity=mix(240,320,lift);this.accent.intensity=.16+pulse*.07;
  }
  whenReady(){return Promise.all(this.pendingTextures);}
  dispose(){this.reflector.dispose();}
