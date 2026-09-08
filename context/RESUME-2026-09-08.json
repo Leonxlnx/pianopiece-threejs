@@ -1,0 +1,59 @@
+{
+  "status": "environment_offline; development unfinished",
+  "sitesProjectId": "appgprj_6a9b729cbe8081918fada430da2412f0",
+  "lastPushedSitesCommit": "7294e54",
+  "githubPreviousMain": "d020ecc539522260ef2b96ed4685a5706c114045",
+  "lastExactRecordedClock": "2026-09-08T18:57:36Z",
+  "resumedStart": "2026-09-08T13:42:00Z",
+  "earlierMeaningfulHoursApprox": 5.6667,
+  "twelveHoursVerified": false,
+  "publicUrl": "https://daybreak-piano-film.lexn8.chatgpt.site",
+  "publicRevisionUpdated": false,
+  "newFinalMaster": false,
+  "newFullFilm": false,
+  "localWorkingV11Integrated": true,
+  "localWorkingV11Committed": false,
+  "localWorkingV11BuildPassed": true,
+  "performanceTypecheckPassed": true,
+  "wholeRepositoryTypecheckPassed": false,
+  "modularBakedParityCompleted": false,
+  "scoreSha256": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+  "midpoints": {
+    "samples": 1068,
+    "beforeActiveBad": 250,
+    "afterActiveBad": 52,
+    "newActiveFailures": 0
+  },
+  "held": {
+    "samples": 5340,
+    "beforeActiveBad": 1252,
+    "afterActiveBad": 274,
+    "newActiveFailures": 0,
+    "beforePadFailures": 254,
+    "afterPadFailures": 1
+  },
+  "motion": {
+    "fps": 120,
+    "states": 27979,
+    "nonfinite": 0,
+    "seekQuaternionDelta": 0,
+    "maxWristErrorMm": 0.00013417407023841204,
+    "maxTipMps": 3.8936655295658,
+    "maxWristMps": 1.8197302594013227,
+    "maxElbowMps": 1.6137365760721596,
+    "maxJointRadps": 126.9881231728356
+  },
+  "idleReplay": {
+    "completed": false,
+    "plannedStates": 11829,
+    "lastObservedStates": 3500,
+    "lastObservedBeforeCore": 886,
+    "lastObservedAfterCore": 633,
+    "lastObservedNewCore": 0,
+    "lastObservedNewPairTypes": 0,
+    "lastObservedNewPalmTypes": 0,
+    "lastObservedExistingPairCountIncreases": 625
+  },
+  "postCheckpointReportsAvailableAsRawFiles": "Unknown after outage; these values are retained observations, not reconstructed raw evidence.",
+  "recoveryScriptTested": false
+}

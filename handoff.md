@@ -1,3 +1,5 @@
+> **Current continuation — 8 September 2026:** The user resumed work in this same thread. Read [context/RESUME-2026-09-08.md](context/RESUME-2026-09-08.md) first. The execution environment is now offline; the last pushed newer source is in the existing Sites repository at 7294e54. This GitHub context update does not claim that the newer app, master, film or public release is finished.
+
 # Daybreak: start here
 
 Handoff prepared 2026-09-06 at the user's request because the current account is almost out of credits. **Stop development for this transfer; resume the ambitious revision in a new session. This project is NOT finished.**
