@@ -1,3 +1,5 @@
+> Half-render checkpoint saved:3540 frames in total, with the second archive containing1740 additional frames. Its durable ID is libfile_f4bd0be61ed081919a5dfb4954c5f5b7. Read current.json and the live job progress for the latest state.
+
 # Active export checkpoint
 
 The revised public Site, exact-score master, 34-second preview and GitHub source are delivered. The complete 3:53 film is still rendering. Do not confuse the preview with the full film or restart an already-running render.
