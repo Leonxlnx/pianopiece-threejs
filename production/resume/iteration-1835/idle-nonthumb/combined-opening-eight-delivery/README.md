@@ -1,0 +1,26 @@
+# Combined opening eight curves
+
+The eight opening curves are qualified on score-v10 SHA b9dc39db80dadb01843e904d30c0a6266e8ff859be79dec724ffdef7d1049196 and combined base TS SHA 18b504192c642006e4eede256636de061b9004bf3508bd60541f968de0de71a8. The exact controls and gap anchors match the previously viewed opening-v7 delivery; only the score-binding hash changed. No score, wrist, active-joint, arm or thumb edits are included.
+
+Use `opening-eight-v10.json`, `idle-nonthumb-with-blend.ts` and `opening-hook.patch`. The hook calls `applyIdleNonthumb(time, hand.side, fi, finger.bones, hand.wrist, base, previous, next)` once, after the existing inactive nonthumb fallback pose and before its continue. The helper imports `idleNonthumbData` from `./idle-nonthumb-data`; root should export the combined data there. Its SHA 1db3758e268de3da02d7fdddbe1932f21acbb614a699b4aed31939dfc9db3db5 is the same blend-neutral-capable helper used by the E5 delivery and root compiler. All eight opening curves use the ordinary path; supportedIndexGaps is empty. Keep the helper call only in the inactive nonthumb branch.
+
+These eight replace the old five/eight opening versions. Root's separately reviewed 112-entry registry excludes these eight, so composition should add them once. A composed dataset has a new hash and requires its own final binding; this manifest deliberately rejects a different source or dataset. The whole baked pianist remains at the exact replay-file-manifest path as a verification reference, not an overwrite deliverable. Root's subsequent thumb28 source is not silently included in this base-source qualification.
+
+| Finite check | Result |
+| --- | --- |
+| 1 kHz union of the eight actual curve supports, with exact event/curve boundaries | 2,642 poses; >3 mm core-positive digit poses 88 to 0; maximum candidate core 2.768 mm |
+| Same-hand pair target 11.883–12.5 s | 644 positive poses to 0; no new core/palm/pair type and no strict existing pair-count increase in the entire support union |
+| Opposing patches, continuous 6.045–12.67 s at 240 Hz plus knots | 1,616 poses; all 36 finger/palm patch pairs zero before and after |
+| Full affected-gap span 4.59691–15.561346 s | 1,512 poses; 1,114 outside support; active and outside quaternion components and active tips exactly unchanged |
+| Ordinary post-pose versus baked shared helper | 4,181 exact all-67-bone states, including 1,782 exact full-14-skin states (75,255 vertices each) |
+| Combined base versus 199 s chord proof | 454 exact bone/full-skin states around 198–201 s |
+| Combined base versus compact5 on the same v10 score outside both scopes | 26 declared exact bone/full-skin states |
+| Old versus v10 moving piano | 4,657 exact states; 1,708 distinct states of all 88 updated key world matrices and current contact XYZ |
+
+The old opening score and v10 do not have identical full-model poses. Of 4,181 opening/extended-gap samples, 933 differ. Within the requested 4.59–14.17 s window, differences are confined to LeftHandPinky1/2/3; all right-hand and other bones match exactly. At 9.6 s, 372 Human vertices differ by up to 1.902 mm, while all other 13 skins match. The old C21 and combined source on the same v10 score are identical at that pose. A distant LH refingering changes the pinky's next note from p78 to p63, affecting the existing idle-envelope branch. This is score context, not evidence of a source merge error. The extension after 15.536346 s also has RightHandThumb3 floating-point differences of about 7.1e-15; these are outside all opening curve supports.
+
+An audit correction is explicit: initial generic profile key hashes were made before updating the piano scene graph and are excluded as moving-key evidence. Bone/skin profile evidence remains valid. `moving-key-parity.json` is the separate corrected replay after updating all key matrices. All 1,070 note audio fields and pedals are also identical between the compared opening scores.
+
+The prior final opening-v7 sequence was actually viewed. This follow-up did not render a new full v10 scene. Exact RH pose and helper parity preserve the prior right-hand evidence, but the altered LH pinky is not claimed visually reviewed here. The elevated Middle posture and quick Ring release remain root's motion/style decision; prior actual-skin peaks were Middle 0.516 to 0.757 m/s, Index 0.349 to 1.398 m/s, Ring 0.285 to 2.027 m/s. Existing Middle/Index pairs return after 12.576 as the curves return to baseline, without increasing in these finite checks. These results do not certify continuous clearance or whole-score quality.
+
+Run the strict verifier with SCORE_JSON BASE_TS DATA_JSON HELPER_TS MANIFEST_JSON. It checks all four exact hashes and all eight gap guards. Accepted input and four independent byte/source/data/helper mismatches are covered by `binding-fixtures.json`. `replay.py` reruns the bounded surface, opposing and outside checks using the existing scratch harness and fixed dependency hashes; no installation is performed. `replay-file-manifest.json` identifies the exact source, raw evidence and auxiliary profile scripts. Root's later static piano material/prop change is attributed in `subsequent-piano-change.json`; this leaf measured the frozen compiled piano.

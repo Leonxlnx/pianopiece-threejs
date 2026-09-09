@@ -1,0 +1,2206 @@
+{
+  "metric": "Bone local quaternion rotation from authored rest, matching root inspect-wide.mjs; combines bend and rotation, is not a clinical joint angle.",
+  "rows": [
+    {
+      "id": "p00006",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385428172130234,
+            0.8225810050924235,
+            0.3559377436118323
+          ],
+          "worstTimes": [
+            2.57852137,
+            2.654208,
+            2.654208
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28712989964385816,
+            0.8261634641315824,
+            0.3568464335641616
+          ],
+          "worstTimes": [
+            2.57852137,
+            2.654208,
+            2.654208
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00013",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.8032377815624991,
+            1.155380667827054,
+            0.44745384160058577
+          ],
+          "worstTimes": [
+            4.848691,
+            4.848691,
+            4.848691
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1100429955545759,
+            1.155380614791123,
+            0.4474538045563803
+          ],
+          "worstTimes": [
+            4.848691,
+            4.848691,
+            4.848691
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00024",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.283854088588671,
+            0.8225809980997352,
+            0.3559377267139727
+          ],
+          "worstTimes": [
+            8.050075,
+            8.769105,
+            8.769105
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28712970649184577,
+            0.826163457038403,
+            0.35684641660624083
+          ],
+          "worstTimes": [
+            8.050075,
+            8.769105,
+            8.769105
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00026",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.29673305305344716,
+            0.586638674719142,
+            0.3015327208141983
+          ],
+          "worstTimes": [
+            9.167721,
+            9.167721,
+            9.167721
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.3174656261550202,
+            0.5863649362249288,
+            0.30147696961191434
+          ],
+          "worstTimes": [
+            9.167721,
+            9.167721,
+            9.167721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00031",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838544579397948,
+            0.6568358085986358,
+            0.31645854887360986
+          ],
+          "worstTimes": [
+            10.053921,
+            10.353721,
+            10.353721
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28624823241625885,
+            0.6596089415676294,
+            0.3170726594712206
+          ],
+          "worstTimes": [
+            10.053921,
+            10.353721,
+            10.353721
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00056",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5186351175085608,
+            1.1146406034988154,
+            0.43561936320990347
+          ],
+          "worstTimes": [
+            16.204901,
+            16.204901,
+            16.204901
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5126998004470968,
+            1.1204487093401063,
+            0.43729783136206934
+          ],
+          "worstTimes": [
+            16.204901,
+            16.204901,
+            16.204901
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00084",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385444977181074,
+            0.8225810180434748,
+            0.35593775082960133
+          ],
+          "worstTimes": [
+            21.63349467,
+            21.778074,
+            21.778074
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28717453541492577,
+            0.8262110847258037,
+            0.35685853035100096
+          ],
+          "worstTimes": [
+            21.63349467,
+            21.778074,
+            21.778074
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00137",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838545368087594,
+            0.6568358265845704,
+            0.31645855043325033
+          ],
+          "worstTimes": [
+            32.698411,
+            33.009657,
+            33.009657
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2862504229559933,
+            0.6596089596500998,
+            0.317072661017888
+          ],
+          "worstTimes": [
+            32.698411,
+            33.009657,
+            33.009657
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00184",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5961270163695891,
+            0.5199050167993774,
+            0.28855992790010315
+          ],
+          "worstTimes": [
+            43.016763,
+            42.858264,
+            42.858264
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6042274873233726,
+            0.5239516496756541,
+            0.28930971187041893
+          ],
+          "worstTimes": [
+            43.016763,
+            42.858264,
+            42.858264
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00190",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385445029010503,
+            0.6568358089111509,
+            0.31645854442220944
+          ],
+          "worstTimes": [
+            43.929993,
+            44.241239,
+            44.241239
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28625033658724713,
+            0.6596089418727427,
+            0.3170726549907266
+          ],
+          "worstTimes": [
+            43.929993,
+            44.241239,
+            44.241239
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00202",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838542794623522,
+            0.8225810059112374,
+            0.35593774186235716
+          ],
+          "worstTimes": [
+            46.996342,
+            47.094979,
+            47.094979
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871734528378914,
+            0.8262110723845882,
+            0.35685852133586005
+          ],
+          "worstTimes": [
+            46.996342,
+            47.094979,
+            47.094979
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00204",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838544552426002,
+            0.656835809077048,
+            0.31645854905126125
+          ],
+          "worstTimes": [
+            47.145179,
+            47.443817,
+            47.443817
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2862511459795154,
+            0.6596089420482917,
+            0.31707265964547027
+          ],
+          "worstTimes": [
+            47.145179,
+            47.443817,
+            47.443817
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00230",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838545376464024,
+            0.6568358264555227,
+            0.31645855525777106
+          ],
+          "worstTimes": [
+            52.60457474,
+            52.644298,
+            52.644298
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28625127858812754,
+            0.6596089595382026,
+            0.3170726658763764
+          ],
+          "worstTimes": [
+            52.60457474,
+            52.644298,
+            52.644298
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00237",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.675881934385174,
+            0.7620363295539264,
+            0.3409085456842975
+          ],
+          "worstTimes": [
+            54.039647,
+            53.92434233,
+            53.741009
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.675954537151401,
+            0.7691060409396261,
+            0.34263000998195114
+          ],
+          "worstTimes": [
+            54.039647,
+            53.92434233,
+            54.039647
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00239",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.7155688552627892,
+            0.18095954162983588,
+            0.261615040105008
+          ],
+          "worstTimes": [
+            54.242779,
+            54.242779,
+            54.242779
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7427297667178504,
+            0.1570130081082192,
+            0.25879179001851915
+          ],
+          "worstTimes": [
+            54.242779,
+            54.242779,
+            54.242779
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00244",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.283854271591508,
+            0.8225810064109532,
+            0.35593773943607643
+          ],
+          "worstTimes": [
+            55.336575,
+            55.472821,
+            55.472821
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871743572590968,
+            0.8262110728748413,
+            0.35685851886578573
+          ],
+          "worstTimes": [
+            55.336575,
+            55.472821,
+            55.472821
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00298",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385426703420186,
+            0.8225810071248154,
+            0.3559377381659734
+          ],
+          "worstTimes": [
+            66.41405,
+            66.595993,
+            66.595993
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871739981071835,
+            0.8262110735882238,
+            0.3568585175693649
+          ],
+          "worstTimes": [
+            66.41405,
+            66.595993,
+            66.595993
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00310",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.8032377445184371,
+            1.1553806656548735,
+            0.44745384323861026
+          ],
+          "worstTimes": [
+            68.982496,
+            68.982496,
+            68.982496
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1100431414829957,
+            1.15538061585724,
+            0.44745381581071464
+          ],
+          "worstTimes": [
+            68.98239004,
+            68.982496,
+            68.982496
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00317",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.8032377394701627,
+            1.1553806667709292,
+            0.4474538418820522
+          ],
+          "worstTimes": [
+            70.361807,
+            70.361807,
+            70.361807
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1100431399583899,
+            1.1553806157966253,
+            0.4474538121091565
+          ],
+          "worstTimes": [
+            70.36170104,
+            70.361807,
+            70.361807
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00333",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5249476782296775,
+            1.0539649847944248,
+            0.41826993342062874
+          ],
+          "worstTimes": [
+            73.46931533,
+            73.42764867,
+            73.235982
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5215969812994318,
+            1.0595945632678558,
+            0.4198648353162972
+          ],
+          "worstTimes": [
+            73.46931533,
+            73.42764867,
+            73.235982
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00337",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.632945156450041,
+            0.4893714561573239,
+            0.2830696052994959
+          ],
+          "worstTimes": [
+            74.16413333,
+            74.16413333,
+            73.9308
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6678185924813139,
+            0.49119245836590675,
+            0.283388995081788
+          ],
+          "worstTimes": [
+            74.16413333,
+            74.13913333,
+            73.9308
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00341",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838545379740161,
+            0.6568358264900287,
+            0.31645855547837143
+          ],
+          "worstTimes": [
+            74.86235974,
+            74.902083,
+            74.902083
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2862515303061738,
+            0.6596089595735849,
+            0.31707266609817336
+          ],
+          "worstTimes": [
+            74.86235974,
+            74.902083,
+            74.902083
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00348",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385453529905164,
+            0.6568358265750373,
+            0.3164585513051958
+          ],
+          "worstTimes": [
+            75.986766,
+            76.281394,
+            76.281394
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2862514774230783,
+            0.6596089596439696,
+            0.3170726618958185
+          ],
+          "worstTimes": [
+            75.986766,
+            76.281394,
+            76.281394
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00356",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6758818994317916,
+            0.7620363288206926,
+            0.3409085480678565
+          ],
+          "worstTimes": [
+            77.540707,
+            77.590707,
+            77.390707
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6759545033292278,
+            0.7691060401591553,
+            0.3426300040091517
+          ],
+          "worstTimes": [
+            77.540707,
+            77.590707,
+            77.55737367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00358",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.689886992357814,
+            0.03497139464812984,
+            0.24830797949751815
+          ],
+          "worstTimes": [
+            77.81451667,
+            77.74841428,
+            78.411935
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245322321771301,
+            0.019915546844139893,
+            0.24749262358240404
+          ],
+          "worstTimes": [
+            77.80618333,
+            77.78118333,
+            78.411935
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00383",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5186351274135288,
+            1.1146406034402667,
+            0.4356193632693482
+          ],
+          "worstTimes": [
+            83.247873,
+            83.247873,
+            83.247873
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5126918354114259,
+            1.120472512993497,
+            0.43730471648190894
+          ],
+          "worstTimes": [
+            83.247873,
+            83.247873,
+            83.247873
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00395",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.632945147663485,
+            0.48937145551208305,
+            0.28306960497767597
+          ],
+          "worstTimes": [
+            85.045466,
+            85.1996421,
+            84.970466
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6678185875568977,
+            0.4911924578070114,
+            0.28338899439803394
+          ],
+          "worstTimes": [
+            85.02879933,
+            85.1996421,
+            84.970466
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00439",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5144926807773844,
+            0.7753187325019164,
+            0.34415068123955417
+          ],
+          "worstTimes": [
+            92.75090183,
+            92.81205633,
+            92.81205633
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.511803641067017,
+            0.7823170238844327,
+            0.3458717268714993
+          ],
+          "worstTimes": [
+            92.75090183,
+            92.81205633,
+            92.81205633
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00441",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.21257871422315475,
+            0.8495863006935053,
+            0.36283778981992537
+          ],
+          "worstTimes": [
+            93.169632,
+            92.894632,
+            93.199341
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.18597823621531823,
+            0.8546802970868667,
+            0.3641520506538295
+          ],
+          "worstTimes": [
+            93.165541,
+            92.894632,
+            93.199341
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00449",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.8116581595784058,
+            0.8334303127840506,
+            0.3586988794745685
+          ],
+          "worstTimes": [
+            94.268777,
+            94.546655,
+            94.546655
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.896075526373508,
+            0.8334302327769461,
+            0.35869884689750625
+          ],
+          "worstTimes": [
+            94.268777,
+            94.546655,
+            94.546655
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00462",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.4144154716039537,
+            0.7376560870523435,
+            0.3350458119507428
+          ],
+          "worstTimes": [
+            96.295079,
+            96.295079,
+            96.295079
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.4119507894559308,
+            0.7395960896309555,
+            0.33550841041663226
+          ],
+          "worstTimes": [
+            96.295079,
+            96.295079,
+            96.295079
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00467",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.41441546451557015,
+            0.7376560878853825,
+            0.33504581108456605
+          ],
+          "worstTimes": [
+            97.44213933,
+            97.483806,
+            97.44213933
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.4119507823587231,
+            0.7395960904809914,
+            0.3355084095438988
+          ],
+          "worstTimes": [
+            97.44213933,
+            97.483806,
+            97.44213933
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00474",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6898869967999485,
+            0.03497139289250391,
+            0.2483079800911533
+          ],
+          "worstTimes": [
+            98.725943,
+            98.750943,
+            98.984184
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245322383784755,
+            0.019915544473645783,
+            0.24749262412309556
+          ],
+          "worstTimes": [
+            98.74260967,
+            98.71760967,
+            98.984184
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00478",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6758818982705126,
+            0.7620363283739885,
+            0.34090854835976586
+          ],
+          "worstTimes": [
+            99.38037205,
+            99.58199167,
+            99.668066
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6759545016301197,
+            0.769106039685263,
+            0.3426300036909167
+          ],
+          "worstTimes": [
+            99.38037205,
+            99.58199167,
+            99.440325
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00479",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6898869896738128,
+            0.03497139548630829,
+            0.2483079792932774
+          ],
+          "worstTimes": [
+            99.72659933,
+            99.72659933,
+            100.018266
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245322301961878,
+            0.019915547940291236,
+            0.2474926229443772
+          ],
+          "worstTimes": [
+            100.243266,
+            99.72659933,
+            100.399949
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00484",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.7679555781801487,
+            0.1713657735390204,
+            0.24683839398365826
+          ],
+          "worstTimes": [
+            100.75935435,
+            100.61651938,
+            100.63340367
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.9379859440138746,
+            0.3346591428018545,
+            0.26020871202709356
+          ],
+          "worstTimes": [
+            100.75925435,
+            100.61651938,
+            100.73340367
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00490",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5372619332623104,
+            1.1510313048915137,
+            0.4461858567229075
+          ],
+          "worstTimes": [
+            101.495972,
+            101.6633265,
+            101.65430533
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5044686065050902,
+            1.161469233738468,
+            0.44923644861626827
+          ],
+          "worstTimes": [
+            101.495972,
+            101.6633265,
+            101.65430533
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00493",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5372619377489655,
+            1.1510313040774371,
+            0.4461858562465483
+          ],
+          "worstTimes": [
+            102.01321433,
+            101.854881,
+            101.854881
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5044686113218676,
+            1.1614692328951342,
+            0.44923644817378744
+          ],
+          "worstTimes": [
+            102.01321433,
+            101.854881,
+            101.854881
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00511",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5249476797500406,
+            1.053964985169248,
+            0.4182699332589298
+          ],
+          "worstTimes": [
+            105.07606867,
+            105.06773533,
+            104.884402
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5215969824385306,
+            1.0595945636488966,
+            0.4198648351415821
+          ],
+          "worstTimes": [
+            105.07606867,
+            105.06773533,
+            104.884402
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00514",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.4193059494912786,
+            0.9134874176074707,
+            0.37959828752814734
+          ],
+          "worstTimes": [
+            105.65022567,
+            105.871438,
+            105.871438
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6597923991174638,
+            0.9231754565903734,
+            0.38218883376260526
+          ],
+          "worstTimes": [
+            105.78507638,
+            105.871438,
+            105.871438
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00523",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6329451511348526,
+            0.48937145634009055,
+            0.2830696049149314
+          ],
+          "worstTimes": [
+            107.11642744,
+            107.11642744,
+            106.919874
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6742863290745946,
+            0.5051771360400636,
+            0.28587712519784764
+          ],
+          "worstTimes": [
+            106.969874,
+            107.11642744,
+            106.919874
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00534",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.514492588208093,
+            0.7753187408511065,
+            0.34415067439390595
+          ],
+          "worstTimes": [
+            109.09399567,
+            109.21066233,
+            109.21066233
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5118035476469043,
+            0.7823170324563272,
+            0.345871719790312
+          ],
+          "worstTimes": [
+            109.09399567,
+            109.21066233,
+            109.21066233
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00536",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.21257858524863602,
+            0.8495863084504633,
+            0.3628377977429445
+          ],
+          "worstTimes": [
+            109.57657133,
+            109.37657133,
+            109.293238
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.18597810409701776,
+            0.8546803052410403,
+            0.3641520583503257
+          ],
+          "worstTimes": [
+            109.568238,
+            109.37657133,
+            109.293238
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00542",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385453219692397,
+            0.6568358266951948,
+            0.3164585487729605
+          ],
+          "worstTimes": [
+            110.41566425,
+            110.64277,
+            110.64277
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28625097155381696,
+            0.6596089597537125,
+            0.31707265934283185
+          ],
+          "worstTimes": [
+            110.41566425,
+            110.64277,
+            110.64277
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00551",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385408907030096,
+            0.8225809989757047,
+            0.3559377263494328
+          ],
+          "worstTimes": [
+            113.555237,
+            114.236745,
+            114.236745
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28714058612612303,
+            0.8261753597815756,
+            0.3568494385889226
+          ],
+          "worstTimes": [
+            113.555237,
+            114.236745,
+            114.236745
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00559",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838544564664706,
+            0.8225810150763894,
+            0.35593775401249045
+          ],
+          "worstTimes": [
+            117.06584737,
+            117.141534,
+            117.141534
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28714332108550567,
+            0.8261872780509744,
+            0.3568524887946322
+          ],
+          "worstTimes": [
+            117.06584737,
+            117.141534,
+            117.141534
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00565",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6329451476427685,
+            0.48937145454948117,
+            0.2830696066212448
+          ],
+          "worstTimes": [
+            118.93123554,
+            118.93133554,
+            118.88959167
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.66700499756015,
+            0.4893714729163342,
+            0.2830695974067801
+          ],
+          "worstTimes": [
+            118.93123554,
+            118.672925,
+            118.93133554
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00579",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838542733195223,
+            0.8225810061158222,
+            0.3559377401628998
+          ],
+          "worstTimes": [
+            122.97574837,
+            123.051435,
+            123.051435
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871329178929154,
+            0.8261753670080307,
+            0.3568494524131279
+          ],
+          "worstTimes": [
+            122.97574837,
+            123.051435,
+            123.051435
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00598",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385409798870637,
+            0.8225809981438611,
+            0.3559377299116223
+          ],
+          "worstTimes": [
+            128.827042,
+            128.924734,
+            128.924734
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871429117510335,
+            0.82617535895422,
+            0.3568494422060862
+          ],
+          "worstTimes": [
+            128.827042,
+            128.924734,
+            128.924734
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00668",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838545337910189,
+            0.6568358270448044,
+            0.3164585498851701
+          ],
+          "worstTimes": [
+            145.302631,
+            145.622801,
+            145.622801
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.28624996756479476,
+            0.6596089601107556,
+            0.31707266046497434
+          ],
+          "worstTimes": [
+            145.302631,
+            145.622801,
+            145.622801
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00677",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2388380172598714,
+            0.8931776281865828,
+            0.37421124606994594
+          ],
+          "worstTimes": [
+            148.278561,
+            148.478561,
+            148.478561
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7633185520254425,
+            0.8829181319950357,
+            0.37151032778673
+          ],
+          "worstTimes": [
+            148.278561,
+            148.278561,
+            148.46189433
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00678",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.2838544521747364,
+            0.8225810173040903,
+            0.3559377520551489
+          ],
+          "worstTimes": [
+            148.68908067,
+            149.303922,
+            149.303922
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2871409493806067,
+            0.8261753784391529,
+            0.3568494644273716
+          ],
+          "worstTimes": [
+            148.68908067,
+            149.303922,
+            149.303922
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00689",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.26657842704732804,
+            0.8662556215632733,
+            0.3671558512942122
+          ],
+          "worstTimes": [
+            152.546164,
+            152.08783067,
+            152.12949733
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.25291928647489154,
+            0.871623357572973,
+            0.36855421085389856
+          ],
+          "worstTimes": [
+            152.546164,
+            152.08783067,
+            152.13783067
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00696",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.7935578582689544,
+            0.6772832176136193,
+            0.3210276173663095
+          ],
+          "worstTimes": [
+            154.11232,
+            154.410957,
+            154.410957
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.8422237163334784,
+            0.674034017601951,
+            0.3202952888949388
+          ],
+          "worstTimes": [
+            154.11232,
+            154.410957,
+            154.410957
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00750",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.4081115914067827,
+            0.7787531897987421,
+            0.3449971661353747
+          ],
+          "worstTimes": [
+            164.461135,
+            164.461135,
+            164.461135
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.4064638588368362,
+            0.7812287757034718,
+            0.3456064832202913
+          ],
+          "worstTimes": [
+            164.461135,
+            164.461135,
+            164.461135
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00823",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6898869624402467,
+            0.03497139768319623,
+            0.24830797894374282
+          ],
+          "worstTimes": [
+            175.268152,
+            175.506785,
+            175.193152
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.724532206637339,
+            0.019915551559082048,
+            0.24749261986061805
+          ],
+          "worstTimes": [
+            175.268152,
+            175.506785,
+            175.193152
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00829",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6447136996060375,
+            1.1234361359015326,
+            0.4381622313339755
+          ],
+          "worstTimes": [
+            176.0228855,
+            176.10021875,
+            176.10021875
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.0016053408429475,
+            1.1234360839949855,
+            0.4381624826718737
+          ],
+          "worstTimes": [
+            176.0228855,
+            176.10021875,
+            176.10021875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00840",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.689886997005791,
+            0.034971393844849014,
+            0.24830797904450227
+          ],
+          "worstTimes": [
+            177.934819,
+            177.95148567,
+            178.184946
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245322378507888,
+            0.019915545643138636,
+            0.24749262300862998
+          ],
+          "worstTimes": [
+            177.95148567,
+            177.884819,
+            178.18472067
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00845",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6758818618137905,
+            0.762036328761786,
+            0.3409085504341498
+          ],
+          "worstTimes": [
+            178.69130733,
+            178.72464067,
+            178.852602
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6759544662996837,
+            0.7691060400269163,
+            0.3426299986739152
+          ],
+          "worstTimes": [
+            178.69130733,
+            178.72464067,
+            178.69964067
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00847",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6898869777389173,
+            0.03497139876273726,
+            0.2483079770047214
+          ],
+          "worstTimes": [
+            178.952802,
+            178.977802,
+            179.568257
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245322151354642,
+            0.01991555256244707,
+            0.2474926209734106
+          ],
+          "worstTimes": [
+            179.427802,
+            179.03613533,
+            179.568257
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00852",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5074066630121886,
+            0.858340910246391,
+            0.36510175585693067
+          ],
+          "worstTimes": [
+            179.943084,
+            179.943084,
+            179.943084
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.588053244833625,
+            0.8583408612590814,
+            0.3651017323500084
+          ],
+          "worstTimes": [
+            179.943084,
+            179.943084,
+            179.943084
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00870",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.7296361655662748,
+            0.892106444722066,
+            0.37392847851727895
+          ],
+          "worstTimes": [
+            182.48227267,
+            182.315606,
+            182.48227267
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.729547234962778,
+            0.9000925890247509,
+            0.3760399137561617
+          ],
+          "worstTimes": [
+            182.490606,
+            182.315606,
+            182.48227267
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00906",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.3186198564180046,
+            0.5791233680256022,
+            0.30001306104729036
+          ],
+          "worstTimes": [
+            187.45296867,
+            187.44463533,
+            187.4408685
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.6907710414706388,
+            0.8530325953819106,
+            0.3637293232844762
+          ],
+          "worstTimes": [
+            187.286302,
+            187.595435,
+            187.286302
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00933",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.47744208307245856,
+            0.14095651583182106,
+            0.24617673720500569
+          ],
+          "worstTimes": [
+            191.615066,
+            191.53592267,
+            191.615066
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.8380229133084464,
+            0.14095643395984517,
+            0.24617673329958348
+          ],
+          "worstTimes": [
+            191.594256,
+            191.369256,
+            191.615066
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00958",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5633901444540061,
+            0.5200716182114798,
+            0.2885906972085042
+          ],
+          "worstTimes": [
+            195.558643,
+            195.50443325,
+            195.51684303
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.5715079020936222,
+            0.5239754286387501,
+            0.28931413106812187
+          ],
+          "worstTimes": [
+            195.558643,
+            195.50443325,
+            195.51684303
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00969",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            1.0651914082639293,
+            0.836334173147673,
+            0.3594405154395097
+          ],
+          "worstTimes": [
+            197.015619,
+            197.265619,
+            197.015619
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1501052412128605,
+            1.0084113527867107,
+            0.405486325181221
+          ],
+          "worstTimes": [
+            197.015619,
+            197.22395233,
+            197.24076875
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00976",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            1.0651914048702147,
+            0.8363341757665714,
+            0.3594405118219438
+          ],
+          "worstTimes": [
+            198.348952,
+            198.598952,
+            198.348952
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1501052320439775,
+            1.0084113541398274,
+            0.4054863258378192
+          ],
+          "worstTimes": [
+            198.35728533,
+            198.58228533,
+            198.56561867
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p00984",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            1.0651914002842247,
+            0.8363341762231584,
+            0.35944050900899577
+          ],
+          "worstTimes": [
+            199.69378,
+            199.94377862,
+            199.69378
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            1.1501052271863914,
+            1.0084113534874375,
+            0.40548632635126847
+          ],
+          "worstTimes": [
+            199.70211333,
+            199.93544667,
+            199.91878
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p01027",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.5081933455570732,
+            0.7808240977958945,
+            0.34550682146598694
+          ],
+          "worstTimes": [
+            210.516545,
+            210.858345,
+            210.858345
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.51120444723554,
+            0.7840137948548326,
+            0.34629327431377144
+          ],
+          "worstTimes": [
+            210.516545,
+            210.858345,
+            210.858345
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p01032",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.28385445064930553,
+            0.6568358090634194,
+            0.316458545735942
+          ],
+          "worstTimes": [
+            212.038376,
+            212.767397,
+            212.767397
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.2862262589941128,
+            0.6595851383112922,
+            0.31706737745935526
+          ],
+          "worstTimes": [
+            212.038376,
+            212.767397,
+            212.767397
+          ]
+        }
+      ]
+    },
+    {
+      "id": "p01064",
+      "samples": [
+        {
+          "label": "baseline",
+          "peakLocalRotationFromRestRad": [
+            0.6898867227674292,
+            0.03497141032955102,
+            0.24830799169599532
+          ],
+          "worstTimes": [
+            228.911462,
+            226.39855067,
+            224.556884
+          ]
+        },
+        {
+          "label": "candidate",
+          "peakLocalRotationFromRestRad": [
+            0.7245319598567476,
+            0.019915574305124546,
+            0.2474926185276027
+          ],
+          "worstTimes": [
+            228.911462,
+            226.44021733,
+            224.556884
+          ]
+        }
+      ]
+    }
+  ]
+}

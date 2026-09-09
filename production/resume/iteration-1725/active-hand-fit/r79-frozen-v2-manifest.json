@@ -1,0 +1,3530 @@
+{
+  "format": "daybreak-score-delta-v1",
+  "noteCount": 1068,
+  "musicContractSha256": "6076c3826e3e78be022cba768cf070f12b268685add276d7eb4825881b3f963a",
+  "basePath": "r79-base.json",
+  "baselineSha256": "0fadbdd57050d0f7b217d70152ff7bf088771a78ff0685591f367b09a4be1573",
+  "candidatePath": "r79-frozen-v2.json",
+  "candidateSha256": "09cfc46aceac1527e9f0b4f27bb8fa5110373bb7c889aae740c7258b9a4cbf90",
+  "operations": [
+    {
+      "kind": "note",
+      "id": "p00075",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 2,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00075",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00075",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.244
+    },
+    {
+      "kind": "note",
+      "id": "p00075",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00077",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00077",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.0015
+    },
+    {
+      "kind": "note",
+      "id": "p00077",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23
+    },
+    {
+      "kind": "note",
+      "id": "p00077",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00079",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00079",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00079",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.244
+    },
+    {
+      "kind": "note",
+      "id": "p00079",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00081",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.011
+    },
+    {
+      "kind": "note",
+      "id": "p00081",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00081",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00083",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00083",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00083",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.244
+    },
+    {
+      "kind": "note",
+      "id": "p00083",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00085",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00085",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00085",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.269
+    },
+    {
+      "kind": "note",
+      "id": "p00085",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00087",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.01
+    },
+    {
+      "kind": "note",
+      "id": "p00087",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00087",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00088",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00088",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00088",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00090",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00090",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00090",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00090",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00091",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00091",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00091",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00091",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00093",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00093",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00093",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00095",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00095",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00095",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2228
+    },
+    {
+      "kind": "note",
+      "id": "p00095",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00097",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00097",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.244
+    },
+    {
+      "kind": "note",
+      "id": "p00097",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00100",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00100",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00100",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00100",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00102",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00102",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23199999999999998
+    },
+    {
+      "kind": "note",
+      "id": "p00102",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00104",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 5,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00104",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002435,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00104",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00104",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00107",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00107",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00107",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00107",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00110",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00110",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00110",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00110",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00112",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.01
+    },
+    {
+      "kind": "note",
+      "id": "p00112",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00112",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00114",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00114",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00114",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.24
+    },
+    {
+      "kind": "note",
+      "id": "p00114",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00117",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00117",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00117",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00117",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00119",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00119",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00119",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00119",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00121",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002435,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00121",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.273
+    },
+    {
+      "kind": "note",
+      "id": "p00121",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00124",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00124",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00124",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00124",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00126",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00126",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00126",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00126",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00128",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00128",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00128",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00131",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00131",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00131",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00131",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00133",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002435,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00133",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.273
+    },
+    {
+      "kind": "note",
+      "id": "p00133",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00135",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00135",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003361,
+      "afterExists": true,
+      "after": 0.0033
+    },
+    {
+      "kind": "note",
+      "id": "p00135",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.203
+    },
+    {
+      "kind": "note",
+      "id": "p00135",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00139",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00139",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00139",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00139",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00140",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00140",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00140",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00280",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00280",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00280",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00280",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00281",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00281",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00281",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.273
+    },
+    {
+      "kind": "note",
+      "id": "p00281",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00283",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00283",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00283",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00283",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00285",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 2
+    },
+    {
+      "kind": "note",
+      "id": "p00285",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00285",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00285",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00288",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00288",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00288",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00288",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00291",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00291",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00291",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.273
+    },
+    {
+      "kind": "note",
+      "id": "p00291",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00625",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00625",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00625",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.269
+    },
+    {
+      "kind": "note",
+      "id": "p00625",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00628",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002382,
+      "afterExists": true,
+      "after": 0.0033
+    },
+    {
+      "kind": "note",
+      "id": "p00628",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.195
+    },
+    {
+      "kind": "note",
+      "id": "p00628",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00630",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00630",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00630",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00630",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00632",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.011
+    },
+    {
+      "kind": "note",
+      "id": "p00632",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00632",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00635",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00635",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00635",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00635",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00637",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002382,
+      "afterExists": true,
+      "after": 0.0033
+    },
+    {
+      "kind": "note",
+      "id": "p00637",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.195
+    },
+    {
+      "kind": "note",
+      "id": "p00637",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00639",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00639",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00639",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.269
+    },
+    {
+      "kind": "note",
+      "id": "p00639",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00643",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00643",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00643",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00643",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00645",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00645",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.236
+    },
+    {
+      "kind": "note",
+      "id": "p00645",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00648",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.011
+    },
+    {
+      "kind": "note",
+      "id": "p00648",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00648",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002435,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.267
+    },
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.0015
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003514,
+      "afterExists": true,
+      "after": 0.006
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.211
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.21599999999999997
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23199999999999998
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003361,
+      "afterExists": true,
+      "after": 0.004
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.218
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 36,
+      "time": 20.059162,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 36,
+      "time": 20.059162,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 37,
+      "time": 20.417,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 37,
+      "time": 20.417,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 38,
+      "time": 20.756837,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 38,
+      "time": 20.756837,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 39,
+      "time": 21.127283,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 39,
+      "time": 21.127283,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 40,
+      "time": 21.479728,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 40,
+      "time": 21.479728,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 41,
+      "time": 21.859174,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.15358000000000002,
+        0.748,
+        0.3841
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 41,
+      "time": 21.859174,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.015280512267746307,
+        -0.7176305714173209,
+        0.6944566787371746,
+        0.050027894912913685
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 42,
+      "time": 22.21162,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 42,
+      "time": 22.21162,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 43,
+      "time": 22.582066,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 43,
+      "time": 22.582066,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 44,
+      "time": 23.295957,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 44,
+      "time": 23.295957,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 45,
+      "time": 23.648403,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 45,
+      "time": 23.648403,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 46,
+      "time": 24.00624,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 46,
+      "time": 24.00624,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 47,
+      "time": 24.346078,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.21169000000000004,
+        0.77657,
+        0.37955
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 47,
+      "time": 24.346078,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        0.0004044041522770492,
+        -0.6979696788147256,
+        0.6910866498664354,
+        0.18771629201786794
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 48,
+      "time": 25.043752,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.21169000000000004,
+        0.77657,
+        0.37955
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 48,
+      "time": 25.043752,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        0.0004044041522770492,
+        -0.6979696788147256,
+        0.6910866498664354,
+        0.18771629201786794
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 49,
+      "time": 25.401589,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.18350000000000005,
+        0.74758,
+        0.39699999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.21169000000000004,
+        0.77657,
+        0.37955
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 49,
+      "time": 25.401589,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021529919143666566,
+        -0.7184946601601238,
+        0.6942910306776973,
+        0.03552253684010148
+      ],
+      "afterExists": true,
+      "after": [
+        0.0004044041522770492,
+        -0.6979696788147256,
+        0.6910866498664354,
+        0.18771629201786794
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 50,
+      "time": 25.741426,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 50,
+      "time": 25.741426,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 51,
+      "time": 26.439101,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 51,
+      "time": 26.439101,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 52,
+      "time": 27.128756,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 52,
+      "time": 27.128756,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 53,
+      "time": 27.482584,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 53,
+      "time": 27.482584,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 54,
+      "time": 27.818411,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 54,
+      "time": 27.818411,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 55,
+      "time": 28.508066,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.14797000000000007,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 55,
+      "time": 28.508066,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 56,
+      "time": 28.861894,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 56,
+      "time": 28.861894,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 57,
+      "time": 29.197722,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 57,
+      "time": 29.197722,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 58,
+      "time": 29.895396,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 58,
+      "time": 29.895396,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 59,
+      "time": 30.253233,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 59,
+      "time": 30.253233,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 60,
+      "time": 30.59307,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 60,
+      "time": 30.59307,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 61,
+      "time": 31.290745,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 61,
+      "time": 31.290745,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 62,
+      "time": 31.648582,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 62,
+      "time": 31.648582,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 63,
+      "time": 31.988419,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 63,
+      "time": 31.988419,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 64,
+      "time": 33.081757,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 64,
+      "time": 33.081757,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 65,
+      "time": 33.434202,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.16561000000000003,
+        0.7454799999999999,
+        0.38515
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 65,
+      "time": 33.434202,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021165623987475273,
+        -0.715142678883001,
+        0.6983216592436015,
+        0.021675456916270736
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 127,
+      "time": 62.829043,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.17205000000000004,
+        0.7492599999999999,
+        0.382
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 127,
+      "time": 62.829043,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021724633478914717,
+        -0.7470313890052661,
+        0.6641250647020773,
+        0.020249508031829476
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 128,
+      "time": 63.182871,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.17205000000000004,
+        0.7492599999999999,
+        0.382
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 128,
+      "time": 63.182871,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021724633478914717,
+        -0.7470313890052661,
+        0.6641250647020773,
+        0.020249508031829476
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 129,
+      "time": 63.518699,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.17205000000000004,
+        0.7492599999999999,
+        0.382
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 129,
+      "time": 63.518699,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021724633478914717,
+        -0.7470313890052661,
+        0.6641250647020773,
+        0.020249508031829476
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 130,
+      "time": 64.208354,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.17205000000000004,
+        0.7492599999999999,
+        0.382
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 130,
+      "time": 64.208354,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021724633478914717,
+        -0.7470313890052661,
+        0.6641250647020773,
+        0.020249508031829476
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 131,
+      "time": 64.898009,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.17205000000000004,
+        0.7492599999999999,
+        0.382
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 131,
+      "time": 64.898009,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021724633478914717,
+        -0.7470313890052661,
+        0.6641250647020773,
+        0.020249508031829476
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 280,
+      "time": 136.036975,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 280,
+      "time": 136.036975,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 281,
+      "time": 136.751261,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 281,
+      "time": 136.751261,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 282,
+      "time": 137.117404,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 282,
+      "time": 137.117404,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 283,
+      "time": 137.465547,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 283,
+      "time": 137.465547,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 284,
+      "time": 138.179832,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 284,
+      "time": 138.179832,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 285,
+      "time": 138.545975,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 285,
+      "time": 138.545975,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 286,
+      "time": 138.894118,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 286,
+      "time": 138.894118,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 287,
+      "time": 139.961942,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 287,
+      "time": 139.961942,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 288,
+      "time": 140.305883,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 288,
+      "time": 140.305883,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 289,
+      "time": 141.011765,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.161645,
+        0.76762,
+        0.379
+      ],
+      "afterExists": true,
+      "after": [
+        0.14669000000000004,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 289,
+      "time": 141.011765,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.019863560263548807,
+        -0.7190780564888006,
+        0.6943407028768286,
+        0.020571241539032517
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 396,
+      "time": 188.286202,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 396,
+      "time": 188.286202,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.22746000000000008,
+        0.772,
+        0.33399999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.19476000000000004,
+        0.7722,
+        0.33604999999999996
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021567599404814137,
+        -0.7134448978119486,
+        0.7000252925637258,
+        0.0222667063815431
+      ],
+      "afterExists": true,
+      "after": [
+        -0.11541054458508249,
+        -0.7140251956478505,
+        0.6833946406407795,
+        0.09909687846791135
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "moveStart",
+      "beforeExists": true,
+      "before": 189.15341092753056,
+      "afterExists": true,
+      "after": 189.227724
+    }
+  ],
+  "physicalReleaseChanges": [],
+  "runtimeRequirements": {
+    "sampler": "wrist-motion-arc.ts",
+    "samplerSha256": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "rig": "accepted arms + compact5 or held-pose equivalent"
+  }
+}

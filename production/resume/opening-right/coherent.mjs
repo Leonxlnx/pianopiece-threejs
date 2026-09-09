@@ -1,0 +1,5 @@
+import fs from 'node:fs';import {baseline,install} from './harness.mjs';import {sample,summarize,times} from './metric.mjs';
+const ownership=JSON.parse(fs.readFileSync('reservation.json')),candidate=JSON.parse(fs.readFileSync('seed-score.json')),map={p00020:3,p00022:2,p00023:1,p00025:3,p00027:4},lifts={1:.009773,2:.003008,3:.003271,4:.002391};
+for(const[id,finger]of Object.entries(map)){const n=candidate.notes.find(n=>n.id===id);n.finger=finger;n.contactLift=lifts[finger];delete n.contactZ;delete n.thumbOpposition;}
+for(const i of ownership.knotIndices)candidate.wristMotion.hands[1].knots[i].position[0]+=.005;
+install(candidate);const grid=times(candidate,ownership.incomingStart,ownership.departureArrival,60),rows=grid.map(t=>sample(t));const held=ownership.notes.map(n=>{const rs=rows.filter(r=>r.active.some(a=>a.id===n.id));return {id:n.id,summary:summarize(rs)};});console.log(JSON.stringify({summary:summarize(rows),held},null,2));fs.writeFileSync('coherent-score.json',JSON.stringify(candidate));fs.writeFileSync('coherent-report.json',JSON.stringify({summary:summarize(rows),held,rows},null,2));

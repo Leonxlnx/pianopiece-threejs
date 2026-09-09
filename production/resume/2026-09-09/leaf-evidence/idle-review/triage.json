@@ -1,0 +1,78 @@
+{
+  "significantQueueEntries": 4,
+  "strictOnlyQueueEntries": 82,
+  "newCoreKeys": {
+    "LIndex:58": 4
+  },
+  "newNeighborPairs": {},
+  "strictExistingPairs": {
+    "LIndex:LMiddle": 607,
+    "LIndex:LRing": 21,
+    "RIndex:RMiddle": 357,
+    "RMiddle:RRing": 23,
+    "LMiddle:LRing": 11,
+    "RIndex:RRing": 9,
+    "RThumb:RPalm": 1
+  },
+  "newCoreKeyStatesOnActiveDigits": 0,
+  "newNeighborPairStatesInvolvingActiveDigits": 0,
+  "newOwnPalmStatesInvolvingActiveDigits": 0,
+  "significantRegions": [
+    {
+      "handStates": 3,
+      "events": {
+        "newCoreKey": 3,
+        "worsenedCoreKey": 3
+      },
+      "firstTime": 91.473999,
+      "lastTime": 91.474001,
+      "worstCore": {
+        "time": 91.474001,
+        "kind": "newCoreKey",
+        "target": "LIndex:58",
+        "before": 0,
+        "after": 3.8024741955927643
+      },
+      "worstPair": null,
+      "supports": [
+        {
+          "id": "curve-007",
+          "hand": "L",
+          "finger": 2,
+          "previous": "p00424",
+          "next": "p00434",
+          "begin": 91.46,
+          "end": 91.518
+        }
+      ]
+    },
+    {
+      "handStates": 1,
+      "events": {
+        "newCoreKey": 1,
+        "worsenedCoreKey": 1
+      },
+      "firstTime": 176.08333333333334,
+      "lastTime": 176.08333333333334,
+      "worstCore": {
+        "time": 176.08333333333334,
+        "kind": "newCoreKey",
+        "target": "LIndex:58",
+        "before": 2.888933807731864,
+        "after": 3.302625581124874
+      },
+      "worstPair": null,
+      "supports": [
+        {
+          "id": "index-059",
+          "hand": "L",
+          "finger": 2,
+          "previous": "p00800",
+          "next": "p00831",
+          "begin": 171.873523,
+          "end": 176.201552
+        }
+      ]
+    }
+  ]
+}

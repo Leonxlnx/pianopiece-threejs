@@ -1,0 +1,41 @@
+{
+  "baseline": {
+    "samples": 1550,
+    "tipMax": 2.6282781614286645,
+    "wristMax": 1.2956096704296852e-8,
+    "rate": 51.48648695858889,
+    "tipWorst": {
+      "time": 198.03600000000017,
+      "name": "RightRingContact",
+      "speed": 2.6282781614286645
+    },
+    "rateWorst": {
+      "time": 198.03200000000015,
+      "name": "RightHandRing1",
+      "rate": 51.48648695858889
+    },
+    "seek": 0
+  },
+  "candidate": {
+    "samples": 1550,
+    "tipMax": 6.0457458475942865,
+    "wristMax": 0.991621726835384,
+    "rate": 89.83598324372643,
+    "tipWorst": {
+      "time": 199.68200000000803,
+      "name": "RightThumbContact",
+      "speed": 6.0457458475942865
+    },
+    "rateWorst": {
+      "time": 199.68200000000803,
+      "name": "RightHandThumb1",
+      "rate": 89.83598324372643
+    },
+    "seek": 0
+  },
+  "provenance": {
+    "runtimePath": "/workspace/scratch/2e8cc8e77f98/active-hand-fit/chord-plane-proof/pianist-scoped-plane.mjs",
+    "runtimeSha256": "87137664bbb80ef7b4eae84e4f0959984b8bd3c4c94c054d8f8955967ef0d54d",
+    "scoreSha256": "7df2eb62546bfc57846d6743ba33300d94b891f979e5e33a18af6a3d54225811"
+  }
+}

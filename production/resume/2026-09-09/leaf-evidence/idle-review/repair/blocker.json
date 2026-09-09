@@ -1,0 +1,155 @@
+{
+  "status": "unresolved",
+  "record": {
+    "hi": 0,
+    "fi": 1,
+    "previous": "p00424",
+    "previousEnd": 90.407126,
+    "next": "p00434",
+    "nextTime": 91.530895,
+    "knots": [
+      [
+        91.46,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        91.474,
+        9.5,
+        -13,
+        0,
+        0
+      ],
+      [
+        91.482,
+        9.5,
+        -13,
+        0,
+        0
+      ],
+      [
+        91.518,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "id": "curve-007",
+    "kind": "curve",
+    "begin": 91.46,
+    "end": 91.518
+  },
+  "fullGapNewPerKeyStates": 5,
+  "fullGapWorsenedPerKeyStates": 6,
+  "witnesses": [
+    {
+      "time": 91.4625,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:56",
+      "before": 3.8956706218141735,
+      "after": 4.558349201767897
+    },
+    {
+      "time": 91.47083333333333,
+      "kind": "newCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 4.055514910441149
+    },
+    {
+      "time": 91.47083333333333,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 4.055514910441149
+    },
+    {
+      "time": 91.473999,
+      "kind": "newCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.802327664967353
+    },
+    {
+      "time": 91.473999,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.802327664967353
+    },
+    {
+      "time": 91.474,
+      "kind": "newCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.802393918533098
+    },
+    {
+      "time": 91.474,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.802393918533098
+    },
+    {
+      "time": 91.474001,
+      "kind": "newCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.8024741955927643
+    },
+    {
+      "time": 91.474001,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.8024741955927643
+    },
+    {
+      "time": 91.475,
+      "kind": "newCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.654768371597228
+    },
+    {
+      "time": 91.475,
+      "kind": "worsenedCoreKey",
+      "target": "LIndex:58",
+      "before": 0,
+      "after": 3.654768371597228
+    }
+  ],
+  "search": {
+    "completedTrials": 113,
+    "nonzeroTrials": 112,
+    "nonzeroClearTrials": 0,
+    "trialFiles": [
+      "search-results.json",
+      "search-second-results.json",
+      "search-third-results.json"
+    ],
+    "note": "Trials use finite local 480 Hz grids and original boundary probes. Only deletion was clear; this is not proof that no possible curve exists."
+  },
+  "localMotion": {
+    "base": {
+      "peakTipSpeedMps": 1.0396966451903125,
+      "time": 91.4625
+    },
+    "original": {
+      "peakTipSpeedMps": 1.9810639284716443,
+      "time": 91.47083333333333
+    },
+    "fixed": {
+      "peakTipSpeedMps": 1.9810639284716443,
+      "time": 91.47083333333333
+    }
+  },
+  "rollbackLoss": {
+    "additionalCorePositivePatchStates": 8,
+    "additionalCorePositiveKeyStates": 10
+  }
+}

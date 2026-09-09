@@ -1,0 +1,17 @@
+{
+  "sourceSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+  "epsilonSeconds": 0.000001,
+  "boundaries": 6352,
+  "boundaryEvaluations": 12704,
+  "determinismSamples": 374,
+  "maximumMm": 0.0025944850292085975,
+  "maximumRotationDegrees": 0.0005729323738333856,
+  "maxDeterminismPositionMm": 0,
+  "maxDeterminismRotationRad": 7.300048299977715e-8,
+  "worst": {
+    "time": 112.29543,
+    "bone": "LeftHand",
+    "distanceMm": 0.0025944850292085975
+  },
+  "passed": true
+}

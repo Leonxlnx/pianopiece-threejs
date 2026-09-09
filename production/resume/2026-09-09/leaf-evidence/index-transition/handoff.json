@@ -1,0 +1,346 @@
+{
+  "outsideExact": true,
+  "outsideSamples": 10,
+  "nativeParityExact": true,
+  "nativeParitySamples": 561,
+  "matchedSurfaceSamples": 561,
+  "allPairs": {
+    "baselineMax": 62,
+    "candidateMax": 43
+  },
+  "allCore": {
+    "baselineMax": 7.915447679189724,
+    "candidateMax": 6.225190226816557
+  },
+  "activeCore": {
+    "baselineMax": 2.686990317578186,
+    "candidateMax": 2.686990317578186
+  },
+  "palmCore": {
+    "baselineMax": 0,
+    "candidateMax": 0
+  },
+  "point": {
+    "baselineMax": 0.6046022546988612,
+    "candidateMax": 0.00016539318853740114
+  },
+  "pairSum": {
+    "baseline": 8561,
+    "candidate": 4763
+  },
+  "families": {
+    "baseline": [
+      "RIndex/RMiddle",
+      "RMiddle/RRing"
+    ],
+    "candidate": [
+      "RIndex/RMiddle"
+    ]
+  },
+  "peaks": {
+    "baseline": {
+      "joint0": {
+        "time": 107.15549999999999,
+        "kind": "joint",
+        "fi": 0,
+        "j": 1,
+        "value": 33.949893859476084
+      },
+      "joint1": {
+        "time": 106.9065,
+        "kind": "joint",
+        "fi": 1,
+        "j": 0,
+        "value": 144.32616837689227
+      },
+      "joint2": {
+        "time": 107.53349999999999,
+        "kind": "joint",
+        "fi": 2,
+        "j": 0,
+        "value": 7.487985486986786
+      },
+      "joint3": {
+        "time": 107.52799999999999,
+        "kind": "joint",
+        "fi": 3,
+        "j": 0,
+        "value": 7.574166009372175
+      },
+      "joint4": {
+        "time": 107.41999999999999,
+        "kind": "joint",
+        "fi": 4,
+        "j": 0,
+        "value": 9.309769702855586
+      },
+      "wrist": {
+        "time": 107.52799999999999,
+        "kind": "wrist",
+        "value": 0.9989493491053159
+      },
+      "tip0": {
+        "time": 107.532,
+        "kind": "tip",
+        "fi": 0,
+        "value": 1.0147028641254812
+      },
+      "tip1": {
+        "time": 106.9065,
+        "kind": "tip",
+        "fi": 1,
+        "value": 4.312125052576111
+      },
+      "tip2": {
+        "time": 107.19149999999999,
+        "kind": "tip",
+        "fi": 2,
+        "value": 0.8457350782446003
+      },
+      "tip3": {
+        "time": 107.52449999999999,
+        "kind": "tip",
+        "fi": 3,
+        "value": 0.8494899214824587
+      },
+      "tip4": {
+        "time": 107.515,
+        "kind": "tip",
+        "fi": 4,
+        "value": 0.8549480098040296
+      },
+      "wristAcceleration": {
+        "time": 107.4875,
+        "kind": "wristAcceleration",
+        "value": 21.758163825987058
+      }
+    },
+    "candidate": {
+      "joint0": {
+        "time": 107.15549999999999,
+        "kind": "joint",
+        "fi": 0,
+        "j": 1,
+        "value": 33.949893859476084
+      },
+      "joint1": {
+        "time": 106.86649999999999,
+        "kind": "joint",
+        "fi": 1,
+        "j": 0,
+        "value": 28.263924217491187
+      },
+      "joint2": {
+        "time": 107.53349999999999,
+        "kind": "joint",
+        "fi": 2,
+        "j": 0,
+        "value": 7.730903358831527
+      },
+      "joint3": {
+        "time": 107.53049999999999,
+        "kind": "joint",
+        "fi": 3,
+        "j": 0,
+        "value": 7.768729865863549
+      },
+      "joint4": {
+        "time": 107.4615,
+        "kind": "joint",
+        "fi": 4,
+        "j": 0,
+        "value": 8.841214826740257
+      },
+      "wrist": {
+        "time": 106.88749999999999,
+        "kind": "wrist",
+        "value": 1.1805552764386853
+      },
+      "tip0": {
+        "time": 106.88749999999999,
+        "kind": "tip",
+        "fi": 0,
+        "value": 1.238600281364851
+      },
+      "tip1": {
+        "time": 107.2015,
+        "kind": "tip",
+        "fi": 1,
+        "value": 1.3344252919239408
+      },
+      "tip2": {
+        "time": 107.201,
+        "kind": "tip",
+        "fi": 2,
+        "value": 1.2713346858828016
+      },
+      "tip3": {
+        "time": 107.201,
+        "kind": "tip",
+        "fi": 3,
+        "value": 1.298680813473317
+      },
+      "tip4": {
+        "time": 107.201,
+        "kind": "tip",
+        "fi": 4,
+        "value": 1.3047826584664823
+      },
+      "wristAcceleration": {
+        "time": 107.2255,
+        "kind": "wristAcceleration",
+        "value": 59.533306251806096
+      }
+    }
+  },
+  "activePadGapMaxMm": 1.6748430818475102,
+  "heldViolations": [],
+  "indexGapCores": [
+    {
+      "interval": [
+        106.81,
+        106.923274
+      ],
+      "max": 0
+    },
+    {
+      "interval": [
+        107.18,
+        107.269683
+      ],
+      "max": 1.9912590510465789
+    }
+  ],
+  "noteDeltas": [
+    {
+      "id": "p00519",
+      "changes": {
+        "duration": {
+          "before": 0.650157,
+          "after": 0.5643830000000065
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.650157
+        }
+      },
+      "beforeEnd": 106.89577399999999,
+      "afterEnd": 106.81
+    },
+    {
+      "id": "p00524",
+      "changes": {
+        "duration": {
+          "before": 0.318109,
+          "after": 0.25672600000000045
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.318109
+        }
+      },
+      "beforeEnd": 107.24138300000001,
+      "afterEnd": 107.18
+    }
+  ],
+  "nonNotesExact": {
+    "title": true,
+    "version": true,
+    "composer": true,
+    "bpm": true,
+    "duration": true,
+    "meter": true,
+    "key": true,
+    "sections": true,
+    "pedals": true,
+    "accents": true,
+    "accompaniment": true,
+    "harmony": true,
+    "tempoMap": true,
+    "performance": true,
+    "composition": true,
+    "wristMotion": true
+  },
+  "preservedAttackPitchVelocityHandFinger": true,
+  "audioEffect": {
+    "p00519": "Physical release85.774ms earlier. Existing pedal-up106.870774 makes acoustic damper release25ms earlier than old key-off106.895774, an authorized phrase breath.",
+    "p00524": "Physical release61.383ms earlier under pedal0.66; pedal events unchanged. Written duration retained.",
+    "remaster": "Required from changed score; no audio rendered by this leaf."
+  },
+  "nativeReview": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/d90cb414c0c5d130/report-960.json",
+  "typecheck": {
+    "baseline": [
+      {
+        "code": 18047,
+        "message": "'m.geometry.index' is possibly 'null'."
+      },
+      {
+        "code": 2339,
+        "message": "Property 'opposition' does not exist on type '{ name: string; previous: string; next: string; end: number; start: number; target: number[]; release: number; arrival: number; ramp: number; arrivalRamp: number; releaseLift: number; arrivalLift: number; }'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      }
+    ],
+    "runtime": [
+      {
+        "code": 18047,
+        "message": "'m.geometry.index' is possibly 'null'."
+      },
+      {
+        "code": 2339,
+        "message": "Property 'opposition' does not exist on type '{ name: string; previous: string; next: string; end: number; start: number; target: number[]; release: number; arrival: number; ramp: number; arrivalRamp: number; releaseLift: number; arrivalLift: number; }'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      },
+      {
+        "code": 2345,
+        "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+      }
+    ],
+    "noNewDiagnostics": true
+  },
+  "sha256": {
+    "proposed-rig.mjs": "f4ee9a520ac7313a5cb6ffdd6c315e037c058a32e9aa970a8efae44cbea9a1ae",
+    "proposed-runtime.ts": "f25c25ae3766ae60c2f287c3757fc6a92d84fd65472ff29e02f874ef85d7aed8",
+    "proposed-native.ts": "b237a25058b0b94512bf76ece56b41d4594bb9222264b4916a85d028b61ec7ef",
+    "proposed-extension.js": "1a6a3f9c477204bbe9a303268410af58a5e6234f76d80b8c4fa5da5791f95ee4",
+    "proposed-extension.ts": "ee700d09cedcde145743a2b7c634d817cabb60ff633c42b33b581a7c3f826aab",
+    "release-score.json": "3f7d682dee1e24e03e19a15d6daa67d77f16a2a28683e2cb3e76125a759a7547",
+    "audit-proposed.json": "0922f9df1b6f38e84fef77821dcb502f6b97f85f081cec50c636a64db58ac1d1",
+    "audit-baseline.json": "0c252fa24c902505ccfb66120c5c0ef7ce45092adfdaae9245ff697163c924de"
+  },
+  "inputSha256": {
+    "score-v11.json": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+    "pianist-candidate-baked.mjs": "6fea974e1fbc662053a9d3258a520b7b5ae77e391ea75ca780c87fe58a0d736d"
+  },
+  "limitations": [
+    "Residual existing RIndex/RMiddle surface intersections remain; this candidate is an improvement, not collision-free.",
+    "Wrist speed and acceleration increase locally; exact peaks are recorded.",
+    "Existing right-thumb gap core and later pinky approach core remain outside this correction.",
+    "No full-film or audio claim."
+  ]
+}

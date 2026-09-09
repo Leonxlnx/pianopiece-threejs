@@ -1,0 +1,3 @@
+import fs from 'node:fs';import {baseline,performer,install,update,T,isBlack} from './harness.mjs';
+const s=structuredClone(baseline),rows=[];install(s);for(const time of [105.7149985,187.4408685]){update(time);const hand=performer.hands.find(h=>h.side==='L');for(const n of s.notes.filter(n=>n.hand==='L'&&n.time<=time&&n.time+n.duration>time)){const base=hand.fingers[n.finger-1].bones[0].getWorldPosition(new T.Vector3()),z=n.contactZ??performer.contactDepth(base.z,isBlack(n.midi),n.finger-1);rows.push({time,id:n.id,midi:n.midi,finger:n.finger,before:n.contactZ??null,contactZ:z});n.contactZ=z;}}
+fs.writeFileSync('target-score.json',JSON.stringify(s));fs.writeFileSync('target-freeze.json',JSON.stringify(rows,null,2));console.log(rows);

@@ -1,0 +1,2 @@
+import fs from 'node:fs';import ts from 'typescript';import path from 'node:path';
+const source=fs.readFileSync('pianist-baseline.ts','utf8'),compiled=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText.replace(/from '\.\/(.*?)'/g,(_,n)=>`from '${path.resolve('compiled',n+'.mjs')}'`);fs.writeFileSync('pianist-baseline.mjs',compiled);const h=fs.readFileSync('harness.mjs','utf8').replace(":'./compiled/pianist.mjs'",":'./pianist-baseline.mjs'");fs.writeFileSync('harness.mjs',h);

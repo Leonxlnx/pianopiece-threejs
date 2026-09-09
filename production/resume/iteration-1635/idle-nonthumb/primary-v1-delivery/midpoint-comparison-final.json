@@ -1,0 +1,2382 @@
+{
+  "before": {
+    "rig": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/pianist-final-input.mjs",
+    "score": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-primary-v1.json",
+    "requests": 1068,
+    "checkedInactivePoses": 3303,
+    "corePoses": 227,
+    "ownPalmPoses": 0,
+    "neighborPoses": 1082,
+    "maxCoreMm": 7.914221371154606,
+    "limits": "Relevant-hand score-note midpoints only; owned surface triangles and bevel-shrunken key boxes. No visual or continuous-clearance claim."
+  },
+  "after": {
+    "rig": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/pianist-candidate.mjs",
+    "score": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-primary-v1.json",
+    "requests": 1068,
+    "checkedInactivePoses": 3303,
+    "corePoses": 199,
+    "ownPalmPoses": 0,
+    "neighborPoses": 1081,
+    "maxCoreMm": 7.914221371154606,
+    "limits": "Relevant-hand score-note midpoints only; owned surface triangles and bevel-shrunken key boxes. No visual or continuous-clearance claim."
+  },
+  "newDefectTypeRegressions": [],
+  "existingPairCountIncreaseRows": [
+    {
+      "before": {
+        "time": 7.4785515,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5151127810839093,
+        "coreVertices": 3,
+        "keyMidis": [
+          66,
+          65
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 66,
+          "world": [
+            0.01726511298970013,
+            0.7620899982106816,
+            0.2214502490889807
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00015",
+        "previousEnd": 5.364404,
+        "next": "p00027",
+        "nextTime": 8.841205,
+        "trigger": "p00022"
+      },
+      "after": {
+        "time": 7.4785515,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071868254395556,
+        "coreVertices": 3,
+        "keyMidis": [
+          66,
+          65
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 66,
+          "world": [
+            0.017265112863350866,
+            0.7627056456774105,
+            0.22159281156523503
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00015",
+        "previousEnd": 5.364404,
+        "next": "p00027",
+        "nextTime": 8.841205,
+        "trigger": "p00022"
+      }
+    },
+    {
+      "before": {
+        "time": 10.208821,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5151125771128435,
+        "coreVertices": 3,
+        "keyMidis": [
+          66,
+          65
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 66,
+          "world": [
+            0.017265112785729064,
+            0.7620899978191912,
+            0.2214502489976926
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00027",
+        "previousEnd": 9.192821,
+        "next": "p00039",
+        "nextTime": 12.416821,
+        "trigger": "p00032"
+      },
+      "after": {
+        "time": 10.208821,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071869713999106,
+        "coreVertices": 3,
+        "keyMidis": [
+          66,
+          65
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 66,
+          "world": [
+            0.01726511265820818,
+            0.7627056450596993,
+            0.22159281141927467
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00027",
+        "previousEnd": 9.192821,
+        "next": "p00039",
+        "nextTime": 12.416821,
+        "trigger": "p00032"
+      }
+    },
+    {
+      "before": {
+        "time": 11.721858,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.0775098266679892,
+        "coreVertices": 1,
+        "keyMidis": [
+          58
+        ],
+        "deepest": {
+          "id": 7666,
+          "midi": 58,
+          "world": [
+            -0.09906792621403804,
+            0.7634224901956838,
+            0.21816603468774876
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00030",
+        "previousEnd": 9.979821,
+        "next": "p00038",
+        "nextTime": 12.391821,
+        "trigger": "p00036"
+      },
+      "after": {
+        "time": 11.721858,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00030",
+        "previousEnd": 9.979821,
+        "next": "p00038",
+        "nextTime": 12.391821,
+        "trigger": "p00036"
+      }
+    },
+    {
+      "before": {
+        "time": 20.574918500000003,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5150854668332667,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.18176508567544958,
+            0.7620900175928197,
+            0.22145026689331726
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00079"
+      },
+      "after": {
+        "time": 20.574918500000003,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071622774753387,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.1817650855556947,
+            0.7627056938420865,
+            0.22159283611319924
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00079"
+      }
+    },
+    {
+      "before": {
+        "time": 20.929560000000002,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5150850224262,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.1817650852310425,
+            0.7620900172985349,
+            0.22145026635469245
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          158,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00081"
+      },
+      "after": {
+        "time": 20.929560000000002,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071630356736207,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.1817650851089413,
+            0.7627056926001635,
+            0.22159283535500096
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          159,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00081"
+      }
+    },
+    {
+      "before": {
+        "time": 20.929560000000002,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          158,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00079",
+        "previousEnd": 20.732837,
+        "next": "p00083",
+        "nextTime": 21.127283,
+        "trigger": "p00081"
+      },
+      "after": {
+        "time": 20.929560000000002,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          159,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00079",
+        "previousEnd": 20.732837,
+        "next": "p00083",
+        "nextTime": 21.127283,
+        "trigger": "p00081"
+      }
+    },
+    {
+      "before": {
+        "time": 21.2915055,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5150859957914773,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.1817650862044078,
+            0.7620900173090223,
+            0.2214502671824805
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00083"
+      },
+      "after": {
+        "time": 21.2915055,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071618734760603,
+        "coreVertices": 3,
+        "keyMidis": [
+          78,
+          77
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 78,
+          "world": [
+            0.1817650860833443,
+            0.762705694067679,
+            0.22159283651719852
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00075",
+        "previousEnd": 20.035162,
+        "next": "p00088",
+        "nextTime": 22.21162,
+        "trigger": "p00083"
+      }
+    },
+    {
+      "before": {
+        "time": 28.1512385,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.5150947533388313,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.1347650949619551,
+            0.7620900147335649,
+            0.22145026288587688
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00093",
+        "previousEnd": 23.98124,
+        "next": "p00128",
+        "nextTime": 30.59307,
+        "trigger": "p00114"
+      },
+      "after": {
+        "time": 28.1512385,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.4071676552340215,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.1347650948367024,
+            0.7627056851143535,
+            0.22159283073544056
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00093",
+        "previousEnd": 23.98124,
+        "next": "p00128",
+        "nextTime": 30.59307,
+        "trigger": "p00114"
+      }
+    },
+    {
+      "before": {
+        "time": 28.3106525,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.077508984503207,
+        "coreVertices": 1,
+        "keyMidis": [
+          58
+        ],
+        "deepest": {
+          "id": 7666,
+          "midi": 58,
+          "world": [
+            -0.09906792658634944,
+            0.7634224910378485,
+            0.2181660282048702
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00111",
+        "previousEnd": 27.781411000000002,
+        "next": "p00118",
+        "nextTime": 28.839894,
+        "trigger": "p00115"
+      },
+      "after": {
+        "time": 28.3106525,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00111",
+        "previousEnd": 27.781411000000002,
+        "next": "p00118",
+        "nextTime": 28.839894,
+        "trigger": "p00115"
+      }
+    },
+    {
+      "before": {
+        "time": 31.0913265,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.0775197068728657,
+        "coreVertices": 1,
+        "keyMidis": [
+          66
+        ],
+        "deepest": {
+          "id": 7666,
+          "midi": 66,
+          "world": [
+            0.01843204431909973,
+            0.7634224803154789,
+            0.21816599879320786
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00125",
+        "previousEnd": 30.55607,
+        "next": "p00134",
+        "nextTime": 31.963419,
+        "trigger": "p00129"
+      },
+      "after": {
+        "time": 31.0913265,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00125",
+        "previousEnd": 30.55607,
+        "next": "p00134",
+        "nextTime": 31.963419,
+        "trigger": "p00129"
+      }
+    },
+    {
+      "before": {
+        "time": 34.234293,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00136",
+        "previousEnd": 32.674311,
+        "next": "p00144",
+        "nextTime": 34.854985,
+        "trigger": "p00141"
+      },
+      "after": {
+        "time": 34.234293,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00136",
+        "previousEnd": 32.674311,
+        "next": "p00144",
+        "nextTime": 34.854985,
+        "trigger": "p00141"
+      }
+    },
+    {
+      "before": {
+        "time": 37.309846,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.3444359773511225,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 1814,
+          "midi": 76,
+          "world": [
+            0.15895474078820143,
+            0.7396555644026285,
+            0.27099204999410803
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00152",
+        "previousEnd": 36.608171,
+        "next": "p00162",
+        "nextTime": 38.360338,
+        "trigger": "p00156"
+      },
+      "after": {
+        "time": 37.309846,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.2158565158333365,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 1814,
+          "midi": 76,
+          "world": [
+            0.1589547407449482,
+            0.7397841438641463,
+            0.2709286320775065
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00152",
+        "previousEnd": 36.608171,
+        "next": "p00162",
+        "nextTime": 38.360338,
+        "trigger": "p00156"
+      }
+    },
+    {
+      "before": {
+        "time": 45.48388,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.07750970785725,
+        "coreVertices": 1,
+        "keyMidis": [
+          58
+        ],
+        "deepest": {
+          "id": 7666,
+          "midi": 58,
+          "world": [
+            -0.09906792676743437,
+            0.7634224903144945,
+            0.21816603528386636
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00188",
+        "previousEnd": 43.905893,
+        "next": "p00198",
+        "nextTime": 46.086568,
+        "trigger": "p00195"
+      },
+      "after": {
+        "time": 45.48388,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00188",
+        "previousEnd": 43.905893,
+        "next": "p00198",
+        "nextTime": 46.086568,
+        "trigger": "p00195"
+      }
+    },
+    {
+      "before": {
+        "time": 48.0051725,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.738924915042351,
+        "coreVertices": 6,
+        "keyMidis": [
+          58
+        ],
+        "deepest": {
+          "id": 7512,
+          "midi": 58,
+          "world": [
+            -0.09947907359141017,
+            0.7627610751073094,
+            0.215216311223009
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          163,
+          0,
+          0
+        ],
+        "previous": "p00200",
+        "previousEnd": 46.772242000000006,
+        "next": "p00209",
+        "nextTime": 48.191591,
+        "trigger": "p00207"
+      },
+      "after": {
+        "time": 48.0051725,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          171,
+          0,
+          0
+        ],
+        "previous": "p00200",
+        "previousEnd": 46.772242000000006,
+        "next": "p00209",
+        "nextTime": 48.191591,
+        "trigger": "p00207"
+      }
+    },
+    {
+      "before": {
+        "time": 60.325589,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.515094168507759,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.13476509437712403,
+            0.7620900146890716,
+            0.221450262172325
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          132,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00266"
+      },
+      "after": {
+        "time": 60.325589,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.407168529168724,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.13476509425186656,
+            0.7627056843721686,
+            0.22159282986150586
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          133,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00266"
+      }
+    },
+    {
+      "before": {
+        "time": 60.6068845,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.515094639923776,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.13476509484854005,
+            0.7620900150369855,
+            0.22145026251084776
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          180,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00267"
+      },
+      "after": {
+        "time": 60.6068845,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.407167938823729,
+        "coreVertices": 3,
+        "keyMidis": [
+          75,
+          74
+        ],
+        "deepest": {
+          "id": 1802,
+          "midi": 75,
+          "world": [
+            0.13476509472560338,
+            0.7627056858100113,
+            0.22159283045185085
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          182,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00267"
+      }
+    },
+    {
+      "before": {
+        "time": 60.6068845,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          180,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00266",
+        "previousEnd": 60.549407,
+        "next": "p00273",
+        "nextTime": 61.465407,
+        "trigger": "p00267"
+      },
+      "after": {
+        "time": 60.6068845,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          182,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00266",
+        "previousEnd": 60.549407,
+        "next": "p00273",
+        "nextTime": 61.465407,
+        "trigger": "p00267"
+      }
+    },
+    {
+      "before": {
+        "time": 62.993457,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          129,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00280"
+      },
+      "after": {
+        "time": 62.993457,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          135,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00280"
+      }
+    },
+    {
+      "before": {
+        "time": 62.995207,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          129,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00281"
+      },
+      "after": {
+        "time": 62.995207,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          135,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00281"
+      }
+    },
+    {
+      "before": {
+        "time": 63.338785,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          194,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00283"
+      },
+      "after": {
+        "time": 63.338785,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          240,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00283"
+      }
+    },
+    {
+      "before": {
+        "time": 63.338785,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 3.4528232863056396,
+        "coreVertices": 4,
+        "keyMidis": [
+          75
+        ],
+        "deepest": {
+          "id": 2048,
+          "midi": 75,
+          "world": [
+            0.14310871709523498,
+            0.7613077078913041,
+            0.22054717510436894
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          194,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00280",
+        "previousEnd": 63.157871,
+        "next": "p00285",
+        "nextTime": 63.518699,
+        "trigger": "p00283"
+      },
+      "after": {
+        "time": 63.338785,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 3.4528232863056396,
+        "coreVertices": 4,
+        "keyMidis": [
+          75
+        ],
+        "deepest": {
+          "id": 2048,
+          "midi": 75,
+          "world": [
+            0.14310871709523498,
+            0.7613077078913041,
+            0.22054717510436894
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          240,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00280",
+        "previousEnd": 63.157871,
+        "next": "p00285",
+        "nextTime": 63.518699,
+        "trigger": "p00283"
+      }
+    },
+    {
+      "before": {
+        "time": 63.8515265,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          129,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00285"
+      },
+      "after": {
+        "time": 63.8515265,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          135,
+          0,
+          0
+        ],
+        "previous": "p00253",
+        "previousEnd": 57.99590499999999,
+        "next": "p00299",
+        "nextTime": 66.30195,
+        "trigger": "p00285"
+      }
+    },
+    {
+      "before": {
+        "time": 106.0695775,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          202,
+          0,
+          0
+        ],
+        "previous": "p00508",
+        "previousEnd": 104.532324,
+        "next": "p00519",
+        "nextTime": 106.245617,
+        "trigger": "p00517"
+      },
+      "after": {
+        "time": 106.0695775,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          209,
+          0,
+          0
+        ],
+        "previous": "p00508",
+        "previousEnd": 104.532324,
+        "next": "p00519",
+        "nextTime": 106.245617,
+        "trigger": "p00517"
+      }
+    },
+    {
+      "before": {
+        "time": 107.74704650000001,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 6.861167488512926,
+        "coreVertices": 46,
+        "keyMidis": [
+          56
+        ],
+        "deepest": {
+          "id": 7649,
+          "midi": 56,
+          "world": [
+            -0.11861116769712918,
+            0.7577953204486695,
+            0.2160434733979112
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          50,
+          0,
+          0
+        ],
+        "previous": "p00498",
+        "previousEnd": 103.084739,
+        "next": "p00530",
+        "nextTime": 107.929501,
+        "trigger": "p00527"
+      },
+      "after": {
+        "time": 107.74704650000001,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 6.427101672952851,
+        "coreVertices": 31,
+        "keyMidis": [
+          56
+        ],
+        "deepest": {
+          "id": 7549,
+          "midi": 56,
+          "world": [
+            -0.1181771018815691,
+            0.7569129043909933,
+            0.1966486080641412
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          66,
+          0,
+          0
+        ],
+        "previous": "p00498",
+        "previousEnd": 103.084739,
+        "next": "p00530",
+        "nextTime": 107.929501,
+        "trigger": "p00527"
+      }
+    },
+    {
+      "before": {
+        "time": 110.874841,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          114,
+          0,
+          0
+        ],
+        "previous": "p00540",
+        "previousEnd": 110.328929,
+        "next": "p00546",
+        "nextTime": 111.058812,
+        "trigger": "p00545"
+      },
+      "after": {
+        "time": 110.874841,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          123,
+          0,
+          0
+        ],
+        "previous": "p00540",
+        "previousEnd": 110.328929,
+        "next": "p00546",
+        "nextTime": 111.058812,
+        "trigger": "p00545"
+      }
+    },
+    {
+      "before": {
+        "time": 132.44222,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          101,
+          0,
+          0
+        ],
+        "previous": "p00608",
+        "previousEnd": 132.243293,
+        "next": "p00614",
+        "nextTime": 132.999001,
+        "trigger": "p00610"
+      },
+      "after": {
+        "time": 132.44222,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          105,
+          0,
+          0
+        ],
+        "previous": "p00608",
+        "previousEnd": 132.243293,
+        "next": "p00614",
+        "nextTime": 132.999001,
+        "trigger": "p00610"
+      }
+    },
+    {
+      "before": {
+        "time": 140.8102945,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.077519279853335,
+        "coreVertices": 1,
+        "keyMidis": [
+          61
+        ],
+        "deepest": {
+          "id": 7666,
+          "midi": 61,
+          "world": [
+            -0.05206793401965415,
+            0.7634224807424984,
+            0.21816601240707678
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00641",
+        "previousEnd": 139.915942,
+        "next": "p00649",
+        "nextTime": 141.351706,
+        "trigger": "p00646"
+      },
+      "after": {
+        "time": 140.8102945,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00641",
+        "previousEnd": 139.915942,
+        "next": "p00649",
+        "nextTime": 141.351706,
+        "trigger": "p00646"
+      }
+    },
+    {
+      "before": {
+        "time": 146.910253,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          151,
+          0,
+          0
+        ],
+        "previous": "p00667",
+        "previousEnd": 145.27853100000002,
+        "next": "p00709",
+        "nextTime": 156.945984,
+        "trigger": "p00673"
+      },
+      "after": {
+        "time": 146.910253,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          164,
+          0,
+          0
+        ],
+        "previous": "p00667",
+        "previousEnd": 145.27853100000002,
+        "next": "p00709",
+        "nextTime": 156.945984,
+        "trigger": "p00673"
+      }
+    },
+    {
+      "before": {
+        "time": 155.6699875,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.9716041042109342,
+        "coreVertices": 1,
+        "keyMidis": [
+          56
+        ],
+        "deepest": {
+          "id": 7549,
+          "midi": 56,
+          "world": [
+            -0.11472160431282719,
+            0.7623613921651652,
+            0.21578210363838635
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          108,
+          0,
+          0
+        ],
+        "previous": "p00667",
+        "previousEnd": 145.27853100000002,
+        "next": "p00709",
+        "nextTime": 156.945984,
+        "trigger": "p00703"
+      },
+      "after": {
+        "time": 155.6699875,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          110,
+          0,
+          0
+        ],
+        "previous": "p00667",
+        "previousEnd": 145.27853100000002,
+        "next": "p00709",
+        "nextTime": 156.945984,
+        "trigger": "p00703"
+      }
+    },
+    {
+      "before": {
+        "time": 169.075695,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.118350906067712,
+        "coreVertices": 1,
+        "keyMidis": [
+          75
+        ],
+        "deepest": {
+          "id": 1829,
+          "midi": 75,
+          "world": [
+            0.1351798879093401,
+            0.763381649116284,
+            0.2202607473657613
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          41,
+          0,
+          0
+        ],
+        "previous": "p00783",
+        "previousEnd": 168.86903999999998,
+        "next": "p00799",
+        "nextTime": 171.243856,
+        "trigger": "p00785"
+      },
+      "after": {
+        "time": 169.075695,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          43,
+          0,
+          0
+        ],
+        "previous": "p00783",
+        "previousEnd": 168.86903999999998,
+        "next": "p00799",
+        "nextTime": 171.243856,
+        "trigger": "p00785"
+      }
+    },
+    {
+      "before": {
+        "time": 174.69504650000002,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          109,
+          0,
+          0
+        ],
+        "previous": "p00800",
+        "previousEnd": 171.873523,
+        "next": "p00831",
+        "nextTime": 176.201552,
+        "trigger": "p00819"
+      },
+      "after": {
+        "time": 174.69504650000002,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          118,
+          0,
+          0
+        ],
+        "previous": "p00800",
+        "previousEnd": 171.873523,
+        "next": "p00831",
+        "nextTime": 176.201552,
+        "trigger": "p00819"
+      }
+    },
+    {
+      "before": {
+        "time": 174.69504650000002,
+        "side": "L",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          109,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00804",
+        "previousEnd": 172.507007,
+        "next": "p00821",
+        "nextTime": 174.871882,
+        "trigger": "p00819"
+      },
+      "after": {
+        "time": 174.69504650000002,
+        "side": "L",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          118,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00804",
+        "previousEnd": 172.507007,
+        "next": "p00821",
+        "nextTime": 174.871882,
+        "trigger": "p00819"
+      }
+    },
+    {
+      "before": {
+        "time": 177.6787175,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.3444342387896056,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 1814,
+          "midi": 76,
+          "world": [
+            0.1589547427862912,
+            0.73965556614119,
+            0.2709920542125515
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          46,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00838"
+      },
+      "after": {
+        "time": 177.6787175,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 2.225372756272992,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 1814,
+          "midi": 76,
+          "world": [
+            0.1589547427444423,
+            0.7397746276237066,
+            0.27093327722261806
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          48,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00838"
+      }
+    },
+    {
+      "before": {
+        "time": 177.6787175,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          46,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00820",
+        "previousEnd": 175.19055200000003,
+        "next": "p00842",
+        "nextTime": 177.884719,
+        "trigger": "p00838"
+      },
+      "after": {
+        "time": 177.6787175,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          48,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00820",
+        "previousEnd": 175.19055200000003,
+        "next": "p00842",
+        "nextTime": 177.884719,
+        "trigger": "p00838"
+      }
+    },
+    {
+      "before": {
+        "time": 179.5973565,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          181,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00849"
+      },
+      "after": {
+        "time": 179.5973565,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          219,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00849"
+      }
+    },
+    {
+      "before": {
+        "time": 179.468426,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          181,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00850"
+      },
+      "after": {
+        "time": 179.468426,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          219,
+          0,
+          0
+        ],
+        "previous": "p00836",
+        "previousEnd": 177.47032099999998,
+        "next": "p00854",
+        "nextTime": 180.02815,
+        "trigger": "p00850"
+      }
+    },
+    {
+      "before": {
+        "time": 185.441363,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          167,
+          0,
+          0
+        ],
+        "previous": "p00886",
+        "previousEnd": 185.26052800000002,
+        "next": "p00895",
+        "nextTime": 185.947369,
+        "trigger": "p00889"
+      },
+      "after": {
+        "time": 185.441363,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          169,
+          0,
+          0
+        ],
+        "previous": "p00886",
+        "previousEnd": 185.26052800000002,
+        "next": "p00895",
+        "nextTime": 185.947369,
+        "trigger": "p00889"
+      }
+    },
+    {
+      "before": {
+        "time": 189.409696,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00919"
+      },
+      "after": {
+        "time": 189.409696,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          47,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00919"
+      }
+    },
+    {
+      "before": {
+        "time": 190.96933900000002,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          45,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00927"
+      },
+      "after": {
+        "time": 190.96933900000002,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          47,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00927"
+      }
+    },
+    {
+      "before": {
+        "time": 192.17748949999998,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.8139853647660695,
+        "coreVertices": 3,
+        "keyMidis": [
+          56
+        ],
+        "deepest": {
+          "id": 7639,
+          "midi": 56,
+          "world": [
+            -0.11809688699038677,
+            0.7626860146575857,
+            0.19301109047657938
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          54,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00938"
+      },
+      "after": {
+        "time": 192.17748949999998,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          56,
+          0,
+          0
+        ],
+        "previous": "p00914",
+        "previousEnd": 188.816045,
+        "next": "p00940",
+        "nextTime": 192.356156,
+        "trigger": "p00938"
+      }
+    },
+    {
+      "before": {
+        "time": 195.511339,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 1.4331598456789885,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 3016,
+          "midi": 76,
+          "world": [
+            0.15192828475428719,
+            0.7399376032772026,
+            0.2755668471876691
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        "previous": "p00951",
+        "previousEnd": 194.34476,
+        "next": "p00961",
+        "nextTime": 195.693174,
+        "trigger": "p00959"
+      },
+      "after": {
+        "time": 195.511339,
+        "side": "R",
+        "finger": 2,
+        "maxCoreMm": 1.4527918240621607,
+        "coreVertices": 2,
+        "keyMidis": [
+          76
+        ],
+        "deepest": {
+          "id": 3016,
+          "midi": 76,
+          "world": [
+            0.15192828473915024,
+            0.7399869954388171,
+            0.27554721520928593
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          8,
+          0,
+          0
+        ],
+        "previous": "p00951",
+        "previousEnd": 194.34476,
+        "next": "p00961",
+        "nextTime": 195.693174,
+        "trigger": "p00959"
+      }
+    },
+    {
+      "before": {
+        "time": 195.511339,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          4,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00952",
+        "previousEnd": 194.34476,
+        "next": "p00963",
+        "nextTime": 196.013845,
+        "trigger": "p00959"
+      },
+      "after": {
+        "time": 195.511339,
+        "side": "R",
+        "finger": 3,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          8,
+          0,
+          0,
+          0
+        ],
+        "previous": "p00952",
+        "previousEnd": 194.34476,
+        "next": "p00963",
+        "nextTime": 196.013845,
+        "trigger": "p00959"
+      }
+    },
+    {
+      "before": {
+        "time": 198.814852,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 2.97160517486289,
+        "coreVertices": 1,
+        "keyMidis": [
+          56
+        ],
+        "deepest": {
+          "id": 7549,
+          "midi": 56,
+          "world": [
+            -0.11472160538347914,
+            0.7623613925780538,
+            0.2157821041128637
+          ]
+        },
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          108,
+          0,
+          0
+        ],
+        "previous": "p00965",
+        "previousEnd": 196.88501300000001,
+        "next": "p00985",
+        "nextTime": 200.016507,
+        "trigger": "p00977"
+      },
+      "after": {
+        "time": 198.814852,
+        "side": "L",
+        "finger": 2,
+        "maxCoreMm": 0,
+        "coreVertices": 0,
+        "keyMidis": [],
+        "deepest": null,
+        "ownPalmPairs": 0,
+        "neighborPairs": [
+          0,
+          0,
+          110,
+          0,
+          0
+        ],
+        "previous": "p00965",
+        "previousEnd": 196.88501300000001,
+        "next": "p00985",
+        "nextTime": 200.016507,
+        "trigger": "p00977"
+      }
+    }
+  ],
+  "unresolvedGapCount": 407
+}

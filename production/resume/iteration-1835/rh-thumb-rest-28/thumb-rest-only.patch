@@ -1,0 +1,23 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -316,6 +316,20 @@
+  const wave=(u:number)=>Math.pow(Math.sin(clamp(u)*Math.PI),2);
+  const arch=previous&&next&&gap<.50?wave((time-end)/gap)*smooth(gap/.22):Math.max(previous?wave((time-end)/.22):0,next?wave((start-time)/.30):0);
+  rotations[0].premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(0,0,(hand.side==='L'?1:-1)*0.5*arch,'XYZ')));
++ // This released RH thumb rests in a curved wrist-local pose between these
++ // two fixed score anchors. Contact lifts clear the moving keys at each end.
++ // localPose retains the authored joint rolls; all held poses remain unchanged.
++ if(hand.side==='R'&&previous?.id==='p00112'&&next?.id==='p00142'
++   &&Math.abs(end-27.794411)<1e-7&&Math.abs(start-34.166094)<1e-7
++   &&time>end&&time<start){
++ const anchor=wp(hand.wrist),origin=finger.bones[0].position.clone().applyQuaternion(pose.q).add(anchor);
++ const neutralTouch=origin.clone().add(v3(.2,.45,.2).multiplyScalar(reach).applyQuaternion(pose.q));
++ const relaxed=localPose(anchor,pose.q,neutralTouch);
++ const liftedContact=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+.015,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
++ const a=contactPose(previous,end),b=contactPose(next,start),aLift=liftedContact(previous,end),bLift=liftedContact(next,start);
++ const since=time-end,before=start-time,release=smooth((since-.10)/.4),arrival=smooth(1-(before-.04)/.4);
++ rotations=a.map((q,j)=>q.slerp(aLift[j],smooth(since/.10)).slerp(relaxed[j],release).slerp(bLift[j],arrival).slerp(b[j],smooth(1-before/.04)));
++ }
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+  continue;
+  }

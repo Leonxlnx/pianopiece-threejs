@@ -1,0 +1,277 @@
+{
+  "metric": "Closest actual torso-cloth triangle signed normal distance for >65% upper-arm skin ownership with <35% forearm influence, after sleeve distal-axis extent +2mm. Negative means behind local outward surface. This local signed distance is not a watertight volume test; worst coordinates and triangles retained for independent inspection.",
+  "versions": {
+    "candidate-final": {
+      "sourceSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+      "rows": [
+        {
+          "time": 38.85258,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.81668776173433,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989314677537,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 188.70254,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.76357984240013,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.199893518499,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 233.144228,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.9166095644569,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989078435486,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        }
+      ]
+    },
+    "partial-roll/roll10": {
+      "sourceSha256": "1332ef9e7291b1a38bd31b47e3b7425a0f133bb1f181706bb99c5a7df68748ec",
+      "rows": [
+        {
+          "time": 38.85258,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.88256637084606,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989314677537,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 188.70254,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.8288346350271,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.199893518499,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 233.144228,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.98143736723944,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989078435486,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        }
+      ]
+    },
+    "partial-roll/roll20": {
+      "sourceSha256": "468920345428797bed36fdd009da328d06a002527545cd8d3027fc539989e178",
+      "rows": [
+        {
+          "time": 38.85258,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.96309079057417,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989314677537,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 188.70254,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.90250162418016,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.199893518499,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 233.144228,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 137.05512435032782,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989078435486,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        }
+      ]
+    },
+    "partial-roll/roll30": {
+      "sourceSha256": "4990717854d9f7e860c3a7e9445b41ecd784d6c4c1874f9d175157d62a26a23c",
+      "rows": [
+        {
+          "time": 38.85258,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 137.0561898673733,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989314677537,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 188.70254,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 136.98315045350265,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.199893518499,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        },
+        {
+          "time": 233.144228,
+          "surfaces": [
+            {
+              "side": "L",
+              "exposedVertices": 109,
+              "sleeveDistalAxisMm": 137.1642837731745,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            },
+            {
+              "side": "R",
+              "exposedVertices": 101,
+              "sleeveDistalAxisMm": 147.19989078435486,
+              "negativeSignedVertices": 0,
+              "maximumDepthMm": 0,
+              "worst": []
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

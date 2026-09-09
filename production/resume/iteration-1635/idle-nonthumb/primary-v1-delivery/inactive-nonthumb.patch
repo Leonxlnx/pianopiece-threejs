@@ -1,0 +1,18 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -6,6 +6,7 @@
+ import type { Note, Score, Hand, Telemetry } from './types';
+ import { wristMotionSampler } from './wrist-motion';
+ import { ponytailMotion } from './ponytail-motion';
++import { applyIdleNonthumb } from './idle-nonthumb';
+ 
+ const FINGERS=['Thumb','Index','Middle','Ring','Pinky'];
+ const TIP_LENGTH=[.027,.0243,.023,.0244,.0188];
+@@ -344,6 +345,7 @@
+  if(next)weight=Math.min(weight,envelope(contactPose(next,start)));
+  const fallback=localPose(wp(hand.wrist),pose.q,target);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
++ applyIdleNonthumb(time,hand.side,fi,finger.bones,hand.wrist,base,previous,next);
+  continue;
+  }
+ 

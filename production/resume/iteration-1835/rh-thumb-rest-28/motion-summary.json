@@ -1,0 +1,48 @@
+{
+  "baseline": {
+    "fps": 1000,
+    "samples": 7152,
+    "maxJointRate": 9.849388909122897,
+    "maxTipSpeed": 0.7574353598897341,
+    "maxSkinSpeed": 0.7774720086949576,
+    "rateWorst": {
+      "time": 27.857,
+      "joint": 1,
+      "rate": 9.849388909122897
+    },
+    "tipWorst": {
+      "time": 34.086999999999996,
+      "speed": 0.7574353598897341
+    },
+    "skinWorst": {
+      "time": 34.086999999999996,
+      "vertex": 2649,
+      "speed": 0.7774720086949576,
+      "stepMm": 0.7774720086931457
+    },
+    "seek": 0
+  },
+  "candidate": {
+    "fps": 1000,
+    "samples": 7152,
+    "maxJointRate": 8.91963461957716,
+    "maxTipSpeed": 0.6994731671378287,
+    "maxSkinSpeed": 0.7223628745221273,
+    "rateWorst": {
+      "time": 34.537,
+      "joint": 1,
+      "rate": 8.91963461957716
+    },
+    "tipWorst": {
+      "time": 34.535,
+      "speed": 0.6994731671378287
+    },
+    "skinWorst": {
+      "time": 34.535,
+      "vertex": 2564,
+      "speed": 0.7223628745221273,
+      "stepMm": 0.7223628745204439
+    },
+    "seek": 0
+  }
+}

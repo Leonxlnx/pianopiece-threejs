@@ -1,0 +1,27 @@
+{
+  "basis": "Exact source comparison excluding only the lidFinish constructor declaration; this is source parity, not a new runtime geometry replay.",
+  "checks": [
+    {
+      "candidate": "matte",
+      "sha256": "d706a583fcceb6c7de0ad86148124370a9e0b1f6de368cd52d0988c8f1800e0d",
+      "changedSourceLines": 1,
+      "allGeometryConstructionExact": true,
+      "keyboardAndContactCodeExact": true,
+      "propPositionAndDimensionsExact": true,
+      "sourceExceptLidMaterialExact": true,
+      "before": "const lidFinish=new THREE.MeshPhysicalMaterial({name:'Lid interior lacquer',color:0x101317,metalness:.025,roughness:.26,clearcoat:.85,clearcoatRoughness:.14});",
+      "after": "const lidFinish=new THREE.MeshStandardMaterial({name:'Lid interior satin lacquer',color:0x101317,metalness:0,roughness:.82});"
+    },
+    {
+      "candidate": "satin",
+      "sha256": "5f6d9e23b832f25ce267705d65fd888b94a0cf4b80344832676a7bdf2d6e8b76",
+      "changedSourceLines": 1,
+      "allGeometryConstructionExact": true,
+      "keyboardAndContactCodeExact": true,
+      "propPositionAndDimensionsExact": true,
+      "sourceExceptLidMaterialExact": true,
+      "before": "const lidFinish=new THREE.MeshPhysicalMaterial({name:'Lid interior lacquer',color:0x101317,metalness:.025,roughness:.26,clearcoat:.85,clearcoatRoughness:.14});",
+      "after": "const lidFinish=new THREE.MeshPhysicalMaterial({name:'Lid interior soft satin lacquer',color:0x101317,metalness:0,roughness:.48,clearcoat:.15,clearcoatRoughness:.30});"
+    }
+  ]
+}

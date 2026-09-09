@@ -1,0 +1,321 @@
+{
+  "project": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0",
+  "baselineScore": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/public/assets/score.json",
+  "baselineSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "candidateScore": "/workspace/scratch/2e8cc8e77f98/active-hand-fit/candidate-primary-v1.json",
+  "candidateSha256": "9db662f1e9d4037cc8c505b9818b7782ac1fb52fe70cff85bf362a00a9fb3b30",
+  "rigSource": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/app/performance/pianist.ts",
+  "rigSha256": "f0407941995f70ecafecebe9559e0289716620f656b51affcfe279aade9c94b8",
+  "rows": [
+    {
+      "id": "p00163",
+      "time": 38.8525795,
+      "fractionOfHeldDuration": 0.5,
+      "baselineNote": {
+        "id": "p00163",
+        "time": 38.692166,
+        "duration": 0.320827,
+        "midi": 59,
+        "velocity": 0.477,
+        "hand": "L",
+        "finger": 4,
+        "role": "harmony",
+        "bar": 14,
+        "beat": 1.5,
+        "contactLift": 0.002
+      },
+      "candidateNote": {
+        "id": "p00163",
+        "time": 38.692166,
+        "duration": 0.320827,
+        "midi": 59,
+        "velocity": 0.477,
+        "hand": "L",
+        "finger": 3,
+        "role": "harmony",
+        "bar": 14,
+        "beat": 1.5,
+        "contactLift": 0.002,
+        "contactZ": 0.23462227986985817
+      },
+      "keyX": -0.08224999999999998
+    },
+    {
+      "id": "p00957",
+      "time": 195.13783899999999,
+      "fractionOfHeldDuration": 0.5,
+      "baselineNote": {
+        "id": "p00957",
+        "time": 195.011834,
+        "duration": 0.25201,
+        "midi": 57,
+        "velocity": 0.637,
+        "hand": "L",
+        "finger": 4,
+        "role": "harmony",
+        "bar": 70,
+        "beat": 1.5,
+        "contactLift": 0.002,
+        "writtenDuration": 0.30567
+      },
+      "candidateNote": {
+        "id": "p00957",
+        "time": 195.011834,
+        "duration": 0.25201,
+        "midi": 57,
+        "velocity": 0.637,
+        "hand": "L",
+        "finger": 3,
+        "role": "harmony",
+        "bar": 70,
+        "beat": 1.5,
+        "contactLift": 0.002464226398617029,
+        "writtenDuration": 0.30567,
+        "contactZ": 0.24524067951226608
+      },
+      "keyX": -0.10575
+    },
+    {
+      "id": "p00741",
+      "time": 162.313344,
+      "fractionOfHeldDuration": 0.5,
+      "baselineNote": {
+        "id": "p00741",
+        "time": 162.186543,
+        "duration": 0.253602,
+        "midi": 74,
+        "velocity": 0.8577,
+        "hand": "R",
+        "finger": 5,
+        "role": "melody",
+        "bar": 58,
+        "beat": 0.5,
+        "contactLift": 0.002435,
+        "writtenDuration": 0.29667
+      },
+      "candidateNote": {
+        "id": "p00741",
+        "time": 162.186543,
+        "duration": 0.253602,
+        "midi": 74,
+        "velocity": 0.8577,
+        "hand": "R",
+        "finger": 4,
+        "role": "melody",
+        "bar": 58,
+        "beat": 0.5,
+        "contactLift": 0.002,
+        "writtenDuration": 0.29667,
+        "contactZ": 0.23629743972653525
+      },
+      "keyX": 0.12925000000000006
+    },
+    {
+      "id": "p00914",
+      "time": 188.70254,
+      "fractionOfHeldDuration": 0.5,
+      "baselineNote": {
+        "id": "p00914",
+        "time": 188.589035,
+        "duration": 0.22701,
+        "midi": 61,
+        "velocity": 0.705,
+        "hand": "L",
+        "finger": 2,
+        "role": "bass",
+        "bar": 68,
+        "beat": 0,
+        "contactLift": 0.003514,
+        "writtenDuration": 0.325328
+      },
+      "candidateNote": {
+        "id": "p00914",
+        "time": 188.589035,
+        "duration": 0.22701,
+        "midi": 61,
+        "velocity": 0.705,
+        "hand": "L",
+        "finger": 2,
+        "role": "bass",
+        "bar": 68,
+        "beat": 0,
+        "contactLift": 0.0028,
+        "writtenDuration": 0.325328,
+        "contactZ": 0.205
+      },
+      "keyX": -0.04849999999999993
+    }
+  ],
+  "cameras": {
+    "top": {
+      "name": "primary-held-top",
+      "frames": [
+        {
+          "noteId": "p00163",
+          "time": 38.8525795,
+          "position": [
+            -0.08224999999999998,
+            1.48,
+            0.27
+          ],
+          "target": [
+            -0.08224999999999998,
+            0.755,
+            0.27
+          ],
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "fov": 32
+        },
+        {
+          "noteId": "p00957",
+          "time": 195.13783899999999,
+          "position": [
+            -0.10575,
+            1.48,
+            0.27
+          ],
+          "target": [
+            -0.10575,
+            0.755,
+            0.27
+          ],
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "fov": 32
+        },
+        {
+          "noteId": "p00741",
+          "time": 162.313344,
+          "position": [
+            0.12925000000000006,
+            1.48,
+            0.27
+          ],
+          "target": [
+            0.12925000000000006,
+            0.755,
+            0.27
+          ],
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "fov": 32
+        },
+        {
+          "noteId": "p00914",
+          "time": 188.70254,
+          "position": [
+            -0.04849999999999993,
+            1.48,
+            0.27
+          ],
+          "target": [
+            -0.04849999999999993,
+            0.755,
+            0.27
+          ],
+          "up": [
+            0,
+            0,
+            -1
+          ],
+          "fov": 32
+        }
+      ]
+    },
+    "oblique": {
+      "name": "primary-held-oblique",
+      "frames": [
+        {
+          "noteId": "p00163",
+          "time": 38.8525795,
+          "position": [
+            0.33775,
+            1.35,
+            0.35
+          ],
+          "target": [
+            -0.08224999999999998,
+            0.755,
+            0.26
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov": 30
+        },
+        {
+          "noteId": "p00957",
+          "time": 195.13783899999999,
+          "position": [
+            0.31425,
+            1.35,
+            0.35
+          ],
+          "target": [
+            -0.10575,
+            0.755,
+            0.26
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov": 30
+        },
+        {
+          "noteId": "p00741",
+          "time": 162.313344,
+          "position": [
+            -0.29074999999999995,
+            1.35,
+            0.35
+          ],
+          "target": [
+            0.12925000000000006,
+            0.755,
+            0.26
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov": 30
+        },
+        {
+          "noteId": "p00914",
+          "time": 188.70254,
+          "position": [
+            0.37150000000000005,
+            1.35,
+            0.35
+          ],
+          "target": [
+            -0.04849999999999993,
+            0.755,
+            0.26
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov": 30
+        }
+      ]
+    }
+  }
+}

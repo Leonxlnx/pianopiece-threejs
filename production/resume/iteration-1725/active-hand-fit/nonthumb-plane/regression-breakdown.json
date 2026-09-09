@@ -1,0 +1,65 @@
+{
+  "typeBreakdown": [
+    {
+      "type": "activeDigitCore",
+      "counts": {
+        "LIndex": 108,
+        "LMiddle": 10,
+        "RRing": 4,
+        "LRing": 25,
+        "RIndex": 20,
+        "RMiddle": 3
+      },
+      "maxCoreMm": {
+        "LIndex": 5.301325872185569,
+        "LMiddle": 3.355888476031521,
+        "RRing": 4.4065513245957755,
+        "LRing": 3.593950620878361,
+        "RIndex": 6.601474667029872,
+        "RMiddle": 6.379791603421086
+      }
+    },
+    {
+      "type": "idleDigitCore",
+      "counts": {
+        "RMiddle": 43,
+        "RIndex": 62,
+        "LIndex": 58,
+        "LMiddle": 41,
+        "LRing": 26,
+        "RRing": 41
+      },
+      "maxCoreMm": {
+        "RMiddle": 7.9694483891393775,
+        "RIndex": 7.750906786937128,
+        "LIndex": 7.239837412242711,
+        "LMiddle": 7.83740510659936,
+        "LRing": 7.1892321874110765,
+        "RRing": 7.240900151308571
+      }
+    },
+    {
+      "type": "activeOwnedPalm",
+      "counts": {
+        "('LMiddle', 'LPalm')": 8,
+        "('RRing', 'RPalm')": 3,
+        "('LIndex', 'LPalm')": 2
+      },
+      "maxCoreMm": {
+        "('LMiddle', 'LPalm')": 0,
+        "('RRing', 'RPalm')": 0,
+        "('LIndex', 'LPalm')": 0
+      }
+    },
+    {
+      "type": "palmCore",
+      "counts": {
+        "LPalm": 27
+      },
+      "maxCoreMm": {
+        "LPalm": 4.516146660443532
+      }
+    }
+  ],
+  "r79ReservedAffected": []
+}

@@ -1,0 +1,138 @@
+[
+  {
+    "file": "lh91-index-v2-1000.json",
+    "begin": 91.45,
+    "end": 91.54,
+    "fps": 1000,
+    "hi": 0,
+    "samples": 105,
+    "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+    "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/lh91-index-v2.json",
+    "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-refrains-frozen-v3.json",
+    "regressionCount": 0,
+    "activeQuaternionDeltaRad": 5.16191365590357e-08,
+    "activeTipDeltaM": 0,
+    "seekQuaternionDelta": 0,
+    "maxSpeedBase": 1.0526405901185298,
+    "maxSpeedCandidate": 2.0727607176401364,
+    "maxRateBase": 23.02431459225953,
+    "maxRateCandidate": 29.424648215606908,
+    "totals": {
+      "baseCore": 76,
+      "candidateCore": 59,
+      "maxBaseCore": 7.9792543742497335,
+      "maxCandidateCore": 7.929197652392639,
+      "newPairs": 0
+    }
+  },
+  {
+    "file": "lh91-index-v2-5000.json",
+    "begin": 91.459,
+    "end": 91.519,
+    "fps": 5000,
+    "hi": 0,
+    "samples": 312,
+    "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+    "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/lh91-index-v2.json",
+    "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-refrains-frozen-v3.json",
+    "regressionCount": 0,
+    "activeQuaternionDeltaRad": 5.960464477539063e-08,
+    "activeTipDeltaM": 0,
+    "seekQuaternionDelta": 0,
+    "maxSpeedBase": 1.0491926581873374,
+    "maxSpeedCandidate": 2.0753818572555613,
+    "maxRateBase": 23.02431459225953,
+    "maxRateCandidate": 29.61369559095693,
+    "totals": {
+      "baseCore": 298,
+      "candidateCore": 218,
+      "maxBaseCore": 7.9968676184946075,
+      "maxCandidateCore": 7.988751900535607,
+      "newPairs": 0
+    }
+  },
+  {
+    "time": 91.47706333333662,
+    "hi": 0,
+    "fi": 1,
+    "before": {
+      "time": 91.47706333333662,
+      "side": "L",
+      "finger": 2,
+      "maxCoreMm": 7.460030145122976,
+      "coreVertices": 25,
+      "keyMidis": [
+        57
+      ],
+      "deepest": {
+        "id": 7639,
+        "midi": 57,
+        "world": [
+          -0.10488841826341178,
+          0.7345399702348566,
+          0.23139140284751214
+        ]
+      },
+      "ownPalmPairs": 0,
+      "neighborPairs": [
+        0,
+        0,
+        18,
+        0,
+        0
+      ],
+      "previous": "p00424",
+      "previousEnd": 90.40712599999999,
+      "next": "p00434",
+      "nextTime": 91.530895
+    },
+    "after": {
+      "time": 91.47706333333662,
+      "side": "L",
+      "finger": 2,
+      "maxCoreMm": 2.647093112757959,
+      "coreVertices": 9,
+      "keyMidis": [
+        59,
+        58
+      ],
+      "deepest": {
+        "id": 8717,
+        "midi": 58,
+        "world": [
+          -0.09353087255432402,
+          0.7465402905991684,
+          0.22135290527791662
+        ]
+      },
+      "ownPalmPairs": 0,
+      "neighborPairs": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00424",
+      "previousEnd": 90.40712599999999,
+      "next": "p00434",
+      "nextTime": 91.530895
+    }
+  },
+  {
+    "rig": "/workspace/scratch/2e8cc8e77f98/active-hand-fit/pianist-arms-compact5-arc.mjs",
+    "score": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-refrains-frozen-v3.json",
+    "curves": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/lh91-index-v2.json",
+    "begin": 90.407126,
+    "end": 91.530895,
+    "fps": 120,
+    "samples": 167,
+    "outsideSamples": 151,
+    "insideSamples": 16,
+    "outsideQuaternionComponentDelta": 0,
+    "activeQuaternionComponentDelta": 0,
+    "activeTipDeltaM": 0,
+    "failures": [],
+    "scope": "Complete union of affected gap times at120Hz plus exact note/curve/gap boundaries. Outside bounded curve support all joint components remain bit-identical, therefore the same fixed skeleton and skinning input is unchanged; changed windows require separate actual-surface checks. This is finite deterministic parity, not continuous clearance."
+  }
+]

@@ -1,0 +1,1749 @@
+{
+  "runtimePath": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/rig.mjs",
+  "runtimeSha256": "3fa8112b9a9a2f64029161953a2284854004dae466de13da29f88371638f129b",
+  "scoreSha256": "ec825ca439f2fe45ab18aac621ac2d597e377115a8420e67c494517fb3722a62",
+  "primary": {
+    "frames": 754,
+    "blockerFrames": 0,
+    "rows": [],
+    "maxKeyDepth": 0,
+    "maxPalmDepth": 0,
+    "maxContactError": 0.13177727498687325
+  },
+  "neighbor": {
+    "frames": 1105,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 78,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0,
+    "rows": [
+      {
+        "time": 103.891237,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110763784504535
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.891543909,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110763804041048
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.89166666666897,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076381185784
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.89956933333335,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110764316255234
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.90000000000231,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076434378869
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.90790266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076484883682
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.90833333333565,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110764876321255
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.91623600000001,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076537901406
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.91666666666899,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076540628686
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.92456933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110765903621154
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.92500000000233,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076593052382
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.93290266666668,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076641953613
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.93333333333567,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076644590644
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.941236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076692368298
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.94166666666901,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076694936083
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.94956933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110767413052557
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.95000000000235,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076743788613
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.95790266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110767884722092
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.95833333333569,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076790856387
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.96623600000001,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076833587604
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.96666666666903,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110768358583
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.96821325,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076843961312
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.97456933333333,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110768763815583
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.97500000000237,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076878525209
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.98290266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076916597486
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.98333333333571,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769186013563
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.991236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769539945837
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.99166666666905,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769558466183
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 103.99956933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769883267007
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.00000000000239,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769900066967
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.00790266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770189933683
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.00833333333573,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770204706354
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.016236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770456353034
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.01666666666907,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077046898799
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.02456933333335,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770682410376
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.02500000000241,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077069313021
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.03290266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770873227703
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.03333333333575,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770882128127
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.04123600000001,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771028430385
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.04166666666909,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771035472196
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.0451905,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077108940545
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.04956933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771147289743
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.05000000000243,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771152431923
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.05790266666668,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077122925212
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.05833333333577,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771232478487
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.066236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077127396615
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.06666666666911,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771275264262
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.07456933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077128127132
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.07500000000245,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077128063329
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.08290266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077125121663
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.08333333333579,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771248655053
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.09123600000001,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771184131332
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.09166666666913,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110771179664896
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.09956933333333,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077108035274
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.10000000000247,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077107400201
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.10790266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.00241107709404376
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.1083333333358,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077093224078
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.116236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770765229613
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.11666666666915,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770755238413
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.12216775,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077061961124
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.12456933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770555822694
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.12500000000249,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077054409339
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.13290266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411077031346449
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.13333333333583,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770300071033
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.141236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770039576734
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.14166666666917,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110770024593814
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.14956933333335,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076973570902
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.1500000000025,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769719221607
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.15790266666667,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002411076940358769
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.15833333333585,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024110769385692096
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.16623600000001,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.002410744950352757
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.16666666666919,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0024101869601920157
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.17456933333334,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0022449457069796622
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.17500000000253,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0022238638898655393
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.18290266666668,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0015994456759836826
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.18333333333587,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0015546454695007641
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.191236,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.000659260113550714
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      },
+      {
+        "time": 104.1916666666692,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 0.0006106393866929372
+          }
+        ],
+        "newMeshContacts": [],
+        "newPairs": []
+      }
+    ]
+  },
+  "nonfinite": 0,
+  "summary": {
+    "samples": 1105,
+    "primaryFrames": 754,
+    "primaryBlockerFrames": 0,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 78,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0
+  },
+  "scope": "120Hz uniform windows plus every intersecting note complete held interval on its own 120Hz grid and quarter/boundary samples. All >65% digit and palm-owned vertices vs 88 beveled-key cores; exact >65%-owned surface triangles. Active surface-pair gate includes held thumbs and excludes unrelated idle thumbs, handled by root; all thumb raw rows retained. No skin contact tolerance or whole hand visual acceptance inferred."
+}

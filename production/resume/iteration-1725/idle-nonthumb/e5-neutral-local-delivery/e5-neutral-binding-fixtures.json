@@ -1,0 +1,37 @@
+[
+  {
+    "fixture": "accepted",
+    "pass": true,
+    "exitCode": 0
+  },
+  {
+    "fixture": "score mismatch",
+    "pass": true,
+    "exitCode": 1
+  },
+  {
+    "fixture": "changed gap",
+    "pass": true,
+    "exitCode": 1
+  },
+  {
+    "fixture": "bad norm",
+    "pass": true,
+    "exitCode": 1
+  },
+  {
+    "fixture": "bad alpha",
+    "pass": true,
+    "exitCode": 1
+  },
+  {
+    "fixture": "bad mode",
+    "pass": true,
+    "exitCode": 1
+  },
+  {
+    "fixture": "endpoint changed",
+    "pass": true,
+    "exitCode": 1
+  }
+]

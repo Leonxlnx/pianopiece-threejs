@@ -1,0 +1,84 @@
+[
+  {
+    "materialIndex": 24,
+    "material": {
+      "name": "Lid interior lacquer",
+      "basic": false,
+      "emissiveIntensity": 1,
+      "color": [
+        0.005181516700061659,
+        0.006512090790025684,
+        0.008568125615105716
+      ],
+      "roughness": 0.26,
+      "metalness": 0.025,
+      "clearcoat": 0.85,
+      "clearcoatRoughness": 0.14,
+      "envMapIntensity": 1,
+      "mapFlipY": false,
+      "normalFlipY": false,
+      "mapAnisotropy": 1,
+      "normalAnisotropy": 1,
+      "alpha": 1,
+      "map": null,
+      "normal": null,
+      "normalScale": [
+        1,
+        1
+      ],
+      "uvRepeat": [
+        1,
+        1
+      ],
+      "uvOffset": [
+        0,
+        0
+      ],
+      "alphaTest": 0,
+      "emissive": [
+        0,
+        0,
+        0
+      ],
+      "doubleSided": false
+    },
+    "meshes": [
+      {
+        "index": 1056,
+        "name": "_1057",
+        "vertices": 7044,
+        "triangles": 2348,
+        "matrix": [
+          0.9047516632199635,
+          0.4259394650659996,
+          0,
+          0,
+          -0.4259394650659996,
+          0.9047516632199635,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          -0.06888061579463145,
+          1.2770260888201799,
+          0,
+          1
+        ],
+        "groups": [
+          {
+            "start": 0,
+            "count": 870,
+            "materialIndex": 0
+          },
+          {
+            "start": 870,
+            "count": 6174,
+            "materialIndex": 1
+          }
+        ]
+      }
+    ]
+  }
+]

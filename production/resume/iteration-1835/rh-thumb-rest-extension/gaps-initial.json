@@ -1,0 +1,74 @@
+[
+  {
+    "name": "g60",
+    "previous": "p00266",
+    "next": "p00304",
+    "end": 60.549407,
+    "start": 67.453807,
+    "target": [
+      0.2,
+      0.45,
+      0.2
+    ],
+    "release": 0.4,
+    "arrival": 0.4,
+    "ramp": 0.1,
+    "arrivalRamp": 0.04,
+    "releaseLift": 0.015,
+    "arrivalLift": 0.015
+  },
+  {
+    "name": "g95",
+    "previous": "p00451",
+    "next": "p00459",
+    "end": 95.039182,
+    "start": 95.94507,
+    "target": [
+      0.2,
+      0.45,
+      0.2
+    ],
+    "release": 0.4,
+    "arrival": 0.4,
+    "ramp": 0.1,
+    "arrivalRamp": 0.04,
+    "releaseLift": 0.015,
+    "arrivalLift": 0.015
+  },
+  {
+    "name": "g187",
+    "previous": "p00906",
+    "next": "p00933",
+    "end": 187.595535,
+    "start": 191.369156,
+    "target": [
+      0.2,
+      0.45,
+      0.2
+    ],
+    "release": 0.4,
+    "arrival": 0.4,
+    "ramp": 0.1,
+    "arrivalRamp": 0.04,
+    "releaseLift": 0.015,
+    "arrivalLift": 0.015
+  },
+  {
+    "name": "g222",
+    "previous": "p01058",
+    "next": "p01065",
+    "end": 222.646022,
+    "start": 224.574784,
+    "target": [
+      0.2,
+      0.45,
+      0.2
+    ],
+    "release": 0.4,
+    "arrival": 0.4,
+    "ramp": 0.1,
+    "arrivalRamp": 0.04,
+    "releaseLift": 0.015,
+    "arrivalLift": 0.015
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "source": "../hand-runtime/pianist-arms-compact5.ts",
+  "sourceSha256": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+  "candidateTsSha256": "271e0cfd5e8b86c898e0d126c9fbdfdfd2454f6ed6867555a91a22ac24b2890f",
+  "candidateMjsSha256": "ddab0688b9b860d236239722da4063ac4832b25c3bb9248af9eaa3db2634527d",
+  "onlyChangedRegion": "fingerPoints nonthumb normal",
+  "before": " const natural=e.clone().cross(v3(0,1,0)).normalize(),stable=v3(1,0,0).addScaledVector(e,-e.x).normalize();\n const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize();",
+  "after": " const q=palmQ??f.bones[0].parent!.getWorldQuaternion(new THREE.Quaternion());\n const reference=v3(-1,0,0).applyQuaternion(q);normal=reference.addScaledVector(e,-reference.dot(e));\n if(normal.lengthSq()<1e-8){\n  const natural=e.clone().cross(v3(0,1,0)).normalize(),stable=v3(1,0,0).addScaledVector(e,-e.x).normalize();\n  const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024));\n }\n normal.normalize();"
+}

@@ -1,0 +1,41 @@
+{
+  "webs": [
+    {
+      "name": "Connected cast plate web 0",
+      "vertices": 372,
+      "minY": 0.824999988079071,
+      "maxY": 0.8504999876022339
+    },
+    {
+      "name": "Connected cast plate web 1",
+      "vertices": 372,
+      "minY": 0.824999988079071,
+      "maxY": 0.8504999876022339
+    },
+    {
+      "name": "Connected cast plate web 2",
+      "vertices": 372,
+      "minY": 0.824999988079071,
+      "maxY": 0.8504999876022339
+    },
+    {
+      "name": "Connected cast plate web 3",
+      "vertices": 372,
+      "minY": 0.824999988079071,
+      "maxY": 0.8504999876022339
+    }
+  ],
+  "strings": [
+    {
+      "name": "Individual steel strings",
+      "minY": 0.8545395731925964
+    },
+    {
+      "name": "Copper-wound bass strings",
+      "minY": 0.8896896839141846
+    }
+  ],
+  "minimumStringClearanceMm": 4.039585590362549,
+  "minimumSoundboardClearanceMm": 4.999988079071094,
+  "scope": "Actual extruded web and string vertex height bounds. Linear triangle interiors cannot exceed vertex extrema. Soundboard top includes its6mmbevel. Global vertical separation, not a brand-specific instrument measurement."
+}

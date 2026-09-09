@@ -1,0 +1,882 @@
+[
+  {
+    "id": "p00020",
+    "time": 6.909129,
+    "duration": 0.368615,
+    "side": "R",
+    "midi": 67,
+    "baseline": {
+      "keyCore": 2.4863197520724745,
+      "thumbKeyCore": 2.4863197520724745,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863197520724745,
+      "maximumPadGap": -2.486319697584727,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 13,
+      "pointContactMm": 0.00010878024575749457,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.010209319752072475,
+        0.5
+      ],
+      "loss": 87,
+      "summary": {
+        "keyCore": 1.9958529639308997,
+        "thumbKeyCore": 1.9958529639308997,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.9958529639308997,
+        "maximumPadGap": -1.995852911254481,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 12,
+        "pointContactMm": 4.124583145070613e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00025",
+    "time": 8.44759,
+    "duration": 0.368615,
+    "side": "R",
+    "midi": 67,
+    "baseline": {
+      "keyCore": 2.4863198165121503,
+      "thumbKeyCore": 2.4863198165121503,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863198165121503,
+      "maximumPadGap": -2.486319745828025,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 28,
+      "pointContactMm": 0.00010831958914677338,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.27,
+        0.009,
+        -0.1875
+      ],
+      "loss": 108,
+      "summary": {
+        "keyCore": 2.207019715672165,
+        "thumbKeyCore": 2.207019715672165,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.207019715672165,
+        "maximumPadGap": -2.2070196470236336,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 21,
+        "pointContactMm": 4.571117294863337e-05,
+        "bad": true
+      }
+    },
+    "trials": 136
+  },
+  {
+    "id": "p00029",
+    "time": 9.216821,
+    "duration": 0.776,
+    "side": "R",
+    "midi": 67,
+    "baseline": {
+      "keyCore": 2.4863197021622874,
+      "thumbKeyCore": 2.4863197021622874,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863197021622874,
+      "maximumPadGap": -2.4863196018694023,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 26,
+      "pointContactMm": 0.00010894227339612482,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.009959319702162288,
+        -0.0375
+      ],
+      "loss": 109.5,
+      "summary": {
+        "keyCore": 2.1929455925734365,
+        "thumbKeyCore": 2.1929455925734365,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1929455925734365,
+        "maximumPadGap": -2.1929454902592793,
+        "missingPad": 0,
+        "ownPairs": 47,
+        "neighborPairs": 26,
+        "pointContactMm": 1.1902815254952624e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00035",
+    "time": 10.816821,
+    "duration": 0.784,
+    "side": "R",
+    "midi": 67,
+    "baseline": {
+      "keyCore": 2.4863198306007694,
+      "thumbKeyCore": 2.4863198306007694,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863198306007694,
+      "maximumPadGap": -2.4863196364585116,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0001083736997336464,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.01170931983060077,
+        0.5375
+      ],
+      "loss": 66,
+      "summary": {
+        "keyCore": 1.4720636815998,
+        "thumbKeyCore": 1.4720636815998,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.4720636815998,
+        "maximumPadGap": -1.4720634634707297,
+        "missingPad": 0,
+        "ownPairs": 44,
+        "neighborPairs": 0,
+        "pointContactMm": 4.268061386519509e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00063",
+    "time": 17.263484,
+    "duration": 0.320828,
+    "side": "L",
+    "midi": 50,
+    "baseline": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": 1.6012268684855169,
+      "maximumPadGap": 1.6012269614628094,
+      "missingPad": 0,
+      "ownPairs": 16,
+      "neighborPairs": 0,
+      "pointContactMm": 3.509539303033913e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.276,
+        0.009,
+        0
+      ],
+      "loss": 9,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 2.173693395893017,
+        "maximumPadGap": 2.173693534759491,
+        "missingPad": 0,
+        "ownPairs": 6,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00011575957237282286,
+        "bad": true
+      }
+    },
+    "trials": 127
+  },
+  {
+    "id": "p00074",
+    "time": 19.697325,
+    "duration": 0.324837,
+    "side": "L",
+    "midi": 55,
+    "baseline": {
+      "keyCore": 2.610081642728357,
+      "thumbKeyCore": 2.610081642728357,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.610081642728357,
+      "maximumPadGap": 0.39587849435662736,
+      "missingPad": 0,
+      "ownPairs": 50,
+      "neighborPairs": 25,
+      "pointContactMm": 0.00015468015546310601,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.010272081642728357,
+        0
+      ],
+      "loss": 88.5,
+      "summary": {
+        "keyCore": 1.5458757637178966,
+        "thumbKeyCore": 1.5458757637178966,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5458757637178966,
+        "maximumPadGap": 1.3204810071349993,
+        "missingPad": 0,
+        "ownPairs": 30,
+        "neighborPairs": 29,
+        "pointContactMm": 0.0001040046814376863,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00077",
+    "time": 20.059162,
+    "duration": 0.332838,
+    "side": "R",
+    "midi": 79,
+    "baseline": {
+      "keyCore": 2.4863135647846812,
+      "thumbKeyCore": 2.4863135647846812,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863135647846812,
+      "maximumPadGap": -2.486313437325083,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 26,
+      "pointContactMm": 0.00013278046970832168,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.009959313564784682,
+        -0.0375
+      ],
+      "loss": 111,
+      "summary": {
+        "keyCore": 2.192948861274968,
+        "thumbKeyCore": 2.192948861274968,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.192948861274968,
+        "maximumPadGap": -2.192948732513633,
+        "missingPad": 0,
+        "ownPairs": 48,
+        "neighborPairs": 26,
+        "pointContactMm": 3.159042254912996e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00090",
+    "time": 22.582066,
+    "duration": 0.38159,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 1.7066134484136075,
+      "thumbKeyCore": 1.7066134484136075,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.7066134484136075,
+      "maximumPadGap": -1.7066133128259553,
+      "missingPad": 0,
+      "ownPairs": 29,
+      "neighborPairs": 41,
+      "pointContactMm": 4.4425575180020524e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.27,
+        0.009,
+        0.3
+      ],
+      "loss": 91.5,
+      "summary": {
+        "keyCore": 1.4222744457760284,
+        "thumbKeyCore": 1.4222744457760284,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.4222744457760284,
+        "maximumPadGap": -1.4222743160732243,
+        "missingPad": 0,
+        "ownPairs": 24,
+        "neighborPairs": 37,
+        "pointContactMm": 0.0001245698071913544,
+        "bad": true
+      }
+    },
+    "trials": 127
+  },
+  {
+    "id": "p00091",
+    "time": 23.295957,
+    "duration": 0.328446,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 1.7066134675207678,
+      "thumbKeyCore": 1.7066134675207678,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.7066134675207678,
+      "maximumPadGap": -1.706613360006326,
+      "missingPad": 0,
+      "ownPairs": 29,
+      "neighborPairs": 35,
+      "pointContactMm": 4.497337157830849e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.009773,
+        0.2625
+      ],
+      "loss": 87,
+      "summary": {
+        "keyCore": 2.0447650719018773,
+        "thumbKeyCore": 2.0447650719018773,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.183702804309795,
+        "maximumPadGap": -2.1837027051659907,
+        "missingPad": 0,
+        "ownPairs": 24,
+        "neighborPairs": 34,
+        "pointContactMm": 4.4620933487056517e-05,
+        "bad": true
+      }
+    },
+    "trials": 120
+  },
+  {
+    "id": "p00094",
+    "time": 23.98424,
+    "duration": 0.286632,
+    "side": "L",
+    "midi": 50,
+    "baseline": {
+      "keyCore": 3.138517949299313,
+      "thumbKeyCore": 3.138517949299313,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.138517949299313,
+      "maximumPadGap": -2.9044488919069966,
+      "missingPad": 0,
+      "ownPairs": 54,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00014654999811404844,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.010300517949299313,
+        -0.15
+      ],
+      "loss": 76.5,
+      "summary": {
+        "keyCore": 2.2184713380052345,
+        "thumbKeyCore": 2.2184713380052345,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.2184713380052345,
+        "maximumPadGap": -2.1512597356581065,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00017009854533003374,
+        "bad": true
+      }
+    },
+    "trials": 128
+  },
+  {
+    "id": "p00107",
+    "time": 26.439101,
+    "duration": 0.665655,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.486314792799593,
+      "thumbKeyCore": 2.486314792799593,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.486314792799593,
+      "maximumPadGap": -2.486314604216888,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00012678036520497258,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.010209314792799594,
+        0.5
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 1.995857562336334,
+        "thumbKeyCore": 1.995857562336334,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.995857562336334,
+        "maximumPadGap": -1.9958574668348383,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 0,
+        "pointContactMm": 2.332301486516606e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00117",
+    "time": 28.508066,
+    "duration": 0.303828,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.748699030732382,
+      "thumbKeyCore": 2.748699030732382,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.596190970954094,
+      "maximumPadGap": -2.486314698435965,
+      "missingPad": 0,
+      "ownPairs": 50,
+      "neighborPairs": 15,
+      "pointContactMm": 0.00012707964110881165,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.009773,
+        -0.3
+      ],
+      "loss": 91.5,
+      "summary": {
+        "keyCore": 1.5102384045732054,
+        "thumbKeyCore": 1.5102384045732054,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5102384045732054,
+        "maximumPadGap": -1.2201982940633904,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 10,
+        "pointContactMm": 0.00012616483454764505,
+        "bad": true
+      }
+    },
+    "trials": 129
+  },
+  {
+    "id": "p00119",
+    "time": 28.861894,
+    "duration": 0.311828,
+    "side": "R",
+    "midi": 79,
+    "baseline": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.1974696294734235,
+      "maximumPadGap": -0.1974694757373996,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 3.9017090335330534e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.27,
+        0.007874999999999998,
+        0
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 2.1723430473080674,
+        "thumbKeyCore": 2.1723430473080674,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1723430473080674,
+        "maximumPadGap": -2.172342882060807,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 1.1431356026425427e-05,
+        "bad": true
+      }
+    },
+    "trials": 127
+  },
+  {
+    "id": "p00124",
+    "time": 29.895396,
+    "duration": 0.332837,
+    "side": "R",
+    "midi": 79,
+    "baseline": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.19746985212698576,
+      "maximumPadGap": -0.1974696844427859,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 3.891869695263438e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.27,
+        0.007874999999999998,
+        0
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 2.1723432693785405,
+        "thumbKeyCore": 2.1723432693785405,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1723432693785405,
+        "maximumPadGap": -2.172343098877483,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 1.1257681458468792e-05,
+        "bad": true
+      }
+    },
+    "trials": 127
+  },
+  {
+    "id": "p00130",
+    "time": 31.277745,
+    "duration": 0.324837,
+    "side": "L",
+    "midi": 62,
+    "baseline": {
+      "keyCore": 2.701410259693171,
+      "thumbKeyCore": 2.701410259693171,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.701410259693171,
+      "maximumPadGap": 0.39587310493194305,
+      "missingPad": 0,
+      "ownPairs": 59,
+      "neighborPairs": 7,
+      "pointContactMm": 9.720127636455664e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.272,
+        0.006,
+        0.675
+      ],
+      "loss": 42,
+      "summary": {
+        "keyCore": 1.7165589553674865,
+        "thumbKeyCore": 1.7165589553674865,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.7165589553674865,
+        "maximumPadGap": -0.1832758006344859,
+        "missingPad": 0,
+        "ownPairs": 28,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00013968844583507614,
+        "bad": true
+      }
+    },
+    "trials": 136
+  },
+  {
+    "id": "p00131",
+    "time": 31.290745,
+    "duration": 0.332837,
+    "side": "R",
+    "midi": 79,
+    "baseline": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.19746984361801445,
+      "maximumPadGap": -0.19746969955170002,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 3.974560780776533e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.27,
+        0.008624999999999999,
+        0.075
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 1.5301032111108004,
+        "thumbKeyCore": 1.5301032111108004,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5301032111108004,
+        "maximumPadGap": -1.530103070151223,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 6.923318985276092e-05,
+        "bad": true
+      }
+    },
+    "trials": 127
+  },
+  {
+    "id": "p00191",
+    "time": 43.951893,
+    "duration": 0.320446,
+    "side": "R",
+    "midi": 74,
+    "baseline": {
+      "keyCore": 3.026444183596211,
+      "thumbKeyCore": 3.026444183596211,
+      "palmKeyCore": 0,
+      "minimumPadGap": -4.184169943461824,
+      "maximumPadGap": -4.1841698203776145,
+      "missingPad": 0,
+      "ownPairs": 44,
+      "neighborPairs": 12,
+      "pointContactMm": 0.00014530872106509698,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.0125,
+        0.625
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.772699215982664,
+        "maximumPadGap": -0.7726991349787937,
+        "missingPad": 0,
+        "ownPairs": 32,
+        "neighborPairs": 14,
+        "pointContactMm": 0.0001168224995336856,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00201",
+    "time": 46.469405,
+    "duration": 0.315837,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.9219038780720075,
+      "thumbKeyCore": 2.9219038780720075,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.810794847027066,
+      "maximumPadGap": -3.8107947483216886,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 7.20989710636182e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.011533794847027067,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436625342159,
+        "thumbKeyCore": 1.637436625342159,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094555765733366,
+        "maximumPadGap": -0.5094555282020297,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 1.505091686913833e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00206",
+    "time": 47.506917,
+    "duration": 0.332837,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.9219040609502756,
+      "thumbKeyCore": 2.9219040609502756,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.8107950326914386,
+      "maximumPadGap": -3.8107948905887756,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 7.115619608882365e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.01153379503269144,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.6374366686478792,
+        "thumbKeyCore": 1.6374366686478792,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.509446231510724,
+        "maximumPadGap": -0.5094461532594297,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 1.4407624294533874e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00227",
+    "time": 51.660886,
+    "duration": 0.332837,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.9219040592367573,
+      "thumbKeyCore": 2.9219040592367573,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.810795031957581,
+      "maximumPadGap": -3.810794905181658,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 7.124046755098248e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.011533795031957582,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436674213122,
+        "thumbKeyCore": 1.637436674213122,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094462756317641,
+        "maximumPadGap": -0.5094461451450316,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 1.4470486040664884e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00236",
+    "time": 53.414072,
+    "duration": 0.315837,
+    "side": "R",
+    "midi": 76,
+    "baseline": {
+      "keyCore": 2.92190384501112,
+      "thumbKeyCore": 2.92190384501112,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.8107948098793365,
+      "maximumPadGap": -3.8107946688162864,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 7.259706299264856e-05,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        null,
+        0.011533794809879337,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436694180816,
+        "thumbKeyCore": 1.637436694180816,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094555925955202,
+        "maximumPadGap": -0.5094555124740552,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 1.5502857920976768e-05,
+        "bad": true
+      }
+    },
+    "trials": 130
+  },
+  {
+    "id": "p00248",
+    "time": 55.906367,
+    "duration": 0.320446,
+    "side": "R",
+    "midi": 74,
+    "baseline": {
+      "keyCore": 3.5954238653605475,
+      "thumbKeyCore": 3.5954238653605475,
+      "palmKeyCore": 0,
+      "minimumPadGap": -4.898160008082741,
+      "maximumPadGap": -4.898159881863817,
+      "missingPad": 0,
+      "ownPairs": 55,
+      "neighborPairs": 6,
+      "pointContactMm": 0.00017875445936254593,
+      "bad": true
+    },
+    "bestBoundedTrial": {
+      "p": [
+        0.272,
+        0.012,
+        0.75
+      ],
+      "loss": 49.5,
+      "summary": {
+        "keyCore": 1.4448793263381887,
+        "thumbKeyCore": 1.4448793263381887,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.8620519396794757,
+        "maximumPadGap": -0.862051902077221,
+        "missingPad": 0,
+        "ownPairs": 33,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00013761771377602833,
+        "bad": true
+      }
+    },
+    "trials": 136
+  }
+]

@@ -1,0 +1,2396 @@
+{
+  "transitions": [
+    {
+      "hand": "L",
+      "from": "p00006",
+      "to": "p00008",
+      "fromRelease": 2.654308,
+      "toAttack": 2.704308,
+      "gap": 0.050000000000000266,
+      "reviewStart": 2.534308,
+      "reviewEnd": 2.8243080000000003,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00008",
+      "to": "p00013",
+      "fromRelease": 2.946409,
+      "toAttack": 4.228164,
+      "gap": 1.2817549999999995,
+      "reviewStart": 2.826409,
+      "reviewEnd": 4.348164,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00013",
+      "to": "p00017",
+      "fromRelease": 4.848790999999999,
+      "toAttack": 5.747151,
+      "gap": 0.89836,
+      "reviewStart": 4.728790999999999,
+      "reviewEnd": 5.867151,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00017",
+      "to": "p00024",
+      "fromRelease": 5.957786,
+      "toAttack": 8.049975,
+      "gap": 2.0921890000000003,
+      "reviewStart": 5.8377859999999995,
+      "reviewEnd": 8.169974999999999,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00024",
+      "to": "p00026",
+      "fromRelease": 8.769205,
+      "toAttack": 8.819205,
+      "gap": 0.050000000000000266,
+      "reviewStart": 8.649205,
+      "reviewEnd": 8.939205,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00026",
+      "to": "p00031",
+      "fromRelease": 9.167821,
+      "toAttack": 10.003821,
+      "gap": 0.8360000000000001,
+      "reviewStart": 9.047821,
+      "reviewEnd": 10.123821,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00031",
+      "to": "p00033",
+      "fromRelease": 10.353821,
+      "toAttack": 10.403821,
+      "gap": 0.05000000000000038,
+      "reviewStart": 10.233821,
+      "reviewEnd": 10.523821,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00042",
+      "to": "p00056",
+      "fromRelease": 13.426332,
+      "toAttack": 15.884174,
+      "gap": 2.457842,
+      "reviewStart": 13.306332000000001,
+      "reviewEnd": 16.004174,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00056",
+      "to": "p00059",
+      "fromRelease": 16.205001,
+      "toAttack": 16.573829,
+      "gap": 0.36882800000000016,
+      "reviewStart": 16.085001,
+      "reviewEnd": 16.693829,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00074",
+      "to": "p00084",
+      "fromRelease": 20.022161999999998,
+      "toAttack": 21.466728,
+      "gap": 1.4445660000000005,
+      "reviewStart": 19.902161999999997,
+      "reviewEnd": 21.586728,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00084",
+      "to": "p00086",
+      "fromRelease": 21.778174,
+      "toAttack": 21.828174,
+      "gap": 0.05000000000000082,
+      "reviewStart": 21.658174,
+      "reviewEnd": 21.948174,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00130",
+      "to": "p00137",
+      "fromRelease": 31.602581999999998,
+      "toAttack": 32.698311,
+      "gap": 1.0957289999999973,
+      "reviewStart": 31.482581999999997,
+      "reviewEnd": 32.818310999999994,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00137",
+      "to": "p00138",
+      "fromRelease": 33.00975699999999,
+      "toAttack": 33.059757,
+      "gap": 0.05000000000000082,
+      "reviewStart": 32.889756999999996,
+      "reviewEnd": 33.179756999999995,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00176",
+      "to": "p00184",
+      "fromRelease": 41.779053,
+      "toAttack": 42.858164,
+      "gap": 1.079111000000003,
+      "reviewStart": 41.659053,
+      "reviewEnd": 42.978164,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00184",
+      "to": "p00190",
+      "fromRelease": 43.016863,
+      "toAttack": 43.929893,
+      "gap": 0.9130299999999977,
+      "reviewStart": 42.896863,
+      "reviewEnd": 44.049893,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00190",
+      "to": "p00192",
+      "fromRelease": 44.241338999999996,
+      "toAttack": 44.291339,
+      "gap": 0.05000000000000082,
+      "reviewStart": 44.121339,
+      "reviewEnd": 44.411339,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00192",
+      "to": "p00202",
+      "fromRelease": 44.990230000000004,
+      "toAttack": 46.796242,
+      "gap": 1.8060119999999986,
+      "reviewStart": 44.87023000000001,
+      "reviewEnd": 46.916242,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00202",
+      "to": "p00204",
+      "fromRelease": 47.095079,
+      "toAttack": 47.145079,
+      "gap": 0.05000000000000315,
+      "reviewStart": 46.975079,
+      "reviewEnd": 47.265079,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00204",
+      "to": "p00205",
+      "fromRelease": 47.443917000000006,
+      "toAttack": 47.493917,
+      "gap": 0.050000000000000655,
+      "reviewStart": 47.32391700000001,
+      "reviewEnd": 47.613917,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00219",
+      "to": "p00230",
+      "fromRelease": 50.589403000000004,
+      "toAttack": 52.345561,
+      "gap": 1.7561579999999934,
+      "reviewStart": 50.46940300000001,
+      "reviewEnd": 52.465560999999994,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00230",
+      "to": "p00232",
+      "fromRelease": 52.644397999999995,
+      "toAttack": 52.694398,
+      "gap": 0.05000000000000315,
+      "reviewStart": 52.524398,
+      "reviewEnd": 52.814398,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00232",
+      "to": "p00237",
+      "fromRelease": 52.976235,
+      "toAttack": 53.740909,
+      "gap": 0.7646740000000024,
+      "reviewStart": 52.856235000000005,
+      "reviewEnd": 53.860909,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00237",
+      "to": "p00239",
+      "fromRelease": 54.039747000000006,
+      "toAttack": 54.089747,
+      "gap": 0.050000000000000655,
+      "reviewStart": 53.91974700000001,
+      "reviewEnd": 54.209747,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00239",
+      "to": "p00244",
+      "fromRelease": 54.242879,
+      "toAttack": 55.161475,
+      "gap": 0.9185960000000002,
+      "reviewStart": 54.122879000000005,
+      "reviewEnd": 55.281475,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00244",
+      "to": "p00246",
+      "fromRelease": 55.472921,
+      "toAttack": 55.522921,
+      "gap": 0.049999999999993716,
+      "reviewStart": 55.352921,
+      "reviewEnd": 55.642920999999994,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00287",
+      "to": "p00298",
+      "fromRelease": 64.51618099999999,
+      "toAttack": 66.28895,
+      "gap": 1.7727690000000051,
+      "reviewStart": 64.39618099999998,
+      "reviewEnd": 66.40895,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00298",
+      "to": "p00300",
+      "fromRelease": 66.596093,
+      "toAttack": 66.646093,
+      "gap": 0.04999999999999355,
+      "reviewStart": 66.47609299999999,
+      "reviewEnd": 66.766093,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00300",
+      "to": "p00310",
+      "fromRelease": 67.336378,
+      "toAttack": 68.776635,
+      "gap": 1.4402570000000054,
+      "reviewStart": 67.21637799999999,
+      "reviewEnd": 68.896635,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00310",
+      "to": "p00313",
+      "fromRelease": 68.982596,
+      "toAttack": 69.46629,
+      "gap": 0.4836940000000019,
+      "reviewStart": 68.862596,
+      "reviewEnd": 69.58629,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00313",
+      "to": "p00317",
+      "fromRelease": 69.697251,
+      "toAttack": 70.155945,
+      "gap": 0.45869400000000193,
+      "reviewStart": 69.57725099999999,
+      "reviewEnd": 70.27594500000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00317",
+      "to": "p00321",
+      "fromRelease": 70.361907,
+      "toAttack": 70.8456,
+      "gap": 0.4836930000000019,
+      "reviewStart": 70.241907,
+      "reviewEnd": 70.96560000000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00321",
+      "to": "p00333",
+      "fromRelease": 71.05640000000001,
+      "toAttack": 73.235882,
+      "gap": 2.1794819999999993,
+      "reviewStart": 70.9364,
+      "reviewEnd": 73.35588200000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00333",
+      "to": "p00335",
+      "fromRelease": 73.526791,
+      "toAttack": 73.576791,
+      "gap": 0.04999999999999638,
+      "reviewStart": 73.406791,
+      "reviewEnd": 73.696791,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00329",
+      "to": "p00337",
+      "fromRelease": 72.543064,
+      "toAttack": 73.9307,
+      "gap": 1.3876359999999957,
+      "reviewStart": 72.423064,
+      "reviewEnd": 74.0507,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00337",
+      "to": "p00353",
+      "fromRelease": 74.203017,
+      "toAttack": 76.689321,
+      "gap": 2.486304000000005,
+      "reviewStart": 74.083017,
+      "reviewEnd": 76.80932100000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00335",
+      "to": "p00341",
+      "fromRelease": 73.785008,
+      "toAttack": 74.607356,
+      "gap": 0.8223479999999957,
+      "reviewStart": 73.665008,
+      "reviewEnd": 74.727356,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00341",
+      "to": "p00343",
+      "fromRelease": 74.902183,
+      "toAttack": 74.952183,
+      "gap": 0.050000000000009315,
+      "reviewStart": 74.78218299999999,
+      "reviewEnd": 75.07218300000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00343",
+      "to": "p00348",
+      "fromRelease": 75.179333,
+      "toAttack": 75.986666,
+      "gap": 0.8073329999999945,
+      "reviewStart": 75.059333,
+      "reviewEnd": 76.106666,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00348",
+      "to": "p00350",
+      "fromRelease": 76.281494,
+      "toAttack": 76.331494,
+      "gap": 0.05000000000000682,
+      "reviewStart": 76.16149399999999,
+      "reviewEnd": 76.45149400000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00350",
+      "to": "p00356",
+      "fromRelease": 76.59732100000001,
+      "toAttack": 77.390607,
+      "gap": 0.7932859999999964,
+      "reviewStart": 76.477321,
+      "reviewEnd": 77.51060700000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00356",
+      "to": "p00358",
+      "fromRelease": 77.69775,
+      "toAttack": 77.74775,
+      "gap": 0.04999999999999355,
+      "reviewStart": 77.57775,
+      "reviewEnd": 77.86775,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00358",
+      "to": "p00361",
+      "fromRelease": 78.412035,
+      "toAttack": 78.462035,
+      "gap": 0.05000000000000382,
+      "reviewStart": 78.292035,
+      "reviewEnd": 78.582035,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00361",
+      "to": "p00383",
+      "fromRelease": 79.423051,
+      "toAttack": 82.934894,
+      "gap": 3.511843,
+      "reviewStart": 79.303051,
+      "reviewEnd": 83.054894,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00383",
+      "to": "p00386",
+      "fromRelease": 83.247973,
+      "toAttack": 83.609051,
+      "gap": 0.3610779999999939,
+      "reviewStart": 83.127973,
+      "reviewEnd": 83.729051,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00380",
+      "to": "p00395",
+      "fromRelease": 82.594815,
+      "toAttack": 84.970366,
+      "gap": 2.3755510000000015,
+      "reviewStart": 82.47481499999999,
+      "reviewEnd": 85.090366,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00395",
+      "to": "p00409",
+      "fromRelease": 85.238764,
+      "toAttack": 87.36573,
+      "gap": 2.126966000000001,
+      "reviewStart": 85.118764,
+      "reviewEnd": 87.48573,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00435",
+      "to": "p00439",
+      "fromRelease": 92.188714,
+      "toAttack": 92.553623,
+      "gap": 0.36490900000000437,
+      "reviewStart": 92.068714,
+      "reviewEnd": 92.673623,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00439",
+      "to": "p00441",
+      "fromRelease": 92.844532,
+      "toAttack": 92.894532,
+      "gap": 0.04999999999999638,
+      "reviewStart": 92.724532,
+      "reviewEnd": 93.014532,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00441",
+      "to": "p00448",
+      "fromRelease": 93.199441,
+      "toAttack": 94.246677,
+      "gap": 1.0472360000000074,
+      "reviewStart": 93.07944099999999,
+      "reviewEnd": 94.36667700000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00443",
+      "to": "p00449",
+      "fromRelease": 93.690868,
+      "toAttack": 94.268677,
+      "gap": 0.577808999999997,
+      "reviewStart": 93.57086799999999,
+      "reviewEnd": 94.388677,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00449",
+      "to": "p00451",
+      "fromRelease": 94.54675499999999,
+      "toAttack": 94.596755,
+      "gap": 0.050000000000004985,
+      "reviewStart": 94.42675499999999,
+      "reviewEnd": 94.716755,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00459",
+      "to": "p00462",
+      "fromRelease": 96.244979,
+      "toAttack": 96.294979,
+      "gap": 0.049999999999996714,
+      "reviewStart": 96.124979,
+      "reviewEnd": 96.414979,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00462",
+      "to": "p00467",
+      "fromRelease": 96.602888,
+      "toAttack": 97.308706,
+      "gap": 0.7058180000000029,
+      "reviewStart": 96.48288799999999,
+      "reviewEnd": 97.428706,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00467",
+      "to": "p00484",
+      "fromRelease": 97.633615,
+      "toAttack": 100.516637,
+      "gap": 2.883022000000002,
+      "reviewStart": 97.513615,
+      "reviewEnd": 100.63663700000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00470",
+      "to": "p00474",
+      "fromRelease": 98.294434,
+      "toAttack": 98.650843,
+      "gap": 0.35640899999999476,
+      "reviewStart": 98.17443399999999,
+      "reviewEnd": 98.770843,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00474",
+      "to": "p00478",
+      "fromRelease": 98.98428399999999,
+      "toAttack": 99.365225,
+      "gap": 0.38094100000000053,
+      "reviewStart": 98.86428399999998,
+      "reviewEnd": 99.485225,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00478",
+      "to": "p00479",
+      "fromRelease": 99.668166,
+      "toAttack": 99.718166,
+      "gap": 0.050000000000001266,
+      "reviewStart": 99.548166,
+      "reviewEnd": 99.838166,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00479",
+      "to": "p00485",
+      "fromRelease": 100.400049,
+      "toAttack": 100.77699,
+      "gap": 0.3769410000000013,
+      "reviewStart": 100.28004899999999,
+      "reviewEnd": 100.89699,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00484",
+      "to": "p00486",
+      "fromRelease": 100.78299,
+      "toAttack": 100.869578,
+      "gap": 0.08658800000000128,
+      "reviewStart": 100.66299,
+      "reviewEnd": 100.98957800000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00486",
+      "to": "p00490",
+      "fromRelease": 101.048255,
+      "toAttack": 101.495872,
+      "gap": 0.4476170000000015,
+      "reviewStart": 100.928255,
+      "reviewEnd": 101.61587200000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00490",
+      "to": "p00493",
+      "fromRelease": 101.830781,
+      "toAttack": 101.854781,
+      "gap": 0.023999999999997024,
+      "reviewStart": 101.710781,
+      "reviewEnd": 101.97478100000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00493",
+      "to": "p00497",
+      "fromRelease": 102.16269,
+      "toAttack": 102.536599,
+      "gap": 0.3739089999999927,
+      "reviewStart": 102.04269,
+      "reviewEnd": 102.656599,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00485",
+      "to": "p00511",
+      "fromRelease": 101.329211,
+      "toAttack": 104.884302,
+      "gap": 3.5550910000000076,
+      "reviewStart": 101.209211,
+      "reviewEnd": 105.00430200000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00511",
+      "to": "p00514",
+      "fromRelease": 105.19738100000001,
+      "toAttack": 105.558459,
+      "gap": 0.3610779999999939,
+      "reviewStart": 105.077381,
+      "reviewEnd": 105.678459,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00514",
+      "to": "p00522",
+      "fromRelease": 105.871538,
+      "toAttack": 106.898274,
+      "gap": 1.0267360000000014,
+      "reviewStart": 105.751538,
+      "reviewEnd": 107.018274,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00507",
+      "to": "p00523",
+      "fromRelease": 104.532324,
+      "toAttack": 106.919774,
+      "gap": 2.3874500000000016,
+      "reviewStart": 104.412324,
+      "reviewEnd": 107.03977400000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00523",
+      "to": "p00533",
+      "fromRelease": 107.15555,
+      "toAttack": 108.63332,
+      "gap": 1.4777699999999938,
+      "reviewStart": 107.03555,
+      "reviewEnd": 108.75332,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00531",
+      "to": "p00534",
+      "fromRelease": 108.58732,
+      "toAttack": 108.952229,
+      "gap": 0.36490900000000437,
+      "reviewStart": 108.46732,
+      "reviewEnd": 109.07222900000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00534",
+      "to": "p00536",
+      "fromRelease": 109.243138,
+      "toAttack": 109.293138,
+      "gap": 0.04999999999999638,
+      "reviewStart": 109.123138,
+      "reviewEnd": 109.413138,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00536",
+      "to": "p00542",
+      "fromRelease": 109.598047,
+      "toAttack": 110.339929,
+      "gap": 0.7418819999999989,
+      "reviewStart": 109.47804699999999,
+      "reviewEnd": 110.459929,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00542",
+      "to": "p00544",
+      "fromRelease": 110.64287,
+      "toAttack": 110.69287,
+      "gap": 0.050000000000001266,
+      "reviewStart": 110.52287,
+      "reviewEnd": 110.81287,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00544",
+      "to": "p00551",
+      "fromRelease": 111.374753,
+      "toAttack": 113.555137,
+      "gap": 2.1803840000000028,
+      "reviewStart": 111.254753,
+      "reviewEnd": 113.675137,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00551",
+      "to": "p00553",
+      "fromRelease": 114.236845,
+      "toAttack": 114.286845,
+      "gap": 0.0499999999999976,
+      "reviewStart": 114.116845,
+      "reviewEnd": 114.406845,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00553",
+      "to": "p00559",
+      "fromRelease": 115.348405,
+      "toAttack": 116.468743,
+      "gap": 1.1203380000000038,
+      "reviewStart": 115.228405,
+      "reviewEnd": 116.58874300000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00559",
+      "to": "p00562",
+      "fromRelease": 117.14163400000001,
+      "toAttack": 117.191634,
+      "gap": 0.04999999999998994,
+      "reviewStart": 117.021634,
+      "reviewEnd": 117.311634,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00549",
+      "to": "p00565",
+      "fromRelease": 113.17828399999999,
+      "toAttack": 118.672825,
+      "gap": 5.49454100000001,
+      "reviewStart": 113.05828399999999,
+      "reviewEnd": 118.79282500000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00565",
+      "to": "p00567",
+      "fromRelease": 118.96768,
+      "toAttack": 119.029679,
+      "gap": 0.06199899999999847,
+      "reviewStart": 118.84768,
+      "reviewEnd": 119.149679,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00573",
+      "to": "p00579",
+      "fromRelease": 121.15820099999999,
+      "toAttack": 122.342042,
+      "gap": 1.1838410000000115,
+      "reviewStart": 121.03820099999999,
+      "reviewEnd": 122.46204200000001,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00579",
+      "to": "p00582",
+      "fromRelease": 123.051535,
+      "toAttack": 123.101535,
+      "gap": 0.04999999999999194,
+      "reviewStart": 122.931535,
+      "reviewEnd": 123.221535,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00595",
+      "to": "p00598",
+      "fromRelease": 127.11440499999999,
+      "toAttack": 128.251942,
+      "gap": 1.137537000000018,
+      "reviewStart": 126.99440499999999,
+      "reviewEnd": 128.37194200000002,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00598",
+      "to": "p00601",
+      "fromRelease": 128.924834,
+      "toAttack": 128.974834,
+      "gap": 0.04999999999997318,
+      "reviewStart": 128.804834,
+      "reviewEnd": 129.094834,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00660",
+      "to": "p00668",
+      "fromRelease": 143.823505,
+      "toAttack": 145.302531,
+      "gap": 1.479025999999983,
+      "reviewStart": 143.703505,
+      "reviewEnd": 145.422531,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00668",
+      "to": "p00670",
+      "fromRelease": 145.62290099999998,
+      "toAttack": 145.672901,
+      "gap": 0.050000000000008316,
+      "reviewStart": 145.50290099999998,
+      "reviewEnd": 145.792901,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00669",
+      "to": "p00677",
+      "fromRelease": 145.66990099999998,
+      "toAttack": 148.278461,
+      "gap": 2.60856,
+      "reviewStart": 145.54990099999998,
+      "reviewEnd": 148.398461,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00677",
+      "to": "p00689",
+      "fromRelease": 148.56977799999999,
+      "toAttack": 151.946064,
+      "gap": 3.376286000000014,
+      "reviewStart": 148.44977799999998,
+      "reviewEnd": 152.066064,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00670",
+      "to": "p00678",
+      "fromRelease": 146.389642,
+      "toAttack": 148.622314,
+      "gap": 2.232671999999993,
+      "reviewStart": 146.269642,
+      "reviewEnd": 148.742314,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00678",
+      "to": "p00681",
+      "fromRelease": 149.30402199999997,
+      "toAttack": 149.354022,
+      "gap": 0.0499999999999976,
+      "reviewStart": 149.18402199999997,
+      "reviewEnd": 149.474022,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00689",
+      "to": "p00691",
+      "fromRelease": 152.636805,
+      "toAttack": 152.686805,
+      "gap": 0.04999999999998561,
+      "reviewStart": 152.516805,
+      "reviewEnd": 152.806805,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00690",
+      "to": "p00696",
+      "fromRelease": 153.34070100000002,
+      "toAttack": 154.11222,
+      "gap": 0.7715189999999978,
+      "reviewStart": 153.22070100000002,
+      "reviewEnd": 154.23222,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00696",
+      "to": "p00698",
+      "fromRelease": 154.411057,
+      "toAttack": 154.461057,
+      "gap": 0.05000000000000315,
+      "reviewStart": 154.291057,
+      "reviewEnd": 154.58105700000002,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00691",
+      "to": "p00750",
+      "fromRelease": 153.403546,
+      "toAttack": 163.825895,
+      "gap": 10.42234900000001,
+      "reviewStart": 153.283546,
+      "reviewEnd": 163.945895,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00750",
+      "to": "p00754",
+      "fromRelease": 164.46123500000002,
+      "toAttack": 164.485235,
+      "gap": 0.023999999999986033,
+      "reviewStart": 164.341235,
+      "reviewEnd": 164.605235,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00815",
+      "to": "p00823",
+      "fromRelease": 174.188541,
+      "toAttack": 175.193052,
+      "gap": 1.004511,
+      "reviewStart": 174.06854099999998,
+      "reviewEnd": 175.313052,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00823",
+      "to": "p00829",
+      "fromRelease": 175.50688499999998,
+      "toAttack": 175.868219,
+      "gap": 0.3613340000000161,
+      "reviewStart": 175.38688499999998,
+      "reviewEnd": 175.98821900000002,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00829",
+      "to": "p00832",
+      "fromRelease": 176.17755200000002,
+      "toAttack": 176.534885,
+      "gap": 0.3573329999999922,
+      "reviewStart": 176.05755200000002,
+      "reviewEnd": 176.654885,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00835",
+      "to": "p00840",
+      "fromRelease": 177.510885,
+      "toAttack": 177.859719,
+      "gap": 0.34883400000002013,
+      "reviewStart": 177.390885,
+      "reviewEnd": 177.97971900000002,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00840",
+      "to": "p00845",
+      "fromRelease": 178.185046,
+      "toAttack": 178.557874,
+      "gap": 0.37282799999998567,
+      "reviewStart": 178.065046,
+      "reviewEnd": 178.677874,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00845",
+      "to": "p00847",
+      "fromRelease": 178.852702,
+      "toAttack": 178.902702,
+      "gap": 0.05000000000000682,
+      "reviewStart": 178.732702,
+      "reviewEnd": 179.022702,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00847",
+      "to": "p00853",
+      "fromRelease": 179.568357,
+      "toAttack": 179.937184,
+      "gap": 0.368826999999997,
+      "reviewStart": 179.448357,
+      "reviewEnd": 180.057184,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00841",
+      "to": "p00852",
+      "fromRelease": 178.334184,
+      "toAttack": 179.683322,
+      "gap": 1.3491380000000166,
+      "reviewStart": 178.214184,
+      "reviewEnd": 179.803322,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00852",
+      "to": "p00855",
+      "fromRelease": 179.943184,
+      "toAttack": 180.304012,
+      "gap": 0.3608279999999962,
+      "reviewStart": 179.823184,
+      "reviewEnd": 180.424012,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00862",
+      "to": "p00870",
+      "fromRelease": 181.291506,
+      "toAttack": 182.315506,
+      "gap": 1.0239999999999958,
+      "reviewStart": 181.171506,
+      "reviewEnd": 182.435506,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00870",
+      "to": "p00894",
+      "fromRelease": 182.615839,
+      "toAttack": 185.943869,
+      "gap": 3.328030000000007,
+      "reviewStart": 182.495839,
+      "reviewEnd": 186.063869,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00900",
+      "to": "p00906",
+      "fromRelease": 186.937869,
+      "toAttack": 187.286202,
+      "gap": 0.3483330000000042,
+      "reviewStart": 186.817869,
+      "reviewEnd": 187.406202,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00906",
+      "to": "p00912",
+      "fromRelease": 187.595535,
+      "toAttack": 188.286202,
+      "gap": 0.6906669999999999,
+      "reviewStart": 187.475535,
+      "reviewEnd": 188.406202,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00912",
+      "to": "p00933",
+      "fromRelease": 188.586535,
+      "toAttack": 191.369156,
+      "gap": 2.7826210000000007,
+      "reviewStart": 188.466535,
+      "reviewEnd": 191.489156,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00933",
+      "to": "p00950",
+      "fromRelease": 191.61516600000002,
+      "toAttack": 194.035823,
+      "gap": 2.4206569999999896,
+      "reviewStart": 191.495166,
+      "reviewEnd": 194.155823,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00949",
+      "to": "p00958",
+      "fromRelease": 194.324493,
+      "toAttack": 195.341504,
+      "gap": 1.017010999999996,
+      "reviewStart": 194.20449299999999,
+      "reviewEnd": 195.461504,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p00958",
+      "to": "p00960",
+      "fromRelease": 195.558743,
+      "toAttack": 195.671174,
+      "gap": 0.11243100000002146,
+      "reviewStart": 195.438743,
+      "reviewEnd": 195.791174,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00966",
+      "to": "p00969",
+      "fromRelease": 196.91184299999998,
+      "toAttack": 197.015519,
+      "gap": 0.10367600000002233,
+      "reviewStart": 196.79184299999997,
+      "reviewEnd": 197.13551900000002,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00969",
+      "to": "p00974",
+      "fromRelease": 197.315852,
+      "toAttack": 198.006519,
+      "gap": 0.6906669999999855,
+      "reviewStart": 197.195852,
+      "reviewEnd": 198.126519,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00974",
+      "to": "p00976",
+      "fromRelease": 198.298852,
+      "toAttack": 198.348852,
+      "gap": 0.049999999999996436,
+      "reviewStart": 198.178852,
+      "reviewEnd": 198.468852,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00976",
+      "to": "p00984",
+      "fromRelease": 198.649185,
+      "toAttack": 199.69368,
+      "gap": 1.0444950000000068,
+      "reviewStart": 198.52918499999998,
+      "reviewEnd": 199.81368,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p00984",
+      "to": "p00986",
+      "fromRelease": 199.979507,
+      "toAttack": 200.029507,
+      "gap": 0.04999999999999477,
+      "reviewStart": 199.859507,
+      "reviewEnd": 200.149507,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p01005",
+      "to": "p01027",
+      "fromRelease": 205.305469,
+      "toAttack": 210.516445,
+      "gap": 5.210976000000012,
+      "reviewStart": 205.18546899999998,
+      "reviewEnd": 210.636445,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "R",
+      "from": "p01027",
+      "to": "p01029",
+      "fromRelease": 210.85844500000002,
+      "toAttack": 210.882445,
+      "gap": 0.023999999999985422,
+      "reviewStart": 210.738445,
+      "reviewEnd": 211.002445,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p01021",
+      "to": "p01032",
+      "fromRelease": 209.345445,
+      "toAttack": 212.038276,
+      "gap": 2.692830999999983,
+      "reviewStart": 209.225445,
+      "reviewEnd": 212.158276,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p01032",
+      "to": "p01035",
+      "fromRelease": 212.767497,
+      "toAttack": 212.817497,
+      "gap": 0.05000000000000682,
+      "reviewStart": 212.647497,
+      "reviewEnd": 212.937497,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    },
+    {
+      "hand": "L",
+      "from": "p01059",
+      "to": "p01064",
+      "fromRelease": 224.42559,
+      "toAttack": 224.556784,
+      "gap": 0.13119399999998138,
+      "reviewStart": 224.30559,
+      "reviewEnd": 224.676784,
+      "reason": "Changed held endpoint changes compact5 idle thumb interpolation; root must recheck actual geometry and continuity."
+    }
+  ],
+  "paired": [
+    {
+      "id": "p00006",
+      "attack": 1.935077,
+      "release": 2.654308,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00007",
+          "attack": 2.332692,
+          "release": 2.676308,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00013",
+      "attack": 4.228164,
+      "release": 4.848790999999999,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00014",
+          "attack": 4.250164,
+          "release": 4.596909999999999,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00024",
+      "attack": 8.049975,
+      "release": 8.769205,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00025",
+          "attack": 8.44759,
+          "release": 8.816205,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00026",
+      "attack": 8.819205,
+      "release": 9.167821,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00027",
+          "attack": 8.841205,
+          "release": 9.192821,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00031",
+      "attack": 10.003821,
+      "release": 10.353821,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00032",
+          "attack": 10.016821,
+          "release": 10.400821,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00056",
+      "attack": 15.884174,
+      "release": 16.205001,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00057",
+          "attack": 15.897174,
+          "release": 16.533601,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00084",
+      "attack": 21.466728,
+      "release": 21.778174,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00085",
+          "attack": 21.479728,
+          "release": 22.909512000000003,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00137",
+      "attack": 32.698311,
+      "release": 33.00975699999999,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00135",
+          "attack": 31.988419,
+          "release": 33.056757,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00184",
+      "attack": 42.858164,
+      "release": 43.016863,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00185",
+          "attack": 42.880164,
+          "release": 43.196001,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00190",
+      "attack": 43.929893,
+      "release": 44.241338999999996,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00191",
+          "attack": 43.951893,
+          "release": 44.272338999999995,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00202",
+      "attack": 46.796242,
+      "release": 47.095079,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00203",
+          "attack": 46.809242,
+          "release": 47.482917,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00204",
+      "attack": 47.145079,
+      "release": 47.443917000000006,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00203",
+          "attack": 46.809242,
+          "release": 47.482917,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00230",
+      "attack": 52.345561,
+      "release": 52.644397999999995,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00231",
+          "attack": 52.358561,
+          "release": 53.032235,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00237",
+      "attack": 53.740909,
+      "release": 54.039747000000006,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00238",
+          "attack": 53.753909,
+          "release": 54.427584,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00239",
+      "attack": 54.089747,
+      "release": 54.242879,
+      "nearbyOppositeEvents": [],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00244",
+      "attack": 55.161475,
+      "release": 55.472921,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00245",
+          "attack": 55.174475,
+          "release": 56.604258,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00298",
+      "attack": 66.28895,
+      "release": 66.596093,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00299",
+          "attack": 66.30195,
+          "release": 66.64309300000001,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00310",
+      "attack": 68.776635,
+      "release": 68.982596,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00308",
+          "attack": 68.444807,
+          "release": 68.897773,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00317",
+      "attack": 70.155945,
+      "release": 70.361907,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00318",
+          "attack": 70.177945,
+          "release": 70.489773,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00333",
+      "attack": 73.235882,
+      "release": 73.526791,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00334",
+          "attack": 73.248882,
+          "release": 73.9067,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00337",
+      "attack": 73.9307,
+      "release": 74.203017,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00336",
+          "attack": 73.9057,
+          "release": 74.179587,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00341",
+      "attack": 74.607356,
+      "release": 74.902183,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00342",
+          "attack": 74.620356,
+          "release": 75.286011,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00348",
+      "attack": 75.986666,
+      "release": 76.281494,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00349",
+          "attack": 75.999666,
+          "release": 76.303494,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00356",
+      "attack": 77.390607,
+      "release": 77.69775,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00357",
+          "attack": 77.403607,
+          "release": 77.74475,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00358",
+      "attack": 77.74775,
+      "release": 78.412035,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00359",
+          "attack": 77.76975,
+          "release": 78.09389300000001,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00383",
+      "attack": 82.934894,
+      "release": 83.247973,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00384",
+          "attack": 82.947894,
+          "release": 83.56882300000001,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00395",
+      "attack": 84.970366,
+      "release": 85.238764,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00393",
+          "attack": 84.945366,
+          "release": 85.163009,
+          "finger": 5
+        },
+        {
+          "id": "p00394",
+          "attack": 84.948866,
+          "release": 85.22134299999999,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00439",
+      "attack": 92.553623,
+      "release": 92.844532,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00440",
+          "attack": 92.566623,
+          "release": 93.144765,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00441",
+      "attack": 92.894532,
+      "release": 93.199441,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00440",
+          "attack": 92.566623,
+          "release": 93.144765,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00449",
+      "attack": 94.268677,
+      "release": 94.54675499999999,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00448",
+          "attack": 94.246677,
+          "release": 94.54255500000001,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00462",
+      "attack": 96.294979,
+      "release": 96.602888,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00461",
+          "attack": 96.272979,
+          "release": 96.539989,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00467",
+      "attack": 97.308706,
+      "release": 97.633615,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00466",
+          "attack": 97.295706,
+          "release": 97.61261499999999,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00474",
+      "attack": 98.650843,
+      "release": 98.98428399999999,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00475",
+          "attack": 98.672343,
+          "release": 99.136343,
+          "finger": 3
+        },
+        {
+          "id": "p00476",
+          "attack": 98.675843,
+          "release": 99.686938,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00478",
+      "attack": 99.365225,
+      "release": 99.668166,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00476",
+          "attack": 98.675843,
+          "release": 99.686938,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00479",
+      "attack": 99.718166,
+      "release": 100.400049,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00480",
+          "attack": 99.740166,
+          "release": 100.034107,
+          "finger": 4
+        },
+        {
+          "id": "p00482",
+          "attack": 100.163696,
+          "release": 100.430049,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00484",
+      "attack": 100.516637,
+      "release": 100.78299,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00483",
+          "attack": 100.424049,
+          "release": 100.75299,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00490",
+      "attack": 101.495872,
+      "release": 101.830781,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00488",
+          "attack": 101.470872,
+          "release": 101.688515,
+          "finger": 5
+        },
+        {
+          "id": "p00489",
+          "attack": 101.474372,
+          "release": 101.746849,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00493",
+      "attack": 101.854781,
+      "release": 102.16269,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00492",
+          "attack": 101.823781,
+          "release": 102.054791,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00511",
+      "attack": 104.884302,
+      "release": 105.19738100000001,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00512",
+          "attack": 104.897302,
+          "release": 105.516706,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00514",
+      "attack": 105.558459,
+      "release": 105.871538,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00515",
+          "attack": 105.571459,
+          "release": 105.86753800000001,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00523",
+      "attack": 106.919774,
+      "release": 107.15555,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00521",
+          "attack": 106.894774,
+          "release": 107.164742,
+          "finger": 5
+        },
+        {
+          "id": "p00522",
+          "attack": 106.898274,
+          "release": 107.219683,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00534",
+      "attack": 108.952229,
+      "release": 109.243138,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00535",
+          "attack": 108.965229,
+          "release": 109.290138,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00536",
+      "attack": 109.293138,
+      "release": 109.598047,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00537",
+          "attack": 109.315138,
+          "release": 109.623047,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00542",
+      "attack": 110.339929,
+      "release": 110.64287,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00543",
+          "attack": 110.352929,
+          "release": 110.661642,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00551",
+      "attack": 113.555137,
+      "release": 114.236845,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00552",
+          "attack": 113.933991,
+          "release": 114.283845,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00559",
+      "attack": 116.468743,
+      "release": 117.14163400000001,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00560",
+          "attack": 116.490743,
+          "release": 116.819189,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00565",
+      "attack": 118.672825,
+      "release": 118.96768,
+      "nearbyOppositeEvents": [],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00579",
+      "attack": 122.342042,
+      "release": 123.051535,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00580",
+          "attack": 122.373042,
+          "release": 122.676029,
+          "finger": 1
+        },
+        {
+          "id": "p00581",
+          "attack": 122.734788,
+          "release": 123.098535,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00598",
+      "attack": 128.251942,
+      "release": 128.924834,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00599",
+          "attack": 128.273942,
+          "release": 128.60238800000002,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00668",
+      "attack": 145.302531,
+      "release": 145.62290099999998,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00669",
+          "attack": 145.315531,
+          "release": 145.66990099999998,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00677",
+      "attack": 148.278461,
+      "release": 148.56977799999999,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00674",
+          "attack": 147.512753,
+          "release": 148.563914,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00678",
+      "attack": 148.622314,
+      "release": 149.30402199999997,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00679",
+          "attack": 148.644314,
+          "release": 148.951168,
+          "finger": 4
+        },
+        {
+          "id": "p00680",
+          "attack": 149.001168,
+          "release": 149.326022,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00689",
+      "attack": 151.946064,
+      "release": 152.636805,
+      "nearbyOppositeEvents": [],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00696",
+      "attack": 154.11222,
+      "release": 154.411057,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00697",
+          "attack": 154.12522,
+          "release": 154.772894,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00750",
+      "attack": 163.825895,
+      "release": 164.46123500000002,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00749",
+          "attack": 163.812895,
+          "release": 164.071413,
+          "finger": 5
+        },
+        {
+          "id": "p00751",
+          "attack": 164.142565,
+          "release": 164.361929,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00823",
+      "attack": 175.193052,
+      "release": 175.50688499999998,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00824",
+          "attack": 175.214552,
+          "release": 175.460694,
+          "finger": 1
+        },
+        {
+          "id": "p00825",
+          "attack": 175.218052,
+          "release": 175.530018,
+          "finger": 2
+        },
+        {
+          "id": "p00826",
+          "attack": 175.221552,
+          "release": 175.485694,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00829",
+      "attack": 175.868219,
+      "release": 176.17755200000002,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00830",
+          "attack": 175.881219,
+          "release": 176.49743199999998,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00840",
+      "attack": 177.859719,
+      "release": 178.185046,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00841",
+          "attack": 177.881219,
+          "release": 178.334184,
+          "finger": 1
+        },
+        {
+          "id": "p00842",
+          "attack": 177.884719,
+          "release": 178.334184,
+          "finger": 3
+        },
+        {
+          "id": "p00843",
+          "attack": 177.888219,
+          "release": 178.517983,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00845",
+      "attack": 178.557874,
+      "release": 178.852702,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00846",
+          "attack": 178.570874,
+          "release": 178.841097,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00847",
+      "attack": 178.902702,
+      "release": 179.568357,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00848",
+          "attack": 178.924702,
+          "release": 179.210529,
+          "finger": 4
+        },
+        {
+          "id": "p00850",
+          "attack": 179.338495,
+          "release": 179.598357,
+          "finger": 3
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00852",
+      "attack": 179.683322,
+      "release": 179.943184,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00851",
+          "attack": 179.592357,
+          "release": 179.913184,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00870",
+      "attack": 182.315506,
+      "release": 182.615839,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00869",
+          "attack": 182.293506,
+          "release": 182.576386,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00906",
+      "attack": 187.286202,
+      "release": 187.595535,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00905",
+          "attack": 187.264202,
+          "release": 187.494856,
+          "finger": 2
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00933",
+      "attack": 191.369156,
+      "release": 191.61516600000002,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00931",
+          "attack": 191.344156,
+          "release": 191.606548,
+          "finger": 5
+        },
+        {
+          "id": "p00932",
+          "attack": 191.347656,
+          "release": 191.661489,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00958",
+      "attack": 195.341504,
+      "release": 195.558743,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00959",
+          "attack": 195.354504,
+          "release": 195.668174,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00969",
+      "attack": 197.015519,
+      "release": 197.315852,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00968",
+          "attack": 196.993519,
+          "release": 197.302852,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00976",
+      "attack": 198.348852,
+      "release": 198.649185,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00975",
+          "attack": 198.326852,
+          "release": 198.636185,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p00984",
+      "attack": 199.69368,
+      "release": 199.979507,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p00983",
+          "attack": 199.67168,
+          "release": 199.99250700000002,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p01027",
+      "attack": 210.516445,
+      "release": 210.85844500000002,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p01025",
+          "attack": 210.119445,
+          "release": 210.833445,
+          "finger": 4
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p01032",
+      "attack": 212.038276,
+      "release": 212.767497,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p01033",
+          "attack": 212.069276,
+          "release": 212.399886,
+          "finger": 1
+        },
+        {
+          "id": "p01034",
+          "attack": 212.449886,
+          "release": 212.823497,
+          "finger": 1
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    },
+    {
+      "id": "p01064",
+      "attack": 224.556784,
+      "release": 228.911562,
+      "nearbyOppositeEvents": [
+        {
+          "id": "p01065",
+          "attack": 224.574784,
+          "release": 228.89211699999998,
+          "finger": 1
+        },
+        {
+          "id": "p01066",
+          "attack": 224.578284,
+          "release": 228.89211699999998,
+          "finger": 2
+        },
+        {
+          "id": "p01067",
+          "attack": 224.581784,
+          "release": 228.89211699999998,
+          "finger": 4
+        },
+        {
+          "id": "p01068",
+          "attack": 224.585284,
+          "release": 229.003228,
+          "finger": 5
+        }
+      ],
+      "reason": "Timing is unchanged; root must review paired articulation and updated endpoint transitions in combined score."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "baseline": {
+    "samples": 6306,
+    "tipMax": 1.9970939537575287,
+    "wristMax": 0.9271987596202925,
+    "rate": 38.21406016048925,
+    "tipWorst": {
+      "time": 46.44867600000129,
+      "name": "RightThumbContact",
+      "speed": 1.9970939537575287
+    },
+    "rateWorst": {
+      "time": 57.31267600001457,
+      "name": "RightHandIndex1",
+      "rate": 38.21406016048925
+    },
+    "seek": 0
+  },
+  "candidate": {
+    "samples": 6306,
+    "tipMax": 1.6957730212005682,
+    "wristMax": 1.2448937077296927,
+    "rate": 52.00104717373878,
+    "tipWorst": {
+      "time": 57.308676000014565,
+      "name": "RightIndexContact",
+      "speed": 1.6957730212005682
+    },
+    "rateWorst": {
+      "time": 50.25867600000595,
+      "name": "RightHandPinky1",
+      "rate": 52.00104717373878
+    },
+    "seek": 0
+  },
+  "provenance": {
+    "runtimePath": "/workspace/scratch/2e8cc8e77f98/active-hand-fit/pianist-arms-compact5-arc.mjs",
+    "runtimeSha256": "911a888ba590e743e58d29de9126ebb80ddfa2fe0d5dee561ae94d6cd8b965ff",
+    "scoreSha256": "de048f11bb7f7618bc78cde6e72e2dbf7c39ccc23f99394eab598550edd38ea1"
+  }
+}

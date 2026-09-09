@@ -1,0 +1,844 @@
+{
+  "samples": 10326,
+  "windows": [
+    {
+      "id": "p00186",
+      "start": 38.323338,
+      "end": 53.392072,
+      "attack": 43.195001,
+      "release": 43.485506
+    },
+    {
+      "id": "p00322",
+      "start": 66.26495000000001,
+      "end": 76.664321,
+      "attack": 71.178428,
+      "release": 71.448396
+    },
+    {
+      "id": "p00344",
+      "start": 70.123345,
+      "end": 81.578919,
+      "attack": 75.297011,
+      "release": 75.558897
+    }
+  ],
+  "summaries": [
+    {
+      "id": "p00186",
+      "heldSamples": 368,
+      "coreBefore": 6.518288412646123,
+      "coreAfter": 2.181977845739147,
+      "afterOwn": 0,
+      "afterActivePairs": 0,
+      "padMin": -0.16761803982479062,
+      "padMax": -0.16761802609799314,
+      "newBad": 22,
+      "newKeys": 3,
+      "newPairs": 19
+    },
+    {
+      "id": "p00322",
+      "heldSamples": 347,
+      "coreBefore": 6.518247372526598,
+      "coreAfter": 2.182061982895056,
+      "afterOwn": 0,
+      "afterActivePairs": 0,
+      "padMin": -0.1676830249864869,
+      "padMax": -0.1676829998433771,
+      "newBad": 5,
+      "newKeys": 5,
+      "newPairs": 0
+    },
+    {
+      "id": "p00344",
+      "heldSamples": 331,
+      "coreBefore": 6.518249156406086,
+      "coreAfter": 2.1819777857409184,
+      "afterOwn": 0,
+      "afterActivePairs": 0,
+      "padMin": -0.16761794199604552,
+      "padMax": -0.16761792718045232,
+      "newBad": 7,
+      "newKeys": 5,
+      "newPairs": 2
+    }
+  ],
+  "newBad": 34,
+  "rightQuaternionMaxDelta": 0,
+  "leftThumbQuaternionMaxDelta": 0,
+  "changedRange": [
+    42.895002,
+    75.67801100000325
+  ],
+  "added": [
+    {
+      "time": 43.16600099999937,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 64
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 62
+        }
+      ]
+    },
+    {
+      "time": 43.16700099999937,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 66
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 62
+        }
+      ]
+    },
+    {
+      "time": 43.168000999999364,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 69
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 66
+        }
+      ]
+    },
+    {
+      "time": 43.172000999999355,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 2
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 57
+        }
+      ]
+    },
+    {
+      "time": 43.17300099999935,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 57
+        }
+      ]
+    },
+    {
+      "time": 43.17333800000386,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 57
+        }
+      ]
+    },
+    {
+      "time": 43.17400099999935,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 4
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 59
+        }
+      ]
+    },
+    {
+      "time": 43.17500099999935,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 55
+        }
+      ]
+    },
+    {
+      "time": 43.176000999999346,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 55
+        }
+      ]
+    },
+    {
+      "time": 43.17700099999934,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 4
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 54
+        }
+      ]
+    },
+    {
+      "time": 43.17750466667053,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 4
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 52
+        }
+      ]
+    },
+    {
+      "time": 43.17800099999934,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 5
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 51
+        }
+      ]
+    },
+    {
+      "time": 43.17900099999934,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 49
+        },
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 4
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 46
+        }
+      ]
+    },
+    {
+      "time": 43.180000999999336,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 45
+        }
+      ]
+    },
+    {
+      "time": 43.181000999999334,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 41
+        }
+      ]
+    },
+    {
+      "time": 43.1816713333372,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 39
+        }
+      ]
+    },
+    {
+      "time": 43.18200099999933,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 39
+        }
+      ]
+    },
+    {
+      "time": 43.18300099999933,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LRing",
+          "trianglePairs": 2
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 36
+        }
+      ]
+    },
+    {
+      "time": 43.498000999998595,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 3,
+          "depth": 3.2981436472782066,
+          "vertex": 8697,
+          "point": [
+            -0.2069499053864091,
+            0.7387018567327014,
+            0.2701286770477096
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 53
+        }
+      ]
+    },
+    {
+      "time": 43.49900099999859,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 5,
+          "depth": 4.068065024814437,
+          "vertex": 7656,
+          "point": [
+            -0.20703193525234712,
+            0.7376973416139546,
+            0.2702969962004862
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 55
+        }
+      ]
+    },
+    {
+      "time": 43.50000099999859,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 6,
+          "depth": 3.3027774364162155,
+          "vertex": 7548,
+          "point": [
+            -0.20779722284074534,
+            0.738084191550123,
+            0.27188469774816326
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 58
+        }
+      ]
+    },
+    {
+      "time": 43.50400099999858,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 70
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 60
+        }
+      ]
+    },
+    {
+      "time": 71.46042800000278,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 45,
+          "count": 2,
+          "depth": 3.3105759152033953,
+          "vertex": 8697,
+          "point": [
+            -0.2782894243619582,
+            0.7382540204150957,
+            0.27069129007213
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 51
+        }
+      ]
+    },
+    {
+      "time": 71.46078333332862,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 45,
+          "count": 3,
+          "depth": 3.403442391000433,
+          "vertex": 8697,
+          "point": [
+            -0.2776478969249714,
+            0.7385965579889792,
+            0.2702619238585863
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 53
+        }
+      ]
+    },
+    {
+      "time": 71.46142800000278,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 45,
+          "count": 5,
+          "depth": 3.1709129815291615,
+          "vertex": 7656,
+          "point": [
+            -0.2784290872956324,
+            0.7372419839398131,
+            0.27093904511952815
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 52
+        }
+      ]
+    },
+    {
+      "time": 71.46242800000279,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 45,
+          "count": 5,
+          "depth": 3.7667745706720934,
+          "vertex": 7656,
+          "point": [
+            -0.27646937883718953,
+            0.7382332258093075,
+            0.26953198728901673
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 58
+        }
+      ]
+    },
+    {
+      "time": 71.46342800000279,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 45,
+          "count": 6,
+          "depth": 3.398909877128653,
+          "vertex": 7548,
+          "point": [
+            -0.2772825503152127,
+            0.7386010905028509,
+            0.2710486838574284
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 60
+        }
+      ]
+    },
+    {
+      "time": 75.2910110000014,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LPalm",
+          "trianglePairs": 3
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 25
+        }
+      ]
+    },
+    {
+      "time": 75.29201100000141,
+      "keys": [],
+      "pairs": [
+        {
+          "a": "LIndex",
+          "b": "LPalm",
+          "trianglePairs": 4
+        }
+      ],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 23
+        }
+      ]
+    },
+    {
+      "time": 75.57101100000274,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 3,
+          "depth": 3.45671461785893,
+          "vertex": 8697,
+          "point": [
+            -0.20764328565930262,
+            0.7383322928920134,
+            0.2705936297069462
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 51
+        }
+      ]
+    },
+    {
+      "time": 75.57201100000275,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 5,
+          "depth": 3.3280447050050013,
+          "vertex": 7656,
+          "point": [
+            -0.20777195557215655,
+            0.7373219600350488,
+            0.27082678112411496
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 52
+        }
+      ]
+    },
+    {
+      "time": 75.57301100000275,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 5,
+          "depth": 3.6845029540627516,
+          "vertex": 7656,
+          "point": [
+            -0.20580532904130877,
+            0.7383154974259168,
+            0.2694139105543776
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 58
+        }
+      ]
+    },
+    {
+      "time": 75.57328333332488,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 4,
+          "depth": 3.411497685406162,
+          "vertex": 7656,
+          "point": [
+            -0.20525986035250263,
+            0.7385885026945734,
+            0.26902030500426877
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 58
+        }
+      ]
+    },
+    {
+      "time": 75.57401100000276,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 50,
+          "count": 6,
+          "depth": 3.3207612239979367,
+          "vertex": 7548,
+          "point": [
+            -0.20662883495425247,
+            0.7386792391559817,
+            0.27092167071200124
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "basePairs": [
+        {
+          "a": "LIndex",
+          "b": "LMiddle",
+          "trianglePairs": 60
+        }
+      ]
+    }
+  ]
+}

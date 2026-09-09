@@ -1,0 +1,27 @@
+[
+  {
+    "case": "accepted",
+    "exitCode": 0,
+    "pass": true
+  },
+  {
+    "case": "score-byte mismatch",
+    "exitCode": 1,
+    "pass": true
+  },
+  {
+    "case": "base-source mismatch",
+    "exitCode": 1,
+    "pass": true
+  },
+  {
+    "case": "data mismatch",
+    "exitCode": 1,
+    "pass": true
+  },
+  {
+    "case": "helper-source mismatch",
+    "exitCode": 1,
+    "pass": true
+  }
+]

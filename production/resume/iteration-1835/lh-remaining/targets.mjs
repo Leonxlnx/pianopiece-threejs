@@ -1,0 +1,2 @@
+import fs from'node:fs';import{baseline,keyX,install,performer,update,T}from'./harness.mjs';
+const r=JSON.parse(fs.readFileSync('reservation.json'));for(const g of r.groups)for(const id of g.targets){const n=baseline.notes.find(n=>n.id===id);update(n.time+n.duration*.5);const h=performer.hands.find(h=>h.side==='L');console.log(JSON.stringify({id,midi:n.midi,x:keyX(n.midi),wrist:h.wrist.getWorldPosition(new T.Vector3()).toArray(),mcp:h.fingers.map((f,i)=>({finger:i+1,origin:f.bones[0].getWorldPosition(new T.Vector3()).toArray(),reach:f.lengths.reduce((a,b)=>a+b,0)}))}));}

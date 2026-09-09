@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {install} from './harness.mjs';import {sample} from './metric.mjs';
+install(JSON.parse(fs.readFileSync('candidate-v1.json')));const rows=[];
+for(const y of [.753,.757,.761,.765])for(const z of [.267,.277,.287,.297]){globalThis.DAYBREAK_NEUTRAL_Y=y;globalThis.DAYBREAK_NEUTRAL_Z=z;const states=[6.25,7.093437,7.64,8.0,8.98,10.40,11.25,11.275,11.31,11.85,12.02].map(t=>{const s=sample(t);return {time:t,core:Math.max(0,...s.keyHits.filter(k=>k.patch==='RThumb').map(k=>k.depth)),pairs:s.crossings.filter(c=>[c.a,c.b].includes('RThumb')).map(c=>[c.a,c.b,c.trianglePairs])};});rows.push({y,z,coreRows:states.filter(s=>s.core>3).length,pairRows:states.filter(s=>s.pairs.length).length,states});}
+rows.sort((a,b)=>a.coreRows*100+a.pairRows-(b.coreRows*100+b.pairRows));fs.writeFileSync('neutral-search.json',JSON.stringify(rows,null,2));console.log(JSON.stringify(rows.slice(0,5)));

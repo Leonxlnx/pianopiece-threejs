@@ -1,0 +1,338 @@
+{
+  "hand": "R",
+  "noteIds": [
+    "p00019",
+    "p00020",
+    "p00022",
+    "p00023",
+    "p00025",
+    "p00027"
+  ],
+  "knotIndices": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "incomingStart": 6.0390358363389325,
+  "heldEnd": 9.192821,
+  "departureArrival": 9.216821,
+  "contextEnd": 9.217821,
+  "notes": [
+    {
+      "id": "p00019",
+      "time": 6.139898,
+      "duration": 0.745231,
+      "midi": 71,
+      "velocity": 0.6007,
+      "hand": "R",
+      "finger": 4,
+      "role": "melody",
+      "bar": 3,
+      "beat": 0,
+      "contactLift": 0.002391
+    },
+    {
+      "id": "p00020",
+      "time": 6.909129,
+      "duration": 0.368615,
+      "midi": 67,
+      "velocity": 0.568,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 3,
+      "beat": 1,
+      "contactLift": 0.009773
+    },
+    {
+      "id": "p00022",
+      "time": 7.302744,
+      "duration": 0.351615,
+      "midi": 64,
+      "velocity": 0.566,
+      "hand": "R",
+      "finger": 3,
+      "role": "melody",
+      "bar": 3,
+      "beat": 1.5,
+      "contactLift": 0.003271
+    },
+    {
+      "id": "p00023",
+      "time": 7.678359,
+      "duration": 0.707025,
+      "midi": 62,
+      "velocity": 0.5947,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 3,
+      "beat": 2,
+      "contactLift": 0.009773,
+      "writtenDuration": 0.745231
+    },
+    {
+      "id": "p00025",
+      "time": 8.44759,
+      "duration": 0.368615,
+      "midi": 67,
+      "velocity": 0.568,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 3,
+      "beat": 3,
+      "contactLift": 0.009773
+    },
+    {
+      "id": "p00027",
+      "time": 8.841205,
+      "duration": 0.351616,
+      "midi": 69,
+      "velocity": 0.5693,
+      "hand": "R",
+      "finger": 2,
+      "role": "melody",
+      "bar": 3,
+      "beat": 3.5,
+      "contactLift": 0.003008
+    }
+  ],
+  "knots": [
+    {
+      "index": 8,
+      "time": 4.62091,
+      "position": [
+        0.01618000000000002,
+        0.7702,
+        0.382
+      ],
+      "quaternion": [
+        -0.011998619282822224,
+        -0.7579188261832362,
+        0.6520252808737605,
+        0.016676904803491606
+      ],
+      "moveStart": 4.5629100000000005,
+      "moveEnd": 4.61791
+    },
+    {
+      "index": 9,
+      "time": 6.139898,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 6.0390358363389325,
+      "moveEnd": 6.1368979999999995
+    },
+    {
+      "index": 10,
+      "time": 6.909129,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 6.851129,
+      "moveEnd": 6.906129
+    },
+    {
+      "index": 11,
+      "time": 7.302744,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 7.244744,
+      "moveEnd": 7.299744
+    },
+    {
+      "index": 12,
+      "time": 7.678359,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 7.6203590000000005,
+      "moveEnd": 7.675359
+    },
+    {
+      "index": 13,
+      "time": 8.44759,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 8.38959,
+      "moveEnd": 8.44459
+    },
+    {
+      "index": 14,
+      "time": 8.841205,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 8.783205,
+      "moveEnd": 8.838205
+    },
+    {
+      "index": 15,
+      "time": 9.216821,
+      "position": [
+        0.030470000000000004,
+        0.74542,
+        0.39055
+      ],
+      "quaternion": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "moveStart": 9.158821,
+      "moveEnd": 9.213821
+    }
+  ],
+  "readOnlyContextNotes": [
+    {
+      "id": "p00017",
+      "time": 5.747151,
+      "duration": 0.210635,
+      "midi": 57,
+      "velocity": 0.332,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 2,
+      "beat": 3.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.257747
+    },
+    {
+      "id": "p00018",
+      "time": 6.114898,
+      "duration": 1.137846,
+      "midi": 40,
+      "velocity": 0.38,
+      "hand": "L",
+      "finger": 4,
+      "role": "bass",
+      "bar": 3,
+      "beat": 0,
+      "contactLift": 0.002
+    },
+    {
+      "id": "p00021",
+      "time": 7.280744,
+      "duration": 0.745231,
+      "midi": 47,
+      "velocity": 0.325,
+      "hand": "L",
+      "finger": 2,
+      "role": "harmony",
+      "bar": 3,
+      "beat": 1.5,
+      "contactLift": 0.003008
+    },
+    {
+      "id": "p00024",
+      "time": 8.049975,
+      "duration": 0.71923,
+      "midi": 52,
+      "velocity": 0.313,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 3,
+      "beat": 2.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.74523
+    },
+    {
+      "id": "p00026",
+      "time": 8.819205,
+      "duration": 0.348616,
+      "midi": 55,
+      "velocity": 0.337,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 3,
+      "beat": 3.5,
+      "contactLift": 0.009212
+    },
+    {
+      "id": "p00028",
+      "time": 9.191821,
+      "duration": 0.384,
+      "midi": 48,
+      "velocity": 0.345,
+      "hand": "L",
+      "finger": 5,
+      "role": "bass",
+      "bar": 4,
+      "beat": 0,
+      "contactLift": 0.002435
+    },
+    {
+      "id": "p00029",
+      "time": 9.216821,
+      "duration": 0.776,
+      "midi": 67,
+      "velocity": 0.563,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 4,
+      "beat": 0,
+      "contactLift": 0.009773
+    }
+  ],
+  "ownershipConfirmation": "active_hand_fit confirmed no intro overlap; root notified exact finite phrase."
+}

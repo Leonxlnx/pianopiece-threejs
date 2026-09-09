@@ -1,0 +1,189 @@
+[
+  {
+    "begin": 49.94,
+    "end": 50.3,
+    "fps": 1000,
+    "hi": 1,
+    "samples": 378,
+    "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+    "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r3-lift-v2.json",
+    "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-primary-v1.json",
+    "regressionCount": 0,
+    "activeQuaternionDeltaRad": 5.16191365590357e-08,
+    "activeTipDeltaM": 0,
+    "seekQuaternionDelta": 0,
+    "maxSpeedBase": 0.8928161702572713,
+    "maxSpeedCandidate": 0.8928161702572713,
+    "maxRateBase": 22.961425781304335,
+    "maxRateCandidate": 22.961425781304335,
+    "totals": {
+      "baseCore": 422,
+      "candidateCore": 0,
+      "maxBaseCore": 7.081992065492121,
+      "maxCandidateCore": 2.5116885748633355,
+      "newPairs": 0
+    },
+    "file": "final-r3-window1000.json",
+    "perDigit": [
+      {
+        "finger": 1,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      },
+      {
+        "finger": 2,
+        "maxCoreBefore": 3.066432562351673,
+        "maxCoreAfter": 0,
+        "severeBefore": 378,
+        "severeAfter": 0
+      },
+      {
+        "finger": 3,
+        "maxCoreBefore": 7.081992065492121,
+        "maxCoreAfter": 2.5116885748633355,
+        "severeBefore": 44,
+        "severeAfter": 0
+      },
+      {
+        "finger": 4,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      },
+      {
+        "finger": 5,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      }
+    ]
+  },
+  {
+    "begin": 162.08,
+    "end": 162.19,
+    "fps": 5000,
+    "hi": 1,
+    "samples": 560,
+    "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+    "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-primary-v1.json",
+    "regressionCount": 0,
+    "activeQuaternionDeltaRad": 5.960464477539063e-08,
+    "activeTipDeltaM": 0,
+    "seekQuaternionDelta": 0,
+    "maxSpeedBase": 1.08532928696175,
+    "maxSpeedCandidate": 4.352564822050059,
+    "maxRateBase": 148.379516596578,
+    "maxRateCandidate": 148.379516596578,
+    "totals": {
+      "baseCore": 542,
+      "candidateCore": 192,
+      "maxBaseCore": 7.242020771623239,
+      "maxCandidateCore": 4.19201575118644,
+      "newPairs": 0
+    },
+    "file": "combined-r4-r5-v8-5000.json",
+    "perDigit": [
+      {
+        "finger": 1,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      },
+      {
+        "finger": 2,
+        "maxCoreBefore": 4.28467310373748,
+        "maxCoreAfter": 4.19201575118644,
+        "severeBefore": 217,
+        "severeAfter": 192
+      },
+      {
+        "finger": 3,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      },
+      {
+        "finger": 4,
+        "maxCoreBefore": 7.242020771623239,
+        "maxCoreAfter": 2.950106769985139,
+        "severeBefore": 325,
+        "severeAfter": 0
+      },
+      {
+        "finger": 5,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      }
+    ]
+  },
+  {
+    "begin": 160.490539,
+    "end": 162.507213,
+    "fps": 240,
+    "hi": 1,
+    "samples": 524,
+    "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+    "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-primary-v1.json",
+    "regressionCount": 0,
+    "activeQuaternionDeltaRad": 7.300048299977715e-08,
+    "activeTipDeltaM": 0,
+    "seekQuaternionDelta": 0,
+    "maxSpeedBase": 1.6996055060585353,
+    "maxSpeedCandidate": 3.2948957375641936,
+    "maxRateBase": 49.51318359379463,
+    "maxRateCandidate": 49.51318359379463,
+    "totals": {
+      "baseCore": 96,
+      "candidateCore": 77,
+      "maxBaseCore": 7.222512236102513,
+      "maxCandidateCore": 7.222512236102513,
+      "newPairs": 0
+    },
+    "file": "combined-r4-r5-full-secondary240.json",
+    "perDigit": [
+      {
+        "finger": 1,
+        "maxCoreBefore": 0,
+        "maxCoreAfter": 0,
+        "severeBefore": 0,
+        "severeAfter": 0
+      },
+      {
+        "finger": 2,
+        "maxCoreBefore": 5.994217091831844,
+        "maxCoreAfter": 5.994217415590974,
+        "severeBefore": 46,
+        "severeAfter": 43
+      },
+      {
+        "finger": 3,
+        "maxCoreBefore": 3.5952654734880407,
+        "maxCoreAfter": 3.5952654734880407,
+        "severeBefore": 5,
+        "severeAfter": 5
+      },
+      {
+        "finger": 4,
+        "maxCoreBefore": 7.222512236102513,
+        "maxCoreAfter": 7.222512236102513,
+        "severeBefore": 40,
+        "severeAfter": 24
+      },
+      {
+        "finger": 5,
+        "maxCoreBefore": 5.238816738167507,
+        "maxCoreAfter": 5.238816738167507,
+        "severeBefore": 5,
+        "severeAfter": 5
+      }
+    ]
+  }
+]

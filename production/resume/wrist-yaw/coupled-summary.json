@@ -1,0 +1,60 @@
+[
+  {
+    "id": "p00514",
+    "time": 105.7149985,
+    "trials": 87,
+    "params": [
+      -0.017409080684003146,
+      0.008,
+      -0.01500902809939774,
+      -0.5235987755982988,
+      0.211,
+      0.01350223
+    ],
+    "metrics": {
+      "threeDimensionalDegrees": 11.709016118053347,
+      "lateralPalmFrameDegrees": 5.01968727184321,
+      "keyCore": 0,
+      "crossingPairs": 0,
+      "contacts": [
+        {
+          "id": "p00514",
+          "midi": 63,
+          "finger": 1,
+          "padGap": 1.8314017957801187,
+          "count": 43
+        }
+      ],
+      "pointContactMm": 7.145192527163351e-05
+    }
+  },
+  {
+    "id": "p00905",
+    "time": 187.4408685,
+    "trials": 89,
+    "params": [
+      -0.025,
+      0.003,
+      -0.03,
+      -0.6981317007977318,
+      0.211,
+      0.003889
+    ],
+    "metrics": {
+      "threeDimensionalDegrees": 16.24386378766885,
+      "lateralPalmFrameDegrees": 11.527790173501012,
+      "keyCore": 2.1923365723565125,
+      "crossingPairs": 0,
+      "contacts": [
+        {
+          "id": "p00905",
+          "midi": 66,
+          "finger": 2,
+          "padGap": -2.1923365723565125,
+          "count": 51
+        }
+      ],
+      "pointContactMm": 4.499556495192496e-05
+    }
+  }
+]

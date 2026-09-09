@@ -1,0 +1,21 @@
+RENDERER llvmpipe (LLVM 20.1.2, 256 bits)
+ENV_CAPTURE_FACE 0
+ENV_CAPTURE_FACE 1
+ENV_CAPTURE_FACE 2
+ENV_CAPTURE_FACE 3
+ENV_CAPTURE_FACE 4
+ENV_CAPTURE_FACE 5
+ENV_FILTER_LEVEL 0
+ENV_FILTER_LEVEL 1
+ENV_FILTER_LEVEL 2
+ENV_FILTER_LEVEL 3
+ENV_FILTER_LEVEL 4
+ENV_FILTER_LEVEL 5
+ENV_FILTER_LEVEL 6
+ENV_FILTER_LEVEL 7
+ENV_FILTER_LEVEL 8
+ENVIRONMENT {"position": [0.0, 1.149999976158142, -0.44999998807907104], "captureSize": 256, "filteredSize": 128, "roughnessLevels": 9, "samples": 128, "stageMeshes": 318, "seconds": 1.7066781610001271, "approximation": "GGX NDF split-sum, 9 regular levels; source uses GGX VNDF CubeUV and initial sigma=.045"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9b4a73703d7a9bf/current-1280-4.538477.png", "glError": "GL_NO_ERROR", "seconds": 1.1710178260000248, "shot": "First light"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9b4a73703d7a9bf/current-1280-105.714998.png", "glError": "GL_NO_ERROR", "seconds": 0.9763292919997184, "shot": "The inner voice"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9b4a73703d7a9bf/current-1280-187.440868.png", "glError": "GL_NO_ERROR", "seconds": 0.9877902869993704, "shot": "The highest note"}
+{"report": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9b4a73703d7a9bf/report-1280.json", "initializationSeconds": 10.070148281000002, "peakProcessTreeRssBytes": 868491264}

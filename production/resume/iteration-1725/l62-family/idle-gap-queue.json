@@ -1,0 +1,1472 @@
+{
+  "candidate": "candidate-eight.json",
+  "definition": "Finite inactive-finger endpoint pairs observed in complete-context failures. Both released and never-active sampled segments retained. No claim that changing one endpoint resolves the whole gap.",
+  "rows": [
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00123",
+        "end": 30.207233
+      },
+      "next": {
+        "id": "p00155",
+        "start": 36.960009
+      },
+      "firstObserved": 30.28,
+      "lastObserved": 32.67583333333378,
+      "samples": 290,
+      "strictRegressionSamples": 120,
+      "maxKeyCoreMm": 7.208775319936183,
+      "maxTrianglePairs": 139,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00125",
+        "p00127",
+        "p00129",
+        "p00130",
+        "p00132",
+        "p00134",
+        "p00136"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00968",
+        "end": 197.302852
+      },
+      "next": {
+        "id": "p00975",
+        "start": 198.326852
+      },
+      "firstObserved": 197.302852,
+      "lastObserved": 198.326851,
+      "samples": 224,
+      "strictRegressionSamples": 76,
+      "maxKeyCoreMm": 7.6917775205461725,
+      "maxTrianglePairs": 280,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00970",
+        "p00972",
+        "p00973"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 5,
+      "previous": {
+        "id": "p00692",
+        "end": 153.735383
+      },
+      "next": {
+        "id": "p00719",
+        "start": 159.156206
+      },
+      "firstObserved": 154.72249999999886,
+      "lastObserved": 158.0974999999958,
+      "samples": 427,
+      "strictRegressionSamples": 75,
+      "maxKeyCoreMm": 0,
+      "maxTrianglePairs": 121,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00698",
+        "p00699",
+        "p00701",
+        "p00705",
+        "p00706",
+        "p00708",
+        "p00711",
+        "p00713",
+        "p00715"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00125",
+        "end": 30.55607
+      },
+      "next": {
+        "id": "p00129",
+        "start": 30.928908
+      },
+      "firstObserved": 30.59666666666665,
+      "lastObserved": 30.9133333333333,
+      "samples": 80,
+      "strictRegressionSamples": 64,
+      "maxKeyCoreMm": 7.979647613232332,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00127"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00706",
+        "end": 156.54761399999998
+      },
+      "next": {
+        "id": "p00713",
+        "start": 157.686725
+      },
+      "firstObserved": 156.54761399999998,
+      "lastObserved": 157.686724,
+      "samples": 226,
+      "strictRegressionSamples": 64,
+      "maxKeyCoreMm": 5.48237692777287,
+      "maxTrianglePairs": 274,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00708",
+        "p00709",
+        "p00711"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00694",
+        "end": 154.08822
+      },
+      "next": {
+        "id": "p00701",
+        "start": 155.158732
+      },
+      "firstObserved": 154.08822,
+      "lastObserved": 155.158731,
+      "samples": 217,
+      "strictRegressionSamples": 63,
+      "maxKeyCoreMm": 7.166593905640117,
+      "maxTrianglePairs": 278,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00696",
+        "p00698",
+        "p00699"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 5,
+      "previous": {
+        "id": "p00948",
+        "end": 194.26955199999998
+      },
+      "next": {
+        "id": "p01020",
+        "start": 208.244445
+      },
+      "firstObserved": 197.90666666666556,
+      "lastObserved": 199.70666666666392,
+      "samples": 267,
+      "strictRegressionSamples": 60,
+      "maxKeyCoreMm": 0,
+      "maxTrianglePairs": 118,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00972",
+        "p00973",
+        "p00975",
+        "p00980",
+        "p00983"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00130",
+        "end": 31.602581999999998
+      },
+      "next": {
+        "id": "p00141",
+        "start": 33.782648
+      },
+      "firstObserved": 31.602581999999998,
+      "lastObserved": 32.67583333333378,
+      "samples": 162,
+      "strictRegressionSamples": 58,
+      "maxKeyCoreMm": 7.2495270515232075,
+      "maxTrianglePairs": 177,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LIndex",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00132",
+        "p00134",
+        "p00136"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00708",
+        "end": 156.921984
+      },
+      "next": {
+        "id": "p00715",
+        "start": 158.057095
+      },
+      "firstObserved": 156.921984,
+      "lastObserved": 158.057094,
+      "samples": 226,
+      "strictRegressionSamples": 57,
+      "maxKeyCoreMm": 4.280484068607371,
+      "maxTrianglePairs": 274,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00709",
+        "p00711",
+        "p00713"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00115",
+        "end": 28.471066
+      },
+      "next": {
+        "id": "p00130",
+        "start": 31.277745
+      },
+      "firstObserved": 30.28,
+      "lastObserved": 31.26333333333328,
+      "samples": 174,
+      "strictRegressionSamples": 57,
+      "maxKeyCoreMm": 2.9433673886364864,
+      "maxTrianglePairs": 139,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00125",
+        "p00127",
+        "p00129"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00957",
+        "end": 195.263844
+      },
+      "next": {
+        "id": "p00973",
+        "start": 197.993519
+      },
+      "firstObserved": 196.69,
+      "lastObserved": 197.993518,
+      "samples": 296,
+      "strictRegressionSamples": 50,
+      "maxKeyCoreMm": 5.375603362843706,
+      "maxTrianglePairs": 280,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LIndex",
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00965",
+        "p00968",
+        "p00970",
+        "p00972"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00980",
+        "end": 199.64368
+      },
+      "next": {
+        "id": "p01001",
+        "start": 204.22833
+      },
+      "firstObserved": 199.64368,
+      "lastObserved": 202.60666666666128,
+      "samples": 306,
+      "strictRegressionSamples": 42,
+      "maxKeyCoreMm": 5.512213273098087,
+      "maxTrianglePairs": 308,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00983",
+        "p00985",
+        "p00990",
+        "p00992"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00667",
+        "end": 145.27853100000002
+      },
+      "next": {
+        "id": "p00709",
+        "start": 156.945984
+      },
+      "firstObserved": 153.69333333333313,
+      "lastObserved": 156.89749999999688,
+      "samples": 273,
+      "strictRegressionSamples": 36,
+      "maxKeyCoreMm": 6.770385184896977,
+      "maxTrianglePairs": 217,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00692",
+        "p00696",
+        "p00701",
+        "p00703",
+        "p00705",
+        "p00706",
+        "p00708"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00965",
+        "end": 196.88501300000001
+      },
+      "next": {
+        "id": "p00985",
+        "start": 200.016507
+      },
+      "firstObserved": 196.88501300000001,
+      "lastObserved": 199.96499999999702,
+      "samples": 266,
+      "strictRegressionSamples": 35,
+      "maxKeyCoreMm": 7.940166280216654,
+      "maxTrianglePairs": 233,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00968",
+        "p00975",
+        "p00977",
+        "p00979",
+        "p00980",
+        "p00983"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00673",
+        "end": 147.406864
+      },
+      "next": {
+        "id": "p00699",
+        "start": 154.809894
+      },
+      "firstObserved": 153.5266666666666,
+      "lastObserved": 154.80989300000002,
+      "samples": 272,
+      "strictRegressionSamples": 35,
+      "maxKeyCoreMm": 5.350080999960872,
+      "maxTrianglePairs": 278,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00692",
+        "p00694",
+        "p00696",
+        "p00698"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00983",
+        "end": 199.99250700000002
+      },
+      "next": {
+        "id": "p00992",
+        "start": 202.442616
+      },
+      "firstObserved": 199.99250700000002,
+      "lastObserved": 202.442615,
+      "samples": 120,
+      "strictRegressionSamples": 32,
+      "maxKeyCoreMm": 4.298792456232048,
+      "maxTrianglePairs": 290,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00985",
+        "p00990"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00699",
+        "end": 155.134732
+      },
+      "next": {
+        "id": "p00703",
+        "start": 155.507569
+      },
+      "firstObserved": 155.134732,
+      "lastObserved": 155.507568,
+      "samples": 108,
+      "strictRegressionSamples": 27,
+      "maxKeyCoreMm": 6.55628759777814,
+      "maxTrianglePairs": 281,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00701"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00975",
+        "end": 198.636185
+      },
+      "next": {
+        "id": "p00983",
+        "start": 199.67168
+      },
+      "firstObserved": 198.68583333333152,
+      "lastObserved": 199.671679,
+      "samples": 153,
+      "strictRegressionSamples": 23,
+      "maxKeyCoreMm": 6.374968758564192,
+      "maxTrianglePairs": 252,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00977",
+        "p00979",
+        "p00980"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00973",
+        "end": 198.302852
+      },
+      "next": {
+        "id": "p00977",
+        "start": 198.660185
+      },
+      "firstObserved": 198.302852,
+      "lastObserved": 198.66018400000002,
+      "samples": 103,
+      "strictRegressionSamples": 23,
+      "maxKeyCoreMm": 5.992897859099622,
+      "maxTrianglePairs": 259,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00975"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00701",
+        "end": 155.483569
+      },
+      "next": {
+        "id": "p00708",
+        "start": 156.575614
+      },
+      "firstObserved": 155.53499999999812,
+      "lastObserved": 156.575613,
+      "samples": 159,
+      "strictRegressionSamples": 20,
+      "maxKeyCoreMm": 6.435863309389333,
+      "maxTrianglePairs": 281,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00703",
+        "p00705",
+        "p00706"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00709",
+        "end": 157.29235400000002
+      },
+      "next": {
+        "id": "p00716",
+        "start": 158.427465
+      },
+      "firstObserved": 157.3433333333298,
+      "lastObserved": 158.39749999999552,
+      "samples": 123,
+      "strictRegressionSamples": 17,
+      "maxKeyCoreMm": 7.176815016700713,
+      "maxTrianglePairs": 90,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00711",
+        "p00713",
+        "p00715"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00129",
+        "end": 31.253745
+      },
+      "next": {
+        "id": "p00134",
+        "start": 31.963419
+      },
+      "firstObserved": 31.304999999999943,
+      "lastObserved": 31.963417999999997,
+      "samples": 34,
+      "strictRegressionSamples": 16,
+      "maxKeyCoreMm": 6.5179586158129466,
+      "maxTrianglePairs": 199,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00130",
+        "p00132"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00977",
+        "end": 198.96951900000002
+      },
+      "next": {
+        "id": "p00980",
+        "start": 199.314852
+      },
+      "firstObserved": 198.96951900000002,
+      "lastObserved": 199.314851,
+      "samples": 54,
+      "strictRegressionSamples": 16,
+      "maxKeyCoreMm": 5.670537822401886,
+      "maxTrianglePairs": 271,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LIndex",
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00979"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00703",
+        "end": 155.832406
+      },
+      "next": {
+        "id": "p00706",
+        "start": 156.193243
+      },
+      "firstObserved": 155.832406,
+      "lastObserved": 156.193242,
+      "samples": 55,
+      "strictRegressionSamples": 14,
+      "maxKeyCoreMm": 6.654321427358334,
+      "maxTrianglePairs": 281,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LIndex",
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00705"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00713",
+        "end": 158.033095
+      },
+      "next": {
+        "id": "p00728",
+        "start": 160.168206
+      },
+      "firstObserved": 158.033095,
+      "lastObserved": 158.57666666666202,
+      "samples": 151,
+      "strictRegressionSamples": 13,
+      "maxKeyCoreMm": 5.360376878820294,
+      "maxTrianglePairs": 165,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPinky"
+      ],
+      "activeNoteIds": [
+        "p00715",
+        "p00716"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00990",
+        "end": 202.30112400000002
+      },
+      "next": {
+        "id": "p00997",
+        "start": 203.514044
+      },
+      "firstObserved": 202.30112400000002,
+      "lastObserved": 202.45666666666142,
+      "samples": 38,
+      "strictRegressionSamples": 10,
+      "maxKeyCoreMm": 7.352529749635184,
+      "maxTrianglePairs": 303,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00992"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00960",
+        "end": 195.976845
+      },
+      "next": {
+        "id": "p00970",
+        "start": 197.326852
+      },
+      "firstObserved": 197.26499999999947,
+      "lastObserved": 197.31083333333277,
+      "samples": 14,
+      "strictRegressionSamples": 6,
+      "maxKeyCoreMm": 7.065366896171072,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00968"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00985",
+        "end": 200.337335
+      },
+      "next": {
+        "id": "p00989",
+        "start": 201.05099
+      },
+      "firstObserved": 200.38583333332997,
+      "lastObserved": 200.99416666666275,
+      "samples": 17,
+      "strictRegressionSamples": 6,
+      "maxKeyCoreMm": 6.971446575009422,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00987"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00450",
+        "end": 94.896834
+      },
+      "next": {
+        "id": "p00468",
+        "start": 97.636615
+      },
+      "firstObserved": 94.97249999999971,
+      "lastObserved": 96.49749999999833,
+      "samples": 237,
+      "strictRegressionSamples": 6,
+      "maxKeyCoreMm": 6.251244753038621,
+      "maxTrianglePairs": 105,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LPinky",
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00453",
+        "p00455",
+        "p00457",
+        "p00458",
+        "p00461"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00453",
+        "end": 95.233913
+      },
+      "next": {
+        "id": "p00525",
+        "start": 107.247683
+      },
+      "firstObserved": 95.31416666666607,
+      "lastObserved": 96.49749999999833,
+      "samples": 186,
+      "strictRegressionSamples": 6,
+      "maxKeyCoreMm": 4.747837508874975,
+      "maxTrianglePairs": 14,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00454",
+        "p00455",
+        "p00457",
+        "p00458",
+        "p00461"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00454",
+        "end": 95.570991
+      },
+      "next": {
+        "id": "p00458",
+        "start": 95.92357
+      },
+      "firstObserved": 95.61833333333246,
+      "lastObserved": 95.88083333333222,
+      "samples": 5,
+      "strictRegressionSamples": 5,
+      "maxKeyCoreMm": 6.155037079801251,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00455"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 5,
+      "previous": {
+        "id": "p00132",
+        "end": 31.891371
+      },
+      "next": {
+        "id": "p00146",
+        "start": 35.215823
+      },
+      "firstObserved": 31.891371,
+      "lastObserved": 32.05499999999995,
+      "samples": 34,
+      "strictRegressionSamples": 4,
+      "maxKeyCoreMm": 2.258577893421543,
+      "maxTrianglePairs": 169,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LRing",
+        "LPalm",
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00134"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00970",
+        "end": 197.610185
+      },
+      "next": {
+        "id": "p00972",
+        "start": 197.660185
+      },
+      "firstObserved": 197.61916666666582,
+      "lastObserved": 197.65249999999912,
+      "samples": 9,
+      "strictRegressionSamples": 3,
+      "maxKeyCoreMm": 7.679708915951822,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": []
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00972",
+        "end": 197.926519
+      },
+      "next": {
+        "id": "p00979",
+        "start": 198.993519
+      },
+      "firstObserved": 198.94416666666461,
+      "lastObserved": 198.98166666666458,
+      "samples": 13,
+      "strictRegressionSamples": 2,
+      "maxKeyCoreMm": 5.3668270470030315,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00977"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00698",
+        "end": 154.742894
+      },
+      "next": {
+        "id": "p00705",
+        "start": 155.856406
+      },
+      "firstObserved": 155.8058333333312,
+      "lastObserved": 155.84333333333117,
+      "samples": 13,
+      "strictRegressionSamples": 2,
+      "maxKeyCoreMm": 4.961051719009513,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00703"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00448",
+        "end": 94.54255500000001
+      },
+      "next": {
+        "id": "p00455",
+        "start": 95.594991
+      },
+      "firstObserved": 95.54749999999919,
+      "lastObserved": 95.57249999999917,
+      "samples": 6,
+      "strictRegressionSamples": 2,
+      "maxKeyCoreMm": 4.019082430911647,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00454"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00696",
+        "end": 154.411057
+      },
+      "next": {
+        "id": "p00698",
+        "start": 154.461057
+      },
+      "firstObserved": 154.4266666666658,
+      "lastObserved": 154.4474999999991,
+      "samples": 6,
+      "strictRegressionSamples": 1,
+      "maxKeyCoreMm": 7.612892883269606,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": []
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00446",
+        "end": 94.222677
+      },
+      "next": {
+        "id": "p00454",
+        "start": 95.257913
+      },
+      "firstObserved": 94.7266666666666,
+      "lastObserved": 95.23916666666614,
+      "samples": 141,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 7.086686489551922,
+      "maxTrianglePairs": 169,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00450",
+        "p00453"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00134",
+        "end": 32.253924
+      },
+      "next": {
+        "id": "p00136",
+        "start": 32.336865
+      },
+      "firstObserved": 32.253924,
+      "lastObserved": 32.29666666666681,
+      "samples": 16,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 6.518284569026034,
+      "maxTrianglePairs": 125,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": []
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00989",
+        "end": 201.86612000000002
+      },
+      "next": {
+        "id": "p00990",
+        "start": 202.073473
+      },
+      "firstObserved": 201.8983333333286,
+      "lastObserved": 202.073472,
+      "samples": 32,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 6.436209179926711,
+      "maxTrianglePairs": 135,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": []
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00127",
+        "end": 30.904908
+      },
+      "next": {
+        "id": "p00137",
+        "start": 32.698311
+      },
+      "firstObserved": 32.63833333333375,
+      "lastObserved": 32.67583333333378,
+      "samples": 13,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 5.888245334535497,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00136"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 3,
+      "previous": {
+        "id": "p00432",
+        "end": 91.506895
+      },
+      "next": {
+        "id": "p00453",
+        "start": 94.920834
+      },
+      "firstObserved": 94.7266666666666,
+      "lastObserved": 94.920833,
+      "samples": 57,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 5.492843286848348,
+      "maxTrianglePairs": 169,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00450"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00979",
+        "end": 199.247852
+      },
+      "next": {
+        "id": "p00987",
+        "start": 200.361335
+      },
+      "firstObserved": 200.31083333333004,
+      "lastObserved": 200.34833333333,
+      "samples": 13,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 5.4360873114608355,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00985"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 2,
+      "previous": {
+        "id": "p00458",
+        "end": 96.224979
+      },
+      "next": {
+        "id": "p00461",
+        "start": 96.272979
+      },
+      "firstObserved": 96.24749999999855,
+      "lastObserved": 96.24749999999855,
+      "samples": 1,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 5.362773380045038,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": []
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00113",
+        "end": 28.126238999999998
+      },
+      "next": {
+        "id": "p00127",
+        "start": 30.58007
+      },
+      "firstObserved": 30.534166666666653,
+      "lastObserved": 30.575833333333318,
+      "samples": 14,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 5.182486352321602,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "descending"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00125"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00705",
+        "end": 156.126243
+      },
+      "next": {
+        "id": "p00711",
+        "start": 157.316354
+      },
+      "firstObserved": 157.26833333332988,
+      "lastObserved": 157.30166666666318,
+      "samples": 12,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 4.946440518251799,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00709"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00684",
+        "end": 151.521494
+      },
+      "next": {
+        "id": "p00694",
+        "start": 153.763383
+      },
+      "firstObserved": 153.5266666666666,
+      "lastObserved": 153.763382,
+      "samples": 67,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 4.66258473923864,
+      "maxTrianglePairs": 172,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle",
+        "LIndex"
+      ],
+      "activeNoteIds": [
+        "p00692"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00715",
+        "end": 158.403465
+      },
+      "next": {
+        "id": "p00726",
+        "start": 159.834873
+      },
+      "firstObserved": 158.403465,
+      "lastObserved": 158.57666666666202,
+      "samples": 50,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 4.24707142926456,
+      "maxTrianglePairs": 165,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00716"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 1,
+      "previous": {
+        "id": "p00690",
+        "end": 153.34070100000002
+      },
+      "next": {
+        "id": "p00696",
+        "start": 154.11222
+      },
+      "firstObserved": 154.07249999999945,
+      "lastObserved": 154.08499999999944,
+      "samples": 4,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 3.9358876836110834,
+      "maxTrianglePairs": 0,
+      "contexts": [
+        "repeat-55"
+      ],
+      "pairedPatches": [],
+      "activeNoteIds": [
+        "p00694"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 4,
+      "previous": {
+        "id": "p00964",
+        "end": 196.548275
+      },
+      "next": {
+        "id": "p00968",
+        "start": 196.993519
+      },
+      "firstObserved": 196.69,
+      "lastObserved": 196.993518,
+      "samples": 83,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 3.5411304208375904,
+      "maxTrianglePairs": 252,
+      "contexts": [
+        "repeat-71"
+      ],
+      "pairedPatches": [
+        "LIndex",
+        "LMiddle"
+      ],
+      "activeNoteIds": [
+        "p00965"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 5,
+      "previous": {
+        "id": "p00442",
+        "end": 93.544519
+      },
+      "next": {
+        "id": "p00457",
+        "start": 95.92007
+      },
+      "firstObserved": 94.97249999999971,
+      "lastObserved": 95.20166666666617,
+      "samples": 59,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 0,
+      "maxTrianglePairs": 105,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00453"
+      ]
+    },
+    {
+      "side": "L",
+      "finger": 5,
+      "previous": {
+        "id": "p00457",
+        "end": 96.22497899999999
+      },
+      "next": {
+        "id": "p00472",
+        "start": 98.318434
+      },
+      "firstObserved": 96.38499999999843,
+      "lastObserved": 96.49749999999833,
+      "samples": 31,
+      "strictRegressionSamples": 0,
+      "maxKeyCoreMm": 0,
+      "maxTrianglePairs": 22,
+      "contexts": [
+        "before-octave"
+      ],
+      "pairedPatches": [
+        "LRing"
+      ],
+      "activeNoteIds": [
+        "p00461"
+      ]
+    }
+  ]
+}

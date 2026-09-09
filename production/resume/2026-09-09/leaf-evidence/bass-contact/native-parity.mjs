@@ -1,0 +1,1 @@
+import fs from'node:fs';import{evaluate}from'./metrics.mjs';import{performer}from'./harness.mjs';const rows=[];for(const t of[71,71.15,71.22,71.462,71.51,71.46242800000279]){const r=evaluate(t);r.quaternions=performer.hands.map(h=>h.fingers.map(f=>f.bones.map(b=>b.quaternion.toArray())));rows.push(r);}fs.writeFileSync(process.env.OUT,JSON.stringify(rows));

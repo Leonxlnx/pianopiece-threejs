@@ -24,7 +24,7 @@ export function applyIdleNonthumb(time:number,side:'L'|'R',fi:number,bones:THREE
  const hi=side==='L'?0:1;
  if(fi===1){
   const c=idleNonthumbData.supportedIndexGaps.find(c=>matches(c,hi,fi,previous,next));
-  if(c){const amount=smooth((base.y-KEY_TOP-.005)/.004)*smooth((base.z-.244)/.008)*smooth((time-c.previousEnd)/.25)*smooth((c.nextTime-time)/.32);rotate(bones[0],new THREE.Vector3(1,0,0),5*amount);}
+  if(c){const amount=smooth((base.y-KEY_TOP-.005)/.004)*smooth((base.z-.244)/.008)*smooth((time-c.previousEnd)/.25)*smooth((c.nextTime-time)/.32)*(c.earlyRelease?1-smooth((time-c.earlyRelease[0])/(c.earlyRelease[1]-c.earlyRelease[0])):1);rotate(bones[0],new THREE.Vector3(1,0,0),5*amount);}
  }
  for(const c of idleNonthumbData.curves as Curve[]){
   if(!matches(c,hi,fi,previous,next)||time<=c.knots[0][0]||time>=c.knots[c.knots.length-1][0])continue;

@@ -1,0 +1,324 @@
+[
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LIndex:LMiddle",
+    "samples": 17,
+    "firstTime": 174.69583333333333,
+    "lastTime": 175.20208333333332,
+    "worst": {
+      "time": 175.20208333333332,
+      "before": 120,
+      "after": 138
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LIndex:LMiddle",
+    "samples": 17,
+    "firstTime": 174.69583333333333,
+    "lastTime": 175.20208333333332,
+    "worst": {
+      "time": 175.20208333333332,
+      "before": 120,
+      "after": 138
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LMiddle:LRing",
+    "samples": 3,
+    "firstTime": 175.53125,
+    "lastTime": 175.9,
+    "worst": {
+      "time": 175.53125,
+      "before": 46,
+      "after": 48
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LMiddle:LRing",
+    "samples": 3,
+    "firstTime": 175.53125,
+    "lastTime": 175.9,
+    "worst": {
+      "time": 175.53125,
+      "before": 46,
+      "after": 48
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LIndex:LRing",
+    "samples": 1,
+    "firstTime": 175.85833333333332,
+    "lastTime": 175.85833333333332,
+    "worst": {
+      "time": 175.85833333333332,
+      "before": 47,
+      "after": 48
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsBase",
+    "kind": "strictFingerPairIncrease",
+    "target": "LIndex:LRing",
+    "samples": 1,
+    "firstTime": 175.85833333333332,
+    "lastTime": 175.85833333333332,
+    "worst": {
+      "time": 175.85833333333332,
+      "before": 47,
+      "after": 48
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "newCoreKey",
+    "target": "LIndex:54",
+    "samples": 3,
+    "firstTime": 176.03125,
+    "lastTime": 176.04166666666666,
+    "worst": {
+      "time": 176.03958333333333,
+      "before": 2.2378127554524285,
+      "after": 3.064125726213729
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:54",
+    "samples": 3,
+    "firstTime": 176.03125,
+    "lastTime": 176.04166666666666,
+    "worst": {
+      "time": 176.03958333333333,
+      "before": 2.2378127554524285,
+      "after": 3.064125726213729
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:56",
+    "samples": 2,
+    "firstTime": 176.05833333333334,
+    "lastTime": 176.09375,
+    "worst": {
+      "time": 176.09375,
+      "before": 6.871903522594924,
+      "after": 7.210325825008579
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:56",
+    "samples": 6,
+    "firstTime": 176.064999,
+    "lastTime": 176.11875,
+    "worst": {
+      "time": 176.065001,
+      "before": 6.5383183657248125,
+      "after": 7.204104635296512
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "newCoreKey",
+    "target": "LIndex:58",
+    "samples": 2,
+    "firstTime": 176.08333333333334,
+    "lastTime": 176.08541666666667,
+    "worst": {
+      "time": 176.08333333333334,
+      "before": 2.888933807731864,
+      "after": 3.302625581124874
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:58",
+    "samples": 2,
+    "firstTime": 176.08333333333334,
+    "lastTime": 176.08541666666667,
+    "worst": {
+      "time": 176.08333333333334,
+      "before": 2.888933807731864,
+      "after": 3.302625581124874
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "newCoreKey",
+    "target": "LIndex:57",
+    "samples": 1,
+    "firstTime": 176.11458333333334,
+    "lastTime": 176.11458333333334,
+    "worst": {
+      "time": 176.11458333333334,
+      "before": 2.288357622759918,
+      "after": 3.0825144382363723
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:57",
+    "samples": 9,
+    "firstTime": 176.11458333333334,
+    "lastTime": 176.13541666666666,
+    "worst": {
+      "time": 176.11458333333334,
+      "before": 2.288357622759918,
+      "after": 3.0825144382363723
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "newCoreKey",
+    "target": "LIndex:56",
+    "samples": 1,
+    "firstTime": 176.11875,
+    "lastTime": 176.11875,
+    "worst": {
+      "time": 176.11875,
+      "before": 2.856444424931104,
+      "after": 3.120109266464721
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "originalVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:59",
+    "samples": 2,
+    "firstTime": 176.1375,
+    "lastTime": 176.14583333333334,
+    "worst": {
+      "time": 176.1375,
+      "before": 7.620631838264669,
+      "after": 7.9657928864499405
+    }
+  },
+  {
+    "scope": "index-059",
+    "relation": "fixedVsOriginal",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:59",
+    "samples": 1,
+    "firstTime": 176.14375,
+    "lastTime": 176.14375,
+    "worst": {
+      "time": 176.14375,
+      "before": 7.607072968391582,
+      "after": 7.973552130152162
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "originalVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:56",
+    "samples": 1,
+    "firstTime": 91.4625,
+    "lastTime": 91.4625,
+    "worst": {
+      "time": 91.4625,
+      "before": 3.8956706218141735,
+      "after": 4.558349201767897
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "fixedVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:56",
+    "samples": 1,
+    "firstTime": 91.4625,
+    "lastTime": 91.4625,
+    "worst": {
+      "time": 91.4625,
+      "before": 3.8956706218141735,
+      "after": 4.558349201767897
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "originalVsBase",
+    "kind": "newCoreKey",
+    "target": "LIndex:58",
+    "samples": 5,
+    "firstTime": 91.47083333333333,
+    "lastTime": 91.475,
+    "worst": {
+      "time": 91.47083333333333,
+      "before": 0,
+      "after": 4.055514910441149
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "originalVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:58",
+    "samples": 5,
+    "firstTime": 91.47083333333333,
+    "lastTime": 91.475,
+    "worst": {
+      "time": 91.47083333333333,
+      "before": 0,
+      "after": 4.055514910441149
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "fixedVsBase",
+    "kind": "newCoreKey",
+    "target": "LIndex:58",
+    "samples": 5,
+    "firstTime": 91.47083333333333,
+    "lastTime": 91.475,
+    "worst": {
+      "time": 91.47083333333333,
+      "before": 0,
+      "after": 4.055514910441149
+    }
+  },
+  {
+    "scope": "curve-007",
+    "relation": "fixedVsBase",
+    "kind": "worsenedCoreKey",
+    "target": "LIndex:58",
+    "samples": 5,
+    "firstTime": 91.47083333333333,
+    "lastTime": 91.475,
+    "worst": {
+      "time": 91.47083333333333,
+      "before": 0,
+      "after": 4.055514910441149
+    }
+  }
+]

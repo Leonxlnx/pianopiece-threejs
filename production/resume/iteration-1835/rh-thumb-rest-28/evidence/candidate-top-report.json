@@ -1,0 +1,703 @@
+{
+  "sourceFingerprint": "b480548423c24c4098e6b44a8683e761e264701a7f8bcc10c2482906e0c8933e",
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/b480548423c24c40",
+  "sourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "88939f3e97807788546b71ae3b5139e446988fef901e5871253cc68346dabcbf",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "edf40a6b65c21ecb4e35890e784a4e9225d04f68d35fa8e586fe85835003db83",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "93418f267884f4ea28dec750509d4b6f20b2d73e753d689ae31b743d9ecc5871"
+  },
+  "originalSourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "6191ac5082e09dcd2c3b98dbfff3a2f077f98f9e1b8410533cd5b2c037dd2f2b",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773"
+  },
+  "reviewCamera": {
+    "frames": [
+      {
+        "time": 27.794411,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 27.844411,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 27.894411,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 28.294411,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 31.02,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 32.522588,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 33.726094,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 34.076094,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 34.126094,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 34.146094,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 34.166094,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      }
+    ]
+  },
+  "scoreOverride": "/workspace/scratch/2e8cc8e77f98/rh-thumb-rest-28/baseline-score.json",
+  "pianistOverride": "/workspace/scratch/2e8cc8e77f98/rh-thumb-rest-28/pianist-candidate.ts",
+  "dependencySha256": {
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "glVersion": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "initializationSeconds": 9.160385791001318,
+  "deformedMeshes": [
+    {
+      "name": "Human_1070",
+      "vertices": 24629
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1071",
+      "vertices": 6004
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1_1072",
+      "vertices": 3994
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_2_1073",
+      "vertices": 420
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_3_1074",
+      "vertices": 256
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_4_1075",
+      "vertices": 128
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_5_1076",
+      "vertices": 504
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_6_1077",
+      "vertices": 360
+    },
+    {
+      "name": "Humanhigh-poly_1078",
+      "vertices": 1076
+    },
+    {
+      "name": "Humanmindfront_eyebrows_02_1079",
+      "vertices": 12243
+    },
+    {
+      "name": "Humanmindfront_eyelashes_02_1080",
+      "vertices": 16992
+    },
+    {
+      "name": "Humanponytail01_1081",
+      "vertices": 3902
+    },
+    {
+      "name": "Humanteeth_base_1082",
+      "vertices": 4494
+    },
+    {
+      "name": "Humantongue01_1083",
+      "vertices": 253
+    }
+  ],
+  "meshes": 1091,
+  "frames": [
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-27.794411.png",
+      "imageSha256": "3e1358fb6b4cb67e84952e193a2a5ce498d8ad48ea1b7db904f16fbe97a1bc91",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.1317220109995105,
+      "row": {
+        "time": 27.794411,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.16393796799820848,
+        "shadows": 0.32798736399854533,
+        "render": 0.4926013040021644,
+        "total": 0.9845266359989182,
+        "pedal": 0.73,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-27.844411.png",
+      "imageSha256": "358d8b4e7d3211a3fe11c0d267c31a0b46a8bd213c77e20b4c4cf9695fa54521",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7100315829993633,
+      "row": {
+        "time": 27.844411,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.11208219699983601,
+        "shadows": 0.08194458199795918,
+        "render": 0.4163550040029804,
+        "total": 0.6103817830007756,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.0698727354994876e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 72,
+            "error": 1.8531435070532422e-08
+          }
+        ],
+        "activeNotes": [
+          60,
+          72
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-27.894411.png",
+      "imageSha256": "794e4d9a217843e681bf6e876d47c0dd980b946e1c50c271a5596f3f38e600a0",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8670227950024127,
+      "row": {
+        "time": 27.894411,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.11382283299826668,
+        "shadows": 0.11682786300298176,
+        "render": 0.5521701609977754,
+        "total": 0.7828208569990238,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.0715389683017944e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 72,
+            "error": 1.8361820643247727e-08
+          }
+        ],
+        "activeNotes": [
+          60,
+          72
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-28.294411.png",
+      "imageSha256": "8f88cabfcae4151a6e7e25a2d4570696698a7d5a76c87e53d5563aad42d1edf0",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8392105619968788,
+      "row": {
+        "time": 28.294411,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.16103038399887737,
+        "shadows": 0.10947659900193685,
+        "render": 0.4759395239998412,
+        "total": 0.7464465070006554,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 59,
+            "error": 1.3835883677815388e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 72,
+            "error": 1.9043022073476033e-08
+          }
+        ],
+        "activeNotes": [
+          72,
+          59
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-31.020000.png",
+      "imageSha256": "e73a65b788754b77639632652efbde117277635e131162ed9e6db3eb15d1660d",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8246285749992239,
+      "row": {
+        "time": 31.02,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.0852083540012245,
+        "shadows": 0.06579664799937746,
+        "render": 0.5770385939977132,
+        "total": 0.7280435959983151,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 67,
+            "error": 8.560690469666785e-08
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0681651569331734e-07
+          }
+        ],
+        "activeNotes": [
+          74,
+          67
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-32.522588.png",
+      "imageSha256": "ac86f4d29f6ca9d481d011d33405aee66db70b146234d7ad3779bc9200797bfc",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8218993219998083,
+      "row": {
+        "time": 32.522588,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.08627303399771336,
+        "shadows": 0.0699289360018156,
+        "render": 0.5542211350002617,
+        "total": 0.7104231049997907,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 57,
+            "error": 1.4261812355730386e-07
+          },
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 78,
+            "error": 6.462998457062561e-08
+          }
+        ],
+        "activeNotes": [
+          78,
+          57
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-33.726094.png",
+      "imageSha256": "3b06e1734d83c29edc6c8c533a2b15975dc05ede2bd859583900aff7dd69a0c2",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8540284500013513,
+      "row": {
+        "time": 33.726094,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.09130089599784696,
+        "shadows": 0.08089882800049963,
+        "render": 0.5857903729993268,
+        "total": 0.7579900969976734,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 62,
+            "error": 1.0406743236237275e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0745458883207065e-07
+          }
+        ],
+        "activeNotes": [
+          62,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-34.076094.png",
+      "imageSha256": "93fa1f464678b47dd63ec805c61124a5ddfb1980a30582a40b894a5d8395e814",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.0785104140013573,
+      "row": {
+        "time": 34.076094,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.18583090500032995,
+        "shadows": 0.10450028599734651,
+        "render": 0.693149054000969,
+        "total": 0.9834802449986455,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 60,
+            "error": 1.3550903379614177e-07
+          }
+        ],
+        "activeNotes": [
+          60
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-34.126094.png",
+      "imageSha256": "2d895d009ceb9821bb1b2637f19145b9334d13735ec9161c7abd9225d70f1057",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8808465959991736,
+      "row": {
+        "time": 34.126094,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.13674431699837442,
+        "shadows": 0.09372098600215395,
+        "render": 0.5542032269986521,
+        "total": 0.7846685299991805,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 60,
+            "error": 1.3515665463795405e-07
+          }
+        ],
+        "activeNotes": [
+          60
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-34.146094.png",
+      "imageSha256": "b026bde59614a7215d72c57459d9bb377a9792b5e0d818b917eede26066704d2",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8616389130002062,
+      "row": {
+        "time": 34.146094,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.12611372299943469,
+        "shadows": 0.09283354099898133,
+        "render": 0.5601408840011572,
+        "total": 0.7790881479995733,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 60,
+            "error": 1.3499786353460708e-07
+          }
+        ],
+        "activeNotes": [
+          60
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/b480548423c24c40/current-960-34.166094.png",
+      "imageSha256": "33cf6fba993bc410188d0e225d08bd9aca5e9246af7a1d5239020171a0e3ef6a",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.908724548000464,
+      "row": {
+        "time": 34.166094,
+        "shot": "Hands \u00b7 the theme",
+        "update": 0.10954225300156395,
+        "shadows": 0.09148351399926469,
+        "render": 0.6073071450009593,
+        "total": 0.8083329120017879,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 60,
+            "error": 1.3485669985113682e-07
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 69,
+            "error": 8.451204961622666e-08
+          }
+        ],
+        "activeNotes": [
+          60,
+          69
+        ]
+      }
+    }
+  ],
+  "peakProcessTreeRssBytes": 842346496,
+  "pythonMaxRssBytes": 841539584,
+  "rssSamplingIntervalSeconds": 0.1,
+  "steadyProcessTreeRssBytes": 842350592,
+  "strictGuardSource": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/render-project/production/revision/video-export/export_video.py",
+  "strictGuardSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "rendererSourceSha256": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+  "fullFilmStarted": false,
+  "note": "Offline native rendered export; no browser pixel-equivalence claim. One sample per frame, full pavilion environment.",
+  "samplesAllocation": {
+    "requestedEffectiveSamples": 4,
+    "glFramebufferSamples": 4,
+    "effectiveSamples": 4,
+    "modernGLColorSamples": 4,
+    "modernGLDepthSamples": 4,
+    "maxSamples": 4
+  },
+  "aspect": 1.7777777777777777
+}

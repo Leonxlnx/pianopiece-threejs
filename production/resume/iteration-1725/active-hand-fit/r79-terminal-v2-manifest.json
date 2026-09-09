@@ -1,0 +1,276 @@
+{
+  "format": "daybreak-score-delta-v1",
+  "noteCount": 1068,
+  "musicContractSha256": "6076c3826e3e78be022cba768cf070f12b268685add276d7eb4825881b3f963a",
+  "basePath": "r79-base.json",
+  "baselineSha256": "0fadbdd57050d0f7b217d70152ff7bf088771a78ff0685591f367b09a4be1573",
+  "candidatePath": "r79-terminal-candidate-v2.json",
+  "candidateSha256": "9be1fddea26f511f3b85de8ba4c83c58f017b195878ee224a8cf9a68413b49c0",
+  "operations": [
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002435,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.267
+    },
+    {
+      "kind": "note",
+      "id": "p00910",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009773,
+      "afterExists": true,
+      "after": 0.0015
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23
+    },
+    {
+      "kind": "note",
+      "id": "p00912",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003514,
+      "afterExists": true,
+      "after": 0.006
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.211
+    },
+    {
+      "kind": "note",
+      "id": "p00915",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.21599999999999997
+    },
+    {
+      "kind": "note",
+      "id": "p00916",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.23199999999999998
+    },
+    {
+      "kind": "note",
+      "id": "p00917",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 3,
+      "afterExists": true,
+      "after": 5
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003361,
+      "afterExists": true,
+      "after": 0.004
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.218
+    },
+    {
+      "kind": "note",
+      "id": "p00920",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 396,
+      "time": 188.286202,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.19497,
+        0.74542,
+        0.39055
+      ],
+      "afterExists": true,
+      "after": [
+        0.19369000000000003,
+        0.77877,
+        0.36155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 396,
+      "time": 188.286202,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.022987881762997507,
+        -0.7189782055612646,
+        0.694244286969567,
+        0.023806873588776093
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06025132152486873,
+        -0.7093753832306877,
+        0.6874342603097195,
+        0.14349383845047303
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.22746000000000008,
+        0.772,
+        0.33399999999999996
+      ],
+      "afterExists": true,
+      "after": [
+        0.19476000000000004,
+        0.7722,
+        0.33604999999999996
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.021567599404814137,
+        -0.7134448978119486,
+        0.7000252925637258,
+        0.0222667063815431
+      ],
+      "afterExists": true,
+      "after": [
+        -0.11541054458508249,
+        -0.7140251956478505,
+        0.6833946406407795,
+        0.09909687846791135
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 398,
+      "time": 189.300191,
+      "key": "moveStart",
+      "beforeExists": true,
+      "before": 189.15341092753056,
+      "afterExists": true,
+      "after": 189.227724
+    }
+  ],
+  "physicalReleaseChanges": [],
+  "runtimeRequirements": {
+    "sampler": "wrist-motion-arc.ts",
+    "samplerSha256": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "rig": "accepted arms + compact5 or held-pose equivalent"
+  }
+}

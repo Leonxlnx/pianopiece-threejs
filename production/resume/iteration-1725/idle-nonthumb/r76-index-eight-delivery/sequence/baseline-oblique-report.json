@@ -1,0 +1,1788 @@
+{
+  "sourceFingerprint": "9a582848ad3476c0bc19177a3d1639de426e8c86fd6758d2706405001209f08b",
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9a582848ad3476c0",
+  "sourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "bb02b90b28969498d6708935d6d49c502cd5a5e15915703f1796a53d17abaa1a",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "b04dd0da22e50c5365c66dcfc9470494f5043e12e0f68f6a2cdf4f71ecadb459"
+  },
+  "originalSourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "6191ac5082e09dcd2c3b98dbfff3a2f077f98f9e1b8410533cd5b2c037dd2f2b",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "dff51afa889b73b272c749f3587d72e33e6067db771e43c45537dadf60e9eee0",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773"
+  },
+  "reviewCamera": {
+    "position": [
+      0.45,
+      1.34,
+      0.58
+    ],
+    "target": [
+      0,
+      0.765,
+      0.25
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "fov": 44
+  },
+  "scoreOverride": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+  "pianistOverride": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/pianist-final-input.ts",
+  "dependencySha256": {
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "glVersion": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "initializationSeconds": 8.432626279000033,
+  "deformedMeshes": [
+    {
+      "name": "Human_1070",
+      "vertices": 24629
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1071",
+      "vertices": 6004
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1_1072",
+      "vertices": 3994
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_2_1073",
+      "vertices": 420
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_3_1074",
+      "vertices": 256
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_4_1075",
+      "vertices": 128
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_5_1076",
+      "vertices": 504
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_6_1077",
+      "vertices": 360
+    },
+    {
+      "name": "Humanhigh-poly_1078",
+      "vertices": 1076
+    },
+    {
+      "name": "Humanmindfront_eyebrows_02_1079",
+      "vertices": 12243
+    },
+    {
+      "name": "Humanmindfront_eyelashes_02_1080",
+      "vertices": 16992
+    },
+    {
+      "name": "Humanponytail01_1081",
+      "vertices": 3902
+    },
+    {
+      "name": "Humanteeth_base_1082",
+      "vertices": 4494
+    },
+    {
+      "name": "Humantongue01_1083",
+      "vertices": 253
+    }
+  ],
+  "meshes": 1091,
+  "frames": [
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.574695.png",
+      "imageSha256": "13d0c8f6a15f0d3fa965cd200d9e8831321c02f997674803e3ba5f79821f8dd3",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.15278087599836,
+      "row": {
+        "time": 47.574695,
+        "shot": "Room to breathe",
+        "update": 0.18954635199952463,
+        "shadows": 0.3135575599990261,
+        "render": 0.5642629750000197,
+        "total": 1.0673668869985704,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.050161124387557e-07
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0111389822929096e-07
+          }
+        ],
+        "activeNotes": [
+          60,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.607195.png",
+      "imageSha256": "3415ae199bdb2e0b926677675f52cca4b3cf4e7622999deb96136f83086b9b65",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8163503779996972,
+      "row": {
+        "time": 47.607195,
+        "shot": "Room to breathe",
+        "update": 0.08075373400060926,
+        "shadows": 0.06950363699979789,
+        "render": 0.5745963219997066,
+        "total": 0.7248536930001137,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.051609923610057e-07
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0093399519236187e-07
+          }
+        ],
+        "activeNotes": [
+          60,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.639695.png",
+      "imageSha256": "13db76b739a20d943eebf779259f0dab7d5aff99ce8ac3a2dcb3f70f87b0429b",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.7203124150000804,
+      "row": {
+        "time": 47.639695,
+        "shot": "Room to breathe",
+        "update": 0.34571938299995963,
+        "shadows": 0.12240438600019843,
+        "render": 1.1595550300007744,
+        "total": 1.6276787990009325,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.0526417781325255e-07
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0079389915802219e-07
+          }
+        ],
+        "activeNotes": [
+          60,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.794695.png",
+      "imageSha256": "89b181f3eb269ee5e590ea2d405fce80a219e5f0b919bb6b7edef7a03f77a584",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.0573262409998279,
+      "row": {
+        "time": 47.794695,
+        "shot": "Room to breathe",
+        "update": 0.12103893200037419,
+        "shadows": 0.07028191899917147,
+        "render": 0.7715294509998785,
+        "total": 0.9628503019994241,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.0540448368691384e-07
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0074183984377281e-07
+          }
+        ],
+        "activeNotes": [
+          60,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.829724.png",
+      "imageSha256": "93c015178e259c3b28a0125a4b4d5cb88faa6bc1d9ee86fb7476c40748375e79",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.1254486870002438,
+      "row": {
+        "time": 47.829724,
+        "shot": "Room to breathe",
+        "update": 0.2322731530002784,
+        "shadows": 0.14526076999936777,
+        "render": 0.6605864630000724,
+        "total": 1.0381203859997186,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0082123464223576e-07
+          }
+        ],
+        "activeNotes": [
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-47.864754.png",
+      "imageSha256": "8e3973b62b7ba731d4a08e44bd57c08f386fe79bd6a39190536f03b0061da0a4",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.2130277560008835,
+      "row": {
+        "time": 47.864754,
+        "shot": "Room to breathe",
+        "update": 0.14892226200026926,
+        "shadows": 0.12779748599859886,
+        "render": 0.8535721240004932,
+        "total": 1.1302918719993613,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 59,
+            "error": 1.3842812139821485e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0907552742211221e-07
+          }
+        ],
+        "activeNotes": [
+          59,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.301862.png",
+      "imageSha256": "c5a7dbdf87944df6cfd3965489a32aa664d6325fa1b74c3ad5a2e1a579e7fcc3",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.4337636079999356,
+      "row": {
+        "time": 49.301862,
+        "shot": "Room to breathe",
+        "update": 0.15863546599939582,
+        "shadows": 0.1001019190007355,
+        "render": 0.9844553259990789,
+        "total": 1.2431927109992102,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 55,
+            "error": 7.18475625993043e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.1776707855306646e-07
+          }
+        ],
+        "activeNotes": [
+          71,
+          55
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.334362.png",
+      "imageSha256": "9853abc87dd0c59e81a194a901c8ece7f7479e294d66a8df998ff24a78c6ee21",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.021130835000804,
+      "row": {
+        "time": 49.334362,
+        "shot": "Room to breathe",
+        "update": 0.1220704850002221,
+        "shadows": 0.08602827899994736,
+        "render": 0.6134178039992548,
+        "total": 0.8215165679994243,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 55,
+            "error": 7.18527132725759e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.1795736266751493e-07
+          }
+        ],
+        "activeNotes": [
+          71,
+          55
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.366862.png",
+      "imageSha256": "3e360a1574c6964e69913f85d3c507d4fcadba66e5e871aaca4198dea8c1c988",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.2094528260004154,
+      "row": {
+        "time": 49.366862,
+        "shot": "Room to breathe",
+        "update": 0.48676680700009456,
+        "shadows": 0.09073294200061355,
+        "render": 0.5484928549994947,
+        "total": 1.1259926040002028,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 55,
+            "error": 7.186276922754771e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.1811833727604587e-07
+          }
+        ],
+        "activeNotes": [
+          71,
+          55
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.521862.png",
+      "imageSha256": "790a69847eceba96f81187f63800c92346cbf5e0be394574b6b0de4efeb62897",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.9746644660008315,
+      "row": {
+        "time": 49.521862,
+        "shot": "Room to breathe",
+        "update": 0.11724217000119097,
+        "shadows": 0.06780407699989155,
+        "render": 0.5815041939986259,
+        "total": 0.7665504409997084,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 55,
+            "error": 7.178893739107117e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.1831389857785638e-07
+          }
+        ],
+        "activeNotes": [
+          71,
+          55
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.556891.png",
+      "imageSha256": "a03240d509daa81973698be9c3ebdb74fff223be5b92095bce6e093325e59bed",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.9100698819984245,
+      "row": {
+        "time": 49.556891,
+        "shot": "Room to breathe",
+        "update": 0.22440451399961603,
+        "shadows": 0.09564596100062772,
+        "render": 0.5167701789996499,
+        "total": 0.8368206539998937,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.1813310920905454e-07
+          }
+        ],
+        "activeNotes": [
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-49.591921.png",
+      "imageSha256": "1fae65cd0cb53a7dbf20932668183676508d32f32b0cd341e8403d23fab87560",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8710588880003343,
+      "row": {
+        "time": 49.591921,
+        "shot": "Room to breathe",
+        "update": 0.14137268599915842,
+        "shadows": 0.09734027500053344,
+        "render": 0.5402119350001158,
+        "total": 0.7789248959998076,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 62,
+            "error": 7.679321837556769e-08
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0944218073977666e-07
+          }
+        ],
+        "activeNotes": [
+          62,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.636886.png",
+      "imageSha256": "691b00a49e9914d8facd9ce9174a54d0ffcfe02eef1372388c64f091b8d8f71d",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8533844829998998,
+      "row": {
+        "time": 51.636886,
+        "shot": "Room to breathe",
+        "update": 0.09970910899937735,
+        "shadows": 0.08860583400019095,
+        "render": 0.5578439330001856,
+        "total": 0.746158875999754,
+        "pedal": 0.0068786005830819685,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.367825103003203e-08
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0860752132738608e-07
+          }
+        ],
+        "activeNotes": [
+          74,
+          50
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.653115.png",
+      "imageSha256": "43a1eeb2003f5bb1f6fa0e54d315f9b71667366eb5d7197f3dc20c69d27ad659",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8585525349990348,
+      "row": {
+        "time": 51.653115,
+        "shot": "Room to breathe",
+        "update": 0.1859140890010167,
+        "shadows": 0.07980685399888898,
+        "render": 0.5165218140009529,
+        "total": 0.7822427570008585,
+        "pedal": 0.14765728233404377,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.364929604475977e-08
+          }
+        ],
+        "activeNotes": [
+          50
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.669344.png",
+      "imageSha256": "fddb64e9acfc20b5b56932cea168e9f5f531747e37b5c79821ab62743909a8fd",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7601416719990084,
+      "row": {
+        "time": 51.669344,
+        "shot": "Room to breathe",
+        "update": 0.11275579100038158,
+        "shadows": 0.07801824899979692,
+        "render": 0.4953248049987451,
+        "total": 0.6860988449989236,
+        "pedal": 0.387794093086601,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.362495991639021e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.013277333377016e-07
+          }
+        ],
+        "activeNotes": [
+          50,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.778344.png",
+      "imageSha256": "51985afd0a554e3e84974e8a0ceab07a67f9d9b11251e71035c04b8c416e42bf",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7329873130001943,
+      "row": {
+        "time": 51.778344,
+        "shot": "Room to breathe",
+        "update": 0.10092989999975543,
+        "shadows": 0.06481892000010703,
+        "render": 0.48996258700026374,
+        "total": 0.6557114070001262,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.35084914441245e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0092623937558113e-07
+          }
+        ],
+        "activeNotes": [
+          50,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.815844.png",
+      "imageSha256": "227cd47e06f1e92f48e199ef8f9a7b5eca7096c56d63d69fb2d835930f591cda",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.9045108899990737,
+      "row": {
+        "time": 51.815844,
+        "shot": "Room to breathe",
+        "update": 0.22205326500079536,
+        "shadows": 0.07490387299912982,
+        "render": 0.5351099899999099,
+        "total": 0.8320671279998351,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.349762820869891e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0088930698756439e-07
+          }
+        ],
+        "activeNotes": [
+          50,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-51.853344.png",
+      "imageSha256": "df88f807a663bba8e2883793130e3e1b747e17ebabc5eca1ce25b3235c107e56",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8029298120000021,
+      "row": {
+        "time": 51.853344,
+        "shot": "Room to breathe",
+        "update": 0.12286339300044347,
+        "shadows": 0.07972170100038056,
+        "render": 0.5239513719989191,
+        "total": 0.7265364659997431,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 8.348050613730126e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0093143909912309e-07
+          }
+        ],
+        "activeNotes": [
+          50,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.463850.png",
+      "imageSha256": "b6147d8686cbbd18dbccb10da095d1012f8622c760a6ff2d50259ec09749ae7f",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.724856123999416,
+      "row": {
+        "time": 53.46385,
+        "shot": "Room to breathe",
+        "update": 0.10267975500028115,
+        "shadows": 0.11012216100061778,
+        "render": 0.41292803099895536,
+        "total": 0.6257299469998543,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 57,
+            "error": 3.662802696731651e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0301613146776643e-07
+          }
+        ],
+        "activeNotes": [
+          57,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.496350.png",
+      "imageSha256": "38d57c2ed96a6f34f0322d41d512c05abbbb4f4840b832fa1a1c0fa02aa5b255",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7473389150000003,
+      "row": {
+        "time": 53.49635,
+        "shot": "Room to breathe",
+        "update": 0.18087319799997204,
+        "shadows": 0.0690136529992742,
+        "render": 0.421717670000362,
+        "total": 0.6716045209996082,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 57,
+            "error": 3.648661291605585e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0320447052640632e-07
+          }
+        ],
+        "activeNotes": [
+          57,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.528850.png",
+      "imageSha256": "024c0fa33e6ce94a321fcf21e87a8bde7fd405b93547ec3930b14b7275d4cd74",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6283405530011805,
+      "row": {
+        "time": 53.52885,
+        "shot": "Room to breathe",
+        "update": 0.09337163000054716,
+        "shadows": 0.05721926799924404,
+        "render": 0.3993196060000628,
+        "total": 0.549910503999854,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 57,
+            "error": 3.632303908196055e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0336929528353167e-07
+          }
+        ],
+        "activeNotes": [
+          57,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.683850.png",
+      "imageSha256": "b151452b7d01e0c13bc3a0ed3174ebe9fa05a31ff9cd88c077ac50c011a66f32",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7639894410003762,
+      "row": {
+        "time": 53.68385,
+        "shot": "Room to breathe",
+        "update": 0.11978117399848998,
+        "shadows": 0.10566589700101758,
+        "render": 0.45810986799915554,
+        "total": 0.6835569389986631,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 57,
+            "error": 3.560546892561436e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0346802548844023e-07
+          }
+        ],
+        "activeNotes": [
+          57,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.718879.png",
+      "imageSha256": "44052a37967fc6a7ae1fa6ceb0301e4096c05966340cdd9d0117731376af6fe4",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.9766800060006062,
+      "row": {
+        "time": 53.718879,
+        "shot": "Room to breathe",
+        "update": 0.18220256899985543,
+        "shadows": 0.12048830700041435,
+        "render": 0.5729767640004866,
+        "total": 0.8756676400007564,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0327795158978487e-07
+          }
+        ],
+        "activeNotes": [
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-53.753909.png",
+      "imageSha256": "4ff787073613e2b6963a959bb717644d449c02253a7c8b8978cf5f8be53d8ae6",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7935147339994728,
+      "row": {
+        "time": 53.753909,
+        "shot": "Room to breathe",
+        "update": 0.10446291700100119,
+        "shadows": 0.0773005800001556,
+        "render": 0.5185840590002044,
+        "total": 0.7003475560013612,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 60,
+            "error": 1.5868685057829704e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0709158087872851e-07
+          }
+        ],
+        "activeNotes": [
+          60,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.427584.png",
+      "imageSha256": "76ae85554593020f04b0ec8f1a36ccfccdaf5ef42701e5c4b6252f1ec611d37c",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7493263110009138,
+      "row": {
+        "time": 54.427584,
+        "shot": "Room to breathe",
+        "update": 0.09125482499985083,
+        "shadows": 0.07540064699969662,
+        "render": 0.49527395800032536,
+        "total": 0.6619294299998728,
+        "pedal": 0.006878600583105923,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 43,
+            "error": 1.911642748064276e-08
+          }
+        ],
+        "activeNotes": [
+          43
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.443813.png",
+      "imageSha256": "25ddccb1f571672a9d1d6e858b63dbf443f9cc531dd8398cb28633a4fead9917",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8549714269993274,
+      "row": {
+        "time": 54.443813,
+        "shot": "Room to breathe",
+        "update": 0.15411864500129013,
+        "shadows": 0.10309105399937835,
+        "render": 0.506401022999853,
+        "total": 0.7636107220005215,
+        "pedal": 0.14765728233404377,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 43,
+            "error": 1.9087187975466506e-08
+          }
+        ],
+        "activeNotes": [
+          43
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.460042.png",
+      "imageSha256": "ede0bea11e901bfbe9b1a0e44b8db8bb1d48aefb2845f47266f3e0b737290a0f",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8278551130006235,
+      "row": {
+        "time": 54.460042,
+        "shot": "Room to breathe",
+        "update": 0.11214724899946305,
+        "shadows": 0.08099634100108233,
+        "render": 0.5447898549991805,
+        "total": 0.7379334449997259,
+        "pedal": 0.387794093086601,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 43,
+            "error": 1.9047713314562818e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.204764540928125e-07
+          }
+        ],
+        "activeNotes": [
+          43,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.751971.png",
+      "imageSha256": "b9995a97473bee1942d42dff233db5bb461e6e94337372ccc313128239237136",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8185495899997477,
+      "row": {
+        "time": 54.751971,
+        "shot": "Room to breathe",
+        "update": 0.08622448700043606,
+        "shadows": 0.06795303600119951,
+        "render": 0.5586595069999021,
+        "total": 0.7128370300015376,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.2054202205211997e-07
+          }
+        ],
+        "activeNotes": [
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.787000.png",
+      "imageSha256": "74fc9cba82dda7d6eace2b5f3e96b1c1b2edc005c250916b7f07e807e50a5b74",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8682361510000192,
+      "row": {
+        "time": 54.787,
+        "shot": "Room to breathe",
+        "update": 0.0977336350006226,
+        "shadows": 0.06448375799845962,
+        "render": 0.6203403160016023,
+        "total": 0.7825577090006846,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.2070812256522142e-07
+          }
+        ],
+        "activeNotes": [
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-54.822030.png",
+      "imageSha256": "df059b8b3e995a1ad97ccc6ccd332a1dbfe591b6c82d8d6f5517c933a90c43b6",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.848612432999289,
+      "row": {
+        "time": 54.82203,
+        "shot": "Room to breathe",
+        "update": 0.1350160700003471,
+        "shadows": 0.07568944699960412,
+        "render": 0.5625086370000645,
+        "total": 0.7732141540000157,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 50,
+            "error": 1.3368815701338657e-07
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0688771985698198e-07
+          }
+        ],
+        "activeNotes": [
+          50,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.112269.png",
+      "imageSha256": "0c15310a28945681fcbc94857c9af1ab51e13d9e64c189e0c13229df520925d3",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6861728629992285,
+      "row": {
+        "time": 55.112269,
+        "shot": "Room to breathe",
+        "update": 0.07792403500025102,
+        "shadows": 0.06307269399985671,
+        "render": 0.46928590499919665,
+        "total": 0.6102826339993044,
+        "pedal": 0.73,
+        "contacts": [],
+        "activeNotes": [
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.128498.png",
+      "imageSha256": "e297ce30aef1cf18d97ac1dfb64c0966b8004fbdb313953d5d44ddd94c614d96",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8097730990011769,
+      "row": {
+        "time": 55.128498,
+        "shot": "Room to breathe",
+        "update": 0.1273792109986971,
+        "shadows": 0.08230805499988492,
+        "render": 0.5174944520003919,
+        "total": 0.7271817179989739,
+        "pedal": 0.73,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.144727.png",
+      "imageSha256": "fd465e4b7ad3394fba817bde962c4b59e255c48a6ab1b7509d3542ca2b8610a9",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7625872250009706,
+      "row": {
+        "time": 55.144727,
+        "shot": "Room to breathe",
+        "update": 0.0856917050004995,
+        "shadows": 0.06521339599930798,
+        "render": 0.5343929400005436,
+        "total": 0.6852980410003511,
+        "pedal": 0.73,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.253727.png",
+      "imageSha256": "850112fda3e1495636d80cb93635ba514728718c4e1bf722195eae80236fc7d8",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7027973140011454,
+      "row": {
+        "time": 55.253727,
+        "shot": "Room to breathe",
+        "update": 0.08413329100039846,
+        "shadows": 0.06318497299980663,
+        "render": 0.48082849599995825,
+        "total": 0.6281467600001633,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 55,
+            "error": 9.762594055665762e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.8804778097133405e-08
+          }
+        ],
+        "activeNotes": [
+          55,
+          79
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.291227.png",
+      "imageSha256": "ea21fdf2d6c62724473dd93c55b09e14f30bd6702ccb89c710d363c8c21e39c0",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7113623209988873,
+      "row": {
+        "time": 55.291227,
+        "shot": "Room to breathe",
+        "update": 0.09132791599949996,
+        "shadows": 0.06200515799901041,
+        "render": 0.47001154700046754,
+        "total": 0.6233446209989779,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 55,
+            "error": 9.766181872573999e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.865213301086129e-08
+          }
+        ],
+        "activeNotes": [
+          55,
+          79
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.328727.png",
+      "imageSha256": "076ec4f6030c18b679a134bffef7e9adbc2df1191d77205703c3e453b3fec597",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6497452959993097,
+      "row": {
+        "time": 55.328727,
+        "shot": "Room to breathe",
+        "update": 0.07641598600093857,
+        "shadows": 0.06549611999980698,
+        "render": 0.4317078179992677,
+        "total": 0.5736199240000133,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 55,
+            "error": 9.76556018899392e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.8542530000587916e-08
+          }
+        ],
+        "activeNotes": [
+          55,
+          79
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.616308.png",
+      "imageSha256": "af74de7a422aacf1fce290cd86fed143d7d8100f2ab18f6e9efe55ba1377fa59",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7924488640001073,
+      "row": {
+        "time": 55.616308,
+        "shot": "Room to breathe",
+        "update": 0.09361536200049159,
+        "shadows": 0.09385979999933625,
+        "render": 0.5215223350005544,
+        "total": 0.7089974970003823,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.826671923020611e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.213379566979484e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.942596409634738e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.648808.png",
+      "imageSha256": "447b9f7896896431cf567dbfc3c04fac5f38c0bb6e45e69f209c082b62888d2a",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.8317810669996106,
+      "row": {
+        "time": 55.648808,
+        "shot": "Room to breathe",
+        "update": 0.08458300700112886,
+        "shadows": 0.10043588899861788,
+        "render": 0.5590301780011941,
+        "total": 0.7440490740009409,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.816865094515633e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.214922109413834e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9568337686089195e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.681308.png",
+      "imageSha256": "9f449fa0b6ecfbe71a0dcc40f767dbbab2197b48b1c630b9ec00716f4139069e",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7659870210009103,
+      "row": {
+        "time": 55.681308,
+        "shot": "Room to breathe",
+        "update": 0.09481351800059201,
+        "shadows": 0.07336008099991886,
+        "render": 0.4876509290006652,
+        "total": 0.6558245280011761,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.807513824041648e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.2161882233965327e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9679742238141317e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.836308.png",
+      "imageSha256": "ab455885277c786c30181a8c5495b2f958978170b84f8b48c911c88583067ec5",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7089314759996341,
+      "row": {
+        "time": 55.836308,
+        "shot": "Room to breathe",
+        "update": 0.07686067799841112,
+        "shadows": 0.05716912300158583,
+        "render": 0.4703881109999202,
+        "total": 0.6044179119999171,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.801714941559267e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.2155087085017854e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.951458106118282e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.871338.png",
+      "imageSha256": "2d87c43dd20fd6b215e99e4771bb00df81cdeb9a13f4da8dadcca92853a660d7",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6771749159997853,
+      "row": {
+        "time": 55.871338,
+        "shot": "Room to breathe",
+        "update": 0.10719997500018508,
+        "shadows": 0.06252590199983388,
+        "render": 0.43293139600064023,
+        "total": 0.6026572730006592,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.81682723539502e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 71,
+            "error": 1.2138853146875224e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9360169593472394e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          71
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-55.906367.png",
+      "imageSha256": "bed16eeb93dab70b3fd5f599e48dc7988c2816865c83981f51628998b584df41",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7087224510014494,
+      "row": {
+        "time": 55.906367,
+        "shot": "Room to breathe",
+        "update": 0.08954896400064172,
+        "shadows": 0.06732727599955979,
+        "render": 0.46940600800007815,
+        "total": 0.6262822480002797,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 59,
+            "error": 9.831695752644238e-08
+          },
+          {
+            "hand": "R",
+            "finger": 2,
+            "midi": 74,
+            "error": 1.0661320273980691e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9191451795053802e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          59,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.226813.png",
+      "imageSha256": "044294b2050fe650a52b3d0d92b2945a66730c443c599a488daf3cce0058d1cb",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7741863230003219,
+      "row": {
+        "time": 56.226813,
+        "shot": "Room to breathe",
+        "update": 0.08829580299970985,
+        "shadows": 0.07409864399960497,
+        "render": 0.5284589890015923,
+        "total": 0.6908534360009071,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.8713162169297007e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.243042.png",
+      "imageSha256": "53c2388ad7133582f5ef61363117cf689d9a9f20293b28e2a433234bb0a05822",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7718409760000213,
+      "row": {
+        "time": 56.243042,
+        "shot": "Room to breathe",
+        "update": 0.08478847600053996,
+        "shadows": 0.07560911600012332,
+        "render": 0.5368372859993542,
+        "total": 0.6972348780000175,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.8778120907228862e-08
+          }
+        ],
+        "activeNotes": [
+          79
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.259271.png",
+      "imageSha256": "0dd9672fd82b5349c661fbb22d15386fa8de75a97c0fe8a93722239c9ccf5d46",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7093984879993513,
+      "row": {
+        "time": 56.259271,
+        "shot": "Room to breathe",
+        "update": 0.12495850400046038,
+        "shadows": 0.06279610799902002,
+        "render": 0.4429133150006237,
+        "total": 0.6306679270001041,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 55,
+            "error": 1.580222589704589e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.884724532555388e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          55
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.368271.png",
+      "imageSha256": "4ed67f8c69f28d6b1cef9b264cc0e477af37050c791d347ff89452cd521cb7f8",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7841344899989053,
+      "row": {
+        "time": 56.368271,
+        "shot": "Room to breathe",
+        "update": 0.07889243600038753,
+        "shadows": 0.08911027899921464,
+        "render": 0.5277262470008282,
+        "total": 0.6957289620004303,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 55,
+            "error": 1.5600872736575183e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0364695965248642e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9298200382799216e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          55,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.405771.png",
+      "imageSha256": "504425094bd5d741aa35a8f19b51b0a062e333e0ca810bab74e2f9981610ed14",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7364955970006122,
+      "row": {
+        "time": 56.405771,
+        "shot": "Room to breathe",
+        "update": 0.08046298400040541,
+        "shadows": 0.0692317360008019,
+        "render": 0.5118511429991486,
+        "total": 0.6615458630003559,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 55,
+            "error": 1.5502716655391073e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0375521403399703e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.9396300964491685e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          55,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/9a582848ad3476c0/current-960-56.443271.png",
+      "imageSha256": "0652bae0e2369a720c5b8484b42237347819cd5e9076691d5f9ab6ca39389a34",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7327048329989339,
+      "row": {
+        "time": 56.443271,
+        "shot": "Room to breathe",
+        "update": 0.08730047599965474,
+        "shadows": 0.07424191400059499,
+        "render": 0.49161320999883173,
+        "total": 0.6531555999990815,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 4,
+            "midi": 55,
+            "error": 1.5410497326675018e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.0380436244930914e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 2.944182815976522e-08
+          }
+        ],
+        "activeNotes": [
+          79,
+          55,
+          76
+        ]
+      }
+    }
+  ],
+  "peakProcessTreeRssBytes": 842440704,
+  "pythonMaxRssBytes": 841842688,
+  "rssSamplingIntervalSeconds": 0.1,
+  "steadyProcessTreeRssBytes": 841424896,
+  "strictGuardSource": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/12df4efb5ce15f92/production/revision/video-export/export_video.py",
+  "strictGuardSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "rendererSourceSha256": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+  "fullFilmStarted": false,
+  "note": "Offline native rendered export; no browser pixel-equivalence claim. One sample per frame, full pavilion environment.",
+  "samplesAllocation": {
+    "requestedEffectiveSamples": 4,
+    "glFramebufferSamples": 4,
+    "effectiveSamples": 4,
+    "modernGLColorSamples": 4,
+    "modernGLDepthSamples": 4,
+    "maxSamples": 4
+  },
+  "aspect": 1.7777777777777777
+}

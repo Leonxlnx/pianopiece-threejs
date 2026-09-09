@@ -1,5 +1,3 @@
-> **Continuing this project? Read [handoff.md](handoff.md) first.** It contains the current status, prompts, recovery limitations and next steps. The historical notes below predate the latest handoff.
-
 # vinext-starter
 
 A clean full-stack starter running on [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and Drizzle support.

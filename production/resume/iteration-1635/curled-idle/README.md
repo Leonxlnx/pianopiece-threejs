@@ -1,0 +1,3 @@
+# Curved idle posture diagnostic — provisional
+
+Full local endpoint interpolation with an authored-rest neutral curled at MCP [60,50,40,30] degrees, PIP -20 and DIP -10 degrees about the wrist-frame -X axis. This is animation calibration, not a clinical joint limit. Based on arms/compact5 and combined score v2 (335e9184). Held branch unchanged. First pre-arc screen lacked the optional wrist arc sampler; retained only as an exploratory result. The current private compiled dependencies include the exact integrated arc sampler. No app score or idle runtime is changed. All final qualification and visual acceptance remain open.

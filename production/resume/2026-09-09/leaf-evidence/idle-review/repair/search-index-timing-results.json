@@ -1,0 +1,159 @@
+[
+  {
+    "name": "arrivalFade0.4",
+    "arrivalFadeSeconds": 0.4,
+    "samples": 251,
+    "newCore": 1,
+    "worseCore": 2,
+    "newPairs": 0,
+    "strict": 1,
+    "deep": 83,
+    "max": 7.850863508724104,
+    "maxTipSpeed": 1.0273293155891907,
+    "regressions": [
+      {
+        "time": 176.08333333333334,
+        "newCore": 1,
+        "worseCore": 1,
+        "newPairs": 0,
+        "strict": 0,
+        "max": 6.699399979314097,
+        "deep": 2
+      }
+    ]
+  },
+  {
+    "name": "arrivalFade0.5",
+    "arrivalFadeSeconds": 0.5,
+    "samples": 251,
+    "newCore": 1,
+    "worseCore": 2,
+    "newPairs": 0,
+    "strict": 1,
+    "deep": 90,
+    "max": 7.921298892716089,
+    "maxTipSpeed": 1.0245145941168876,
+    "regressions": [
+      {
+        "time": 176.08333333333334,
+        "newCore": 1,
+        "worseCore": 1,
+        "newPairs": 0,
+        "strict": 0,
+        "max": 6.699399992014965,
+        "deep": 2
+      }
+    ]
+  },
+  {
+    "name": "arrivalFade0.6",
+    "arrivalFadeSeconds": 0.6,
+    "samples": 251,
+    "newCore": 1,
+    "worseCore": 1,
+    "newPairs": 0,
+    "strict": 2,
+    "deep": 91,
+    "max": 7.961530162752806,
+    "maxTipSpeed": 1.0238048821595969,
+    "regressions": [
+      {
+        "time": 176.08333333333334,
+        "newCore": 1,
+        "worseCore": 1,
+        "newPairs": 0,
+        "strict": 0,
+        "max": 6.699399999231775,
+        "deep": 2
+      }
+    ]
+  },
+  {
+    "name": "arrivalFade0.7",
+    "arrivalFadeSeconds": 0.7,
+    "samples": 251,
+    "newCore": 1,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 4,
+    "deep": 93,
+    "max": 7.9862371711812985,
+    "maxTipSpeed": 1.023695536845552,
+    "regressions": [
+      {
+        "time": 176.08333333333334,
+        "newCore": 1,
+        "worseCore": 0,
+        "newPairs": 0,
+        "strict": 0,
+        "max": 6.6994000037158,
+        "deep": 2
+      }
+    ]
+  },
+  {
+    "name": "arrivalFade0.8",
+    "arrivalFadeSeconds": 0.8,
+    "samples": 251,
+    "newCore": 0,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 7,
+    "deep": 93,
+    "max": 7.997514778325665,
+    "maxTipSpeed": 1.0236226718087176,
+    "regressions": []
+  },
+  {
+    "name": "arrivalFade1",
+    "arrivalFadeSeconds": 1,
+    "samples": 251,
+    "newCore": 0,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 6,
+    "deep": 94,
+    "max": 7.995691545320205,
+    "maxTipSpeed": 1.0235346845135394,
+    "regressions": []
+  },
+  {
+    "name": "arrivalFade1.5",
+    "arrivalFadeSeconds": 1.5,
+    "samples": 251,
+    "newCore": 0,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 4,
+    "deep": 96,
+    "max": 7.978394583930348,
+    "maxTipSpeed": 1.0234446364264178,
+    "regressions": []
+  },
+  {
+    "name": "arrivalFade2",
+    "arrivalFadeSeconds": 2,
+    "samples": 251,
+    "newCore": 0,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 3,
+    "deep": 98,
+    "max": 7.9722448426399195,
+    "maxTipSpeed": 1.023412091515921,
+    "regressions": []
+  },
+  {
+    "name": "arrivalFade4",
+    "arrivalFadeSeconds": 4,
+    "samples": 251,
+    "newCore": 0,
+    "worseCore": 0,
+    "newPairs": 0,
+    "strict": 0,
+    "deep": 99,
+    "max": 7.966242912588517,
+    "maxTipSpeed": 1.0233799127377028,
+    "regressions": []
+  }
+]

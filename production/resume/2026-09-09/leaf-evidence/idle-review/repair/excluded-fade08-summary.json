@@ -1,0 +1,1055 @@
+{
+  "curve-007": {
+    "samples": 424,
+    "insideGapSamples": 344,
+    "metrics": {
+      "base": {
+        "corePositivePatchStates": 136,
+        "corePositiveKeyStates": 241,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 393.10773307829385,
+        "trianglePairStateSum": 7643
+      },
+      "original": {
+        "corePositivePatchStates": 128,
+        "corePositiveKeyStates": 231,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 329.02400640155753,
+        "trianglePairStateSum": 7387
+      },
+      "fixed": {
+        "corePositivePatchStates": 128,
+        "corePositiveKeyStates": 231,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 329.02400640155753,
+        "trianglePairStateSum": 7387
+      }
+    },
+    "comparisons": {
+      "originalVsBase": {
+        "counts": {
+          "worsenedCoreKey": 6,
+          "newCoreKey": 5
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 91.4625,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 3.8956706218141735,
+            "after": 4.558349201767897
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.473999,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.473999,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.474,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474001,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.474001,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.475,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          },
+          {
+            "time": 91.475,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          }
+        ]
+      },
+      "fixedVsBase": {
+        "counts": {
+          "worsenedCoreKey": 6,
+          "newCoreKey": 5
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 91.4625,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 3.8956706218141735,
+            "after": 4.558349201767897
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.473999,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.473999,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.474,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474001,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.474001,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.475,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          },
+          {
+            "time": 91.475,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          }
+        ]
+      },
+      "fixedVsOriginal": {
+        "counts": {},
+        "nonStrictWitnesses": []
+      }
+    },
+    "motion": {
+      "base": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      },
+      "original": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      },
+      "fixed": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      }
+    },
+    "parity": {
+      "activeLocal": 0,
+      "activeWorld": 0,
+      "outsideLocal": 0,
+      "wristWorld": 0,
+      "indexVsBase": 0.11505310025366172,
+      "activeStates": 866
+    }
+  },
+  "index-059": {
+    "samples": 1556,
+    "insideGapSamples": 1463,
+    "metrics": {
+      "base": {
+        "corePositivePatchStates": 461,
+        "corePositiveKeyStates": 478,
+        "indexMaxMm": 7.979710853133315,
+        "indexDepthSumMm": 2725.736755688332,
+        "trianglePairStateSum": 94170
+      },
+      "original": {
+        "corePositivePatchStates": 406,
+        "corePositiveKeyStates": 419,
+        "indexMaxMm": 7.976783364577744,
+        "indexDepthSumMm": 1131.285812776434,
+        "trianglePairStateSum": 92074
+      },
+      "fixed": {
+        "corePositivePatchStates": 438,
+        "corePositiveKeyStates": 453,
+        "indexMaxMm": 7.997514778325665,
+        "indexDepthSumMm": 1222.0744539459163,
+        "trianglePairStateSum": 92440
+      }
+    },
+    "comparisons": {
+      "originalVsBase": {
+        "counts": {
+          "strictFingerPairIncrease": 21,
+          "worsenedCoreKey": 7,
+          "newCoreKey": 3
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 176.07291666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.382500381357903,
+            "after": 6.865716031520516
+          },
+          {
+            "time": 176.08333333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 2.888933807731864,
+            "after": 3.302625581124874
+          },
+          {
+            "time": 176.08333333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 2.888933807731864,
+            "after": 3.302625581124874
+          },
+          {
+            "time": 176.08541666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 2.6921807084347438,
+            "after": 3.102645602901799
+          },
+          {
+            "time": 176.08541666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 2.6921807084347438,
+            "after": 3.102645602901799
+          },
+          {
+            "time": 176.1125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 5.414672646336049,
+            "after": 5.829234167095604
+          },
+          {
+            "time": 176.11875,
+            "kind": "newCoreKey",
+            "target": "LIndex:56",
+            "before": 2.856444424931104,
+            "after": 3.120109266464721
+          },
+          {
+            "time": 176.11875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 2.856444424931104,
+            "after": 3.120109266464721
+          },
+          {
+            "time": 176.1375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.620631838264669,
+            "after": 7.9657928864499405
+          },
+          {
+            "time": 176.14583333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.569609839423452,
+            "after": 7.91080040747405
+          }
+        ]
+      },
+      "fixedVsBase": {
+        "counts": {
+          "strictFingerPairIncrease": 25,
+          "worsenedCoreKey": 1
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 176.07291666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.382500381357903,
+            "after": 6.70331834918414
+          }
+        ]
+      },
+      "fixedVsOriginal": {
+        "counts": {
+          "strictFingerPairIncrease": 178,
+          "newFingerPair": 1,
+          "newCoreKey": 37,
+          "worsenedCoreKey": 48
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 175.91875,
+            "kind": "newFingerPair",
+            "target": "LIndex:LRing",
+            "before": 0,
+            "after": 16
+          },
+          {
+            "time": 175.96666666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.1536568180855484
+          },
+          {
+            "time": 175.96666666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.1536568180855484
+          },
+          {
+            "time": 175.96875,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.323025389221912
+          },
+          {
+            "time": 175.96875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.323025389221912
+          },
+          {
+            "time": 175.97083333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.1132288478322168
+          },
+          {
+            "time": 175.97083333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.1132288478322168
+          },
+          {
+            "time": 175.97291666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.2998136370704367
+          },
+          {
+            "time": 175.97291666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.2998136370704367
+          },
+          {
+            "time": 175.975,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.508030867996781
+          },
+          {
+            "time": 175.975,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.508030867996781
+          },
+          {
+            "time": 175.97708333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.7217738133424882
+          },
+          {
+            "time": 175.97708333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.7217738133424882
+          },
+          {
+            "time": 175.97916666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.9405388974259603
+          },
+          {
+            "time": 175.97916666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.9405388974259603
+          },
+          {
+            "time": 175.98125,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.1638499625725744
+          },
+          {
+            "time": 175.98125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.1638499625725744
+          },
+          {
+            "time": 175.98333333333332,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.383974411349689
+          },
+          {
+            "time": 175.98333333333332,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.383974411349689
+          },
+          {
+            "time": 175.98541666666668,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.054380234385812
+          },
+          {
+            "time": 175.98541666666668,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.054380234385812
+          },
+          {
+            "time": 175.9875,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.729264352380246
+          },
+          {
+            "time": 175.9875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 3.729264352380246
+          },
+          {
+            "time": 175.98958333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2055303501206103,
+            "after": 3.409851745918874
+          },
+          {
+            "time": 175.98958333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2055303501206103,
+            "after": 3.409851745918874
+          },
+          {
+            "time": 175.99166666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.478741746633095,
+            "after": 3.5731981856638173
+          },
+          {
+            "time": 175.99166666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.478741746633095,
+            "after": 3.5731981856638173
+          },
+          {
+            "time": 175.99375,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.7544046065383077,
+            "after": 3.7679244499430053
+          },
+          {
+            "time": 175.99375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.7544046065383077,
+            "after": 3.7679244499430053
+          },
+          {
+            "time": 175.99583333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.494663971548378,
+            "after": 3.965832974318073
+          },
+          {
+            "time": 175.99583333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.494663971548378,
+            "after": 3.965832974318073
+          },
+          {
+            "time": 175.99791666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2055571776325444,
+            "after": 4.166760777613132
+          },
+          {
+            "time": 175.99791666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2055571776325444,
+            "after": 4.166760777613132
+          },
+          {
+            "time": 176,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.034116610846822
+          },
+          {
+            "time": 176,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 0,
+            "after": 4.034116610846822
+          },
+          {
+            "time": 176.00208333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2302223769051777,
+            "after": 3.793746943104331
+          },
+          {
+            "time": 176.00208333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2302223769051777,
+            "after": 3.793746943104331
+          },
+          {
+            "time": 176.00416666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.469239476688867,
+            "after": 3.5592625336615944
+          },
+          {
+            "time": 176.00416666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.469239476688867,
+            "after": 3.5592625336615944
+          },
+          {
+            "time": 176.00625,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.7109899445888486,
+            "after": 3.5228982322862423
+          },
+          {
+            "time": 176.00625,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.7109899445888486,
+            "after": 3.5228982322862423
+          },
+          {
+            "time": 176.00833333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9556370444653313,
+            "after": 3.7788326133391115
+          },
+          {
+            "time": 176.00833333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9556370444653313,
+            "after": 3.7788326133391115
+          },
+          {
+            "time": 176.01041666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.8810468211580007,
+            "after": 4.037162871651234
+          },
+          {
+            "time": 176.01041666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.8810468211580007,
+            "after": 4.037162871651234
+          },
+          {
+            "time": 176.0125,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6587183432248973,
+            "after": 4.0069799081614015
+          },
+          {
+            "time": 176.0125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6587183432248973,
+            "after": 4.0069799081614015
+          },
+          {
+            "time": 176.01458333333332,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.4353725021674375,
+            "after": 3.7464218505925406
+          },
+          {
+            "time": 176.01458333333332,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.4353725021674375,
+            "after": 3.7464218505925406
+          },
+          {
+            "time": 176.01666666666668,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.3592794200540945,
+            "after": 3.8390583730772976
+          },
+          {
+            "time": 176.01666666666668,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.3592794200540945,
+            "after": 3.8390583730772976
+          },
+          {
+            "time": 176.01875,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6669037593435307,
+            "after": 3.6517465606508703
+          },
+          {
+            "time": 176.01875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6669037593435307,
+            "after": 3.6517465606508703
+          },
+          {
+            "time": 176.02083333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9325506660694,
+            "after": 3.677820296163481
+          },
+          {
+            "time": 176.02083333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9325506660694,
+            "after": 3.677820296163481
+          },
+          {
+            "time": 176.02291666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6412521153009463,
+            "after": 3.918151663276803
+          },
+          {
+            "time": 176.02291666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6412521153009463,
+            "after": 3.918151663276803
+          },
+          {
+            "time": 176.025,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.8631251763769905,
+            "after": 4.162753466225522
+          },
+          {
+            "time": 176.025,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.8631251763769905,
+            "after": 4.162753466225522
+          },
+          {
+            "time": 176.02708333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.731284913792292,
+            "after": 4.047136660291634
+          },
+          {
+            "time": 176.02708333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.731284913792292,
+            "after": 4.047136660291634
+          },
+          {
+            "time": 176.02916666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6752009695786283,
+            "after": 3.7387170370259404
+          },
+          {
+            "time": 176.02916666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6752009695786283,
+            "after": 3.7387170370259404
+          },
+          {
+            "time": 176.03125,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9692867532099543,
+            "after": 3.4078140278608062
+          },
+          {
+            "time": 176.03125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9692867532099543,
+            "after": 3.4078140278608062
+          },
+          {
+            "time": 176.03541666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6651386914858244,
+            "after": 3.377308959444769
+          },
+          {
+            "time": 176.03541666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.6651386914858244,
+            "after": 3.377308959444769
+          },
+          {
+            "time": 176.0375,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.246489512664512,
+            "after": 3.6148555597518284
+          },
+          {
+            "time": 176.0375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.246489512664512,
+            "after": 3.6148555597518284
+          },
+          {
+            "time": 176.03958333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2378127554524285,
+            "after": 3.5239564476692853
+          },
+          {
+            "time": 176.03958333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2378127554524285,
+            "after": 3.5239564476692853
+          },
+          {
+            "time": 176.04166666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.522569021037646,
+            "after": 3.079917872031018
+          },
+          {
+            "time": 176.04166666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.522569021037646,
+            "after": 3.079917872031018
+          },
+          {
+            "time": 176.04375,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.596493044742937,
+            "after": 3.0402970000432683
+          },
+          {
+            "time": 176.04375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.596493044742937,
+            "after": 3.0402970000432683
+          },
+          {
+            "time": 176.05833333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.940839561904736,
+            "after": 7.220729340195228
+          },
+          {
+            "time": 176.09375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.871903522594924,
+            "after": 7.2103253235615
+          },
+          {
+            "time": 176.11666666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.8826284037577485,
+            "after": 4.497179885110558
+          },
+          {
+            "time": 176.11875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 5.448221822361821,
+            "after": 6.026734342660767
+          },
+          {
+            "time": 176.12083333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 6.903010231559925,
+            "after": 7.44629998943247
+          },
+          {
+            "time": 176.125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 6.850381453891496,
+            "after": 7.290646639472431
+          },
+          {
+            "time": 176.12708333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 7.31193162781496,
+            "after": 7.724236983819743
+          },
+          {
+            "time": 176.12916666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 7.2943010138087905,
+            "after": 7.545977612501642
+          },
+          {
+            "time": 176.13333333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.9622273593254014,
+            "after": 4.275822953065167
+          },
+          {
+            "time": 176.13541666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.46056619713464,
+            "after": 3.807574577356254
+          },
+          {
+            "time": 176.14375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.607072968391582,
+            "after": 7.910264622729479
+          }
+        ]
+      }
+    },
+    "motion": {
+      "base": {
+        "indexTipSpeedMps": {
+          "time": 176.1375,
+          "value": 1.0233688656846982
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.4254530062361
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1477.9474045636177
+        }
+      },
+      "original": {
+        "indexTipSpeedMps": {
+          "time": 176.12083333333334,
+          "value": 1.0312473221400318
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.47159550071038
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1494.910517372167
+        }
+      },
+      "fixed": {
+        "indexTipSpeedMps": {
+          "time": 176.1375,
+          "value": 1.0236226718087176
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.4397137150729
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1481.219084867015
+        }
+      }
+    },
+    "parity": {
+      "activeLocal": 0,
+      "activeWorld": 0,
+      "outsideLocal": 0,
+      "wristWorld": 0,
+      "indexVsBase": 0.04231106245223795,
+      "activeStates": 3330
+    }
+  },
+  "search": {
+    "completedTrials": 113,
+    "nonzeroTrials": 112,
+    "nonzeroClearTrials": 0,
+    "trialFiles": [
+      "search-results.json",
+      "search-second-results.json",
+      "search-third-results.json"
+    ],
+    "note": "Trials use finite local 480 Hz grids and original boundary probes. Only deletion was clear; this is not proof that no possible curve exists."
+  }
+}

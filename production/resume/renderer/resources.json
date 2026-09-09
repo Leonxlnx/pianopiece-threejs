@@ -1,0 +1,91 @@
+{
+  "reportIds": [
+    "9ab8537c947aefb0",
+    "f7243b797448ce32",
+    "4299e4913c07e036",
+    "5319ccb9528cef71",
+    "fd7224cc41c9be11"
+  ],
+  "resources": [
+    {
+      "id": "9ab8537c947aefb0",
+      "initializationSeconds": 9.455606439999883,
+      "frameSeconds": [
+        1.6273913840000205
+      ],
+      "peakRssBytes": 840704000,
+      "steadyRssBytes": 840810496
+    },
+    {
+      "id": "f7243b797448ce32",
+      "initializationSeconds": 24.872502867000094,
+      "frameSeconds": [
+        0.983144736000213,
+        0.6758681050000632
+      ],
+      "peakRssBytes": 806555648,
+      "steadyRssBytes": 806559744
+    },
+    {
+      "id": "4299e4913c07e036",
+      "initializationSeconds": 9.405058028999974,
+      "frameSeconds": [
+        0.9563678710001113,
+        0.7288225219999731
+      ],
+      "peakRssBytes": 844673024,
+      "steadyRssBytes": 844681216
+    },
+    {
+      "id": "5319ccb9528cef71",
+      "initializationSeconds": 8.852002612999968,
+      "frameSeconds": [
+        0.946580090000225,
+        0.6222397510000519
+      ],
+      "peakRssBytes": 846286848,
+      "steadyRssBytes": 846290944
+    },
+    {
+      "id": "fd7224cc41c9be11",
+      "initializationSeconds": 9.210842641999989,
+      "frameSeconds": [
+        1.4443411930001275,
+        0.8450020380000751
+      ],
+      "peakRssBytes": 846389248,
+      "steadyRssBytes": 846393344
+    }
+  ],
+  "directoryApparentBytes": {
+    "python": 1305967,
+    "egl": 441290,
+    "debs": 146103,
+    "snapshots": 124875791,
+    "reviews": 61828593
+  },
+  "setupApparentBytes": 1893360,
+  "recordedUtc": "2026-09-08T14:00:12Z",
+  "snapshotsApparentBytesBySnapshot": {
+    "9ab8537c947aefb0": 24974697,
+    "f7243b797448ce32": 24974872,
+    "4299e4913c07e036": 24974874,
+    "5319ccb9528cef71": 24975673,
+    "fd7224cc41c9be11": 24975675
+  },
+  "reviewsApparentBytesBySnapshot": {
+    "9ab8537c947aefb0": 12166863,
+    "f7243b797448ce32": 12317596,
+    "4299e4913c07e036": 12512120,
+    "5319ccb9528cef71": 12319319,
+    "fd7224cc41c9be11": 12512695
+  },
+  "note": "Storage covers only the five renderer/hand-review snapshots in reportIds; concurrent arm-review work excluded. RSS values are sampled process-tree totals, not host-wide memory.",
+  "completedInterchangeCleanup": [
+    {
+      "path": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/4299e4913c07e036/renderer-cache/scene-135.tmp",
+      "truncatedBytes": 130023424,
+      "reason": "Completed reproducible interchange; no matching Node pose server active"
+    }
+  ]
+}

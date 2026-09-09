@@ -45,7 +45,7 @@ function concertShoe(upperMaterial:THREE.Material){
  const seam=new THREE.Mesh(new THREE.TubeGeometry(new THREE.CatmullRomCurve3(seamPoints),30,.00075,5,false),soleMaterial);shoe.add(seam);
  return shoe;
 }
-export class Pianist {
+class OriginalPianist {
  torsoEnvelopeZ=0;
  openingPalmFrame=0;
  chordPalmFrame=0;
@@ -378,8 +378,17 @@ export class Pianist {
  // resting path through a larger MCP rotation.
  const envelope=(qs:THREE.Quaternion[])=>{const dir=finger.bones[1].position.clone().applyQuaternion(qs[0]).normalize(),turn=finger.rest[0].angleTo(qs[0]);return Math.min(smooth((1.40-turn)/.25),smooth((dir.y-.25)/.20),smooth((.65+dir.z)/.20),smooth((.85-Math.abs(dir.x))/.20));};
  let weight=Math.min(envelope(idlePose),envelope(rotations));
- if(previous)weight=Math.min(weight,envelope(contactPose(previous,end)));
- if(next)weight=Math.min(weight,envelope(contactPose(next,start)));
+ // This measured bass touch keeps its original idle-envelope influence until its contact phase.
+ const bassOriginalContacts:Record<string,{time:number;duration:number;contactZ:number|null;contactLift:number}> = {"p00322":{"time":71.178428,"duration":0.269968,"contactZ":null,"contactLift":0.0062824555694730895}};
+ const boundEnvelope=(note:Note,at:number,amount:number)=>{
+  const value=envelope(contactPose(note,at)),old=hand.side==='L'&&fi===1&&note.contactZ===.280&&note.contactLift===.002?bassOriginalContacts[note.id]:undefined;
+  if(!old||note.time!==old.time||note.duration!==old.duration)return value;
+  const reference={...note,contactLift:old.contactLift};
+  if(old.contactZ===null)delete reference.contactZ;else reference.contactZ=old.contactZ;
+  return mix(envelope(contactPose(reference,at)),value,amount);
+ };
+ if(previous)weight=Math.min(weight,boundEnvelope(previous,end,previous&&next&&gap<.50?1-smooth((time-end)/Math.max(.001,gap)):1-smooth((time-end)/.19)));
+ if(next)weight=Math.min(weight,boundEnvelope(next,start,previous&&next&&gap<.50?smooth((time-end)/Math.max(.001,gap)):smooth(1-(start-time)/.27)));
  weight=mix(weight,1,openingRest);
  const fallback=localPose(wp(hand.wrist),pose.q,target);
  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
@@ -396,4 +405,27 @@ export class Pianist {
  }
  }
  }
+}
+
+function releaseRepair(player:OriginalPianist,time:number,piano:GrandPiano){
+ const envelope=smooth((time-106.65)/.13)*(1-smooth((time-107.35)/.20));if(envelope===0)return;
+ const hand=player.hands[1];
+ for(let fi=1;fi<5;fi++){
+  if(hand.notes.some(n=>n.finger===fi+1&&n.time<=time&&n.time+n.duration>time))continue;
+  const f=hand.fingers[fi],ns=hand.fingerNotes[fi];let previous:Note|undefined,next:Note|undefined;for(const n of ns){if(n.time+n.duration<=time)previous=n;else if(n.time>=time){next=n;break;}}
+  const contact=(note:Note,at:number)=>{const anchor=player.plannedPose(hand,at),origin=f.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??player.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),piano.contact(note.midi,z).y+(note.contactLift??.002),z),chain=player.fingerPoints(origin,touch,f,fi,anchor.q),points=[origin,chain.pip,chain.dip,chain.tip],world=f.bones.map((b,j)=>{const dir=points[j+1].clone().sub(points[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(f.frameOffsets[j]);});return world.map((q,j)=>(j===0?anchor.q:world[j-1]).clone().invert().multiply(q));};
+  let rotations=f.rest.map(q=>q.clone());
+  if(fi===1&&previous&&next&&['p00519','p00524'].includes(previous.id)){
+   const end=previous.time+previous.duration,gap=next.time-end,u=(time-end)/gap,a=contact(previous,end),b=contact(next,next.time);rotations=a.map((q,j)=>q.slerp(b[j],smooth(u)));rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(-1,0,0),Math.sin(u*Math.PI)**2*(0)*Math.PI/180));
+   rotations[0].premultiply(new THREE.Quaternion().setFromAxisAngle(v3(0,0,-1),Math.sin(u*Math.PI)**2*(0)*Math.PI/180));
+  }else{
+   const since=previous?time-previous.time-previous.duration:100,before=next?next.time-time:100;
+   const w=smooth(since/.19)*smooth(before/.27);const neutral=f.rest.map(q=>q.clone()),wristQ=hand.wrist.getWorldQuaternion(new THREE.Quaternion()),axis=v3(-1,0,0).applyQuaternion(wristQ);let parentQ=wristQ.clone();for(let j=0;j<3;j++){const angle=[30,-(35),-(20)][j],localAxis=axis.clone().applyQuaternion(parentQ.clone().invert());neutral[j].premultiply(new THREE.Quaternion().setFromAxisAngle(localAxis,angle*Math.PI/180));parentQ.multiply(neutral[j]);}rotations.forEach((q,j)=>q.copy(f.bones[j].quaternion).slerp(neutral[j],w));
+  }
+  f.bones.forEach((b,j)=>{b.quaternion.slerp(rotations[j],envelope);b.updateWorldMatrix(false,true);});
+ }
+}
+export class Pianist extends OriginalPianist {
+ plannedPose(hand:HandRig,time:number):HandPose{const pose=super.plannedPose(hand,time);if(hand.side==='R'){for(const [end,start,dy,dz]of[[106.81,106.919774,.020,.024],[107.18,107.269683,.024,0]]){if(time<=end||time>=start)continue;const u=(time-end)/(start-end),w=Math.sin(u*Math.PI)**2;pose.position.y+=dy*w;pose.position.z+=dz*w;}}return pose;}
+ update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){super.update(time,score,piano,pedal,energy);releaseRepair(this,time,piano);}
 }

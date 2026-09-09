@@ -1,0 +1,7 @@
+import fs from 'node:fs';import {baseline,install,measure} from './harness.mjs';
+const s=structuredClone(baseline);for(const id of ['p00855','p01008']){const r=JSON.parse(fs.readFileSync(id+'-best.json')).best;Object.assign(s.notes.find(n=>n.id===id),{contactZ:r.p[0],contactLift:r.p[1],thumbOpposition:r.p[2]});}const r=JSON.parse(fs.readFileSync('fit-862-report.json'))[0].best;Object.assign(s.notes.find(n=>n.id==='p00862'),{contactZ:r.p[0],contactLift:r.p[1],thumbOpposition:r.p[2]});
+const ids=['p00855','p00862','p01008'],windows=[[179.94,181.64,'R'],[205.6,206.5,'L']],reports=[];
+for(const [label,sc] of [['baseline',baseline],['candidate',s]]){install(sc);const rows=[];for(const [lo,hi,side] of windows){const times=new Set();for(let t=lo;t<hi;t+=1/240)times.add(t);for(const n of sc.notes.filter(n=>n.hand===side&&n.time<hi&&n.time+n.duration>lo))for(const t of [n.time-.00001,n.time,n.time+.00001,n.time+n.duration-.00001,n.time+n.duration,n.time+n.duration+.00001])if(t>=lo&&t<=hi)times.add(t);
+for(const t of [...times].sort((a,b)=>a-b)){const r=measure(t,side);rows.push({time:t,side,active:r.active,key:r.keyHits,contact:r.contacts,mesh:r.meshContacts,pairs:r.crossings.map(c=>({a:c.a,b:c.b,pairs:c.trianglePairs}))});}}
+fs.writeFileSync('three-'+label+'-rows.json',JSON.stringify(rows));reports.push({label,rows:rows.length});}
+fs.writeFileSync('three-candidate.json',JSON.stringify(s));console.log(JSON.stringify(reports));

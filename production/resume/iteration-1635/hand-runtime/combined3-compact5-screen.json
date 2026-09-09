@@ -1,0 +1,606 @@
+{
+  "rig": "/workspace/scratch/2e8cc8e77f98/hand-runtime/pianist-arms-compact5.mjs",
+  "samples": 1070,
+  "coreSamples": 30,
+  "ownSamples": 11,
+  "neighborSamples": 3,
+  "maxCoreMm": 7.966040462736745,
+  "rows": [
+    {
+      "time": 7.6533595000000005,
+      "side": "R",
+      "maxCoreMm": 5.247408994395908,
+      "coreVertices": 15,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00020",
+      "previousEnd": 7.277744,
+      "next": "p00023",
+      "nextTime": 7.678359
+    },
+    {
+      "time": 8.031871500000001,
+      "side": "L",
+      "maxCoreMm": 3.662356555623525,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00017",
+      "previousEnd": 5.957786,
+      "next": "p00024",
+      "nextTime": 8.049975
+    },
+    {
+      "time": 8.40959,
+      "side": "R",
+      "maxCoreMm": 7.317947633935673,
+      "coreVertices": 23,
+      "ownPalmPairs": 8,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00023",
+      "previousEnd": 8.385384,
+      "next": "p00025",
+      "nextTime": 8.44759
+    },
+    {
+      "time": 10.791821,
+      "side": "R",
+      "maxCoreMm": 6.580641560211875,
+      "coreVertices": 26,
+      "ownPalmPairs": 27,
+      "neighbors": [
+        15,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00034",
+      "previousEnd": 10.754615,
+      "next": "p00035",
+      "nextTime": 10.816821
+    },
+    {
+      "time": 17.5968115,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 17,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00063",
+      "previousEnd": 17.584311999999997,
+      "next": "p00073",
+      "nextTime": 19.348488
+    },
+    {
+      "time": 17.694594000000002,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 1,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00063",
+      "previousEnd": 17.584311999999997,
+      "next": "p00073",
+      "nextTime": 19.348488
+    },
+    {
+      "time": 23.000783499999997,
+      "side": "R",
+      "maxCoreMm": 2.465988063506952,
+      "coreVertices": 5,
+      "ownPalmPairs": 29,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00090",
+      "previousEnd": 22.963656,
+      "next": "p00091",
+      "nextTime": 23.295957
+    },
+    {
+      "time": 29.2823945,
+      "side": "R",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 3,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00119",
+      "previousEnd": 29.173721999999998,
+      "next": "p00124",
+      "nextTime": 29.895396
+    },
+    {
+      "time": 30.929907500000002,
+      "side": "L",
+      "maxCoreMm": 3.306885384799896,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00127",
+      "previousEnd": 30.904908,
+      "next": "p00130",
+      "nextTime": 31.277745
+    },
+    {
+      "time": 78.0798925,
+      "side": "R",
+      "maxCoreMm": 5.473130830276937,
+      "coreVertices": 17,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00353",
+      "previousEnd": 77.159035,
+      "next": "p00360",
+      "nextTime": 78.117893
+    },
+    {
+      "time": 92.85569400000001,
+      "side": "L",
+      "maxCoreMm": 3.6687452567601975,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00439",
+      "previousEnd": 92.844532,
+      "next": "p00441",
+      "nextTime": 92.894532
+    },
+    {
+      "time": 98.319434,
+      "side": "L",
+      "maxCoreMm": 4.226715022965566,
+      "coreVertices": 11,
+      "ownPalmPairs": 53,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00470",
+      "previousEnd": 98.294434,
+      "next": "p00474",
+      "nextTime": 98.650843
+    },
+    {
+      "time": 107.37418799999999,
+      "side": "L",
+      "maxCoreMm": 7.966040462736745,
+      "coreVertices": 46,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00522",
+      "previousEnd": 107.219683,
+      "next": "p00531",
+      "nextTime": 108.27041
+    },
+    {
+      "time": 107.4236375,
+      "side": "L",
+      "maxCoreMm": 7.599454161048569,
+      "coreVertices": 37,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00522",
+      "previousEnd": 107.219683,
+      "next": "p00531",
+      "nextTime": 108.27041
+    },
+    {
+      "time": 120.0805135,
+      "side": "L",
+      "maxCoreMm": 5.848319072600305,
+      "coreVertices": 13,
+      "ownPalmPairs": 27,
+      "neighbors": [
+        14,
+        6,
+        0,
+        0
+      ],
+      "previous": "p00562",
+      "previousEnd": 118.15252699999999,
+      "next": "p00571",
+      "nextTime": 120.10524
+    },
+    {
+      "time": 151.908064,
+      "side": "R",
+      "maxCoreMm": 6.623886527798217,
+      "coreVertices": 18,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00677",
+      "previousEnd": 148.56977799999999,
+      "next": "p00689",
+      "nextTime": 151.946064
+    },
+    {
+      "time": 152.2914345,
+      "side": "L",
+      "maxCoreMm": 3.8138899453480577,
+      "coreVertices": 9,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00687",
+      "previousEnd": 152.253434,
+      "next": "p00690",
+      "nextTime": 152.303434
+    },
+    {
+      "time": 154.449057,
+      "side": "L",
+      "maxCoreMm": 3.6732334493751324,
+      "coreVertices": 13,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00696",
+      "previousEnd": 154.411057,
+      "next": "p00698",
+      "nextTime": 154.461057
+    },
+    {
+      "time": 155.844406,
+      "side": "L",
+      "maxCoreMm": 3.3734635614321995,
+      "coreVertices": 12,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00698",
+      "previousEnd": 154.742894,
+      "next": "p00705",
+      "nextTime": 155.856406
+    },
+    {
+      "time": 173.55420049999998,
+      "side": "L",
+      "maxCoreMm": 3.18895392295504,
+      "coreVertices": 9,
+      "ownPalmPairs": 28,
+      "neighbors": [
+        11,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00812",
+      "previousEnd": 173.5292,
+      "next": "p00815",
+      "nextTime": 173.882871
+    },
+    {
+      "time": 176.86921850000002,
+      "side": "L",
+      "maxCoreMm": 3.313616385390877,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00832",
+      "previousEnd": 176.844219,
+      "next": "p00835",
+      "nextTime": 177.201552
+    },
+    {
+      "time": 179.5973565,
+      "side": "R",
+      "maxCoreMm": 6.416359165967334,
+      "coreVertices": 34,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00841",
+      "previousEnd": 178.334184,
+      "next": "p00852",
+      "nextTime": 179.683322
+    },
+    {
+      "time": 180.12359800000002,
+      "side": "R",
+      "maxCoreMm": 4.852102905953726,
+      "coreVertices": 21,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00852",
+      "previousEnd": 179.943184,
+      "next": "p00855",
+      "nextTime": 180.304012
+    },
+    {
+      "time": 180.226805,
+      "side": "R",
+      "maxCoreMm": 7.876296321743248,
+      "coreVertices": 40,
+      "ownPalmPairs": 14,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00852",
+      "previousEnd": 179.943184,
+      "next": "p00855",
+      "nextTime": 180.304012
+    },
+    {
+      "time": 180.71987299999998,
+      "side": "R",
+      "maxCoreMm": 7.447628661240491,
+      "coreVertices": 75,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 180.75079,
+      "side": "R",
+      "maxCoreMm": 7.836197782862597,
+      "coreVertices": 66,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 180.803506,
+      "side": "R",
+      "maxCoreMm": 3.8172980521287703,
+      "coreVertices": 10,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 180.80525599999999,
+      "side": "R",
+      "maxCoreMm": 3.5033686825851618,
+      "coreVertices": 7,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 191.811994,
+      "side": "L",
+      "maxCoreMm": 7.6744663621891585,
+      "coreVertices": 47,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00932",
+      "previousEnd": 191.661489,
+      "next": "p00941",
+      "nextTime": 192.689489
+    },
+    {
+      "time": 191.861656,
+      "side": "L",
+      "maxCoreMm": 7.493776722505507,
+      "coreVertices": 38,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00932",
+      "previousEnd": 191.661489,
+      "next": "p00941",
+      "nextTime": 192.689489
+    },
+    {
+      "time": 194.4930255,
+      "side": "L",
+      "maxCoreMm": 6.905181927108539,
+      "coreVertices": 42,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00949",
+      "previousEnd": 194.324493,
+      "next": "p00958",
+      "nextTime": 195.341504
+    },
+    {
+      "time": 194.49349800000002,
+      "side": "L",
+      "maxCoreMm": 6.955387059015883,
+      "coreVertices": 41,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00949",
+      "previousEnd": 194.324493,
+      "next": "p00958",
+      "nextTime": 195.341504
+    },
+    {
+      "time": 207.4920915,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 17,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01015",
+      "previousEnd": 207.479591,
+      "next": "p01021",
+      "nextTime": 208.619445
+    },
+    {
+      "time": 210.476445,
+      "side": "R",
+      "maxCoreMm": 4.661301247076144,
+      "coreVertices": 13,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01005",
+      "previousEnd": 205.305469,
+      "next": "p01027",
+      "nextTime": 210.516445
+    },
+    {
+      "time": 212.4328865,
+      "side": "R",
+      "maxCoreMm": 6.500410563949427,
+      "coreVertices": 24,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01033",
+      "previousEnd": 212.399886,
+      "next": "p01034",
+      "nextTime": 212.449886
+    }
+  ],
+  "scope": "Actual owned thumb vertices against conservative shrunken key boxes; exact owned thumb/palm/neighbor triangle pairs at all score note midpoints. Candidate still requires full-gap high-rate and visible web review."
+}

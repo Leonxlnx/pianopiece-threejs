@@ -1,0 +1,8 @@
+import fs from 'node:fs';import {baseline,install} from './harness.mjs';import {sample,summarize,times} from './metric.mjs';
+const own=JSON.parse(fs.readFileSync('reservation.json')),ids=own.noteIds,lifts={1:.009773,2:.003008,3:.003271,4:.002391,5:.002435},maps=[[4,1,3,1,1,2],[4,3,2,1,3,4]],rows=[];let best=null;
+for(const mapping of maps)for(const depth of [.255,.269,.278])for(const liftDelta of [0,.001]){
+ const s=structuredClone(baseline),knots=s.wristMotion.hands.find(h=>h.side==='R').knots;for(const i of own.knotIndices){knots[i].position[0]+=.005;knots[i].position[1]+=.0276;knots[i].position[2]-=.0068;}
+ for(let i=0;i<ids.length;i++){const n=s.notes.find(n=>n.id===ids[i]);n.finger=mapping[i];n.contactLift=lifts[n.finger]+(n.finger===1?0:liftDelta);n.contactZ=depth;delete n.thumbOpposition;}
+ install(s);const held=own.notes.flatMap(n=>[.02,.5,.98].map(u=>n.time+n.duration*u)),grid=times(s,own.incomingStart,own.departureArrival,12),samples=[...new Set([...held,...grid])].sort((a,b)=>a-b).map(t=>sample(t)),q=summarize(samples),loss=q.keyCore*10+q.crossingPairs*.7+Math.max(0,-2.5-q.minimumPadGap)*100+Math.max(0,q.maximumPadGap-2.5)*100+q.missingPad*1000+Math.max(0,q.pointContactMm-.25)*150;
+ const row={mapping,depth,liftDelta,summary:q,loss};rows.push(row);console.log(JSON.stringify(row));if(!best||loss<best.loss){best=row;fs.writeFileSync('contact-best-score.json',JSON.stringify(s));fs.writeFileSync('contact-best-samples.json',JSON.stringify(samples,null,2));}
+}fs.writeFileSync('contact-set-report.json',JSON.stringify({rows,best},null,2));console.log('best',JSON.stringify(best));

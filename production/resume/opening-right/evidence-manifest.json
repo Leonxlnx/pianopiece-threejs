@@ -1,0 +1,62 @@
+{
+  "renders": [
+    {
+      "label": "baseline",
+      "report": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/baseline/report-1280.json",
+      "reportSha256": "812957eaaab2ee477e27db2bedabeebc1dc825aadee593e1f01d33329bf64b63",
+      "scoreSha256": "9db662f1e9d4037cc8c505b9818b7782ac1fb52fe70cff85bf362a00a9fb3b30",
+      "sourceDifferences": [],
+      "frames": [
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/baseline/current-1280-7.005702.png",
+          "sha256": "2e6beb91ef35394f40210ad1999202254e82551ad27551db5e7eac6e3855f2f8",
+          "time": 7.0057025,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/baseline/current-1280-7.472359.png",
+          "sha256": "2f2e7101a679c814e10a15fa4749cd1a823cd402814762ec8f1a4172ef9f65c8",
+          "time": 7.472359,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/baseline/current-1280-9.167821.png",
+          "sha256": "9b3369bb58c69d624f13c13873953d565f8c8a687f3db3b304e2fcc9a9434b09",
+          "time": 9.167821,
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "label": "diagnostic",
+      "report": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/diagnostic/report-1280.json",
+      "reportSha256": "c33993822854b6dce22eb7c6037cfca5f49afea6cffe7406387bcaf48fadecbb",
+      "scoreSha256": "a75204b3e07c8a39c194b9448c422b8dcc9176d1b5c66cb526ba5c45cd6a8283",
+      "sourceDifferences": [
+        "production/qa/pose-server.mjs",
+        "public/assets/score.json"
+      ],
+      "frames": [
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/diagnostic/current-1280-7.005702.png",
+          "sha256": "c44168cbc92ce040fd1c39381d388f84443d86fbec2f0224519a959059bbeab1",
+          "time": 7.0057025,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/diagnostic/current-1280-7.472359.png",
+          "sha256": "5c9c8a99a33c4ffb2b1cf4367a0409d65a57b159fbcc2a8663994264a22f92f5",
+          "time": 7.472359,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/opening-right/evidence/diagnostic/current-1280-9.167821.png",
+          "sha256": "5f5e68189209d231bfeb2938103a770d9fb6f07908f6e1532bae32feabea4ca6",
+          "time": 9.167821,
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    }
+  ],
+  "verdict": "Rejected whole-hand solution. Raised support improves the active thumb shape, but middle/index crossing is plainly visible near 7.472359 and the departure still bunches/crosses fingers. All six oblique images inspected. No anatomical-final claim."
+}

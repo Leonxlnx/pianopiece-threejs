@@ -1,0 +1,1306 @@
+[
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00196",
+      "previousEnd": 45.364676,
+      "next": "p00208",
+      "nextTime": 47.864754,
+      "phase": "arrival",
+      "knots": [
+        [
+          47.574695,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          47.639694999999996,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          47.794695,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          47.864754,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 0,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00196",
+        "previousEnd": 45.364676,
+        "next": "p00208",
+        "nextTime": 47.864754,
+        "phase": "arrival",
+        "knots": [
+          [
+            47.574695,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            47.639694999999996,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            47.794695,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            47.864754,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 294,
+      "maxBase": {
+        "speed": 0.29049241178209917,
+        "time": 47.724,
+        "previousTime": 47.723,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 0.8438913339356211,
+        "time": 47.605,
+        "previousTime": 47.604,
+        "vertex": 1683
+      }
+    },
+    "reports": [
+      {
+        "begin": 47.574694,
+        "end": 47.864754999999995,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 305,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.379790643217926,
+        "maxSpeedCandidate": 0.8049505785749794,
+        "maxRateBase": 7.398966392073673,
+        "maxRateCandidate": 12.645523474821314,
+        "totals": {
+          "baseCore": 265,
+          "candidateCore": 45,
+          "maxBaseCore": 7.513866633853561,
+          "maxCandidateCore": 7.241883514208319,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-0-1000.json",
+        "targetBeforeCorePoses": 220,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.513866633853561,
+        "targetAfterMaxCoreMm": 2.697019093889197,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 47.812,
+        "end": 47.824,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.16108023070341537,
+        "maxSpeedCandidate": 0.7748719278837686,
+        "maxRateBase": 1.7362649145304647,
+        "maxRateCandidate": 12.422862555650894,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 0,
+          "maxBaseCore": 7.011491569779094,
+          "maxCandidateCore": 2.809695098343057,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-0-peak5000.json",
+        "targetBeforeCorePoses": 61,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.011491569779094,
+        "targetAfterMaxCoreMm": 2.809695098343057,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00210",
+      "previousEnd": 48.878265,
+      "next": "p00216",
+      "nextTime": 49.591921,
+      "phase": "arrival",
+      "knots": [
+        [
+          49.301862,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          49.366862,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          49.521862,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          49.591921,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 1,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00210",
+        "previousEnd": 48.878265,
+        "next": "p00216",
+        "nextTime": 49.591921,
+        "phase": "arrival",
+        "knots": [
+          [
+            49.301862,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            49.366862,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            49.521862,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            49.591921,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 294,
+      "maxBase": {
+        "speed": 0.2904930872762203,
+        "time": 49.452,
+        "previousTime": 49.451,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 0.8438805380041938,
+        "time": 49.332,
+        "previousTime": 49.331,
+        "vertex": 1683
+      }
+    },
+    "reports": [
+      {
+        "begin": 49.301861,
+        "end": 49.591922,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 305,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.960464477539063e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.4073691255317989,
+        "maxSpeedCandidate": 0.804938284318156,
+        "maxRateBase": 5.754858563078066,
+        "maxRateCandidate": 12.644608002452145,
+        "totals": {
+          "baseCore": 220,
+          "candidateCore": 0,
+          "maxBaseCore": 7.539076742719808,
+          "maxCandidateCore": 2.6710904923709644,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-1-1000.json",
+        "targetBeforeCorePoses": 220,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.539076742719808,
+        "targetAfterMaxCoreMm": 2.6710904923709644,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 49.54,
+        "end": 49.552,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.960464477539063e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.15907079198883306,
+        "maxSpeedCandidate": 0.7773609767040908,
+        "maxRateBase": 1.7153458768595415,
+        "maxRateCandidate": 12.493825849865775,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 0,
+          "maxBaseCore": 7.05005665794689,
+          "maxCandidateCore": 2.8283056327477185,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-1-peak5000.json",
+        "targetBeforeCorePoses": 61,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.05005665794689,
+        "targetAfterMaxCoreMm": 2.8283056327477185,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00225",
+      "previousEnd": 51.636886000000004,
+      "next": "p00238",
+      "nextTime": 53.753909,
+      "phase": "release",
+      "knots": [
+        [
+          51.636886000000004,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          51.669344,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          51.778344000000004,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          51.85334400000001,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 2,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00225",
+        "previousEnd": 51.636886000000004,
+        "next": "p00238",
+        "nextTime": 53.753909,
+        "phase": "release",
+        "knots": [
+          [
+            51.636886000000004,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            51.669344,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            51.778344000000004,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            51.85334400000001,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 221,
+      "maxBase": {
+        "speed": 0.41279644654297337,
+        "time": 51.736,
+        "previousTime": 51.735,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 1.646251300109883,
+        "time": 51.654,
+        "previousTime": 51.653,
+        "vertex": 1837
+      }
+    },
+    "reports": [
+      {
+        "begin": 51.63688500000001,
+        "end": 51.853345000000004,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 232,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.38601623424065795,
+        "maxSpeedCandidate": 1.5386852035440182,
+        "maxRateBase": 4.943144406930252,
+        "maxRateCandidate": 26.303860319470186,
+        "totals": {
+          "baseCore": 141,
+          "candidateCore": 45,
+          "maxBaseCore": 7.008281436114816,
+          "maxCandidateCore": 6.735347408499182,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-2-1000.json",
+        "targetBeforeCorePoses": 96,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.008281436114816,
+        "targetAfterMaxCoreMm": 2.8664743805667525,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 51.66,
+        "end": 51.672,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 67,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.21886719094664434,
+        "maxSpeedCandidate": 1.3154648550224401,
+        "maxRateBase": 2.3626397927674088,
+        "maxRateCandidate": 21.884533906666356,
+        "totals": {
+          "baseCore": 0,
+          "candidateCore": 0,
+          "maxBaseCore": 1.5343325202363811,
+          "maxCandidateCore": 2.881389332862347,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-2-peak5000.json",
+        "targetBeforeCorePoses": 0,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 1.5343325202363811,
+        "targetAfterMaxCoreMm": 2.881389332862347,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00225",
+      "previousEnd": 51.636886000000004,
+      "next": "p00238",
+      "nextTime": 53.753909,
+      "phase": "arrival",
+      "knots": [
+        [
+          53.46385,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          53.52885,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          53.68385,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          53.753909,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 3,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00225",
+        "previousEnd": 51.636886000000004,
+        "next": "p00238",
+        "nextTime": 53.753909,
+        "phase": "arrival",
+        "knots": [
+          [
+            53.46385,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            53.52885,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            53.68385,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            53.753909,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 294,
+      "maxBase": {
+        "speed": 0.2904929256713594,
+        "time": 53.614,
+        "previousTime": 53.613,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 0.8438828709959749,
+        "time": 53.494,
+        "previousTime": 53.493,
+        "vertex": 1683
+      }
+    },
+    "reports": [
+      {
+        "begin": 53.463849,
+        "end": 53.75391,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 305,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.3798023362240962,
+        "maxSpeedCandidate": 0.8049406534958415,
+        "maxRateBase": 7.39895876590796,
+        "maxRateCandidate": 12.644691834744947,
+        "totals": {
+          "baseCore": 282,
+          "candidateCore": 62,
+          "maxBaseCore": 7.539433158771369,
+          "maxCandidateCore": 7.245929808071455,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-3-1000.json",
+        "targetBeforeCorePoses": 220,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.539433158771369,
+        "targetAfterMaxCoreMm": 2.6676041153796404,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 53.702,
+        "end": 53.714,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 4.2146848510894035e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.15904171772482678,
+        "maxSpeedCandidate": 0.777391168461386,
+        "maxRateBase": 1.7150429789148676,
+        "maxRateCandidate": 12.494749549676538,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 0,
+          "maxBaseCore": 7.050604771897118,
+          "maxCandidateCore": 2.8350739013657256,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-3-peak5000.json",
+        "targetBeforeCorePoses": 61,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.050604771897118,
+        "targetAfterMaxCoreMm": 2.8350739013657256,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00243",
+      "previousEnd": 55.112269,
+      "next": "p00248",
+      "nextTime": 55.906367,
+      "phase": "release",
+      "knots": [
+        [
+          55.112269,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          55.144726999999996,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          55.253727,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          55.328727,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 4,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00243",
+        "previousEnd": 55.112269,
+        "next": "p00248",
+        "nextTime": 55.906367,
+        "phase": "release",
+        "knots": [
+          [
+            55.112269,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            55.144726999999996,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            55.253727,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            55.328727,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 220,
+      "maxBase": {
+        "speed": 0.4128061648473947,
+        "time": 55.212,
+        "previousTime": 55.211,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 1.6453687255148337,
+        "time": 55.13,
+        "previousTime": 55.129,
+        "vertex": 1837
+      }
+    },
+    "reports": [
+      {
+        "begin": 55.112268,
+        "end": 55.328728,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 231,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 4.2146848510894035e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 1.2955407728159525,
+        "maxSpeedCandidate": 1.5380410931508364,
+        "maxRateBase": 41.149258929892596,
+        "maxRateCandidate": 41.149258929892596,
+        "totals": {
+          "baseCore": 96,
+          "candidateCore": 0,
+          "maxBaseCore": 7.035403220174069,
+          "maxCandidateCore": 2.871091775968837,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-4-1000.json",
+        "targetBeforeCorePoses": 96,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.035403220174069,
+        "targetAfterMaxCoreMm": 2.871091775968837,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 55.135,
+        "end": 55.147,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 64,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 0,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 1.2821037550590395,
+        "maxSpeedCandidate": 1.3415307023008936,
+        "maxRateBase": 34.350802910616025,
+        "maxRateCandidate": 34.350802910616025,
+        "totals": {
+          "baseCore": 0,
+          "candidateCore": 0,
+          "maxBaseCore": 1.5343353942737226,
+          "maxCandidateCore": 2.882314899047389,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-4-peak5000.json",
+        "targetBeforeCorePoses": 0,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 1.5343353942737226,
+        "targetAfterMaxCoreMm": 2.882314899047389,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00243",
+      "previousEnd": 55.112269,
+      "next": "p00248",
+      "nextTime": 55.906367,
+      "phase": "arrival",
+      "knots": [
+        [
+          55.616308000000004,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          55.681308,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          55.836308,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          55.906367,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 5,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00243",
+        "previousEnd": 55.112269,
+        "next": "p00248",
+        "nextTime": 55.906367,
+        "phase": "arrival",
+        "knots": [
+          [
+            55.616308000000004,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            55.681308,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            55.836308,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            55.906367,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 294,
+      "maxBase": {
+        "speed": 0.29049554197047756,
+        "time": 55.766,
+        "previousTime": 55.765,
+        "vertex": 1680
+      },
+      "maxCandidate": {
+        "speed": 0.8437363367354479,
+        "time": 55.647,
+        "previousTime": 55.646,
+        "vertex": 1683
+      }
+    },
+    "reports": [
+      {
+        "begin": 55.616307000000006,
+        "end": 55.906368,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 305,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.960464477539063e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.4073691244465384,
+        "maxSpeedCandidate": 0.8048073272859043,
+        "maxRateBase": 5.754858563078066,
+        "maxRateCandidate": 12.645560414206424,
+        "totals": {
+          "baseCore": 217,
+          "candidateCore": 0,
+          "maxBaseCore": 7.245113449405705,
+          "maxCandidateCore": 2.799545008260129,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-5-1000.json",
+        "targetBeforeCorePoses": 217,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.245113449405705,
+        "targetAfterMaxCoreMm": 2.799545008260129,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 55.854,
+        "end": 55.866,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 4.2146848510894035e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.16014879404001867,
+        "maxSpeedCandidate": 0.7761246395657091,
+        "maxRateBase": 1.7265724012954031,
+        "maxRateCandidate": 12.457508478868698,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 0,
+          "maxBaseCore": 7.029519977225784,
+          "maxCandidateCore": 2.80236413608026,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-5-peak5000.json",
+        "targetBeforeCorePoses": 61,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.029519977225784,
+        "targetAfterMaxCoreMm": 2.80236413608026,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00248",
+      "previousEnd": 56.226813,
+      "next": "p00253",
+      "nextTime": 57.34665,
+      "phase": "release",
+      "knots": [
+        [
+          56.226813,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          56.259271,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          56.368271,
+          30,
+          10,
+          0,
+          0
+        ],
+        [
+          56.443271,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 6,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00248",
+        "previousEnd": 56.226813,
+        "next": "p00253",
+        "nextTime": 57.34665,
+        "phase": "release",
+        "knots": [
+          [
+            56.226813,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            56.259271,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            56.368271,
+            30,
+            10,
+            0,
+            0
+          ],
+          [
+            56.443271,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 221,
+      "maxBase": {
+        "speed": 1.107611038233352,
+        "time": 56.259,
+        "previousTime": 56.258,
+        "vertex": 1683
+      },
+      "maxCandidate": {
+        "speed": 2.346711945597673,
+        "time": 56.246,
+        "previousTime": 56.245,
+        "vertex": 1837
+      }
+    },
+    "reports": [
+      {
+        "begin": 56.226812,
+        "end": 56.443272,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 232,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 1.041396204416495,
+        "maxSpeedCandidate": 2.1927822537166746,
+        "maxRateBase": 22.79030189981615,
+        "maxRateCandidate": 40.96862849782783,
+        "totals": {
+          "baseCore": 92,
+          "candidateCore": 42,
+          "maxBaseCore": 6.460036529142177,
+          "maxCandidateCore": 6.460036529142177,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-6-1000.json",
+        "targetBeforeCorePoses": 50,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 6.154205385054095,
+        "targetAfterMaxCoreMm": 2.713962045165441,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 56.236,
+        "end": 56.248,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-transfer-seven-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.91613119548281,
+        "maxSpeedCandidate": 2.193369093178548,
+        "maxRateBase": 15.988514330862396,
+        "maxRateCandidate": 41.008349972316374,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 61,
+          "maxBaseCore": 6.460036529142177,
+          "maxCandidateCore": 6.460036529142177,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-seven-6-peak5000.json",
+        "targetBeforeCorePoses": 0,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 0,
+        "targetAfterMaxCoreMm": 2.7264648128028646,
+        "increasingPairCountRows": 0
+      }
+    ]
+  },
+  {
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00238",
+      "previousEnd": 54.427584,
+      "next": "p00243",
+      "nextTime": 54.82203,
+      "phase": "short",
+      "knots": [
+        [
+          54.427584,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          54.460042,
+          32,
+          10,
+          0,
+          0
+        ],
+        [
+          54.751971,
+          32,
+          10,
+          0,
+          0
+        ],
+        [
+          54.82203,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "skin": {
+      "ci": 0,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00238",
+        "previousEnd": 54.427584,
+        "next": "p00243",
+        "nextTime": 54.82203,
+        "phase": "short",
+        "knots": [
+          [
+            54.427584,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            54.460042,
+            32,
+            10,
+            0,
+            0
+          ],
+          [
+            54.751971,
+            32,
+            10,
+            0,
+            0
+          ],
+          [
+            54.82203,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 399,
+      "maxBase": {
+        "speed": 0.22263131411764966,
+        "time": 54.529,
+        "previousTime": 54.528,
+        "vertex": 1683
+      },
+      "maxCandidate": {
+        "speed": 1.6673999989843737,
+        "time": 54.445,
+        "previousTime": 54.444,
+        "vertex": 1837
+      }
+    },
+    "reports": [
+      {
+        "begin": 54.427583,
+        "end": 54.822031,
+        "fps": 1000,
+        "hi": 1,
+        "samples": 415,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-short-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.960464477539063e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.42210616348610047,
+        "maxSpeedCandidate": 1.5592782099855655,
+        "maxRateBase": 5.9565143759537955,
+        "maxRateCandidate": 27.382666506073967,
+        "totals": {
+          "baseCore": 292,
+          "candidateCore": 0,
+          "maxBaseCore": 7.523528181604067,
+          "maxCandidateCore": 2.9442909462619737,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-short-v1-1000.json",
+        "targetBeforeCorePoses": 292,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.523528181604067,
+        "targetAfterMaxCoreMm": 2.699996114896852,
+        "increasingPairCountRows": 0
+      },
+      {
+        "begin": 54.771,
+        "end": 54.783,
+        "fps": 5000,
+        "hi": 1,
+        "samples": 61,
+        "scope": "All five actual digit surfaces on the changed hand, against all keys, same-hand neighbors and own palm; exact active-joint/tip parity; finite sample timing only.",
+        "curveFile": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-short-v1.json",
+        "scorePath": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+        "regressionCount": 0,
+        "activeQuaternionDeltaRad": 5.16191365590357e-08,
+        "activeTipDeltaM": 0,
+        "seekQuaternionDelta": 0,
+        "maxSpeedBase": 0.14637740489015036,
+        "maxSpeedCandidate": 0.8088453970019465,
+        "maxRateBase": 1.5810062452773554,
+        "maxRateCandidate": 13.197778908642556,
+        "totals": {
+          "baseCore": 61,
+          "candidateCore": 0,
+          "maxBaseCore": 7.17393122863641,
+          "maxCandidateCore": 2.699996114896852,
+          "newPairs": 0
+        },
+        "regressions": [],
+        "file": "r76-index-short-v1-peak5000.json",
+        "targetBeforeCorePoses": 61,
+        "targetAfterCorePoses": 0,
+        "targetBeforeMaxCoreMm": 7.17393122863641,
+        "targetAfterMaxCoreMm": 2.699996114896852,
+        "increasingPairCountRows": 0
+      }
+    ]
+  }
+]

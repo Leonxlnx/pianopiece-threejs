@@ -1,0 +1,6 @@
+import fs from'node:fs';import{install,measure}from'./harness-pad.mjs';const base=JSON.parse(fs.readFileSync('candidate-v7.json')),rows=[];
+for(const dx of[.008,.014,.020])for(const dy of[0,.005,.010])for(const dz of[.015,.025,.035]){
+ const s=structuredClone(base),knots=s.wristMotion.hands.find(h=>h.side==='R').knots;for(const i of[420,421,426])knots[i].position=knots[i].position.map((v,j)=>v+[dx,dy,dz][j]);install(s);let pairs=0,core=0,ik=0,pad=-1e9,spread=0;for(const id of['p00971','p00974','p00986']){const n=s.notes.find(n=>n.id===id);for(let i=0;i<=8;i++){const r=measure(n.time+.000001+(n.duration-.000002)*i/8,'R'),p=r.padContacts.find(p=>p.id===id),c=r.chains[4],v=c.points[1].map((x,j)=>x-c.points[0][j]);if(i===4)spread=Math.max(spread,Math.atan2(Math.abs(v[0]),Math.max(.0001,-v[2]))*180/Math.PI);pairs+=r.crossings.filter(c=>c.a==='RPinky'||c.b==='RPinky').reduce((v,c)=>v+c.trianglePairs,0);core=Math.max(core,...r.keyHits.filter(h=>h.active||h.patch==='RPalm').map(h=>h.depth));ik=Math.max(ik,...r.contacts.map(c=>c.error*1000));pad=Math.max(pad,p?.gap??100);}}
+ const cost=pairs+1000*Math.max(0,ik-.3)+100*Math.max(0,core-3)+100*Math.max(0,pad-3);rows.push({dx,dy,dz,pairs,core,ik,pad,spread,cost});
+}
+rows.sort((a,b)=>a.cost-b.cost||a.spread-b.spread);fs.writeFileSync('late-support-probes.json',JSON.stringify(rows,null,2));console.log(rows.slice(0,12));

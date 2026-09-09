@@ -1,0 +1,404 @@
+{
+  "sourceSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+  "fps": 30,
+  "frames": 6996,
+  "definition": "Forearm is elbow-to-wrist. Palm forward is wrist-to-MiddleMCP. Transverse is PinkyMCP-to-IndexMCP orthogonalized to palm forward; normal is transverse cross forward. Total angle is 3D; sideways/normal are projected deviations. Rig geometric values, not biological limits.",
+  "summaries": {
+    "L": {
+      "baseline": {
+        "angleDegrees": {
+          "median": 52.81283060450927,
+          "p95": 60.26345987522217,
+          "maximum": 63.27668632500443,
+          "maximumTime": 31.2
+        },
+        "sidewaysDegrees": {
+          "median": 51.992103149076186,
+          "p95": 59.62454262852114,
+          "maximum": 63.214390988091544,
+          "maximumTime": 31.2
+        },
+        "normalDegrees": {
+          "median": 15.025183391809769,
+          "p95": 28.155917613758366,
+          "maximum": 35.39677519883507,
+          "maximumTime": 93.43333333333334
+        }
+      },
+      "candidate": {
+        "angleDegrees": {
+          "median": 39.128775920763005,
+          "p95": 51.331743637389486,
+          "maximum": 62.75169154636027,
+          "maximumTime": 30.766666666666666
+        },
+        "sidewaysDegrees": {
+          "median": 38.55376090912944,
+          "p95": 51.234573215978855,
+          "maximum": 62.74590106027077,
+          "maximumTime": 30.766666666666666
+        },
+        "normalDegrees": {
+          "median": 11.699047908032616,
+          "p95": 20.23819487969926,
+          "maximum": 27.088618666562187,
+          "maximumTime": 60.43333333333333
+        }
+      }
+    },
+    "R": {
+      "baseline": {
+        "angleDegrees": {
+          "median": 50.55050492392795,
+          "p95": 63.68431800398133,
+          "maximum": 69.47106997504387,
+          "maximumTime": 224.46666666666667
+        },
+        "sidewaysDegrees": {
+          "median": 49.26428879782342,
+          "p95": 63.536244778843596,
+          "maximum": 69.44478855473876,
+          "maximumTime": 224.46666666666667
+        },
+        "normalDegrees": {
+          "median": 17.14659959308763,
+          "p95": 28.569342543764485,
+          "maximum": 36.1768719792174,
+          "maximumTime": 156.06666666666666
+        }
+      },
+      "candidate": {
+        "angleDegrees": {
+          "median": 34.30111947817736,
+          "p95": 57.32810862768465,
+          "maximum": 66.22212241495518,
+          "maximumTime": 233.144228
+        },
+        "sidewaysDegrees": {
+          "median": 31.83652014198783,
+          "p95": 57.319230796669295,
+          "maximum": 65.63830971665416,
+          "maximumTime": 233.144228
+        },
+        "normalDegrees": {
+          "median": 13.590114339280595,
+          "p95": 24.643477503845318,
+          "maximum": 29.501360292614475,
+          "maximumTime": 225.46666666666667
+        }
+      }
+    }
+  },
+  "ending": [
+    {
+      "time": 233.144228,
+      "side": "L",
+      "baseline": {
+        "angleDegrees": 49.544789500590795,
+        "sidewaysDegrees": 46.218454957794044,
+        "normalDegrees": 28.154950666225428
+      },
+      "candidate": {
+        "angleDegrees": 31.804307189082852,
+        "sidewaysDegrees": 27.243937928543833,
+        "normalDegrees": 19.06517157315452
+      }
+    },
+    {
+      "time": 233.144228,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    }
+  ],
+  "largestRegressions": [
+    {
+      "time": 137.66666666666666,
+      "side": "L",
+      "baseline": {
+        "angleDegrees": 61.66780892124007,
+        "sidewaysDegrees": 61.524743867625205,
+        "normalDegrees": 11.42121638750713
+      },
+      "candidate": {
+        "angleDegrees": 62.28757089700974,
+        "sidewaysDegrees": 62.24150653303161,
+        "normalDegrees": 6.776409623798505
+      }
+    },
+    {
+      "time": 231.16666666666666,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.2,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.23333333333332,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.26666666666668,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.3,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.33333333333334,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.36666666666667,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.4,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.43333333333334,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.46666666666667,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.5,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.53333333333333,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.56666666666666,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.6,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.63333333333333,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.66666666666666,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.7,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.73333333333332,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    },
+    {
+      "time": 231.76666666666668,
+      "side": "R",
+      "baseline": {
+        "angleDegrees": 65.61217063561516,
+        "sidewaysDegrees": 65.1330878703425,
+        "normalDegrees": 24.626096491059695
+      },
+      "candidate": {
+        "angleDegrees": 66.22212241495518,
+        "sidewaysDegrees": 65.63830971665416,
+        "normalDegrees": 27.644842274596126
+      }
+    }
+  ]
+}

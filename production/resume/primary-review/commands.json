@@ -1,0 +1,78 @@
+[
+  {
+    "label": "baseline",
+    "camera": "top",
+    "command": [
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/run-single.sh",
+      "--project",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0",
+      "--width",
+      "960",
+      "--times",
+      "38.8525795,195.13783899999999,162.313344,188.70254",
+      "--pianist-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/app/performance/pianist.ts",
+      "--score-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/public/assets/score.json",
+      "--camera-plan",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/primary-review/camera-top.json"
+    ]
+  },
+  {
+    "label": "primary",
+    "camera": "top",
+    "command": [
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/run-single.sh",
+      "--project",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0",
+      "--width",
+      "960",
+      "--times",
+      "38.8525795,195.13783899999999,162.313344,188.70254",
+      "--pianist-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/app/performance/pianist.ts",
+      "--score-source",
+      "/workspace/scratch/2e8cc8e77f98/active-hand-fit/candidate-primary-v1.json",
+      "--camera-plan",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/primary-review/camera-top.json"
+    ]
+  },
+  {
+    "label": "baseline",
+    "camera": "oblique",
+    "command": [
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/run-single.sh",
+      "--project",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0",
+      "--width",
+      "960",
+      "--times",
+      "38.8525795,195.13783899999999,162.313344,188.70254",
+      "--pianist-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/app/performance/pianist.ts",
+      "--score-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/public/assets/score.json",
+      "--camera-plan",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/primary-review/camera-oblique.json"
+    ]
+  },
+  {
+    "label": "primary",
+    "camera": "oblique",
+    "command": [
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/run-single.sh",
+      "--project",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0",
+      "--width",
+      "960",
+      "--times",
+      "38.8525795,195.13783899999999,162.313344,188.70254",
+      "--pianist-source",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/9ab8537c947aefb0/app/performance/pianist.ts",
+      "--score-source",
+      "/workspace/scratch/2e8cc8e77f98/active-hand-fit/candidate-primary-v1.json",
+      "--camera-plan",
+      "/workspace/scratch/2e8cc8e77f98/render-recovery/primary-review/camera-oblique.json"
+    ]
+  }
+]

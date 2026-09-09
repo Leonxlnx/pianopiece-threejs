@@ -1,0 +1,30 @@
+[
+  {
+    "source": "idle-nonthumb/primary-v1-delivery/idle-nonthumb-data.json",
+    "kind": "supportedIndexGaps",
+    "index": 12,
+    "curve": {
+      "hi": 1,
+      "fi": 1,
+      "previous": "p00088",
+      "previousEnd": 22.557066,
+      "next": "p00093",
+      "nextTime": 23.648403
+    },
+    "reason": "New severe key-core regression and/or new neighboring pair after combined active refingering; replay-60.json exact evidence."
+  },
+  {
+    "source": "idle-nonthumb/primary-v1-delivery/idle-nonthumb-data.json",
+    "kind": "supportedIndexGaps",
+    "index": 49,
+    "curve": {
+      "hi": 0,
+      "fi": 1,
+      "previous": "p00465",
+      "previousEnd": 97.271706,
+      "next": "p00489",
+      "nextTime": 101.474372
+    },
+    "reason": "New severe key-core regression and/or new neighboring pair after combined active refingering; replay-60.json exact evidence."
+  }
+]

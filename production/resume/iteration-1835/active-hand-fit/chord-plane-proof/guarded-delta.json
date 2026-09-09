@@ -1,0 +1,228 @@
+{
+  "format": "daybreak-score-delta-v1",
+  "noteCount": 1068,
+  "musicContractSha256": "6076c3826e3e78be022cba768cf070f12b268685add276d7eb4825881b3f963a",
+  "basePath": "chord-plane-proof/final-base.json",
+  "baselineSha256": "9070752e0291ac24feddb1d9dfe0db04b54a0460cf849bdbe4d995aab71913a9",
+  "candidatePath": "chord-plane-proof/proof-candidate.json",
+  "candidateSha256": "aabde5daad0e2e000a36bac76e996d557a52fee0616872936e8e3435488753e8",
+  "operations": [
+    {
+      "kind": "note",
+      "id": "p00978",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003271,
+      "afterExists": true,
+      "after": 0.005
+    },
+    {
+      "kind": "note",
+      "id": "p00978",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.2588
+    },
+    {
+      "kind": "note",
+      "id": "p00978",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00981",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 2,
+      "afterExists": true,
+      "after": 1
+    },
+    {
+      "kind": "note",
+      "id": "p00981",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.003008,
+      "afterExists": true,
+      "after": 0.0095
+    },
+    {
+      "kind": "note",
+      "id": "p00981",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.27
+    },
+    {
+      "kind": "note",
+      "id": "p00981",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00982",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 4,
+      "afterExists": true,
+      "after": 3
+    },
+    {
+      "kind": "note",
+      "id": "p00982",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.002391,
+      "afterExists": true,
+      "after": 0.003
+    },
+    {
+      "kind": "note",
+      "id": "p00982",
+      "key": "contactZ",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0.224
+    },
+    {
+      "kind": "note",
+      "id": "p00982",
+      "key": "thumbOpposition",
+      "beforeExists": false,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "note",
+      "id": "p00984",
+      "key": "finger",
+      "beforeExists": true,
+      "before": 1,
+      "afterExists": true,
+      "after": 4
+    },
+    {
+      "kind": "note",
+      "id": "p00984",
+      "key": "contactLift",
+      "beforeExists": true,
+      "before": 0.009,
+      "afterExists": true,
+      "after": 0.001
+    },
+    {
+      "kind": "note",
+      "id": "p00984",
+      "key": "contactZ",
+      "beforeExists": true,
+      "before": 0.27,
+      "afterExists": true,
+      "after": 0.2208
+    },
+    {
+      "kind": "note",
+      "id": "p00984",
+      "key": "thumbOpposition",
+      "beforeExists": true,
+      "before": -0.6,
+      "afterExists": true,
+      "after": 0
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 424,
+      "time": 199.339852,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.1729566666666667,
+        0.76,
+        0.349
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 424,
+      "time": 199.339852,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.02172481107706771,
+        -0.7086039969644768,
+        0.6960820946428791,
+        0.11348182932617631
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 425,
+      "time": 199.69368,
+      "key": "position",
+      "beforeExists": true,
+      "before": [
+        0.1729566666666667,
+        0.76,
+        0.349
+      ],
+      "afterExists": true,
+      "after": [
+        0.16169000000000006,
+        0.77457,
+        0.37155
+      ]
+    },
+    {
+      "kind": "knot",
+      "hand": "R",
+      "index": 425,
+      "time": 199.69368,
+      "key": "quaternion",
+      "beforeExists": true,
+      "before": [
+        -0.02172481107706771,
+        -0.7086039969644768,
+        0.6960820946428791,
+        0.11348182932617631
+      ],
+      "afterExists": true,
+      "after": [
+        -0.06911357582738682,
+        -0.7085668420943293,
+        0.6855869289366616,
+        0.15207533262175926
+      ]
+    }
+  ],
+  "physicalReleaseChanges": [],
+  "runtimeRequirements": {
+    "sampler": "wrist-motion-arc.ts",
+    "samplerSha256": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "rig": "chord-plane-proof/pianist-scoped-plane.ts",
+    "rigTsSha256": "71125739f2ba3e01a00d5b9a7ee9424ecd5e0ee0318f71063d73433b04fc33f0",
+    "status": "Bounded active-plane/contact proof only; idle crossings remain; not approved for global integration"
+  }
+}

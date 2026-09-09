@@ -1,0 +1,10 @@
+import fs from'node:fs';import{install,baseline,measure}from'./harness-pad.mjs';install(baseline);
+const configs=JSON.parse(fs.readFileSync('gaps-initial.json')),name=process.env.GAP,cfg=configs.find(c=>c.name===name),rows=[],trials=[];
+if(name==='g60')for(const arrivalLift of[.025,.04,.055])for(const arrival of[.25,.4,.6])for(const z of[.05,.2])trials.push({...cfg,arrivalLift,arrival,target:[.2,.45,z]});
+if(name==='g95')for(const z of[-.1,.05,.2])for(const duration of[.22,.3,.4])for(const lift of[.015,.03,.045])trials.push({...cfg,target:[.2,.45,z],release:duration,arrival:duration,releaseLift:lift,arrivalLift:lift});
+if(name==='g187')for(const z of[-.15,-.05,.05])for(const releaseLift of[0,.005,.01])for(const arrivalLift of[.025,.045])trials.push({...cfg,target:[.2,.45,z],releaseLift,arrivalLift});
+if(name==='g222')for(const z of[-.1,.05])for(const arrivalLift of[.01,.015,.02])for(const arrival of[.25,.4,.55])trials.push({...cfg,target:[.2,.45,z],releaseLift:0,arrivalLift,arrival});
+const times=[...new Set([...Array.from({length:21},(_,i)=>cfg.end+(cfg.start-cfg.end)*i/20),...Array.from({length:25},(_,i)=>cfg.end+i*.025),...Array.from({length:25},(_,i)=>cfg.start-i*.025)])].filter(t=>t>cfg.end&&t<cfg.start).sort((a,b)=>a-b);
+for(const trial of trials){globalThis.__thumbRestCandidates=[trial];let pairs=0,core=0,coreFrames=0,points;const defects=[];for(const t of times){const r=measure(t,'R',{opposing:true,targetFinger:1,allDigits:true}),hits=r.crossings.filter(c=>c.a==='RThumb'||c.b==='RThumb'),depth=Math.max(0,...r.keyHits.filter(h=>h.patch==='RThumb').map(h=>h.depth));pairs+=hits.length;core=Math.max(core,depth);if(depth>3)coreFrames++;if(hits.length||depth>3)defects.push({time:t,pairs:hits.map(h=>[h.a,h.b]),core:depth});}
+rows.push({cfg:trial,pairs,core,coreFrames,cost:pairs*1000+coreFrames*100+Math.max(0,core-3),defects});}
+rows.sort((a,b)=>a.cost-b.cost);fs.writeFileSync(`guided2-${name}.json`,JSON.stringify(rows,null,2));console.log(name,trials.length,'trials',times.length,'times',JSON.stringify(rows.slice(0,4).map(r=>({...r,defects:r.defects.length}))));

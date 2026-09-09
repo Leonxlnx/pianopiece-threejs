@@ -1,0 +1,399 @@
+{
+  "counts": {
+    "heldSamples": 163,
+    "maxHeldCore": 1.6841098912736552,
+    "maxHeldAbsPadGap": 1.6841098912736552,
+    "maxHeldContactMm": 0.00014037208497896223,
+    "newCore": 34,
+    "newPairs": 10,
+    "newPad": 0
+  },
+  "failures": [
+    {
+      "time": 45.033333333334795,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 27
+    },
+    {
+      "time": 45.03622,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 34
+    },
+    {
+      "time": 45.03623,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 34
+    },
+    {
+      "time": 45.03624000000001,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 34
+    },
+    {
+      "time": 45.037500000001465,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 35
+    },
+    {
+      "time": 45.041666666668135,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 50
+    },
+    {
+      "time": 45.045833333334805,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 50
+    },
+    {
+      "time": 45.050000000001475,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 44
+    },
+    {
+      "time": 45.054166666668145,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 47
+    },
+    {
+      "time": 45.058333333334815,
+      "side": "R",
+      "type": "newPairs",
+      "a": "RThumb",
+      "b": "RRing",
+      "pairs": 28
+    },
+    {
+      "time": 45.358333333335054,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.8135044258519324,
+      "old": 0
+    },
+    {
+      "time": 45.366666666668394,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 3.9570408669403756,
+      "old": 0
+    },
+    {
+      "time": 45.370833333335064,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 6.735354061014109,
+      "old": 0
+    },
+    {
+      "time": 45.370833333335064,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.770970864414136,
+      "old": 0
+    },
+    {
+      "time": 45.375000000001734,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.98415693686505,
+      "old": 0
+    },
+    {
+      "time": 45.375000000001734,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 4.623803409845473,
+      "old": 0
+    },
+    {
+      "time": 45.379166666668404,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.867192645855892,
+      "old": 0
+    },
+    {
+      "time": 45.379166666668404,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 4.415375679107769,
+      "old": 0
+    },
+    {
+      "time": 45.383333333335074,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.984288158996988,
+      "old": 0
+    },
+    {
+      "time": 45.383333333335074,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.9284664435493832,
+      "old": 0
+    },
+    {
+      "time": 45.387500000001744,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.8675508413520445,
+      "old": 0
+    },
+    {
+      "time": 45.387500000001744,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.3551905781376012,
+      "old": 0
+    },
+    {
+      "time": 45.38866599999999,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.795734278755684,
+      "old": 0
+    },
+    {
+      "time": 45.38866599999999,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.410534249179087,
+      "old": 0
+    },
+    {
+      "time": 45.388676,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.79506272211794,
+      "old": 0
+    },
+    {
+      "time": 45.388676,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.41162460573341,
+      "old": 0
+    },
+    {
+      "time": 45.388686,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.794424424695912,
+      "old": 0
+    },
+    {
+      "time": 45.388686,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.4126966916350474,
+      "old": 0
+    },
+    {
+      "time": 45.391666666668414,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.582707994422622,
+      "old": 0
+    },
+    {
+      "time": 45.391666666668414,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.7524486967453194,
+      "old": 0
+    },
+    {
+      "time": 45.395833333335084,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 7.221281599564366,
+      "old": 0
+    },
+    {
+      "time": 45.395833333335084,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 4.291717120955191,
+      "old": 0
+    },
+    {
+      "time": 45.400000000001754,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 6.786322026567038,
+      "old": 0
+    },
+    {
+      "time": 45.400000000001754,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.7217088479573333,
+      "old": 0
+    },
+    {
+      "time": 45.404166666668424,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 6.280892162112028,
+      "old": 0
+    },
+    {
+      "time": 45.404166666668424,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 4.359266632191355,
+      "old": 0
+    },
+    {
+      "time": 45.408333333335094,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 5.708277366259118,
+      "old": 0
+    },
+    {
+      "time": 45.408333333335094,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.7548841605837824,
+      "old": 0
+    },
+    {
+      "time": 45.412500000001764,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 5.071941969531757,
+      "old": 0
+    },
+    {
+      "time": 45.412500000001764,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.197014091849942,
+      "old": 0
+    },
+    {
+      "time": 45.41666666666843,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 4.375786555877448,
+      "old": 0
+    },
+    {
+      "time": 45.41666666666843,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.4579110917522247,
+      "old": 0
+    },
+    {
+      "time": 45.4208333333351,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 74,
+      "depth": 3.365817866302967,
+      "old": 0
+    },
+    {
+      "time": 45.42500000000177,
+      "side": "R",
+      "type": "newCore",
+      "patch": "RRing",
+      "midi": 76,
+      "depth": 3.8949043134112182,
+      "old": 0
+    }
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "verdict": "Reject all partial-roll variants: no clearly better wrist silhouette; stop bounded experiment.",
+  "frames": 24,
+  "glErrors": 0,
+  "renders": [
+    {
+      "name": "baseline-top",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-top/report-1280.json",
+      "reportSha256": "b2d0fd8dd18eff2aef21b6da305bbc33d87e6888ab8f48c313c1e63dcdb392e2",
+      "pianistSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+      "sourceDifferencesFromBaselineTop": [],
+      "camera": {
+        "position": [
+          0,
+          1.55,
+          0.26
+        ],
+        "target": [
+          0,
+          0.765,
+          0.25
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 43
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-top/current-1280-38.852580.png",
+          "sha256": "61e4cd3a93c18b603b9f0085b8b3f570625865d02ddab8ff5217df35bf62e44d",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-top/current-1280-188.702540.png",
+          "sha256": "ea46ef502b9ddb197d41c2dae42cd257ce9ea0b6535e9ec52de193a1203ee03e",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-top/current-1280-233.144228.png",
+          "sha256": "56dc9a6093f6763df4639fed204d7b0bffc9bd70acaf9509917fb06fda165bfb",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll10-top",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-top/report-1280.json",
+      "reportSha256": "6d82daa671c92ba203ccba95be5ef427889b9c9e9b9cd541f095761b271f4883",
+      "pianistSha256": "1332ef9e7291b1a38bd31b47e3b7425a0f133bb1f181706bb99c5a7df68748ec",
+      "sourceDifferencesFromBaselineTop": [
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          0,
+          1.55,
+          0.26
+        ],
+        "target": [
+          0,
+          0.765,
+          0.25
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 43
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-top/current-1280-38.852580.png",
+          "sha256": "51cc1e8a2980b89c9d689097b1bfeb44d041070cb171a632ef27ffb9961c5947",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-top/current-1280-188.702540.png",
+          "sha256": "59332f7cc3ae43f403b91eb096c87b09089ce692190e842177a260bc2f4bae36",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-top/current-1280-233.144228.png",
+          "sha256": "9b1e42a548076a59d7d9af2415ba6ebff91b134d9e9ec5a9ee4c46f2b86f6097",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll20-top",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-top/report-1280.json",
+      "reportSha256": "a98e8527a0c815e00b75d20090cccdf48143bf6ca1c56582ea9e1bb4883564e7",
+      "pianistSha256": "468920345428797bed36fdd009da328d06a002527545cd8d3027fc539989e178",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs",
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          0,
+          1.55,
+          0.26
+        ],
+        "target": [
+          0,
+          0.765,
+          0.25
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 43
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-top/current-1280-38.852580.png",
+          "sha256": "878faea3789cc763a4e07d87c73146699681aa715e294400e70c4bebc6dd87ac",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-top/current-1280-188.702540.png",
+          "sha256": "8c42c57b4f375b4dd992dd7cb7a98aff5da5ea901b7b14ff90d0a3a9351e05bc",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-top/current-1280-233.144228.png",
+          "sha256": "859128275a4fe22d26198badabebfbebf9a1d1ae74d28211644956a221fc17cb",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll30-top",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-top/report-1280.json",
+      "reportSha256": "7965a6e265638421c6de0f46d5d934b15a276cbc2e441cdcef5d1fccad7fc9f6",
+      "pianistSha256": "4990717854d9f7e860c3a7e9445b41ecd784d6c4c1874f9d175157d62a26a23c",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs",
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          0,
+          1.55,
+          0.26
+        ],
+        "target": [
+          0,
+          0.765,
+          0.25
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 43
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-top/current-1280-38.852580.png",
+          "sha256": "adc9a28b13a89439cb0751a326208f7698f2d5f60120c5f1f758fe2356b393eb",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-top/current-1280-188.702540.png",
+          "sha256": "0ea348b88ecd96c0a3c5c02f474f6fc417d1dc068a75291097b2e12fd190c2e3",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-top/current-1280-233.144228.png",
+          "sha256": "377ea9fa2008b1dbb61a5123ba3b8dbcd20a362ceb68f88c1270aa50e07180ff",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "baseline-side",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-side/report-1280.json",
+      "reportSha256": "aa85b5c70b35f15b1f05ed007403d8ea791fc03e0394be2eb7d67bf68c373c92",
+      "pianistSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs"
+      ],
+      "camera": {
+        "position": [
+          1.05,
+          1.02,
+          0.67
+        ],
+        "target": [
+          0,
+          0.96,
+          0.65
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov": 48
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-side/current-1280-38.852580.png",
+          "sha256": "aa2221c5671e11855fc0d55aaf6694c181661cd772101a128fa38469f9995224",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-side/current-1280-188.702540.png",
+          "sha256": "6854f257cea7c4567bf8903fcf34264d9b40f58186187066d837f6a56a836304",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/baseline-side/current-1280-233.144228.png",
+          "sha256": "af9919edf7ed7486e1e7337c44701fdab8ec5e2dcd4c50c036279bacb8f8d10b",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll10-side",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-side/report-1280.json",
+      "reportSha256": "0675dfe81743715013fd8490d5c19d59c9ce74e9c2ea0410ab80b8a38561fe06",
+      "pianistSha256": "1332ef9e7291b1a38bd31b47e3b7425a0f133bb1f181706bb99c5a7df68748ec",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs",
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          1.05,
+          1.02,
+          0.67
+        ],
+        "target": [
+          0,
+          0.96,
+          0.65
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov": 48
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-side/current-1280-38.852580.png",
+          "sha256": "7d647dda75eb21772feaefd2ea022fab080a8a3da43a28fdac83c3bdbd55b24e",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-side/current-1280-188.702540.png",
+          "sha256": "9c3bba92b71097fd591c41909c6294876ecbeb0558130e1a38b34dce2b37ecb5",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll10-side/current-1280-233.144228.png",
+          "sha256": "d1033d92a02a183948306eb4a5b917f9025c22c796b61c4bb0b2e2844a0754a5",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll20-side",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-side/report-1280.json",
+      "reportSha256": "5f5a4273a0d0d199860dc063a4658ec1cde1f95adaf1bd1d26fcb397285cf484",
+      "pianistSha256": "468920345428797bed36fdd009da328d06a002527545cd8d3027fc539989e178",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs",
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          1.05,
+          1.02,
+          0.67
+        ],
+        "target": [
+          0,
+          0.96,
+          0.65
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov": 48
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-side/current-1280-38.852580.png",
+          "sha256": "6d3f66263ea33759698a582c67a72010e23dbe552c813d68252270c6523f0fae",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-side/current-1280-188.702540.png",
+          "sha256": "eb9eda2e602ca77e0e3063686c3c814110a2f0b24c2cffc950da9d749206d2c5",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll20-side/current-1280-233.144228.png",
+          "sha256": "2d1cc15f948c86df66c4ff5577fe95f68af29a0b5978e5231daeb136e6856d8d",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "roll30-side",
+      "report": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-side/report-1280.json",
+      "reportSha256": "84dd67af533c1d8bb417a5ef1eb39f216f1ed8c76be7014bb2865f4f6520b2aa",
+      "pianistSha256": "4990717854d9f7e860c3a7e9445b41ecd784d6c4c1874f9d175157d62a26a23c",
+      "sourceDifferencesFromBaselineTop": [
+        "production/qa/pose-server.mjs",
+        "app/performance/pianist.ts"
+      ],
+      "camera": {
+        "position": [
+          1.05,
+          1.02,
+          0.67
+        ],
+        "target": [
+          0,
+          0.96,
+          0.65
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov": 48
+      },
+      "frames": [
+        {
+          "time": 38.85258,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-side/current-1280-38.852580.png",
+          "sha256": "5a09055712ecfca7719d3fec25bf35496bcb717be780b9d76fce45b84bb2a633",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 188.70254,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-side/current-1280-188.702540.png",
+          "sha256": "29dee2bb064a9ee67ff78e293ea7068e09973e912efb0084ee0c46adb40440b7",
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "time": 233.144228,
+          "image": "/workspace/scratch/2e8cc8e77f98/arm-support/partial-roll/evidence/roll30-side/current-1280-233.144228.png",
+          "sha256": "309c01f1d67757d71b1213598f18a369463967ffca23706339120b76353e8619",
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    }
+  ]
+}

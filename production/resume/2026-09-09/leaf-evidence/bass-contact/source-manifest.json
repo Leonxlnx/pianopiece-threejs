@@ -1,0 +1,12 @@
+{
+  "baselineScoreSha256": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+  "baselineBakedTsSha256": "a941f9fbb5949d22e48f54626f5603bedf1706e76e47aac259fb506b43932cb0",
+  "baselineBakedMjsSha256": "6fea974e1fbc662053a9d3258a520b7b5ae77e391ea75ca780c87fe58a0d736d",
+  "candidateTsSha256": "8d33418642899e7f03d97bf4ded2357c30a5ee97c43c9f26117b7f560d207aad",
+  "candidateMjsSha256": "e5b6a2c9ee1c8b588e46e90bc644b5ef8dcd59d98358d177560267bea0ca02fd",
+  "candidateScoreSha256": "1ed2636de765146403b08a2be44bbab4777293ae5a384269d68b467e74c237cd",
+  "rawBaselineEvidenceSha256": "65603df5e2c6819ddba349dc009dbc126a837175e83f1284195d8aa852539613",
+  "rawCandidateEvidenceSha256": "a00637cf99dfb6eefae615a1ef5f262b38be215c07908fb025878b46b8902b36",
+  "status": "Geometric candidate only; parent integration and motion review required",
+  "note": "Merge p322-delta.json fields, the four curves, and envelope-snippet.ts. The full baked TS is a review reference; do not overwrite the parent\u2019s parallel RH edits."
+}

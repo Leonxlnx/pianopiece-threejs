@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "samples": 3345,
+    "tipMax": 3.5078183644265333,
+    "wristMax": 1.088361785677014,
+    "rate": 129.45608482657443,
+    "tipWorst": {
+      "time": 195.0400000000033,
+      "name": "LeftMiddleContact",
+      "speed": 3.5078183644265333
+    },
+    "rateWorst": {
+      "time": 188.4520000000012,
+      "name": "LeftHandIndex2",
+      "rate": 129.45608482657443
+    },
+    "seek": 0
+  },
+  "candidate": {
+    "samples": 3345,
+    "tipMax": 3.03010200382956,
+    "wristMax": 1.475800620507374,
+    "rate": 103.60473632812604,
+    "tipWorst": {
+      "time": 189.5640000000065,
+      "name": "LeftMiddleContact",
+      "speed": 3.03010200382956
+    },
+    "rateWorst": {
+      "time": 188.4540000000012,
+      "name": "LeftHandIndex2",
+      "rate": 103.60473632812604
+    },
+    "seek": 0
+  }
+}

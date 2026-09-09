@@ -1,0 +1,74 @@
+{
+  "scoreSha256": "09cfc46aceac1527e9f0b4f27bb8fa5110373bb7c889aae740c7258b9a4cbf90",
+  "baseline": {
+    "handFrames": 2140,
+    "frameCounts": {
+      "anyCore": 394,
+      "activeDigitCore": 62,
+      "activeNonthumbCore": 43,
+      "palmCore": 52,
+      "idleDigitCore": 308,
+      "allPairs": 1282,
+      "activeOwnedPalm": 65,
+      "activeActive": 5,
+      "activeIdle": 821,
+      "idlePairs": 508,
+      "ik": 0,
+      "pad": 0
+    },
+    "maxCoreMm": 7.876296321743248,
+    "maxActiveCoreMm": 6.930133103927927,
+    "maxIkMm": 0.13177989716698735,
+    "maxPadGapMm": 2.7348324649338895
+  },
+  "candidate": {
+    "handFrames": 2140,
+    "frameCounts": {
+      "anyCore": 556,
+      "activeDigitCore": 165,
+      "activeNonthumbCore": 146,
+      "palmCore": 49,
+      "idleDigitCore": 396,
+      "allPairs": 1070,
+      "activeOwnedPalm": 65,
+      "activeActive": 0,
+      "activeIdle": 819,
+      "idlePairs": 272,
+      "ik": 0,
+      "pad": 0
+    },
+    "maxCoreMm": 7.9694483891393775,
+    "maxActiveCoreMm": 7.136876076895171,
+    "maxIkMm": 0.13177991990498908,
+    "maxPadGapMm": 2.7348324649338895
+  },
+  "newFrameCounts": {
+    "anyCore": 357,
+    "idleDigitCore": 242,
+    "allPairs": 55,
+    "activeIdle": 28,
+    "activeOwnedPalm": 13,
+    "activeDigitCore": 111,
+    "activeNonthumbCore": 111,
+    "idlePairs": 14,
+    "palmCore": 27
+  },
+  "removedFrameCounts": {
+    "allPairs": 329,
+    "idlePairs": 271,
+    "activeIdle": 40,
+    "anyCore": 87,
+    "idleDigitCore": 63,
+    "activeOwnedPalm": 13,
+    "palmCore": 22,
+    "activeActive": 5,
+    "activeDigitCore": 2,
+    "activeNonthumbCore": 2
+  },
+  "thumbAndWristQuaternionsExact": true,
+  "nonfiniteFrames": 0,
+  "regressionFrames": 393,
+  "activeAffectedNotes": 80,
+  "idleAffectedGaps": 167,
+  "scope": "1070 note-midpoint/start/end instants; both hands; actual owned mesh. Midpoint screening alone is not full-interval acceptance."
+}

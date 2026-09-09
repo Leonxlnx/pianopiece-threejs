@@ -1,0 +1,23 @@
+# Continued hand revision — frozen evidence checkpoint
+
+This directory preserves new evidence since `../iteration-1635`. Read that checkpoint, `../current.json`, and the root handoff first. None of these candidate scores or hand runtimes has yet replaced the app's accepted 9db662f1 score / 22e2db7b rig. Publication, a matching final master and the revised full film remain outstanding.
+
+`manifest.json` pins 687 exact source/report/image files. Large JSON reports are losslessly compressed; run `restore-evidence.py` to reconstruct them. Files already saved with the same SHA in iteration-1635 are omitted. Shared model/assets and dependencies remain in the project. Scratch-relative and historical absolute imports must be adapted when replaying elsewhere, without substituting a different score, rig or wrist sampler.
+
+## Reading order and decisions
+
+1. `combined-review/candidate-v7.json` (9070752e0291ac24feddb1d9dfe0db04b54a0460cf849bdbe4d995aab71913a9) includes prior v4, R79 v2, L62 and RH81/RH76 v8 active-anchor deltas. The last 78 operations preserve every musical field. It remains a review score: inactive finger surfaces still need correction.
+2. `active-hand-fit/R79-VISIBLE-REVIEW.md` and its exact rendered image index. The held G5 family now uses playable neighboring fingers. Root inspected the final F#5 and terminal A5 views; the elevated idle thumb remains visible.
+3. `l62-family/HANDOFF.md`: eight D4 anchors and 27 reserved held notes are clear, with explicit remaining idle/motion regressions. Root inspected 95.74 s: held thumb is less compressed, while the opposite idle thumb remains too high.
+4. `held-r81-r76-fit/FINDINGS.md`: seven additional active targets, final v8. Root inspected the matched late B5→A5 sequence and found the sideways pinky deformation reduced. The 527 inactive-only regression rows are retained, not counted as passed.
+5. `hand-runtime/pianist-arms-compact15.ts` through `compact21.ts` and `opening-revision/candidate-v3.json`. Root's natural opening fingering uses B4/G4/E4/D4/A4 = 5/3/2/1/4, one supported wrist grip, more forward G4/A4 contacts, an unpressed 25 mm wrist arc, moving-key endpoint heights, and a scoped palm-relative nonthumb hinge. Compact21 is the latest opening reference. Earlier variants are experiments, not alternatives to merge together.
+6. `idle-nonthumb/opening-leaf/core-five-delivery/README.md`: five bounded corrections on compact21 and the exact opening score. Root inspected intro and release sheets. Active/outside parity is exact; the outgoing middle finger moves faster. The later coupled opening transfer was still being finished when this checkpoint was collected.
+7. `active-hand-fit/nonthumb-plane/REVIEW.md`: the global palm-relative hinge improves some silhouettes but increases held-key intrusion on unchanged contacts. **Rejected as a global drop-in.** A separate late chord proof and compatible grip is being developed; it is not included here.
+8. `idle-nonthumb/r76-index-eight-delivery` and `e5-neutral-local-delivery`: narrowly bound corrections, with actual faster-release/wider-fan limitations. E5 requires the small `blend-neutral` helper branch. Neither justifies a global rest-pose replacement.
+9. `idle-combined/assemble.py` collects eight frozen datasets and rejects obsolete endpoint assignments. On v7 it retains 92 supported-index gaps and 27 curves and rejects 16 obsolete entries. This is only a binding screen. Full combined surfaces, motion, opposing hands and final source parity are still required. `replay.mjs` was interrupted by the environment reset before producing a final report; it is being rerun separately.
+
+The runtime reset around 17:25 UTC removed `/workspace/sites`, dependencies and running processes. The exact remote Site commit 3682675 was cloned into the same path; the official installer restored 694 packages, and performance QA modules were recompiled from the preserved source. Rig 22e2db7b, score 9db662f1, piano 915ae12f and arc sampler c9f33ac6 hashes match. Scratch evidence survived. The native renderer's Python/EGL packages also survived under its scratch directory. No interrupted run is treated as completed evidence.
+
+The piano lid appearance investigation was separate and remains in scratch at this checkpoint. The near-black material was correctly serialized; a beige panel was a strong grazing reflection of the warm floor, not missing material data. Matte/satin alternatives are being compared before any source change.
+
+Live WebGL and critical listening remain unverified. No new full film or final music master has started. The requested twelve meaningful hours has not yet been reached; interruption/recovery waiting is not padding for that requirement.

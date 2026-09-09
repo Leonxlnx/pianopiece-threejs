@@ -1,0 +1,32 @@
+{
+  "runtimePath": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/rig.mjs",
+  "runtimeSha256": "3fa8112b9a9a2f64029161953a2284854004dae466de13da29f88371638f129b",
+  "scoreSha256": "af38f0d10989078cecd8613427e4368a963edba681063587b9e42e51ccf6e15b",
+  "primary": {
+    "frames": 1531,
+    "blockerFrames": 0,
+    "rows": [],
+    "maxKeyDepth": 0,
+    "maxPalmDepth": 0,
+    "maxContactError": 0.13177727498687325
+  },
+  "neighbor": {
+    "frames": 3585,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0,
+    "rows": []
+  },
+  "nonfinite": 0,
+  "summary": {
+    "samples": 3585,
+    "primaryFrames": 1531,
+    "primaryBlockerFrames": 0,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0
+  },
+  "scope": "120Hz uniform windows plus every intersecting note complete held interval on its own120Hz grid and quarter/boundary samples. All >65%-owned digit and palm vertices vs88beveledkey cores; exact >65%-owned triangles. Target active surface-pair gate includes every other patch, including idle thumbs. Unrelated inactive-only pairs/cores are preserved in raw rows and separately queued. No whole-hand acceptance inferred."
+}

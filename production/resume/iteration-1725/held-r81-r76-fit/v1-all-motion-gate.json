@@ -1,0 +1,41 @@
+{
+  "baseline": {
+    "samples": 5256,
+    "tipMax": 2.6282781612908686,
+    "wristMax": 0.8026713436653287,
+    "rate": 61.93823844325559,
+    "tipWorst": {
+      "time": 198.03600000000446,
+      "name": "RightRingContact",
+      "speed": 2.6282781612908686
+    },
+    "rateWorst": {
+      "time": 92.16862299999977,
+      "name": "RightHandIndex2",
+      "rate": 61.93823844325559
+    },
+    "seek": 0
+  },
+  "candidate": {
+    "samples": 5256,
+    "tipMax": 2.263611879432459,
+    "wristMax": 1.299053459614588,
+    "rate": 82.20886230468305,
+    "tipWorst": {
+      "time": 92.18062299999974,
+      "name": "RightIndexContact",
+      "speed": 2.263611879432459
+    },
+    "rateWorst": {
+      "time": 197.99000000000424,
+      "name": "RightHandPinky2",
+      "rate": 82.20886230468305
+    },
+    "seek": 0
+  },
+  "provenance": {
+    "runtimePath": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/rig.mjs",
+    "runtimeSha256": "3fa8112b9a9a2f64029161953a2284854004dae466de13da29f88371638f129b",
+    "scoreSha256": "d6c97e49a45d64e1925af21aacd451a4a16c962d5c254fde0946ec89997adc14"
+  }
+}

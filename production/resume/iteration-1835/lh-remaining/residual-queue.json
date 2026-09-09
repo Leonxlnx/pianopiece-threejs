@@ -1,0 +1,7720 @@
+{
+  "candidate": "candidate-final.json",
+  "scope": "All complete-context geometry failures including pre-existing guards; signatures separate digit/key and exact patch pairs. Root should rerun the merged RH/LH candidate.",
+  "intervals": [
+    {
+      "context": "L50-early",
+      "start": 16.273829,
+      "end": 16.29466233333333,
+      "samples": 6,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.910564121976438,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00058"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.298828999999998,
+      "end": 16.30716233333333,
+      "samples": 3,
+      "signature": "key:LThumb:59|key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.929529729316513,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00058"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.311328999999997,
+      "end": 16.336328999999996,
+      "samples": 7,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.388932312810458,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00058"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.340495666666662,
+      "end": 16.49466233333332,
+      "samples": 38,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8634783640463235,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00058"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.498828999999986,
+      "end": 16.557162333333316,
+      "samples": 21,
+      "signature": "key:LThumb:62|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:62",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.033668197487295,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00058"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.561328999999983,
+      "end": 16.686328999999976,
+      "samples": 37,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7011196940720517,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00059"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.769662333333304,
+      "end": 16.8196623333333,
+      "samples": 19,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 3.9258419668423694,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00059"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 16.823828999999968,
+      "end": 16.840495666666634,
+      "samples": 4,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 4.2624664052609,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 16.8446623333333,
+      "end": 16.87799566666663,
+      "samples": 9,
+      "signature": "key:LIndex:56",
+      "issues": [
+        "key:LIndex:56"
+      ],
+      "maxCore": 6.754970476566591,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.14882899999995,
+      "end": 17.16132899999995,
+      "samples": 4,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 2,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00061"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.257162333333277,
+      "end": 17.28632899999994,
+      "samples": 14,
+      "signature": "key:LIndex:56",
+      "issues": [
+        "key:LIndex:56"
+      ],
+      "maxCore": 7.20737527666658,
+      "maxPairs": 0,
+      "regressionSamples": 14,
+      "activeIds": [
+        "p00063"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.4279956666666,
+      "end": 17.444662333333266,
+      "samples": 5,
+      "signature": "key:LMiddle:54",
+      "issues": [
+        "key:LMiddle:54"
+      ],
+      "maxCore": 5.048152517300397,
+      "maxPairs": 0,
+      "regressionSamples": 5,
+      "activeIds": [
+        "p00063"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.448828999999932,
+      "end": 17.584312999999998,
+      "samples": 39,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.232047415286908,
+      "maxPairs": 178,
+      "regressionSamples": 39,
+      "activeIds": [
+        "p00063"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.586328999999925,
+      "end": 17.586328999999925,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle|pair:LPinky:LPalm",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle",
+        "pair:LPinky:LPalm"
+      ],
+      "maxCore": 5.753252795808239,
+      "maxPairs": 184,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.59049566666659,
+      "end": 17.59049566666659,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 4.094062869748449,
+      "maxPairs": 182,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.594662333333257,
+      "end": 17.640495666666588,
+      "samples": 18,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.9299250287799783,
+      "maxPairs": 187,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00065"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.644662333333255,
+      "end": 17.677995666666586,
+      "samples": 9,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 193,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00065"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.682162333333252,
+      "end": 17.748828999999915,
+      "samples": 20,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.5173657750093836,
+      "maxPairs": 250,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00065"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.752995666666582,
+      "end": 17.76549566666658,
+      "samples": 4,
+      "signature": "key:LIndex:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.28083382472283,
+      "maxPairs": 80,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00065"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.769662333333248,
+      "end": 17.786328999999913,
+      "samples": 8,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.2151909153638183,
+      "maxPairs": 167,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00065"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 17.79049566666658,
+      "end": 17.79049566666658,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.0828258785871867,
+      "maxPairs": 161,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.794662333333246,
+      "end": 17.807162333333245,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 160,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.811328999999912,
+      "end": 17.82382899999991,
+      "samples": 4,
+      "signature": "key:LMiddle:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.916568765746756,
+      "maxPairs": 153,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.827995666666578,
+      "end": 17.827995666666578,
+      "samples": 1,
+      "signature": "key:LMiddle:49|key:LMiddle:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:49",
+        "key:LMiddle:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.119016490064967,
+      "maxPairs": 144,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.832162333333244,
+      "end": 17.844662333333243,
+      "samples": 4,
+      "signature": "key:LMiddle:49|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:49",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.141441062675891,
+      "maxPairs": 148,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.84882899999991,
+      "end": 17.857162333333243,
+      "samples": 3,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 136,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.86132899999991,
+      "end": 17.865495666666575,
+      "samples": 2,
+      "signature": "key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.91246277218821,
+      "maxPairs": 148,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.869662333333242,
+      "end": 17.877995666666575,
+      "samples": 3,
+      "signature": "key:LIndex:46|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:46",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.114876469713371,
+      "maxPairs": 159,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.88216233333324,
+      "end": 17.88216233333324,
+      "samples": 1,
+      "signature": "key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.5370166793510265,
+      "maxPairs": 183,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.886328999999908,
+      "end": 17.890495666666574,
+      "samples": 2,
+      "signature": "key:LIndex:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.125469776893933,
+      "maxPairs": 181,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.89466233333324,
+      "end": 17.89466233333324,
+      "samples": 1,
+      "signature": "key:LMiddle:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.187172503158923,
+      "maxPairs": 139,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.898828999999907,
+      "end": 17.898828999999907,
+      "samples": 1,
+      "signature": "key:LIndex:42|key:LMiddle:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:42",
+        "key:LMiddle:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.044495056641729,
+      "maxPairs": 130,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.902995666666573,
+      "end": 17.915495666666573,
+      "samples": 4,
+      "signature": "key:LMiddle:44|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:44",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.558681115341192,
+      "maxPairs": 122,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.91966233333324,
+      "end": 17.923828999999905,
+      "samples": 2,
+      "signature": "key:LIndex:43|key:LMiddle:44|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:43",
+        "key:LMiddle:44",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.63031984351936,
+      "maxPairs": 82,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.927995666666572,
+      "end": 17.93216233333324,
+      "samples": 2,
+      "signature": "key:LIndex:43|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.145423121438841,
+      "maxPairs": 46,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 17.936328999999905,
+      "end": 18.065495666666564,
+      "samples": 38,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.433445883300082,
+      "maxPairs": 25,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00066"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 18.06966233333323,
+      "end": 18.098828999999895,
+      "samples": 8,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.433445927558901,
+      "maxPairs": 101,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00066"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 18.102995666666562,
+      "end": 18.157162333333225,
+      "samples": 17,
+      "signature": "key:LIndex:41|key:LIndex:43|key:LRing:42|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "key:LRing:42",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.9705585622729105,
+      "maxPairs": 152,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00066"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 18.160483,
+      "end": 18.17382899999989,
+      "samples": 7,
+      "signature": "key:LIndex:41|key:LIndex:43|key:LIndex:45|key:LRing:42|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "key:LIndex:45",
+        "key:LRing:42",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.300711247898328,
+      "maxPairs": 151,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00066"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 18.177995666666558,
+      "end": 18.177995666666558,
+      "samples": 1,
+      "signature": "key:LIndex:43|key:LIndex:45|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:43",
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.136926798778751,
+      "maxPairs": 158,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.182162333333224,
+      "end": 18.182162333333224,
+      "samples": 1,
+      "signature": "key:LIndex:43|key:LIndex:45|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:43",
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.144350939867203,
+      "maxPairs": 202,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.18632899999989,
+      "end": 18.194662333333223,
+      "samples": 3,
+      "signature": "key:LIndex:45|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.173040274019546,
+      "maxPairs": 379,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.19882899999989,
+      "end": 18.19882899999989,
+      "samples": 1,
+      "signature": "key:LRing:44|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:44",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.055582306509652,
+      "maxPairs": 362,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.202995666666556,
+      "end": 18.202995666666556,
+      "samples": 1,
+      "signature": "key:LIndex:44|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:44",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.57238478319616,
+      "maxPairs": 381,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.207162333333223,
+      "end": 18.21132899999989,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5615059915914395,
+      "maxPairs": 275,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.215495666666556,
+      "end": 18.215495666666556,
+      "samples": 1,
+      "signature": "key:LIndex:46|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:46",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.132611338224679,
+      "maxPairs": 107,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.219662333333222,
+      "end": 18.248828999999887,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.714665875100608,
+      "maxPairs": 108,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.252995666666553,
+      "end": 18.25716233333322,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.6478587032925374,
+      "maxPairs": 219,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.261328999999886,
+      "end": 18.261328999999886,
+      "samples": 1,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.3389035789615487,
+      "maxPairs": 214,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.265495666666553,
+      "end": 18.28216233333322,
+      "samples": 5,
+      "signature": "key:LIndex:48|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:48",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.008940463983923,
+      "maxPairs": 193,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.286328999999885,
+      "end": 18.286328999999885,
+      "samples": 1,
+      "signature": "key:LIndex:48|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:48",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.4299866388730615,
+      "maxPairs": 74,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-early",
+      "start": 18.29049566666655,
+      "end": 18.31549566666655,
+      "samples": 13,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.5396975625817655,
+      "maxPairs": 211,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00068"
+      ]
+    },
+    {
+      "context": "L50-early",
+      "start": 18.319662333333216,
+      "end": 18.45716233333321,
+      "samples": 34,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 49,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00068"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.251065999999998,
+      "end": 22.346899333333326,
+      "samples": 24,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.805612399071067,
+      "maxPairs": 100,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.351065999999992,
+      "end": 22.351065999999992,
+      "samples": 1,
+      "signature": "key:LRing:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.207439534173684,
+      "maxPairs": 104,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.35523266666666,
+      "end": 22.371899333333324,
+      "samples": 5,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.6012675501036613,
+      "maxPairs": 110,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.37606599999999,
+      "end": 22.438565999999987,
+      "samples": 16,
+      "signature": "key:LRing:58|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:58",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.734241041050636,
+      "maxPairs": 111,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.442732666666654,
+      "end": 22.476065999999985,
+      "samples": 9,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8249443963842547,
+      "maxPairs": 82,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.48023266666665,
+      "end": 22.534399333333315,
+      "samples": 20,
+      "signature": "key:LRing:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.549962941472587,
+      "maxPairs": 71,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00086"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 22.53856599999998,
+      "end": 23.455232666666596,
+      "samples": 233,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9109439201841503,
+      "maxPairs": 70,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00089"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.459399333333263,
+      "end": 23.48439933333326,
+      "samples": 7,
+      "signature": "key:LRing:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.891853497554057,
+      "maxPairs": 46,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.488565999999928,
+      "end": 23.488565999999928,
+      "samples": 1,
+      "signature": "key:LRing:55|key:LRing:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:55",
+        "key:LRing:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.655259655953924,
+      "maxPairs": 57,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.492732666666594,
+      "end": 23.492732666666594,
+      "samples": 1,
+      "signature": "key:LRing:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.148398627585383,
+      "maxPairs": 65,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.49689933333326,
+      "end": 23.526065999999926,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5932244301308804,
+      "maxPairs": 75,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.530232666666592,
+      "end": 23.530232666666592,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.554397757274951,
+      "maxPairs": 94,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.53439933333326,
+      "end": 23.538565999999925,
+      "samples": 2,
+      "signature": "key:LRing:51|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.613801825663816,
+      "maxPairs": 109,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.54273266666659,
+      "end": 23.551065999999924,
+      "samples": 3,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.601114233528601,
+      "maxPairs": 135,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.55523266666659,
+      "end": 23.56773266666659,
+      "samples": 4,
+      "signature": "key:LRing:49|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:49",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.103252073308916,
+      "maxPairs": 152,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.571899333333256,
+      "end": 23.571899333333256,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.6731191272536536,
+      "maxPairs": 164,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.576065999999923,
+      "end": 23.605232666666588,
+      "samples": 8,
+      "signature": "key:LPinky:47|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LPinky:47",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.715370271677455,
+      "maxPairs": 210,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.609399333333254,
+      "end": 23.623404,
+      "samples": 10,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.925363084475996,
+      "maxPairs": 136,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00092"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.62606599999992,
+      "end": 23.909399333333237,
+      "samples": 69,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.91415257981098,
+      "maxPairs": 8,
+      "regressionSamples": 3,
+      "activeIds": [
+        "p00092"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.913565999999904,
+      "end": 23.94273266666657,
+      "samples": 11,
+      "signature": "key:LMiddle:48|pair:LRing:LPinky",
+      "issues": [
+        "key:LMiddle:48",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.113765350195256,
+      "maxPairs": 10,
+      "regressionSamples": 9,
+      "activeIds": [
+        "p00092"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.946899333333235,
+      "end": 23.9510659999999,
+      "samples": 2,
+      "signature": "key:LMiddle:48|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LMiddle:48",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.676039353929881,
+      "maxPairs": 28,
+      "regressionSamples": 2,
+      "activeIds": [
+        "p00092"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.955232666666568,
+      "end": 23.956241000000002,
+      "samples": 4,
+      "signature": "key:LMiddle:48|key:LMiddle:50|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LMiddle:48",
+        "key:LMiddle:50",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.927830329938265,
+      "maxPairs": 43,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00092"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 23.959399333333234,
+      "end": 23.971899333333234,
+      "samples": 4,
+      "signature": "key:LMiddle:50|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LMiddle:50",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.1872487544196435,
+      "maxPairs": 79,
+      "regressionSamples": 4,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 23.9760659999999,
+      "end": 24.09273266666656,
+      "samples": 35,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.5636643613290433,
+      "maxPairs": 94,
+      "regressionSamples": 35,
+      "activeIds": [
+        "p00094"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.096899333333226,
+      "end": 24.25523266666655,
+      "samples": 42,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 75,
+      "regressionSamples": 39,
+      "activeIds": [
+        "p00094"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.284399333333216,
+      "end": 24.284399333333216,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.8025110972315628,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 24.288565999999882,
+      "end": 24.30106599999988,
+      "samples": 4,
+      "signature": "key:LThumb:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.868642384516314,
+      "maxPairs": 52,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 24.305232666666548,
+      "end": 24.32606599999988,
+      "samples": 6,
+      "signature": "key:LMiddle:51|key:LThumb:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:51",
+        "key:LThumb:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.208508292242621,
+      "maxPairs": 39,
+      "regressionSamples": 6,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 24.330077,
+      "end": 24.363565999999878,
+      "samples": 15,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9538790143702753,
+      "maxPairs": 16,
+      "regressionSamples": 6,
+      "activeIds": [
+        "p00096"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.367732666666544,
+      "end": 24.421899333333208,
+      "samples": 14,
+      "signature": "key:LMiddle:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.827779988478832,
+      "maxPairs": 30,
+      "regressionSamples": 14,
+      "activeIds": [
+        "p00096"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.426065999999874,
+      "end": 24.638565999999862,
+      "samples": 55,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7664143779354555,
+      "maxPairs": 16,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00096"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.64273266666653,
+      "end": 24.64273266666653,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 18,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 24.646899333333195,
+      "end": 24.66356599999986,
+      "samples": 5,
+      "signature": "key:LThumb:57|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:57",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.868281186192759,
+      "maxPairs": 42,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-second",
+      "start": 24.667732666666527,
+      "end": 24.871899333333182,
+      "samples": 56,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.7468916101849317,
+      "maxPairs": 126,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.87606599999985,
+      "end": 24.90939933333318,
+      "samples": 9,
+      "signature": "key:LRing:51|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.709104192805404,
+      "maxPairs": 130,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.913565999999847,
+      "end": 24.951065999999845,
+      "samples": 10,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.903492341324476,
+      "maxPairs": 91,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.95523266666651,
+      "end": 24.976065999999843,
+      "samples": 9,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.875056768202211,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.98023266666651,
+      "end": 24.984399333333176,
+      "samples": 2,
+      "signature": "key:LRing:50|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:50",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.0008329109954,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 24.988565999999842,
+      "end": 25.009399333333175,
+      "samples": 9,
+      "signature": "key:LRing:50",
+      "issues": [
+        "key:LRing:50"
+      ],
+      "maxCore": 4.613017166954836,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00098"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 25.18856599999983,
+      "end": 25.251065999999827,
+      "samples": 16,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.6950567204498954,
+      "maxPairs": 169,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00099"
+      ]
+    },
+    {
+      "context": "L50-second",
+      "start": 25.255232666666494,
+      "end": 25.288565999999825,
+      "samples": 9,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.7744419538075515,
+      "maxPairs": 169,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00099"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 171.94752266666663,
+      "end": 171.99752266666658,
+      "samples": 13,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 7.230021645905083,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00802"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.00168933333325,
+      "end": 172.0058559999999,
+      "samples": 2,
+      "signature": "key:LIndex:58|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:58",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.002128217118719,
+      "maxPairs": 62,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00802"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.01002266666657,
+      "end": 172.07668933333318,
+      "samples": 17,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7414297478702276,
+      "maxPairs": 103,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00802"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.16835599999976,
+      "end": 172.21835599999972,
+      "samples": 19,
+      "signature": "key:LMiddle:52",
+      "issues": [
+        "key:LMiddle:52"
+      ],
+      "maxCore": 6.937280847237326,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00802"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.25585599999968,
+      "end": 172.27252266666633,
+      "samples": 5,
+      "signature": "key:LThumb:57",
+      "issues": [
+        "key:LThumb:57"
+      ],
+      "maxCore": 4.843470294578656,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00804"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.46002266666616,
+      "end": 172.5016893333328,
+      "samples": 11,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7635679649459233,
+      "maxPairs": 107,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00804"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.50585599999945,
+      "end": 172.51002266666612,
+      "samples": 5,
+      "signature": "key:LIndex:54|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.3383894774538234,
+      "maxPairs": 77,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00804"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.51418933333278,
+      "end": 172.52668933333277,
+      "samples": 4,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.033995213290789,
+      "maxPairs": 52,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.53085599999943,
+      "end": 172.54752266666608,
+      "samples": 5,
+      "signature": "key:LIndex:53|key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:53",
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.310118716909451,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.54918800000002,
+      "end": 172.56418933333273,
+      "samples": 13,
+      "signature": "key:LIndex:53|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:53",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.669918231370862,
+      "maxPairs": 26,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00805",
+        "p00806"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.5683559999994,
+      "end": 172.60585599999936,
+      "samples": 10,
+      "signature": "key:LIndex:53",
+      "issues": [
+        "key:LIndex:53"
+      ],
+      "maxCore": 4.669918311631549,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00805",
+        "p00806"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.61002266666603,
+      "end": 172.65585599999932,
+      "samples": 12,
+      "signature": "key:LIndex:53|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:53",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.669918351684843,
+      "maxPairs": 20,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00805",
+        "p00806"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 172.66002266666598,
+      "end": 172.85585599999914,
+      "samples": 54,
+      "signature": "key:LIndex:53",
+      "issues": [
+        "key:LIndex:53"
+      ],
+      "maxCore": 4.66991853276133,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00805",
+        "p00806"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.02252266666565,
+      "end": 173.16835599999885,
+      "samples": 42,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.752760057337822,
+      "maxPairs": 41,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00810"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.17252266666551,
+      "end": 173.17668933333218,
+      "samples": 2,
+      "signature": "key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.2487497654173914,
+      "maxPairs": 25,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.18085599999884,
+      "end": 173.18085599999884,
+      "samples": 1,
+      "signature": "key:LRing:51|key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.4786751063342614,
+      "maxPairs": 25,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.1850226666655,
+      "end": 173.1850226666655,
+      "samples": 1,
+      "signature": "key:LRing:51|key:LThumb:57|key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "key:LThumb:57",
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.86566722329168,
+      "maxPairs": 25,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.18918933333217,
+      "end": 173.18918933333217,
+      "samples": 1,
+      "signature": "key:LRing:51|key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.591046296391288,
+      "maxPairs": 25,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.19335599999883,
+      "end": 173.20168933333215,
+      "samples": 3,
+      "signature": "key:LIndex:54|key:LRing:51|key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:54",
+        "key:LRing:51",
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.31952510041278,
+      "maxPairs": 25,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.20585599999882,
+      "end": 173.20585599999882,
+      "samples": 1,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.8038997482717773,
+      "maxPairs": 29,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.21002266666548,
+      "end": 173.46835599999858,
+      "samples": 72,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.862006857991539,
+      "maxPairs": 58,
+      "regressionSamples": 30,
+      "activeIds": [
+        "p00812"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.47252266666524,
+      "end": 173.49335599999856,
+      "samples": 6,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.447691527670881,
+      "maxPairs": 24,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00812"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.58085599999848,
+      "end": 173.58502266666514,
+      "samples": 2,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.5793505483178167,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00814"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.5891893333318,
+      "end": 173.5891893333318,
+      "samples": 1,
+      "signature": "pair:LThumb:LPalm",
+      "issues": [
+        "pair:LThumb:LPalm"
+      ],
+      "maxCore": 2.918137898865525,
+      "maxPairs": 1,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00814"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.83085599999825,
+      "end": 173.84335599999824,
+      "samples": 4,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.903343414357884,
+      "maxPairs": 82,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00814"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.8475226666649,
+      "end": 173.8600226666649,
+      "samples": 7,
+      "signature": "key:LThumb:62|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:62",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.880295191057483,
+      "maxPairs": 119,
+      "regressionSamples": 6,
+      "activeIds": [
+        "p00814"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.86418933333155,
+      "end": 173.879872,
+      "samples": 7,
+      "signature": "key:LRing:55|key:LThumb:62|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:55",
+        "key:LThumb:62",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.595396870822333,
+      "maxPairs": 121,
+      "regressionSamples": 7,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.8808559999982,
+      "end": 173.96835599999812,
+      "samples": 25,
+      "signature": "key:LRing:55|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:55",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.003338508483448,
+      "maxPairs": 121,
+      "regressionSamples": 25,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.9725226666648,
+      "end": 173.9725226666648,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.51354052933761,
+      "maxPairs": 54,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 173.9933559999981,
+      "end": 174.01835599999808,
+      "samples": 7,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.6919532049660133,
+      "maxPairs": 41,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.02252266666474,
+      "end": 174.0600226666647,
+      "samples": 10,
+      "signature": "key:LRing:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.116925045779707,
+      "maxPairs": 58,
+      "regressionSamples": 6,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.06418933333137,
+      "end": 174.13502266666464,
+      "samples": 18,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.988583780282661,
+      "maxPairs": 74,
+      "regressionSamples": 5,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.1391893333313,
+      "end": 174.20168933333125,
+      "samples": 22,
+      "signature": "key:LRing:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.543357327176814,
+      "maxPairs": 75,
+      "regressionSamples": 15,
+      "activeIds": [
+        "p00815"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.2058559999979,
+      "end": 174.43918933333103,
+      "samples": 69,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.4642043968230998,
+      "maxPairs": 70,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00817"
+      ]
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.4433559999977,
+      "end": 174.45168933333102,
+      "samples": 3,
+      "signature": "key:LRing:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.2389024642359985,
+      "maxPairs": 49,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.45585599999768,
+      "end": 174.47252266666433,
+      "samples": 5,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5441973683043018,
+      "maxPairs": 66,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.476689333331,
+      "end": 174.48085599999766,
+      "samples": 2,
+      "signature": "key:LRing:54|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:54",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.390154074140396,
+      "maxPairs": 59,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-L59-refrain",
+      "start": 174.48502266666432,
+      "end": 174.48502266666432,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7104010021585245,
+      "maxPairs": 52,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.10602999999998,
+      "end": 206.11019666666664,
+      "samples": 2,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.1969494429066065,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01010"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.1143633333333,
+      "end": 206.11852999999996,
+      "samples": 2,
+      "signature": "key:LThumb:59|key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.247136669316309,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01010"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.12269666666663,
+      "end": 206.13519666666662,
+      "samples": 4,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.66982606611166,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01010"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.13936333333328,
+      "end": 206.33519666666643,
+      "samples": 48,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.886946309709093,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01010"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.3393633333331,
+      "end": 206.38936333333305,
+      "samples": 19,
+      "signature": "key:LThumb:62|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:62",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.903848877090139,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01010"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.3935299999997,
+      "end": 206.5185299999996,
+      "samples": 37,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.542386733843771,
+      "maxPairs": 30,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01011"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.62269666666617,
+      "end": 206.67269666666613,
+      "samples": 19,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 3.926413260378847,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01011"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.6768633333328,
+      "end": 206.69352999999944,
+      "samples": 4,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 4.295562306411593,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 206.6976966666661,
+      "end": 206.7310299999994,
+      "samples": 9,
+      "signature": "key:LIndex:56",
+      "issues": [
+        "key:LIndex:56"
+      ],
+      "maxCore": 6.830224943034188,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.02686333333247,
+      "end": 207.113739,
+      "samples": 27,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 21,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p01013"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.1143633333324,
+      "end": 207.12686333333238,
+      "samples": 4,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 24,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.13102999999904,
+      "end": 207.13102999999904,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5409462756773027,
+      "maxPairs": 6,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.13473700000003,
+      "end": 207.14352999999903,
+      "samples": 9,
+      "signature": "key:LIndex:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.2014671785888416,
+      "maxPairs": 6,
+      "regressionSamples": 9,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.1476966666657,
+      "end": 207.1476966666657,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.639251057348746,
+      "maxPairs": 6,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.15186333333236,
+      "end": 207.168529999999,
+      "samples": 5,
+      "signature": "key:LIndex:54|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.479757063857782,
+      "maxPairs": 6,
+      "regressionSamples": 5,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.17269666666567,
+      "end": 207.2476966666656,
+      "samples": 19,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.262955817364909,
+      "maxPairs": 6,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.35186333333218,
+      "end": 207.4060299999988,
+      "samples": 14,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.8793671149191793,
+      "maxPairs": 158,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.41019666666546,
+      "end": 207.479592,
+      "samples": 23,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.1215814413824745,
+      "maxPairs": 184,
+      "regressionSamples": 22,
+      "activeIds": [
+        "p01015"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.48102999999873,
+      "end": 207.48102999999873,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle|pair:LPinky:LPalm",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle",
+        "pair:LPinky:LPalm"
+      ],
+      "maxCore": 4.371546509565949,
+      "maxPairs": 186,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.4851966666654,
+      "end": 207.4851966666654,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.3988958680072345,
+      "maxPairs": 183,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.48936333333205,
+      "end": 207.52686333333202,
+      "samples": 16,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.5621924565707443,
+      "maxPairs": 190,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01017"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.53102999999868,
+      "end": 207.56852999999865,
+      "samples": 10,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 197,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01017"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.5726966666653,
+      "end": 207.6643633333319,
+      "samples": 26,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.457827146135294,
+      "maxPairs": 246,
+      "regressionSamples": 7,
+      "activeIds": [
+        "p01017"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.66852999999855,
+      "end": 207.68102999999854,
+      "samples": 4,
+      "signature": "key:LIndex:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.5898506275013915,
+      "maxPairs": 54,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01017"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.6851966666652,
+      "end": 207.70186333333186,
+      "samples": 8,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.3968224315409623,
+      "maxPairs": 169,
+      "regressionSamples": 3,
+      "activeIds": [
+        "p01017"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.70602999999852,
+      "end": 207.70602999999852,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.090291690638902,
+      "maxPairs": 163,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.71019666666518,
+      "end": 207.72686333333183,
+      "samples": 5,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.816832198162561,
+      "maxPairs": 160,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.7310299999985,
+      "end": 207.73936333333182,
+      "samples": 3,
+      "signature": "key:LMiddle:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.839406305197859,
+      "maxPairs": 158,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.7435299999985,
+      "end": 207.7435299999985,
+      "samples": 1,
+      "signature": "key:LMiddle:49|key:LMiddle:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:49",
+        "key:LMiddle:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.070636315595347,
+      "maxPairs": 142,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.74769666666515,
+      "end": 207.76019666666514,
+      "samples": 4,
+      "signature": "key:LMiddle:49|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:49",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.203020706145286,
+      "maxPairs": 146,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.7643633333318,
+      "end": 207.77269666666513,
+      "samples": 3,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 134,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.7768633333318,
+      "end": 207.78936333333178,
+      "samples": 4,
+      "signature": "key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.24444852944467,
+      "maxPairs": 142,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.79352999999844,
+      "end": 207.7976966666651,
+      "samples": 2,
+      "signature": "key:LIndex:46|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:46",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.838535586273342,
+      "maxPairs": 179,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.80186333333177,
+      "end": 207.80186333333177,
+      "samples": 1,
+      "signature": "key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.965117993470271,
+      "maxPairs": 185,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.80602999999843,
+      "end": 207.80602999999843,
+      "samples": 1,
+      "signature": "key:LIndex:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.153878416042203,
+      "maxPairs": 168,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.8101966666651,
+      "end": 207.8101966666651,
+      "samples": 1,
+      "signature": "key:LMiddle:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.86745377757908,
+      "maxPairs": 147,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.81436333333176,
+      "end": 207.81436333333176,
+      "samples": 1,
+      "signature": "key:LIndex:42|key:LMiddle:44|key:LMiddle:46|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:42",
+        "key:LMiddle:44",
+        "key:LMiddle:46",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.5252876448023684,
+      "maxPairs": 134,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.81852999999842,
+      "end": 207.8310299999984,
+      "samples": 4,
+      "signature": "key:LMiddle:44|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:44",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.583400240416815,
+      "maxPairs": 127,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.83519666666507,
+      "end": 207.8435299999984,
+      "samples": 3,
+      "signature": "key:LIndex:43|key:LMiddle:44|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:43",
+        "key:LMiddle:44",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.75853992560138,
+      "maxPairs": 88,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.84769666666506,
+      "end": 207.84769666666506,
+      "samples": 1,
+      "signature": "key:LIndex:43|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 4.968879212822963,
+      "maxPairs": 37,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 207.85186333333172,
+      "end": 208.00602999999825,
+      "samples": 44,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.377251144679019,
+      "maxPairs": 26,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01018"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.0101966666649,
+      "end": 208.06096451022069,
+      "samples": 16,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.377250823058289,
+      "maxPairs": 88,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01018"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.06436333333153,
+      "end": 208.0685299999982,
+      "samples": 2,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle|pair:LIndex:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.521374154362047,
+      "maxPairs": 102,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01018"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.07269666666485,
+      "end": 208.07269666666485,
+      "samples": 1,
+      "signature": "key:LIndex:41|key:LIndex:43|pair:LIndex:LMiddle|pair:LIndex:LPinky|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LPinky",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.91648492929231,
+      "maxPairs": 118,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01018"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.07686333333152,
+      "end": 208.0893633333315,
+      "samples": 7,
+      "signature": "key:LIndex:41|key:LIndex:43|key:LIndex:45|pair:LIndex:LMiddle|pair:LIndex:LPinky|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:41",
+        "key:LIndex:43",
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LPinky",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.9607548106107595,
+      "maxPairs": 174,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01018"
+      ]
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.09352999999817,
+      "end": 208.09769666666483,
+      "samples": 2,
+      "signature": "key:LIndex:43|key:LIndex:45|pair:LIndex:LMiddle|pair:LIndex:LPinky|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:43",
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LPinky",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.734057433112615,
+      "maxPairs": 170,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.1018633333315,
+      "end": 208.10602999999816,
+      "samples": 2,
+      "signature": "key:LIndex:45|pair:LIndex:LMiddle|pair:LIndex:LPinky|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:45",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LPinky",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.255850540628381,
+      "maxPairs": 174,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.11019666666482,
+      "end": 208.11436333333148,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.8955999547072286,
+      "maxPairs": 191,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.11852999999815,
+      "end": 208.1226966666648,
+      "samples": 2,
+      "signature": "key:LIndex:44|pair:LIndex:LMiddle|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:44",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.35870968818053,
+      "maxPairs": 235,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.12686333333147,
+      "end": 208.13102999999813,
+      "samples": 2,
+      "signature": "key:LIndex:46|pair:LIndex:LMiddle|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:46",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.8038915615861155,
+      "maxPairs": 208,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.1351966666648,
+      "end": 208.14769666666479,
+      "samples": 4,
+      "signature": "pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.9994686817659266,
+      "maxPairs": 46,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.15186333333145,
+      "end": 208.1560299999981,
+      "samples": 2,
+      "signature": "key:LIndex:48|pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:48",
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0652523567790135,
+      "maxPairs": 59,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.16019666666477,
+      "end": 208.16436333333144,
+      "samples": 2,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.9835640920852224,
+      "maxPairs": 56,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.1685299999981,
+      "end": 208.17269666666476,
+      "samples": 2,
+      "signature": "key:LIndex:49|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:49",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.4898338347323365,
+      "maxPairs": 49,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.17686333333143,
+      "end": 208.17686333333143,
+      "samples": 1,
+      "signature": "key:LIndex:49|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:49",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.587316199094137,
+      "maxPairs": 62,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.1810299999981,
+      "end": 208.1810299999981,
+      "samples": 1,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.887134150585946,
+      "maxPairs": 178,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.18519666666475,
+      "end": 208.18519666666475,
+      "samples": 1,
+      "signature": "key:LIndex:50|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:50",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.6456001686687167,
+      "maxPairs": 179,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.1893633333314,
+      "end": 208.20602999999807,
+      "samples": 5,
+      "signature": "key:LIndex:50|pair:LIndex:LMiddle|pair:LIndex:LRing",
+      "issues": [
+        "key:LIndex:50",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing"
+      ],
+      "maxCore": 5.2046987169550025,
+      "maxPairs": 77,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.21019666666473,
+      "end": 208.21019666666473,
+      "samples": 1,
+      "signature": "key:LIndex:49|key:LIndex:50|key:LIndex:52|pair:LIndex:LMiddle|pair:LIndex:LRing",
+      "issues": [
+        "key:LIndex:49",
+        "key:LIndex:50",
+        "key:LIndex:52",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing"
+      ],
+      "maxCore": 3.4940191611139424,
+      "maxPairs": 137,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.2143633333314,
+      "end": 208.2143633333314,
+      "samples": 1,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.7029881762096752,
+      "maxPairs": 153,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.21852999999805,
+      "end": 208.21852999999805,
+      "samples": 1,
+      "signature": "key:LIndex:49|key:LIndex:52|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:49",
+        "key:LIndex:52",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.515565550505362,
+      "maxPairs": 165,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.22269666666472,
+      "end": 208.22686333333138,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.919977109082539,
+      "maxPairs": 167,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.23102999999804,
+      "end": 208.23936333333137,
+      "samples": 3,
+      "signature": "key:LIndex:51|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LIndex:51",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 3.6343445096679305,
+      "maxPairs": 141,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L50-coda",
+      "start": 208.24144400000003,
+      "end": 208.24144600000002,
+      "samples": 3,
+      "signature": "key:LIndex:51",
+      "issues": [
+        "key:LIndex:51"
+      ],
+      "maxCore": 3.0014862909535367,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 97.2540393333331,
+      "end": 97.2540393333331,
+      "samples": 1,
+      "signature": "key:LThumb:64",
+      "issues": [
+        "key:LThumb:64"
+      ],
+      "maxCore": 3.0223227880489256,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00465"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.25820599999976,
+      "end": 97.29153933333306,
+      "samples": 12,
+      "signature": "key:LThumb:64|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:64",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.212887364853702,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00465"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.292705,
+      "end": 97.30403933333305,
+      "samples": 9,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.972348439473471,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.30820599999971,
+      "end": 97.32903933333303,
+      "samples": 6,
+      "signature": "key:LIndex:61|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:61",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.813473576958494,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.33320599999969,
+      "end": 97.37487266666632,
+      "samples": 11,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.534165606688732,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.38737266666631,
+      "end": 97.42903933333294,
+      "samples": 11,
+      "signature": "key:LIndex:61",
+      "issues": [
+        "key:LIndex:61"
+      ],
+      "maxCore": 4.273666556319555,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.45403933333291,
+      "end": 97.52903933333285,
+      "samples": 19,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.8815170546293567,
+      "maxPairs": 129,
+      "regressionSamples": 13,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.53320599999951,
+      "end": 97.62487266666609,
+      "samples": 29,
+      "signature": "key:LMiddle:60|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:60",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.986257813163422,
+      "maxPairs": 137,
+      "regressionSamples": 29,
+      "activeIds": [
+        "p00466"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.62903933333276,
+      "end": 97.74153933333265,
+      "samples": 34,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.5559377369429592,
+      "maxPairs": 136,
+      "regressionSamples": 34,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.74570599999932,
+      "end": 97.77903933333262,
+      "samples": 9,
+      "signature": "key:LRing:58|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LRing:58",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.126907011124672,
+      "maxPairs": 136,
+      "regressionSamples": 9,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.78320599999928,
+      "end": 97.80820599999926,
+      "samples": 7,
+      "signature": "key:LRing:58|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:58",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.676358671413086,
+      "maxPairs": 225,
+      "regressionSamples": 7,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.81237266666592,
+      "end": 97.83320599999924,
+      "samples": 6,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.807951655345378,
+      "maxPairs": 226,
+      "regressionSamples": 6,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.8373726666659,
+      "end": 97.86237266666588,
+      "samples": 7,
+      "signature": "key:LRing:57|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:57",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.9084406361816795,
+      "maxPairs": 201,
+      "regressionSamples": 7,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.86653933333254,
+      "end": 97.8707059999992,
+      "samples": 2,
+      "signature": "key:LRing:55|key:LRing:57|pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:55",
+        "key:LRing:57",
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.7045074263654145,
+      "maxPairs": 154,
+      "regressionSamples": 2,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.87487266666587,
+      "end": 97.94153933333247,
+      "samples": 20,
+      "signature": "key:LRing:55|key:LRing:57|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LRing:55",
+        "key:LRing:57",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.967027169482388,
+      "maxPairs": 136,
+      "regressionSamples": 20,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.94570599999913,
+      "end": 97.96237266666579,
+      "samples": 8,
+      "signature": "key:LRing:57|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LRing:57",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.960246409282612,
+      "maxPairs": 100,
+      "regressionSamples": 7,
+      "activeIds": [
+        "p00468"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 97.96653933333245,
+      "end": 98.0165393333324,
+      "samples": 19,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.3208449400727305,
+      "maxPairs": 83,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00470"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.02070599999907,
+      "end": 98.0623726666657,
+      "samples": 11,
+      "signature": "key:LMiddle:61|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:61",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.195935075392457,
+      "maxPairs": 79,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00470"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.06653933333236,
+      "end": 98.07487266666568,
+      "samples": 3,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 57,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00470"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.45820599999867,
+      "end": 98.52070599999861,
+      "samples": 19,
+      "signature": "key:LRing:56",
+      "issues": [
+        "key:LRing:56"
+      ],
+      "maxCore": 4.840986004514159,
+      "maxPairs": 0,
+      "regressionSamples": 19,
+      "activeIds": [
+        "p00472"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.55403933333191,
+      "end": 98.583941,
+      "samples": 11,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 29,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00472"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.58737266666522,
+      "end": 98.5998726666652,
+      "samples": 4,
+      "signature": "pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.7975972879442645,
+      "maxPairs": 31,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.60403933333187,
+      "end": 98.60403933333187,
+      "samples": 1,
+      "signature": "key:LRing:52|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:52",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.8378648147482375,
+      "maxPairs": 35,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.60820599999853,
+      "end": 98.6123726666652,
+      "samples": 2,
+      "signature": "key:LRing:50|key:LRing:52|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "key:LRing:52",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.391257400933379,
+      "maxPairs": 33,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.61653933333186,
+      "end": 98.62070599999852,
+      "samples": 2,
+      "signature": "key:LRing:50|key:LThumb:62|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "key:LThumb:62",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.636853849677159,
+      "maxPairs": 30,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.62487266666518,
+      "end": 98.62903933333185,
+      "samples": 2,
+      "signature": "key:LRing:50|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.9825317024509985,
+      "maxPairs": 19,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.63320599999851,
+      "end": 98.63320599999851,
+      "samples": 1,
+      "signature": "key:LRing:50|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.7021859841089855,
+      "maxPairs": 14,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.63737266666517,
+      "end": 98.63737266666517,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.894688959181435,
+      "maxPairs": 37,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-early",
+      "start": 98.64153933333183,
+      "end": 98.65084399999999,
+      "samples": 12,
+      "signature": "pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.8798573791836146,
+      "maxPairs": 108,
+      "regressionSamples": 12,
+      "activeIds": [
+        "p00473",
+        "p00474"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.65403933333182,
+      "end": 98.96237266666488,
+      "samples": 81,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.87985743654684,
+      "maxPairs": 173,
+      "regressionSamples": 13,
+      "activeIds": [
+        "p00473",
+        "p00474"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.9707059999982,
+      "end": 98.98737266666485,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.87985706458016,
+      "maxPairs": 167,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00474"
+      ]
+    },
+    {
+      "context": "L57-early",
+      "start": 98.99153933333152,
+      "end": 99.28320599999792,
+      "samples": 77,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.879857029010613,
+      "maxPairs": 160,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00477"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 149.05402199999997,
+      "end": 149.31235533333307,
+      "samples": 69,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.751278331958651,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00678"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 149.31652199999974,
+      "end": 149.32902199999972,
+      "samples": 4,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.127914339531638,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 149.3331886666664,
+      "end": 149.3331886666664,
+      "samples": 1,
+      "signature": "key:LThumb:60|key:LThumb:62|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "key:LThumb:62",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.983805961010736,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 149.33735533333305,
+      "end": 149.34985533333304,
+      "samples": 4,
+      "signature": "key:LThumb:62|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:62",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.7285214977170744,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 149.351021,
+      "end": 150.17902199999895,
+      "samples": 205,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8123752097716226,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.25818866666555,
+      "end": 150.25818866666555,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.9130250377386036,
+      "maxPairs": 12,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.2623553333322,
+      "end": 150.27902199999886,
+      "samples": 8,
+      "signature": "key:LRing:56|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:56",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.8060466818957694,
+      "maxPairs": 51,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.28318866666552,
+      "end": 150.28318866666552,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.71508056948401,
+      "maxPairs": 65,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.2873553333322,
+      "end": 150.2873553333322,
+      "samples": 1,
+      "signature": "key:LRing:56|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:56",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0930237911245273,
+      "maxPairs": 83,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.29152199999885,
+      "end": 150.29985533333218,
+      "samples": 3,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.569623773778798,
+      "maxPairs": 113,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.30402199999884,
+      "end": 150.32485533333215,
+      "samples": 6,
+      "signature": "key:LRing:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.56375413465815,
+      "maxPairs": 133,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.328137,
+      "end": 150.32902199999882,
+      "samples": 4,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.6090541558013713,
+      "maxPairs": 131,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00681"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.33318866666548,
+      "end": 150.35818866666546,
+      "samples": 7,
+      "signature": "key:LThumb:60|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.454043156324751,
+      "maxPairs": 139,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.36235533333212,
+      "end": 150.3748553333321,
+      "samples": 4,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.0821176521856333,
+      "maxPairs": 135,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.37902199999877,
+      "end": 150.3873553333321,
+      "samples": 3,
+      "signature": "key:LIndex:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.150427370597453,
+      "maxPairs": 139,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.39152199999876,
+      "end": 150.39152199999876,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.29158155805248,
+      "maxPairs": 130,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.39568866666542,
+      "end": 150.4081886666654,
+      "samples": 4,
+      "signature": "key:LRing:48|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:48",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.5693500347212526,
+      "maxPairs": 140,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 150.41235533333207,
+      "end": 151.59568866666433,
+      "samples": 303,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.9711232538394694,
+      "maxPairs": 136,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00684",
+        "p00687"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 151.599855333331,
+      "end": 151.64152199999762,
+      "samples": 11,
+      "signature": "key:LRing:51|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.363332152640177,
+      "maxPairs": 125,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00687"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 151.64568866666428,
+      "end": 151.64985533333095,
+      "samples": 2,
+      "signature": "key:LRing:51",
+      "issues": [
+        "key:LRing:51"
+      ],
+      "maxCore": 3.717710096341864,
+      "maxPairs": 0,
+      "regressionSamples": 2,
+      "activeIds": [
+        "p00687"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 151.70402199999756,
+      "end": 152.2623553333304,
+      "samples": 141,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.187757194552886,
+      "maxPairs": 4,
+      "regressionSamples": 135,
+      "activeIds": [
+        "p00687"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 152.26652199999705,
+      "end": 152.27902199999704,
+      "samples": 4,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.705759868427115,
+      "maxPairs": 4,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 152.2831886666637,
+      "end": 152.2831886666637,
+      "samples": 1,
+      "signature": "key:LThumb:59|key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.9207559960745275,
+      "maxPairs": 4,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 152.28735533333037,
+      "end": 152.29985533333036,
+      "samples": 4,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.5376285938326646,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 152.30043300000003,
+      "end": 153.31235533332944,
+      "samples": 252,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8758472671540636,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00690"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.3498553333294,
+      "end": 153.35402199999606,
+      "samples": 2,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.5921195627013347,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.35818866666273,
+      "end": 153.35818866666273,
+      "samples": 1,
+      "signature": "key:LThumb:59|key:LThumb:60",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.442947515933159,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.3623553333294,
+      "end": 153.38735533332937,
+      "samples": 7,
+      "signature": "key:LPinky:50",
+      "issues": [
+        "key:LPinky:50"
+      ],
+      "maxCore": 5.835608525062708,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.52485533332924,
+      "end": 153.6873553333291,
+      "samples": 40,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.344328703400067,
+      "maxPairs": 173,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00692"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.69152199999576,
+      "end": 153.705384,
+      "samples": 7,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7424013870430697,
+      "maxPairs": 115,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00692"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.7081886666624,
+      "end": 153.74985533332904,
+      "samples": 14,
+      "signature": "key:LRing:55|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:55",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.6102175836609804,
+      "maxPairs": 120,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00692"
+      ]
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.7540219999957,
+      "end": 153.7540219999957,
+      "samples": 1,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5968981074872,
+      "maxPairs": 83,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-middle",
+      "start": 153.75818866666236,
+      "end": 154.0331886666621,
+      "samples": 73,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5718311798207383,
+      "maxPairs": 75,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00694"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.2557183333333,
+      "end": 176.26405166666663,
+      "samples": 3,
+      "signature": "pair:LThumb:LIndex",
+      "issues": [
+        "pair:LThumb:LIndex"
+      ],
+      "maxCore": 0,
+      "maxPairs": 16,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00831"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.4932183333331,
+      "end": 176.4932183333331,
+      "samples": 1,
+      "signature": "key:LThumb:64",
+      "issues": [
+        "key:LThumb:64"
+      ],
+      "maxCore": 3.61235055208875,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00831"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.49738499999975,
+      "end": 176.53188600000001,
+      "samples": 15,
+      "signature": "key:LThumb:64|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:64",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.810480973530097,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00831"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.534884,
+      "end": 176.54321833333304,
+      "samples": 6,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.198863450357802,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00832"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.5473849999997,
+      "end": 176.56821833333302,
+      "samples": 6,
+      "signature": "key:LIndex:61|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:61",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.813473532892632,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00832"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.57238499999968,
+      "end": 176.62238499999964,
+      "samples": 13,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8724817996287344,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00832"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.6265516666663,
+      "end": 176.66821833333293,
+      "samples": 11,
+      "signature": "key:LIndex:61|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:61",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.273666520276165,
+      "maxPairs": 8,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00832"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.6723849999996,
+      "end": 176.6723849999996,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8149160925546868,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00832"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 176.83071833333278,
+      "end": 177.00155166666596,
+      "samples": 51,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.9013941224960984,
+      "maxPairs": 145,
+      "regressionSamples": 48,
+      "activeIds": [
+        "p00832",
+        "p00834"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.00571833333262,
+      "end": 177.05988499999924,
+      "samples": 14,
+      "signature": "key:LRing:58|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LRing:58",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 4.448060196098669,
+      "maxPairs": 136,
+      "regressionSamples": 14,
+      "activeIds": [
+        "p00834"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.0640516666659,
+      "end": 177.10571833333253,
+      "samples": 11,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.872432118686763,
+      "maxPairs": 136,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00834"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.1098849999992,
+      "end": 177.18071833333246,
+      "samples": 24,
+      "signature": "pair:LIndex:LMiddle|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.077516940250601,
+      "maxPairs": 258,
+      "regressionSamples": 18,
+      "activeIds": [
+        "p00834"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.18488499999913,
+      "end": 177.25155166666573,
+      "samples": 23,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.4081922062426098,
+      "maxPairs": 83,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00835"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.2557183333324,
+      "end": 177.26821833333238,
+      "samples": 4,
+      "signature": "key:LMiddle:61|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:61",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 5.295044659272275,
+      "maxPairs": 59,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00835"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.27238499999905,
+      "end": 177.31405166666568,
+      "samples": 11,
+      "signature": "key:LMiddle:61",
+      "issues": [
+        "key:LMiddle:61"
+      ],
+      "maxCore": 6.488084815506938,
+      "maxPairs": 0,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00835"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.5015516666655,
+      "end": 177.5140516666655,
+      "samples": 7,
+      "signature": "key:LPinky:55",
+      "issues": [
+        "key:LPinky:55"
+      ],
+      "maxCore": 4.137807262198423,
+      "maxPairs": 0,
+      "regressionSamples": 7,
+      "activeIds": [
+        "p00835"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.68488499999867,
+      "end": 177.73071833333196,
+      "samples": 15,
+      "signature": "key:LRing:56",
+      "issues": [
+        "key:LRing:56"
+      ],
+      "maxCore": 4.3487004293418785,
+      "maxPairs": 0,
+      "regressionSamples": 15,
+      "activeIds": [
+        "p00837"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.76405166666527,
+      "end": 177.7932183333319,
+      "samples": 11,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 25,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00837"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.79738499999857,
+      "end": 177.80988499999856,
+      "samples": 4,
+      "signature": "pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.9896522281532834,
+      "maxPairs": 31,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.81405166666522,
+      "end": 177.81405166666522,
+      "samples": 1,
+      "signature": "key:LRing:52|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:52",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.034566438420151,
+      "maxPairs": 35,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.81821833333188,
+      "end": 177.81821833333188,
+      "samples": 1,
+      "signature": "key:LRing:50|key:LRing:52|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "key:LRing:52",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.6928453982342235,
+      "maxPairs": 35,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.82238499999855,
+      "end": 177.82238499999855,
+      "samples": 1,
+      "signature": "key:LRing:50|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.5882387776218225,
+      "maxPairs": 34,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.8265516666652,
+      "end": 177.83488499999854,
+      "samples": 3,
+      "signature": "key:LRing:50|key:LThumb:62|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "key:LThumb:62",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.322998477102076,
+      "maxPairs": 32,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.8390516666652,
+      "end": 177.8390516666652,
+      "samples": 1,
+      "signature": "key:LRing:50|pair:LPinky:LPalm|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LPinky:LPalm",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.9371925414770645,
+      "maxPairs": 14,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.84321833333186,
+      "end": 177.84738499999852,
+      "samples": 2,
+      "signature": "key:LRing:50|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.034513199065448,
+      "maxPairs": 38,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.8515516666652,
+      "end": 177.8598849999985,
+      "samples": 12,
+      "signature": "pair:LMiddle:LPinky|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.879857472160796,
+      "maxPairs": 108,
+      "regressionSamples": 12,
+      "activeIds": [
+        "p00839",
+        "p00840"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 177.86405166666518,
+      "end": 178.1640516666649,
+      "samples": 79,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.8798576665490794,
+      "maxPairs": 168,
+      "regressionSamples": 17,
+      "activeIds": [
+        "p00839",
+        "p00840"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 178.17238499999823,
+      "end": 178.18905166666488,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.902471602696355,
+      "maxPairs": 162,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00840"
+      ]
+    },
+    {
+      "context": "L57-refrain",
+      "start": 178.19321833333154,
+      "end": 178.48488499999794,
+      "samples": 77,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.879857572362421,
+      "maxPairs": 157,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00844"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 212.517497,
+      "end": 212.77999699999975,
+      "samples": 70,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5567365683633048,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01032"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 212.78416366666642,
+      "end": 212.7966636666664,
+      "samples": 4,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.154905533437149,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 212.80083033333307,
+      "end": 213.71333033333224,
+      "samples": 226,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9678453392186777,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.79249699999883,
+      "end": 213.79249699999883,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.8764130268555954,
+      "maxPairs": 8,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.7966636666655,
+      "end": 213.81333033333215,
+      "samples": 5,
+      "signature": "key:LRing:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.752644103091396,
+      "maxPairs": 51,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.8174969999988,
+      "end": 213.8174969999988,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.877612834556398,
+      "maxPairs": 65,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.82166366666547,
+      "end": 213.82583033333214,
+      "samples": 2,
+      "signature": "key:LRing:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.356467566479032,
+      "maxPairs": 91,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.8299969999988,
+      "end": 213.884415,
+      "samples": 20,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.71167762390917,
+      "maxPairs": 139,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01035"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.88833033333208,
+      "end": 213.88833033333208,
+      "samples": 1,
+      "signature": "key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0762238528273533,
+      "maxPairs": 131,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.89249699999874,
+      "end": 213.89249699999874,
+      "samples": 1,
+      "signature": "key:LIndex:56|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0035969722496114,
+      "maxPairs": 129,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.8966636666654,
+      "end": 213.8966636666654,
+      "samples": 1,
+      "signature": "key:LIndex:56|key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:56",
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.368618587193146,
+      "maxPairs": 130,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.90083033333207,
+      "end": 213.91333033333206,
+      "samples": 4,
+      "signature": "key:LThumb:59|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 4.228024368413797,
+      "maxPairs": 135,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.91749699999872,
+      "end": 213.91749699999872,
+      "samples": 1,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.937051747395114,
+      "maxPairs": 130,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.92166366666538,
+      "end": 213.92583033333204,
+      "samples": 2,
+      "signature": "key:LIndex:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0379828151620436,
+      "maxPairs": 133,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 213.9299969999987,
+      "end": 215.1883303333309,
+      "samples": 315,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.530438056055462,
+      "maxPairs": 135,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01037"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 215.19249699999756,
+      "end": 215.19249699999756,
+      "samples": 1,
+      "signature": "key:LIndex:54|pair:LRing:LPinky",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0301412131353844,
+      "maxPairs": 116,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 215.19666366666422,
+      "end": 215.25083033333084,
+      "samples": 20,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.757193565883609,
+      "maxPairs": 132,
+      "regressionSamples": 3,
+      "activeIds": [
+        "p01040"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 215.2549969999975,
+      "end": 215.3008303333308,
+      "samples": 12,
+      "signature": "key:LRing:51|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:51",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.50018155126597,
+      "maxPairs": 124,
+      "regressionSamples": 12,
+      "activeIds": [
+        "p01040"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 215.30499699999746,
+      "end": 215.30499699999746,
+      "samples": 1,
+      "signature": "key:LRing:51",
+      "issues": [
+        "key:LRing:51"
+      ],
+      "maxCore": 3.52884519483021,
+      "maxPairs": 0,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p01040"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 215.36333033333074,
+      "end": 216.00083033333016,
+      "samples": 160,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.270560797344112,
+      "maxPairs": 4,
+      "regressionSamples": 153,
+      "activeIds": [
+        "p01040"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 216.00499699999682,
+      "end": 216.0174969999968,
+      "samples": 4,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.6658442019625355,
+      "maxPairs": 4,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 216.02166366666347,
+      "end": 216.02166366666347,
+      "samples": 1,
+      "signature": "key:LThumb:59|key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.187282527703701,
+      "maxPairs": 4,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 216.02583033333013,
+      "end": 216.03416366666346,
+      "samples": 3,
+      "signature": "key:LThumb:60|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.6799444525738023,
+      "maxPairs": 4,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 216.03812200000002,
+      "end": 217.17166366666243,
+      "samples": 282,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7636695008517176,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01043"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.2091636666624,
+      "end": 217.21333033332905,
+      "samples": 2,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.5501524050388644,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.21749699999572,
+      "end": 217.21749699999572,
+      "samples": 1,
+      "signature": "key:LThumb:59|key:LThumb:60",
+      "issues": [
+        "key:LThumb:59",
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.482917333201885,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.22166366666238,
+      "end": 217.2424969999957,
+      "samples": 6,
+      "signature": "key:LPinky:50",
+      "issues": [
+        "key:LPinky:50"
+      ],
+      "maxCore": 3.7218572503294745,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.47166366666215,
+      "end": 217.634163666662,
+      "samples": 40,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.3443273970628065,
+      "maxPairs": 171,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01045"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.63833033332867,
+      "end": 217.65083033332866,
+      "samples": 7,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.747688122903491,
+      "maxPairs": 110,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01045"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.65499699999532,
+      "end": 217.68833033332862,
+      "samples": 12,
+      "signature": "key:LRing:55|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:55",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.7576880509625488,
+      "maxPairs": 106,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01045"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.69249699999529,
+      "end": 217.69666366666195,
+      "samples": 2,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7980990944918016,
+      "maxPairs": 88,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.7008303333286,
+      "end": 217.91333033332842,
+      "samples": 58,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.571831152952009,
+      "maxPairs": 75,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01047"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.91749699999508,
+      "end": 217.91749699999508,
+      "samples": 1,
+      "signature": "key:LIndex:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.228006193774391,
+      "maxPairs": 73,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01047"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.92166366666174,
+      "end": 217.9258303333284,
+      "samples": 2,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9746530094258428,
+      "maxPairs": 73,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01047"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.92999699999507,
+      "end": 217.94666366666172,
+      "samples": 5,
+      "signature": "key:LIndex:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.9379907614107146,
+      "maxPairs": 72,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01047"
+      ]
+    },
+    {
+      "context": "L57-coda",
+      "start": 217.95083033332838,
+      "end": 217.97999699999502,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5718311699406415,
+      "maxPairs": 72,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p01047"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 118.524752,
+      "end": 118.72891866666649,
+      "samples": 56,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.5688243345344253,
+      "maxPairs": 166,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00563"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 118.73308533333315,
+      "end": 118.7497519999998,
+      "samples": 5,
+      "signature": "key:LRing:50|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:50",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.8576013704051135,
+      "maxPairs": 171,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 118.75391866666646,
+      "end": 118.79975199999976,
+      "samples": 12,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.4443438802880246,
+      "maxPairs": 146,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 118.80808533333308,
+      "end": 119.42475199999919,
+      "samples": 167,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.433334116600904,
+      "maxPairs": 49,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00566",
+        "p00568"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.07891866666526,
+      "end": 120.07891866666526,
+      "samples": 1,
+      "signature": "key:LThumb:59",
+      "issues": [
+        "key:LThumb:59"
+      ],
+      "maxCore": 3.0935949078077787,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00568"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.08308533333192,
+      "end": 120.08308533333192,
+      "samples": 1,
+      "signature": "key:LThumb:59|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:59",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.6706106548231308,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.08725199999859,
+      "end": 120.08725199999859,
+      "samples": 1,
+      "signature": "key:LThumb:59",
+      "issues": [
+        "key:LThumb:59"
+      ],
+      "maxCore": 3.064128692654211,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.13308533333188,
+      "end": 120.16225199999852,
+      "samples": 8,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 5.233535585167481,
+      "maxPairs": 0,
+      "regressionSamples": 8,
+      "activeIds": [
+        "p00571"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.18308533333183,
+      "end": 120.23308533333179,
+      "samples": 13,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 3.9115462248308086,
+      "maxPairs": 0,
+      "regressionSamples": 11,
+      "activeIds": [
+        "p00571"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.75554699999999,
+      "end": 120.76225199999797,
+      "samples": 5,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.7147430963186383,
+      "maxPairs": 4,
+      "regressionSamples": 5,
+      "activeIds": [
+        "p00571"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.76641866666463,
+      "end": 120.77475199999796,
+      "samples": 3,
+      "signature": "key:LThumb:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.008791063024764,
+      "maxPairs": 4,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.77891866666462,
+      "end": 120.80808533333126,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8783557909380364,
+      "maxPairs": 4,
+      "regressionSamples": 6,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.81225199999793,
+      "end": 120.81225199999793,
+      "samples": 1,
+      "signature": "key:LThumb:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.382591583473732,
+      "maxPairs": 4,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.81641866666459,
+      "end": 120.82058533333125,
+      "samples": 2,
+      "signature": "key:LThumb:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.323028945093509,
+      "maxPairs": 4,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L59-middle",
+      "start": 120.82475199999791,
+      "end": 120.99975199999776,
+      "samples": 49,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9516947617648226,
+      "maxPairs": 160,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00573"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 121.00391866666442,
+      "end": 121.08725199999768,
+      "samples": 21,
+      "signature": "key:LMiddle:49|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:49",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.1793260097055,
+      "maxPairs": 212,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00573"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 121.09141866666434,
+      "end": 121.09975199999766,
+      "samples": 3,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8354521001743294,
+      "maxPairs": 160,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00573"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 121.10391866666433,
+      "end": 122.29141866666325,
+      "samples": 301,
+      "signature": "pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8469662176826835,
+      "maxPairs": 181,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00573",
+        "p00575"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 122.29558533332991,
+      "end": 122.33308533332988,
+      "samples": 13,
+      "signature": "key:LThumb:55|pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:55",
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.8660392917889705,
+      "maxPairs": 143,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00575"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 122.33725199999654,
+      "end": 122.3747519999965,
+      "samples": 16,
+      "signature": "pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.568240379618336,
+      "maxPairs": 166,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00579"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 122.37891866666317,
+      "end": 122.37891866666317,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.6184015712000788,
+      "maxPairs": 150,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00579"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 122.38308533332983,
+      "end": 122.44141866666311,
+      "samples": 15,
+      "signature": "key:LMiddle:49|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:49",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.217894943883252,
+      "maxPairs": 210,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00579"
+      ]
+    },
+    {
+      "context": "L59-middle",
+      "start": 122.44558533332977,
+      "end": 122.60808533332963,
+      "samples": 40,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5725248136804213,
+      "maxPairs": 156,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00579"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.307952,
+      "end": 130.52461866666647,
+      "samples": 53,
+      "signature": "pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.074144686160184,
+      "maxPairs": 138,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00602"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.52878533333313,
+      "end": 130.5329519999998,
+      "samples": 2,
+      "signature": "key:LRing:46|pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:46",
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.555046378409977,
+      "maxPairs": 86,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00602"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.53711866666646,
+      "end": 130.5662853333331,
+      "samples": 11,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LPinky|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.122789871423003,
+      "maxPairs": 137,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00602"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.57045199999976,
+      "end": 130.58295199999975,
+      "samples": 7,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LPinky|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 92,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00602"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.5871186666664,
+      "end": 130.60378533333306,
+      "samples": 5,
+      "signature": "pair:LMiddle:LPinky|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LMiddle:LPinky",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 69,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.60495100000003,
+      "end": 130.64961866666636,
+      "samples": 17,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 2.8652462174002524,
+      "maxPairs": 49,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00604"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.65378533333302,
+      "end": 130.67461866666633,
+      "samples": 6,
+      "signature": "key:LMiddle:44|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "key:LMiddle:44",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 3.981039171250811,
+      "maxPairs": 50,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00604"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 130.678785333333,
+      "end": 131.03295199999934,
+      "samples": 89,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 2.920923025330535,
+      "maxPairs": 61,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00604"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.037118666666,
+      "end": 131.049618666666,
+      "samples": 7,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 1.5927333589332848,
+      "maxPairs": 70,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00604"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.05378533333266,
+      "end": 131.05378533333266,
+      "samples": 1,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 1.5934660742669138,
+      "maxPairs": 72,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.05795199999932,
+      "end": 131.06628533333264,
+      "samples": 3,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.337986683110971,
+      "maxPairs": 104,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.0704519999993,
+      "end": 131.07461866666597,
+      "samples": 2,
+      "signature": "key:LThumb:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LThumb:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.762822369907881,
+      "maxPairs": 51,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.07878533333263,
+      "end": 131.07878533333263,
+      "samples": 1,
+      "signature": "key:LRing:49|key:LThumb:55|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:55",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.986181565152125,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.0829519999993,
+      "end": 131.08711866666596,
+      "samples": 2,
+      "signature": "key:LRing:49|key:LThumb:55",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:55"
+      ],
+      "maxCore": 6.3171227383721495,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.09128533333262,
+      "end": 131.09545199999928,
+      "samples": 2,
+      "signature": "key:LRing:49|key:LThumb:55|key:LThumb:57",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:55",
+        "key:LThumb:57"
+      ],
+      "maxCore": 6.64084232714568,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.09961866666595,
+      "end": 131.09961866666595,
+      "samples": 1,
+      "signature": "key:LRing:49|key:LThumb:55|key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:55",
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 7.0260138734244135,
+      "maxPairs": 8,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.1037853333326,
+      "end": 131.11211866666594,
+      "samples": 3,
+      "signature": "key:LRing:49|key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 6.565425916188139,
+      "maxPairs": 136,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.1162853333326,
+      "end": 131.1371186666659,
+      "samples": 6,
+      "signature": "key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 5.909621909716195,
+      "maxPairs": 142,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.14128533333258,
+      "end": 131.1496186666659,
+      "samples": 3,
+      "signature": "key:LRing:49|key:LThumb:57|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:49",
+        "key:LThumb:57",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.8543192478625032,
+      "maxPairs": 136,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.15373100000002,
+      "end": 131.15378533333256,
+      "samples": 4,
+      "signature": "key:LRing:49|pair:LRing:LPinky",
+      "issues": [
+        "key:LRing:49",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.0121798208738726,
+      "maxPairs": 121,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.156731,
+      "end": 131.17461866666588,
+      "samples": 8,
+      "signature": "pair:LRing:LPinky",
+      "issues": [
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.3516040844415995,
+      "maxPairs": 97,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00606"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.2287853333325,
+      "end": 131.64545199999878,
+      "samples": 101,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.0644407498279227,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00606"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 131.74961866666536,
+      "end": 131.87461866666524,
+      "samples": 37,
+      "signature": "key:LMiddle:52",
+      "issues": [
+        "key:LMiddle:52"
+      ],
+      "maxCore": 7.974709201440278,
+      "maxPairs": 0,
+      "regressionSamples": 34,
+      "activeIds": [
+        "p00606"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 132.59961866666458,
+      "end": 132.59961866666458,
+      "samples": 1,
+      "signature": "key:LPinky:48",
+      "issues": [
+        "key:LPinky:48"
+      ],
+      "maxCore": 3.053131764115591,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 132.73711866666446,
+      "end": 132.73711866666446,
+      "samples": 1,
+      "signature": "key:LMiddle:51",
+      "issues": [
+        "key:LMiddle:51"
+      ],
+      "maxCore": 3.2104882482024144,
+      "maxPairs": 0,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00611"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 133.20795199999736,
+      "end": 133.2829519999973,
+      "samples": 25,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 150,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00613"
+      ]
+    },
+    {
+      "context": "L52-middle",
+      "start": 133.28711866666396,
+      "end": 133.34545199999724,
+      "samples": 15,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.147004985571137,
+      "maxPairs": 170,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L52-middle",
+      "start": 133.3496186666639,
+      "end": 133.5621186666637,
+      "samples": 58,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.520528747541495,
+      "maxPairs": 176,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00615"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.32683899999998,
+      "end": 182.33933899999997,
+      "samples": 4,
+      "signature": "key:LIndex:62|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:62",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.3425318459621574,
+      "maxPairs": 49,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00869"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.34350566666663,
+      "end": 182.576387,
+      "samples": 62,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.9534123519582014,
+      "maxPairs": 76,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00869"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.57683899999975,
+      "end": 182.6060056666664,
+      "samples": 8,
+      "signature": "key:LRing:57|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:57",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 5.13973460796377,
+      "maxPairs": 93,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.61017233333305,
+      "end": 182.83517233333285,
+      "samples": 61,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.7693649707579704,
+      "maxPairs": 71,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.8393389999995,
+      "end": 182.87267233333282,
+      "samples": 12,
+      "signature": "key:LPinky:53|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:53",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.592624809343693,
+      "maxPairs": 58,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.87683899999948,
+      "end": 182.87683899999948,
+      "samples": 1,
+      "signature": "key:LPinky:52|key:LPinky:53|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:52",
+        "key:LPinky:53",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.4953058095573697,
+      "maxPairs": 61,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.88100566666614,
+      "end": 182.91017233333278,
+      "samples": 8,
+      "signature": "key:LPinky:52|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:52",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.581892771724829,
+      "maxPairs": 94,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.91433899999944,
+      "end": 182.91433899999944,
+      "samples": 1,
+      "signature": "key:LPinky:50|key:LPinky:52|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:50",
+        "key:LPinky:52",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.502060439285249,
+      "maxPairs": 89,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.9185056666661,
+      "end": 182.94350566666608,
+      "samples": 10,
+      "signature": "key:LPinky:50|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:50",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.441367948877731,
+      "maxPairs": 83,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00871"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.94767233333275,
+      "end": 182.94767233333275,
+      "samples": 1,
+      "signature": "key:LPinky:50|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:50",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.7349246510286482,
+      "maxPairs": 86,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 182.9518389999994,
+      "end": 182.9976723333327,
+      "samples": 18,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.528875427513788,
+      "maxPairs": 180,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00873"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.00183899999936,
+      "end": 183.10183899999927,
+      "samples": 25,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.344329875575313,
+      "maxPairs": 172,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00873"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.1768389999992,
+      "end": 183.19767233333252,
+      "samples": 6,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.917452356712036,
+      "maxPairs": 18,
+      "regressionSamples": 6,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.20183899999918,
+      "end": 183.20183899999918,
+      "samples": 1,
+      "signature": "key:LIndex:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.012433121171665,
+      "maxPairs": 20,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.20600566666585,
+      "end": 183.20600566666585,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.89998756242954,
+      "maxPairs": 24,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.2101723333325,
+      "end": 183.2101723333325,
+      "samples": 1,
+      "signature": "key:LIndex:56|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:56",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.5538713559969404,
+      "maxPairs": 30,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.21433899999917,
+      "end": 183.21433899999917,
+      "samples": 1,
+      "signature": "key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.429864930993901,
+      "maxPairs": 33,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.21850566666583,
+      "end": 183.21850566666583,
+      "samples": 1,
+      "signature": "key:LPalm:56|key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:56",
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.453546501594021,
+      "maxPairs": 33,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.2226723333325,
+      "end": 183.2226723333325,
+      "samples": 1,
+      "signature": "key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.038617124039581,
+      "maxPairs": 35,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.22683899999916,
+      "end": 183.22683899999916,
+      "samples": 1,
+      "signature": "key:LPalm:56|key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:56",
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.122525417301517,
+      "maxPairs": 41,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.23100566666582,
+      "end": 183.23100566666582,
+      "samples": 1,
+      "signature": "key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.1701704143800615,
+      "maxPairs": 39,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.23517233333249,
+      "end": 183.23517233333249,
+      "samples": 1,
+      "signature": "key:LPalm:54|key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:54",
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.754635607878673,
+      "maxPairs": 39,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.23933899999915,
+      "end": 183.23933899999915,
+      "samples": 1,
+      "signature": "key:LPalm:54|key:LPalm:56|key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:54",
+        "key:LPalm:56",
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.477377362008541,
+      "maxPairs": 39,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.2435056666658,
+      "end": 183.2435056666658,
+      "samples": 1,
+      "signature": "key:LPalm:54|key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:54",
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.263766334600018,
+      "maxPairs": 41,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.24767233333247,
+      "end": 183.24767233333247,
+      "samples": 1,
+      "signature": "key:LPalm:54|key:LPinky:51|key:LThumb:63|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:54",
+        "key:LPinky:51",
+        "key:LThumb:63",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.122568074025391,
+      "maxPairs": 43,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.25183899999914,
+      "end": 183.26017233333246,
+      "samples": 3,
+      "signature": "key:LPinky:51|key:LThumb:63|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:51",
+        "key:LThumb:63",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.402763526623528,
+      "maxPairs": 47,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.26433899999913,
+      "end": 183.2685056666658,
+      "samples": 2,
+      "signature": "key:LPinky:51|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPinky:51",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.670818725070691,
+      "maxPairs": 47,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.27267233333245,
+      "end": 183.5810056666655,
+      "samples": 87,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.671286932187489,
+      "maxPairs": 47,
+      "regressionSamples": 51,
+      "activeIds": [
+        "p00875",
+        "p00876"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.58517233333217,
+      "end": 183.595177,
+      "samples": 6,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.830190614677097,
+      "maxPairs": 150,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00875",
+        "p00876"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.59767233333216,
+      "end": 183.59767233333216,
+      "samples": 1,
+      "signature": "key:LIndex:54|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:54",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.4165652197751806,
+      "maxPairs": 106,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.60183899999882,
+      "end": 183.620177,
+      "samples": 8,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.466784410688705,
+      "maxPairs": 103,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.62267233333213,
+      "end": 183.76850566666533,
+      "samples": 39,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 14,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00880"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.772672333332,
+      "end": 183.83100566666528,
+      "samples": 18,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 39,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00880"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.83517233333194,
+      "end": 183.84767233333193,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 0,
+      "maxPairs": 43,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00880"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.8518389999986,
+      "end": 183.86850566666524,
+      "samples": 8,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 50,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00880"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 183.8726723333319,
+      "end": 183.92683899999852,
+      "samples": 14,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 64,
+      "regressionSamples": 4,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.13517233333167,
+      "end": 184.143505666665,
+      "samples": 3,
+      "signature": "key:LMiddle:58",
+      "issues": [
+        "key:LMiddle:58"
+      ],
+      "maxCore": 3.6222098323994145,
+      "maxPairs": 0,
+      "regressionSamples": 3,
+      "activeIds": [
+        "p00881"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.21850566666492,
+      "end": 184.24767233333156,
+      "samples": 8,
+      "signature": "key:LMiddle:57",
+      "issues": [
+        "key:LMiddle:57"
+      ],
+      "maxCore": 6.524902986044023,
+      "maxPairs": 0,
+      "regressionSamples": 6,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.25183899999823,
+      "end": 184.26850566666488,
+      "samples": 5,
+      "signature": "key:LIndex:59|key:LMiddle:57",
+      "issues": [
+        "key:LIndex:59",
+        "key:LMiddle:57"
+      ],
+      "maxCore": 6.903761145422238,
+      "maxPairs": 0,
+      "regressionSamples": 4,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.27267233333154,
+      "end": 184.27267233333154,
+      "samples": 1,
+      "signature": "key:LMiddle:57",
+      "issues": [
+        "key:LMiddle:57"
+      ],
+      "maxCore": 3.0226250278825306,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.51850566666465,
+      "end": 184.5476723333313,
+      "samples": 8,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.8706261562906343,
+      "maxPairs": 61,
+      "regressionSamples": 5,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.5810056666646,
+      "end": 184.59767233333125,
+      "samples": 5,
+      "signature": "key:LThumb:63",
+      "issues": [
+        "key:LThumb:63"
+      ],
+      "maxCore": 3.9295714883080812,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.63100566666455,
+      "end": 184.66850566666452,
+      "samples": 10,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 35,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00885"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.7726723333311,
+      "end": 184.86850566666433,
+      "samples": 30,
+      "signature": "key:LIndex:61",
+      "issues": [
+        "key:LIndex:61"
+      ],
+      "maxCore": 4.796683234568707,
+      "maxPairs": 0,
+      "regressionSamples": 17,
+      "activeIds": [
+        "p00885"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.872672333331,
+      "end": 184.87683899999766,
+      "samples": 2,
+      "signature": "key:LIndex:60|key:LIndex:61",
+      "issues": [
+        "key:LIndex:60",
+        "key:LIndex:61"
+      ],
+      "maxCore": 7.377275046974829,
+      "maxPairs": 0,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.88100566666432,
+      "end": 184.8935056666643,
+      "samples": 4,
+      "signature": "key:LIndex:60",
+      "issues": [
+        "key:LIndex:60"
+      ],
+      "maxCore": 7.969043362061057,
+      "maxPairs": 0,
+      "regressionSamples": 4,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.89767233333097,
+      "end": 184.9060056666643,
+      "samples": 3,
+      "signature": "key:LIndex:59|key:LIndex:60",
+      "issues": [
+        "key:LIndex:59",
+        "key:LIndex:60"
+      ],
+      "maxCore": 7.909147015689899,
+      "maxPairs": 0,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 184.91017233333096,
+      "end": 184.93100566666428,
+      "samples": 6,
+      "signature": "key:LIndex:59",
+      "issues": [
+        "key:LIndex:59"
+      ],
+      "maxCore": 7.963586345449358,
+      "maxPairs": 0,
+      "regressionSamples": 5,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.18100566666405,
+      "end": 185.18100566666405,
+      "samples": 1,
+      "signature": "key:LIndex:58",
+      "issues": [
+        "key:LIndex:58"
+      ],
+      "maxCore": 4.868050602638951,
+      "maxPairs": 0,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.22683899999734,
+      "end": 185.23933899999733,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 155,
+      "regressionSamples": 4,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.243505666664,
+      "end": 185.24767233333066,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 2.862178771927959,
+      "maxPairs": 177,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.25183899999732,
+      "end": 185.4435056666638,
+      "samples": 56,
+      "signature": "key:LPalm:56|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LPalm:56",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.475910257135922,
+      "maxPairs": 240,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.44767233333047,
+      "end": 185.44767233333047,
+      "samples": 1,
+      "signature": "key:LPalm:56|key:LPalm:58|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LPalm:56",
+        "key:LPalm:58",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.153660204349873,
+      "maxPairs": 211,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.45183899999714,
+      "end": 185.46017233333046,
+      "samples": 3,
+      "signature": "key:LPalm:58|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPinky",
+      "issues": [
+        "key:LPalm:58",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPinky"
+      ],
+      "maxCore": 3.2215976999055984,
+      "maxPairs": 206,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.46433899999712,
+      "end": 185.46433899999712,
+      "samples": 1,
+      "signature": "key:LPalm:58|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LPalm:58",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.3351113692757783,
+      "maxPairs": 177,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.4685056666638,
+      "end": 185.4768389999971,
+      "samples": 3,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.5648287565496197,
+      "maxPairs": 181,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.48100566666378,
+      "end": 185.49350566666376,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.109969924719235,
+      "maxPairs": 162,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.49767233333043,
+      "end": 185.52683899999707,
+      "samples": 8,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.4415117179975576,
+      "maxPairs": 163,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.53100566666373,
+      "end": 185.53933899999706,
+      "samples": 3,
+      "signature": "key:LThumb:59",
+      "issues": [
+        "key:LThumb:59"
+      ],
+      "maxCore": 4.0000660825315615,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.54350566666372,
+      "end": 185.55183899999705,
+      "samples": 3,
+      "signature": "key:LThumb:57|key:LThumb:59",
+      "issues": [
+        "key:LThumb:57",
+        "key:LThumb:59"
+      ],
+      "maxCore": 4.077916765240164,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.5560056666637,
+      "end": 185.59350566666367,
+      "samples": 13,
+      "signature": "key:LThumb:57",
+      "issues": [
+        "key:LThumb:57"
+      ],
+      "maxCore": 6.608826575883575,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00888"
+      ]
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.82267233333013,
+      "end": 185.83517233333012,
+      "samples": 4,
+      "signature": "key:LThumb:55",
+      "issues": [
+        "key:LThumb:55"
+      ],
+      "maxCore": 5.669891767923929,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.86433899999676,
+      "end": 185.86433899999676,
+      "samples": 1,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.2246382425851197,
+      "maxPairs": 4,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L63-refrain",
+      "start": 185.86850566666342,
+      "end": 185.87683899999675,
+      "samples": 3,
+      "signature": "key:LIndex:49|pair:LMiddle:LRing",
+      "issues": [
+        "key:LIndex:49",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 4.5227006434845896,
+      "maxPairs": 12,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 188.88402966666644,
+      "end": 188.89652966666642,
+      "samples": 7,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 100,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00913"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 188.9006963333331,
+      "end": 188.9090296666664,
+      "samples": 3,
+      "signature": "key:LRing:54|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:54",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.122836546642086,
+      "maxPairs": 156,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 188.91319633333308,
+      "end": 188.91319633333308,
+      "samples": 1,
+      "signature": "key:LRing:54|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "key:LRing:54",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 5.00234092561519,
+      "maxPairs": 78,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 188.91736299999974,
+      "end": 188.91736299999974,
+      "samples": 1,
+      "signature": "pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 56,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 188.9215296666664,
+      "end": 189.22986299999945,
+      "samples": 84,
+      "signature": "pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 60,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00918"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.23402966666612,
+      "end": 189.23402966666612,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 3.180039492467146,
+      "maxPairs": 28,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00918"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.23819633333278,
+      "end": 189.23819633333278,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 5.053509745831408,
+      "maxPairs": 131,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00918"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.24236299999944,
+      "end": 189.24236299999944,
+      "samples": 1,
+      "signature": "key:LMiddle:54|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "key:LMiddle:54",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 6.5815486478150165,
+      "maxPairs": 175,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00918"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.2465296666661,
+      "end": 189.2465296666661,
+      "samples": 1,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 210,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00918"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.25069633333277,
+      "end": 189.34652966666602,
+      "samples": 33,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.577241016252896,
+      "maxPairs": 152,
+      "regressionSamples": 26,
+      "activeIds": [
+        "p00918",
+        "p00919"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.35069633333268,
+      "end": 189.532202,
+      "samples": 50,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 1.9433844978665737,
+      "maxPairs": 71,
+      "regressionSamples": 47,
+      "activeIds": [
+        "p00919"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.53402966666584,
+      "end": 189.54652966666583,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LPalm",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 52,
+      "regressionSamples": 1,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.5506963333325,
+      "end": 189.55486299999916,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 0,
+      "maxPairs": 96,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.55902966666582,
+      "end": 189.57569633333247,
+      "samples": 5,
+      "signature": "key:LMiddle:56|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:56",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.1926550004455105,
+      "maxPairs": 191,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.58819633333246,
+      "end": 189.58819633333246,
+      "samples": 1,
+      "signature": "key:LThumb:61",
+      "issues": [
+        "key:LThumb:61"
+      ],
+      "maxCore": 3.492230107800587,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.59236299999912,
+      "end": 189.59236299999912,
+      "samples": 1,
+      "signature": "key:LPalm:56|key:LThumb:61",
+      "issues": [
+        "key:LPalm:56",
+        "key:LThumb:61"
+      ],
+      "maxCore": 5.714258524032068,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.5965296666658,
+      "end": 189.60069633333245,
+      "samples": 2,
+      "signature": "key:LThumb:61",
+      "issues": [
+        "key:LThumb:61"
+      ],
+      "maxCore": 5.817576794542534,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.6048629999991,
+      "end": 189.6048629999991,
+      "samples": 1,
+      "signature": "key:LPalm:58|key:LThumb:61",
+      "issues": [
+        "key:LPalm:58",
+        "key:LThumb:61"
+      ],
+      "maxCore": 5.074047577332042,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 189.60902966666578,
+      "end": 189.6173629999991,
+      "samples": 3,
+      "signature": "key:LThumb:61",
+      "issues": [
+        "key:LThumb:61"
+      ],
+      "maxCore": 4.959101631695599,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.27152966666517,
+      "end": 190.27569633333184,
+      "samples": 2,
+      "signature": "key:LRing:56",
+      "issues": [
+        "key:LRing:56"
+      ],
+      "maxCore": 3.571385277874026,
+      "maxPairs": 0,
+      "regressionSamples": 2,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.30902966666514,
+      "end": 190.62152966666486,
+      "samples": 85,
+      "signature": "pair:LMiddle:LRing",
+      "issues": [
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 2.653018302038679,
+      "maxPairs": 37,
+      "regressionSamples": 27,
+      "activeIds": [
+        "p00925"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.62569633333152,
+      "end": 190.63402966666484,
+      "samples": 3,
+      "signature": "key:LMiddle:56|pair:LIndex:LMiddle|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:56",
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 6.982508986063437,
+      "maxPairs": 213,
+      "regressionSamples": 3,
+      "activeIds": [
+        "p00925"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.6381963333315,
+      "end": 190.6381963333315,
+      "samples": 1,
+      "signature": "key:LMiddle:56|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "key:LMiddle:56",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 7.021901028373967,
+      "maxPairs": 243,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00925"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.64236299999817,
+      "end": 190.642502,
+      "samples": 4,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 180,
+      "regressionSamples": 4,
+      "activeIds": [
+        "p00925"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.64652966666483,
+      "end": 190.65486299999816,
+      "samples": 3,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 150,
+      "regressionSamples": 3,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.65902966666482,
+      "end": 190.66350200000002,
+      "samples": 5,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LPalm|pair:LMiddle:LRing|pair:LRing:LPalm",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPalm",
+        "pair:LMiddle:LRing",
+        "pair:LRing:LPalm"
+      ],
+      "maxCore": 0,
+      "maxPairs": 151,
+      "regressionSamples": 5,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.6665,
+      "end": 190.69236299999812,
+      "samples": 10,
+      "signature": "pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LPalm|pair:LMiddle:LRing",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPalm",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 0,
+      "maxPairs": 173,
+      "regressionSamples": 8,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.6965296666648,
+      "end": 190.6965296666648,
+      "samples": 1,
+      "signature": "key:LRing:54|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LPalm|pair:LMiddle:LRing",
+      "issues": [
+        "key:LRing:54",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPalm",
+        "pair:LMiddle:LRing"
+      ],
+      "maxCore": 3.5596477276230165,
+      "maxPairs": 168,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.70069633333145,
+      "end": 190.7048629999981,
+      "samples": 2,
+      "signature": "key:LRing:54|pair:LIndex:LMiddle|pair:LIndex:LRing|pair:LMiddle:LPalm",
+      "issues": [
+        "key:LRing:54",
+        "pair:LIndex:LMiddle",
+        "pair:LIndex:LRing",
+        "pair:LMiddle:LPalm"
+      ],
+      "maxCore": 6.214052216249877,
+      "maxPairs": 109,
+      "regressionSamples": 1,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 190.70902966666478,
+      "end": 191.24236299999762,
+      "samples": 132,
+      "signature": "pair:LIndex:LMiddle|pair:LMiddle:LPalm",
+      "issues": [
+        "pair:LIndex:LMiddle",
+        "pair:LMiddle:LPalm"
+      ],
+      "maxCore": 2.783475909942712,
+      "maxPairs": 48,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.2465296666643,
+      "end": 191.25069633333095,
+      "samples": 2,
+      "signature": "pair:LIndex:LMiddle",
+      "issues": [
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 2.954174614117122,
+      "maxPairs": 47,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.2548629999976,
+      "end": 191.28819633333092,
+      "samples": 12,
+      "signature": "key:LThumb:60|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 4.210835867817176,
+      "maxPairs": 135,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00927"
+      ]
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.29236299999758,
+      "end": 191.30902966666423,
+      "samples": 5,
+      "signature": "key:LMiddle:56|key:LThumb:60|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LMiddle:56",
+        "key:LThumb:60",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 7.167008000270703,
+      "maxPairs": 201,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.3131963333309,
+      "end": 191.31736299999756,
+      "samples": 2,
+      "signature": "key:LThumb:60|pair:LIndex:LMiddle",
+      "issues": [
+        "key:LThumb:60",
+        "pair:LIndex:LMiddle"
+      ],
+      "maxCore": 6.032244382024377,
+      "maxPairs": 87,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.32152966666422,
+      "end": 191.32569633333088,
+      "samples": 2,
+      "signature": "key:LMiddle:54|key:LThumb:60",
+      "issues": [
+        "key:LMiddle:54",
+        "key:LThumb:60"
+      ],
+      "maxCore": 6.100944278863013,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.32986299999754,
+      "end": 191.3340296666642,
+      "samples": 2,
+      "signature": "key:LThumb:60",
+      "issues": [
+        "key:LThumb:60"
+      ],
+      "maxCore": 3.911019998748655,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": []
+    },
+    {
+      "context": "L61-refrain",
+      "start": 191.33819633333087,
+      "end": 191.571529666664,
+      "samples": 66,
+      "signature": "key:LMiddle:54",
+      "issues": [
+        "key:LMiddle:54"
+      ],
+      "maxCore": 3.0961642426611813,
+      "maxPairs": 0,
+      "regressionSamples": 0,
+      "activeIds": [
+        "p00931",
+        "p00932"
+      ]
+    }
+  ]
+}

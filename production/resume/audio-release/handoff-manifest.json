@@ -1,0 +1,77 @@
+{
+  "purpose": "Preparation complete; final accepted-score render is pending root score freeze.",
+  "sampleRoot": "/workspace/scratch/2e8cc8e77f98/audio-recovery/legal160",
+  "sampleCount": 160,
+  "sourceBytes": 254295259,
+  "allSourceHashesAndFullDecodesPassed": true,
+  "helperFixtureChecksPassed": 14,
+  "daybreakMasterRendered": false,
+  "criticalListeningPerformed": false,
+  "files": [
+    {
+      "name": "README.md",
+      "bytes": 5671,
+      "sha256": "8f00abab886e2d20883d9ef6e6804eeca697d5e8328700c8705ed43015db89ae"
+    },
+    {
+      "name": "recover_samples.py",
+      "bytes": 4873,
+      "sha256": "32acdf037fe872c82e629f725629bf62b5917cd3f508c9eca172d31cba038120"
+    },
+    {
+      "name": "release_common.py",
+      "bytes": 3119,
+      "sha256": "2d4d7f23e96baf9d5b57b82765b4933dc07fa3a49400a13b61e4566e22d6caf3"
+    },
+    {
+      "name": "prepare_release.py",
+      "bytes": 4105,
+      "sha256": "e40535b99f8ddf97f637596ec45453a34b8f599089873bc68cb6eb2d2ccad450"
+    },
+    {
+      "name": "render_release.py",
+      "bytes": 2600,
+      "sha256": "54f2eec0f4485b9e43aa91d353d610b7f6c6e3a3bb50c7afc71cb8cfcbb5bf8d"
+    },
+    {
+      "name": "verify_release.py",
+      "bytes": 9364,
+      "sha256": "424d070b8ca6a786d861f315348d4732f0bd621b65d572e8aa6ea770a1f51531"
+    },
+    {
+      "name": "validate_helpers.py",
+      "bytes": 6326,
+      "sha256": "3f403159a90b338e8c1dde6008273db349d417de125ccfb2d27e2a4c4652b078"
+    },
+    {
+      "name": "render_solo_master.py",
+      "bytes": 20555,
+      "sha256": "5a6fc11d10be387e9b229fcaf829304e9769273968791ae46a199688bb2a0cb1"
+    },
+    {
+      "name": "sample-manifest-frozen.json",
+      "bytes": 173434,
+      "sha256": "2507cb40c3ad4fe950d2998c94b40400c118654b0df9394477ab44fb6bf29af3"
+    },
+    {
+      "name": "piano-samples-LICENSE-CC-BY-3.0.txt",
+      "bytes": 19467,
+      "sha256": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+    },
+    {
+      "name": "license-verification.json",
+      "bytes": 365,
+      "sha256": "1b8658bffd6a2cf30d061ed602b09808c439847adbcc160079d233b38d0b5338"
+    },
+    {
+      "name": "source-verification.json",
+      "bytes": 44009,
+      "sha256": "84f87118a2c26c43dcc97457e58743ad8116ce98c8433472cf72efa549d4e7b3"
+    },
+    {
+      "name": "helper-validation.json",
+      "bytes": 4665,
+      "sha256": "44bb52ef4f73fc621f6b48d9ab812aabc1e46919efe86568f06fb572b3bdb95d"
+    }
+  ]
+}

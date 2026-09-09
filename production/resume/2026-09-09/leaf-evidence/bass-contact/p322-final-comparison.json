@@ -1,0 +1,42 @@
+{
+  "start": 66.26495000000001,
+  "end": 76.664321,
+  "hz": 240,
+  "denseHz": 1000,
+  "samples": 4225,
+  "heldSamples": 347,
+  "heldBeforeCoreMax": 6.518247372526598,
+  "heldAfterCoreMax": 2.182061982895056,
+  "heldBeforeOwnMax": 0,
+  "heldAfterOwnMax": 0,
+  "heldAfterActivePairMax": 0,
+  "heldAfterPointMaxMm": 0.00011556925860143905,
+  "heldAfterPadRange": [
+    -0.1676830249864869,
+    -0.1676829998433771
+  ],
+  "newBad": 0,
+  "newKeyRows": 0,
+  "newPairRows": 0,
+  "newContactRows": 0,
+  "rightQuaternionMaxDelta": 0,
+  "leftThumbQuaternionMaxDelta": 0,
+  "outsideQuaternionMaxDelta": 0,
+  "changedRange": [
+    70.8232833333292,
+    71.56839500000001
+  ],
+  "changedWindowMotion": {
+    "baseline": {
+      "maxTipSpeed": 3.3022255481900253,
+      "maxJointSpeed": 3.3022255481900253,
+      "maxQuaternionSpeed": 71.63390569922615
+    },
+    "candidate": {
+      "maxTipSpeed": 3.0097555777665415,
+      "maxJointSpeed": 3.0097555777665415,
+      "maxQuaternionSpeed": 75.19178284321224
+    }
+  },
+  "added": []
+}

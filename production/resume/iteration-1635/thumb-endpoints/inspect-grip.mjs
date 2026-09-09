@@ -1,0 +1,1 @@
+import fs from 'node:fs';import {install,measure} from './harness.mjs';const s=JSON.parse(fs.readFileSync(process.argv[2]));install(s);for(const t of [44.328,44.477,44.965]){const r=measure(t,'R');console.log(JSON.stringify({time:t,active:r.active,key:r.keyHits,crossings:r.crossings.map(c=>({a:c.a,b:c.b,pairs:c.trianglePairs,points:c.points.slice(0,2)})),mesh:r.meshContacts}));}

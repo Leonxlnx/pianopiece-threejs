@@ -1,0 +1,24 @@
+--- app/performance/idle-nonthumb.ts
++++ app/performance/idle-nonthumb.ts
+@@ -4,7 +4,7 @@
+ 
+ type Anchor={id:string;time:number;duration:number};
+ type Gap={hi:number;fi:number;previous?:string;previousEnd:number;next?:string;nextTime:number};
+-type Curve=Gap&{mode?:string;knots:number[][];firstTangent?:number[];lastTangent?:number[]};
++type Curve=Gap&{mode?:string;knots:number[][];firstTangent?:number[];lastTangent?:number[];neutralQuaternions?:number[][]};
+ const smooth=(x:number)=>{x=Math.min(1,Math.max(0,x));return x*x*(3-2*x);};
+ function matches(c:Gap,hi:number,fi:number,previous:Anchor|undefined,next:Anchor|undefined){
+  return c.hi===hi&&c.fi===fi&&c.previous===previous?.id&&c.next===next?.id&&
+@@ -30,6 +30,12 @@
+   if(!matches(c,hi,fi,previous,next)||time<=c.knots[0][0]||time>=c.knots[c.knots.length-1][0])continue;
+   let index=1;while(c.knots[index][0]<time)index++;
+   const a=c.knots[index-1],b=c.knots[index],dt=b[0]-a[0],u=(time-a[0])/dt,weight=smooth(u);
++  if(c.mode==='blend-neutral'){
++   const amount=a[1]+(b[1]-a[1])*weight;
++   if(!c.neutralQuaternions||c.neutralQuaternions.length!==3)throw new Error('Missing bound neutral joint triple');
++   bones.forEach((bone,j)=>{bone.quaternion.slerp(new THREE.Quaternion().fromArray(c.neutralQuaternions![j]),amount);bone.updateWorldMatrix(false,true);});
++   continue;
++  }
+   const before=c.knots[Math.max(0,index-2)],after=c.knots[Math.min(c.knots.length-1,index+1)];
+   const v=a.slice(1).map((x,j)=>{
+    if(c.mode!=='hermite-controls')return x+(b[j+1]-x)*weight;

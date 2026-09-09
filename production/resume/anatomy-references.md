@@ -1,0 +1,6 @@
+# Primary anatomy and performance references revisited 2026-09-08
+
+- Goebl and Palmer (2013), Temporal Control and Hand Movement Efficiency in Skilled Music Performance. https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0050901 . Original pianist movement study. Relevant to coordinated finger/hand motion and its relationship to timing; does not supply universal joint-angle limits for this rig.
+- In Vivo Kinematics of the Thumb Carpometacarpal Joint During Three Isometric Functional Tasks. https://pmc.ncbi.nlm.nih.gov/articles/PMC3940759/ . Original CT-based study of46 asymptomatic subjects. CMC rotations were directionally coupled; functional-task measurements do not justify independently spinning a distal finger joint to meet a point.
+
+Implementation inference: preserve the asset's coordinated thumb joint rolls in a compact wrist-relative neutral pose, interpolate the complete chain between actual scored contacts, and let wrist/forearm support carry register movement. Validate visible skin, web shape and key contact rather than using numerical joint angles as a substitute for actual anatomy. These are fictional-character animation choices, not clinical measurements or personal health advice.

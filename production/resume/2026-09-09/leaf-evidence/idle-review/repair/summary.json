@@ -1,0 +1,596 @@
+{
+  "curve-007": {
+    "samples": 424,
+    "insideGapSamples": 344,
+    "metrics": {
+      "base": {
+        "corePositivePatchStates": 136,
+        "corePositiveKeyStates": 241,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 393.10773307829385,
+        "trianglePairStateSum": 7643
+      },
+      "original": {
+        "corePositivePatchStates": 128,
+        "corePositiveKeyStates": 231,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 329.02400640155753,
+        "trianglePairStateSum": 7387
+      },
+      "fixed": {
+        "corePositivePatchStates": 128,
+        "corePositiveKeyStates": 231,
+        "indexMaxMm": 7.991665168593731,
+        "indexDepthSumMm": 329.02400640155753,
+        "trianglePairStateSum": 7387
+      }
+    },
+    "comparisons": {
+      "originalVsBase": {
+        "counts": {
+          "worsenedCoreKey": 6,
+          "newCoreKey": 5
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 91.4625,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 3.8956706218141735,
+            "after": 4.558349201767897
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.473999,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.473999,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.474,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474001,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.474001,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.475,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          },
+          {
+            "time": 91.475,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          }
+        ]
+      },
+      "fixedVsBase": {
+        "counts": {
+          "worsenedCoreKey": 6,
+          "newCoreKey": 5
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 91.4625,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 3.8956706218141735,
+            "after": 4.558349201767897
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.47083333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 4.055514910441149
+          },
+          {
+            "time": 91.473999,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.473999,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802327664967353
+          },
+          {
+            "time": 91.474,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.802393918533098
+          },
+          {
+            "time": 91.474001,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.474001,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.8024741955927643
+          },
+          {
+            "time": 91.475,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          },
+          {
+            "time": 91.475,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 0,
+            "after": 3.654768371597228
+          }
+        ]
+      },
+      "fixedVsOriginal": {
+        "counts": {},
+        "nonStrictWitnesses": []
+      }
+    },
+    "motion": {
+      "base": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      },
+      "original": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      },
+      "fixed": {
+        "indexTipSpeedMps": {
+          "time": 90.45833333333333,
+          "value": 2.8006109881503303
+        },
+        "indexTipAccelerationMps2": {
+          "time": 90.4625,
+          "value": 373.9306347693827
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 90.46666666666667,
+          "value": 2755.141913038084
+        }
+      }
+    },
+    "parity": {
+      "activeLocal": 0,
+      "activeWorld": 0,
+      "outsideLocal": 0,
+      "wristWorld": 0,
+      "indexVsBase": 0.11505310025366172,
+      "activeStates": 866
+    }
+  },
+  "index-059": {
+    "samples": 1562,
+    "insideGapSamples": 1469,
+    "metrics": {
+      "base": {
+        "corePositivePatchStates": 467,
+        "corePositiveKeyStates": 484,
+        "indexMaxMm": 7.979710853133315,
+        "indexDepthSumMm": 2757.8954416440415,
+        "trianglePairStateSum": 94212
+      },
+      "original": {
+        "corePositivePatchStates": 409,
+        "corePositiveKeyStates": 422,
+        "indexMaxMm": 7.976783364577744,
+        "indexDepthSumMm": 1161.461132700452,
+        "trianglePairStateSum": 92116
+      },
+      "fixed": {
+        "corePositivePatchStates": 410,
+        "corePositiveKeyStates": 423,
+        "indexMaxMm": 7.979710853133315,
+        "indexDepthSumMm": 1163.09214022106,
+        "trianglePairStateSum": 92116
+      }
+    },
+    "comparisons": {
+      "originalVsBase": {
+        "counts": {
+          "strictFingerPairIncrease": 21,
+          "worsenedCoreKey": 10,
+          "newCoreKey": 3
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 176.064999,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.539715750155106,
+            "after": 7.20523165517073
+          },
+          {
+            "time": 176.065,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.539044035268171,
+            "after": 7.204702172563859
+          },
+          {
+            "time": 176.065001,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.5383183657248125,
+            "after": 7.204104635296512
+          },
+          {
+            "time": 176.07291666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.382500381357903,
+            "after": 6.865716031520516
+          },
+          {
+            "time": 176.08333333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 2.888933807731864,
+            "after": 3.302625581124874
+          },
+          {
+            "time": 176.08333333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 2.888933807731864,
+            "after": 3.302625581124874
+          },
+          {
+            "time": 176.08541666666667,
+            "kind": "newCoreKey",
+            "target": "LIndex:58",
+            "before": 2.6921807084347438,
+            "after": 3.102645602901799
+          },
+          {
+            "time": 176.08541666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:58",
+            "before": 2.6921807084347438,
+            "after": 3.102645602901799
+          },
+          {
+            "time": 176.1125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 5.414672646336049,
+            "after": 5.829234167095604
+          },
+          {
+            "time": 176.11875,
+            "kind": "newCoreKey",
+            "target": "LIndex:56",
+            "before": 2.856444424931104,
+            "after": 3.120109266464721
+          },
+          {
+            "time": 176.11875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 2.856444424931104,
+            "after": 3.120109266464721
+          },
+          {
+            "time": 176.1375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.620631838264669,
+            "after": 7.9657928864499405
+          },
+          {
+            "time": 176.14583333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.569609839423452,
+            "after": 7.91080040747405
+          }
+        ]
+      },
+      "fixedVsBase": {
+        "counts": {
+          "strictFingerPairIncrease": 21
+        },
+        "nonStrictWitnesses": []
+      },
+      "fixedVsOriginal": {
+        "counts": {
+          "newCoreKey": 4,
+          "worsenedCoreKey": 15
+        },
+        "nonStrictWitnesses": [
+          {
+            "time": 176.03125,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9692867532099543,
+            "after": 3.3574716455025966
+          },
+          {
+            "time": 176.03125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.9692867532099543,
+            "after": 3.3574716455025966
+          },
+          {
+            "time": 176.03958333333333,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2378127554524285,
+            "after": 3.064125726213729
+          },
+          {
+            "time": 176.03958333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.2378127554524285,
+            "after": 3.064125726213729
+          },
+          {
+            "time": 176.04166666666666,
+            "kind": "newCoreKey",
+            "target": "LIndex:54",
+            "before": 2.522569021037646,
+            "after": 3.0799178281716024
+          },
+          {
+            "time": 176.04166666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:54",
+            "before": 2.522569021037646,
+            "after": 3.0799178281716024
+          },
+          {
+            "time": 176.05833333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.940839561904736,
+            "after": 7.220729356985353
+          },
+          {
+            "time": 176.09375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:56",
+            "before": 6.871903522594924,
+            "after": 7.210325825008579
+          },
+          {
+            "time": 176.11458333333334,
+            "kind": "newCoreKey",
+            "target": "LIndex:57",
+            "before": 2.288357622759918,
+            "after": 3.0825144382363723
+          },
+          {
+            "time": 176.11458333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 2.288357622759918,
+            "after": 3.0825144382363723
+          },
+          {
+            "time": 176.11666666666667,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.8826284037577485,
+            "after": 4.631915396468123
+          },
+          {
+            "time": 176.11875,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 5.448221822361821,
+            "after": 6.153020921800145
+          },
+          {
+            "time": 176.12083333333334,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 6.903010231559925,
+            "after": 7.5643924395534246
+          },
+          {
+            "time": 176.125,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 6.850381453891496,
+            "after": 7.385539227848237
+          },
+          {
+            "time": 176.12708333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 7.31193162781496,
+            "after": 7.812749252362194
+          },
+          {
+            "time": 176.12916666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 7.2943010138087905,
+            "after": 7.545977448133789
+          },
+          {
+            "time": 176.13333333333333,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.9622273593254014,
+            "after": 4.35461019874972
+          },
+          {
+            "time": 176.13541666666666,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:57",
+            "before": 3.46056619713464,
+            "after": 3.8810113473370933
+          },
+          {
+            "time": 176.14375,
+            "kind": "worsenedCoreKey",
+            "target": "LIndex:59",
+            "before": 7.607072968391582,
+            "after": 7.973552130152162
+          }
+        ]
+      }
+    },
+    "motion": {
+      "base": {
+        "indexTipSpeedMps": {
+          "time": 176.1375,
+          "value": 1.0233688656846982
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.4254530062361
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1477.9474045636177
+        }
+      },
+      "original": {
+        "indexTipSpeedMps": {
+          "time": 176.12083333333334,
+          "value": 1.0312473221400318
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.47159550071038
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1494.910517372167
+        }
+      },
+      "fixed": {
+        "indexTipSpeedMps": {
+          "time": 176.1375,
+          "value": 1.0233688656846982
+        },
+        "indexTipAccelerationMps2": {
+          "time": 176.08333333333334,
+          "value": 146.4254530062361
+        },
+        "indexJointAngularSpeedDegps": {
+          "time": 176.12083333333334,
+          "value": 1477.9474045636177
+        }
+      }
+    },
+    "parity": {
+      "activeLocal": 0,
+      "activeWorld": 0,
+      "outsideLocal": 0,
+      "wristWorld": 0,
+      "indexVsBase": 0.04231106245223795,
+      "activeStates": 3342
+    }
+  },
+  "search": {
+    "completedTrials": 113,
+    "nonzeroTrials": 112,
+    "nonzeroClearTrials": 0,
+    "trialFiles": [
+      "search-results.json",
+      "search-second-results.json",
+      "search-third-results.json"
+    ],
+    "note": "Trials use finite local 480 Hz grids and original boundary probes. Only deletion was clear; this is not proof that no possible curve exists."
+  }
+}

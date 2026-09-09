@@ -1,0 +1,72 @@
+{"frame":0,"total":27979,"maxReachDeficit":0,"maxWristShift":3.156020855115447e-8,"maxFingerShift":5.158891627484404e-8,"maxElbowSpeed":0,"maxArmRate":0}
+{"frame":3000,"total":27979,"maxReachDeficit":0,"maxWristShift":3.3032251251346987e-8,"maxFingerShift":0.0000020989930432234668,"maxElbowSpeed":0.7040491988798895,"maxArmRate":4.964750579250091}
+{"frame":6000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.0000020989930432234668,"maxElbowSpeed":1.0095946200476633,"maxArmRate":4.990304916117997}
+{"frame":9000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0095946200476633,"maxArmRate":5.156255590907854}
+{"frame":12000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0095946200476633,"maxArmRate":5.156255590907854}
+{"frame":15000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0095946200476633,"maxArmRate":5.156255590907854}
+{"frame":18000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0095946200476633,"maxArmRate":5.156255590907854}
+{"frame":21000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.1054697415568617e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0095946200476633,"maxArmRate":5.156255590907854}
+{"frame":24000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.374901555341985e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0782389793697034,"maxArmRate":5.156255590907854}
+{"frame":27000,"total":27979,"maxReachDeficit":0,"maxWristShift":4.374901555341985e-8,"maxFingerShift":0.00000211878644758808,"maxElbowSpeed":1.0782389793697034,"maxArmRate":5.156255590907854}
+{
+  "sourceSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "modelSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "fps": 120,
+  "frames": 27979,
+  "maxWristShiftMm": 0.000043749015553419844,
+  "maxFingerMarkerShiftMm": 0.00211878644758808,
+  "maxContactErrorDeltaMm": 0.00009675345630394682,
+  "maxFootMarkerShiftMm": 0.0005373400063711865,
+  "maxReachDeficitMm": 0,
+  "maxWristTargetErrorMm": 0.00013417407023841204,
+  "maxLengthVariationMm": 0.00008583994298705377,
+  "maxElbowSpeedMps": 1.0782389793697034,
+  "maxArmAngularSpeedRadps": 5.156255590907854,
+  "nonfinite": 0,
+  "bends": {
+    "L": {
+      "baseline": {
+        "median": 46.38133586827484,
+        "p95": 53.80760015248448,
+        "maximum": 58.10137282762807
+      },
+      "candidate": {
+        "median": 32.981439672850065,
+        "p95": 45.47003947263891,
+        "maximum": 57.3192628517012
+      }
+    },
+    "R": {
+      "baseline": {
+        "median": 43.88901405850035,
+        "p95": 57.89766112102115,
+        "maximum": 63.66243669882903
+      },
+      "candidate": {
+        "median": 27.571094916578414,
+        "p95": 51.877029032054416,
+        "maximum": 59.728276985565984
+      }
+    }
+  },
+  "extremes": {
+    "Lmin": {
+      "x": -0.29629000183781484,
+      "time": 40.775
+    },
+    "Lmax": {
+      "x": 0.0017699378616378159,
+      "time": 30.691666666666666
+    },
+    "Rmin": {
+      "x": -0.028354970495483633,
+      "time": 231.15
+    },
+    "Rmax": {
+      "x": 0.26172999514194684,
+      "time": 156.05833333333334
+    }
+  },
+  "passed": true
+}

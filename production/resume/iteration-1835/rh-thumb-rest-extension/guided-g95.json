@@ -1,0 +1,2453 @@
+[
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 0,
+    "defects": []
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 3.901660542217633,
+    "coreFrames": 2,
+    "cost": 200.90166054221763,
+    "defects": [
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 3.901660542217633
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 3.3352262849922765
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 3.86837984529792,
+    "coreFrames": 3,
+    "cost": 300.8683798452979,
+    "defects": [
+      {
+        "time": 95.74507,
+        "pairs": [],
+        "core": 3.86837984529792
+      },
+      {
+        "time": 95.77007,
+        "pairs": [],
+        "core": 3.467004048330058
+      },
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 3.034342085750236
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.03,
+      "arrivalLift": 0.03
+    },
+    "pairs": 0,
+    "core": 4.231818555857691,
+    "coreFrames": 3,
+    "cost": 301.23181855585767,
+    "defects": [
+      {
+        "time": 95.6733036,
+        "pairs": [],
+        "core": 3.2869719340493098
+      },
+      {
+        "time": 95.69507,
+        "pairs": [],
+        "core": 4.231818555857691
+      },
+      {
+        "time": 95.74507,
+        "pairs": [],
+        "core": 3.212554115088584
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.165822611888692,
+    "coreFrames": 4,
+    "cost": 401.1658226118887,
+    "defects": [
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 3.1799395625642934
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.165822611888692
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.2767205307412395
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.142460242744727
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.083494089903716,
+    "coreFrames": 5,
+    "cost": 501.0834940899037,
+    "defects": [
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 3.329031507037006
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 3.455627763093827
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.083494089903716
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.381104273901925
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.1299157515913834
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.814632533484797,
+    "coreFrames": 5,
+    "cost": 501.81463253348477,
+    "defects": [
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 3.4123689554151904
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 4.023283292042046
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.814632533484797
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.311593028085924
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.147424649790731
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.542412407507745,
+    "coreFrames": 7,
+    "cost": 701.5424124075078,
+    "defects": [
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 3.1603008909125707
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 3.2936532347821457
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 3.529452333885019
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 3.9626132096345357
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.542412407507745
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.3829871391520827
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.140646489831922
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.941135443826294,
+    "coreFrames": 7,
+    "cost": 701.9411354438263,
+    "defects": [
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 3.107968393115279
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 3.299701323049631
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 4.346831327721401
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 4.710376462611188
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.941135443826294
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.343548791733597
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.149962361587433
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 5.468921059808035,
+    "coreFrames": 9,
+    "cost": 902.468921059808,
+    "defects": [
+      {
+        "time": 95.214182,
+        "pairs": [],
+        "core": 3.5307162496028277
+      },
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 3.2280859854857127
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 4.200076872052233
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 4.299648278908358
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 5.399319999414259
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 5.468921059808035
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 5.040429454543305
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.508191372899039
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.119829461876944
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 4.783479844807981,
+    "coreFrames": 10,
+    "cost": 1001.783479844808,
+    "defects": [
+      {
+        "time": 95.7638924,
+        "pairs": [],
+        "core": 3.0206774320479246
+      },
+      {
+        "time": 95.77007,
+        "pairs": [],
+        "core": 3.087414468256333
+      },
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 3.3215861311216566
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 3.428979053596515
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 3.50007886330872
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 4.191350334027288
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 4.4465862089067
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.783479844807981
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.3839405511232323
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.1461375252352375
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 5.525911792741894,
+    "coreFrames": 14,
+    "cost": 1402.525911792742,
+    "defects": [
+      {
+        "time": 95.239182,
+        "pairs": [],
+        "core": 3.369006536224295
+      },
+      {
+        "time": 95.26418199999999,
+        "pairs": [],
+        "core": 3.6131952688114866
+      },
+      {
+        "time": 95.265654,
+        "pairs": [],
+        "core": 3.4710145247148216
+      },
+      {
+        "time": 95.289182,
+        "pairs": [],
+        "core": 3.3840708638664396
+      },
+      {
+        "time": 95.7638924,
+        "pairs": [],
+        "core": 3.8055325368037685
+      },
+      {
+        "time": 95.77007,
+        "pairs": [],
+        "core": 4.16039561985479
+      },
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 4.052003351135064
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 4.403427160652617
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 5.385239049532712
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 5.525911792741894
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 5.218282357402182
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.460220911645885
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.45193431418489
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.1352007130263093
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.015,
+      "arrivalLift": 0.015
+    },
+    "pairs": 0,
+    "core": 5.501594471028618,
+    "coreFrames": 17,
+    "cost": 1702.5015944710285,
+    "defects": [
+      {
+        "time": 95.3109484,
+        "pairs": [],
+        "core": 3.2411746461404323
+      },
+      {
+        "time": 95.314182,
+        "pairs": [],
+        "core": 3.0010409789930637
+      },
+      {
+        "time": 95.339182,
+        "pairs": [],
+        "core": 3.3840710319300027
+      },
+      {
+        "time": 95.69507,
+        "pairs": [],
+        "core": 3.0739200300606284
+      },
+      {
+        "time": 95.718598,
+        "pairs": [],
+        "core": 3.9660063110775745
+      },
+      {
+        "time": 95.72007,
+        "pairs": [],
+        "core": 4.0995452912062635
+      },
+      {
+        "time": 95.74507,
+        "pairs": [],
+        "core": 4.278160092272082
+      },
+      {
+        "time": 95.7638924,
+        "pairs": [],
+        "core": 4.059481526646786
+      },
+      {
+        "time": 95.77007,
+        "pairs": [],
+        "core": 4.063063134552486
+      },
+      {
+        "time": 95.79507,
+        "pairs": [],
+        "core": 5.396178741265315
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [],
+        "core": 5.4515352537126835
+      },
+      {
+        "time": 95.82007,
+        "pairs": [],
+        "core": 5.501594471028618
+      },
+      {
+        "time": 95.84507,
+        "pairs": [],
+        "core": 4.934336548637286
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [],
+        "core": 4.611644650710844
+      },
+      {
+        "time": 95.87007,
+        "pairs": [],
+        "core": 4.645680416311859
+      },
+      {
+        "time": 95.89507,
+        "pairs": [],
+        "core": 3.4229532875441615
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [],
+        "core": 3.1430657335747014
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 9,
+    "core": 3.25262938263432,
+    "coreFrames": 2,
+    "cost": 9200.252629382634,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.7638924,
+        "pairs": [],
+        "core": 3.1894272222208753
+      },
+      {
+        "time": 95.77007,
+        "pairs": [],
+        "core": 3.25262938263432
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 11,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 11000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 11,
+    "core": 3.0906225788495667,
+    "coreFrames": 1,
+    "cost": 11100.09062257885,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.72007,
+        "pairs": [],
+        "core": 3.0906225788495667
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 12,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 12000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.22,
+      "arrival": 0.22,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 14,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 14000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.214182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.2203596,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.2
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 14,
+    "core": 4.115832722369123,
+    "coreFrames": 2,
+    "cost": 14201.11583272237,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.214182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.2203596,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.67007,
+        "pairs": [],
+        "core": 4.010858754062221
+      },
+      {
+        "time": 95.6733036,
+        "pairs": [],
+        "core": 4.115832722369123
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        0.05
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 16,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 16000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.214182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.2203596,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.79507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.3,
+      "arrival": 0.3,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 19,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 19000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.214182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.2203596,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.239182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.26418199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.265654,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.79507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  },
+  {
+    "cfg": {
+      "name": "g95",
+      "previous": "p00451",
+      "next": "p00459",
+      "end": 95.039182,
+      "start": 95.94507,
+      "target": [
+        0.2,
+        0.45,
+        -0.1
+      ],
+      "release": 0.4,
+      "arrival": 0.4,
+      "ramp": 0.1,
+      "arrivalRamp": 0.04,
+      "releaseLift": 0.045,
+      "arrivalLift": 0.045
+    },
+    "pairs": 24,
+    "core": 0,
+    "coreFrames": 0,
+    "cost": 24000,
+    "defects": [
+      {
+        "time": 95.114182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.1297708,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.13918199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.164182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.17506519999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.189182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.214182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.2203596,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.239182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.26418199999999,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.265654,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.289182,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.3109484,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.74507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.7638924,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.77007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.79507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8091868,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.82007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.84507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8544812,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.87007,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.89507,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      },
+      {
+        "time": 95.8997756,
+        "pairs": [
+          [
+            "RThumb",
+            "RPalm"
+          ]
+        ],
+        "core": 0
+      }
+    ]
+  }
+]

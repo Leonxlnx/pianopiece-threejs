@@ -1,0 +1,80 @@
+{
+  "status": "index early-release correction; curve-007 remains a finite blocker",
+  "operations": [
+    {
+      "op": "add-fields",
+      "collection": "supportedIndexGaps",
+      "match": {
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00800",
+        "previousEnd": 171.873523,
+        "next": "p00831",
+        "nextTime": 176.201552
+      },
+      "expectedBefore": {
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00800",
+        "previousEnd": 171.873523,
+        "next": "p00831",
+        "nextTime": 176.201552
+      },
+      "fields": {
+        "earlyRelease": [
+          176.02,
+          176.065
+        ]
+      }
+    }
+  ],
+  "helperChange": {
+    "before": "idleSmooth((c.nextTime - time) / .32)",
+    "after": "idleSmooth((c.nextTime - time) / .32) * (c.earlyRelease ? 1 - idleSmooth((time - c.earlyRelease[0]) / (c.earlyRelease[1] - c.earlyRelease[0])) : 1)",
+    "typeAddition": "earlyRelease?: readonly [number, number]",
+    "defaultBehavior": "Multiplier is exactly 1 for every record without earlyRelease."
+  },
+  "remainingBlocker": {
+    "collection": "curves",
+    "match": {
+      "hi": 0,
+      "fi": 1,
+      "previous": "p00424",
+      "previousEnd": 90.407126,
+      "next": "p00434",
+      "nextTime": 91.530895,
+      "knots": [
+        [
+          91.46,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          91.474,
+          9.5,
+          -13,
+          0,
+          0
+        ],
+        [
+          91.482,
+          9.5,
+          -13,
+          0,
+          0
+        ],
+        [
+          91.518,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    "reason": "No nonzero tested control/timing replacement eliminated new/worsened per-key >3 mm contacts. Removing the curve restores baseline geometry and forfeits its deep-contact reduction."
+  },
+  "scope": "Apply only the bound record field and the default-preserving helper expression. Do not replace newer complete scores or data with this frozen snapshot."
+}

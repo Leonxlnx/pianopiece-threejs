@@ -1,0 +1,550 @@
+{
+  "file": "candidate-finger-234.json",
+  "metric": "Closest actual outer torso-cloth triangle signed normal distance for exposed upper-arm-owned skin distal to sleeve extent +2mm. Local signed surface metric, not watertight volume containment.",
+  "rows": [
+    {
+      "time": 30.928909,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 80
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 34
+        }
+      ]
+    },
+    {
+      "time": 31.1,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 72
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 40
+        }
+      ]
+    },
+    {
+      "time": 31.277746,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0.7891737311051514,
+          "negativeVertices": 1,
+          "worst": [
+            {
+              "id": 7432,
+              "depthMm": 0.7891737311051514,
+              "point": [
+                -0.14821072182569625,
+                0.9076794168430599,
+                0.5766367188413353
+              ],
+              "closest": [
+                -0.14897724063762346,
+                0.9077318500702939,
+                0.5764564555741122
+              ],
+              "triangle": [
+                1046,
+                4998,
+                2357
+              ]
+            }
+          ],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 62
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 32
+        }
+      ]
+    },
+    {
+      "time": 31.44,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0.7407364072155129,
+          "negativeVertices": 1,
+          "worst": [
+            {
+              "id": 7432,
+              "depthMm": 0.7407364072155129,
+              "point": [
+                -0.14830977038093576,
+                0.9080976199071972,
+                0.5759771175096549
+              ],
+              "closest": [
+                -0.14902870313823563,
+                0.9081483099097256,
+                0.5758060717874066
+              ],
+              "triangle": [
+                1046,
+                4998,
+                2357
+              ]
+            }
+          ],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 63
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 32
+        }
+      ]
+    },
+    {
+      "time": 31.602581,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 43
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 34
+        }
+      ]
+    },
+    {
+      "time": 31.626583,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 43
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 36
+        }
+      ]
+    },
+    {
+      "time": 31.89137,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 27
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 41
+        }
+      ]
+    },
+    {
+      "time": 95.257914,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 0
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 40
+        }
+      ]
+    },
+    {
+      "time": 95.594992,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 6
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        }
+      ]
+    },
+    {
+      "time": 95.74,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 21
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        }
+      ]
+    },
+    {
+      "time": 95.887469,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 27
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        }
+      ]
+    },
+    {
+      "time": 95.920071,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 25
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        }
+      ]
+    },
+    {
+      "time": 154.112221,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 11
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        }
+      ]
+    },
+    {
+      "time": 154.6,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 26
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 39
+        }
+      ]
+    },
+    {
+      "time": 155.99,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 38
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 35
+        }
+      ]
+    },
+    {
+      "time": 157.47,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 41
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 34
+        }
+      ]
+    },
+    {
+      "time": 197.326853,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 18
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 53
+        }
+      ]
+    },
+    {
+      "time": 197.47,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 18
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 53
+        }
+      ]
+    },
+    {
+      "time": 197.79,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 26
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 51
+        }
+      ]
+    },
+    {
+      "time": 199.12,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 44
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 55
+        }
+      ]
+    },
+    {
+      "time": 200.69,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 47
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 50
+        }
+      ]
+    },
+    {
+      "time": 201.026989,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 42
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 55
+        }
+      ]
+    },
+    {
+      "time": 201.864,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 37
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 56
+        }
+      ]
+    },
+    {
+      "time": 202.073474,
+      "surfaces": [
+        {
+          "side": "L",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 12
+        },
+        {
+          "side": "R",
+          "maxDepthMm": 0,
+          "negativeVertices": 0,
+          "worst": [],
+          "forearmCrossings": 0,
+          "sleeveCrossings": 41
+        }
+      ]
+    }
+  ]
+}

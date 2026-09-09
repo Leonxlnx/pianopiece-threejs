@@ -1,0 +1,132 @@
+{
+  "baseSha256": "b7082785aeb9b2a69b321861d0a5d04d3760e6fe1cfa8a60b1d5eb2c10b1cf27",
+  "groups": [
+    {
+      "name": "L63-shared-B3",
+      "targets": [
+        "p00881",
+        "p00883",
+        "p00885",
+        "p00887"
+      ],
+      "notes": [
+        {
+          "id": "p00881",
+          "time": 183.952847,
+          "duration": 0.26401,
+          "midi": 59,
+          "velocity": 0.643,
+          "hand": "L",
+          "finger": 2,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 1,
+          "contactLift": 0.003008,
+          "writtenDuration": 0.30567,
+          "contactZ": 0.269,
+          "thumbOpposition": 0
+        },
+        {
+          "id": "p00883",
+          "time": 184.282517,
+          "duration": 0.20401,
+          "midi": 57,
+          "velocity": 0.667,
+          "hand": "L",
+          "finger": 3,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 1.5,
+          "contactLift": 0.003271,
+          "writtenDuration": 0.30567,
+          "contactZ": 0.269,
+          "thumbOpposition": 0
+        },
+        {
+          "id": "p00885",
+          "time": 184.612187,
+          "duration": 0.24501,
+          "midi": 63,
+          "velocity": 0.655,
+          "hand": "L",
+          "finger": 1,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 2,
+          "contactLift": 0.009341066163071572,
+          "writtenDuration": 0.305671,
+          "contactZ": 0.207,
+          "thumbOpposition": 0
+        },
+        {
+          "id": "p00887",
+          "time": 184.941858,
+          "duration": 0.20501,
+          "midi": 59,
+          "velocity": 0.643,
+          "hand": "L",
+          "finger": 2,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 2.5,
+          "contactLift": 0.003008,
+          "writtenDuration": 0.30567,
+          "contactZ": 0.269,
+          "thumbOpposition": 0
+        }
+      ],
+      "knots": [
+        433,
+        434,
+        435,
+        436
+      ],
+      "context": [
+        183.565176,
+        185.877198
+      ],
+      "guards": [
+        {
+          "id": "p00880",
+          "time": 183.623176,
+          "duration": 0.24301,
+          "midi": 54,
+          "velocity": 0.655,
+          "hand": "L",
+          "finger": 2,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 0.5,
+          "contactLift": 0.002014,
+          "writtenDuration": 0.305671,
+          "contactZ": 0.20909999999999998,
+          "thumbOpposition": 0
+        },
+        {
+          "id": "p00888",
+          "time": 185.271528,
+          "duration": 0.30567,
+          "midi": 54,
+          "velocity": 0.667,
+          "hand": "L",
+          "finger": 2,
+          "role": "harmony",
+          "bar": 66,
+          "beat": 3,
+          "contactLift": 0.003514
+        }
+      ]
+    }
+  ],
+  "additionalMoveStartOnly": [
+    437
+  ],
+  "fixedKnots": [
+    432,
+    447,
+    470,
+    471,
+    472,
+    492
+  ]
+}

@@ -1,0 +1,11 @@
+--- a/app/performance/piano.ts
++++ b/app/performance/piano.ts
+@@ -175,7 +175,7 @@
+  const c=document.createElement('canvas');c.width=512;c.height=96;const ct=c.getContext('2d')!;ct.clearRect(0,0,512,96);ct.fillStyle='#bc9e66';ct.font='32px Georgia';ct.textAlign='center';ct.fillText('D A Y B R E A K',256,55);const tex=new THREE.CanvasTexture(c);tex.colorSpace=THREE.SRGBColorSpace;const label=new THREE.Mesh(new THREE.PlaneGeometry(.205,.039),new THREE.MeshBasicMaterial({map:tex,transparent:true,depthWrite:false}));label.position.set(0,.829,.1292);this.group.add(label);
+  // Raised lid rotates around the bass rim; soundboard remains physically open.
+  const lidPivot=new THREE.Group();lidPivot.position.set(-.75,.963,0);this.group.add(lidPivot);const lid=slab(outline(),.035,lacquer,0,lidPivot);lid.position.x=.75;lidPivot.rotation.z=.44;
+- const lidFinish=new THREE.MeshPhysicalMaterial({name:'Lid interior lacquer',color:0x101317,metalness:.025,roughness:.26,clearcoat:.85,clearcoatRoughness:.14});
++ const lidFinish=new THREE.MeshPhysicalMaterial({name:'Lid interior soft satin lacquer',color:0x101317,metalness:0,roughness:.48,clearcoat:.15,clearcoatRoughness:.30});
+  const lidInside=slab(outline(.034),.009,lidFinish,-.006,lidPivot);lidInside.position.x=.75;
+  // The prop meets a shoe on the transformed lid underside. Its endpoint
+  // follows the lid angle instead of passing through a hard-coded height.

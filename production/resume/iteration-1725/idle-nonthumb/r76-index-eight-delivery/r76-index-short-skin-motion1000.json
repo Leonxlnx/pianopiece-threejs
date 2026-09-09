@@ -1,0 +1,65 @@
+{
+  "score": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+  "rig": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/pianist-final-input.mjs",
+  "curves": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/r76-index-short-v1.json",
+  "samples": 399,
+  "rows": [
+    {
+      "ci": 0,
+      "curve": {
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00238",
+        "previousEnd": 54.427584,
+        "next": "p00243",
+        "nextTime": 54.82203,
+        "phase": "short",
+        "knots": [
+          [
+            54.427584,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            54.460042,
+            32,
+            10,
+            0,
+            0
+          ],
+          [
+            54.751971,
+            32,
+            10,
+            0,
+            0
+          ],
+          [
+            54.82203,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 327,
+      "samples": 399,
+      "maxBase": {
+        "speed": 0.22263131411764966,
+        "time": 54.529,
+        "previousTime": 54.528,
+        "vertex": 1683
+      },
+      "maxCandidate": {
+        "speed": 1.6673999989843737,
+        "time": 54.445,
+        "previousTime": 54.444,
+        "vertex": 1837
+      }
+    }
+  ],
+  "scope": "1000Hz plus exact curve knots, finite first-difference velocity of every owned vertex on each changed digit using actual skinned mesh world positions. Steps <=10 microseconds omitted to avoid duplicate-boundary numerical noise. Does not measure acceleration, continuous peak, or perceptual naturalness."
+}

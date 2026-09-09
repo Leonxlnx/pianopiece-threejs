@@ -1,0 +1,2056 @@
+{
+  "complete": true,
+  "coverage": {
+    "fps": 60,
+    "epsilon": 0.000001,
+    "records": 120,
+    "indexRecords": 85,
+    "curveRecords": 35,
+    "noteCount": 1068,
+    "samples": 13441,
+    "handStates": 17019,
+    "patchStates": 102114,
+    "firstTime": 0,
+    "lastTime": 233.144229,
+    "kinds": {
+      "60Hz": 8906,
+      "curveOrSupportBoundaryProbe": 619,
+      "exactCurveOrSupportBoundary": 310,
+      "exactNoteBoundary": 1396,
+      "noteBoundaryProbe": 2669
+    },
+    "perRecord": [
+      {
+        "id": "index-001",
+        "hi": 0,
+        "fi": 1,
+        "next": "p00003",
+        "begin": 0,
+        "end": 1.165846,
+        "samples": 83
+      },
+      {
+        "id": "index-002",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00003",
+        "next": "p00016",
+        "begin": 1.911077,
+        "end": 4.987657,
+        "samples": 251
+      },
+      {
+        "id": "index-003",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00016",
+        "next": "p00021",
+        "begin": 5.723151,
+        "end": 7.280744,
+        "samples": 123
+      },
+      {
+        "id": "index-004",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00021",
+        "next": "p00030",
+        "begin": 8.025975,
+        "end": 9.603821,
+        "samples": 137
+      },
+      {
+        "id": "index-005",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00030",
+        "next": "p00038",
+        "begin": 9.979821,
+        "end": 12.391821,
+        "samples": 193
+      },
+      {
+        "id": "index-006",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00039",
+        "next": "p00046",
+        "begin": 12.749658,
+        "end": 13.81217,
+        "samples": 103
+      },
+      {
+        "id": "index-007",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00047",
+        "next": "p00054",
+        "begin": 14.472844,
+        "end": 15.539346,
+        "samples": 100
+      },
+      {
+        "id": "index-008",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00054",
+        "next": "p00061",
+        "begin": 15.860174,
+        "end": 16.918656,
+        "samples": 103
+      },
+      {
+        "id": "index-009",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00106",
+        "next": "p00109",
+        "begin": 26.613345,
+        "end": 27.115756,
+        "samples": 45
+      },
+      {
+        "id": "index-010",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00111",
+        "next": "p00118",
+        "begin": 27.781411000000002,
+        "end": 28.839894,
+        "samples": 103
+      },
+      {
+        "id": "index-011",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00120",
+        "next": "p00125",
+        "begin": 29.392067,
+        "end": 30.231233,
+        "samples": 77
+      },
+      {
+        "id": "index-012",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00136",
+        "next": "p00144",
+        "begin": 32.674311,
+        "end": 34.854985,
+        "samples": 182
+      },
+      {
+        "id": "index-013",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00140",
+        "next": "p00152",
+        "begin": 34.063977,
+        "end": 36.275334,
+        "samples": 199
+      },
+      {
+        "id": "index-014",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00144",
+        "next": "p00151",
+        "begin": 35.049341999999996,
+        "end": 36.262334,
+        "samples": 112
+      },
+      {
+        "id": "index-015",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00152",
+        "next": "p00162",
+        "begin": 36.608171,
+        "end": 38.360338,
+        "samples": 162
+      },
+      {
+        "id": "index-016",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00162",
+        "next": "p00170",
+        "begin": 38.689166,
+        "end": 39.739649,
+        "samples": 108
+      },
+      {
+        "id": "index-017",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00170",
+        "next": "p00179",
+        "begin": 40.357316,
+        "end": 41.824653,
+        "samples": 133
+      },
+      {
+        "id": "index-018",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00174",
+        "next": "p00186",
+        "begin": 41.020021,
+        "end": 43.195001,
+        "samples": 202
+      },
+      {
+        "id": "index-019",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00188",
+        "next": "p00198",
+        "begin": 43.905893,
+        "end": 46.086568,
+        "samples": 185
+      },
+      {
+        "id": "index-020",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00200",
+        "next": "p00209",
+        "begin": 46.772242000000006,
+        "end": 48.191591,
+        "samples": 136
+      },
+      {
+        "id": "index-021",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00209",
+        "next": "p00215",
+        "begin": 48.516428000000005,
+        "end": 49.578921,
+        "samples": 97
+      },
+      {
+        "id": "index-022",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00228",
+        "next": "p00240",
+        "begin": 52.321561,
+        "end": 54.426584,
+        "samples": 192
+      },
+      {
+        "id": "index-023",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00242",
+        "next": "p00251",
+        "begin": 55.067518,
+        "end": 57.31815,
+        "samples": 186
+      },
+      {
+        "id": "index-024",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00251",
+        "next": "p00270",
+        "begin": 57.533486,
+        "end": 61.111498,
+        "samples": 322
+      },
+      {
+        "id": "index-025",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00311",
+        "next": "p00319",
+        "begin": 69.44229,
+        "end": 70.500773,
+        "samples": 109
+      },
+      {
+        "id": "index-026",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00338",
+        "next": "p00345",
+        "begin": 74.25622800000001,
+        "end": 75.310011,
+        "samples": 102
+      },
+      {
+        "id": "index-027",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00339",
+        "next": "p00344",
+        "begin": 74.513399,
+        "end": 75.297011,
+        "samples": 74
+      },
+      {
+        "id": "index-028",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00346",
+        "next": "p00364",
+        "begin": 75.89270900000001,
+        "end": 79.524964,
+        "samples": 320
+      },
+      {
+        "id": "index-029",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00364",
+        "next": "p00372",
+        "begin": 79.79744099999999,
+        "end": 80.8971,
+        "samples": 108
+      },
+      {
+        "id": "index-030",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00366",
+        "next": "p00373",
+        "begin": 79.85947300000001,
+        "end": 80.9101,
+        "samples": 102
+      },
+      {
+        "id": "index-031",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00372",
+        "next": "p00381",
+        "begin": 81.14509199999999,
+        "end": 82.597815,
+        "samples": 138
+      },
+      {
+        "id": "index-032",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00381",
+        "next": "p00392",
+        "begin": 82.910894,
+        "end": 84.620287,
+        "samples": 163
+      },
+      {
+        "id": "index-033",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00391",
+        "next": "p00400",
+        "begin": 84.946366,
+        "end": 85.652184,
+        "samples": 85
+      },
+      {
+        "id": "index-034",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00400",
+        "next": "p00413",
+        "begin": 86.09982000000001,
+        "end": 87.701139,
+        "samples": 160
+      },
+      {
+        "id": "index-035",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00436",
+        "next": "p00444",
+        "begin": 92.14815,
+        "end": 93.251941,
+        "samples": 112
+      },
+      {
+        "id": "index-036",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00508",
+        "next": "p00519",
+        "begin": 104.532324,
+        "end": 106.245617,
+        "samples": 166
+      },
+      {
+        "id": "index-037",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00532",
+        "next": "p00541",
+        "begin": 108.928229,
+        "end": 109.986988,
+        "samples": 109
+      },
+      {
+        "id": "index-038",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00540",
+        "next": "p00546",
+        "begin": 110.328929,
+        "end": 111.058812,
+        "samples": 71
+      },
+      {
+        "id": "index-039",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00546",
+        "next": "p00550",
+        "begin": 111.748694,
+        "end": 113.202284,
+        "samples": 106
+      },
+      {
+        "id": "index-040",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00557",
+        "next": "p00561",
+        "begin": 116.096297,
+        "end": 116.843189,
+        "samples": 69
+      },
+      {
+        "id": "index-041",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00564",
+        "next": "p00578",
+        "begin": 119.370533,
+        "end": 121.984295,
+        "samples": 217
+      },
+      {
+        "id": "index-042",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00591",
+        "next": "p00600",
+        "begin": 126.067044,
+        "end": 128.626388,
+        "samples": 204
+      },
+      {
+        "id": "index-043",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00608",
+        "next": "p00614",
+        "begin": 132.243293,
+        "end": 132.999001,
+        "samples": 75
+      },
+      {
+        "id": "index-044",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00619",
+        "next": "p00645",
+        "begin": 134.493988,
+        "end": 140.305883,
+        "samples": 505
+      },
+      {
+        "id": "index-045",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00624",
+        "next": "p00631",
+        "begin": 136.23962600000002,
+        "end": 137.452547,
+        "samples": 112
+      },
+      {
+        "id": "index-046",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00641",
+        "next": "p00649",
+        "begin": 139.915942,
+        "end": 141.351706,
+        "samples": 138
+      },
+      {
+        "id": "index-047",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00650",
+        "next": "p00676",
+        "begin": 141.693647,
+        "end": 147.921607,
+        "samples": 521
+      },
+      {
+        "id": "index-048",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00667",
+        "next": "p00709",
+        "begin": 145.27853100000002,
+        "end": 156.945984,
+        "samples": 952
+      },
+      {
+        "id": "index-049",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00693",
+        "next": "p00721",
+        "begin": 153.76038300000002,
+        "end": 159.181206,
+        "samples": 487
+      },
+      {
+        "id": "index-050",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00709",
+        "next": "p00716",
+        "begin": 157.29235400000002,
+        "end": 158.427465,
+        "samples": 107
+      },
+      {
+        "id": "index-051",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00720",
+        "next": "p00729",
+        "begin": 159.424607,
+        "end": 160.501539,
+        "samples": 110
+      },
+      {
+        "id": "index-052",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00721",
+        "next": "p00730",
+        "begin": 159.43365,
+        "end": 160.514539,
+        "samples": 106
+      },
+      {
+        "id": "index-053",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00730",
+        "next": "p00738",
+        "begin": 160.831873,
+        "end": 161.847873,
+        "samples": 103
+      },
+      {
+        "id": "index-054",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00738",
+        "next": "p00760",
+        "begin": 162.109752,
+        "end": 165.151902,
+        "samples": 306
+      },
+      {
+        "id": "index-055",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00742",
+        "next": "p00751",
+        "begin": 162.781958,
+        "end": 164.142565,
+        "samples": 130
+      },
+      {
+        "id": "index-056",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00760",
+        "next": "p00766",
+        "begin": 165.589235,
+        "end": 166.160902,
+        "samples": 55
+      },
+      {
+        "id": "index-057",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00766",
+        "next": "p00774",
+        "begin": 166.41217899999998,
+        "end": 167.155402,
+        "samples": 87
+      },
+      {
+        "id": "index-058",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00783",
+        "next": "p00799",
+        "begin": 168.86903999999998,
+        "end": 171.243856,
+        "samples": 235
+      },
+      {
+        "id": "index-059",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00800",
+        "next": "p00831",
+        "begin": 171.873523,
+        "end": 176.201552,
+        "samples": 437
+      },
+      {
+        "id": "index-060",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00816",
+        "next": "p00825",
+        "begin": 174.147977,
+        "end": 175.218052,
+        "samples": 113
+      },
+      {
+        "id": "index-061",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00825",
+        "next": "p00836",
+        "begin": 175.530018,
+        "end": 177.214552,
+        "samples": 158
+      },
+      {
+        "id": "index-062",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00831",
+        "next": "p00857",
+        "begin": 176.510885,
+        "end": 180.618339,
+        "samples": 397
+      },
+      {
+        "id": "index-063",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00836",
+        "next": "p00854",
+        "begin": 177.47032099999998,
+        "end": 180.02815,
+        "samples": 258
+      },
+      {
+        "id": "index-064",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00857",
+        "next": "p00867",
+        "begin": 180.883241,
+        "end": 181.960173,
+        "samples": 113
+      },
+      {
+        "id": "index-065",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00858",
+        "next": "p00866",
+        "begin": 180.967173,
+        "end": 181.648839,
+        "samples": 73
+      },
+      {
+        "id": "index-066",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00866",
+        "next": "p00877",
+        "begin": 181.949173,
+        "end": 183.306506,
+        "samples": 142
+      },
+      {
+        "id": "index-067",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00867",
+        "next": "p00880",
+        "begin": 182.200589,
+        "end": 183.623176,
+        "samples": 148
+      },
+      {
+        "id": "index-068",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00886",
+        "next": "p00895",
+        "begin": 185.26052800000002,
+        "end": 185.947369,
+        "samples": 80
+      },
+      {
+        "id": "index-069",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00904",
+        "next": "p00915",
+        "begin": 187.262202,
+        "end": 188.610535,
+        "samples": 144
+      },
+      {
+        "id": "index-070",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00905",
+        "next": "p00914",
+        "begin": 187.494856,
+        "end": 188.589035,
+        "samples": 117
+      },
+      {
+        "id": "index-071",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00915",
+        "next": "p00924",
+        "begin": 189.063501,
+        "end": 190.067811,
+        "samples": 97
+      },
+      {
+        "id": "index-072",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00951",
+        "next": "p00961",
+        "begin": 194.34476,
+        "end": 195.693174,
+        "samples": 132
+      },
+      {
+        "id": "index-073",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00961",
+        "next": "p00967",
+        "begin": 195.95318,
+        "end": 196.676685,
+        "samples": 76
+      },
+      {
+        "id": "index-074",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00965",
+        "next": "p00985",
+        "begin": 196.88501300000001,
+        "end": 200.016507,
+        "samples": 301
+      },
+      {
+        "id": "index-075",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00985",
+        "next": "p00989",
+        "begin": 200.337335,
+        "end": 201.05099,
+        "samples": 61
+      },
+      {
+        "id": "index-076",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00988",
+        "next": "p00991",
+        "begin": 201.392818,
+        "end": 202.098473,
+        "samples": 54
+      },
+      {
+        "id": "index-077",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00990",
+        "next": "p00997",
+        "begin": 202.30112400000002,
+        "end": 203.514044,
+        "samples": 111
+      },
+      {
+        "id": "index-078",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p01002",
+        "next": "p01016",
+        "begin": 204.931616,
+        "end": 207.150738,
+        "samples": 206
+      },
+      {
+        "id": "index-079",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p01016",
+        "next": "p01026",
+        "begin": 207.83344499999998,
+        "end": 210.132445,
+        "samples": 188
+      },
+      {
+        "id": "index-080",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p01018",
+        "next": "p01048",
+        "begin": 208.077964,
+        "end": 218.143564,
+        "samples": 781
+      },
+      {
+        "id": "index-081",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p01036",
+        "next": "p01046",
+        "begin": 213.22210700000002,
+        "end": 217.286999,
+        "samples": 304
+      },
+      {
+        "id": "index-082",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p01046",
+        "next": "p01061",
+        "begin": 218.132564,
+        "end": 224.107593,
+        "samples": 440
+      },
+      {
+        "id": "index-083",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p01051",
+        "next": "p01057",
+        "begin": 219.85869499999998,
+        "end": 221.704641,
+        "samples": 144
+      },
+      {
+        "id": "index-084",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p01057",
+        "begin": 222.633022,
+        "end": 233.144228,
+        "samples": 691
+      },
+      {
+        "id": "index-085",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p01066",
+        "begin": 228.89211699999998,
+        "end": 233.144228,
+        "samples": 270
+      },
+      {
+        "id": "curve-001",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00739",
+        "next": "p00741",
+        "begin": 162.084383,
+        "end": 162.186543,
+        "samples": 69
+      },
+      {
+        "id": "curve-002",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00727",
+        "next": "p00743",
+        "begin": 162.084383,
+        "end": 162.25,
+        "samples": 30
+      },
+      {
+        "id": "curve-003",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00739",
+        "next": "p00741",
+        "begin": 162.168,
+        "end": 162.176,
+        "samples": 9
+      },
+      {
+        "id": "curve-004",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00535",
+        "next": "p00543",
+        "begin": 109.52,
+        "end": 109.72,
+        "samples": 39
+      },
+      {
+        "id": "curve-005",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00533",
+        "next": "p00554",
+        "begin": 109.52,
+        "end": 109.72,
+        "samples": 39
+      },
+      {
+        "id": "curve-006",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00529",
+        "next": "p00572",
+        "begin": 109.52,
+        "end": 109.72,
+        "samples": 39
+      },
+      {
+        "id": "curve-007",
+        "hi": 0,
+        "fi": 1,
+        "previous": "p00424",
+        "next": "p00434",
+        "begin": 91.46,
+        "end": 91.518,
+        "samples": 19
+      },
+      {
+        "id": "curve-008",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00293",
+        "next": "p00309",
+        "begin": 68.32,
+        "end": 68.448307,
+        "samples": 28
+      },
+      {
+        "id": "curve-009",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00331",
+        "next": "p00347",
+        "begin": 73.803,
+        "end": 74.003,
+        "samples": 36
+      },
+      {
+        "id": "curve-010",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00327",
+        "next": "p00359",
+        "begin": 73.803,
+        "end": 74.003,
+        "samples": 36
+      },
+      {
+        "id": "curve-011",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00324",
+        "next": "p00340",
+        "begin": 73.803,
+        "end": 74.003,
+        "samples": 36
+      },
+      {
+        "id": "curve-012",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00216",
+        "next": "p00225",
+        "begin": 49.883542,
+        "end": 50.1,
+        "samples": 33
+      },
+      {
+        "id": "curve-013",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00216",
+        "next": "p00225",
+        "begin": 51.035,
+        "end": 51.325059,
+        "samples": 37
+      },
+      {
+        "id": "curve-014",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00196",
+        "next": "p00208",
+        "begin": 47.574695,
+        "end": 47.864754,
+        "samples": 38
+      },
+      {
+        "id": "curve-015",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00210",
+        "next": "p00216",
+        "begin": 49.301862,
+        "end": 49.591921,
+        "samples": 38
+      },
+      {
+        "id": "curve-016",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00225",
+        "next": "p00238",
+        "begin": 51.636886000000004,
+        "end": 51.85334400000001,
+        "samples": 28
+      },
+      {
+        "id": "curve-017",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00225",
+        "next": "p00238",
+        "begin": 53.46385,
+        "end": 53.753909,
+        "samples": 39
+      },
+      {
+        "id": "curve-018",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00243",
+        "next": "p00248",
+        "begin": 55.112269,
+        "end": 55.328727,
+        "samples": 31
+      },
+      {
+        "id": "curve-019",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00243",
+        "next": "p00248",
+        "begin": 55.616308000000004,
+        "end": 55.906367,
+        "samples": 33
+      },
+      {
+        "id": "curve-020",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00248",
+        "next": "p00253",
+        "begin": 56.226813,
+        "end": 56.443271,
+        "samples": 31
+      },
+      {
+        "id": "curve-021",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00238",
+        "next": "p00243",
+        "begin": 54.427584,
+        "end": 54.82203,
+        "samples": 48
+      },
+      {
+        "id": "curve-022",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00159",
+        "next": "p00193",
+        "begin": 42.8,
+        "end": 43.22,
+        "samples": 54
+      },
+      {
+        "id": "curve-023",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00181",
+        "next": "p00203",
+        "begin": 42.8,
+        "end": 43.22,
+        "samples": 54
+      },
+      {
+        "id": "curve-024",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00177",
+        "next": "p00187",
+        "begin": 42.8,
+        "end": 43.22,
+        "samples": 54
+      },
+      {
+        "id": "curve-025",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00401",
+        "next": "p00423",
+        "begin": 89.2,
+        "end": 89.480345,
+        "samples": 54
+      },
+      {
+        "id": "curve-026",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00421",
+        "next": "p00436",
+        "begin": 90.77,
+        "end": 90.88,
+        "samples": 33
+      },
+      {
+        "id": "curve-027",
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00415",
+        "next": "p00418",
+        "begin": 88.357021,
+        "end": 88.407021,
+        "samples": 27
+      },
+      {
+        "id": "curve-028",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00014",
+        "next": "p00020",
+        "begin": 6.045,
+        "end": 6.25,
+        "samples": 32
+      },
+      {
+        "id": "curve-029",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00014",
+        "next": "p00020",
+        "begin": 6.62,
+        "end": 6.72,
+        "samples": 17
+      },
+      {
+        "id": "curve-030",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00020",
+        "next": "p00025",
+        "begin": 7.3,
+        "end": 8.36,
+        "samples": 90
+      },
+      {
+        "id": "curve-031",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00029",
+        "next": "p00035",
+        "begin": 10.52,
+        "end": 10.63,
+        "samples": 17
+      },
+      {
+        "id": "curve-032",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00035",
+        "next": "p00048",
+        "begin": 11.600821,
+        "end": 11.8,
+        "samples": 30
+      },
+      {
+        "id": "curve-033",
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00035",
+        "next": "p00048",
+        "begin": 11.78,
+        "end": 12.67,
+        "samples": 83
+      },
+      {
+        "id": "curve-034",
+        "hi": 1,
+        "fi": 1,
+        "previous": "p00032",
+        "next": "p00039",
+        "begin": 12.27,
+        "end": 12.416821,
+        "samples": 29
+      },
+      {
+        "id": "curve-035",
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00037",
+        "next": "p00055",
+        "begin": 12.392821,
+        "end": 12.55,
+        "samples": 26
+      }
+    ]
+  },
+  "processed": 13441,
+  "handStates": 17019,
+  "patchStates": 102114,
+  "regressionEvents": 1037,
+  "queueEntries": 86,
+  "counts": {
+    "baseCorePatchStates": 4330,
+    "candidateCorePatchStates": 3633,
+    "baseCoreKeyTypes": 4769,
+    "candidateCoreKeyTypes": 4064,
+    "newCorePatchStates": 0,
+    "worsenedCorePatchStates": 0,
+    "newCoreKeyTypes": 4,
+    "worsenedCoreKeyTypes": 4,
+    "newNeighborPairTypes": 0,
+    "newOwnPalmTypes": 0,
+    "strictExistingNeighborPairIncreases": 1028,
+    "strictExistingOwnPalmIncreases": 1,
+    "existingNeighborIncreasesOver2": 806,
+    "existingOwnPalmIncreasesOver2": 0,
+    "regressionHandStates": 1017,
+    "strictOnlyHandStates": 1013,
+    "changedHandStates": 15561
+  },
+  "parity": {
+    "activeFingerStates": 23222,
+    "activeLocalQuaternionComponents": 278664,
+    "activeWorldMatrixComponents": 1114656,
+    "maxActiveLocalComponentDelta": 0,
+    "maxActiveWorldComponentDelta": 0,
+    "maxWristLocalComponentDelta": 0,
+    "maxWristWorldComponentDelta": 0,
+    "activeViolations": 0,
+    "wristViolations": 0
+  },
+  "mesh": {
+    "vertices": [
+      {
+        "patch": "LThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "LIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "LMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "LRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "LPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "LPalm",
+        "count": 190,
+        "triangles": 279
+      },
+      {
+        "patch": "RThumb",
+        "count": 236,
+        "triangles": 376
+      },
+      {
+        "patch": "RIndex",
+        "count": 327,
+        "triangles": 549
+      },
+      {
+        "patch": "RMiddle",
+        "count": 321,
+        "triangles": 542
+      },
+      {
+        "patch": "RRing",
+        "count": 318,
+        "triangles": 535
+      },
+      {
+        "patch": "RPinky",
+        "count": 303,
+        "triangles": 546
+      },
+      {
+        "patch": "RPalm",
+        "count": 190,
+        "triangles": 279
+      }
+    ],
+    "keys": 88,
+    "ownershipWeightThreshold": 0.65
+  },
+  "recordStats": {
+    "index-001": {
+      "samples": 83,
+      "changedSamples": 80,
+      "regressionSamples": 0,
+      "activeFingerStates": 79
+    },
+    "index-002": {
+      "samples": 251,
+      "changedSamples": 97,
+      "regressionSamples": 1,
+      "activeFingerStates": 209
+    },
+    "index-003": {
+      "samples": 123,
+      "changedSamples": 119,
+      "regressionSamples": 0,
+      "activeFingerStates": 100
+    },
+    "index-004": {
+      "samples": 137,
+      "changedSamples": 133,
+      "regressionSamples": 0,
+      "activeFingerStates": 115
+    },
+    "index-005": {
+      "samples": 193,
+      "changedSamples": 189,
+      "regressionSamples": 80,
+      "activeFingerStates": 159
+    },
+    "index-006": {
+      "samples": 103,
+      "changedSamples": 99,
+      "regressionSamples": 4,
+      "activeFingerStates": 79
+    },
+    "index-007": {
+      "samples": 100,
+      "changedSamples": 96,
+      "regressionSamples": 1,
+      "activeFingerStates": 68
+    },
+    "index-008": {
+      "samples": 103,
+      "changedSamples": 99,
+      "regressionSamples": 5,
+      "activeFingerStates": 74
+    },
+    "index-009": {
+      "samples": 45,
+      "changedSamples": 41,
+      "regressionSamples": 7,
+      "activeFingerStates": 25
+    },
+    "index-010": {
+      "samples": 103,
+      "changedSamples": 99,
+      "regressionSamples": 38,
+      "activeFingerStates": 78
+    },
+    "index-011": {
+      "samples": 77,
+      "changedSamples": 53,
+      "regressionSamples": 1,
+      "activeFingerStates": 49
+    },
+    "index-012": {
+      "samples": 182,
+      "changedSamples": 178,
+      "regressionSamples": 78,
+      "activeFingerStates": 149
+    },
+    "index-013": {
+      "samples": 199,
+      "changedSamples": 195,
+      "regressionSamples": 12,
+      "activeFingerStates": 149
+    },
+    "index-014": {
+      "samples": 112,
+      "changedSamples": 108,
+      "regressionSamples": 10,
+      "activeFingerStates": 67
+    },
+    "index-015": {
+      "samples": 162,
+      "changedSamples": 158,
+      "regressionSamples": 59,
+      "activeFingerStates": 129
+    },
+    "index-016": {
+      "samples": 108,
+      "changedSamples": 104,
+      "regressionSamples": 0,
+      "activeFingerStates": 72
+    },
+    "index-017": {
+      "samples": 133,
+      "changedSamples": 129,
+      "regressionSamples": 1,
+      "activeFingerStates": 101
+    },
+    "index-018": {
+      "samples": 202,
+      "changedSamples": 111,
+      "regressionSamples": 0,
+      "activeFingerStates": 136
+    },
+    "index-019": {
+      "samples": 185,
+      "changedSamples": 181,
+      "regressionSamples": 81,
+      "activeFingerStates": 154
+    },
+    "index-020": {
+      "samples": 136,
+      "changedSamples": 132,
+      "regressionSamples": 36,
+      "activeFingerStates": 100
+    },
+    "index-021": {
+      "samples": 97,
+      "changedSamples": 93,
+      "regressionSamples": 0,
+      "activeFingerStates": 70
+    },
+    "index-022": {
+      "samples": 192,
+      "changedSamples": 188,
+      "regressionSamples": 8,
+      "activeFingerStates": 135
+    },
+    "index-023": {
+      "samples": 186,
+      "changedSamples": 182,
+      "regressionSamples": 9,
+      "activeFingerStates": 147
+    },
+    "index-024": {
+      "samples": 322,
+      "changedSamples": 202,
+      "regressionSamples": 2,
+      "activeFingerStates": 243
+    },
+    "index-025": {
+      "samples": 109,
+      "changedSamples": 42,
+      "regressionSamples": 0,
+      "activeFingerStates": 66
+    },
+    "index-026": {
+      "samples": 102,
+      "changedSamples": 98,
+      "regressionSamples": 3,
+      "activeFingerStates": 78
+    },
+    "index-027": {
+      "samples": 74,
+      "changedSamples": 70,
+      "regressionSamples": 6,
+      "activeFingerStates": 43
+    },
+    "index-028": {
+      "samples": 320,
+      "changedSamples": 307,
+      "regressionSamples": 1,
+      "activeFingerStates": 260
+    },
+    "index-029": {
+      "samples": 108,
+      "changedSamples": 98,
+      "regressionSamples": 0,
+      "activeFingerStates": 64
+    },
+    "index-030": {
+      "samples": 102,
+      "changedSamples": 98,
+      "regressionSamples": 3,
+      "activeFingerStates": 78
+    },
+    "index-031": {
+      "samples": 138,
+      "changedSamples": 112,
+      "regressionSamples": 4,
+      "activeFingerStates": 85
+    },
+    "index-032": {
+      "samples": 163,
+      "changedSamples": 159,
+      "regressionSamples": 20,
+      "activeFingerStates": 126
+    },
+    "index-033": {
+      "samples": 85,
+      "changedSamples": 81,
+      "regressionSamples": 0,
+      "activeFingerStates": 84
+    },
+    "index-034": {
+      "samples": 160,
+      "changedSamples": 156,
+      "regressionSamples": 0,
+      "activeFingerStates": 121
+    },
+    "index-035": {
+      "samples": 112,
+      "changedSamples": 108,
+      "regressionSamples": 4,
+      "activeFingerStates": 77
+    },
+    "index-036": {
+      "samples": 166,
+      "changedSamples": 162,
+      "regressionSamples": 16,
+      "activeFingerStates": 120
+    },
+    "index-037": {
+      "samples": 109,
+      "changedSamples": 105,
+      "regressionSamples": 0,
+      "activeFingerStates": 82
+    },
+    "index-038": {
+      "samples": 71,
+      "changedSamples": 67,
+      "regressionSamples": 21,
+      "activeFingerStates": 50
+    },
+    "index-039": {
+      "samples": 106,
+      "changedSamples": 102,
+      "regressionSamples": 3,
+      "activeFingerStates": 26
+    },
+    "index-040": {
+      "samples": 69,
+      "changedSamples": 65,
+      "regressionSamples": 1,
+      "activeFingerStates": 52
+    },
+    "index-041": {
+      "samples": 217,
+      "changedSamples": 213,
+      "regressionSamples": 1,
+      "activeFingerStates": 211
+    },
+    "index-042": {
+      "samples": 204,
+      "changedSamples": 200,
+      "regressionSamples": 3,
+      "activeFingerStates": 174
+    },
+    "index-043": {
+      "samples": 75,
+      "changedSamples": 71,
+      "regressionSamples": 29,
+      "activeFingerStates": 59
+    },
+    "index-044": {
+      "samples": 505,
+      "changedSamples": 501,
+      "regressionSamples": 10,
+      "activeFingerStates": 415
+    },
+    "index-045": {
+      "samples": 112,
+      "changedSamples": 24,
+      "regressionSamples": 0,
+      "activeFingerStates": 68
+    },
+    "index-046": {
+      "samples": 138,
+      "changedSamples": 134,
+      "regressionSamples": 34,
+      "activeFingerStates": 101
+    },
+    "index-047": {
+      "samples": 521,
+      "changedSamples": 517,
+      "regressionSamples": 3,
+      "activeFingerStates": 389
+    },
+    "index-048": {
+      "samples": 952,
+      "changedSamples": 948,
+      "regressionSamples": 117,
+      "activeFingerStates": 810
+    },
+    "index-049": {
+      "samples": 487,
+      "changedSamples": 483,
+      "regressionSamples": 8,
+      "activeFingerStates": 356
+    },
+    "index-050": {
+      "samples": 107,
+      "changedSamples": 103,
+      "regressionSamples": 3,
+      "activeFingerStates": 78
+    },
+    "index-051": {
+      "samples": 110,
+      "changedSamples": 95,
+      "regressionSamples": 0,
+      "activeFingerStates": 75
+    },
+    "index-052": {
+      "samples": 106,
+      "changedSamples": 102,
+      "regressionSamples": 5,
+      "activeFingerStates": 77
+    },
+    "index-053": {
+      "samples": 103,
+      "changedSamples": 99,
+      "regressionSamples": 2,
+      "activeFingerStates": 76
+    },
+    "index-054": {
+      "samples": 306,
+      "changedSamples": 187,
+      "regressionSamples": 23,
+      "activeFingerStates": 274
+    },
+    "index-055": {
+      "samples": 130,
+      "changedSamples": 126,
+      "regressionSamples": 15,
+      "activeFingerStates": 104
+    },
+    "index-056": {
+      "samples": 55,
+      "changedSamples": 51,
+      "regressionSamples": 0,
+      "activeFingerStates": 50
+    },
+    "index-057": {
+      "samples": 87,
+      "changedSamples": 83,
+      "regressionSamples": 7,
+      "activeFingerStates": 57
+    },
+    "index-058": {
+      "samples": 235,
+      "changedSamples": 231,
+      "regressionSamples": 30,
+      "activeFingerStates": 239
+    },
+    "index-059": {
+      "samples": 437,
+      "changedSamples": 391,
+      "regressionSamples": 8,
+      "activeFingerStates": 397
+    },
+    "index-060": {
+      "samples": 113,
+      "changedSamples": 109,
+      "regressionSamples": 8,
+      "activeFingerStates": 85
+    },
+    "index-061": {
+      "samples": 158,
+      "changedSamples": 154,
+      "regressionSamples": 4,
+      "activeFingerStates": 119
+    },
+    "index-062": {
+      "samples": 397,
+      "changedSamples": 384,
+      "regressionSamples": 1,
+      "activeFingerStates": 359
+    },
+    "index-063": {
+      "samples": 258,
+      "changedSamples": 254,
+      "regressionSamples": 69,
+      "activeFingerStates": 318
+    },
+    "index-064": {
+      "samples": 113,
+      "changedSamples": 106,
+      "regressionSamples": 0,
+      "activeFingerStates": 70
+    },
+    "index-065": {
+      "samples": 73,
+      "changedSamples": 69,
+      "regressionSamples": 7,
+      "activeFingerStates": 114
+    },
+    "index-066": {
+      "samples": 142,
+      "changedSamples": 138,
+      "regressionSamples": 2,
+      "activeFingerStates": 104
+    },
+    "index-067": {
+      "samples": 148,
+      "changedSamples": 39,
+      "regressionSamples": 0,
+      "activeFingerStates": 137
+    },
+    "index-068": {
+      "samples": 80,
+      "changedSamples": 76,
+      "regressionSamples": 14,
+      "activeFingerStates": 59
+    },
+    "index-069": {
+      "samples": 144,
+      "changedSamples": 140,
+      "regressionSamples": 0,
+      "activeFingerStates": 133
+    },
+    "index-070": {
+      "samples": 117,
+      "changedSamples": 100,
+      "regressionSamples": 0,
+      "activeFingerStates": 76
+    },
+    "index-071": {
+      "samples": 97,
+      "changedSamples": 34,
+      "regressionSamples": 0,
+      "activeFingerStates": 74
+    },
+    "index-072": {
+      "samples": 132,
+      "changedSamples": 128,
+      "regressionSamples": 3,
+      "activeFingerStates": 93
+    },
+    "index-073": {
+      "samples": 76,
+      "changedSamples": 72,
+      "regressionSamples": 9,
+      "activeFingerStates": 61
+    },
+    "index-074": {
+      "samples": 301,
+      "changedSamples": 273,
+      "regressionSamples": 48,
+      "activeFingerStates": 226
+    },
+    "index-075": {
+      "samples": 61,
+      "changedSamples": 57,
+      "regressionSamples": 0,
+      "activeFingerStates": 52
+    },
+    "index-076": {
+      "samples": 54,
+      "changedSamples": 50,
+      "regressionSamples": 3,
+      "activeFingerStates": 3
+    },
+    "index-077": {
+      "samples": 111,
+      "changedSamples": 20,
+      "regressionSamples": 0,
+      "activeFingerStates": 72
+    },
+    "index-078": {
+      "samples": 206,
+      "changedSamples": 202,
+      "regressionSamples": 0,
+      "activeFingerStates": 154
+    },
+    "index-079": {
+      "samples": 188,
+      "changedSamples": 184,
+      "regressionSamples": 0,
+      "activeFingerStates": 156
+    },
+    "index-080": {
+      "samples": 781,
+      "changedSamples": 777,
+      "regressionSamples": 2,
+      "activeFingerStates": 689
+    },
+    "index-081": {
+      "samples": 304,
+      "changedSamples": 300,
+      "regressionSamples": 2,
+      "activeFingerStates": 222
+    },
+    "index-082": {
+      "samples": 440,
+      "changedSamples": 436,
+      "regressionSamples": 9,
+      "activeFingerStates": 356
+    },
+    "index-083": {
+      "samples": 144,
+      "changedSamples": 140,
+      "regressionSamples": 0,
+      "activeFingerStates": 127
+    },
+    "index-084": {
+      "samples": 691,
+      "changedSamples": 687,
+      "regressionSamples": 10,
+      "activeFingerStates": 974
+    },
+    "index-085": {
+      "samples": 270,
+      "changedSamples": 266,
+      "regressionSamples": 0,
+      "activeFingerStates": 20
+    },
+    "curve-001": {
+      "samples": 69,
+      "changedSamples": 67,
+      "regressionSamples": 13,
+      "activeFingerStates": 20
+    },
+    "curve-002": {
+      "samples": 30,
+      "changedSamples": 28,
+      "regressionSamples": 4,
+      "activeFingerStates": 17
+    },
+    "curve-003": {
+      "samples": 9,
+      "changedSamples": 9,
+      "regressionSamples": 0,
+      "activeFingerStates": 0
+    },
+    "curve-004": {
+      "samples": 39,
+      "changedSamples": 35,
+      "regressionSamples": 0,
+      "activeFingerStates": 41
+    },
+    "curve-005": {
+      "samples": 39,
+      "changedSamples": 35,
+      "regressionSamples": 0,
+      "activeFingerStates": 41
+    },
+    "curve-006": {
+      "samples": 39,
+      "changedSamples": 35,
+      "regressionSamples": 0,
+      "activeFingerStates": 41
+    },
+    "curve-007": {
+      "samples": 19,
+      "changedSamples": 15,
+      "regressionSamples": 3,
+      "activeFingerStates": 13
+    },
+    "curve-008": {
+      "samples": 28,
+      "changedSamples": 24,
+      "regressionSamples": 0,
+      "activeFingerStates": 26
+    },
+    "curve-009": {
+      "samples": 36,
+      "changedSamples": 32,
+      "regressionSamples": 0,
+      "activeFingerStates": 38
+    },
+    "curve-010": {
+      "samples": 36,
+      "changedSamples": 32,
+      "regressionSamples": 0,
+      "activeFingerStates": 38
+    },
+    "curve-011": {
+      "samples": 36,
+      "changedSamples": 32,
+      "regressionSamples": 0,
+      "activeFingerStates": 38
+    },
+    "curve-012": {
+      "samples": 33,
+      "changedSamples": 29,
+      "regressionSamples": 0,
+      "activeFingerStates": 18
+    },
+    "curve-013": {
+      "samples": 37,
+      "changedSamples": 33,
+      "regressionSamples": 0,
+      "activeFingerStates": 24
+    },
+    "curve-014": {
+      "samples": 38,
+      "changedSamples": 34,
+      "regressionSamples": 0,
+      "activeFingerStates": 31
+    },
+    "curve-015": {
+      "samples": 38,
+      "changedSamples": 34,
+      "regressionSamples": 0,
+      "activeFingerStates": 31
+    },
+    "curve-016": {
+      "samples": 28,
+      "changedSamples": 24,
+      "regressionSamples": 0,
+      "activeFingerStates": 24
+    },
+    "curve-017": {
+      "samples": 39,
+      "changedSamples": 35,
+      "regressionSamples": 0,
+      "activeFingerStates": 31
+    },
+    "curve-018": {
+      "samples": 31,
+      "changedSamples": 27,
+      "regressionSamples": 0,
+      "activeFingerStates": 18
+    },
+    "curve-019": {
+      "samples": 33,
+      "changedSamples": 29,
+      "regressionSamples": 0,
+      "activeFingerStates": 61
+    },
+    "curve-020": {
+      "samples": 31,
+      "changedSamples": 27,
+      "regressionSamples": 0,
+      "activeFingerStates": 50
+    },
+    "curve-021": {
+      "samples": 48,
+      "changedSamples": 44,
+      "regressionSamples": 0,
+      "activeFingerStates": 35
+    },
+    "curve-022": {
+      "samples": 54,
+      "changedSamples": 50,
+      "regressionSamples": 0,
+      "activeFingerStates": 40
+    },
+    "curve-023": {
+      "samples": 54,
+      "changedSamples": 50,
+      "regressionSamples": 0,
+      "activeFingerStates": 40
+    },
+    "curve-024": {
+      "samples": 54,
+      "changedSamples": 50,
+      "regressionSamples": 0,
+      "activeFingerStates": 40
+    },
+    "curve-025": {
+      "samples": 54,
+      "changedSamples": 50,
+      "regressionSamples": 0,
+      "activeFingerStates": 98
+    },
+    "curve-026": {
+      "samples": 33,
+      "changedSamples": 29,
+      "regressionSamples": 0,
+      "activeFingerStates": 17
+    },
+    "curve-027": {
+      "samples": 27,
+      "changedSamples": 23,
+      "regressionSamples": 0,
+      "activeFingerStates": 8
+    },
+    "curve-028": {
+      "samples": 32,
+      "changedSamples": 28,
+      "regressionSamples": 0,
+      "activeFingerStates": 16
+    },
+    "curve-029": {
+      "samples": 17,
+      "changedSamples": 13,
+      "regressionSamples": 0,
+      "activeFingerStates": 17
+    },
+    "curve-030": {
+      "samples": 90,
+      "changedSamples": 86,
+      "regressionSamples": 0,
+      "activeFingerStates": 82
+    },
+    "curve-031": {
+      "samples": 17,
+      "changedSamples": 13,
+      "regressionSamples": 0,
+      "activeFingerStates": 17
+    },
+    "curve-032": {
+      "samples": 30,
+      "changedSamples": 28,
+      "regressionSamples": 0,
+      "activeFingerStates": 1
+    },
+    "curve-033": {
+      "samples": 83,
+      "changedSamples": 81,
+      "regressionSamples": 0,
+      "activeFingerStates": 56
+    },
+    "curve-034": {
+      "samples": 29,
+      "changedSamples": 29,
+      "regressionSamples": 0,
+      "activeFingerStates": 22
+    },
+    "curve-035": {
+      "samples": 26,
+      "changedSamples": 26,
+      "regressionSamples": 0,
+      "activeFingerStates": 17
+    }
+  },
+  "elapsedSeconds": 219.944,
+  "definitions": {
+    "core": "Moving key mesh bounding solid transformed by actual key matrix; beveled border excluded (black 2 mm, white 1.4 mm). Depth is minimum distance to unshrunk solid face in key-local coordinates; >3 mm threshold.",
+    "newCore": "Baseline depth <=3 mm and candidate depth >3 mm, both patch maxima and per patch/key.",
+    "worsenedCore": "Candidate depth >3 mm and >baseline+0.25 mm, both patch maxima and per patch/key.",
+    "pair": "Exact noncoplanar triangle-edge crossing on >0.65 bone-weight-owned surface patches. All 15 pairs on affected hand, including own palm.",
+    "newPair": "Baseline count zero, candidate count positive.",
+    "strictExistingPairIncrease": "Baseline count positive and candidate count strictly greater, with >2 pair historical tolerance additionally counted separately.",
+    "scope": "60 Hz through every helper support, exact note boundaries from both hands and exact curve/support knots, plus ±1 microsecond probes. All six affected-hand patches. Both hands active local quaternion and world matrix parity checked at every sampled time.",
+    "limitations": "Finite geometry screen; key interiors use the preserved harness core-solid approximation and owned mesh subsets. Opposing-hand surface crossings, continuous-time safety, animation speed/twist and natural-looking hands are outside this replay. The missing historical idle-nonthumb/audit-lib.mjs was not run."
+  }
+}

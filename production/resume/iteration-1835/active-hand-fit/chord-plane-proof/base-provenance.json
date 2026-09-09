@@ -1,0 +1,157 @@
+{
+  "inputSha256": "09cfc46aceac1527e9f0b4f27bb8fa5110373bb7c889aae740c7258b9a4cbf90",
+  "baseSha256": "6b5f8a332f3e95c8cb1178c2cd880895e74321b5545e5341ba99069310896aa3",
+  "rendererInput": "../held-r81-r76-fit/candidate-v8.json",
+  "acceptedLateChanges": [
+    {
+      "id": "p00971",
+      "field": "thumbOpposition",
+      "before": null,
+      "beforeExists": false,
+      "after": 0,
+      "afterExists": true
+    },
+    {
+      "id": "p00971",
+      "field": "contactLift",
+      "before": 0.002391,
+      "beforeExists": true,
+      "after": 0.003,
+      "afterExists": true
+    },
+    {
+      "id": "p00971",
+      "field": "finger",
+      "before": 4,
+      "beforeExists": true,
+      "after": 5,
+      "afterExists": true
+    },
+    {
+      "id": "p00971",
+      "field": "contactZ",
+      "before": null,
+      "beforeExists": false,
+      "after": 0.252,
+      "afterExists": true
+    },
+    {
+      "id": "p00974",
+      "field": "thumbOpposition",
+      "before": null,
+      "beforeExists": false,
+      "after": 0,
+      "afterExists": true
+    },
+    {
+      "id": "p00974",
+      "field": "contactLift",
+      "before": 0.009773,
+      "beforeExists": true,
+      "after": 0.003,
+      "afterExists": true
+    },
+    {
+      "id": "p00974",
+      "field": "finger",
+      "before": 1,
+      "beforeExists": true,
+      "after": 5,
+      "afterExists": true
+    },
+    {
+      "id": "p00974",
+      "field": "contactZ",
+      "before": null,
+      "beforeExists": false,
+      "after": 0.252,
+      "afterExists": true
+    },
+    {
+      "id": "p00986",
+      "field": "thumbOpposition",
+      "before": null,
+      "beforeExists": false,
+      "after": 0,
+      "afterExists": true
+    },
+    {
+      "id": "p00986",
+      "field": "contactLift",
+      "before": 0.009773,
+      "beforeExists": true,
+      "after": 0.003,
+      "afterExists": true
+    },
+    {
+      "id": "p00986",
+      "field": "finger",
+      "before": 1,
+      "beforeExists": true,
+      "after": 5,
+      "afterExists": true
+    },
+    {
+      "id": "p00986",
+      "field": "contactZ",
+      "before": null,
+      "beforeExists": false,
+      "after": 0.252,
+      "afterExists": true
+    },
+    {
+      "side": "R",
+      "index": 420,
+      "time": 197.339852,
+      "field": "position",
+      "before": [
+        0.1729566666666667,
+        0.76,
+        0.349
+      ],
+      "beforeExists": true,
+      "after": [
+        0.18695666666666672,
+        0.76,
+        0.374
+      ],
+      "afterExists": true
+    },
+    {
+      "side": "R",
+      "index": 421,
+      "time": 198.006519,
+      "field": "position",
+      "before": [
+        0.1729566666666667,
+        0.76,
+        0.349
+      ],
+      "beforeExists": true,
+      "after": [
+        0.18695666666666672,
+        0.76,
+        0.374
+      ],
+      "afterExists": true
+    },
+    {
+      "side": "R",
+      "index": 426,
+      "time": 200.029507,
+      "field": "position",
+      "before": [
+        0.1729566666666667,
+        0.76,
+        0.349
+      ],
+      "beforeExists": true,
+      "after": [
+        0.18695666666666672,
+        0.76,
+        0.374
+      ],
+      "afterExists": true
+    }
+  ]
+}

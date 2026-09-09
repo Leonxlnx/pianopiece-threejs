@@ -1,0 +1,6 @@
+import {fs,pose,collisions} from './runtime.mjs';
+const {applyCurves,curves}=await import(process.env.DAYBREAK_CURVE_APPLIER??'./apply-curves.mjs');
+const begin=Math.min(...curves.map(c=>c.knots[0][0])),end=Math.max(...curves.map(c=>c.knots.at(-1)[0])),times=new Set([begin,end]),fps=240;for(let i=Math.ceil(begin*fps);i<=Math.floor(end*fps);i++)times.add(i/fps);for(const c of curves)for(const k of c.knots)times.add(k[0]);
+const read=()=>Array.from({length:6},(_,a)=>Array.from({length:6},(_,b)=>collisions(a,b+6).count)).flat();const regressions=[];let maxBase=0,maxCandidate=0;
+for(const time of [...times].sort((a,b)=>a-b)){pose(time);const before=read();applyCurves(time);const after=read();maxBase=Math.max(maxBase,...before);maxCandidate=Math.max(maxCandidate,...after);for(let i=0;i<36;i++)if(after[i]>before[i])regressions.push({time,leftPatch:Math.floor(i/6),rightPatch:i%6,before:before[i],after:after[i]});}
+const report={begin,end,fps,samples:times.size,maxBase,maxCandidate,regressions,pass:regressions.length===0,scope:'All 36 opposing owned finger/palm triangle patch pairs, actual skinned mesh; finite 240Hz plus exact curve knots.'};fs.writeFileSync(process.argv[2],JSON.stringify(report,null,2));console.log(JSON.stringify(report));

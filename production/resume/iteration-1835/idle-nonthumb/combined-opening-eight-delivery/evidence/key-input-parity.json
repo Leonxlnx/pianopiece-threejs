@@ -1,0 +1,14 @@
+{
+  "notes": 1068,
+  "fields": [
+    "id",
+    "time",
+    "duration",
+    "midi",
+    "velocity",
+    "hand"
+  ],
+  "noteInputsExact": true,
+  "pedalsExact": true,
+  "caveat": "Earlier generic bone/skin profile key hashes were recorded before world-matrix update and are excluded as animation evidence. Separate moving-key replay updates the scene graph before hashing."
+}

@@ -1,0 +1,9 @@
+# Frozen R76 repeated-D5 Index gap candidate
+
+Integrate only the two curves in `r76-index-d5-curves.json` through the existing inactive nonthumb helper. They are bound to exact frozen R76 score b04dd0da and RIndex p00216 release49.883542→p00225 attack51.325059. The included validator rejects stale score or gap signatures. No held contacts, score notes, wrist support, thumb, or arm change is included.
+
+Both release and approach use coordinated MCP30° lift/+10° spread with smooth ramps, exactly zero at active anchors. The release changed window at1 kHz removes95 observed Index core poses, maximum7.023→2.855mm. The approach removes219, maximum7.535→2.711mm. Narrow5 kHz peak checks pass; approach maximum2.826mm. All five right-hand digit surfaces show zero new pair types, own-palm collisions or severe key-core regressions. The complete gap is checked at120 Hz plus event/curve boundaries; target Index core poses become zero. Exact active/outside-pulse quaternion components and active tips remain unchanged.
+
+The48 native matched frames in `sequence/` were viewed as four chronological comparison sheets (release/arrival, top/oblique). The candidate Index rises above the neighboring black key and returns to the same contact, with unchanged observed finger order. No obvious flip or new crossing appears in these sampled views. Other preexisting finger/key overlaps remain visible and present numerically; this is not whole-hand clearance.
+
+Release peak speed increases0.386→1.539m/s, arrival0.569→0.805m/s. The release pickup is visibly quicker over roughly32ms. Sparse frame inspection does not replace continuous playback review or establish natural performance motion. Root owns final motion approval and final combined source/score revalidation. The full baked TS is included only to reproduce native evidence; do not overwrite the composed production Pianist with it.

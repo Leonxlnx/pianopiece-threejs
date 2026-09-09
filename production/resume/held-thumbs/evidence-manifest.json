@@ -1,0 +1,76 @@
+{
+  "renders": [
+    {
+      "name": "baseline",
+      "report": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/baseline/report-1280.json",
+      "sha256": "1ef5f5066233264e00027a635ebf9886a59177f648a89a7c90196aba5429af80",
+      "rigSha256": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+      "scoreSha256": "9db662f1e9d4037cc8c505b9818b7782ac1fb52fe70cff85bf362a00a9fb3b30",
+      "sourceDifferences": [],
+      "frames": [
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/baseline/current-1280-4.538477.png",
+          "sha256": "a72304e50c24eab4bb0525d12705fe347d47d12e46c1e74b6d58e2e70af77dd4",
+          "time": 4.5384775,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/baseline/current-1280-105.714998.png",
+          "sha256": "4b1a233a851d6679877068d83bbbf795256d7f82df58e5fd7ca25f2d688f78f7",
+          "time": 105.7149985,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/baseline/current-1280-187.440868.png",
+          "sha256": "f571af401cc26c02c9e9f90baf33bc146e8587d5dffdd0cb2c37105ff4cc47cf",
+          "time": 187.4408685,
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    },
+    {
+      "name": "candidate",
+      "report": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/candidate/report-1280.json",
+      "sha256": "0173e2248e43e15384421bcc921944878aad2e9c2f5176d686f43355a5b89132",
+      "rigSha256": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+      "scoreSha256": "6d187b2459b7ecaf91bd7368156389f80c0810a6d48dc3194a4a2ce2348a5a85",
+      "sourceDifferences": [
+        "production/qa/pose-server.mjs",
+        "public/assets/score.json"
+      ],
+      "frames": [
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/candidate/current-1280-4.538477.png",
+          "sha256": "039df50071f64a6a3710cd1a78c559c7cdfa5d94b3c62e105de58b9c4c9cf662",
+          "time": 4.5384775,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/candidate/current-1280-105.714998.png",
+          "sha256": "67bda07b9f1988434fcb44894e739c6df837fa459ea2f4b69cff88b49f0deac5",
+          "time": 105.7149985,
+          "glError": "GL_NO_ERROR"
+        },
+        {
+          "image": "/workspace/scratch/2e8cc8e77f98/held-thumbs/evidence/candidate/current-1280-187.440868.png",
+          "sha256": "963d4e92fddb866a5ef9584b6ba33fed3d26cd31273c4bf4ee685b15096ed20c",
+          "time": 187.4408685,
+          "glError": "GL_NO_ERROR"
+        }
+      ]
+    }
+  ],
+  "reviewedNotes": [
+    "p00013",
+    "p00514",
+    "p00906"
+  ],
+  "reviewedTimes": [
+    4.5384775,
+    105.7149985,
+    187.4408685
+  ],
+  "observations": "Paired top actual EGL renders: p00013 thumb is more open/rounded with opposition -0.7; p00514 lift/rotation makes a small local contour change; p00906 depth/opposition changes the tucked-under thumb, mostly occluded in this view. No new obvious collapse in inspected images. These three views are representative and do not certify every held shape or subsequent idle motion.",
+  "frames": 6,
+  "glErrors": 0
+}

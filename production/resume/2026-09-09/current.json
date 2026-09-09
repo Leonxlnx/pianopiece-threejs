@@ -1,0 +1,27 @@
+{
+  "updated": "2026-09-09T03:08:49.273509+00:00",
+  "scope": "In-progress integration; final score not frozen",
+  "scoreSha256": "e069b93647c20a4b9c6f5b932966a0efcac2daad3f9fa4bc7edf82cca845097b",
+  "rigSha256": "baafd033b4aa1ed0f9eefd679240d3dd71e75e1e034ee30e0ab6ef95ee64bd11",
+  "idleHelperSha256": "bd8776755313e90b2ff16b528b3f95c141d733cd27cfd0a9d3efbf54ad3292f5",
+  "idleDataSha256": "e2ae99ff187672971013f6b6a334976796b903d2268423b871c053df72365bc1",
+  "mergedLeafParity": {
+    "states": 1101,
+    "fullHumanSkins": 13,
+    "maxLocal": 0,
+    "maxWorld": 0,
+    "maxSkin": 0
+  },
+  "acceptedChanges": [
+    "RH Middle rest 12.4\u201312.76",
+    "p00170 pad lift +0.4 mm",
+    "LH Index p00800\u2192p00831 support cutoff",
+    "RH 106.65\u2013107.55 release/curvature/clearance repair",
+    "p00322 geometry and four bound idle curves"
+  ],
+  "remaining": "p299 bounded support/refingering and p322 physical-release motion trials are scratch-only; old remaining baseline surface defects are not erased",
+  "masterStarted": false,
+  "fullFilmStarted": false,
+  "publicRevisionDeployed": false,
+  "githubCheckpoint": "1aa9f90a87471bf8edccf59d211f95c88da303c3 (precedes these latest three merged leaf deltas)"
+}

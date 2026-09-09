@@ -1,0 +1,4 @@
+import {T,fs,performer,active,gapAt,modelUpdate} from './audit-lib.mjs';
+const curves=process.env.DAYBREAK_IDLE_CURVES?JSON.parse(fs.readFileSync(process.env.DAYBREAK_IDLE_CURVES,'utf8')).curves:[];
+function applyCurves(time){for(const c of curves){if(time<=c.knots[0][0]||time>=c.knots.at(-1)[0]||active(c.hi,c.fi,time))continue;const gap=gapAt(c.hi,c.fi,time);if(gap.previous!==c.previous||gap.next!==c.next||Math.abs(gap.previousEnd-c.previousEnd)>1e-7||Math.abs(gap.nextTime-c.nextTime)>1e-7)throw Error('Neutral blend gap binding mismatch');let i=1;while(c.knots[i][0]<time)i++;const a=c.knots[i-1],b=c.knots[i],u=(time-a[0])/(b[0]-a[0]),s=u*u*(3-2*u),weight=a[1]+(b[1]-a[1])*s;const f=performer.hands[c.hi].fingers[c.fi];f.bones.forEach((bone,j)=>{bone.quaternion.slerp(new T.Quaternion().fromArray(c.neutralQuaternions[j]),weight);bone.updateWorldMatrix(false,true);});modelUpdate();}}
+export {applyCurves,curves};

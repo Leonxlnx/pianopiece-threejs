@@ -1,0 +1,237 @@
+{
+  "score": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/score-r76-frozen-v2.json",
+  "rig": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/pianist-final-input.mjs",
+  "curves": "/workspace/scratch/2e8cc8e77f98/idle-nonthumb/e5-neutral-local-v1.json",
+  "samples": 1263,
+  "rows": [
+    {
+      "ci": 0,
+      "curve": {
+        "hi": 1,
+        "fi": 2,
+        "previous": "p00159",
+        "previousEnd": 38.307160999999994,
+        "next": "p00193",
+        "nextTime": 44.322339,
+        "mode": "blend-neutral",
+        "neutralQuaternions": [
+          [
+            -0.2762930395446723,
+            0.1365210712106369,
+            0.12026087606524592,
+            0.9436956774952034
+          ],
+          [
+            0.06361965835094452,
+            -0.11735854297876358,
+            -0.004792043007910252,
+            0.9910381436347961
+          ],
+          [
+            0.060644280165433884,
+            -0.1304895579814911,
+            0.02646058425307274,
+            0.9892394542694092
+          ]
+        ],
+        "knots": [
+          [
+            42.8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42.95,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.14,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 321,
+      "samples": 421,
+      "maxBase": {
+        "speed": 1.2319037904264236,
+        "time": 43.146,
+        "previousTime": 43.145,
+        "vertex": 1884
+      },
+      "maxCandidate": {
+        "speed": 1.8964465197366063,
+        "time": 43.163,
+        "previousTime": 43.162,
+        "vertex": 1911
+      }
+    },
+    {
+      "ci": 1,
+      "curve": {
+        "hi": 1,
+        "fi": 3,
+        "previous": "p00181",
+        "previousEnd": 42.498327,
+        "next": "p00203",
+        "nextTime": 46.809242,
+        "mode": "blend-neutral",
+        "neutralQuaternions": [
+          [
+            -0.2060403938413461,
+            -0.009142301903174645,
+            0.23557759268265066,
+            0.9497194584301932
+          ],
+          [
+            0.07044843584299088,
+            -0.12179498374462128,
+            -0.032598771154880524,
+            0.9895151853561401
+          ],
+          [
+            0.05818096548318863,
+            0.04452133551239967,
+            0.03224598243832588,
+            0.9967913627624512
+          ]
+        ],
+        "knots": [
+          [
+            42.8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42.95,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.14,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 318,
+      "samples": 421,
+      "maxBase": {
+        "speed": 1.2262103502726474,
+        "time": 43.145,
+        "previousTime": 43.144,
+        "vertex": 2115
+      },
+      "maxCandidate": {
+        "speed": 1.9367698545465128,
+        "time": 43.162,
+        "previousTime": 43.161,
+        "vertex": 2299
+      }
+    },
+    {
+      "ci": 2,
+      "curve": {
+        "hi": 1,
+        "fi": 4,
+        "previous": "p00177",
+        "previousEnd": 41.800653,
+        "next": "p00187",
+        "nextTime": 43.220001,
+        "mode": "blend-neutral",
+        "neutralQuaternions": [
+          [
+            -0.08311336992970998,
+            -0.04568482241115004,
+            0.30048948478678583,
+            0.9490580303152146
+          ],
+          [
+            0.08494481444358826,
+            0.0019918798934668303,
+            -0.020155522972345352,
+            0.9961798191070557
+          ],
+          [
+            -0.0011939916294068098,
+            -0.09410761296749115,
+            0.012900157831609249,
+            0.9954777359962463
+          ]
+        ],
+        "knots": [
+          [
+            42.8,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            42.95,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.14,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            43.22,
+            0,
+            0,
+            0,
+            0
+          ]
+        ]
+      },
+      "ownedVertices": 303,
+      "samples": 421,
+      "maxBase": {
+        "speed": 1.9179966903520407,
+        "time": 43.195,
+        "previousTime": 43.194,
+        "vertex": 2532
+      },
+      "maxCandidate": {
+        "speed": 2.4751459859078833,
+        "time": 43.195,
+        "previousTime": 43.194,
+        "vertex": 2512
+      }
+    }
+  ],
+  "scope": "1000Hz plus exact curve knots, finite first-difference velocity of every owned vertex on each changed digit using actual skinned mesh world positions. Steps <=10 microseconds omitted to avoid duplicate-boundary numerical noise. Does not measure acceleration, continuous peak, or perceptual naturalness."
+}

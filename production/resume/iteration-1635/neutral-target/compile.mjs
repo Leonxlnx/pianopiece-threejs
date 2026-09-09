@@ -1,0 +1,2 @@
+import fs from 'node:fs';import path from 'node:path';import ts from 'typescript';
+const variants=['pianist-baseline',...JSON.parse(fs.readFileSync('manifest.json')).variants.map(v=>v.name)];for(const name of variants){const source=fs.readFileSync(name+'.ts','utf8'),r=ts.transpileModule(source,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}});fs.writeFileSync(name+'.mjs',r.outputText.replace(/from '\.\/(.*?)'/g,(_,n)=>`from '${path.resolve('compiled',n+'.mjs')}'`));}console.log('COMPILED '+variants.length+' isolated modules');

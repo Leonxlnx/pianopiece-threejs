@@ -1,0 +1,62 @@
+[
+  {
+    "id": "p00193",
+    "original": {
+      "id": "p00193",
+      "time": 44.322339,
+      "duration": 0.309301,
+      "midi": 76,
+      "velocity": 0.557,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 16,
+      "beat": 1.5,
+      "contactLift": 0.009773
+    },
+    "tried": 222,
+    "best": {
+      "p": [
+        0.2675,
+        0.007625,
+        -2.376
+      ],
+      "loss": 1.0564,
+      "key": 0,
+      "own": 1,
+      "neighbor": 0,
+      "contact": 0.00004374553216304679,
+      "gap": 1.8826540279917037
+    }
+  },
+  {
+    "id": "p00194",
+    "original": {
+      "id": "p00194",
+      "time": 44.665785,
+      "duration": 0.345445,
+      "midi": 76,
+      "velocity": 0.684,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 16,
+      "beat": 2,
+      "contactLift": 0.009773
+    },
+    "tried": 222,
+    "best": {
+      "p": [
+        0.2675,
+        0.007625,
+        -2.376
+      ],
+      "loss": 1.0564,
+      "key": 0,
+      "own": 1,
+      "neighbor": 0,
+      "contact": 0.0000440640979069926,
+      "gap": 1.8826539550823584
+    }
+  }
+]

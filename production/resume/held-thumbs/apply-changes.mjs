@@ -1,0 +1,5 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import path from 'node:path';
+const [input,output]=process.argv.slice(2);assert.ok(input&&output,'Usage: node apply-changes.mjs INPUT_SCORE OUTPUT_SCORE');assert.notEqual(path.resolve(input),path.resolve(output),'Use a separate output for review.');
+const base=JSON.parse(fs.readFileSync(new URL('./baseline-score.json',import.meta.url))),changes=JSON.parse(fs.readFileSync(new URL('./changes.json',import.meta.url))),score=JSON.parse(fs.readFileSync(input));
+for(const c of changes){const note=score.notes.find(n=>n.id===c.id),original=base.notes.find(n=>n.id===c.id);assert.ok(note,c.id);for(const k of ['time','duration','midi','finger','hand'])assert.equal(note[k],original[k],`${c.id} event or fingering changed`);for(const k of c.fields){assert.equal(note[k]??null,c.before[k],`${c.id}.${k} conflicts with another edit`);if(c.after[k]===null)delete note[k];else note[k]=c.after[k];}}
+fs.writeFileSync(output,JSON.stringify(score));console.log(`Applied ${changes.length} authorized held-thumb note deltas to ${output}.`);

@@ -1,0 +1,2185 @@
+[
+  {
+    "file": "baseline-score.json",
+    "out": [
+      {
+        "name": "L50-early",
+        "range": [
+          16.273829,
+          18.460484
+        ],
+        "maxWristSpeed": 1.2133088861038428,
+        "maxJointRate": 107.91290283202844,
+        "maxTipSpeed": 2.3448941104385725,
+        "peaks": {
+          "wrist": 17.835828999999134,
+          "joint": 18.263828999998896,
+          "tip": 18.199828999998932
+        },
+        "maxWristErrorMm": 0.00010882823708526697,
+        "maxReachFraction": 0.7801432749690439,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 16.515829,
+            "wristStepMm": 8.759555888078186e-12,
+            "maxTipStepMm": 0.0002893430571735933,
+            "maxJointStepRad": 0.00000569606510423358
+          },
+          {
+            "time": 16.541229,
+            "wristStepMm": 1.3766877422540635e-11,
+            "maxTipStepMm": 0.00016401191498599345,
+            "maxJointStepRad": 0.0000035508563539048283
+          },
+          {
+            "time": 16.570829,
+            "wristStepMm": 5.575762865678248e-12,
+            "maxTipStepMm": 0.00010662584876963893,
+            "maxJointStepRad": 0.0000012039548085167682
+          },
+          {
+            "time": 16.573829,
+            "wristStepMm": 7.296760822349463e-12,
+            "maxTipStepMm": 0.00011527810392493966,
+            "maxJointStepRad": 0.0000013017850916291439
+          },
+          {
+            "time": 16.79588858856996,
+            "wristStepMm": 1.0853104412965137e-11,
+            "maxTipStepMm": 0.0000827448497999435,
+            "maxJointStepRad": 0.0000012839233415447703
+          },
+          {
+            "time": 16.818444,
+            "wristStepMm": 0.0005234463643660801,
+            "maxTipStepMm": 0.0005031207165298356,
+            "maxJointStepRad": 0.00001194816696216056
+          },
+          {
+            "time": 16.915656,
+            "wristStepMm": 3.797547027170516e-12,
+            "maxTipStepMm": 0.00035706007709420214,
+            "maxJointStepRad": 0.000012951775236333802
+          },
+          {
+            "time": 16.918656,
+            "wristStepMm": 3.5122594550786142e-12,
+            "maxTipStepMm": 0.00012988395138143613,
+            "maxJointStepRad": 0.0000044474412201545666
+          },
+          {
+            "time": 17.205484,
+            "wristStepMm": 1.0501625646510992e-11,
+            "maxTipStepMm": 0.0012931319563585417,
+            "maxJointStepRad": 0.000014501701055525805
+          },
+          {
+            "time": 17.239483999999997,
+            "wristStepMm": 1.1321281207131475e-11,
+            "maxTipStepMm": 0.0006018438918656056,
+            "maxJointStepRad": 0.000006762960586970859
+          },
+          {
+            "time": 17.260483999999998,
+            "wristStepMm": 9.758759341743193e-12,
+            "maxTipStepMm": 0.0005204739550795317,
+            "maxJointStepRad": 0.000015349729470657336
+          },
+          {
+            "time": 17.263484,
+            "wristStepMm": 9.784617923427937e-12,
+            "maxTipStepMm": 0.0006132244200588735,
+            "maxJointStepRad": 0.00003576565522421225
+          },
+          {
+            "time": 17.550312,
+            "wristStepMm": 9.160559435147118e-12,
+            "maxTipStepMm": 0.00020636951426542438,
+            "maxJointStepRad": 0.000003439554702342817
+          },
+          {
+            "time": 17.584311999999997,
+            "wristStepMm": 1.3185972618330764e-11,
+            "maxTipStepMm": 0.00011663367609668233,
+            "maxJointStepRad": 0.00003576507163744388
+          },
+          {
+            "time": 17.605312,
+            "wristStepMm": 7.089634665384252e-12,
+            "maxTipStepMm": 0.0013338865727068633,
+            "maxJointStepRad": 0.000015023504130930857
+          },
+          {
+            "time": 17.608312,
+            "wristStepMm": 7.328996257944195e-12,
+            "maxTipStepMm": 0.001499411002006843,
+            "maxJointStepRad": 0.000016877536955888923
+          },
+          {
+            "time": 17.730542233543044,
+            "wristStepMm": 9.67567487179503e-12,
+            "maxTipStepMm": 0.0015026848268063463,
+            "maxJointStepRad": 0.000029357723072380823
+          },
+          {
+            "time": 17.780876000000003,
+            "wristStepMm": 0.0013099572175234312,
+            "maxTipStepMm": 0.0019154023001190376,
+            "maxJointStepRad": 0.0000498680489268096
+          },
+          {
+            "time": 17.938139,
+            "wristStepMm": 1.6147639535447392e-11,
+            "maxTipStepMm": 0.0009962851241950086,
+            "maxJointStepRad": 0.000026571239892003696
+          },
+          {
+            "time": 17.941139,
+            "wristStepMm": 1.3376344625993745e-11,
+            "maxTipStepMm": 0.0009244492940218296,
+            "maxJointStepRad": 0.00001242621046191409
+          },
+          {
+            "time": 18.146261504233095,
+            "wristStepMm": 1.3952857887988213e-11,
+            "maxTipStepMm": 0.00047809964887036895,
+            "maxJointStepRad": 0.000006538129637884629
+          },
+          {
+            "time": 18.160484,
+            "wristStepMm": 0.00020375443014149857,
+            "maxTipStepMm": 0.0006269759253251716,
+            "maxJointStepRad": 0.000023258855870663722
+          },
+          {
+            "time": 18.298976,
+            "wristStepMm": 1.5873665817449694e-11,
+            "maxTipStepMm": 0.0016774228104308904,
+            "maxJointStepRad": 0.000033634399848945
+          },
+          {
+            "time": 18.301976,
+            "wristStepMm": 1.548989911857493e-11,
+            "maxTipStepMm": 0.0016298718530792244,
+            "maxJointStepRad": 0.000033056418407933426
+          }
+        ]
+      },
+      {
+        "name": "L50-second",
+        "range": [
+          22.251065999999998,
+          25.289552
+        ],
+        "maxWristSpeed": 1.2222825021108141,
+        "maxJointRate": 36.5668259973573,
+        "maxTipSpeed": 2.0657080102665843,
+        "peaks": {
+          "wrist": 23.517065999999296,
+          "joint": 23.561065999999272,
+          "tip": 24.28906599999887
+        },
+        "maxWristErrorMm": 0.00010009936402332454,
+        "maxReachFraction": 0.7509513025167829,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 22.493066,
+            "wristStepMm": 2.819753390353182e-12,
+            "maxTipStepMm": 0.0004189351557626481,
+            "maxJointStepRad": 0.0000064143571084110894
+          },
+          {
+            "time": 22.527066,
+            "wristStepMm": 4.1503635289694125e-12,
+            "maxTipStepMm": 0.0002907041739597608,
+            "maxJointStepRad": 0.000011844614253718963
+          },
+          {
+            "time": 22.548066,
+            "wristStepMm": 3.5610522498024813e-12,
+            "maxTipStepMm": 0.0007439893533298799,
+            "maxJointStepRad": 0.00000947723223682753
+          },
+          {
+            "time": 22.551066,
+            "wristStepMm": 3.521787733787174e-12,
+            "maxTipStepMm": 0.0008360317301411994,
+            "maxJointStepRad": 0.000011701273812048092
+          },
+          {
+            "time": 23.411278366005973,
+            "wristStepMm": 7.799909371219468e-12,
+            "maxTipStepMm": 0.00026153300404304383,
+            "maxJointStepRad": 0.000008447157976619991
+          },
+          {
+            "time": 23.450501,
+            "wristStepMm": 0.0009082424888795661,
+            "maxTipStepMm": 0.0010188355560620214,
+            "maxJointStepRad": 0.00003174137615747939
+          },
+          {
+            "time": 23.620403,
+            "wristStepMm": 1.4315662938971625e-11,
+            "maxTipStepMm": 0.0005512502109180077,
+            "maxJointStepRad": 0.000009685479673743106
+          },
+          {
+            "time": 23.623403,
+            "wristStepMm": 1.2930643218800921e-11,
+            "maxTipStepMm": 0.0004784039765155653,
+            "maxJointStepRad": 0.00000867539410797384
+          },
+          {
+            "time": 23.92624,
+            "wristStepMm": 1.6182238494054018e-11,
+            "maxTipStepMm": 0.0011137142006615247,
+            "maxJointStepRad": 0.000013603315676275218
+          },
+          {
+            "time": 23.95624,
+            "wristStepMm": 1.9801303070405292e-11,
+            "maxTipStepMm": 0.0006348773928691746,
+            "maxJointStepRad": 0.000007825706255363867
+          },
+          {
+            "time": 23.98124,
+            "wristStepMm": 1.2968954204532861e-11,
+            "maxTipStepMm": 0.0003176109710727382,
+            "maxJointStepRad": 0.000012348163508153092
+          },
+          {
+            "time": 23.98424,
+            "wristStepMm": 1.1901155840593965e-11,
+            "maxTipStepMm": 0.0003531815912440382,
+            "maxJointStepRad": 0.00001300177335765012
+          },
+          {
+            "time": 24.21113129156904,
+            "wristStepMm": 1.1647722465376512e-11,
+            "maxTipStepMm": 1.1640974304025187e-11,
+            "maxJointStepRad": 1.6858739404357617e-7
+          },
+          {
+            "time": 24.270872,
+            "wristStepMm": 0.0013904704880797155,
+            "maxTipStepMm": 0.0015361067618842245,
+            "maxJointStepRad": 0.000008949434461183127
+          },
+          {
+            "time": 24.330078,
+            "wristStepMm": 1.567941921848679e-11,
+            "maxTipStepMm": 0.0002254635868515871,
+            "maxJointStepRad": 0.0000024134361554418895
+          },
+          {
+            "time": 24.333078,
+            "wristStepMm": 1.2832834734098542e-11,
+            "maxTipStepMm": 0.0002917694998219556,
+            "maxJointStepRad": 0.000011889483283331918
+          },
+          {
+            "time": 24.564638251004208,
+            "wristStepMm": 1.742422441410819e-12,
+            "maxTipStepMm": 3.47876032496515e-12,
+            "maxJointStepRad": 0
+          },
+          {
+            "time": 24.631915,
+            "wristStepMm": 0.0012531382414351668,
+            "maxTipStepMm": 0.0009307226623949045,
+            "maxJointStepRad": 0.00001546841018187479
+          },
+          {
+            "time": 24.678915,
+            "wristStepMm": 5.811529736373404e-12,
+            "maxTipStepMm": 0.0004244446099161591,
+            "maxJointStepRad": 0.000005981660943053043
+          },
+          {
+            "time": 24.681915,
+            "wristStepMm": 2.942745555079944e-12,
+            "maxTipStepMm": 0.0000419894267132032,
+            "maxJointStepRad": 5.306152646173509e-7
+          },
+          {
+            "time": 24.972752,
+            "wristStepMm": 1.3448944044538074e-11,
+            "maxTipStepMm": 0.00041789101686104965,
+            "maxJointStepRad": 0.000007466775459425643
+          },
+          {
+            "time": 24.989552,
+            "wristStepMm": 1.8132443730563618e-11,
+            "maxTipStepMm": 0.00032049865079650307,
+            "maxJointStepRad": 0.000005709303635559833
+          },
+          {
+            "time": 25.027752,
+            "wristStepMm": 1.0892640199965195e-11,
+            "maxTipStepMm": 0.0008833428237593132,
+            "maxJointStepRad": 0.00001528989844845568
+          },
+          {
+            "time": 25.030752,
+            "wristStepMm": 1.0983495355691896e-11,
+            "maxTipStepMm": 0.0009298734273376501,
+            "maxJointStepRad": 0.00001737061282716765
+          }
+        ]
+      },
+      {
+        "name": "L50-L59-refrain",
+        "range": [
+          171.93085599999998,
+          174.488541
+        ],
+        "maxWristSpeed": 0.7904003253120597,
+        "maxJointRate": 28.76735281672854,
+        "maxTipSpeed": 2.324385939543774,
+        "peaks": {
+          "wrist": 174.47285600001211,
+          "joint": 172.49285600000266,
+          "tip": 173.1508560000058
+        },
+        "maxWristErrorMm": 0.00008803099878261602,
+        "maxReachFraction": 0.728510212575907,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 172.172856,
+            "wristStepMm": 1.4869141367671854e-11,
+            "maxTipStepMm": 0.0005759646835867938,
+            "maxJointStepRad": 0.00000899590888743952
+          },
+          {
+            "time": 172.20685600000002,
+            "wristStepMm": 1.0281445991279306e-11,
+            "maxTipStepMm": 0.00027968078424628963,
+            "maxJointStepRad": 0.000004319383738941017
+          },
+          {
+            "time": 172.227856,
+            "wristStepMm": 9.797718192317006e-12,
+            "maxTipStepMm": 0.0006118689328277902,
+            "maxJointStepRad": 0.000008089670099604425
+          },
+          {
+            "time": 172.230856,
+            "wristStepMm": 1.0139260312637956e-11,
+            "maxTipStepMm": 0.0006935762856936171,
+            "maxJointStepRad": 0.000011560458763070346
+          },
+          {
+            "time": 172.43167393752276,
+            "wristStepMm": 2.3421824979263683e-12,
+            "maxTipStepMm": 0.0004999865265787279,
+            "maxJointStepRad": 0.0000064710855313184
+          },
+          {
+            "time": 172.507007,
+            "wristStepMm": 0.0008283953427713907,
+            "maxTipStepMm": 0.003086760494433809,
+            "maxJointStepRad": 0.00004564636981777701
+          },
+          {
+            "time": 172.549189,
+            "wristStepMm": 3.1211536613475984e-11,
+            "maxTipStepMm": 0.0018605142150409538,
+            "maxJointStepRad": 0.0000463735628118629
+          },
+          {
+            "time": 172.552189,
+            "wristStepMm": 3.287648810382892e-11,
+            "maxTipStepMm": 0.001731884294466544,
+            "maxJointStepRad": 0.00004637370645680686
+          },
+          {
+            "time": 172.555689,
+            "wristStepMm": 2.7448173415163886e-11,
+            "maxTipStepMm": 0.0013051896048969756,
+            "maxJointStepRad": 0.000034781251026627366
+          },
+          {
+            "time": 172.790184,
+            "wristStepMm": 1.944826271218498e-11,
+            "maxTipStepMm": 0.00011368117461425618,
+            "maxJointStepRad": 0.000011898257631824078
+          },
+          {
+            "time": 172.83586,
+            "wristStepMm": 1.7044364297306066e-11,
+            "maxTipStepMm": 0.0025341653626242675,
+            "maxJointStepRad": 0.000026097851344504707
+          },
+          {
+            "time": 172.86586,
+            "wristStepMm": 2.0716892533553548e-11,
+            "maxTipStepMm": 0.004638174940981294,
+            "maxJointStepRad": 0.000050149357121989794
+          },
+          {
+            "time": 172.89086,
+            "wristStepMm": 1.748383170661168e-11,
+            "maxTipStepMm": 0.0008136325983983337,
+            "maxJointStepRad": 0.000014273601331906314
+          },
+          {
+            "time": 172.89386,
+            "wristStepMm": 1.3363927762111684e-11,
+            "maxTipStepMm": 0.0005625285804353084,
+            "maxJointStepRad": 0.000014705505950926047
+          },
+          {
+            "time": 173.11985399999998,
+            "wristStepMm": 1.7626779189068915e-11,
+            "maxTipStepMm": 0.00008783296826675125,
+            "maxJointStepRad": 0.000001126984977793055
+          },
+          {
+            "time": 173.16553000000002,
+            "wristStepMm": 2.021894145882549e-11,
+            "maxTipStepMm": 0.00369879118547341,
+            "maxJointStepRad": 0.000039296382178097896
+          },
+          {
+            "time": 173.22053000000002,
+            "wristStepMm": 1.5432324681104813e-11,
+            "maxTipStepMm": 0.0002403629893982804,
+            "maxJointStepRad": 0.0000024816585506877167
+          },
+          {
+            "time": 173.22353,
+            "wristStepMm": 1.887593419069709e-11,
+            "maxTipStepMm": 0.00011385222701195591,
+            "maxJointStepRad": 0.000011895346012475757
+          },
+          {
+            "time": 173.42141454242855,
+            "wristStepMm": 8.463994407332797e-12,
+            "maxTipStepMm": 0.0008418377557708693,
+            "maxJointStepRad": 0.000016700180160502374
+          },
+          {
+            "time": 173.5292,
+            "wristStepMm": 0.0004486475924889929,
+            "maxTipStepMm": 0.0005878425557668118,
+            "maxJointStepRad": 0.00001522067364744478
+          },
+          {
+            "time": 173.55020000000002,
+            "wristStepMm": 1.623976333684048e-11,
+            "maxTipStepMm": 0.0004534971024350165,
+            "maxJointStepRad": 0.000009366135507001914
+          },
+          {
+            "time": 173.5532,
+            "wristStepMm": 1.3391338967921097e-11,
+            "maxTipStepMm": 0.0005139927437851575,
+            "maxJointStepRad": 0.0000115922989480519
+          },
+          {
+            "time": 173.78800747747303,
+            "wristStepMm": 4.221768122166024e-12,
+            "maxTipStepMm": 0.000764230704564091,
+            "maxJointStepRad": 0.00001027398053877239
+          },
+          {
+            "time": 173.858871,
+            "wristStepMm": 0.00053432032351387,
+            "maxTipStepMm": 0.0005532038028830604,
+            "maxJointStepRad": 0.000006171311905646285
+          },
+          {
+            "time": 173.879871,
+            "wristStepMm": 1.1622661788216855e-11,
+            "maxTipStepMm": 0.00018427340518835806,
+            "maxJointStepRad": 0.000002432132454288533
+          },
+          {
+            "time": 173.882871,
+            "wristStepMm": 1.1238095124759238e-11,
+            "maxTipStepMm": 0.00020850068488480599,
+            "maxJointStepRad": 0.00000274035554966244
+          },
+          {
+            "time": 174.154541,
+            "wristStepMm": 5.607519328189741e-12,
+            "maxTipStepMm": 0.000608294587417961,
+            "maxJointStepRad": 0.00000984974645058847
+          },
+          {
+            "time": 174.188541,
+            "wristStepMm": 1.3823614209969006e-11,
+            "maxTipStepMm": 0.00031701486092776106,
+            "maxJointStepRad": 0.000005060430831145474
+          },
+          {
+            "time": 174.209541,
+            "wristStepMm": 8.766940278605077e-12,
+            "maxTipStepMm": 0.0007439893506196456,
+            "maxJointStepRad": 0.000009477138519295976
+          },
+          {
+            "time": 174.212541,
+            "wristStepMm": 7.349517099256398e-12,
+            "maxTipStepMm": 0.0008360317233024919,
+            "maxJointStepRad": 0.000011697402045997758
+          },
+          {
+            "time": 174.40396413907226,
+            "wristStepMm": 2.2350046930953603e-11,
+            "maxTipStepMm": 0.00015630020628617497,
+            "maxJointStepRad": 0.0000019408154672581642
+          },
+          {
+            "time": 174.432075,
+            "wristStepMm": 0.000685779443085976,
+            "maxTipStepMm": 0.0009725440046143634,
+            "maxJointStepRad": 0.000029450334702077646
+          }
+        ]
+      },
+      {
+        "name": "L50-coda",
+        "range": [
+          206.10602999999998,
+          208.37796400000002
+        ],
+        "maxWristSpeed": 1.2133295027775013,
+        "maxJointRate": 122.68690586718742,
+        "maxTipSpeed": 2.3568272728177555,
+        "peaks": {
+          "wrist": 207.75203000000784,
+          "joint": 208.19003000000993,
+          "tip": 208.11603000000957
+        },
+        "maxWristErrorMm": 0.00010946482897796819,
+        "maxReachFraction": 0.7836969412794781,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 206.34803,
+            "wristStepMm": 5.964866284554063e-12,
+            "maxTipStepMm": 0.0003046163198054858,
+            "maxJointStepRad": 0.00000502361439775911
+          },
+          {
+            "time": 206.37343,
+            "wristStepMm": 8.940053240787483e-12,
+            "maxTipStepMm": 0.00017837877407960776,
+            "maxJointStepRad": 0.000003079028491566944
+          },
+          {
+            "time": 206.40303,
+            "wristStepMm": 5.063700317711733e-12,
+            "maxTipStepMm": 0.00010662583994195006,
+            "maxJointStepRad": 0.0000012054293403719062
+          },
+          {
+            "time": 206.40603,
+            "wristStepMm": 4.471749705270163e-12,
+            "maxTipStepMm": 0.00011527809448734982,
+            "maxJointStepRad": 0.0000013017850916291439
+          },
+          {
+            "time": 206.64911658856997,
+            "wristStepMm": 7.473675149959263e-12,
+            "maxTipStepMm": 0.00008274485264806299,
+            "maxJointStepRad": 0.000001283577410421276
+          },
+          {
+            "time": 206.671672,
+            "wristStepMm": 0.0005234463603352153,
+            "maxTipStepMm": 0.0005031207105954404,
+            "maxJointStepRad": 0.000011947572259708239
+          },
+          {
+            "time": 206.768884,
+            "wristStepMm": 2.416010859960864e-12,
+            "maxTipStepMm": 0.00034720278693036534,
+            "maxJointStepRad": 0.000012770355999555098
+          },
+          {
+            "time": 206.771884,
+            "wristStepMm": 2.788986529080262e-12,
+            "maxTipStepMm": 0.00011655443903638832,
+            "maxJointStepRad": 0.000004189850410859485
+          },
+          {
+            "time": 207.07973800000002,
+            "wristStepMm": 1.3135778848226663e-11,
+            "maxTipStepMm": 0.0011932264434222754,
+            "maxJointStepRad": 0.000013383997026279876
+          },
+          {
+            "time": 207.113738,
+            "wristStepMm": 1.032734953704368e-11,
+            "maxTipStepMm": 0.0005501093995955391,
+            "maxJointStepRad": 0.000006181881013451141
+          },
+          {
+            "time": 207.13473800000003,
+            "wristStepMm": 5.838179320968785e-12,
+            "maxTipStepMm": 0.0005203155337501126,
+            "maxJointStepRad": 0.000015341250227585483
+          },
+          {
+            "time": 207.137738,
+            "wristStepMm": 8.696845449700455e-12,
+            "maxTipStepMm": 0.0006130388395030735,
+            "maxJointStepRad": 0.00003576632571640379
+          },
+          {
+            "time": 207.445591,
+            "wristStepMm": 5.133506074316015e-12,
+            "maxTipStepMm": 0.0002063695084143004,
+            "maxJointStepRad": 0.0000034394255875056933
+          },
+          {
+            "time": 207.479591,
+            "wristStepMm": 1.3065095166702622e-11,
+            "maxTipStepMm": 0.00011561638338688439,
+            "maxJointStepRad": 0.000035765680057480524
+          },
+          {
+            "time": 207.50059100000001,
+            "wristStepMm": 9.366262826699683e-12,
+            "maxTipStepMm": 0.001333886569845463,
+            "maxJointStepRad": 0.000015023504130930857
+          },
+          {
+            "time": 207.503591,
+            "wristStepMm": 9.152440514592607e-12,
+            "maxTipStepMm": 0.0014994109987667792,
+            "maxJointStepRad": 0.000016877536955888923
+          },
+          {
+            "time": 207.64684823354307,
+            "wristStepMm": 8.12366391933917e-12,
+            "maxTipStepMm": 0.0015018277671031597,
+            "maxJointStepRad": 0.00002933423684173797
+          },
+          {
+            "time": 207.697182,
+            "wristStepMm": 0.0013099572105579025,
+            "maxTipStepMm": 0.0019411613301953663,
+            "maxJointStepRad": 0.00004866291263672672
+          },
+          {
+            "time": 207.85444500000003,
+            "wristStepMm": 1.463853371524284e-11,
+            "maxTipStepMm": 0.0009962850803949253,
+            "maxJointStepRad": 0.000026057218790392838
+          },
+          {
+            "time": 207.857445,
+            "wristStepMm": 1.4330910867548958e-11,
+            "maxTipStepMm": 0.0009244492412929679,
+            "maxJointStepRad": 0.000012170591251483486
+          },
+          {
+            "time": 208.0609635102207,
+            "wristStepMm": 1.0155051670483078e-11,
+            "maxTipStepMm": 0.0010375169547964845,
+            "maxJointStepRad": 0.00003479003434505421
+          },
+          {
+            "time": 208.077964,
+            "wristStepMm": 0.0002457572088320541,
+            "maxTipStepMm": 0.0010267075668187631,
+            "maxJointStepRad": 0.00003485512519536302
+          },
+          {
+            "time": 208.24144500000003,
+            "wristStepMm": 8.37850679422873e-12,
+            "maxTipStepMm": 0.001248369082879561,
+            "maxJointStepRad": 0.00001895418332041853
+          },
+          {
+            "time": 208.244445,
+            "wristStepMm": 6.139442981866635e-12,
+            "maxTipStepMm": 0.0011260878504641989,
+            "maxJointStepRad": 0.000017093522036801757
+          }
+        ]
+      },
+      {
+        "name": "L57-early",
+        "range": [
+          96.995706,
+          99.28428399999999
+        ],
+        "maxWristSpeed": 0.7281594048886765,
+        "maxJointRate": 70.05554199218567,
+        "maxTipSpeed": 3.012302634833973,
+        "peaks": {
+          "wrist": 98.5837059999963,
+          "joint": 98.58970599999628,
+          "tip": 98.98770599999536
+        },
+        "maxWristErrorMm": 0.0001054800663415514,
+        "maxReachFraction": 0.7822607998725958,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 97.17968331453827,
+            "wristStepMm": 5.926969055564841e-12,
+            "maxTipStepMm": 0.0007972457759785956,
+            "maxJointStepRad": 0.000011161596400962592
+          },
+          {
+            "time": 97.271706,
+            "wristStepMm": 0.000483813973721568,
+            "maxTipStepMm": 0.0004969621547555547,
+            "maxJointStepRad": 0.00002205166452751142
+          },
+          {
+            "time": 97.292706,
+            "wristStepMm": 8.363644298517372e-12,
+            "maxTipStepMm": 0.0018610107031347425,
+            "maxJointStepRad": 0.000023193368994709824
+          },
+          {
+            "time": 97.295706,
+            "wristStepMm": 8.492661893972008e-12,
+            "maxTipStepMm": 0.0018957447257038794,
+            "maxJointStepRad": 0.000023193311552891876
+          },
+          {
+            "time": 97.578615,
+            "wristStepMm": 7.962754901986912e-12,
+            "maxTipStepMm": 0.0004189351749640681,
+            "maxJointStepRad": 0.0000064143571084110894
+          },
+          {
+            "time": 97.61261499999999,
+            "wristStepMm": 1.3953327186231127e-11,
+            "maxTipStepMm": 0.0002906868720515605,
+            "maxJointStepRad": 0.000011840489313927649
+          },
+          {
+            "time": 97.633615,
+            "wristStepMm": 1.1333285025935587e-11,
+            "maxTipStepMm": 0.0001404384929626659,
+            "maxJointStepRad": 0.0000028607124915164666
+          },
+          {
+            "time": 97.636615,
+            "wristStepMm": 1.16869431649174e-11,
+            "maxTipStepMm": 0.00018978743889771702,
+            "maxJointStepRad": 0.000011695731476707453
+          },
+          {
+            "time": 97.919525,
+            "wristStepMm": 1.7246020212547866e-11,
+            "maxTipStepMm": 0.00164861789957867,
+            "maxJointStepRad": 0.000018933882402522737
+          },
+          {
+            "time": 97.95352500000001,
+            "wristStepMm": 2.0964188830221104e-11,
+            "maxTipStepMm": 0.0008057015391122397,
+            "maxJointStepRad": 0.000011695010020742654
+          },
+          {
+            "time": 97.974525,
+            "wristStepMm": 1.2212737131419283e-11,
+            "maxTipStepMm": 0.00034890558979225425,
+            "maxJointStepRad": 0.000005312676709649024
+          },
+          {
+            "time": 97.977525,
+            "wristStepMm": 1.5782455839046265e-11,
+            "maxTipStepMm": 0.00039142268415650905,
+            "maxJointStepRad": 0.000005964039683987437
+          },
+          {
+            "time": 98.23446051767456,
+            "wristStepMm": 1.5668507965691234e-11,
+            "maxTipStepMm": 0.0003571402084037087,
+            "maxJointStepRad": 0.00001479180261576002
+          },
+          {
+            "time": 98.294434,
+            "wristStepMm": 0.0005588246300557283,
+            "maxTipStepMm": 0.0009632476255824793,
+            "maxJointStepRad": 0.000011596627055417099
+          },
+          {
+            "time": 98.315434,
+            "wristStepMm": 1.392890271118588e-11,
+            "maxTipStepMm": 0.000790306123739355,
+            "maxJointStepRad": 0.00001894363705984574
+          },
+          {
+            "time": 98.318434,
+            "wristStepMm": 1.6063358046097813e-11,
+            "maxTipStepMm": 0.0008941807153075726,
+            "maxJointStepRad": 0.000013338195775183115
+          },
+          {
+            "time": 98.51971768536667,
+            "wristStepMm": 9.507327957630223e-12,
+            "maxTipStepMm": 0.0003260843999332511,
+            "maxJointStepRad": 0.000006477190427414635
+          },
+          {
+            "time": 98.58394,
+            "wristStepMm": 0.0014541760256241917,
+            "maxTipStepMm": 0.0020174956310603535,
+            "maxJointStepRad": 0.00006949679210360157
+          },
+          {
+            "time": 98.644343,
+            "wristStepMm": 2.436589012766693e-11,
+            "maxTipStepMm": 0.0004150505788043738,
+            "maxJointStepRad": 0.000007729782574570982
+          },
+          {
+            "time": 98.647343,
+            "wristStepMm": 2.235039161302065e-11,
+            "maxTipStepMm": 0.000615442194660669,
+            "maxJointStepRad": 0.000011494814082249114
+          },
+          {
+            "time": 98.650843,
+            "wristStepMm": 1.9804770185262866e-11,
+            "maxTipStepMm": 0.000711076426949036,
+            "maxJointStepRad": 0.000013258048058813811
+          },
+          {
+            "time": 98.929343,
+            "wristStepMm": 1.9463808905702313e-11,
+            "maxTipStepMm": 0.00007429365349027406,
+            "maxJointStepRad": 0.0000010616489130590609
+          },
+          {
+            "time": 98.95428399999999,
+            "wristStepMm": 1.4972075029203986e-11,
+            "maxTipStepMm": 0.003404849453038526,
+            "maxJointStepRad": 0.00006813224154922724
+          },
+          {
+            "time": 98.98428399999999,
+            "wristStepMm": 1.3898484972367425e-11,
+            "maxTipStepMm": 0.00519610820315505,
+            "maxJointStepRad": 0.00009696037996863457
+          },
+          {
+            "time": 99.009284,
+            "wristStepMm": 1.45823525758948e-11,
+            "maxTipStepMm": 0.0008119803882409828,
+            "maxJointStepRad": 0.00004638669969568574
+          },
+          {
+            "time": 99.012284,
+            "wristStepMm": 1.435145779552082e-11,
+            "maxTipStepMm": 0.00024438475643634845,
+            "maxJointStepRad": 0.000011792911146696898
+          }
+        ]
+      },
+      {
+        "name": "L57-middle",
+        "range": [
+          149.05402199999997,
+          154.03538300000002
+        ],
+        "maxWristSpeed": 0.9440475596857631,
+        "maxJointRate": 38.442990964803876,
+        "maxTipSpeed": 1.6459271778736897,
+        "peaks": {
+          "wrist": 150.3560220000062,
+          "joint": 150.32802200000606,
+          "tip": 149.32002200000125
+        },
+        "maxWristErrorMm": 0.00009321094491981978,
+        "maxReachFraction": 0.7400206393298133,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 149.2282353738734,
+            "wristStepMm": 5.6143156165127785e-12,
+            "maxTipStepMm": 9.153324269613145e-12,
+            "maxJointStepRad": 8.940696716308595e-8
+          },
+          {
+            "time": 149.30402199999997,
+            "wristStepMm": 0.0012819602724090287,
+            "maxTipStepMm": 0.0012819600712644054,
+            "maxJointStepRad": 0.00000901154422228284
+          },
+          {
+            "time": 149.351022,
+            "wristStepMm": 1.2879813297319402e-11,
+            "maxTipStepMm": 0.00020504751348153502,
+            "maxJointStepRad": 0.000003262231418040305
+          },
+          {
+            "time": 149.354022,
+            "wristStepMm": 1.1689678413633249e-11,
+            "maxTipStepMm": 0.0002907462749052264,
+            "maxJointStepRad": 0.000011842926952004547
+          },
+          {
+            "time": 150.275027056289,
+            "wristStepMm": 4.753907060452231e-12,
+            "maxTipStepMm": 0.00037022160942765955,
+            "maxJointStepRad": 0.000004825400030139447
+          },
+          {
+            "time": 150.328138,
+            "wristStepMm": 0.0014715166699470167,
+            "maxTipStepMm": 0.0017929114010751016,
+            "maxJointStepRad": 0.00003578593826009161
+          },
+          {
+            "time": 150.436583,
+            "wristStepMm": 1.4186982215966676e-11,
+            "maxTipStepMm": 0.000407168862539353,
+            "maxJointStepRad": 0.000006528749538760585
+          },
+          {
+            "time": 150.439583,
+            "wristStepMm": 1.1054979915088683e-11,
+            "maxTipStepMm": 0.0004005967529811197,
+            "maxJointStepRad": 0.000006265154194451996
+          },
+          {
+            "time": 151.504694,
+            "wristStepMm": 8.573598019585404e-12,
+            "maxTipStepMm": 0.000979252141917023,
+            "maxJointStepRad": 0.000011258889839445807
+          },
+          {
+            "time": 151.521494,
+            "wristStepMm": 1.2705173477872206e-11,
+            "maxTipStepMm": 0.0007893209020875715,
+            "maxJointStepRad": 0.000009047299872408531
+          },
+          {
+            "time": 151.559694,
+            "wristStepMm": 8.907983249234526e-12,
+            "maxTipStepMm": 0.0005418699633460942,
+            "maxJointStepRad": 0.000010713427127734722
+          },
+          {
+            "time": 151.562694,
+            "wristStepMm": 1.0697425177845404e-11,
+            "maxTipStepMm": 0.0005756015327576717,
+            "maxJointStepRad": 0.000011808904654635108
+          },
+          {
+            "time": 152.16318628784174,
+            "wristStepMm": 5.492589282010755e-12,
+            "maxTipStepMm": 3.851554932315348e-12,
+            "maxJointStepRad": 1.1920928955078128e-7
+          },
+          {
+            "time": 152.253434,
+            "wristStepMm": 0.0013016663528722567,
+            "maxTipStepMm": 0.001310308529066569,
+            "maxJointStepRad": 0.000014208208361228053
+          },
+          {
+            "time": 152.30043400000002,
+            "wristStepMm": 8.05987698567301e-12,
+            "maxTipStepMm": 0.00023527821551532808,
+            "maxJointStepRad": 0.0000026550842015199685
+          },
+          {
+            "time": 152.303434,
+            "wristStepMm": 1.0775027611263212e-11,
+            "maxTipStepMm": 0.00029077284729195325,
+            "maxJointStepRad": 0.00001186342077084407
+          },
+          {
+            "time": 153.2903675917578,
+            "wristStepMm": 4.202472794680645e-12,
+            "maxTipStepMm": 0.00025411339913774194,
+            "maxJointStepRad": 0.0000040740984655947725
+          },
+          {
+            "time": 153.34070100000002,
+            "wristStepMm": 0.0012608645365520558,
+            "maxTipStepMm": 0.0014074116253436693,
+            "maxJointStepRad": 0.00003578529295502918
+          },
+          {
+            "time": 153.39954600000002,
+            "wristStepMm": 1.1785142913747468e-11,
+            "maxTipStepMm": 0.0013576919550496295,
+            "maxJointStepRad": 0.000016129748150967814
+          },
+          {
+            "time": 153.402546,
+            "wristStepMm": 1.0483968346869295e-11,
+            "maxTipStepMm": 0.0013451136007557648,
+            "maxJointStepRad": 0.000016029826757988996
+          },
+          {
+            "time": 153.705383,
+            "wristStepMm": 1.891700798505682e-11,
+            "maxTipStepMm": 0.0004201000137109289,
+            "maxJointStepRad": 0.000006328135618731077
+          },
+          {
+            "time": 153.735383,
+            "wristStepMm": 1.8154862391397104e-11,
+            "maxTipStepMm": 0.0003565447657970547,
+            "maxJointStepRad": 0.000008647039971144549
+          },
+          {
+            "time": 153.76038300000002,
+            "wristStepMm": 1.2106809007642558e-11,
+            "maxTipStepMm": 0.0006607421194991209,
+            "maxJointStepRad": 0.00001406827459130201
+          },
+          {
+            "time": 153.763383,
+            "wristStepMm": 1.487004801710579e-11,
+            "maxTipStepMm": 0.0006950152641469261,
+            "maxJointStepRad": 0.0000148142425416066
+          }
+        ]
+      },
+      {
+        "name": "L57-refrain",
+        "range": [
+          176.234885,
+          178.485046
+        ],
+        "maxWristSpeed": 0.7279714090726023,
+        "maxJointRate": 81.11877441406403,
+        "maxTipSpeed": 3.0204767109842634,
+        "peaks": {
+          "wrist": 177.79288500000743,
+          "joint": 177.79888500000746,
+          "tip": 178.18888500000932
+        },
+        "maxWristErrorMm": 0.00010584493410812321,
+        "maxReachFraction": 0.7793735192586888,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 176.4189172362477,
+            "wristStepMm": 1.2004535128306366e-11,
+            "maxTipStepMm": 0.000508996204791584,
+            "maxJointStepRad": 0.0000063541878144403285
+          },
+          {
+            "time": 176.510885,
+            "wristStepMm": 0.0004839417789504352,
+            "maxTipStepMm": 0.0005069120946199712,
+            "maxJointStepRad": 0.000022292933985409645
+          },
+          {
+            "time": 176.53188500000002,
+            "wristStepMm": 1.2947552098187791e-11,
+            "maxTipStepMm": 0.0018610107040953037,
+            "maxJointStepRad": 0.000023193368994709824
+          },
+          {
+            "time": 176.534885,
+            "wristStepMm": 1.00575192040138e-11,
+            "maxTipStepMm": 0.0018957447236793174,
+            "maxJointStepRad": 0.000023193330700180334
+          },
+          {
+            "time": 176.81021900000002,
+            "wristStepMm": 1.5085072361014398e-11,
+            "maxTipStepMm": 0.0003532959904602044,
+            "maxJointStepRad": 0.000005697468287162477
+          },
+          {
+            "time": 176.844219,
+            "wristStepMm": 1.7468381161078255e-11,
+            "maxTipStepMm": 0.0005699579773697944,
+            "maxJointStepRad": 0.00001613506101161857
+          },
+          {
+            "time": 176.86521900000002,
+            "wristStepMm": 1.8445767524153488e-11,
+            "maxTipStepMm": 0.0005600610672302194,
+            "maxJointStepRad": 0.000023542872693064534
+          },
+          {
+            "time": 176.868219,
+            "wristStepMm": 1.891529750917421e-11,
+            "maxTipStepMm": 0.000262205106963362,
+            "maxJointStepRad": 0.000011695275825486506
+          },
+          {
+            "time": 177.143552,
+            "wristStepMm": 2.1855696189388604e-11,
+            "maxTipStepMm": 0.0017048887085296925,
+            "maxJointStepRad": 0.000019578628831266512
+          },
+          {
+            "time": 177.17755200000002,
+            "wristStepMm": 2.915054352547598e-11,
+            "maxTipStepMm": 0.000838896998590134,
+            "maxJointStepRad": 0.000011696870527104105
+          },
+          {
+            "time": 177.198552,
+            "wristStepMm": 1.472385543952264e-11,
+            "maxTipStepMm": 0.00034890558122542184,
+            "maxJointStepRad": 0.000005312760299473982
+          },
+          {
+            "time": 177.201552,
+            "wristStepMm": 1.4833660915169987e-11,
+            "maxTipStepMm": 0.00039142267035526505,
+            "maxJointStepRad": 0.000005963965222379928
+          },
+          {
+            "time": 177.4509115176746,
+            "wristStepMm": 1.6131912082372725e-11,
+            "maxTipStepMm": 0.0003571402235301826,
+            "maxJointStepRad": 0.00001479186266095127
+          },
+          {
+            "time": 177.510885,
+            "wristStepMm": 0.0005588246290852281,
+            "maxTipStepMm": 0.0010393204756324926,
+            "maxJointStepRad": 0.00001159666535004143
+          },
+          {
+            "time": 177.53188500000002,
+            "wristStepMm": 1.1004411946997672e-11,
+            "maxTipStepMm": 0.0008237951778412209,
+            "maxJointStepRad": 0.000029319927054488566
+          },
+          {
+            "time": 177.534885,
+            "wristStepMm": 1.1338008254715804e-11,
+            "maxTipStepMm": 0.0009317171534470418,
+            "maxJointStepRad": 0.000013858240136919496
+          },
+          {
+            "time": 177.7285936853667,
+            "wristStepMm": 2.1654259025234228e-11,
+            "maxTipStepMm": 0.0003409415480003512,
+            "maxJointStepRad": 0.0000065108355543267264
+          },
+          {
+            "time": 177.79281600000002,
+            "wristStepMm": 0.0014541760270166083,
+            "maxTipStepMm": 0.0020174956655641587,
+            "maxJointStepRad": 0.0000694955843703027
+          },
+          {
+            "time": 177.85321900000002,
+            "wristStepMm": 3.2735442322739884e-11,
+            "maxTipStepMm": 0.0004150504143351231,
+            "maxJointStepRad": 0.00000772984002606528
+          },
+          {
+            "time": 177.856219,
+            "wristStepMm": 3.068457655904979e-11,
+            "maxTipStepMm": 0.000615442006735119,
+            "maxJointStepRad": 0.000011494775448309239
+          },
+          {
+            "time": 177.859719,
+            "wristStepMm": 2.799198995338354e-11,
+            "maxTipStepMm": 0.0007110764200705925,
+            "maxJointStepRad": 0.000013257981067001765
+          },
+          {
+            "time": 178.13010500000001,
+            "wristStepMm": 2.93317772747172e-11,
+            "maxTipStepMm": 0.00007397550619699382,
+            "maxJointStepRad": 0.0000010578775018035802
+          },
+          {
+            "time": 178.155046,
+            "wristStepMm": 2.251393392023073e-11,
+            "maxTipStepMm": 0.00340484942668588,
+            "maxJointStepRad": 0.00006813223503117908
+          },
+          {
+            "time": 178.185046,
+            "wristStepMm": 2.265161077221571e-11,
+            "maxTipStepMm": 0.005062816576787515,
+            "maxJointStepRad": 0.0000944641434910754
+          },
+          {
+            "time": 178.210046,
+            "wristStepMm": 2.3458847657656634e-11,
+            "maxTipStepMm": 0.000708473517792503,
+            "maxJointStepRad": 0.00003479003434505421
+          },
+          {
+            "time": 178.213046,
+            "wristStepMm": 2.352153620612606e-11,
+            "maxTipStepMm": 0.00026213867477664144,
+            "maxJointStepRad": 0.00001189168681354297
+          }
+        ]
+      },
+      {
+        "name": "L57-coda",
+        "range": [
+          212.517497,
+          217.980782
+        ],
+        "maxWristSpeed": 0.8021076057279842,
+        "maxJointRate": 32.31948624637062,
+        "maxTipSpeed": 1.6458845344386435,
+        "peaks": {
+          "wrist": 213.9034970000066,
+          "joint": 217.19949700002235,
+          "tip": 216.00749700001666
+        },
+        "maxWristErrorMm": 0.00009620138071558037,
+        "maxReachFraction": 0.7458692287058425,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 212.72767374402687,
+            "wristStepMm": 1.0310738718936458e-12,
+            "maxTipStepMm": 2.0390432962404613e-12,
+            "maxJointStepRad": 4.2146848510894035e-8
+          },
+          {
+            "time": 212.767497,
+            "wristStepMm": 0.001001170249620444,
+            "maxTipStepMm": 0.0010011701934431803,
+            "maxJointStepRad": 0.000011883206586192071
+          },
+          {
+            "time": 212.81449700000002,
+            "wristStepMm": 1.7875969802299682e-12,
+            "maxTipStepMm": 0.00016782842244769292,
+            "maxJointStepRad": 0.00000264049249092797
+          },
+          {
+            "time": 212.817497,
+            "wristStepMm": 1.668338681331951e-12,
+            "maxTipStepMm": 0.0002908298866139574,
+            "maxJointStepRad": 0.000011864019691521495
+          },
+          {
+            "time": 213.83408028784174,
+            "wristStepMm": 8.586302945455826e-13,
+            "maxTipStepMm": 0.0003852894640332272,
+            "maxJointStepRad": 0.000005060606342489709
+          },
+          {
+            "time": 213.884414,
+            "wristStepMm": 0.001384614751867906,
+            "maxTipStepMm": 0.0016813498518189016,
+            "maxJointStepRad": 0.000023873576285131994
+          },
+          {
+            "time": 213.97132800000003,
+            "wristStepMm": 1.0121465585667218e-11,
+            "maxTipStepMm": 0.0009064586714470259,
+            "maxJointStepRad": 0.000011788542090402958
+          },
+          {
+            "time": 213.974328,
+            "wristStepMm": 9.608441506619285e-12,
+            "maxTipStepMm": 0.0008277141031953105,
+            "maxJointStepRad": 0.000010997258871973142
+          },
+          {
+            "time": 215.161205,
+            "wristStepMm": 6.518484241374596e-12,
+            "maxTipStepMm": 0.0009792521360197362,
+            "maxJointStepRad": 0.000011258889839445807
+          },
+          {
+            "time": 215.178005,
+            "wristStepMm": 8.86302938208551e-12,
+            "maxTipStepMm": 0.0007893208965609667,
+            "maxJointStepRad": 0.000009047250786999537
+          },
+          {
+            "time": 215.216205,
+            "wristStepMm": 7.820573639952287e-12,
+            "maxTipStepMm": 0.0005418698271495738,
+            "maxJointStepRad": 0.00001071338567600656
+          },
+          {
+            "time": 215.219205,
+            "wristStepMm": 7.230101031281382e-12,
+            "maxTipStepMm": 0.0005756013960668387,
+            "maxJointStepRad": 0.000011811123217925774
+          },
+          {
+            "time": 215.90087528784173,
+            "wristStepMm": 4.630192411654289e-12,
+            "maxTipStepMm": 6.136054109995503e-12,
+            "maxJointStepRad": 1.032382731180714e-7
+          },
+          {
+            "time": 215.991123,
+            "wristStepMm": 0.00130166635098452,
+            "maxTipStepMm": 0.0013103085235832831,
+            "maxJointStepRad": 0.000014208145849449582
+          },
+          {
+            "time": 216.038123,
+            "wristStepMm": 9.613250897768917e-12,
+            "maxTipStepMm": 0.00023527822246391904,
+            "maxJointStepRad": 0.0000026550842015199685
+          },
+          {
+            "time": 216.041123,
+            "wristStepMm": 6.387642869620234e-12,
+            "maxTipStepMm": 0.00029078832923566065,
+            "maxJointStepRad": 0.000011863944828090292
+          },
+          {
+            "time": 217.14982059175782,
+            "wristStepMm": 1.056171682913856e-12,
+            "maxTipStepMm": 0.0002541133913122273,
+            "maxJointStepRad": 0.000004073989461073995
+          },
+          {
+            "time": 217.200154,
+            "wristStepMm": 0.0012608645383646827,
+            "maxTipStepMm": 0.0014074116207551625,
+            "maxJointStepRad": 0.00003578557837985737
+          },
+          {
+            "time": 217.25899900000002,
+            "wristStepMm": 1.1023122575174603e-11,
+            "maxTipStepMm": 0.001357691948761804,
+            "maxJointStepRad": 0.000016129693086255865
+          },
+          {
+            "time": 217.261999,
+            "wristStepMm": 1.089790787034756e-11,
+            "maxTipStepMm": 0.0013451135943024159,
+            "maxJointStepRad": 0.000016029771350031806
+          },
+          {
+            "time": 217.65078200000002,
+            "wristStepMm": 1.8020958061502785e-11,
+            "maxTipStepMm": 0.0004201000265117511,
+            "maxJointStepRad": 0.000006328135618731077
+          },
+          {
+            "time": 217.680782,
+            "wristStepMm": 2.655040971459291e-11,
+            "maxTipStepMm": 0.00032703504344066143,
+            "maxJointStepRad": 0.000008179746738924323
+          },
+          {
+            "time": 217.70578200000003,
+            "wristStepMm": 2.6643690095808216e-11,
+            "maxTipStepMm": 0.00017305634829430943,
+            "maxJointStepRad": 0.000005725537292930185
+          },
+          {
+            "time": 217.708782,
+            "wristStepMm": 2.384538345921815e-11,
+            "maxTipStepMm": 0.0001903969971997178,
+            "maxJointStepRad": 0.000011697212220594017
+          }
+        ]
+      },
+      {
+        "name": "L59-middle",
+        "range": [
+          118.524752,
+          122.60944199999999
+        ],
+        "maxWristSpeed": 0.9470021665318555,
+        "maxJointRate": 31.3732897977418,
+        "maxTipSpeed": 1.396077029522935,
+        "peaks": {
+          "wrist": 120.75475199999481,
+          "joint": 120.75475199999481,
+          "tip": 118.75675199999947
+        },
+        "maxWristErrorMm": 0.0000962319716086608,
+        "maxReachFraction": 0.7459150790927533,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 118.67785709601844,
+            "wristStepMm": 7.668429055417045e-12,
+            "maxTipStepMm": 1.518331465692437e-11,
+            "maxJointStepRad": 1.1920928955078128e-7
+          },
+          {
+            "time": 118.72541299999999,
+            "wristStepMm": 0.0013177219968369704,
+            "maxTipStepMm": 0.0013221280134272228,
+            "maxJointStepRad": 0.00003898550453163064
+          },
+          {
+            "time": 118.821752,
+            "wristStepMm": 6.037459772077209e-12,
+            "maxTipStepMm": 0.00042686768598513,
+            "maxJointStepRad": 0.000009992448045543983
+          },
+          {
+            "time": 118.824752,
+            "wristStepMm": 4.023026830714975e-12,
+            "maxTipStepMm": 0.0002881312291802117,
+            "maxJointStepRad": 0.000011592030782053127
+          },
+          {
+            "time": 119.31553299999999,
+            "wristStepMm": 2.0268944996544644e-11,
+            "maxTipStepMm": 0.0004625526120647943,
+            "maxJointStepRad": 0.000006064607848806909
+          },
+          {
+            "time": 119.34953300000001,
+            "wristStepMm": 1.8087970251981574e-11,
+            "maxTipStepMm": 0.00040977583176666257,
+            "maxJointStepRad": 0.000005221958812710872
+          },
+          {
+            "time": 119.370533,
+            "wristStepMm": 1.5172021237826997e-11,
+            "maxTipStepMm": 0.00033836550963378963,
+            "maxJointStepRad": 0.000010683290845454731
+          },
+          {
+            "time": 119.373533,
+            "wristStepMm": 1.4577280103914338e-11,
+            "maxTipStepMm": 0.00030932960176802203,
+            "maxJointStepRad": 0.00001177934671714837
+          },
+          {
+            "time": 120.04723999999999,
+            "wristStepMm": 1.579760467000081e-11,
+            "maxTipStepMm": 0.00119090040827768,
+            "maxJointStepRad": 0.000013626832868609045
+          },
+          {
+            "time": 120.08124,
+            "wristStepMm": 1.5828783574272457e-11,
+            "maxTipStepMm": 0.0005962481134627305,
+            "maxJointStepRad": 0.000011779686018250716
+          },
+          {
+            "time": 120.10224,
+            "wristStepMm": 1.1287343251673726e-11,
+            "maxTipStepMm": 0.0004545990070503713,
+            "maxJointStepRad": 0.000011214071788999338
+          },
+          {
+            "time": 120.10524,
+            "wristStepMm": 1.1525082923974944e-11,
+            "maxTipStepMm": 0.0005056620294080582,
+            "maxJointStepRad": 0.000011744081506818205
+          },
+          {
+            "time": 120.67188133508834,
+            "wristStepMm": 1.0180849559198499e-11,
+            "maxTipStepMm": 1.6728785311164786e-11,
+            "maxJointStepRad": 1.8371385344770487e-7
+          },
+          {
+            "time": 120.75554799999999,
+            "wristStepMm": 0.0018906006320731962,
+            "maxTipStepMm": 0.0018941664081668199,
+            "maxJointStepRad": 0.000035783729282962856
+          },
+          {
+            "time": 120.833947,
+            "wristStepMm": 2.8077066172173036e-12,
+            "maxTipStepMm": 0.000315385959731327,
+            "maxJointStepRad": 0.000004951133646321414
+          },
+          {
+            "time": 120.836947,
+            "wristStepMm": 2.844777254252987e-12,
+            "maxTipStepMm": 0.00029179144117314425,
+            "maxJointStepRad": 0.000011889670039018226
+          },
+          {
+            "time": 121.13280099999999,
+            "wristStepMm": 7.50248149312355e-12,
+            "maxTipStepMm": 0.0007759620229137369,
+            "maxJointStepRad": 0.000014357483394700038
+          },
+          {
+            "time": 121.15820099999999,
+            "wristStepMm": 1.1744807159798669e-11,
+            "maxTipStepMm": 0.00046252860624606407,
+            "maxJointStepRad": 0.000011890566425482034
+          },
+          {
+            "time": 121.187801,
+            "wristStepMm": 5.400938338630526e-12,
+            "maxTipStepMm": 0.0009931742481224229,
+            "maxJointStepRad": 0.00001261148929864777
+          },
+          {
+            "time": 121.190801,
+            "wristStepMm": 6.427318798311505e-12,
+            "maxTipStepMm": 0.0010685329986900407,
+            "maxJointStepRad": 0.000013556093380850482
+          },
+          {
+            "time": 122.284042,
+            "wristStepMm": 1.0848560631971907e-11,
+            "maxTipStepMm": 0.0009290407636967092,
+            "maxJointStepRad": 0.000011747370853144278
+          },
+          {
+            "time": 122.30944199999999,
+            "wristStepMm": 1.1333828807192204e-11,
+            "maxTipStepMm": 0.0006109914647926902,
+            "maxJointStepRad": 0.000007760858931434064
+          },
+          {
+            "time": 122.339042,
+            "wristStepMm": 1.0716384253463368e-11,
+            "maxTipStepMm": 0.0006372605499600684,
+            "maxJointStepRad": 0.000013181624802162447
+          },
+          {
+            "time": 122.342042,
+            "wristStepMm": 1.061758700160918e-11,
+            "maxTipStepMm": 0.0007925493148920939,
+            "maxJointStepRad": 0.000019754309277164786
+          }
+        ]
+      },
+      {
+        "name": "L52-middle",
+        "range": [
+          130.307952,
+          133.562733
+        ],
+        "maxWristSpeed": 1.0310186659284586,
+        "maxJointRate": 55.95009721118313,
+        "maxTipSpeed": 2.0008606852624897,
+        "peaks": {
+          "wrist": 131.06595200000362,
+          "joint": 131.0599520000036,
+          "tip": 131.86795200000745
+        },
+        "maxWristErrorMm": 0.0001132665096406573,
+        "maxReachFraction": 0.7908077138242013,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 130.54995200000002,
+            "wristStepMm": 1.8188438571337805e-11,
+            "maxTipStepMm": 0.0003322307317960328,
+            "maxJointStepRad": 0.000007197245430983065
+          },
+          {
+            "time": 130.579952,
+            "wristStepMm": 1.4153710788884401e-11,
+            "maxTipStepMm": 0.0015592833842292978,
+            "maxJointStepRad": 0.00004009685128231525
+          },
+          {
+            "time": 130.60495200000003,
+            "wristStepMm": 1.359524646304234e-11,
+            "maxTipStepMm": 0.0006570216355866344,
+            "maxJointStepRad": 0.00004638669969568574
+          },
+          {
+            "time": 130.607952,
+            "wristStepMm": 1.3495147906902245e-11,
+            "maxTipStepMm": 0.00039930669238876366,
+            "maxJointStepRad": 0.00001157608290526074
+          },
+          {
+            "time": 130.97731385368553,
+            "wristStepMm": 5.060961125754152e-12,
+            "maxTipStepMm": 0.0005753740534658188,
+            "maxJointStepRad": 0.000009800750978058843
+          },
+          {
+            "time": 131.045962,
+            "wristStepMm": 0.0018645346686208186,
+            "maxTipStepMm": 0.0019859891600121637,
+            "maxJointStepRad": 0.00004482354492501224
+          },
+          {
+            "time": 131.15373200000002,
+            "wristStepMm": 1.1964681458121878e-11,
+            "maxTipStepMm": 0.0006946704925896032,
+            "maxJointStepRad": 0.000011596627055417099
+          },
+          {
+            "time": 131.156732,
+            "wristStepMm": 1.1590005220756608e-11,
+            "maxTipStepMm": 0.0006991091730464095,
+            "maxJointStepRad": 0.00001159666535004143
+          },
+          {
+            "time": 131.826234,
+            "wristStepMm": 1.9708510929136845e-11,
+            "maxTipStepMm": 0.00002268140365463738,
+            "maxJointStepRad": 3.601028315304097e-7
+          },
+          {
+            "time": 131.83044,
+            "wristStepMm": 1.9872449426593996e-11,
+            "maxTipStepMm": 0.0005610382809298142,
+            "maxJointStepRad": 0.000005879372068200316
+          },
+          {
+            "time": 131.88544000000002,
+            "wristStepMm": 1.5206509603811787e-11,
+            "maxTipStepMm": 0.0010001353722261176,
+            "maxJointStepRad": 0.000012569303916285057
+          },
+          {
+            "time": 131.88844,
+            "wristStepMm": 1.508568517053523e-11,
+            "maxTipStepMm": 0.00006604173563990622,
+            "maxJointStepRad": 8.199701602576792e-7
+          },
+          {
+            "time": 132.5060948414834,
+            "wristStepMm": 6.81703155237573e-12,
+            "maxTipStepMm": 0.00021878139225830218,
+            "maxJointStepRad": 0.000003336263172425783
+          },
+          {
+            "time": 132.596147,
+            "wristStepMm": 0.0004884191559370675,
+            "maxTipStepMm": 0.00040573176116274985,
+            "maxJointStepRad": 0.000004210257106208794
+          },
+          {
+            "time": 132.61714700000002,
+            "wristStepMm": 6.5125724262593394e-12,
+            "maxTipStepMm": 0.001123092244205935,
+            "maxJointStepRad": 0.000012595492420995724
+          },
+          {
+            "time": 132.620147,
+            "wristStepMm": 5.862999916373967e-12,
+            "maxTipStepMm": 0.0012613150872979391,
+            "maxJointStepRad": 0.000014144773718096835
+          },
+          {
+            "time": 132.916001,
+            "wristStepMm": 1.1160640857013246e-11,
+            "maxTipStepMm": 2.1050385554107862e-11,
+            "maxJointStepRad": 1.6049041769309358e-7
+          },
+          {
+            "time": 132.924001,
+            "wristStepMm": 1.2652067929224525e-11,
+            "maxTipStepMm": 0.000044644897207056684,
+            "maxJointStepRad": 0.0000010071244984099853
+          },
+          {
+            "time": 132.971001,
+            "wristStepMm": 1.1145444839440964e-11,
+            "maxTipStepMm": 0.0005039638829523494,
+            "maxJointStepRad": 0.00001129142310744984
+          },
+          {
+            "time": 132.974001,
+            "wristStepMm": 9.71127888162801e-12,
+            "maxTipStepMm": 0.00008748938180691376,
+            "maxJointStepRad": 0.0000018010073816464708
+          },
+          {
+            "time": 133.2262882171425,
+            "wristStepMm": 5.724919686913016e-12,
+            "maxTipStepMm": 0.0004946926873887703,
+            "maxJointStepRad": 0.000008807330031549617
+          },
+          {
+            "time": 133.262733,
+            "wristStepMm": 0.0009779906074735842,
+            "maxTipStepMm": 0.0008027420266003485,
+            "maxJointStepRad": 0.000036184253810613204
+          },
+          {
+            "time": 133.362747,
+            "wristStepMm": 1.874863965694112e-11,
+            "maxTipStepMm": 0.0006822769982142646,
+            "maxJointStepRad": 0.00001437704929284039
+          },
+          {
+            "time": 133.365747,
+            "wristStepMm": 1.5760572928018104e-11,
+            "maxTipStepMm": 0.0006792243718246881,
+            "maxJointStepRad": 0.000014338107606596845
+          }
+        ]
+      },
+      {
+        "name": "L63-refrain",
+        "range": [
+          182.32683899999998,
+          185.877198
+        ],
+        "maxWristSpeed": 1.0009714114105788,
+        "maxJointRate": 118.81378173828027,
+        "maxTipSpeed": 3.648238088871756,
+        "peaks": {
+          "wrist": 183.19483900000412,
+          "joint": 185.76283900001638,
+          "tip": 184.52083900001045
+        },
+        "maxWristErrorMm": 0.00010679797410412888,
+        "maxReachFraction": 0.7734907912364462,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 182.5010523738734,
+            "wristStepMm": 1.0319439403426542e-11,
+            "maxTipStepMm": 1.4468570526633028e-11,
+            "maxJointStepRad": 1.0745380149674385e-7
+          },
+          {
+            "time": 182.576386,
+            "wristStepMm": 0.0012912156592826047,
+            "maxTipStepMm": 0.0012912155511191595,
+            "maxJointStepRad": 0.00004961411828452624
+          },
+          {
+            "time": 182.623839,
+            "wristStepMm": 1.760502270553284e-11,
+            "maxTipStepMm": 0.0007114620786525263,
+            "maxJointStepRad": 0.000012641139060136924
+          },
+          {
+            "time": 182.626839,
+            "wristStepMm": 1.7809738772508095e-11,
+            "maxTipStepMm": 0.00030470526830099124,
+            "maxJointStepRad": 0.00001159191585186884
+          },
+          {
+            "time": 182.84216141109232,
+            "wristStepMm": 5.979313766280115e-12,
+            "maxTipStepMm": 0.0002664985301652775,
+            "maxJointStepRad": 0.000004293396664933661
+          },
+          {
+            "time": 182.936173,
+            "wristStepMm": 0.00047920732888222646,
+            "maxTipStepMm": 0.0004969897087096321,
+            "maxJointStepRad": 0.000011504159680873747
+          },
+          {
+            "time": 182.957173,
+            "wristStepMm": 1.3293066355867046e-11,
+            "maxTipStepMm": 0.0004302004463655649,
+            "maxJointStepRad": 0.000013375599697183029
+          },
+          {
+            "time": 182.960173,
+            "wristStepMm": 1.3283094714001579e-11,
+            "maxTipStepMm": 0.00046659832200204014,
+            "maxJointStepRad": 0.000013757960582145868
+          },
+          {
+            "time": 183.1071972119174,
+            "wristStepMm": 9.066901613128822e-12,
+            "maxTipStepMm": 0.0007843509902582884,
+            "maxJointStepRad": 0.000011596627055417099
+          },
+          {
+            "time": 183.171419,
+            "wristStepMm": 0.001759730905941235,
+            "maxTipStepMm": 0.0021720279326324808,
+            "maxJointStepRad": 0.00003520720283743119
+          },
+          {
+            "time": 183.27850600000002,
+            "wristStepMm": 3.974211730761873e-11,
+            "maxTipStepMm": 0.00017505770996595034,
+            "maxJointStepRad": 0.000003503135913007054
+          },
+          {
+            "time": 183.281506,
+            "wristStepMm": 3.569363786737351e-11,
+            "maxTipStepMm": 0.00005787330598488918,
+            "maxJointStepRad": 9.95593851118698e-7
+          },
+          {
+            "time": 183.285006,
+            "wristStepMm": 3.2540142531718376e-11,
+            "maxTipStepMm": 0.00012500478110867328,
+            "maxJointStepRad": 0.000011889968842014908
+          },
+          {
+            "time": 183.565176,
+            "wristStepMm": 1.8236828363189472e-11,
+            "maxTipStepMm": 0.000621696160821172,
+            "maxJointStepRad": 0.000010129633580309578
+          },
+          {
+            "time": 183.595176,
+            "wristStepMm": 1.6953659052615423e-11,
+            "maxTipStepMm": 0.0005269930830921349,
+            "maxJointStepRad": 0.000014139152718569642
+          },
+          {
+            "time": 183.62017600000001,
+            "wristStepMm": 2.003608468408846e-11,
+            "maxTipStepMm": 0.000712413853396601,
+            "maxJointStepRad": 0.0000128234513816493
+          },
+          {
+            "time": 183.623176,
+            "wristStepMm": 1.70241035302072e-11,
+            "maxTipStepMm": 0.0007801249767254589,
+            "maxJointStepRad": 0.000013222897842226723
+          },
+          {
+            "time": 183.81846282224566,
+            "wristStepMm": 7.1314007378261314e-12,
+            "maxTipStepMm": 1.0544269750605864e-11,
+            "maxJointStepRad": 8.429369702178807e-8
+          },
+          {
+            "time": 183.866186,
+            "wristStepMm": 0.00022035330382280574,
+            "maxTipStepMm": 0.0008369803299643701,
+            "maxJointStepRad": 0.00004060999219542764
+          },
+          {
+            "time": 183.949847,
+            "wristStepMm": 1.6655565667416593e-11,
+            "maxTipStepMm": 0.0015256905389992286,
+            "maxJointStepRad": 0.0002020728663825149
+          },
+          {
+            "time": 183.952847,
+            "wristStepMm": 1.6817886349382066e-11,
+            "maxTipStepMm": 0.0002761501806370734,
+            "maxJointStepRad": 0.00001167345973656903
+          },
+          {
+            "time": 184.20951700000003,
+            "wristStepMm": 1.0920046665680308e-11,
+            "maxTipStepMm": 1.8117673888154524e-11,
+            "maxJointStepRad": 1.1920928955078128e-7
+          },
+          {
+            "time": 184.216857,
+            "wristStepMm": 0.00004079184511796178,
+            "maxTipStepMm": 0.0009050918931482935,
+            "maxJointStepRad": 0.00003479002158021222
+          },
+          {
+            "time": 184.27951700000003,
+            "wristStepMm": 1.0229313533491363e-11,
+            "maxTipStepMm": 0.0012059142239605905,
+            "maxJointStepRad": 0.0000786304668211964
+          },
+          {
+            "time": 184.282517,
+            "wristStepMm": 1.1957983317556205e-11,
+            "maxTipStepMm": 0.0007881549748895316,
+            "maxJointStepRad": 0.00003479002158021222
+          },
+          {
+            "time": 184.46744699013877,
+            "wristStepMm": 2.165290709492905e-11,
+            "maxTipStepMm": 0.0003094100393838061,
+            "maxJointStepRad": 0.000005454802034757296
+          },
+          {
+            "time": 184.48652700000002,
+            "wristStepMm": 0.000021846063571252626,
+            "maxTipStepMm": 0.000455072178790612,
+            "maxJointStepRad": 0.0000308797364200476
+          },
+          {
+            "time": 184.60918700000002,
+            "wristStepMm": 1.6330872178022218e-11,
+            "maxTipStepMm": 0.00004960275495269647,
+            "maxJointStepRad": 6.350063011843742e-7
+          },
+          {
+            "time": 184.612187,
+            "wristStepMm": 1.6711737872630246e-11,
+            "maxTipStepMm": 0.00012500954499428465,
+            "maxJointStepRad": 0.000011887578207743752
+          },
+          {
+            "time": 184.80747382224567,
+            "wristStepMm": 9.763179069932528e-12,
+            "maxTipStepMm": 1.1708280897791727e-11,
+            "maxJointStepRad": 1.032382731180714e-7
+          },
+          {
+            "time": 184.857197,
+            "wristStepMm": 0.00022790923670920857,
+            "maxTipStepMm": 0.0007781606284581813,
+            "maxJointStepRad": 0.000015059376253751096
+          },
+          {
+            "time": 184.938858,
+            "wristStepMm": 1.6202125590546656e-11,
+            "maxTipStepMm": 0.0009048184052792445,
+            "maxJointStepRad": 0.00014356493885662254
+          },
+          {
+            "time": 184.941858,
+            "wristStepMm": 1.589939090507774e-11,
+            "maxTipStepMm": 0.000750028890475132,
+            "maxJointStepRad": 0.000011673916239306102
+          },
+          {
+            "time": 185.13714382224566,
+            "wristStepMm": 1.1280789257023442e-11,
+            "maxTipStepMm": 1.829895125923593e-11,
+            "maxJointStepRad": 1.7377590819732256e-7
+          },
+          {
+            "time": 185.14686799999998,
+            "wristStepMm": 0.00001934710410502991,
+            "maxTipStepMm": 0.00022950128094357665,
+            "maxJointStepRad": 0.000028273201099622955
+          },
+          {
+            "time": 185.268528,
+            "wristStepMm": 1.47325643685189e-11,
+            "maxTipStepMm": 0.0003980875787470819,
+            "maxJointStepRad": 0.000014405654714862198
+          },
+          {
+            "time": 185.271528,
+            "wristStepMm": 1.4557925090488005e-11,
+            "maxTipStepMm": 0.00017699994346594876,
+            "maxJointStepRad": 0.000002800467004974954
+          },
+          {
+            "time": 185.42846002999758,
+            "wristStepMm": 1.644688244553047e-11,
+            "maxTipStepMm": 0.0004982631703966564,
+            "maxJointStepRad": 0.000009293929614153102
+          },
+          {
+            "time": 185.57719799999998,
+            "wristStepMm": 0.0003731575000393975,
+            "maxTipStepMm": 0.0006378505623023657,
+            "maxJointStepRad": 0.000011590421655765575
+          },
+          {
+            "time": 185.59819800000002,
+            "wristStepMm": 1.2997435526207285e-11,
+            "maxTipStepMm": 0.0002412700997606991,
+            "maxJointStepRad": 0.000003852346455703845
+          },
+          {
+            "time": 185.601198,
+            "wristStepMm": 1.2470256109222575e-11,
+            "maxTipStepMm": 0.00025855165616860284,
+            "maxJointStepRad": 0.000004134582209120336
+          },
+          {
+            "time": 185.75044962545724,
+            "wristStepMm": 1.7034779616440995e-11,
+            "maxTipStepMm": 0.0011944143066407863,
+            "maxJointStepRad": 0.000022219085430018364
+          },
+          {
+            "time": 185.814672,
+            "wristStepMm": 0.00167281853183092,
+            "maxTipStepMm": 0.0018916036366052906,
+            "maxJointStepRad": 0.000013152450649667462
+          }
+        ]
+      },
+      {
+        "name": "L61-refrain",
+        "range": [
+          188.642363,
+          191.572177
+        ],
+        "maxWristSpeed": 0.696960381281098,
+        "maxJointRate": 70.57135609422572,
+        "maxTipSpeed": 3.032261854024127,
+        "peaks": {
+          "wrist": 189.55236300000433,
+          "joint": 189.56236300000438,
+          "tip": 189.5643630000044
+        },
+        "maxWristErrorMm": 0.00013417691088275042,
+        "maxReachFraction": 0.8649865802412111,
+        "maxSeekMm": 0,
+        "maxSeekComponent": 0,
+        "boundaries": [
+          {
+            "time": 188.8031162973953,
+            "wristStepMm": 2.9977871979480217e-11,
+            "maxTipStepMm": 3.980177608443496e-11,
+            "maxJointStepRad": 2.715120786173435e-7
+          },
+          {
+            "time": 188.816045,
+            "wristStepMm": 0.00007230574132095045,
+            "maxTipStepMm": 0.00008594758524116346,
+            "maxJointStepRad": 0.000002115964889526466
+          },
+          {
+            "time": 188.889545,
+            "wristStepMm": 0.000527349294089625,
+            "maxTipStepMm": 0.004518916316915111,
+            "maxJointStepRad": 0.00008117674498612665
+          },
+          {
+            "time": 188.93936300000001,
+            "wristStepMm": 2.7168455553049977e-11,
+            "maxTipStepMm": 0.0007769593253591254,
+            "maxJointStepRad": 0.000023193349847452982
+          },
+          {
+            "time": 188.942363,
+            "wristStepMm": 2.39401775170184e-11,
+            "maxTipStepMm": 0.0006888243469186478,
+            "maxJointStepRad": 0.000011815371167697273
+          },
+          {
+            "time": 189.21343800785456,
+            "wristStepMm": 1.288528496563948e-11,
+            "maxTipStepMm": 1.5064528836539348e-11,
+            "maxJointStepRad": 1.632340423778195e-7
+          },
+          {
+            "time": 189.263191,
+            "wristStepMm": 0.000448378598597033,
+            "maxTipStepMm": 0.0026592404107805365,
+            "maxJointStepRad": 0.000055739960059216516
+          },
+          {
+            "time": 189.28419100000002,
+            "wristStepMm": 2.196902464979821e-11,
+            "maxTipStepMm": 0.000621065873426656,
+            "maxJointStepRad": 0.000023193349847452982
+          },
+          {
+            "time": 189.287191,
+            "wristStepMm": 2.2363210011240188e-11,
+            "maxTipStepMm": 0.0006724103586146268,
+            "maxJointStepRad": 0.000023193368994709824
+          },
+          {
+            "time": 189.47564680584566,
+            "wristStepMm": 1.1015432332515046e-11,
+            "maxTipStepMm": 0.00035772516365735257,
+            "maxJointStepRad": 0.000006457208058662707
+          },
+          {
+            "time": 189.53220100000001,
+            "wristStepMm": 0.001208937370876406,
+            "maxTipStepMm": 0.0014524842923563635,
+            "maxJointStepRad": 0.000022116857436594192
+          },
+          {
+            "time": 189.629018,
+            "wristStepMm": 1.642485289182246e-11,
+            "maxTipStepMm": 0.000052657375559285786,
+            "maxJointStepRad": 6.391886052348407e-7
+          },
+          {
+            "time": 189.632018,
+            "wristStepMm": 1.6126729882844516e-11,
+            "maxTipStepMm": 0.00003219332478339532,
+            "maxJointStepRad": 4.539354506649926e-7
+          },
+          {
+            "time": 190.1824262973953,
+            "wristStepMm": 1.2173786575777299e-11,
+            "maxTipStepMm": 1.653417135081067e-11,
+            "maxJointStepRad": 1.7377590819732256e-7
+          },
+          {
+            "time": 190.22002799999999,
+            "wristStepMm": 0.000791387997183864,
+            "maxTipStepMm": 0.0009188180912254404,
+            "maxJointStepRad": 0.000011934890617841049
+          },
+          {
+            "time": 190.31867300000002,
+            "wristStepMm": 1.5897719191318096e-11,
+            "maxTipStepMm": 0.0006625182598555845,
+            "maxJointStepRad": 0.000023193349847452982
+          },
+          {
+            "time": 190.321673,
+            "wristStepMm": 1.4463717806677789e-11,
+            "maxTipStepMm": 0.00031446165126358357,
+            "maxJointStepRad": 0.000011814957717564429
+          },
+          {
+            "time": 190.59274800785457,
+            "wristStepMm": 1.4534092615649618e-11,
+            "maxTipStepMm": 1.8122010456927185e-11,
+            "maxJointStepRad": 1.3978528260658475e-7
+          },
+          {
+            "time": 190.642501,
+            "wristStepMm": 0.00044837859886956124,
+            "maxTipStepMm": 0.0026592403397410268,
+            "maxJointStepRad": 0.00005573994412489317
+          },
+          {
+            "time": 190.66350100000002,
+            "wristStepMm": 2.4836650003084127e-11,
+            "maxTipStepMm": 0.0006210658779242641,
+            "maxJointStepRad": 0.000023193349847452982
+          },
+          {
+            "time": 190.666501,
+            "wristStepMm": 2.5401371462983614e-11,
+            "maxTipStepMm": 0.0006724103646166601,
+            "maxJointStepRad": 0.000023193330700180334
+          },
+          {
+            "time": 191.21748832906155,
+            "wristStepMm": 1.1531898902087239e-11,
+            "maxTipStepMm": 0.0005910516058642891,
+            "maxJointStepRad": 0.000013047530259897713
+          },
+          {
+            "time": 191.272177,
+            "wristStepMm": 0.00018079316211556205,
+            "maxTipStepMm": 0.0018486115738239526,
+            "maxJointStepRad": 0.00003384408993611182
+          },
+          {
+            "time": 191.341156,
+            "wristStepMm": 4.526256183923052e-11,
+            "maxTipStepMm": 0.0007167800266950593,
+            "maxJointStepRad": 0.000030428623589631674
+          },
+          {
+            "time": 191.344156,
+            "wristStepMm": 4.317857743506916e-11,
+            "maxTipStepMm": 0.00027051182239682525,
+            "maxJointStepRad": 0.00000549576157964858
+          },
+          {
+            "time": 191.347656,
+            "wristStepMm": 4.034901830777238e-11,
+            "maxTipStepMm": 0.0000676633964425095,
+            "maxJointStepRad": 0.0000010884989719241799
+          }
+        ]
+      }
+    ]
+  }
+]

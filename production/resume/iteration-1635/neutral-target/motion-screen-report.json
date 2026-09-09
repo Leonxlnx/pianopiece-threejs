@@ -1,0 +1,294 @@
+[
+  {
+    "variant": "pianist-baseline",
+    "boundarySamples": 2121,
+    "boundaryThresholds": {
+      "jointRad": 0.001,
+      "tipStepMm": 0.01
+    },
+    "boundaryExceedances": [],
+    "windows": [
+      {
+        "centre": 11.700326,
+        "lo": 11.350326,
+        "hi": 12.050326,
+        "samples": 169,
+        "maxJointRadSec": 12.179929444161862,
+        "maxTipMsec": 1.054089348105269,
+        "worst": {
+          "time": 11.66699266666665,
+          "side": "R",
+          "finger": 1
+        },
+        "highRates": []
+      },
+      {
+        "centre": 39.9,
+        "lo": 39.55,
+        "hi": 40.25,
+        "samples": 169,
+        "maxJointRadSec": 17.648292044947755,
+        "maxTipMsec": 0.8034767241935052,
+        "worst": {
+          "time": 39.995833333333685,
+          "side": "L",
+          "finger": 3
+        },
+        "highRates": []
+      },
+      {
+        "centre": 44.965,
+        "lo": 44.615,
+        "hi": 45.315000000000005,
+        "samples": 169,
+        "maxJointRadSec": 52.78688747037065,
+        "maxTipMsec": 1.7718851663324746,
+        "worst": {
+          "time": 44.69416666666673,
+          "side": "R",
+          "finger": 5
+        },
+        "highRates": []
+      },
+      {
+        "centre": 56.47,
+        "lo": 56.12,
+        "hi": 56.82,
+        "samples": 169,
+        "maxJointRadSec": 15.869313582368992,
+        "maxTipMsec": 1.1244182988965794,
+        "worst": {
+          "time": 56.26166666666678,
+          "side": "R",
+          "finger": 1
+        },
+        "highRates": []
+      },
+      {
+        "centre": 72.04,
+        "lo": 71.69000000000001,
+        "hi": 72.39,
+        "samples": 169,
+        "maxJointRadSec": 45.84947751801213,
+        "maxTipMsec": 2.273954098051249,
+        "worst": {
+          "time": 72.19416666666622,
+          "side": "L",
+          "finger": 2
+        },
+        "highRates": []
+      },
+      {
+        "centre": 173.007,
+        "lo": 172.657,
+        "hi": 173.357,
+        "samples": 169,
+        "maxJointRadSec": 30.083652431710675,
+        "maxTipMsec": 2.3189171671041597,
+        "worst": {
+          "time": 172.86949999999982,
+          "side": "R",
+          "finger": 3
+        },
+        "highRates": []
+      },
+      {
+        "centre": 224.25,
+        "lo": 223.9,
+        "hi": 224.6,
+        "samples": 169,
+        "maxJointRadSec": 52.515010070338825,
+        "maxTipMsec": 2.4323286392957795,
+        "worst": {
+          "time": 224.57083333333273,
+          "side": "R",
+          "finger": 2
+        },
+        "highRates": []
+      }
+    ],
+    "seeking": [
+      {
+        "time": 11.700326,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 39.9,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 44.965,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 56.47,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 72.04,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 173.007,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 224.25,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      }
+    ]
+  },
+  {
+    "variant": "neutral-f72-d0",
+    "boundarySamples": 2121,
+    "boundaryThresholds": {
+      "jointRad": 0.001,
+      "tipStepMm": 0.01
+    },
+    "boundaryExceedances": [],
+    "windows": [
+      {
+        "centre": 11.700326,
+        "lo": 11.350326,
+        "hi": 12.050326,
+        "samples": 169,
+        "maxJointRadSec": 12.179929444161862,
+        "maxTipMsec": 1.054089348105269,
+        "worst": {
+          "time": 11.66699266666665,
+          "side": "R",
+          "finger": 1
+        },
+        "highRates": []
+      },
+      {
+        "centre": 39.9,
+        "lo": 39.55,
+        "hi": 40.25,
+        "samples": 169,
+        "maxJointRadSec": 17.648292044947755,
+        "maxTipMsec": 0.8436965384975612,
+        "worst": {
+          "time": 39.995833333333685,
+          "side": "L",
+          "finger": 3
+        },
+        "highRates": []
+      },
+      {
+        "centre": 44.965,
+        "lo": 44.615,
+        "hi": 45.315000000000005,
+        "samples": 169,
+        "maxJointRadSec": 18.8232960035716,
+        "maxTipMsec": 0.6989594543012526,
+        "worst": {
+          "time": 44.74833333333344,
+          "side": "R",
+          "finger": 5
+        },
+        "highRates": []
+      },
+      {
+        "centre": 56.47,
+        "lo": 56.12,
+        "hi": 56.82,
+        "samples": 169,
+        "maxJointRadSec": 15.869313582368992,
+        "maxTipMsec": 1.1244182988965794,
+        "worst": {
+          "time": 56.26166666666678,
+          "side": "R",
+          "finger": 1
+        },
+        "highRates": []
+      },
+      {
+        "centre": 72.04,
+        "lo": 71.69000000000001,
+        "hi": 72.39,
+        "samples": 169,
+        "maxJointRadSec": 28.817056498832514,
+        "maxTipMsec": 1.6449940121953879,
+        "worst": {
+          "time": 72.19416666666622,
+          "side": "L",
+          "finger": 2
+        },
+        "highRates": []
+      },
+      {
+        "centre": 173.007,
+        "lo": 172.657,
+        "hi": 173.357,
+        "samples": 169,
+        "maxJointRadSec": 30.083652431710675,
+        "maxTipMsec": 2.3189171671041597,
+        "worst": {
+          "time": 172.86949999999982,
+          "side": "R",
+          "finger": 3
+        },
+        "highRates": []
+      },
+      {
+        "centre": 224.25,
+        "lo": 223.9,
+        "hi": 224.6,
+        "samples": 169,
+        "maxJointRadSec": 50.64610328449712,
+        "maxTipMsec": 2.460729520374797,
+        "worst": {
+          "time": 224.56666666666607,
+          "side": "R",
+          "finger": 2
+        },
+        "highRates": []
+      }
+    ],
+    "seeking": [
+      {
+        "time": 11.700326,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 39.9,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 44.965,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 56.47,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 72.04,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 173.007,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      },
+      {
+        "time": 224.25,
+        "maxQComponent": 0,
+        "maxTipComponent": 0
+      }
+    ]
+  }
+]

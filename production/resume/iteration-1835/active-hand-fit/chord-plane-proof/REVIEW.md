@@ -1,0 +1,30 @@
+# C5/E5 wrist-plane compatibility proof
+
+**The bounded active-grip proof succeeds; the full phrase remains unaccepted because idle fingers still cross.** Matching the wrist plane with playable fingering, contact depth and hand support removes the old sideways C5/E5 curl without floating the pads. This does not supersede the rejection of the global plane on unchanged contacts.
+
+The independent proof candidate is `proof-candidate.json`, SHA256 `aabde5daad0e2e000a36bac76e996d557a52fee0616872936e8e3435488753e8`. Its `guarded-delta.json` applies to root combined-v7 SHA256 `9070752e0291ac24feddb1d9dfe0db04b54a0460cf849bdbe4d995aab71913a9`: **19 field operations, four notes, two wrist knots**. All 1,068 note attacks/durations/pitches/velocities/roles, all 40 held soprano entries and the six existing release edits remain exact. This proof adds no release edits.
+
+| Note | Fingering | ContactZ | ContactLift | Result |
+| --- | --- | ---: | ---: | --- |
+| p978 D5 | R3 retained | .2588 | .005 | Corrected contact for the incoming wrist-plane hold; actual pad gap ≤.492 mm. |
+| p981 C5 | R2→R1 | .2700 | .0095 | Thumb pad meets the pressed white key; no positive pad gap. |
+| p982 E5 | R4→R3 | .2240 | .0030 | Middle pad gap ≤.075 mm; owned-palm crossing removed. |
+| p984 G5 | R1→R4 | .2208 | .0010 | Provides a natural departure into the unchanged A5 R5; no new physical release. |
+
+R424 and R425 share position `[.16169,.77457,.37155]`, quaternion `[-.06911357582738682,-.7085668420943293,.6855869289366616,.15207533262175926]`; their times/moveStart/moveEnd are unchanged. Incoming p976 and R423 are preserved exactly. Renderer p971/p974/p986 and R420/R421/R426 remain exact. The deliberate scope extension to p984/R425 avoids the rejected C5-thumb→G5-thumb jump over 25 ms (6.046 m/s in the earlier trial).
+
+The runtime proof is `pianist-scoped-plane.ts`, SHA256 `71125739f2ba3e01a00d5b9a7ee9424ecd5e0ee0318f71063d73433b04fc33f0`, compiled mjs SHA256 `87137664bbb80ef7b4eae84e4f0959984b8bd3c4c94c054d8f8955967ef0d54d`. Starting from compact5, only the RH nonthumb normal blends toward the projected wrist-lateral hinge. It ramps in over 198.348852–198.670185, remains full through 199.668680, and ramps out by 200.026507. The left hand, all thumb normal calculations and all opening rests retain the baseline source. A degenerate hinge retains the old normal. This is a separate scoped diagnostic, not an integrated global change.
+
+**Actual surfaces:** 847 hand poses over the 198.0–201.1 s review plus every intersecting complete held interval (through p988 release 201.392818), with 822 held poses. The grid is 120 Hz plus complete per-note held grids, boundary and quarter samples. Every active digit/palm stays within the 3 mm key-core gate; maximum is 2.743 mm on incoming D5, maximum IK error .000219 mm, no missing or >3 mm actual pad contact, no owned-palm or active-active crossing. The C5/E5 chord itself has zero core intrusions or active-neighbor crossings across 131 C5 and 128 E5 held samples. Former E5 owned-palm crossings occur in all 128 baseline E5 samples and zero proof samples.
+
+The comparison baseline is the exact combined-v7 score under compact5, freshly scanned at the identical 847 instants. Do not use the provisional v1/v6 reports' built-in historical baseline. The corrected authoritative report is `proof-full-hold-validation.json`, with `proof-full-baseline-rows.json` and `proof-full-candidate-rows.json`.
+
+**Open idle surfaces:** 161 incoming D5 frames retain the existing active-middle/idle-index crossing. The proof introduces 37 active-ring/idle-pinky frames late in G5 and 11 active-pinky/idle-ring frames on A5 arrival. A later unchanged F#5 hold has 133 pre-existing active/idle frames. Across all owned skin, the changed context has 150 new key frames and 145 new pair frames in eight exact idle gaps (`proof-idle-gap-queue.json`). This includes the compact5 thumb gap and middle approach/departure; they are not hidden by the active-anchor pass. Some exact gap endpoints extend beyond this phrase's measured window (e.g. ring p937→p984 and p984→p1007); their full remote intervals are not qualified by this proof.
+
+**Motion:** 1,550 samples at 500 Hz over the full phrase. True compact5 baseline→proof peak fingertip speed is 1.958→2.786 m/s (proof maximum is the middle approach at 198.528 s); wrist .976→.997 m/s; local joint rate 44.384→36.455 rad/s; deterministic seek error zero. The proof therefore avoids the rejected 6.046 m/s thumb jump without shortening notes. It does not claim every remaining idle movement is natural.
+
+**Direct visible review:** all 16 native top/oblique images at four matching times were inspected and hash-verified. At 198.994519 the D5 pose loses the horizontal sideways curl. At 199.504266 the C5/E5 chord has a visibly open thumb/middle grip with contact at the keys. At 199.836594 and 200.030173, the G5 ring/A5 pinky contacts are clear, but the idle outer-finger clash is visible; the compact5 idle thumb also spreads conspicuously. These latter defects prevent whole-phrase visual acceptance. `renders/baseline` and `renders/candidate` contain exact-score/rig/sampler/source hashes and GL_NO_ERROR reports.
+
+Finite rejected alternatives are preserved: the original R2/R4 chord can be made clear at a static midpoint, but requires a larger wrist shift and produces a bad incoming G5-thumb reach; the first R1/R3 chord kept the outgoing G5 thumb and generated the fast jump; raising incoming R423 support added five G5-thumb/palm frames. The selected proof preserves the incoming support, fits D5 depth, and moves the outgoing G5 to the ring with shared R424/R425 support.
+
+Root reported an environment reset after all geometry, motion and native renders completed. No further source-dependent tests or checkout restoration were attempted. Dependency-free `validate.py` checks the preserved score/manifest/geometry/image evidence. A later combined runtime must requalify the eight idle gaps and full phrase before any integration; the global-plane rejection remains intact.

@@ -1,0 +1,55 @@
+{
+  "baseline": [
+    {
+      "code": 18047,
+      "message": "'m.geometry.index' is possibly 'null'."
+    },
+    {
+      "code": 2339,
+      "message": "Property 'opposition' does not exist on type '{ name: string; previous: string; next: string; end: number; start: number; target: number[]; release: number; arrival: number; ramp: number; arrivalRamp: number; releaseLift: number; arrivalLift: number; }'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    }
+  ],
+  "runtime": [
+    {
+      "code": 18047,
+      "message": "'m.geometry.index' is possibly 'null'."
+    },
+    {
+      "code": 2339,
+      "message": "Property 'opposition' does not exist on type '{ name: string; previous: string; next: string; end: number; start: number; target: number[]; release: number; arrival: number; ramp: number; arrivalRamp: number; releaseLift: number; arrivalLift: number; }'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    },
+    {
+      "code": 2345,
+      "message": "Argument of type 'Note | undefined' is not assignable to parameter of type 'Note'.   Type 'undefined' is not assignable to type 'Note'."
+    }
+  ],
+  "noNewDiagnostics": true
+}

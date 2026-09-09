@@ -1,0 +1,72 @@
+{
+  "scoreSha256": "335e91845dfb5a6126e7b83d1818ac841f6852694f24348b24e0f182c3b76e60",
+  "baselineSourceSha256": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+  "wristArcModuleSha256": "c9f33ac6b0a5064efde8a85fe53a653cc05bf421cee0fe4dc5de39a14e4acf9f",
+  "modelSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "neutralTimes": [
+    11.700326,
+    39.9,
+    44.965,
+    56.47,
+    72.04,
+    173.007,
+    224.25
+  ],
+  "variants": [
+    {
+      "name": "neutral-f72-d0",
+      "forward": 0.72,
+      "down": 0,
+      "sourceSha256": "12eac38277cd3682540249a7b29963259852975d3fa660c461f400744344ff36"
+    },
+    {
+      "name": "neutral-f72-d7",
+      "forward": 0.72,
+      "down": 0.07,
+      "sourceSha256": "a1d67a32ed65be9f84825daaa84071089c85edb9cadc2ab90db7f3e6dd1a0c56"
+    },
+    {
+      "name": "neutral-f72-d14",
+      "forward": 0.72,
+      "down": 0.14,
+      "sourceSha256": "57287bf4c5c792c4c600fc1463fd81a7deb40e54d7c4724607b8e07e8a51997a"
+    },
+    {
+      "name": "neutral-f79-d0",
+      "forward": 0.79,
+      "down": 0,
+      "sourceSha256": "673da803c43313d41f676a75fdec87bde86eb77bc4ba34d5aac0f6bb0327a5fc"
+    },
+    {
+      "name": "neutral-f79-d7",
+      "forward": 0.79,
+      "down": 0.07,
+      "sourceSha256": "bdb63416c338104b42498bf16bc0a3a15241fbf68445a9690f64f4262e56d7de"
+    },
+    {
+      "name": "neutral-f79-d14",
+      "forward": 0.79,
+      "down": 0.14,
+      "sourceSha256": "a76b826c0e797b9ade782f9bbe9b7e3f1c058e5fc31c42ba919ad055e3d8d4d0"
+    },
+    {
+      "name": "neutral-f86-d0",
+      "forward": 0.86,
+      "down": 0,
+      "sourceSha256": "3e843fffc2835595984492885ee27a902de51e1ca00236a4ece56bf62cb74122"
+    },
+    {
+      "name": "neutral-f86-d7",
+      "forward": 0.86,
+      "down": 0.07,
+      "sourceSha256": "5962be2a523093d5ddda46f67496d29a1ff0f6143d856a7d4a922f7419636283"
+    },
+    {
+      "name": "neutral-f86-d14",
+      "forward": 0.86,
+      "down": 0.14,
+      "sourceSha256": "c0edb7f406de56d629cfec2fb872f2a677c194a9903910b5566625d34cbffdae"
+    }
+  ],
+  "heldSourceParity": "Exact source prefix and suffix outside !n&&fi>0 block unchanged; every held branch and thumb code unchanged"
+}

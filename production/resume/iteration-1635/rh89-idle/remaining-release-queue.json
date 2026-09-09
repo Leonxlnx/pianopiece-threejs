@@ -1,0 +1,55 @@
+{
+  "scoreSha256": "be4f29f8d0c4ff8384f147e021537c2a4e3e5d238499611b88aa23169c31ff0e",
+  "notAccepted": true,
+  "gaps": [
+    {
+      "finger": 4,
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00452",
+      "nextTime": 94.600255,
+      "originalDefectWindow": [
+        89.867,
+        90.008
+      ],
+      "hardTransitionWindow": [
+        89.95,
+        89.96758
+      ],
+      "finding": "Point-clear waypoints switch control branches; coherent/anticipatory paths retain key or held-pinky crossings. The original dense surface-v0 path is surface-clean at120Hz but introduces rapid motion; see actual2kHz trace. No accepted correction in delivered subset.",
+      "surfaceEvidence": [
+        "surface-v0-check.json",
+        "release-v6-check.json"
+      ],
+      "motionEvidence": "release-v0-motion.json",
+      "provisionalCurveFile": "surface-v0.json"
+    },
+    {
+      "finger": 2,
+      "previous": "p00421",
+      "previousEnd": 89.455345,
+      "next": "p00436",
+      "nextTime": 91.884804,
+      "originalDefectWindow": [
+        89.457,
+        89.502
+      ],
+      "finding": "candidate-v7 clears actual same-hand surfaces at240Hz but introduces index5.860m/s and secondary-middle5.053m/s actual skin peaks. Early R3 preposition can intersect the held index/palm when combined with the ring approach. Rejected on motion; only separate late90.77\u201390.88 key-core correction is delivered.",
+      "surfaceEvidence": [
+        "index-v7-check.json"
+      ],
+      "motionEvidence": [
+        "index-v7-motion.json",
+        "middle-v7-motion.json"
+      ],
+      "provisionalCurveFile": "candidate-v7.json",
+      "secondary": {
+        "finger": 3,
+        "previous": "p00396",
+        "previousEnd": 85.291975,
+        "next": "p00447",
+        "nextTime": 93.922598
+      }
+    }
+  ]
+}

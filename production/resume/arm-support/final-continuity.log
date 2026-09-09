@@ -1,0 +1,24 @@
+{"done":0,"total":6352,"maximumMm":0.00006697532532894385,"maximumRotationDegrees":0.000016555285230907}
+{"done":1000,"total":6352,"maximumMm":0.0023204462393944863,"maximumRotationDegrees":0.0005703565814932356}
+{"done":2000,"total":6352,"maximumMm":0.0023573235744192025,"maximumRotationDegrees":0.0005703565814932356}
+{"done":3000,"total":6352,"maximumMm":0.0023573235744192025,"maximumRotationDegrees":0.0005703565814932356}
+{"done":4000,"total":6352,"maximumMm":0.0025944850292085975,"maximumRotationDegrees":0.0005708394701740251}
+{"done":5000,"total":6352,"maximumMm":0.0025944850292085975,"maximumRotationDegrees":0.0005729323738333856}
+{"done":6000,"total":6352,"maximumMm":0.0025944850292085975,"maximumRotationDegrees":0.0005729323738333856}
+{
+  "sourceSha256": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+  "epsilonSeconds": 0.000001,
+  "boundaries": 6352,
+  "boundaryEvaluations": 12704,
+  "determinismSamples": 374,
+  "maximumMm": 0.0025944850292085975,
+  "maximumRotationDegrees": 0.0005729323738333856,
+  "maxDeterminismPositionMm": 0,
+  "maxDeterminismRotationRad": 7.300048299977715e-8,
+  "worst": {
+    "time": 112.29543,
+    "bone": "LeftHand",
+    "distanceMm": 0.0025944850292085975
+  },
+  "passed": true
+}

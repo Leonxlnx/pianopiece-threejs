@@ -1,0 +1,790 @@
+{
+  "sourceFingerprint": "33ac135eb7e42c4b8721e28147e6ddf1175dfc4ac37ba7049a02168ec418441d",
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/33ac135eb7e42c4b",
+  "sourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "32c177d5a16ad32895cdefe9acfaec8e44dcd8181105ac34e2432eb1209ccaa0",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "f2901bbd59579278aa9a4503c76cc314a1c5e3826b1912a8cc93de07d1786c73"
+  },
+  "originalSourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "6191ac5082e09dcd2c3b98dbfff3a2f077f98f9e1b8410533cd5b2c037dd2f2b",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "d257271fb746320d6abafa1bad496db4487b1a7565a34ca730141bbb8c6bb468",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+    "app/performance/piano.ts": "915ae12f1d71c669f1fd811720ad1aadba447f9cdbeb687a67912808ec883733",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "ed2c311c154052f9c1694a51b40e80d2a14a017bb444ab9762e691fd7c771e91",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773"
+  },
+  "reviewCamera": {
+    "frames": [
+      {
+        "time": 87.48,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 92.85,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 102.67,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 103.0,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 120.99,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 197.975,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 197.982519,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 197.9885,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 197.994,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 198.0,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 198.006519,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 198.14,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      },
+      {
+        "time": 200.36,
+        "position": [
+          0.18,
+          1.2,
+          0.265
+        ],
+        "target": [
+          0.18,
+          0.765,
+          0.265
+        ],
+        "up": [
+          0,
+          0,
+          -1
+        ],
+        "fov": 44
+      }
+    ]
+  },
+  "scoreOverride": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/candidate-v8.json",
+  "pianistOverride": "/workspace/scratch/2e8cc8e77f98/local-idle-diagnostic/pianist-baseline.ts",
+  "dependencySha256": {
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "glVersion": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "initializationSeconds": 8.259870132000287,
+  "deformedMeshes": [
+    {
+      "name": "Human_1070",
+      "vertices": 24629
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1071",
+      "vertices": 6004
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1_1072",
+      "vertices": 3994
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_2_1073",
+      "vertices": 420
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_3_1074",
+      "vertices": 256
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_4_1075",
+      "vertices": 128
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_5_1076",
+      "vertices": 504
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_6_1077",
+      "vertices": 360
+    },
+    {
+      "name": "Humanhigh-poly_1078",
+      "vertices": 1076
+    },
+    {
+      "name": "Humanmindfront_eyebrows_02_1079",
+      "vertices": 12243
+    },
+    {
+      "name": "Humanmindfront_eyelashes_02_1080",
+      "vertices": 16992
+    },
+    {
+      "name": "Humanponytail01_1081",
+      "vertices": 3902
+    },
+    {
+      "name": "Humanteeth_base_1082",
+      "vertices": 4494
+    },
+    {
+      "name": "Humantongue01_1083",
+      "vertices": 253
+    }
+  ],
+  "meshes": 1091,
+  "frames": [
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-87.480000.png",
+      "imageSha256": "f5fd1b00b155711e22a91a565fb01d8dd2e254f3eeb58d574d27dd5c08c93a08",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7067087150007865,
+      "row": {
+        "time": 87.48,
+        "shot": "Daybreak \u00b7 touch",
+        "update": 0.12719696100066358,
+        "shadows": 0.20111882099990908,
+        "render": 0.2981852409993735,
+        "total": 0.6265010229999461,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 47,
+            "error": 8.912009544779648e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.9428704654311737e-07
+          }
+        ],
+        "activeNotes": [
+          47,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-92.850000.png",
+      "imageSha256": "680b7cf28ec14c8215254d1ebb1033b7e3548bf5ee84ddd35964f87ddd964f75",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.5508362159998796,
+      "row": {
+        "time": 92.85,
+        "shot": "Daybreak",
+        "update": 0.09086927200041828,
+        "shadows": 0.07693934300004912,
+        "render": 0.3027328620009939,
+        "total": 0.4705414770014613,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.9922410223582685e-07
+          }
+        ],
+        "activeNotes": [
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-102.670000.png",
+      "imageSha256": "859e12bbd2acb344fc962de6f2eb955c56ece7280d21120810b6e09120909e44",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.5589154890003556,
+      "row": {
+        "time": 102.67,
+        "shot": "The inner voice",
+        "update": 0.09792509799990512,
+        "shadows": 0.0550076010003977,
+        "render": 0.3107897629997751,
+        "total": 0.46372246200007794,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 55,
+            "error": 7.18475883724005e-08
+          },
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 81,
+            "error": 4.062434461159247e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 83,
+            "error": 0.00013177698819505056
+          }
+        ],
+        "activeNotes": [
+          83,
+          55,
+          81
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-103.000000.png",
+      "imageSha256": "0d9de4ca549f94975e7307feb9159b570591a45647ec473bd49304ca34e2483f",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7537291850003385,
+      "row": {
+        "time": 103.0,
+        "shot": "The inner voice",
+        "update": 0.09333262300060596,
+        "shadows": 0.08170148799945309,
+        "render": 0.4782290010007273,
+        "total": 0.6532631120007864,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 2,
+            "midi": 66,
+            "error": 7.011549153956402e-08
+          },
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 81,
+            "error": 4.2941172622784305e-08
+          }
+        ],
+        "activeNotes": [
+          66,
+          81
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-120.990000.png",
+      "imageSha256": "ab2183b208c480fe1a15fc5cd378bf8451553170d5603a6c6624af66072a216e",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6643331800005399,
+      "row": {
+        "time": 120.99,
+        "shot": "What the night kept",
+        "update": 0.17766528600077436,
+        "shadows": 0.11086605299897201,
+        "render": 0.3000554579994059,
+        "total": 0.5885867969991523,
+        "pedal": 0.79,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 55,
+            "error": 9.814713771201854e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 76,
+            "error": 1.9525862181135252e-07
+          }
+        ],
+        "activeNotes": [
+          55,
+          76
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-197.975000.png",
+      "imageSha256": "c8cd875197ac038005bf94ea6d80325e309020420646a1ea6c9acf0334f9935a",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.5816404630004399,
+      "row": {
+        "time": 197.975,
+        "shot": "Coming home",
+        "update": 0.10569829999985814,
+        "shadows": 0.07597814200016728,
+        "render": 0.3220553259998269,
+        "total": 0.5037317679998523,
+        "pedal": 0,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 83,
+            "error": 6.2433308447063274e-09
+          }
+        ],
+        "activeNotes": [
+          83
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-197.982519.png",
+      "imageSha256": "4af9c3904d911df1d1c096b0f8d9a33ae83b2bfc0ab7f57bf35e6b4ec7405e43",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.5665920080009528,
+      "row": {
+        "time": 197.982519,
+        "shot": "Coming home",
+        "update": 0.09800314499989327,
+        "shadows": 0.06889496700023301,
+        "render": 0.31997367999974813,
+        "total": 0.4868717919998744,
+        "pedal": 0,
+        "contacts": [],
+        "activeNotes": [
+          83
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-197.988500.png",
+      "imageSha256": "39ebdc64a0045526149fb533d949b6b4348f26674069d55d940ee5e9147ca6d2",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.574542852000377,
+      "row": {
+        "time": 197.9885,
+        "shot": "Coming home",
+        "update": 0.10663780699906056,
+        "shadows": 0.060918733001017245,
+        "render": 0.32074392499998794,
+        "total": 0.48830046500006574,
+        "pedal": 0.00018028062898184225,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-197.994000.png",
+      "imageSha256": "96662ed6904fab99008e605917e71f1edc971a7ede058679644dad773f4dbe07",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.5906891630002065,
+      "row": {
+        "time": 197.994,
+        "shot": "Coming home",
+        "update": 0.09510304799914593,
+        "shadows": 0.06481017599980987,
+        "render": 0.3374209379999229,
+        "total": 0.4973341619988787,
+        "pedal": 0.02927284562128823,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 50,
+            "error": 1.6390281018017695e-08
+          }
+        ],
+        "activeNotes": [
+          50
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-198.000000.png",
+      "imageSha256": "d5a719b00f36239e1e22afb1f203dd7fd23adb0fedb1668cc3fb45d8ea546f9b",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6315105430003314,
+      "row": {
+        "time": 198.0,
+        "shot": "Coming home",
+        "update": 0.12519307299953653,
+        "shadows": 0.08147338100025081,
+        "render": 0.32706082700133265,
+        "total": 0.53372728100112,
+        "pedal": 0.10708721909353523,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 50,
+            "error": 1.6363832018162437e-08
+          }
+        ],
+        "activeNotes": [
+          50
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-198.006519.png",
+      "imageSha256": "912b5a0d95d4b295131da48484b8c1feede601f330119e5242607ab13c2a4372",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.7571110250009951,
+      "row": {
+        "time": 198.006519,
+        "shot": "Coming home",
+        "update": 0.13613712599908467,
+        "shadows": 0.07436958800099092,
+        "render": 0.4530864069984091,
+        "total": 0.6635931209984847,
+        "pedal": 0.22719393535208557,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 50,
+            "error": 1.6335140674838798e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 81,
+            "error": 5.791260441636237e-08
+          }
+        ],
+        "activeNotes": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-198.140000.png",
+      "imageSha256": "9ca3534907bbc3ebed32caa476f222e6962c48bb5774654a6c5a13325a6222c8",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6131564219995198,
+      "row": {
+        "time": 198.14,
+        "shot": "Coming home",
+        "update": 0.12054587100101344,
+        "shadows": 0.06741283299925271,
+        "render": 0.3436712170005194,
+        "total": 0.5316299210007855,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 3,
+            "midi": 50,
+            "error": 1.602769363560076e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 81,
+            "error": 5.89283339027543e-08
+          }
+        ],
+        "activeNotes": [
+          50,
+          81
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/33ac135eb7e42c4b/current-960-200.360000.png",
+      "imageSha256": "b130abfc9f7f448d5edf24e126d5d6f0fa62da325bb48cae1732eda34b4f0e11",
+      "width": 960,
+      "height": 540,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 0.6244245810012217,
+      "row": {
+        "time": 200.36,
+        "shot": "Coming home",
+        "update": 0.106911291999495,
+        "shadows": 0.09272437399886257,
+        "render": 0.33704262700121035,
+        "total": 0.5366782929995679,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 81,
+            "error": 5.665430422714086e-08
+          }
+        ],
+        "activeNotes": [
+          81
+        ]
+      }
+    }
+  ],
+  "peakProcessTreeRssBytes": 844128256,
+  "pythonMaxRssBytes": 843284480,
+  "rssSamplingIntervalSeconds": 0.1,
+  "steadyProcessTreeRssBytes": 844132352,
+  "strictGuardSource": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/render-project/production/revision/video-export/export_video.py",
+  "strictGuardSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "rendererSourceSha256": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+  "fullFilmStarted": false,
+  "note": "Offline native rendered export; no browser pixel-equivalence claim. One sample per frame, full pavilion environment.",
+  "samplesAllocation": {
+    "requestedEffectiveSamples": 4,
+    "glFramebufferSamples": 4,
+    "effectiveSamples": 4,
+    "modernGLColorSamples": 4,
+    "modernGLDepthSamples": 4,
+    "maxSamples": 4
+  },
+  "aspect": 1.7777777777777777
+}

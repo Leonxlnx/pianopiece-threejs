@@ -1,0 +1,246 @@
+{
+  "scoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "modelSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "sourceSha256": {
+    "candidate-final": "22e2db7b7da490b83d7aaa9111a069f3b1ce3043f61f7c9df6fcba0f68731075",
+    "partial-roll/roll10": "1332ef9e7291b1a38bd31b47e3b7425a0f133bb1f181706bb99c5a7df68748ec",
+    "partial-roll/roll20": "468920345428797bed36fdd009da328d06a002527545cd8d3027fc539989e178",
+    "partial-roll/roll30": "4990717854d9f7e860c3a7e9445b41ecd784d6c4c1874f9d175157d62a26a23c"
+  },
+  "mixedVertices": 348,
+  "times": [
+    38.85258,
+    188.70254,
+    233.144228
+  ],
+  "rows": [
+    {
+      "time": 38.85258,
+      "version": "baseline",
+      "maxMixedSkinShiftMm": 0,
+      "maxWristShiftMm": 0,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 0,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 0
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 0.0000024148365394514667
+        }
+      ]
+    },
+    {
+      "time": 38.85258,
+      "version": "roll10",
+      "maxMixedSkinShiftMm": 4.157830535361967,
+      "maxWristShiftMm": 0.000006171033829114275,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 0,
+      "maxContactDeltaMm": 0.00000491691943749093,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 9.198753505217097
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 9.538945113011598
+        }
+      ]
+    },
+    {
+      "time": 38.85258,
+      "version": "roll20",
+      "maxMixedSkinShiftMm": 8.286872891986517,
+      "maxWristShiftMm": 0.000018795040792809637,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 2.9802322387695312e-8,
+      "maxContactDeltaMm": 0.000015013172196108223,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 18.397509818999968
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 19.077891616287804
+        }
+      ]
+    },
+    {
+      "time": 38.85258,
+      "version": "roll30",
+      "maxMixedSkinShiftMm": 12.35852543092333,
+      "maxWristShiftMm": 0.00003262413773049337,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 5.16191365590357e-8,
+      "maxContactDeltaMm": 0.000023477837985195058,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 27.596266197499457
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 28.616838138879345
+        }
+      ]
+    },
+    {
+      "time": 188.70254,
+      "version": "baseline",
+      "maxMixedSkinShiftMm": 0,
+      "maxWristShiftMm": 0,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 2.9802322387695312e-8,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 0
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 0.0000017075472925031877
+        }
+      ]
+    },
+    {
+      "time": 188.70254,
+      "version": "roll10",
+      "maxMixedSkinShiftMm": 3.4817087266566573,
+      "maxWristShiftMm": 0.000005903041468418251,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 0,
+      "maxContactDeltaMm": 0.0000045178212333609195,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 7.990147898173977
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 7.846000238074794
+        }
+      ]
+    },
+    {
+      "time": 188.70254,
+      "version": "roll20",
+      "maxMixedSkinShiftMm": 6.94650899530626,
+      "maxWristShiftMm": 0.00001047184552057592,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 0,
+      "maxContactDeltaMm": 0.000004894450701063169,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 15.9802975642745
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 15.692000504984415
+        }
+      ]
+    },
+    {
+      "time": 188.70254,
+      "version": "roll30",
+      "maxMixedSkinShiftMm": 10.377550006908079,
+      "maxWristShiftMm": 0.000023755313273802745,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 0,
+      "maxContactDeltaMm": 0.00001194603488111657,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 23.97044729587316
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 23.53800079360936
+        }
+      ]
+    },
+    {
+      "time": 233.144228,
+      "version": "baseline",
+      "maxMixedSkinShiftMm": 0,
+      "maxWristShiftMm": 0,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 4.2146848510894035e-8,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 0.0000024148365394514667
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 0
+        }
+      ]
+    },
+    {
+      "time": 233.144228,
+      "version": "roll10",
+      "maxMixedSkinShiftMm": 4.172815450188402,
+      "maxWristShiftMm": 0.000021199432431969175,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 4.2146848510894035e-8,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 7.513193488822327
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 9.57336098248699
+        }
+      ]
+    },
+    {
+      "time": 233.144228,
+      "version": "roll20",
+      "maxMixedSkinShiftMm": 8.316506667087863,
+      "maxWristShiftMm": 0.000022612232381764855,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 2.9802322387695312e-8,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 15.026387761212801
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 19.146717537802495
+        }
+      ]
+    },
+    {
+      "time": 233.144228,
+      "version": "roll30",
+      "maxMixedSkinShiftMm": 12.40218645368215,
+      "maxWristShiftMm": 0.000024567748962083616,
+      "maxElbowShiftMm": 0,
+      "maxHandWorldRotationRad": 6.664001874625056e-8,
+      "maxContactDeltaMm": 0,
+      "arms": [
+        {
+          "side": "L",
+          "forearmRollDeltaDegrees": 22.53958208188506
+        },
+        {
+          "side": "R",
+          "forearmRollDeltaDegrees": 28.720068579196607
+        }
+      ]
+    }
+  ]
+}

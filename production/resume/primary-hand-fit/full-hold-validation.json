@@ -1,0 +1,30 @@
+{
+  "scoreSha256": "9db662f1e9d4037cc8c505b9818b7782ac1fb52fe70cff85bf362a00a9fb3b30",
+  "primary": {
+    "frames": 308,
+    "blockerFrames": 0,
+    "rows": [],
+    "maxKeyDepth": 1.9732460239174632,
+    "maxPalmDepth": 0,
+    "maxContactError": 0.00018888100387356305
+  },
+  "neighbor": {
+    "frames": 1859,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0,
+    "rows": []
+  },
+  "nonfinite": 0,
+  "summary": {
+    "samples": 1859,
+    "primaryFrames": 308,
+    "primaryBlockerFrames": 0,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0
+  },
+  "scope": "120Hz uniform windows plus every intersecting note complete held interval on its own 120Hz grid and quarter/boundary samples. All >65% digit and palm-owned vertices vs 88 beveled-key cores; exact >65%-owned surface triangles. Active nonthumb-pair gate excludes existing idle thumb runtime, handled by root; all thumb raw rows retained. No skin contact tolerance or whole hand visual acceptance inferred."
+}

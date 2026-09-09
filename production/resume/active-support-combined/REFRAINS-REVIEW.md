@@ -1,0 +1,13 @@
+# Repeated LH C-octave phrases — frozen active anchors
+
+`refrains-frozen-v3.json` SHA256 `e3f95ec78041fee91152531b6b332253ef2bcf48b915b9fa69f2b8f5dd1cf8af` includes merged-v2. Merge the twenty note and eighteen knot changes through `refrains-frozen-v3-manifest.json`.
+
+Both phrases use natural L5/L1 C3/C4 bass octaves, followed by G3 L3 / B3 L2 / D4 L1, and supported L5/L1 A2/A3 octaves followed by E3 L3. Four bass physical releases are 25 ms earlier: p00410,p00411,p00771,p00772. Written durations retain the original values. All1068 attacks, pitches, velocities and all40 held soprano entries are unchanged. These finite bass releases expand an otherwise 25 ms, 3.39 m/s wrist jump to50 ms; no-release shared-support alternatives were tried and rejected for actual key/palm or neighboring-key geometry.
+
+Two free arrival segments have an optional25 mm wrist clearance arc after the preceding B2 has released, on L215/L387. Integrate `wrist-motion-arc.ts` into the sampler source (minimal difference from source/wrist-motion.ts): optional arcLift on WristMotionKnot and a zero-endpoint quartic hump applied to quintic interpolation u. No pianist logic change is needed. The test variant `pianist-arms-compact5-arc.mjs` redirects only its sampler import. Harness selects the exact same sampler via DAYBREAK_WRIST_MODULE. `arc-parity.json` proves absent-field bit-exact component parity over27412 poses and no arc motion on3975 held samples in the first occurrence. Both authored arcs lie fully outside holds.
+
+`refrains-v3-full-hold-validation.json`:2209 exact mesh samples,1764 primary-held samples, all twenty complete held intervals plus incoming/outgoing neighbors. Primary blockers, new key-core, IK and actual-pad-gap counters are all zero. One new exact LIndex/LMiddle pair sample remains at91.477063 during unchanged p00432 G3 L3; index is inactive after new p00424. This is an explicit residual for idle-motion fitting and must not be called fixed.
+
+`refrains-v3-motion-gate.json`:4142 poses at500Hz, maximum wrist1.8377 m/s, tip3.2416 m/s versus baseline3.7280, joint170.8771 versus163.3392 rad/s, seekerror0. The E3 preparation now begins during the sustained A3 thumb hold, whose actual contact remains valid, removing a rejected4.98 m/s idle-pinky speed spike. Numerical geometry and motion do not establish final visual acceptance; root must review the animated arc, rolls and fingers.
+
+Rejected checkpoints: separated-pose refrain without bounded releases; no-release close figure fits; arc-only repair without next-octave support; refrains-v1 with unrefingered E3; refrains-v2 with abrupt25 ms E3 arrival. Use only frozen-v3 for combined checks.

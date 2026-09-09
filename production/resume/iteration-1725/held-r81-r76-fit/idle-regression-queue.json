@@ -1,0 +1,5726 @@
+{
+  "summary": {
+    "candidateSha256": "f2901bbd59579278aa9a4503c76cc314a1c5e3826b1912a8cc93de07d1786c73",
+    "actualStates": 3585,
+    "targetPadSamples": 2009,
+    "padMinMm": -0.30387343342908046,
+    "padMaxMm": 1.6081101064515657,
+    "padMissing": 0,
+    "padOver3mm": 0,
+    "newIdleRows": 527,
+    "newIdleGroups": 45,
+    "scope": "V7 complete full windows with identical nonlate fields, plus full V8 late recheck. Groups are sampled observations, not continuous defect interval proofs."
+  },
+  "groups": [
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "midi": null,
+      "firstObserved": 87.60739666666726,
+      "lastObserved": 87.751139,
+      "sampleRows": 33,
+      "maximum": 122,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00409",
+          "previousEnd": 87.593963,
+          "next": "p00440",
+          "nextTime": 92.566623
+        },
+        {
+          "patch": "RRing",
+          "previous": "p00401",
+          "previousEnd": 86.65891099999999,
+          "next": "p00423",
+          "nextTime": 89.480345
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 75,
+      "firstObserved": 87.63239666666728,
+      "lastObserved": 87.63239666666728,
+      "sampleRows": 1,
+      "maximum": 4.86237363771097,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00409",
+          "previousEnd": 87.593963,
+          "next": "p00440",
+          "nextTime": 92.566623
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "firstObserved": 87.64073000000062,
+      "lastObserved": 87.72406333333402,
+      "sampleRows": 20,
+      "maximum": 6.853037604589329,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00409",
+          "previousEnd": 87.593963,
+          "next": "p00440",
+          "nextTime": 92.566623
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "firstObserved": 87.6573966666673,
+      "lastObserved": 87.69073000000066,
+      "sampleRows": 5,
+      "maximum": 5.192856280566427,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00395",
+          "previousEnd": 85.238764,
+          "next": "p00412",
+          "nextTime": 87.697639
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "midi": null,
+      "firstObserved": 93.15828966666754,
+      "lastObserved": 93.29360766666667,
+      "sampleRows": 30,
+      "maximum": 39,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00440",
+          "previousEnd": 93.144765,
+          "next": "p00447",
+          "nextTime": 93.922598
+        },
+        {
+          "patch": "RRing",
+          "previous": "p00423",
+          "previousEnd": 89.85258,
+          "next": "p00452",
+          "nextTime": 94.600255
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 75,
+      "firstObserved": 93.18328966666756,
+      "lastObserved": 93.18328966666756,
+      "sampleRows": 1,
+      "maximum": 3.8954755300630306,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00440",
+          "previousEnd": 93.144765,
+          "next": "p00447",
+          "nextTime": 93.922598
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "firstObserved": 93.1916230000009,
+      "lastObserved": 93.22495633333426,
+      "sampleRows": 5,
+      "maximum": 6.957527141756403,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00440",
+          "previousEnd": 93.144765,
+          "next": "p00447",
+          "nextTime": 93.922598
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "firstObserved": 93.20828966666758,
+      "lastObserved": 93.24162300000094,
+      "sampleRows": 5,
+      "maximum": 5.943249010951113,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00428",
+          "previousEnd": 90.787424,
+          "next": "p00443",
+          "nextTime": 93.248441
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "firstObserved": 93.876941,
+      "lastObserved": 93.898597,
+      "sampleRows": 5,
+      "maximum": 5.252255331104183,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00440",
+          "previousEnd": 93.144765,
+          "next": "p00447",
+          "nextTime": 93.922598
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "firstObserved": 101.3750000000003,
+      "lastObserved": 101.47500000000038,
+      "sampleRows": 28,
+      "maximum": 7.978834032390192,
+      "gaps": [
+        {
+          "patch": "RIndex",
+          "previous": "p00482",
+          "previousEnd": 100.430049,
+          "next": "p00490",
+          "nextTime": 101.495872
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "firstObserved": 101.40000000000032,
+      "lastObserved": 101.46026433333334,
+      "sampleRows": 16,
+      "maximum": 5.66373583832816,
+      "gaps": [
+        {
+          "patch": "RIndex",
+          "previous": "p00482",
+          "previousEnd": 100.430049,
+          "next": "p00490",
+          "nextTime": 101.495872
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "firstObserved": 101.42500000000034,
+      "lastObserved": 101.48333333333372,
+      "sampleRows": 16,
+      "maximum": 7.881680570726579,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00469",
+          "previousEnd": 97.966525,
+          "next": "p00491",
+          "nextTime": 101.499372
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "firstObserved": 102.024372,
+      "lastObserved": 102.0416666666675,
+      "sampleRows": 8,
+      "maximum": 3.4840578749905093,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00475",
+          "previousEnd": 99.136343,
+          "next": "p00495",
+          "nextTime": 102.18669
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "firstObserved": 102.35335666666667,
+      "lastObserved": 102.38333333333443,
+      "sampleRows": 12,
+      "maximum": 4.039186524902039,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00487",
+          "previousEnd": 101.471872,
+          "next": "p00497",
+          "nextTime": 102.536599
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "firstObserved": 102.47835666666667,
+      "lastObserved": 102.51666666666787,
+      "sampleRows": 17,
+      "maximum": 6.292042572484946,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00487",
+          "previousEnd": 101.471872,
+          "next": "p00497",
+          "nextTime": 102.536599
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "firstObserved": 102.60833333333461,
+      "lastObserved": 102.64493233333333,
+      "sampleRows": 15,
+      "maximum": 4.537362229824648,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00495",
+          "previousEnd": 102.511599,
+          "next": "p00501",
+          "nextTime": 103.209418
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "firstObserved": 103.01784233333333,
+      "lastObserved": 103.06784233333333,
+      "sampleRows": 14,
+      "maximum": 4.54061439007819,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00495",
+          "previousEnd": 102.511599,
+          "next": "p00501",
+          "nextTime": 103.209418
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "firstObserved": 103.14166666666837,
+      "lastObserved": 103.20000000000175,
+      "sampleRows": 15,
+      "maximum": 7.351684590284013,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00495",
+          "previousEnd": 102.511599,
+          "next": "p00501",
+          "nextTime": 103.209418
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "firstObserved": 103.29275133333333,
+      "lastObserved": 103.309418,
+      "sampleRows": 5,
+      "maximum": 3.7686995554367386,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00499",
+          "previousEnd": 103.18441800000001,
+          "next": "p00533",
+          "nextTime": 108.63332
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "firstObserved": 103.47500000000197,
+      "lastObserved": 103.52500000000201,
+      "sampleRows": 14,
+      "maximum": 7.2647405663189835,
+      "gaps": [
+        {
+          "patch": "RIndex",
+          "previous": "p00493",
+          "previousEnd": 102.16269,
+          "next": "p00503",
+          "nextTime": 103.541327
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "firstObserved": 103.62255425,
+      "lastObserved": 103.62500000000209,
+      "sampleRows": 3,
+      "maximum": 3.402144877682811,
+      "gaps": [
+        {
+          "patch": "RMiddle",
+          "previous": "p00501",
+          "previousEnd": 103.517327,
+          "next": "p00512",
+          "nextTime": 104.897302
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "midi": null,
+      "firstObserved": 103.67466033333334,
+      "lastObserved": 103.82500000000225,
+      "sampleRows": 40,
+      "maximum": 7,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00499",
+          "previousEnd": 103.18441800000001,
+          "next": "p00533",
+          "nextTime": 108.63332
+        },
+        {
+          "patch": "RPinky",
+          "previous": "p00491",
+          "previousEnd": 102.843509,
+          "next": "p00505",
+          "nextTime": 103.891236
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "firstObserved": 103.82466033333333,
+      "lastObserved": 103.85000000000227,
+      "sampleRows": 8,
+      "maximum": 6.447097277116343,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00491",
+          "previousEnd": 102.843509,
+          "next": "p00505",
+          "nextTime": 103.891236
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "firstObserved": 103.90790266666667,
+      "lastObserved": 103.93333333333567,
+      "sampleRows": 8,
+      "maximum": 3.547602718243059,
+      "gaps": [
+        {
+          "patch": "RIndex",
+          "previous": "p00503",
+          "previousEnd": 103.866236,
+          "next": "p00508",
+          "nextTime": 104.226645
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "firstObserved": 104.14956933333335,
+      "lastObserved": 104.21666666666923,
+      "sampleRows": 14,
+      "maximum": 6.080537852011569,
+      "gaps": [
+        {
+          "patch": "RIndex",
+          "previous": "p00503",
+          "previousEnd": 103.866236,
+          "next": "p00508",
+          "nextTime": 104.226645
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "midi": null,
+      "firstObserved": 104.24331166666667,
+      "lastObserved": 104.28147833333334,
+      "sampleRows": 14,
+      "maximum": 2,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00499",
+          "previousEnd": 103.18441800000001,
+          "next": "p00533",
+          "nextTime": 108.63332
+        },
+        {
+          "patch": "RPinky",
+          "previous": "p00505",
+          "previousEnd": 104.199145,
+          "next": "p00510",
+          "nextTime": 104.569224
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "midi": null,
+      "firstObserved": 104.33333333333599,
+      "lastObserved": 104.36481166666667,
+      "sampleRows": 12,
+      "maximum": 3,
+      "gaps": [
+        {
+          "patch": "RRing",
+          "previous": "p00499",
+          "previousEnd": 103.18441800000001,
+          "next": "p00533",
+          "nextTime": 108.63332
+        },
+        {
+          "patch": "RPinky",
+          "previous": "p00505",
+          "previousEnd": 104.199145,
+          "next": "p00510",
+          "nextTime": 104.569224
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "firstObserved": 121.55894700000096,
+      "lastObserved": 121.55894700000096,
+      "sampleRows": 1,
+      "maximum": 3.262738347949823,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00567",
+          "previousEnd": 119.30636200000001,
+          "next": "p00577",
+          "nextTime": 121.613548
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "firstObserved": 197.12385233333333,
+      "lastObserved": 197.1999999999999,
+      "sampleRows": 21,
+      "maximum": 6.629042044094757,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00959",
+          "previousEnd": 195.668174,
+          "next": "p00971",
+          "nextTime": 197.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "firstObserved": 197.23218566666668,
+      "lastObserved": 197.25833333333318,
+      "sampleRows": 9,
+      "maximum": 4.393097751703989,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00959",
+          "previousEnd": 195.668174,
+          "next": "p00971",
+          "nextTime": 197.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "firstObserved": 197.265519,
+      "lastObserved": 197.30833333333314,
+      "sampleRows": 12,
+      "maximum": 6.0718179091804325,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00959",
+          "previousEnd": 195.668174,
+          "next": "p00971",
+          "nextTime": 197.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "firstObserved": 197.30718566666667,
+      "lastObserved": 197.33333333333312,
+      "sampleRows": 8,
+      "maximum": 7.396276916941474,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00959",
+          "previousEnd": 195.668174,
+          "next": "p00971",
+          "nextTime": 197.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "midi": null,
+      "firstObserved": 197.340494667,
+      "lastObserved": 197.3565186666667,
+      "sampleRows": 5,
+      "maximum": 26,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00969",
+          "previousEnd": 197.315852,
+          "next": "p00976",
+          "nextTime": 198.348852
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "midi": null,
+      "firstObserved": 197.38985200000002,
+      "lastObserved": 197.3916666666664,
+      "sampleRows": 2,
+      "maximum": 7,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00969",
+          "previousEnd": 197.315852,
+          "next": "p00976",
+          "nextTime": 198.348852
+        },
+        {
+          "patch": "RIndex",
+          "previous": "p00967",
+          "previousEnd": 196.941916,
+          "next": "p00981",
+          "nextTime": 199.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "midi": null,
+      "firstObserved": 198.22318566666667,
+      "lastObserved": 198.2333333333323,
+      "sampleRows": 5,
+      "maximum": 13,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00969",
+          "previousEnd": 197.315852,
+          "next": "p00976",
+          "nextTime": 198.348852
+        },
+        {
+          "patch": "RIndex",
+          "previous": "p00967",
+          "previousEnd": 196.941916,
+          "next": "p00981",
+          "nextTime": 199.339852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "firstObserved": 198.22318566666667,
+      "lastObserved": 198.24166666666562,
+      "sampleRows": 7,
+      "maximum": 5.530612491953191,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00969",
+          "previousEnd": 197.315852,
+          "next": "p00976",
+          "nextTime": 198.348852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "firstObserved": 198.23985233333332,
+      "lastObserved": 198.2666666666656,
+      "sampleRows": 7,
+      "maximum": 7.06584918009423,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00969",
+          "previousEnd": 197.315852,
+          "next": "p00976",
+          "nextTime": 198.348852
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "firstObserved": 198.3333333333322,
+      "lastObserved": 198.3333333333322,
+      "sampleRows": 1,
+      "maximum": 3.071526204442454,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00974",
+          "previousEnd": 198.298852,
+          "next": "p00986",
+          "nextTime": 200.029507
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "firstObserved": 198.35718533333332,
+      "lastObserved": 198.44999999999877,
+      "sampleRows": 25,
+      "maximum": 7.243307003097888,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00974",
+          "previousEnd": 198.298852,
+          "next": "p00986",
+          "nextTime": 200.029507
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "firstObserved": 199.81034666666667,
+      "lastObserved": 199.95201333333333,
+      "sampleRows": 37,
+      "maximum": 7.236866207085052,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00974",
+          "previousEnd": 198.298852,
+          "next": "p00986",
+          "nextTime": 200.029507
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "firstObserved": 199.9878403333329,
+      "lastObserved": 200.0128403333329,
+      "sampleRows": 4,
+      "maximum": 7.005354621306581,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00974",
+          "previousEnd": 198.298852,
+          "next": "p00986",
+          "nextTime": 200.029507
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "firstObserved": 200.03784033333287,
+      "lastObserved": 200.054507,
+      "sampleRows": 6,
+      "maximum": 6.968083658714819,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00984",
+          "previousEnd": 199.979507,
+          "next": "p01005",
+          "nextTime": 204.955616
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "firstObserved": 200.05450699999952,
+      "lastObserved": 200.07117366666665,
+      "sampleRows": 6,
+      "maximum": 5.609785806592993,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00984",
+          "previousEnd": 199.979507,
+          "next": "p01005",
+          "nextTime": 204.955616
+        }
+      ]
+    },
+    {
+      "kind": "newIdlePair",
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "midi": null,
+      "firstObserved": 200.06284033333284,
+      "lastObserved": 200.07117366666665,
+      "sampleRows": 4,
+      "maximum": 10,
+      "gaps": [
+        {
+          "patch": "RThumb",
+          "previous": "p00984",
+          "previousEnd": 199.979507,
+          "next": "p01005",
+          "nextTime": 204.955616
+        },
+        {
+          "patch": "RIndex",
+          "previous": "p00981",
+          "previousEnd": 199.66868,
+          "next": "p00988",
+          "nextTime": 200.719162
+        }
+      ]
+    },
+    {
+      "kind": "newIdleCore",
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "firstObserved": 200.73784033333223,
+      "lastObserved": 200.74617366666556,
+      "sampleRows": 3,
+      "maximum": 4.72071971486121,
+      "gaps": [
+        {
+          "patch": "RPinky",
+          "previous": "p00986",
+          "previousEnd": 200.69516199999998,
+          "next": "p01024",
+          "nextTime": 209.382445
+        }
+      ]
+    }
+  ],
+  "rows": [
+    {
+      "kind": "newIdlePair",
+      "time": 87.60739666666726,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.6157300000006,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 24
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.62406333333394,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 30
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.63239666666728,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 32
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.63239666666728,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 75,
+      "depth": 4.86237363771097
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.64073000000062,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 35
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.64073000000062,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.191223355696715
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.64906333333396,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 6.853037604589329
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.6573966666673,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 47
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.6573966666673,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.132056035749011
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.6573966666673,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 6.090717502063317
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.66573000000064,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 88
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.66573000000064,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.192856280566427
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.66573000000064,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 6.290458133079088
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.67406333333398,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 119
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.67406333333398,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.048188959692723
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.67406333333398,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 5.888682955752178
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.68239666666732,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 121
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.68239666666732,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 4.2641959919810235
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.68239666666732,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 5.153194054201518
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.69073000000066,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 122
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.69073000000066,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 3.3061384101826796
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.69073000000066,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.615612185193421
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.69763999999999,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 118
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.69763999999999,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.42339446485962
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.69796201,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 116
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.69796201,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.411493273922207
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.699063333334,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 114
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.699063333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.370246649227583
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.70114,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 114
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.70114,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.289758671393806
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.70147244099999,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 114
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.70147244099999,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.276532732654714
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.70597233333334,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 103
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.70597233333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.085638247169787
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.70739666666734,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 95
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.70739666666734,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.0201138032905925
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.70947233333334,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 95
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.70947233333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.919690700103007
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.71430566666666,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 69
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.71430566666666,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.661387595465082
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.71573000000068,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 65
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.71573000000068,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.5784369093004864
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.71780566666666,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 40
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.71780566666666,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.452009165872849
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.722639,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 28
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.722639,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.1332602729704506
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.72406333333402,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 26
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 87.72406333333402,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.033391122547635
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.726139,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 26
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.73097233333333,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 20
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.73239666666736,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 20
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.73447233333333,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 18
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.73930566666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 8
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.7407300000007,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 8
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.74280566666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 6
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.74763899999999,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.74906333333404,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 87.751139,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.15828966666754,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.16662300000088,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 6
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.17495633333422,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 20
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.18328966666756,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 30
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.18328966666756,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 75,
+      "depth": 3.8954755300630306
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.1916230000009,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 35
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.1916230000009,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 3.688676528277479
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.19995633333424,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 6.957527141756403
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.20828966666758,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 39
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.20828966666758,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.162980453194576
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.20828966666758,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 5.915841281176726
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.21662300000092,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 37
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.21662300000092,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.943249010951113
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.21662300000092,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 6.0647735789368244
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.22495633333426,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 37
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.22495633333426,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 5.599210865191107
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.22495633333426,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 73,
+      "depth": 4.001783322389818
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.2332896666676,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 35
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.2332896666676,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 4.614960214445962
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.24162300000094,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 34
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.24162300000094,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 3.453585732711817
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.248442,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 32
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.248883427,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 32
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.24995633333428,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 32
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.251942,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 30
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.252587657,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 30
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.25677433333334,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 28
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.25828966666762,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 28
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.26027433333334,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 26
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.26510766666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 26
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.26662300000096,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 24
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.26860766666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 22
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.273441,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 16
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.2749563333343,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 16
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.27694100000001,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 16
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.28177433333333,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 14
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.28328966666764,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 6
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.28527433333333,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 6
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.29010766666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.29162300000098,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 93.29360766666667,
+      "patches": [
+        "RMiddle",
+        "RRing"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.876941,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "depth": 3.191539073107541
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.88527433333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "depth": 3.9312082709997975
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.89360766666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "depth": 4.756142904834948
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.897951343,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "depth": 5.189106363900575
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 93.898597,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 71,
+      "depth": 5.252255331104183
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.3750000000003,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.248483960522547
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.376931,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.5089447188753065
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.38333333333364,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 4.669284238786209
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.38526433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 5.1080447331405265
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.39166666666698,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.098608721306076
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.39188675,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.148142546129276
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.39359766666666,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.143026140406599
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.40000000000032,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.626112956956115
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.40000000000032,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 3.0864435032970094
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.401931,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.761734767246508
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.401931,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 3.430490378086515
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.40833333333366,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.590122472809434
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.40833333333366,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 4.533644936112524
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.41026433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.537479966054777
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.41026433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 4.854612251452894
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.416666666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.292769379572349
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.416666666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.103470569724294
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.41859766666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.4685608112192705
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.41859766666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.14993920208609
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42500000000034,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.166075423859053
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42500000000034,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.30377596008158
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42500000000034,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 3.7453651377267194
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42693100000001,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.238100288012389
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42693100000001,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.3498787240210675
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.42693100000001,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 3.986027017505056
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43333333333368,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.0859047771761885
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43333333333368,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.500659134091257
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43333333333368,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 4.75190902384981
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43526433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.040814085206043
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43526433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.5452762659714825
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.43526433333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 4.978285008203298
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44166666666702,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.683519469328103
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44166666666702,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.66373583832816
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44166666666702,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 5.717763098587292
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44359766666668,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.714461342672701
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44359766666668,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.647373154442886
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.44359766666668,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 5.9401286537920095
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.45000000000036,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.743639323962269
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.45000000000036,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.415394205452118
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.45000000000036,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 6.682531083511578
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.451931,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.64751099161609
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.451931,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 5.296063508363091
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.451931,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 6.9052888795436695
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.4583333333337,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.978834032390192
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.4583333333337,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 3.959948888001441
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.4583333333337,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.602791889006144
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46026433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.978273446136996
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46026433333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 77,
+      "depth": 3.4032772413339627
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46026433333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.787822798161703
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46666666666704,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.91361060583784
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46666666666704,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.881680570726579
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46859766666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.672294860056383
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.46859766666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.861287943743744
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.471552059,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.9072416342045315
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.471552059,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.869998870113082
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.47187100000001,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.787499185310964
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.47187100000001,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.868649186831278
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.47500000000038,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.424528344207259
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.47500000000038,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.408985507317334
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 101.48333333333372,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 4.8140592525942605
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.024372,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.047294793227906
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.02500000000082,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.026968004558012
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.029781,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.4840578749905093
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.03270533333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1479234117423593
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.03333333333416,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.071217873616805
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.03811433333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1965785766006616
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.04103866666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1894672886033093
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.0416666666675,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1254090070126916
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.35335666666667,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.251851583118026
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.35770533333333,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.3757098555537435
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.35833333333441,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.343696839782806
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.36169,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.2927489444188884
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.36603866666665,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 4.039186524902039
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.36666666666775,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 4.003796799458143
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.37002333333334,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.8135186562565093
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.374372,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.5645667083235857
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.3750000000011,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.5284212411492155
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.37835666666666,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.334537904695678
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.38270533333333,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.081996589912872
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.38333333333443,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.0454329419580817
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.47835666666667,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 3.366673853273938
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.48270533333333,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 3.9085357016720446
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.48333333333451,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 3.9839446996433603
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.48669,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 4.374567287094178
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.49103866666665,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 4.848788036808327
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.49166666666785,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 4.914238264793425
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.49502333333334,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.250823258219683
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.499372,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.6530256864816275
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.5000000000012,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.707888799157401
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.50335666666666,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.987086800344099
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.50747475,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 6.292042572484946
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.50770533333333,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 6.246735204122444
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.50833333333453,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 6.122712268069375
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.511274091,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.529679885568739
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.51159799999999,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 5.463118401050404
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.51603866666666,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 4.525490954382594
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.51666666666787,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 81,
+      "depth": 4.389090472387447
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.60833333333461,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.006271856715703
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.60930375,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.057009698220481
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.611599,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1849917858025045
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.61603866666665,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.992742702967289
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.61666666666795,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.085590356718683
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.61993233333332,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.261479718694256
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.624372,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.50304088806247
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.6250000000013,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.537362229824648
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.62826566666666,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.3958825542357305
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.63270533333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.341626677533627
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.63333333333463,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.343578580347701
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.63659899999999,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.30221654922136
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.64103866666666,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.430700091196171
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.64166666666797,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.266563203983664
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 102.64493233333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.4236359518696746
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.01784233333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.0482710820124437
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.0219635,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.7881134194105437
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.02500000000161,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.342816141855388
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.02617566666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.54061439007819
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.03333333333495,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.4630590620241275
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.034509,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.4177092756591545
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.04166666666829,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.170792408074552
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.04284233333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.23657628044205
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.05000000000163,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.470825568353626
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.05117566666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.425697796629546
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.05833333333497,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.15275510353938
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.059509,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 4.1083100268321795
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.06666666666831,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.2692371259238073
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.06784233333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.1584393486027986
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.14166666666837,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 3.8729824380024924
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.14284233333333,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 4.0086998152769615
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.15000000000171,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 4.787138192963947
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.15117566666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 4.907084768560499
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.15833333333505,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 5.588668032458499
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.159509,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 5.692582015910275
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.16666666666839,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 6.275896733828001
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.16784233333334,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 6.363566382269981
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.17500000000173,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 6.847350896736937
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.17617566666667,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 6.918563195599803
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.18333333333507,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 7.301378256892588
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.18409309100001,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 7.336860227712516
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.184417,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 7.351684590284013
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.19166666666841,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 5.958614785422367
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.20000000000175,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 79,
+      "depth": 3.2060352683860316
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.29275133333333,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.0851222563509086
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.30000000000183,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.680578443446575
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.30108466666667,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.7686995554367386
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.30833333333517,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.230111022585469
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.309418,
+      "patches": [
+        "RRing"
+      ],
+      "midi": 80,
+      "depth": 3.3110222168985515
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.47500000000197,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.8194023482068795
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.47608466666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.936365140079112
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.48333333333531,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 4.67319403004407
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.484418,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 4.776670997051036
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.49166666666865,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 5.422142393205154
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.49275133333333,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 5.513498931250305
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.50000000000199,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.14348613097182
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.50108466666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.229744867968123
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.50833333333533,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.7517058337588365
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.509418,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 6.82156635887099
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.51666666666867,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.23228517988439
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.517019091,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.249735868819607
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.517326,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 7.2647405663189835
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.52500000000201,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 5.326153068747952
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.62255425,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.402144877682811
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.62466033333332,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.2409960069496035
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.62500000000209,
+      "patches": [
+        "RMiddle"
+      ],
+      "midi": 78,
+      "depth": 3.175356255140982
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.67466033333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.67500000000213,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.68299366666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.68333333333547,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.691327,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.69166666666881,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.69966033333333,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.70000000000215,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.70378149999999,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 6
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.70799366666667,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.70833333333549,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.71632699999999,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.71666666666883,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.72466033333333,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.72500000000217,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.73299366666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.73333333333551,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.741327,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.74166666666885,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.74966033333332,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.75000000000219,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.75799366666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.75833333333553,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.76632699999999,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.76666666666887,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.77466033333333,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.77500000000221,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.78299366666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.78333333333555,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.78500874999999,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.791327,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.79166666666889,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.79966033333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.80000000000223,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.80799366666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.80833333333557,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.816327,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.81666666666891,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.82466033333333,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.82466033333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 3.8036999466816157
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 103.82500000000225,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.82500000000225,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 3.845308247227508
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.83299366666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 4.778712285849029
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.83333333333559,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 4.816378646025243
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.84132699999999,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 5.65332233436211
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.84166666666893,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 5.686716246951273
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.84966033333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 6.418389071071506
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.85000000000227,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 6.447097277116343
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.90790266666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.2171011302514207
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.90833333333565,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.235680481211367
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.91623600000001,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.487836362262575
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.91666666666899,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.496382290851918
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.92456933333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.547602718243059
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.92500000000233,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.544403156856557
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.93290266666668,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.370315364788712
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 103.93333333333567,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 76,
+      "depth": 3.354462002690184
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.14956933333335,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 3.8074662186168284
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.1500000000025,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 3.778290968100811
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.15790266666667,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 4.9889868964660415
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.15833333333585,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 4.9556755330466
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.16623600000001,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.623447708258761
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.16666666666919,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.734191571735103
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.17456933333334,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 6.080537852011569
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.17500000000253,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 6.047896289608556
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.18290266666668,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.4905430199377045
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.18333333333587,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.580423437265197
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.191236,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.817627429107852
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.1916666666692,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.793511251845573
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.20833333333589,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 5.500461674572077
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 104.21666666666923,
+      "patches": [
+        "RIndex"
+      ],
+      "midi": 78,
+      "depth": 3.18956674425952
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.24331166666667,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.24814500000001,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.25000000000259,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.25164500000001,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.25647833333333,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.25833333333593,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.25997833333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.26481166666667,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.26666666666927,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.26831166666668,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.273145,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.2750000000026,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.276645,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.28147833333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.33333333333599,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.33497833333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.33981166666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.34166666666933,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.34331166666666,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.348145,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 1
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.35000000000267,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.351645,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.35647833333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.358333333336,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.35997833333334,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 104.36481166666667,
+      "patches": [
+        "RRing",
+        "RPinky"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 121.55894700000096,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 67,
+      "depth": 3.262738347949823
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.12385233333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.5647916310382888
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.12499999999997,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.6929253837288956
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.1321856666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.400660266505402
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.1333333333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.539188051646659
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.140519,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.463734615922644
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.14166666666662,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.618441522293405
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.14885233333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.629042044094757
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.14999999999995,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.5665862452456984
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.1571856666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.723692565995697
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.15833333333327,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.899861917631033
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.16551900000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.587899721679669
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.16568550000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.566360041171782
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.1666666666666,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.439070676485025
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.17385233333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.270970548016064
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.17499999999993,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.412047362541279
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.18218566666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.839825107393643
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.18333333333325,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.697019970085843
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.19051900000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.017034662576997
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.19166666666658,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.872973844687461
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.19885233333335,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.973178494922236
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.1999999999999,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.8301121568713183
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.23218566666668,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.207379335400634
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2333333333332,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.3429010118212754
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.240519,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.890951365103812
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.24076875,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.8845488171231346
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.24166666666653,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.8616292861402557
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.24885233333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 4.264170358198649
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.24999999999986,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 4.393097751703989
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2571856666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.717971736349024
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.25833333333318,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 82,
+      "depth": 3.550111706500547
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.265519,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 3.082091155678701
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2666666666665,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 3.2369973476614744
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.27385233333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 4.168101815388847
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.27499999999984,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 4.311389694834911
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2821856666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.026411207844306
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.28333333333316,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.160644742082554
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.29051900000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.954240233880026
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2916666666665,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 6.0718179091804325
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.29885233333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.498079385969939
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.2999999999998,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.028185442885552
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.30718566666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 3.6392178511173157
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.30718566666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 5.599193275591552
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.30833333333314,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 6.1874867178654815
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.30833333333314,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 3.055572790309186
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.31551900000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 6.883069569447592
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.31555166700002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 6.897990641336338
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.315851,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.033886654850191
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.31666666666646,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.396276916941474
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.3249999999998,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 7.3367477558073935
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 197.33333333333312,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 83,
+      "depth": 3.441723632699567
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.340494667,
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "trianglePairs": 2
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.34166666666644,
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "trianglePairs": 3
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.34818533333333,
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.34999999999977,
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.3565186666667,
+      "patches": [
+        "RThumb",
+        "RPalm"
+      ],
+      "trianglePairs": 26
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.38985200000002,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 197.3916666666664,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 4
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 198.22318566666667,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.22318566666667,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 3.7289763370792484
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 198.22499999999897,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 8
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.22499999999897,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 4.189170136498999
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 198.22576875,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 10
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.22576875,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 4.382518037007954
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 198.231519,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 13
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.231519,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 4.7365545412261785
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 198.2333333333323,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 12
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.2333333333323,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 5.095636548177684
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.23985233333332,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 5.530612491953191
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.23985233333332,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 3.4086140955529864
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.24166666666562,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 4.1064523735079295
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.24818566666667,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 5.747686585099082
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.24999999999895,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 6.802421924494095
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.256519,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 6.799125452906507
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.25833333333227,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 7.06584918009423
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.26485233333332,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 6.681858923566153
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.2666666666656,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 5.524791833968451
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.3333333333322,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 79,
+      "depth": 3.071526204442454
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.35718533333332,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.6659130237323145
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.35833333333218,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.8896294216704264
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.36551866666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.809751894522984
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.3666666666655,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.978714392190831
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.373852,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.676501503593584
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.37499999999883,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.658198097372946
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.38218533333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.466936604480167
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.38333333333216,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.768721785463838
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.39051866666665,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.214438225486786
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.3916666666655,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.236583431452143
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.398852,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.120736700816282
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.3999999999988,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.097369738364668
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.40718533333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.0566878340966035
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.40833333333214,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.080732616139452
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.41551866666666,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.232384678906162
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.41666666666546,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.243307003097888
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.42385199999998,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.623425871722266
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.42393525,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.601292026775618
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.4249999999988,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.319117227638782
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.43218533333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.152217739014699
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.43333333333211,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.131673687871625
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.44051866666666,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.988242058276527
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.44166666666544,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.741722793665915
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.448852,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.284158475928668
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 198.44999999999877,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.066155035428509
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.81034666666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.4709850622435257
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.81284033333307,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.784792629805467
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.81868,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.560598168526941
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.8211736666664,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.9083385799472135
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.82701333333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.758042651643813
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.82950699999972,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.940526702764154
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.83534666666668,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.000021767040314
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.8365935,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.012974948199329
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.83784033333305,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.026006501202053
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.84368,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.087956018749397
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.84617366666637,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.114795926649569
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.85201333333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.550219471099017
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.8545069999997,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.933221003529944
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.86034666666666,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.055129188254849
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.86284033333303,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.086327189376796
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.86868,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.1594200225212905
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.87117366666635,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.19056874549956
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.87701333333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.236866207085052
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.87950699999968,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.2061139968976065
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.88534666666666,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.134860489981437
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.887840333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.104825263351822
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.89368,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.035598186392377
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.89617366666633,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.00656954774187
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.90201333333334,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.066382618406253
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.90450699999965,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.094324803978703
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.90805025,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 7.133308396848726
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.91034666666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.7493123560044
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.91284033333298,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.347855945902675
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.91868,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 6.021178662203419
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.9211736666663,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.850643422983747
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.92701333333332,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.546424005055423
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.92950699999963,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.523580501489656
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.93534666666667,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 5.1333064988224315
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.93784033333296,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.906386874722168
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.94368,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.197481599138242
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.94617366666628,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.839619588637322
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.95201333333333,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.03355729520971
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.9878403333329,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 3.3373211069802897
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 199.99617366666624,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 5.870108806565466
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.00450699999956,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 7.005354621306581
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.0128403333329,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 81,
+      "depth": 6.607111300749757
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.03784033333287,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 3.987890286364787
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.03784033333332,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 3.987890286837964
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.0461736666662,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 6.968083658714819
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.04617366666668,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 6.968083658608681
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.05450699999952,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 3.887462997996055
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.05450699999952,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 4.534165731794465
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.054507,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 3.8874629985063134
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.054507,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 77,
+      "depth": 4.534165731229805
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 200.06284033333284,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 10
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.06284033333284,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 5.609785806592993
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 200.06284033333333,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 10
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.06284033333333,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 5.6097858064317885
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 200.07117366666617,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.07117366666617,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 3.9299443507526677
+    },
+    {
+      "kind": "newIdlePair",
+      "time": 200.07117366666665,
+      "patches": [
+        "RThumb",
+        "RIndex"
+      ],
+      "trianglePairs": 7
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.07117366666665,
+      "patches": [
+        "RThumb"
+      ],
+      "midi": 76,
+      "depth": 3.9299443505870224
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.73784033333223,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 3.7118349958428776
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.74416200000002,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.237926500136268
+    },
+    {
+      "kind": "newIdleCore",
+      "time": 200.74617366666556,
+      "patches": [
+        "RPinky"
+      ],
+      "midi": 80,
+      "depth": 4.72071971486121
+    }
+  ]
+}

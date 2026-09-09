@@ -1,0 +1,137 @@
+{
+  "allPassed": true,
+  "checks": [
+    {
+      "check": "Valid candidate preflight, exact score and 160 source hashes",
+      "passed": true
+    },
+    {
+      "check": "Wrong explicitly expected score SHA",
+      "passed": true,
+      "rejection": "Expected score SHA does not match frozen release"
+    },
+    {
+      "check": "Changed physical key hold",
+      "passed": true,
+      "rejection": "Score bytes changed: /workspace/sites/daybreak-piano-film/production/resume/audio-release/daybreak-release-tests-xij5ml60/changed-score.json"
+    },
+    {
+      "check": "Changed exact score bytes even when audio signature matches",
+      "passed": true,
+      "rejection": "Score bytes changed: /workspace/sites/daybreak-piano-film/production/resume/audio-release/daybreak-release-tests-xij5ml60/changed-score.json"
+    },
+    {
+      "check": "Modified prepared renderer",
+      "passed": true,
+      "rejection": "Frozen input changed: render_solo_master.py"
+    },
+    {
+      "check": "Existing release directory cannot reuse stale intermediates",
+      "passed": true,
+      "rejection": "ValueError: Output exists; use a new release directory to prevent stale intermediates"
+    },
+    {
+      "check": "Candidate score cannot trigger final render",
+      "passed": true,
+      "rejection": "ValueError: Final render requires an accepted-final score freeze"
+    },
+    {
+      "check": "Saved real event/source/pedal audit validates against its exact historical input",
+      "passed": true
+    },
+    {
+      "check": "Historical event report cannot validate current score",
+      "passed": true,
+      "rejection": "Stale audio report score binding"
+    },
+    {
+      "check": "Real WAV/MP3 full decode, level, exact frames and zero lag",
+      "passed": true,
+      "wav": {
+        "filename": "fixture.wav",
+        "sha256": "19714061ce7c0c7c74353585a24a43dcb01ffb86c1e32df8bd5acb12ff345e60",
+        "decodedFrames": 264600,
+        "decodedDurationSeconds": 6.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -15.823001189461445,
+        "containerStartTimeSeconds": 0.0,
+        "integratedLufs": -17.74,
+        "truePeakDbtp": -15.82,
+        "loudnessRangeLu": 1.2
+      },
+      "mp3": {
+        "filename": "fixture.mp3",
+        "sha256": "db23d90a8796cb1640420f6e565636303e3e06265f9d3a8a3349ab784306dafb",
+        "decodedFrames": 264600,
+        "decodedDurationSeconds": 6.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "mp3",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -15.82961874881592,
+        "containerStartTimeSeconds": 0.025057,
+        "integratedLufs": -17.74,
+        "truePeakDbtp": -15.83,
+        "loudnessRangeLu": 1.2
+      },
+      "alignment": {
+        "lagChecks": [
+          {
+            "referenceStartSeconds": 0.1,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 2,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 4,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          }
+        ],
+        "errorRelativeRmsDb": -48.02259969915228
+      }
+    },
+    {
+      "check": "One decoded frame removed",
+      "passed": true,
+      "rejection": "Aligned audio frame/channel dimensions differ"
+    },
+    {
+      "check": "Seven-sample codec shift",
+      "passed": true,
+      "rejection": "Decoded audio alignment differs from PCM reference"
+    },
+    {
+      "check": "Wrong expected decoded duration",
+      "passed": true,
+      "rejection": "Decoded frame-count mismatch: fixture.wav 264600 != 264601"
+    },
+    {
+      "check": "Clipped PCM rejection",
+      "passed": true,
+      "rejection": "Clipped samples in clipped.wav"
+    }
+  ],
+  "checkCount": 14,
+  "daybreakMasterRendered": false,
+  "criticalListeningPerformed": false,
+  "currentCandidateScoreSha256": "b1562bfe579eabca2bf6a188268836c3c669050ec3877d92b17d15729a00a773",
+  "helpers": {
+    "prepare_release.py": "e40535b99f8ddf97f637596ec45453a34b8f599089873bc68cb6eb2d2ccad450",
+    "render_release.py": "54f2eec0f4485b9e43aa91d353d610b7f6c6e3a3bb50c7afc71cb8cfcbb5bf8d",
+    "verify_release.py": "424d070b8ca6a786d861f315348d4732f0bd621b65d572e8aa6ea770a1f51531",
+    "release_common.py": "2d4d7f23e96baf9d5b57b82765b4933dc07fa3a49400a13b61e4566e22d6caf3",
+    "recover_samples.py": "32acdf037fe872c82e629f725629bf62b5917cd3f508c9eca172d31cba038120"
+  }
+}

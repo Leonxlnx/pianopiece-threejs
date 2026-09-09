@@ -1,0 +1,199 @@
+{
+  "status": "parent-review-required",
+  "note": {
+    "id": "p00322",
+    "before": {
+      "id": "p00322",
+      "time": 71.178428,
+      "duration": 0.269968,
+      "midi": 43,
+      "velocity": 0.555,
+      "hand": "L",
+      "finger": 2,
+      "role": "bass",
+      "bar": 26,
+      "beat": 0,
+      "contactLift": 0.0062824555694730895,
+      "writtenDuration": 0.324909
+    },
+    "after": {
+      "id": "p00322",
+      "time": 71.178428,
+      "duration": 0.269968,
+      "midi": 43,
+      "velocity": 0.555,
+      "hand": "L",
+      "finger": 2,
+      "role": "bass",
+      "bar": 26,
+      "beat": 0,
+      "contactLift": 0.002,
+      "writtenDuration": 0.324909,
+      "contactZ": 0.28
+    }
+  },
+  "curvesAppend": [
+    {
+      "hi": 0,
+      "fi": 2,
+      "previous": "p00297",
+      "previousEnd": 66.26495000000001,
+      "next": "p00330",
+      "nextTime": 72.554064,
+      "knots": [
+        [
+          70.878428,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          70.968428,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.48839600000001,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.568396,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "hi": 0,
+      "fi": 3,
+      "previous": "p00303",
+      "previousEnd": 68.264293,
+      "next": "p00332",
+      "nextTime": 72.894973,
+      "knots": [
+        [
+          70.878428,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          70.968428,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.48839600000001,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.568396,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "hi": 0,
+      "fi": 4,
+      "previous": "p00315",
+      "previousEnd": 70.123345,
+      "next": "p00352",
+      "nextTime": 76.664321,
+      "knots": [
+        [
+          70.878428,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          70.968428,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.48839600000001,
+          20,
+          20,
+          0,
+          0
+        ],
+        [
+          71.568396,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "hi": 0,
+      "fi": 1,
+      "previous": "p00322",
+      "previousEnd": 71.448396,
+      "next": "p00325",
+      "nextTime": 71.531337,
+      "knots": [
+        [
+          71.448396,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          71.46139600000001,
+          4,
+          -4,
+          16,
+          0
+        ],
+        [
+          71.475396,
+          4,
+          -4,
+          16,
+          0
+        ],
+        [
+          71.508396,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    }
+  ],
+  "envelopeBinding": {
+    "p00322": {
+      "time": 71.178428,
+      "duration": 0.269968,
+      "contactZ": null,
+      "contactLift": 0.0062824555694730895
+    }
+  },
+  "physicalNoteOffDeltaSeconds": 0,
+  "unchanged": "attacks, pitches, velocities, physical durations, written durations, pedal, wrist trajectory"
+}

@@ -1,0 +1,3472 @@
+[
+  {
+    "id": "p00020",
+    "note": {
+      "id": "p00020",
+      "time": 6.909129,
+      "duration": 0.368615,
+      "midi": 67,
+      "velocity": 0.568,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 3,
+      "beat": 1,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863197520724745,
+      "thumbKeyCore": 2.4863197520724745,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863197520724745,
+      "maximumPadGap": -2.486319697584727,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 13,
+      "pointContactMm": 0.00010878024575749457,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209319752072475,
+        0.5
+      ],
+      "loss": 87,
+      "summary": {
+        "keyCore": 1.9958529639308997,
+        "thumbKeyCore": 1.9958529639308997,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.9958529639308997,
+        "maximumPadGap": -1.995852911254481,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 12,
+        "pointContactMm": 0.00004124583145070613,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00025",
+    "note": {
+      "id": "p00025",
+      "time": 8.44759,
+      "duration": 0.368615,
+      "midi": 67,
+      "velocity": 0.568,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 3,
+      "beat": 3,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863198165121503,
+      "thumbKeyCore": 2.4863198165121503,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863198165121503,
+      "maximumPadGap": -2.486319745828025,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 28,
+      "pointContactMm": 0.00010831958914677338,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.009,
+        -0.1875
+      ],
+      "loss": 108,
+      "summary": {
+        "keyCore": 2.207019715672165,
+        "thumbKeyCore": 2.207019715672165,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.207019715672165,
+        "maximumPadGap": -2.2070196470236336,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 21,
+        "pointContactMm": 0.00004571117294863337,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00029",
+    "note": {
+      "id": "p00029",
+      "time": 9.216821,
+      "duration": 0.776,
+      "midi": 67,
+      "velocity": 0.563,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 4,
+      "beat": 0,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863197021622874,
+      "thumbKeyCore": 2.4863197021622874,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863197021622874,
+      "maximumPadGap": -2.4863196018694023,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 26,
+      "pointContactMm": 0.00010894227339612482,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009959319702162288,
+        -0.0375
+      ],
+      "loss": 109.5,
+      "summary": {
+        "keyCore": 2.1929455925734365,
+        "thumbKeyCore": 2.1929455925734365,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1929455925734365,
+        "maximumPadGap": -2.1929454902592793,
+        "missingPad": 0,
+        "ownPairs": 47,
+        "neighborPairs": 26,
+        "pointContactMm": 0.000011902815254952624,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00035",
+    "note": {
+      "id": "p00035",
+      "time": 10.816821,
+      "duration": 0.784,
+      "midi": 67,
+      "velocity": 0.563,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 4,
+      "beat": 2,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863198306007694,
+      "thumbKeyCore": 2.4863198306007694,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863198306007694,
+      "maximumPadGap": -2.4863196364585116,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0001083736997336464,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.01170931983060077,
+        0.5375
+      ],
+      "loss": 66,
+      "summary": {
+        "keyCore": 1.4720636815998,
+        "thumbKeyCore": 1.4720636815998,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.4720636815998,
+        "maximumPadGap": -1.4720634634707297,
+        "missingPad": 0,
+        "ownPairs": 44,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00004268061386519509,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00063",
+    "note": {
+      "id": "p00063",
+      "time": 17.263484,
+      "duration": 0.320828,
+      "midi": 50,
+      "velocity": 0.462,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 6,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": 1.6012268684855169,
+      "maximumPadGap": 1.6012269614628094,
+      "missingPad": 0,
+      "ownPairs": 16,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00003509539303033913,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.276,
+        0.009,
+        0
+      ],
+      "loss": 9,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 2.173693395893017,
+        "maximumPadGap": 2.173693534759491,
+        "missingPad": 0,
+        "ownPairs": 6,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00011575957237282286,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00074",
+    "note": {
+      "id": "p00074",
+      "time": 19.697325,
+      "duration": 0.324837,
+      "midi": 55,
+      "velocity": 0.443,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 7,
+      "beat": 2.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.610081642728357,
+      "thumbKeyCore": 2.610081642728357,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.610081642728357,
+      "maximumPadGap": 0.39587849435662736,
+      "missingPad": 0,
+      "ownPairs": 50,
+      "neighborPairs": 25,
+      "pointContactMm": 0.00015468015546310601,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010272081642728357,
+        0
+      ],
+      "loss": 88.5,
+      "summary": {
+        "keyCore": 1.5458757637178966,
+        "thumbKeyCore": 1.5458757637178966,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5458757637178966,
+        "maximumPadGap": 1.3204810071349993,
+        "missingPad": 0,
+        "ownPairs": 30,
+        "neighborPairs": 29,
+        "pointContactMm": 0.0001040046814376863,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00077",
+    "note": {
+      "id": "p00077",
+      "time": 20.059162,
+      "duration": 0.332838,
+      "midi": 79,
+      "velocity": 0.706,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 7,
+      "beat": 3,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863135647846812,
+      "thumbKeyCore": 2.4863135647846812,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863135647846812,
+      "maximumPadGap": -2.486313437325083,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 26,
+      "pointContactMm": 0.00013278046970832168,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009959313564784682,
+        -0.0375
+      ],
+      "loss": 111,
+      "summary": {
+        "keyCore": 2.192948861274968,
+        "thumbKeyCore": 2.192948861274968,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.192948861274968,
+        "maximumPadGap": -2.192948732513633,
+        "missingPad": 0,
+        "ownPairs": 48,
+        "neighborPairs": 26,
+        "pointContactMm": 0.00003159042254912996,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00090",
+    "note": {
+      "id": "p00090",
+      "time": 22.582066,
+      "duration": 0.38159,
+      "midi": 76,
+      "velocity": 0.542,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 8,
+      "beat": 2.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.7066134484136075,
+      "thumbKeyCore": 1.7066134484136075,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.7066134484136075,
+      "maximumPadGap": -1.7066133128259553,
+      "missingPad": 0,
+      "ownPairs": 29,
+      "neighborPairs": 41,
+      "pointContactMm": 0.000044425575180020524,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.009,
+        0.3
+      ],
+      "loss": 91.5,
+      "summary": {
+        "keyCore": 1.4222744457760284,
+        "thumbKeyCore": 1.4222744457760284,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.4222744457760284,
+        "maximumPadGap": -1.4222743160732243,
+        "missingPad": 0,
+        "ownPairs": 24,
+        "neighborPairs": 37,
+        "pointContactMm": 0.0001245698071913544,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00091",
+    "note": {
+      "id": "p00091",
+      "time": 23.295957,
+      "duration": 0.328446,
+      "midi": 76,
+      "velocity": 0.669,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 8,
+      "beat": 3.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.7066134675207678,
+      "thumbKeyCore": 1.7066134675207678,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.7066134675207678,
+      "maximumPadGap": -1.706613360006326,
+      "missingPad": 0,
+      "ownPairs": 29,
+      "neighborPairs": 35,
+      "pointContactMm": 0.00004497337157830849,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009773,
+        0.2625
+      ],
+      "loss": 87,
+      "summary": {
+        "keyCore": 2.0447650719018773,
+        "thumbKeyCore": 2.0447650719018773,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.183702804309795,
+        "maximumPadGap": -2.1837027051659907,
+        "missingPad": 0,
+        "ownPairs": 24,
+        "neighborPairs": 34,
+        "pointContactMm": 0.000044620933487056517,
+        "bad": true
+      }
+    },
+    "trials": 120,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00094",
+    "note": {
+      "id": "p00094",
+      "time": 23.98424,
+      "duration": 0.286632,
+      "midi": 50,
+      "velocity": 0.443,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 9,
+      "beat": 0.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.324838
+    },
+    "before": {
+      "keyCore": 3.138517949299313,
+      "thumbKeyCore": 3.138517949299313,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.138517949299313,
+      "maximumPadGap": -2.9044488919069966,
+      "missingPad": 0,
+      "ownPairs": 54,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00014654999811404844,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010300517949299313,
+        -0.15
+      ],
+      "loss": 76.5,
+      "summary": {
+        "keyCore": 2.2184713380052345,
+        "thumbKeyCore": 2.2184713380052345,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.2184713380052345,
+        "maximumPadGap": -2.1512597356581065,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00017009854533003374,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00107",
+    "note": {
+      "id": "p00107",
+      "time": 26.439101,
+      "duration": 0.665655,
+      "midi": 76,
+      "velocity": 0.729,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 10,
+      "beat": 0,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.486314792799593,
+      "thumbKeyCore": 2.486314792799593,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.486314792799593,
+      "maximumPadGap": -2.486314604216888,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00012678036520497258,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209314792799594,
+        0.5
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 1.995857562336334,
+        "thumbKeyCore": 1.995857562336334,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.995857562336334,
+        "maximumPadGap": -1.9958574668348383,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00002332301486516606,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00117",
+    "note": {
+      "id": "p00117",
+      "time": 28.508066,
+      "duration": 0.303828,
+      "midi": 76,
+      "velocity": 0.699,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 10,
+      "beat": 3,
+      "contactLift": 0.009773,
+      "writtenDuration": 0.328828
+    },
+    "before": {
+      "keyCore": 2.748699030732382,
+      "thumbKeyCore": 2.748699030732382,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.596190970954094,
+      "maximumPadGap": -2.486314698435965,
+      "missingPad": 0,
+      "ownPairs": 50,
+      "neighborPairs": 15,
+      "pointContactMm": 0.00012707964110881165,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009773,
+        -0.3
+      ],
+      "loss": 91.5,
+      "summary": {
+        "keyCore": 1.5102384045732054,
+        "thumbKeyCore": 1.5102384045732054,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5102384045732054,
+        "maximumPadGap": -1.2201982940633904,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 10,
+        "pointContactMm": 0.00012616483454764505,
+        "bad": true
+      }
+    },
+    "trials": 129,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00119",
+    "note": {
+      "id": "p00119",
+      "time": 28.861894,
+      "duration": 0.311828,
+      "midi": 79,
+      "velocity": 0.701,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 10,
+      "beat": 3.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.1974696294734235,
+      "maximumPadGap": -0.1974694757373996,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000039017090335330534,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.007874999999999998,
+        0
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 2.1723430473080674,
+        "thumbKeyCore": 2.1723430473080674,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1723430473080674,
+        "maximumPadGap": -2.172342882060807,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000011431356026425427,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00124",
+    "note": {
+      "id": "p00124",
+      "time": 29.895396,
+      "duration": 0.332837,
+      "midi": 79,
+      "velocity": 0.706,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 11,
+      "beat": 1,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.19746985212698576,
+      "maximumPadGap": -0.1974696844427859,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00003891869695263438,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.007874999999999998,
+        0
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 2.1723432693785405,
+        "thumbKeyCore": 2.1723432693785405,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1723432693785405,
+        "maximumPadGap": -2.172343098877483,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000011257681458468792,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00130",
+    "note": {
+      "id": "p00130",
+      "time": 31.277745,
+      "duration": 0.324837,
+      "midi": 62,
+      "velocity": 0.467,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 11,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.701410259693171,
+      "thumbKeyCore": 2.701410259693171,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.701410259693171,
+      "maximumPadGap": 0.39587310493194305,
+      "missingPad": 0,
+      "ownPairs": 59,
+      "neighborPairs": 7,
+      "pointContactMm": 0.00009720127636455664,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.272,
+        0.006,
+        0.675
+      ],
+      "loss": 42,
+      "summary": {
+        "keyCore": 1.7165589553674865,
+        "thumbKeyCore": 1.7165589553674865,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.7165589553674865,
+        "maximumPadGap": -0.1832758006344859,
+        "missingPad": 0,
+        "ownPairs": 28,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00013968844583507614,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00131",
+    "note": {
+      "id": "p00131",
+      "time": 31.290745,
+      "duration": 0.332837,
+      "midi": 79,
+      "velocity": 0.706,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 11,
+      "beat": 3,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.19746984361801445,
+      "maximumPadGap": -0.19746969955170002,
+      "missingPad": 0,
+      "ownPairs": 58,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00003974560780776533,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.008624999999999999,
+        0.075
+      ],
+      "loss": 75,
+      "summary": {
+        "keyCore": 1.5301032111108004,
+        "thumbKeyCore": 1.5301032111108004,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5301032111108004,
+        "maximumPadGap": -1.530103070151223,
+        "missingPad": 0,
+        "ownPairs": 50,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00006923318985276092,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00191",
+    "note": {
+      "id": "p00191",
+      "time": 43.951893,
+      "duration": 0.320446,
+      "midi": 74,
+      "velocity": 0.557,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 16,
+      "beat": 1,
+      "contactLift": 0.009773,
+      "writtenDuration": 0.345446
+    },
+    "before": {
+      "keyCore": 3.026444183596211,
+      "thumbKeyCore": 3.026444183596211,
+      "palmKeyCore": 0,
+      "minimumPadGap": -4.184169943461824,
+      "maximumPadGap": -4.1841698203776145,
+      "missingPad": 0,
+      "ownPairs": 44,
+      "neighborPairs": 12,
+      "pointContactMm": 0.00014530872106509698,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.0125,
+        0.625
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.772699215982664,
+        "maximumPadGap": -0.7726991349787937,
+        "missingPad": 0,
+        "ownPairs": 32,
+        "neighborPairs": 14,
+        "pointContactMm": 0.0001168224995336856,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00201",
+    "note": {
+      "id": "p00201",
+      "time": 46.469405,
+      "duration": 0.315837,
+      "midi": 76,
+      "velocity": 0.707,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 17,
+      "beat": 0.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.9219038780720075,
+      "thumbKeyCore": 2.9219038780720075,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.810794847027066,
+      "maximumPadGap": -3.8107947483216886,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0000720989710636182,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.011533794847027067,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436625342159,
+        "thumbKeyCore": 1.637436625342159,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094555765733366,
+        "maximumPadGap": -0.5094555282020297,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00001505091686913833,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00206",
+    "note": {
+      "id": "p00206",
+      "time": 47.506917,
+      "duration": 0.332837,
+      "midi": 76,
+      "velocity": 0.707,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 17,
+      "beat": 2,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.9219040609502756,
+      "thumbKeyCore": 2.9219040609502756,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.8107950326914386,
+      "maximumPadGap": -3.8107948905887756,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00007115619608882365,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.01153379503269144,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.6374366686478792,
+        "thumbKeyCore": 1.6374366686478792,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.509446231510724,
+        "maximumPadGap": -0.5094461532594297,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000014407624294533874,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00227",
+    "note": {
+      "id": "p00227",
+      "time": 51.660886,
+      "duration": 0.332837,
+      "midi": 76,
+      "velocity": 0.719,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 19,
+      "beat": 0,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.9219040592367573,
+      "thumbKeyCore": 2.9219040592367573,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.810795031957581,
+      "maximumPadGap": -3.810794905181658,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00007124046755098248,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.011533795031957582,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436674213122,
+        "thumbKeyCore": 1.637436674213122,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094462756317641,
+        "maximumPadGap": -0.5094461451450316,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000014470486040664884,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00236",
+    "note": {
+      "id": "p00236",
+      "time": 53.414072,
+      "duration": 0.315837,
+      "midi": 76,
+      "velocity": 0.719,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 19,
+      "beat": 2.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.92190384501112,
+      "thumbKeyCore": 2.92190384501112,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.8107948098793365,
+      "maximumPadGap": -3.8107946688162864,
+      "missingPad": 0,
+      "ownPairs": 65,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00007259706299264856,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.011533794809879337,
+        0.7374999999999999
+      ],
+      "loss": 61.5,
+      "summary": {
+        "keyCore": 1.637436694180816,
+        "thumbKeyCore": 1.637436694180816,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5094555925955202,
+        "maximumPadGap": -0.5094555124740552,
+        "missingPad": 0,
+        "ownPairs": 41,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000015502857920976768,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00248",
+    "note": {
+      "id": "p00248",
+      "time": 55.906367,
+      "duration": 0.320446,
+      "midi": 74,
+      "velocity": 0.557,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 20,
+      "beat": 2,
+      "contactLift": 0.009773,
+      "writtenDuration": 0.345446
+    },
+    "before": {
+      "keyCore": 3.5954238653605475,
+      "thumbKeyCore": 3.5954238653605475,
+      "palmKeyCore": 0,
+      "minimumPadGap": -4.898160008082741,
+      "maximumPadGap": -4.898159881863817,
+      "missingPad": 0,
+      "ownPairs": 55,
+      "neighborPairs": 6,
+      "pointContactMm": 0.00017875445936254593,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.272,
+        0.012,
+        0.75
+      ],
+      "loss": 49.5,
+      "summary": {
+        "keyCore": 1.4448793263381887,
+        "thumbKeyCore": 1.4448793263381887,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.8620519396794757,
+        "maximumPadGap": -0.862051902077221,
+        "missingPad": 0,
+        "ownPairs": 33,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00013761771377602833,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00250",
+    "note": {
+      "id": "p00250",
+      "time": 56.276813,
+      "duration": 0.417735,
+      "midi": 76,
+      "velocity": 0.557,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 20,
+      "beat": 2.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.876079195152592,
+      "thumbKeyCore": 2.876079195152592,
+      "palmKeyCore": 1.7619317883164065,
+      "minimumPadGap": -3.5362635138987963,
+      "maximumPadGap": -3.5362633752467065,
+      "missingPad": 0,
+      "ownPairs": 61,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00014887137331825602,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.012,
+        0
+      ],
+      "loss": 82.5,
+      "summary": {
+        "keyCore": 1.761931778474557,
+        "thumbKeyCore": 1.5897846854279196,
+        "palmKeyCore": 1.761931778474557,
+        "minimumPadGap": -1.5897846854279196,
+        "maximumPadGap": -1.5897845578690672,
+        "missingPad": 0,
+        "ownPairs": 55,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00017164661450360646,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00261",
+    "note": {
+      "id": "p00261",
+      "time": 59.054288,
+      "duration": 0.320828,
+      "midi": 55,
+      "velocity": 0.481,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 21,
+      "beat": 2.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.6087334666656803,
+      "thumbKeyCore": 2.6087334666656803,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.6087334666656803,
+      "maximumPadGap": 0.3958774961286826,
+      "missingPad": 0,
+      "ownPairs": 50,
+      "neighborPairs": 25,
+      "pointContactMm": 0.00012335515747116188,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.01027073346666568,
+        0
+      ],
+      "loss": 88.5,
+      "summary": {
+        "keyCore": 1.5465231425803028,
+        "thumbKeyCore": 1.5465231425803028,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5465231425803028,
+        "maximumPadGap": 1.3193023596563824,
+        "missingPad": 0,
+        "ownPairs": 30,
+        "neighborPairs": 29,
+        "pointContactMm": 0.00006027256771137756,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00263",
+    "note": {
+      "id": "p00263",
+      "time": 59.412116,
+      "duration": 0.665655,
+      "midi": 76,
+      "velocity": 0.739,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 21,
+      "beat": 3,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863148148499548,
+      "thumbKeyCore": 2.4863148148499548,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863148148499548,
+      "maximumPadGap": -2.486314599750239,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 13,
+      "pointContactMm": 0.00012696566803404975,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010584314814849956,
+        0.5
+      ],
+      "loss": 85.5,
+      "summary": {
+        "keyCore": 1.6372541003730756,
+        "thumbKeyCore": 1.6372541003730756,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.6372541003730756,
+        "maximumPadGap": -1.6372539988295243,
+        "missingPad": 0,
+        "ownPairs": 45,
+        "neighborPairs": 12,
+        "pointContactMm": 0.00008400778339186118,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00271",
+    "note": {
+      "id": "p00271",
+      "time": 61.133498,
+      "duration": 0.307909,
+      "midi": 76,
+      "velocity": 0.749,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 22,
+      "beat": 1.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863147722417045,
+      "thumbKeyCore": 2.4863147722417045,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863147722417045,
+      "maximumPadGap": -2.4863146101279376,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00012643417338105997,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209314772241705,
+        0.5
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 1.9958576223344515,
+        "thumbKeyCore": 1.9958576223344515,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.9958576223344515,
+        "maximumPadGap": -1.9958574927553263,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00002380503205070689,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00275",
+    "note": {
+      "id": "p00275",
+      "time": 61.815316,
+      "duration": 0.307909,
+      "midi": 76,
+      "velocity": 0.749,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 22,
+      "beat": 2.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863147802470786,
+      "thumbKeyCore": 2.4863147802470786,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863147802470786,
+      "maximumPadGap": -2.486314626298225,
+      "missingPad": 0,
+      "ownPairs": 48,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00012677459751932147,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.01020931478024708,
+        0.5
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 1.995857666954537,
+        "thumbKeyCore": 1.995857666954537,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.995857666954537,
+        "maximumPadGap": -1.9958575606656703,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00002356538638650117,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00283",
+    "note": {
+      "id": "p00283",
+      "time": 63.182871,
+      "duration": 0.311828,
+      "midi": 79,
+      "velocity": 0.756,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 23,
+      "beat": 0.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.5303758116009814,
+      "thumbKeyCore": 1.5303758116009814,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.8986863174290658,
+      "maximumPadGap": -1.8986860710159537,
+      "missingPad": 0,
+      "ownPairs": 15,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00004904992785747143,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.00525,
+        -0.6
+      ],
+      "loss": 15,
+      "summary": {
+        "keyCore": 2.254799096103821,
+        "thumbKeyCore": 2.254799096103821,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.254799096103821,
+        "maximumPadGap": -2.25479882375923,
+        "missingPad": 0,
+        "ownPairs": 10,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005252495218572549,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00288",
+    "note": {
+      "id": "p00288",
+      "time": 64.208354,
+      "duration": 0.665655,
+      "midi": 79,
+      "velocity": 0.786,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 23,
+      "beat": 2,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.530375060225686,
+      "thumbKeyCore": 1.530375060225686,
+      "palmKeyCore": 0,
+      "minimumPadGap": -1.89868629262957,
+      "maximumPadGap": -1.8986858850300603,
+      "missingPad": 0,
+      "ownPairs": 15,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005018781104686664,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.00525,
+        -0.6
+      ],
+      "loss": 15,
+      "summary": {
+        "keyCore": 2.2547990234603743,
+        "thumbKeyCore": 2.2547990234603743,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.2547990234603743,
+        "maximumPadGap": -2.254798565898608,
+        "missingPad": 0,
+        "ownPairs": 10,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005168041385653552,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00361",
+    "note": {
+      "id": "p00361",
+      "time": 78.462035,
+      "duration": 0.961016,
+      "midi": 60,
+      "velocity": 0.47,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 28,
+      "beat": 2.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 1.001029
+    },
+    "before": {
+      "keyCore": 4.876917798239178,
+      "thumbKeyCore": 4.143954183419507,
+      "palmKeyCore": 4.876917798239178,
+      "minimumPadGap": -3.515579516540024,
+      "maximumPadGap": -1.8092980728396935,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00016068531127221423,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.013212,
+        0
+      ],
+      "loss": 166.1534561834641,
+      "summary": {
+        "keyCore": 4.876918202293301,
+        "thumbKeyCore": 3.2445467235950876,
+        "palmKeyCore": 4.876918202293301,
+        "minimumPadGap": -1.1110196584682708,
+        "maximumPadGap": 1.7816916931977511,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00008860012487806672,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00404",
+    "note": {
+      "id": "p00404",
+      "time": 86.661911,
+      "duration": 0.316909,
+      "midi": 55,
+      "velocity": 0.543,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 31,
+      "beat": 2.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.60740356399769,
+      "thumbKeyCore": 2.60740356399769,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.60740356399769,
+      "maximumPadGap": 0.39587868324697517,
+      "missingPad": 0,
+      "ownPairs": 51,
+      "neighborPairs": 25,
+      "pointContactMm": 0.00013745711067834432,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.01026940356399769,
+        0
+      ],
+      "loss": 88.5,
+      "summary": {
+        "keyCore": 1.5471759802818674,
+        "thumbKeyCore": 1.5471759802818674,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.5471759802818674,
+        "maximumPadGap": 1.318127249766321,
+        "missingPad": 0,
+        "ownPairs": 30,
+        "neighborPairs": 29,
+        "pointContactMm": 0.00003894450004465357,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00409",
+    "note": {
+      "id": "p00409",
+      "time": 87.36573,
+      "duration": 0.228233,
+      "midi": 76,
+      "velocity": 0.804,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 31,
+      "beat": 3.5,
+      "contactLift": 0.009773,
+      "boundaryReleaseTime": 87.648639,
+      "writtenDuration": 0.307909
+    },
+    "before": {
+      "keyCore": 2.486314535256162,
+      "thumbKeyCore": 2.486314535256162,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.486314535256162,
+      "maximumPadGap": -2.4447540059922,
+      "missingPad": 0,
+      "ownPairs": 55,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0001385701047299497,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209314535256163,
+        0.6625
+      ],
+      "loss": 70.5,
+      "summary": {
+        "keyCore": 1.9618614219159558,
+        "thumbKeyCore": 1.9618614219159558,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.238375216298105,
+        "maximumPadGap": -2.147456075831222,
+        "missingPad": 0,
+        "ownPairs": 47,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00009617755391265103,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00440",
+    "note": {
+      "id": "p00440",
+      "time": 92.566623,
+      "duration": 0.578142,
+      "midi": 76,
+      "velocity": 0.789,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 33,
+      "beat": 3,
+      "contactLift": 0.009773,
+      "boundaryReleaseTime": 93.199441,
+      "writtenDuration": 0.657818
+    },
+    "before": {
+      "keyCore": 2.486314863271777,
+      "thumbKeyCore": 2.486314863271777,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.486314863271777,
+      "maximumPadGap": -2.4465414794075935,
+      "missingPad": 0,
+      "ownPairs": 55,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0001266272467771193,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209314863271778,
+        0.6625
+      ],
+      "loss": 70.5,
+      "summary": {
+        "keyCore": 1.9564096042815615,
+        "thumbKeyCore": 1.9564096042815615,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.2383752993379025,
+        "maximumPadGap": -2.1510308123893207,
+        "missingPad": 0,
+        "ownPairs": 47,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00006035747984486093,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00455",
+    "note": {
+      "id": "p00455",
+      "time": 95.594991,
+      "duration": 0.292479,
+      "midi": 62,
+      "velocity": 0.55,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 34,
+      "beat": 3.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 7.367769860301743,
+      "thumbKeyCore": 7.364190858864306,
+      "palmKeyCore": 7.367769860301743,
+      "minimumPadGap": -2.8575645695559926,
+      "maximumPadGap": -1.6233640253121573,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00011701431838190098,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010019564569555993,
+        0
+      ],
+      "loss": 365.42158882431704,
+      "summary": {
+        "keyCore": 7.367769860303963,
+        "thumbKeyCore": 6.7393479234986176,
+        "palmKeyCore": 7.367769860303963,
+        "minimumPadGap": -1.5986289883554994,
+        "maximumPadGap": -0.9457356467441613,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00007568762107909086,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00470",
+    "note": {
+      "id": "p00470",
+      "time": 97.977525,
+      "duration": 0.316909,
+      "midi": 57,
+      "velocity": 0.567,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 35,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.26648529846240443,
+      "maximumPadGap": 0.39587728807211064,
+      "missingPad": 0,
+      "ownPairs": 57,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005586827127830199,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.008462,
+        -0.3
+      ],
+      "loss": 72,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.1165570697303506,
+        "maximumPadGap": -0.6315383178230327,
+        "missingPad": 0,
+        "ownPairs": 48,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000031425485947871743,
+        "bad": true
+      }
+    },
+    "trials": 120,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00485",
+    "note": {
+      "id": "p00485",
+      "time": 100.77699,
+      "duration": 0.552221,
+      "midi": 60,
+      "velocity": 0.508,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 36,
+      "beat": 3,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.609682
+    },
+    "before": {
+      "keyCore": 3.515579616214737,
+      "thumbKeyCore": 3.515579616214737,
+      "palmKeyCore": 3.490606692292064,
+      "minimumPadGap": -3.515579616214737,
+      "maximumPadGap": -2.0202456780392675,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00016040355883254249,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.013212,
+        0
+      ],
+      "loss": 55.24853020505404,
+      "summary": {
+        "keyCore": 3.4906066275631753,
+        "thumbKeyCore": 2.7601969755879363,
+        "palmKeyCore": 3.4906066275631753,
+        "minimumPadGap": -1.1110197345974848,
+        "maximumPadGap": 1.59130464678503,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000124866638319981,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00497",
+    "note": {
+      "id": "p00497",
+      "time": 102.536599,
+      "duration": 0.290819,
+      "midi": 81,
+      "velocity": 0.665,
+      "hand": "R",
+      "finger": 1,
+      "role": "countermelody",
+      "bar": 37,
+      "beat": 1.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.7122750383835872,
+      "thumbKeyCore": 1.7122750383835872,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.994732086174066,
+      "maximumPadGap": -0.9947318735439303,
+      "missingPad": 0,
+      "ownPairs": 14,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00007675710224630883,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.012,
+        0
+      ],
+      "loss": 19.5,
+      "summary": {
+        "keyCore": 1.626005477324971,
+        "thumbKeyCore": 1.626005477324971,
+        "palmKeyCore": 0,
+        "minimumPadGap": 0.8228660228448703,
+        "maximumPadGap": 0.8228662155821409,
+        "missingPad": 0,
+        "ownPairs": 13,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000022059925359976016,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00499",
+    "note": {
+      "id": "p00499",
+      "time": 102.859509,
+      "duration": 0.324909,
+      "midi": 81,
+      "velocity": 0.7953,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 37,
+      "beat": 2,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 1.7122752234715044,
+      "thumbKeyCore": 1.7122752234715044,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.9947323702077515,
+      "maximumPadGap": -0.9947320955464578,
+      "missingPad": 0,
+      "ownPairs": 14,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00007658413283403272,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.009,
+        0
+      ],
+      "loss": 19.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.8749097072804357,
+        "maximumPadGap": -0.8749094794313628,
+        "missingPad": 0,
+        "ownPairs": 13,
+        "neighborPairs": 0,
+        "pointContactMm": 0.0000602500363554443,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00522",
+    "note": {
+      "id": "p00522",
+      "time": 106.898274,
+      "duration": 0.321409,
+      "midi": 60,
+      "velocity": 0.61,
+      "hand": "L",
+      "finger": 1,
+      "role": "bass",
+      "bar": 39,
+      "beat": 0,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 7.840273802968922,
+      "thumbKeyCore": 7.840273802968922,
+      "palmKeyCore": 7.026112194367884,
+      "minimumPadGap": -11.682629787875932,
+      "maximumPadGap": -11.682629392548716,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00019089049791649448,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.016,
+        -0.7375
+      ],
+      "loss": 318.8443560270413,
+      "summary": {
+        "keyCore": 6.785554450338016,
+        "thumbKeyCore": 3.544071041952826,
+        "palmKeyCore": 6.785554450338016,
+        "minimumPadGap": -2.024214497848842,
+        "maximumPadGap": -2.024214341106334,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00006875071427052863,
+        "bad": true
+      }
+    },
+    "trials": 124,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00571",
+    "note": {
+      "id": "p00571",
+      "time": 120.10524,
+      "duration": 0.650308,
+      "midi": 59,
+      "velocity": 0.4136,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 43,
+      "beat": 2.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.707707
+    },
+    "before": {
+      "keyCore": 2.445802400018793,
+      "thumbKeyCore": 2.445802400018793,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.445802400018793,
+      "maximumPadGap": -0.7259586017482889,
+      "missingPad": 0,
+      "ownPairs": 29,
+      "neighborPairs": 23,
+      "pointContactMm": 0.00006107068014183465,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009607802400018793,
+        0
+      ],
+      "loss": 76.5,
+      "summary": {
+        "keyCore": 2.0749960551222912,
+        "thumbKeyCore": 2.0749960551222912,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.0749960551222912,
+        "maximumPadGap": -0.37307021424071163,
+        "missingPad": 0,
+        "ownPairs": 28,
+        "neighborPairs": 23,
+        "pointContactMm": 0.000067256229078432,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00574",
+    "note": {
+      "id": "p00574",
+      "time": 120.858947,
+      "duration": 0.332854,
+      "midi": 76,
+      "velocity": 0.6506,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 43,
+      "beat": 3.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.4863145985845048,
+      "thumbKeyCore": 2.4863145985845048,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.4863145985845048,
+      "maximumPadGap": -2.4863144809021964,
+      "missingPad": 0,
+      "ownPairs": 49,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00012894716708806167,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010209314598584505,
+        0.5
+      ],
+      "loss": 69,
+      "summary": {
+        "keyCore": 1.9958575988034966,
+        "thumbKeyCore": 1.9958575988034966,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.9958575988034966,
+        "maximumPadGap": -1.995857489985653,
+        "missingPad": 0,
+        "ownPairs": 46,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000021319104466307282,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00609",
+    "note": {
+      "id": "p00609",
+      "time": 131.88844,
+      "duration": 0.707707,
+      "midi": 52,
+      "velocity": 0.4067,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 47,
+      "beat": 2.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.1794127760805804,
+      "thumbKeyCore": 2.1794127760805804,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.810372660095095,
+      "maximumPadGap": -1.5494174163488417,
+      "missingPad": 0,
+      "ownPairs": 61,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00009542936755461843,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.011472372660095095,
+        -0.15
+      ],
+      "loss": 67.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.136151875659852,
+        "maximumPadGap": -0.47945875775434743,
+        "missingPad": 0,
+        "ownPairs": 45,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00013046392657673143,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00625",
+    "note": {
+      "id": "p00625",
+      "time": 136.036975,
+      "duration": 0.690286,
+      "midi": 79,
+      "velocity": 0.709,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 49,
+      "beat": 0,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": 1.200863146520903,
+      "maximumPadGap": 1.2008634014134545,
+      "missingPad": 0,
+      "ownPairs": 12,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000057433453026218356,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009773,
+        0
+      ],
+      "loss": 18,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 1.200863146520903,
+        "maximumPadGap": 1.2008634014134545,
+        "missingPad": 0,
+        "ownPairs": 12,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005743345306212908,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00639",
+    "note": {
+      "id": "p00639",
+      "time": 138.894118,
+      "duration": 1.042824,
+      "midi": 79,
+      "velocity": 0.716,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 50,
+      "beat": 0,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": 1.2008627305455377,
+      "maximumPadGap": 1.2008629782248592,
+      "missingPad": 0,
+      "ownPairs": 12,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005625956353768237,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009773,
+        0
+      ],
+      "loss": 18,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 1.200862736411623,
+        "maximumPadGap": 1.2008629782248592,
+        "missingPad": 0,
+        "ownPairs": 12,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000056259563365854284,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00655",
+    "note": {
+      "id": "p00655",
+      "time": 142.418933,
+      "duration": 0.333143,
+      "midi": 55,
+      "velocity": 0.428,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 51,
+      "beat": 1,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.445799767818113,
+      "thumbKeyCore": 2.445799767818113,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.597067540200615,
+      "maximumPadGap": -0.627482337077323,
+      "missingPad": 0,
+      "ownPairs": 45,
+      "neighborPairs": 47,
+      "pointContactMm": 0.00010619064798597991,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009759067540200615,
+        -0.5375000000000001
+      ],
+      "loss": 106.5,
+      "summary": {
+        "keyCore": 2.1100510989150445,
+        "thumbKeyCore": 2.1100510989150445,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1100510989150445,
+        "maximumPadGap": -0.7256531773889296,
+        "missingPad": 0,
+        "ownPairs": 22,
+        "neighborPairs": 49,
+        "pointContactMm": 0.0000929150850339059,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00687",
+    "note": {
+      "id": "p00687",
+      "time": 151.562694,
+      "duration": 0.69074,
+      "midi": 57,
+      "velocity": 0.465,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 54,
+      "beat": 1.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.71674
+    },
+    "before": {
+      "keyCore": 2.9891358213177677,
+      "thumbKeyCore": 2.9891358213177677,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.9891358213177677,
+      "maximumPadGap": -0.9745381095587202,
+      "missingPad": 0,
+      "ownPairs": 28,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00013980576159183558,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.008837,
+        -0.85
+      ],
+      "loss": 13.5,
+      "summary": {
+        "keyCore": 1.53665304699524,
+        "thumbKeyCore": 1.53665304699524,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.3602506494638789,
+        "maximumPadGap": -0.7810808148123183,
+        "missingPad": 0,
+        "ownPairs": 9,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00007921501458973393,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00698",
+    "note": {
+      "id": "p00698",
+      "time": 154.461057,
+      "duration": 0.281837,
+      "midi": 62,
+      "velocity": 0.517,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 55,
+      "beat": 1.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.114544257076468,
+      "thumbKeyCore": 3.114544257076468,
+      "palmKeyCore": 2.9602204386730557,
+      "minimumPadGap": -1.603679327885632,
+      "maximumPadGap": -1.603679105894873,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00004751489890737786,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010211999999999999,
+        0
+      ],
+      "loss": 12.817635192680967,
+      "summary": {
+        "keyCore": 2.960220439908512,
+        "thumbKeyCore": 2.776519668066524,
+        "palmKeyCore": 2.960220439908512,
+        "minimumPadGap": -0.6832946952058938,
+        "maximumPadGap": -0.6832944881981495,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000039623144609804915,
+        "bad": false
+      }
+    },
+    "trials": 121,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00705",
+    "note": {
+      "id": "p00705",
+      "time": 155.856406,
+      "duration": 0.269837,
+      "midi": 62,
+      "velocity": 0.505,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 55,
+      "beat": 3.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.1145420290055736,
+      "thumbKeyCore": 3.1145420290055736,
+      "palmKeyCore": 2.860187717587892,
+      "minimumPadGap": -1.603679051270901,
+      "maximumPadGap": -1.6036788284266024,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000049491667922744095,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010211999999999999,
+        0
+      ],
+      "loss": 4.8150192084348475,
+      "summary": {
+        "keyCore": 2.8601877401054354,
+        "thumbKeyCore": 2.776517595457939,
+        "palmKeyCore": 2.8601877401054354,
+        "minimumPadGap": -0.6832944393592166,
+        "maximumPadGap": -0.6832942292176458,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00004157966014775426,
+        "bad": false
+      }
+    },
+    "trials": 121,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00711",
+    "note": {
+      "id": "p00711",
+      "time": 157.316354,
+      "duration": 0.303371,
+      "midi": 62,
+      "velocity": 0.517,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 56,
+      "beat": 1.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.1147794591765976,
+      "thumbKeyCore": 3.1147794591765976,
+      "palmKeyCore": 3.0989487793722654,
+      "minimumPadGap": -1.6036790375308918,
+      "maximumPadGap": -1.6036787417781362,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005003051268990503,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009712,
+        0
+      ],
+      "loss": 23.91590018559686,
+      "summary": {
+        "keyCore": 3.0989487523199606,
+        "thumbKeyCore": 2.9763840323507873,
+        "palmKeyCore": 3.0989487523199606,
+        "minimumPadGap": -1.1443132926636235,
+        "maximumPadGap": -1.1443130024102466,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00004302464848466815,
+        "bad": true
+      }
+    },
+    "trials": 120,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00717",
+    "note": {
+      "id": "p00717",
+      "time": 158.797836,
+      "duration": 0.209976,
+      "midi": 62,
+      "velocity": 0.505,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 56,
+      "beat": 3.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.28277
+    },
+    "before": {
+      "keyCore": 3.2817188708691436,
+      "thumbKeyCore": 3.2817188708691436,
+      "palmKeyCore": 3.2219296566409343,
+      "minimumPadGap": -1.6036790622336872,
+      "maximumPadGap": -1.119059564445024,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00006199956840173693,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.009,
+        0
+      ],
+      "loss": 33.65357622094642,
+      "summary": {
+        "keyCore": 3.22066970276183,
+        "thumbKeyCore": 2.626184340405069,
+        "palmKeyCore": 3.22066970276183,
+        "minimumPadGap": -2.0753733802302277,
+        "maximumPadGap": -1.7564765292307216,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00008109458639011541,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00810",
+    "note": {
+      "id": "p00810",
+      "time": 172.89386,
+      "duration": 0.225994,
+      "midi": 50,
+      "velocity": 0.625,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 62,
+      "beat": 0.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.28847
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.6958169981525764,
+      "maximumPadGap": -0.6958168269054488,
+      "missingPad": 0,
+      "ownPairs": 59,
+      "neighborPairs": 7,
+      "pointContactMm": 0.00003713012682241068,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009587,
+        -0.575
+      ],
+      "loss": 76.5,
+      "summary": {
+        "keyCore": 2.1317826830489492,
+        "thumbKeyCore": 2.1317826830489492,
+        "palmKeyCore": 0,
+        "minimumPadGap": -0.5074979961670056,
+        "maximumPadGap": -0.5074978441791389,
+        "missingPad": 0,
+        "ownPairs": 51,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005003443162437984,
+        "bad": true
+      }
+    },
+    "trials": 121,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00812",
+    "note": {
+      "id": "p00812",
+      "time": 173.22353,
+      "duration": 0.30567,
+      "midi": 59,
+      "velocity": 0.613,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 62,
+      "beat": 1,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 2.890160499460448,
+      "thumbKeyCore": 2.890160499460448,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.890160499460448,
+      "maximumPadGap": -1.4190398451556785,
+      "missingPad": 0,
+      "ownPairs": 31,
+      "neighborPairs": 18,
+      "pointContactMm": 0.00014472904685734514,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010052160499460448,
+        -0.4124999999999999
+      ],
+      "loss": 63,
+      "summary": {
+        "keyCore": 2.1612478561366943,
+        "thumbKeyCore": 2.1612478561366943,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.1612478561366943,
+        "maximumPadGap": 0.7572391760177766,
+        "missingPad": 0,
+        "ownPairs": 24,
+        "neighborPairs": 18,
+        "pointContactMm": 0.0001159991085013812,
+        "bad": true
+      }
+    },
+    "trials": 129,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00835",
+    "note": {
+      "id": "p00835",
+      "time": 177.201552,
+      "duration": 0.309333,
+      "midi": 57,
+      "velocity": 0.642,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 63,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.2663197303736098,
+      "maximumPadGap": 0.3958776658081753,
+      "missingPad": 0,
+      "ownPairs": 57,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0000417400236661187,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.008461999999999999,
+        -0.2625
+      ],
+      "loss": 73.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.1454770352175014,
+        "maximumPadGap": -0.6320894579601166,
+        "missingPad": 0,
+        "ownPairs": 49,
+        "neighborPairs": 0,
+        "pointContactMm": 0.0000465667875510531,
+        "bad": true
+      }
+    },
+    "trials": 120,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00853",
+    "note": {
+      "id": "p00853",
+      "time": 179.937184,
+      "duration": 0.579242,
+      "midi": 60,
+      "velocity": 0.583,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 64,
+      "beat": 3,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.619255
+    },
+    "before": {
+      "keyCore": 4.915589453330926,
+      "thumbKeyCore": 4.294990196489545,
+      "palmKeyCore": 4.915589453330926,
+      "minimumPadGap": -3.515579583938777,
+      "maximumPadGap": -1.760578162038784,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00016326713078180583,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.013212,
+        0
+      ],
+      "loss": 169.24714004874474,
+      "summary": {
+        "keyCore": 4.915589250609309,
+        "thumbKeyCore": 3.322626188502986,
+        "palmKeyCore": 4.915589250609309,
+        "minimumPadGap": -1.1110198458339493,
+        "maximumPadGap": 1.8273498674191702,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00003919498308024236,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00876",
+    "note": {
+      "id": "p00876",
+      "time": 183.285006,
+      "duration": 0.31017,
+      "midi": 63,
+      "velocity": 0.735,
+      "hand": "L",
+      "finger": 1,
+      "role": "bass",
+      "bar": 66,
+      "beat": 0,
+      "contactLift": 0.009341066471327882
+    },
+    "before": {
+      "keyCore": 3.715088947327944,
+      "thumbKeyCore": 2.2878601005928423,
+      "palmKeyCore": 3.715088947327944,
+      "minimumPadGap": -0.3028845040187189,
+      "maximumPadGap": -0.30288427133695617,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000016921076560936653,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009341066471327882,
+        0
+      ],
+      "loss": 73.20711578622216,
+      "summary": {
+        "keyCore": 3.715088947327777,
+        "thumbKeyCore": 2.2878607491107483,
+        "palmKeyCore": 3.715088947327777,
+        "minimumPadGap": -0.30288120480392866,
+        "maximumPadGap": -0.3028809721221659,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00001714292547200353,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00885",
+    "note": {
+      "id": "p00885",
+      "time": 184.612187,
+      "duration": 0.24501,
+      "midi": 63,
+      "velocity": 0.655,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 66,
+      "beat": 2,
+      "contactLift": 0.009341066163071572,
+      "writtenDuration": 0.305671
+    },
+    "before": {
+      "keyCore": 3.392736050836051,
+      "thumbKeyCore": 2.7302491099316373,
+      "palmKeyCore": 3.392736050836051,
+      "minimumPadGap": -0.3028844503331074,
+      "maximumPadGap": 0.10434827692440418,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005894316265466823,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009341066163071572,
+        0
+      ],
+      "loss": 47.41888406690187,
+      "summary": {
+        "keyCore": 3.392736050836273,
+        "thumbKeyCore": 2.7302497742817677,
+        "palmKeyCore": 3.392736050836273,
+        "minimumPadGap": -0.30288086290697347,
+        "maximumPadGap": 0.1043518361329987,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005862084061309198,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00912",
+    "note": {
+      "id": "p00912",
+      "time": 188.286202,
+      "duration": 0.300333,
+      "midi": 79,
+      "velocity": 0.911,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 67,
+      "beat": 3.5,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 2.486313415934971,
+      "thumbKeyCore": 2.486313415934971,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.486313415934971,
+      "maximumPadGap": 0.181462967593915,
+      "missingPad": 0,
+      "ownPairs": 52,
+      "neighborPairs": 9,
+      "pointContactMm": 0.00015172125688116224,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.009,
+        -0.15
+      ],
+      "loss": 78,
+      "summary": {
+        "keyCore": 2.225587245190064,
+        "thumbKeyCore": 2.225587245190064,
+        "palmKeyCore": 0,
+        "minimumPadGap": -2.225587245190064,
+        "maximumPadGap": -0.09305815183646704,
+        "missingPad": 0,
+        "ownPairs": 52,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00016814532516270606,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00921",
+    "note": {
+      "id": "p00921",
+      "time": 189.632018,
+      "duration": 0.58801,
+      "midi": 61,
+      "velocity": 0.637,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 68,
+      "beat": 1.5,
+      "contactLift": 0.010629153379526253,
+      "writtenDuration": 0.665655
+    },
+    "before": {
+      "keyCore": 7.143282406404869,
+      "thumbKeyCore": 6.6325848160065926,
+      "palmKeyCore": 7.143282406404869,
+      "minimumPadGap": -1.8932848127629631,
+      "maximumPadGap": -0.05782051324343396,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00006805243861715325,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.005875,
+        0.85
+      ],
+      "loss": 343.8478992118197,
+      "summary": {
+        "keyCore": 7.098098740147746,
+        "thumbKeyCore": 6.98310320922213,
+        "palmKeyCore": 7.098098740147746,
+        "minimumPadGap": -1.6573182599051162,
+        "maximumPadGap": -1.474981814140408,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00006518053175969546,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00932",
+    "note": {
+      "id": "p00932",
+      "time": 191.347656,
+      "duration": 0.313833,
+      "midi": 60,
+      "velocity": 0.698,
+      "hand": "L",
+      "finger": 1,
+      "role": "bass",
+      "bar": 69,
+      "beat": 0,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 7.84027372624585,
+      "thumbKeyCore": 7.84027372624585,
+      "palmKeyCore": 7.798317639476915,
+      "minimumPadGap": -11.68262971223566,
+      "maximumPadGap": -11.68262946060372,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00019057719307444097,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.225,
+        0.015,
+        0.48750000000000004
+      ],
+      "loss": 399.8654111581532,
+      "summary": {
+        "keyCore": 7.798317639476915,
+        "thumbKeyCore": 7.088735349633418,
+        "palmKeyCore": 7.798317639476915,
+        "minimumPadGap": -1.985606775645521,
+        "maximumPadGap": -1.9856066468859623,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005956751270870628,
+        "bad": true
+      }
+    },
+    "trials": 134,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00949",
+    "note": {
+      "id": "p00949",
+      "time": 194.014323,
+      "duration": 0.31017,
+      "midi": 60,
+      "velocity": 0.705,
+      "hand": "L",
+      "finger": 1,
+      "role": "bass",
+      "bar": 70,
+      "beat": 0,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 7.840273491770411,
+      "thumbKeyCore": 7.840273491770411,
+      "palmKeyCore": 7.033981764584696,
+      "minimumPadGap": -11.682630030754648,
+      "maximumPadGap": -11.682629730761285,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00019048957404107692,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.016,
+        -0.7375
+      ],
+      "loss": 318.8448063032665,
+      "summary": {
+        "keyCore": 6.785560078790831,
+        "thumbKeyCore": 3.544070615948927,
+        "palmKeyCore": 6.785560078790831,
+        "minimumPadGap": -2.0242153098918303,
+        "maximumPadGap": -2.024215042942479,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.0000688790564103633,
+        "bad": true
+      }
+    },
+    "trials": 124,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00970",
+    "note": {
+      "id": "p00970",
+      "time": 197.326852,
+      "duration": 0.283333,
+      "midi": 59,
+      "velocity": 0.618,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 71,
+      "beat": 1,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.309333
+    },
+    "before": {
+      "keyCore": 3.445018152560708,
+      "thumbKeyCore": 3.445018152560708,
+      "palmKeyCore": 0,
+      "minimumPadGap": -4.293376841842611,
+      "maximumPadGap": -2.445799788460934,
+      "missingPad": 0,
+      "ownPairs": 34,
+      "neighborPairs": 23,
+      "pointContactMm": 0.00017879237833969092,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.27,
+        0.0105,
+        -0.48750000000000004
+      ],
+      "loss": 70.5,
+      "summary": {
+        "keyCore": 1.981999499866438,
+        "thumbKeyCore": 1.981999499866438,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.981999499866438,
+        "maximumPadGap": -1.6518858868173059,
+        "missingPad": 0,
+        "ownPairs": 22,
+        "neighborPairs": 25,
+        "pointContactMm": 0.00018268404327156107,
+        "bad": true
+      }
+    },
+    "trials": 136,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00972",
+    "note": {
+      "id": "p00972",
+      "time": 197.660185,
+      "duration": 0.266334,
+      "midi": 62,
+      "velocity": 0.642,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 71,
+      "beat": 1.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.1145441965517717,
+      "thumbKeyCore": 3.1145441965517717,
+      "palmKeyCore": 2.9904528245775497,
+      "minimumPadGap": -1.6036793546034822,
+      "maximumPadGap": -1.603678954463561,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000048341625829769054,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009712,
+        0
+      ],
+      "loss": 15.23622577261662,
+      "summary": {
+        "keyCore": 2.9904528221577076,
+        "thumbKeyCore": 2.9763845293439006,
+        "palmKeyCore": 2.9904528221577076,
+        "minimumPadGap": -1.14431359657019,
+        "maximumPadGap": -1.144313210568626,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00004134561549796807,
+        "bad": false
+      }
+    },
+    "trials": 120,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00974",
+    "note": {
+      "id": "p00974",
+      "time": 198.006519,
+      "duration": 0.292333,
+      "midi": 81,
+      "velocity": 0.8823,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 71,
+      "beat": 2,
+      "contactLift": 0.009773,
+      "writtenDuration": 0.317333
+    },
+    "before": {
+      "keyCore": 6.65492715675875,
+      "thumbKeyCore": 6.65492715675875,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.37622884731425277,
+      "maximumPadGap": -0.3762286261201897,
+      "missingPad": 0,
+      "ownPairs": 44,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000007272770537154324,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.274,
+        0.008624999999999999,
+        -0.75
+      ],
+      "loss": 16.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 0.22742581633583558,
+        "maximumPadGap": 0.2274260424733887,
+        "missingPad": 0,
+        "ownPairs": 11,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00008234703980058586,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00979",
+    "note": {
+      "id": "p00979",
+      "time": 198.993519,
+      "duration": 0.254333,
+      "midi": 62,
+      "velocity": 0.63,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 71,
+      "beat": 3.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.1145405340118337,
+      "thumbKeyCore": 3.1145405340118337,
+      "palmKeyCore": 2.8519446430393947,
+      "minimumPadGap": -1.6036787768602956,
+      "maximumPadGap": -1.6036783372950225,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005474835570104445,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010211999999999999,
+        0
+      ],
+      "loss": 4.155569530565941,
+      "summary": {
+        "keyCore": 2.851944619132074,
+        "thumbKeyCore": 2.77651609573637,
+        "palmKeyCore": 2.851944619132074,
+        "minimumPadGap": -0.6832941843407658,
+        "maximumPadGap": -0.683293800132434,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.000046768709360532726,
+        "bad": false
+      }
+    },
+    "trials": 121,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00986",
+    "note": {
+      "id": "p00986",
+      "time": 200.029507,
+      "duration": 0.665655,
+      "midi": 81,
+      "velocity": 0.8773,
+      "hand": "R",
+      "finger": 1,
+      "role": "melody",
+      "bar": 72,
+      "beat": 1,
+      "contactLift": 0.009773
+    },
+    "before": {
+      "keyCore": 6.654927039752789,
+      "thumbKeyCore": 6.654927039752789,
+      "palmKeyCore": 0,
+      "minimumPadGap": -0.3762287493253025,
+      "maximumPadGap": -0.3762283908824715,
+      "missingPad": 0,
+      "ownPairs": 44,
+      "neighborPairs": 0,
+      "pointContactMm": 0.000007062996164090281,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.274,
+        0.008624999999999999,
+        -0.75
+      ],
+      "loss": 16.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 0.22742606452386127,
+        "maximumPadGap": 0.22742647103546343,
+        "missingPad": 0,
+        "ownPairs": 11,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00008252835124002642,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p00987",
+    "note": {
+      "id": "p00987",
+      "time": 200.361335,
+      "duration": 0.665655,
+      "midi": 62,
+      "velocity": 0.607,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 72,
+      "beat": 1.5,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.36223765467511,
+      "thumbKeyCore": 3.114540404533628,
+      "palmKeyCore": 3.36223765467511,
+      "minimumPadGap": -1.6036788784603573,
+      "maximumPadGap": -1.603678441965295,
+      "missingPad": 0,
+      "ownPairs": 0,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00005450473573131955,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.009212,
+        0
+      ],
+      "loss": 44.9790053191521,
+      "summary": {
+        "keyCore": 3.362237566489401,
+        "thumbKeyCore": 3.114540309078817,
+        "palmKeyCore": 3.362237566489401,
+        "minimumPadGap": -1.6036788784603573,
+        "maximumPadGap": -1.6036784986732666,
+        "missingPad": 0,
+        "ownPairs": 0,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00005427159430382858,
+        "bad": true
+      }
+    },
+    "trials": 119,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p01015",
+    "note": {
+      "id": "p01015",
+      "time": 207.137738,
+      "duration": 0.341853,
+      "midi": 50,
+      "velocity": 0.427,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 74,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 0,
+      "thumbKeyCore": 0,
+      "palmKeyCore": 0,
+      "minimumPadGap": 1.6012269510998767,
+      "maximumPadGap": 1.6012270571799103,
+      "missingPad": 0,
+      "ownPairs": 16,
+      "neighborPairs": 0,
+      "pointContactMm": 0.00003556233045501573,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        0.276,
+        0.009,
+        0
+      ],
+      "loss": 9,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": 2.173693608533256,
+        "maximumPadGap": 2.1736937165551806,
+        "missingPad": 0,
+        "ownPairs": 6,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00011641635252504139,
+        "bad": true
+      }
+    },
+    "trials": 127,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p01040",
+    "note": {
+      "id": "p01040",
+      "time": 215.219205,
+      "duration": 0.771918,
+      "midi": 57,
+      "velocity": 0.303,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 77,
+      "beat": 1.5,
+      "contactLift": 0.009212,
+      "writtenDuration": 0.797918
+    },
+    "before": {
+      "keyCore": 2.9923762224823847,
+      "thumbKeyCore": 2.9923762224823847,
+      "palmKeyCore": 0,
+      "minimumPadGap": -2.9923762224823847,
+      "maximumPadGap": -0.9745380019036132,
+      "missingPad": 0,
+      "ownPairs": 28,
+      "neighborPairs": 0,
+      "pointContactMm": 0.0000986374312649444,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.008837,
+        -0.85
+      ],
+      "loss": 10.5,
+      "summary": {
+        "keyCore": 1.5366502894201828,
+        "thumbKeyCore": 1.5366502894201828,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.360047705158296,
+        "maximumPadGap": -0.7810806940133919,
+        "missingPad": 0,
+        "ownPairs": 7,
+        "neighborPairs": 0,
+        "pointContactMm": 0.00019793239340312835,
+        "bad": true
+      }
+    },
+    "trials": 128,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  },
+  {
+    "id": "p01053",
+    "note": {
+      "id": "p01053",
+      "time": 219.882695,
+      "duration": 0.833565,
+      "midi": 55,
+      "velocity": 0.275,
+      "hand": "L",
+      "finger": 1,
+      "role": "harmony",
+      "bar": 78,
+      "beat": 3,
+      "contactLift": 0.009212
+    },
+    "before": {
+      "keyCore": 3.254569645705585,
+      "thumbKeyCore": 3.254569645705585,
+      "palmKeyCore": 0,
+      "minimumPadGap": -3.254569645705585,
+      "maximumPadGap": 1.6012022786151547,
+      "missingPad": 0,
+      "ownPairs": 64,
+      "neighborPairs": 20,
+      "pointContactMm": 0.00017554510782253192,
+      "bad": true
+    },
+    "best": {
+      "p": [
+        null,
+        0.010416569645705585,
+        -0.7
+      ],
+      "loss": 82.5,
+      "summary": {
+        "keyCore": 0,
+        "thumbKeyCore": 0,
+        "palmKeyCore": 0,
+        "minimumPadGap": -1.1962034065099436,
+        "maximumPadGap": 1.955144246386764,
+        "missingPad": 0,
+        "ownPairs": 31,
+        "neighborPairs": 24,
+        "pointContactMm": 0.00015362687868230088,
+        "bad": true
+      }
+    },
+    "trials": 130,
+    "reason": "No solution within the declared three-parameter search and held geometry gates; whole-grip/refingering/support review required."
+  }
+]

@@ -1,0 +1,15 @@
+--- app/performance/pianist.ts
++++ app/performance/pianist.ts
+@@ -1,3 +1,4 @@
++import { applyIdleNonthumb } from './idle-nonthumb';
+ import * as THREE from 'three';
+ import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
+ import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+@@ -354,6 +355,7 @@
+  weight=mix(weight,1,openingRest);
+  const fallback=localPose(wp(hand.wrist),pose.q,target);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
++ applyIdleNonthumb(time,hand.side,fi,finger.bones,hand.wrist,base,previous,next);
+  continue;
+  }
+ 

@@ -1,0 +1,2742 @@
+{
+  "cfg": {
+    "name": "g95",
+    "previous": "p00451",
+    "next": "p00459",
+    "end": 95.039182,
+    "start": 95.94507,
+    "target": [
+      0.2,
+      0.45,
+      -0.1
+    ],
+    "release": 0.22,
+    "arrival": 0.22,
+    "ramp": 0.1,
+    "arrivalRamp": 0.04,
+    "releaseLift": 0.03,
+    "arrivalLift": 0.03
+  },
+  "fps": 240,
+  "frames": 272,
+  "begin": 94.939182,
+  "end": 96.04507,
+  "thumbPairs": 0,
+  "thumbCore": 97,
+  "opposing": 0,
+  "newPairs": 0,
+  "newKeys": 0,
+  "maxCore": 7.803830101216547,
+  "heldParity": 0,
+  "outsideParity": 0,
+  "defects": [
+    {
+      "time": 95.05584866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 5,
+          "depth": 3.076797828350797,
+          "vertex": 2638,
+          "point": [
+            0.08733100390919156,
+            0.7313375985329792,
+            0.2738383062247729
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.06001533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 5,
+          "depth": 3.246199528269489,
+          "vertex": 2638,
+          "point": [
+            0.08739022183970678,
+            0.7314187075603248,
+            0.27378048580356185
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.064182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 5,
+          "depth": 3.3114988685786493,
+          "vertex": 2638,
+          "point": [
+            0.08746116444724382,
+            0.731515885766269,
+            0.2737114735583851
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.06834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 5,
+          "depth": 3.3879701837702947,
+          "vertex": 2638,
+          "point": [
+            0.08754331687666293,
+            0.7316284332635922,
+            0.27363190444087304
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.07251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 6,
+          "depth": 3.474891544718056,
+          "vertex": 2638,
+          "point": [
+            0.0876361666340627,
+            0.7317556538598172,
+            0.27354242243321036
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.076682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 8,
+          "depth": 3.571538159550469,
+          "vertex": 2638,
+          "point": [
+            0.08773920276080582,
+            0.7318968537998835,
+            0.2734436780611418
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.08084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 8,
+          "depth": 3.6771847142684777,
+          "vertex": 2638,
+          "point": [
+            0.08785191505404154,
+            0.7320513405749377,
+            0.27333632602517466
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.08501533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 8,
+          "depth": 3.7911076070645255,
+          "vertex": 2638,
+          "point": [
+            0.08797379333562726,
+            0.7322184218036328,
+            0.2732210229497323
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.08918200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 8,
+          "depth": 3.912587077101737,
+          "vertex": 2638,
+          "point": [
+            0.08810432677150237,
+            0.7323974041893092,
+            0.2730984252487454
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.09334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 8,
+          "depth": 4.040909228582301,
+          "vertex": 2638,
+          "point": [
+            0.08824300324335953,
+            0.7325875925549122,
+            0.27296918710604334
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.09751533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 9,
+          "depth": 4.175367950120107,
+          "vertex": 2638,
+          "point": [
+            0.0883893087738513,
+            0.7327882889572993,
+            0.2728339585697038
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.101682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 9,
+          "depth": 4.315266728949608,
+          "vertex": 2638,
+          "point": [
+            0.08854272700610209,
+            0.7329987918820019,
+            0.27269338375998575
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.10584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 10,
+          "depth": 4.459920359077718,
+          "vertex": 2638,
+          "point": [
+            0.08870273873790657,
+            0.7332183955189574,
+            0.27254809919087974
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.11001533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 10,
+          "depth": 4.608656542110151,
+          "vertex": 2638,
+          "point": [
+            0.08886882151057927,
+            0.7334463891191888,
+            0.27239873220568434
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.114182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 4.668460181212031,
+          "vertex": 2583,
+          "point": [
+            0.08645130203115015,
+            0.7350918823839846,
+            0.2694812581134536
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.11834866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 11,
+          "depth": 4.7898858256798515,
+          "vertex": 2583,
+          "point": [
+            0.08663521330029954,
+            0.7353448082372446,
+            0.2693240426191378
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.12251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 4.904423533579894,
+          "vertex": 2583,
+          "point": [
+            0.0868237774317383,
+            0.73560420341995,
+            0.26916458347676775
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.126682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 5.01282993290697,
+          "vertex": 2583,
+          "point": [
+            0.08701643296330806,
+            0.7358693002212696,
+            0.2690034665933997
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.13084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 5.115872076485672,
+          "vertex": 2583,
+          "point": [
+            0.08721261386805722,
+            0.7361393238612653,
+            0.2688412619332853
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.13501533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 5.2143274989675525,
+          "vertex": 2583,
+          "point": [
+            0.0874117494551997,
+            0.7364134923111817,
+            0.26867852262659475
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.139182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 13,
+          "depth": 5.308984195892763,
+          "vertex": 2583,
+          "point": [
+            0.08761326431749648,
+            0.7366910161840868,
+            0.2685157842081006
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.14334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 13,
+          "depth": 5.028901687212595,
+          "vertex": 2583,
+          "point": [
+            0.08781657832274435,
+            0.736971098692767,
+            0.2683535639878789
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.14751533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 12,
+          "depth": 4.747064708460758,
+          "vertex": 2583,
+          "point": [
+            0.08802110664687157,
+            0.7372529356715188,
+            0.26819236055606177
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.15168200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 10,
+          "depth": 4.490590717110498,
+          "vertex": 2578,
+          "point": [
+            0.08681226269489871,
+            0.7373900387694977,
+            0.2725094163162376
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.15584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 10,
+          "depth": 4.345059604766388,
+          "vertex": 2578,
+          "point": [
+            0.08700469831660183,
+            0.7376549407752132,
+            0.2723469964571992
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.16001533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 10,
+          "depth": 4.0807590813422,
+          "vertex": 2578,
+          "point": [
+            0.08719664091552336,
+            0.7379192412986374,
+            0.27218688815498027
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.164182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 9,
+          "depth": 3.817840528082539,
+          "vertex": 2578,
+          "point": [
+            0.08738752459033637,
+            0.7381821598518971,
+            0.27202952871046826
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.16834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 7,
+          "depth": 3.557091085237496,
+          "vertex": 2578,
+          "point": [
+            0.08757677924832406,
+            0.7384429092947421,
+            0.2718753375191164
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.17251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 7,
+          "depth": 3.2993042237366987,
+          "vertex": 2578,
+          "point": [
+            0.08776383082675897,
+            0.7387006961562429,
+            0.271724716390657
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.176682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 7,
+          "depth": 3.04527938333099,
+          "vertex": 2578,
+          "point": [
+            0.08794810153958997,
+            0.7389547209966486,
+            0.27157805000711643
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.18084866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 7,
+          "depth": 3.0268451912163763,
+          "vertex": 2646,
+          "point": [
+            0.0896301745883325,
+            0.7375305857173314,
+            0.2739731618421317
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.18501533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 4,
+          "depth": 3.166701524391302,
+          "vertex": 2646,
+          "point": [
+            0.08980041987198759,
+            0.7377650235220131,
+            0.2738333055089568
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.189182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 4,
+          "depth": 3.301538787113145,
+          "vertex": 2646,
+          "point": [
+            0.08996632104339367,
+            0.737993539113107,
+            0.27369846824623495
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.19334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 4,
+          "depth": 3.431021605040885,
+          "vertex": 2646,
+          "point": [
+            0.09012730909862386,
+            0.7382153435885365,
+            0.2735689854283072
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.19751533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 4,
+          "depth": 3.3171875417571246,
+          "vertex": 2646,
+          "point": [
+            0.09028281273540448,
+            0.7384296442786277,
+            0.2734451802225985
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.201682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 2,
+          "depth": 3.167741571726654,
+          "vertex": 2646,
+          "point": [
+            0.09043225870543495,
+            0.7386356452936477,
+            0.2733273648445543
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.20584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 71,
+          "count": 2,
+          "depth": 3.024928097709878,
+          "vertex": 2646,
+          "point": [
+            0.09057507217945172,
+            0.7388325480957326,
+            0.27321584195195014
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.69334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 4,
+          "depth": 3.0720321215259583,
+          "vertex": 2646,
+          "point": [
+            0.11295527105587921,
+            0.7389279682584536,
+            0.27293963465845855
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.69751533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 5,
+          "depth": 3.3066434959155844,
+          "vertex": 2646,
+          "point": [
+            0.11302314559942007,
+            0.738693356884064,
+            0.2729767287206579
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.701682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 5,
+          "depth": 3.556223771504663,
+          "vertex": 2646,
+          "point": [
+            0.11309559811233366,
+            0.7384437766084749,
+            0.2730170695732701
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.70584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 4,
+          "depth": 3.820084701099291,
+          "vertex": 2646,
+          "point": [
+            0.11317247445617827,
+            0.7381799156788803,
+            0.27306070769118845
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.71001533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 4,
+          "depth": 3.8463801660863215,
+          "vertex": 2646,
+          "point": [
+            0.11325362011107525,
+            0.7379024633669901,
+            0.2731076928420988
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.71418200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 4,
+          "depth": 3.7611204047537647,
+          "vertex": 2646,
+          "point": [
+            0.1133388798724078,
+            0.7376121097192548,
+            0.2731580727767134
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.71834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 5,
+          "depth": 3.6719027117676912,
+          "vertex": 2646,
+          "point": [
+            0.11342809756539388,
+            0.7373095453003108,
+            0.2732118919811052
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.72251533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 5,
+          "depth": 3.578884499359794,
+          "vertex": 2646,
+          "point": [
+            0.11352111577780177,
+            0.7369954609288133,
+            0.27326919049151477
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.726682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 8,
+          "depth": 3.692907211719443,
+          "vertex": 2578,
+          "point": [
+            0.11226358982029326,
+            0.7383070931682602,
+            0.27068242780149265
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.73084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 9,
+          "depth": 4.040022245717867,
+          "vertex": 2578,
+          "point": [
+            0.11236546721230145,
+            0.7379599781342617,
+            0.2707381426850054
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 1,
+          "depth": 3.1184759716734733,
+          "vertex": 2652,
+          "point": [
+            0.12254068291320608,
+            0.7388815244083061,
+            0.2713060284425912
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.73501533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 9,
+          "depth": 4.396980134495299,
+          "vertex": 2578,
+          "point": [
+            0.11247073557577247,
+            0.7376030202454843,
+            0.2707972178732342
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 3.461985232542042,
+          "vertex": 2652,
+          "point": [
+            0.12264420263556094,
+            0.7385380151474376,
+            0.2713740987271349
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.739182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 11,
+          "depth": 4.5207716146445645,
+          "vertex": 2578,
+          "point": [
+            0.112579228662517,
+            0.7372369288454518,
+            0.27085968623604806
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 3.814204509861363,
+          "vertex": 2652,
+          "point": [
+            0.12275087060094222,
+            0.7381857958701182,
+            0.2714457449684499
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.74334866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 12,
+          "depth": 4.409222466618526,
+          "vertex": 2578,
+          "point": [
+            0.11269077781054304,
+            0.7368624123377036,
+            0.27092557095047554
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.1744460911959935,
+          "vertex": 2652,
+          "point": [
+            0.12286051913232142,
+            0.7378255542887836,
+            0.27152096873334025
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.74751533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 12,
+          "depth": 4.294788500353336,
+          "vertex": 2578,
+          "point": [
+            0.11280521177680823,
+            0.7364801778915843,
+            0.27099488466794797
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.542023895492409,
+          "vertex": 2652,
+          "point": [
+            0.12297297813043236,
+            0.7374579764844872,
+            0.27159976133289465
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.751682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 14,
+          "depth": 4.64562396032131,
+          "vertex": 2554,
+          "point": [
+            0.11229315471979873,
+            0.7373543764196583,
+            0.2689400706538756
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.916253798793124,
+          "vertex": 2652,
+          "point": [
+            0.12308807493902765,
+            0.7370837465811865,
+            0.27168210308583474
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.75584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 14,
+          "depth": 4.685668890632461,
+          "vertex": 2554,
+          "point": [
+            0.1124143313865291,
+            0.7369478679754499,
+            0.26900932691008406
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 5.232044386462076,
+          "vertex": 2652,
+          "point": [
+            0.12320563422789459,
+            0.7367035464169768,
+            0.271767962646886
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.76001533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 14,
+          "depth": 4.56209386556547,
+          "vertex": 2554,
+          "point": [
+            0.1125379064115961,
+            0.7365355486394182,
+            0.26908192780044804
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 5.1427106337808,
+          "vertex": 2652,
+          "point": [
+            0.12332547789348527,
+            0.7363180552135228,
+            0.2718572963995673
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.764182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 15,
+          "depth": 4.612572705578466,
+          "vertex": 2573,
+          "point": [
+            0.11169836991135172,
+            0.7373874276744011,
+            0.2685227486739097
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 5.049959119656444,
+          "vertex": 2652,
+          "point": [
+            0.12344742497672885,
+            0.7359279492454928,
+            0.27195004791369165
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.76834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.038786995580913,
+          "vertex": 2573,
+          "point": [
+            0.11182550825388281,
+            0.7369612133843987,
+            0.2685942157689294
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.953859565997753,
+          "vertex": 2652,
+          "point": [
+            0.12357129159766485,
+            0.7355339015117718,
+            0.27204614746735034
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.77251533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.145512131457059,
+          "vertex": 2573,
+          "point": [
+            0.11195448814570451,
+            0.7365312415479127,
+            0.2686688607340565
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.854495400214542,
+          "vertex": 2652,
+          "point": [
+            0.12369689090647148,
+            0.7351365814103944,
+            0.27214551163313355
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.77668200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 5.014883677543616,
+          "vertex": 2573,
+          "point": [
+            0.11208511659961795,
+            0.7360982260428853,
+            0.2687466310782709
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.751964105065342,
+          "vertex": 2652,
+          "point": [
+            0.12382403305042236,
+            0.7347366544192376,
+            0.27224804292828275
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.78084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 5.198347711930035,
+          "vertex": 2675,
+          "point": [
+            0.11190165256523153,
+            0.7366420116444815,
+            0.2686568737688151
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 2,
+          "depth": 4.646377504951394,
+          "vertex": 2652,
+          "point": [
+            0.12395252515626551,
+            0.7343347817846414,
+            0.2723536295283967
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.78501533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.252021455281031,
+          "vertex": 2567,
+          "point": [
+            0.11095456777723721,
+            0.7367479789246986,
+            0.2640485672852033
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 4.537861989106384,
+          "vertex": 2652,
+          "point": [
+            0.12408217132749151,
+            0.7339316202201628,
+            0.2724621450442417
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.789182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.716859233828919,
+          "vertex": 2567,
+          "point": [
+            0.1110944092693835,
+            0.7362831411461507,
+            0.26412533187964937
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 4.426558672210145,
+          "vertex": 2652,
+          "point": [
+            0.12421277265591005,
+            0.7335278216177948,
+            0.27257344836113795
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.79334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.864848689402249,
+          "vertex": 2567,
+          "point": [
+            0.11123515158775932,
+            0.7358179775107724,
+            0.26420498364174505
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 4.312623493023249,
+          "vertex": 2652,
+          "point": [
+            0.12434412724693772,
+            0.7331240327739682,
+            0.27268738354032485
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.79751533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 5.723424345537034,
+          "vertex": 2567,
+          "point": [
+            0.11137657593162453,
+            0.7353532253464344,
+            0.2642874075172334
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.196227251710926,
+          "vertex": 2652,
+          "point": [
+            0.12447603025797632,
+            0.7327208951327256,
+            0.27280377978163717
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.801682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.581540465911722,
+          "vertex": 2567,
+          "point": [
+            0.11151845981124985,
+            0.7348896176450163,
+            0.26437247155443977
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.077555586582626,
+          "vertex": 2652,
+          "point": [
+            0.12460827394923657,
+            0.7323190445484417,
+            0.27292245144676547
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.80584866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 5.439423166313046,
+          "vertex": 2567,
+          "point": [
+            0.11166057711084852,
+            0.7344278828162513,
+            0.2644600269664999
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.174893967095819,
+          "vertex": 2657,
+          "point": [
+            0.12207489368993428,
+            0.7334368863631776,
+            0.2682988373809077
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.81001533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 5.2973021113597865,
+          "vertex": 2567,
+          "point": [
+            0.11180269816580178,
+            0.7339687444610475,
+            0.2645499082609287
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.312438475366568,
+          "vertex": 2657,
+          "point": [
+            0.12221243819820503,
+            0.7330115823978912,
+            0.26840965983772236
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.814182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 5.155410423681367,
+          "vertex": 2567,
+          "point": [
+            0.1119445898534802,
+            0.7335129211669579,
+            0.26464193343584136
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 7,
+          "depth": 4.449704928760748,
+          "vertex": 2657,
+          "point": [
+            0.12234970465159921,
+            0.7325895361170501,
+            0.2685223296650388
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.81834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 5.4205940267473,
+          "vertex": 2677,
+          "point": [
+            0.11167940625041427,
+            0.7365304881944458,
+            0.2640983400758246
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 7,
+          "depth": 4.586465452693936,
+          "vertex": 2657,
+          "point": [
+            0.1224864651755324,
+            0.7321714045524014,
+            0.2686366188472907
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.82251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 5.283540272911294,
+          "vertex": 2677,
+          "point": [
+            0.11181646000425027,
+            0.7360796449081545,
+            0.26417605991800974
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.722489388638534,
+          "vertex": 2657,
+          "point": [
+            0.122622489111477,
+            0.731757838640397,
+            0.2687522845885467
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.826682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 5.14737610110036,
+          "vertex": 2677,
+          "point": [
+            0.11195262417606121,
+            0.7356341861126267,
+            0.26425548615685585
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.857543412846957,
+          "vertex": 2657,
+          "point": [
+            0.12275754313568542,
+            0.7313494831315143,
+            0.26886906969462837
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.83084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 5.012342105851858,
+          "vertex": 2677,
+          "point": [
+            0.11208765817130971,
+            0.7351948183029083,
+            0.26433640248079854
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 4.946976914223522,
+          "vertex": 2657,
+          "point": [
+            0.12289139138680304,
+            0.7309469765342439,
+            0.268986703013347
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.83501533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.8786818375393395,
+          "vertex": 2677,
+          "point": [
+            0.11222131843962223,
+            0.7347622429100408,
+            0.26441857788667567
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 5.095002244512092,
+          "vertex": 2637,
+          "point": [
+            0.12438804628351051,
+            0.7369049981354675,
+            0.270186185171546
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.83918200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 4.746641640280338,
+          "vertex": 2677,
+          "point": [
+            0.11235335863688123,
+            0.7343371562601134,
+            0.26450176725641
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 5.477112242539328,
+          "vertex": 2637,
+          "point": [
+            0.12450910858470443,
+            0.7365228881374403,
+            0.2702763909996439
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.84334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 4.984686288410534,
+          "vertex": 2680,
+          "point": [
+            0.11205720048097856,
+            0.7370153140915691,
+            0.26736689604348607
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 5.851755643255463,
+          "vertex": 2637,
+          "point": [
+            0.12462842759010151,
+            0.7361482447367241,
+            0.2703670141892063
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.84751533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 4.922386853586105,
+          "vertex": 2680,
+          "point": [
+            0.11217761342357546,
+            0.736619419936681,
+            0.26743656052158105
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 6.218322192616754,
+          "vertex": 2637,
+          "point": [
+            0.12474577435843492,
+            0.7357816781873628,
+            0.27045778353553607
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.851682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 4.8041835652904155,
+          "vertex": 2680,
+          "point": [
+            0.11229581671187115,
+            0.7362327294879089,
+            0.2675066873590429
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 6.4515899751844135,
+          "vertex": 2637,
+          "point": [
+            0.12486091806626219,
+            0.7354237936060514,
+            0.2705484170581637
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.85584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 15,
+          "depth": 4.6884320221717015,
+          "vertex": 2680,
+          "point": [
+            0.11241156825498987,
+            0.735855903083995,
+            0.26757701234457687
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 7,
+          "depth": 6.361384284865046,
+          "vertex": 2637,
+          "point": [
+            0.1249736261787565,
+            0.7350751911156194,
+            0.27063862274848305
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.86001533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.575376177119408,
+          "vertex": 2680,
+          "point": [
+            0.11252462410004216,
+            0.7354895967826146,
+            0.26764726121508753
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 6.2719076646387535,
+          "vertex": 2637,
+          "point": [
+            0.12508366462569098,
+            0.7347364660305863,
+            0.27072809936870934
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.864182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.465261637380674,
+          "vertex": 2680,
+          "point": [
+            0.1126347386397809,
+            0.735134462529769,
+            0.26771715056069834
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 7,
+          "depth": 6.18346973188838,
+          "vertex": 2637,
+          "point": [
+            0.12519079798249097,
+            0.7344082090856535,
+            0.2708165373014597
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.86834866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.368376353933029,
+          "vertex": 2680,
+          "point": [
+            0.11273162392322854,
+            0.7347997014096771,
+            0.2677868327952174
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 6.096654523146505,
+          "vertex": 2637,
+          "point": [
+            0.12528485236309694,
+            0.734098253665764,
+            0.2709033525102016
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.87251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.351095055309701,
+          "vertex": 2680,
+          "point": [
+            0.11274890522185187,
+            0.7345428044392416,
+            0.2678582071508065
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 6.0143261874610054,
+          "vertex": 2637,
+          "point": [
+            0.12530018821682443,
+            0.7338554386352486,
+            0.2709856808458871
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.876682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 20,
+          "depth": 4.4798791876271284,
+          "vertex": 2680,
+          "point": [
+            0.11262012108953444,
+            0.7344234791966785,
+            0.26793267651101815
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 5.939998877154517,
+          "vertex": 2637,
+          "point": [
+            0.12517114344124622,
+            0.7337307288450227,
+            0.2710600081561936
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.88084866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 4.7941802417318105,
+          "vertex": 2680,
+          "point": [
+            0.11230582003542976,
+            0.7344807566409551,
+            0.268012204180311
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 5.874997181904817,
+          "vertex": 2637,
+          "point": [
+            0.12485875286868896,
+            0.7337578550694096,
+            0.2711250098514433
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.88501533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 5.308206442410563,
+          "vertex": 2680,
+          "point": [
+            0.111791793834751,
+            0.7347343994548522,
+            0.26810160909717684
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 6,
+          "depth": 5.816327972079483,
+          "vertex": 2637,
+          "point": [
+            0.12434889622617228,
+            0.733954467940466,
+            0.2711836790612686
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.889182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 6.013749348925485,
+          "vertex": 2680,
+          "point": [
+            0.11108625092823608,
+            0.7351864220750993,
+            0.26820901005329767
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 5,
+          "depth": 5.749466981838994,
+          "vertex": 2637,
+          "point": [
+            0.12364946670467745,
+            0.7343233185122772,
+            0.27124363210397495
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.89334866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 17,
+          "depth": 6.491734179549375,
+          "vertex": 2677,
+          "point": [
+            0.11060826609761219,
+            0.7327166516003273,
+            0.2655704157083531
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 3,
+          "depth": 4.8866516790788825,
+          "vertex": 2637,
+          "point": [
+            0.12278665140191734,
+            0.7348533990512099,
+            0.2713156052724545
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.89751533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 18,
+          "depth": 7.521091118759718,
+          "vertex": 2677,
+          "point": [
+            0.10957890915840185,
+            0.733542265211503,
+            0.26570106798798465
+          ]
+        },
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 74,
+          "count": 3,
+          "depth": 3.900564724192007,
+          "vertex": 2637,
+          "point": [
+            0.12180056444703047,
+            0.7355212435697637,
+            0.2714107745510329
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.90168200000001,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 19,
+          "depth": 7.755642557107811,
+          "vertex": 2649,
+          "point": [
+            0.10916766942018029,
+            0.7337556421771282,
+            0.26462376769797746
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.90584866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 22,
+          "depth": 7.278866389677563,
+          "vertex": 2671,
+          "point": [
+            0.10772834693423249,
+            0.7332788660096979,
+            0.2671729450163605
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.91001533333333,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 22,
+          "depth": 7.715092397739265,
+          "vertex": 2671,
+          "point": [
+            0.1066251436239175,
+            0.7342849079822403,
+            0.2673791537086888
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.914182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 19,
+          "depth": 7.37562280125903,
+          "vertex": 2567,
+          "point": [
+            0.10553439053757639,
+            0.7340002302764533,
+            0.26707160730935897
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.91834866666667,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 19,
+          "depth": 7.803830101216547,
+          "vertex": 2556,
+          "point": [
+            0.1070669408977538,
+            0.7324523281889485,
+            0.2680128512915493
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.92251533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 16,
+          "depth": 6.317199834966786,
+          "vertex": 2583,
+          "point": [
+            0.10858143374750794,
+            0.7312625524298505,
+            0.2706691087393993
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.926682,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 14,
+          "depth": 6.213438861191051,
+          "vertex": 2583,
+          "point": [
+            0.10802472552839802,
+            0.731766298676524,
+            0.27078326970579003
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.93084866666666,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 10,
+          "depth": 4.751874777793708,
+          "vertex": 2583,
+          "point": [
+            0.10765579537228663,
+            0.7320979208311241,
+            0.2708674064922698
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.93501533333334,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 8,
+          "depth": 3.4503770075730023,
+          "vertex": 2583,
+          "point": [
+            0.10745758848906227,
+            0.7322690879218593,
+            0.27091759403895566
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    },
+    {
+      "time": 95.939182,
+      "thumbPairs": [],
+      "thumbCore": [
+        {
+          "patch": "RThumb",
+          "owner": 6,
+          "active": false,
+          "midi": 72,
+          "count": 5,
+          "depth": 3.124694501679209,
+          "vertex": 2638,
+          "point": [
+            0.10968320999965475,
+            0.730780337217234,
+            0.2738895921423654
+          ]
+        }
+      ],
+      "newPairs": [],
+      "newKeys": []
+    }
+  ]
+}

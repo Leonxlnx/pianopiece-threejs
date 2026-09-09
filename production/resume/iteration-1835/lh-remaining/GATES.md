@@ -1,0 +1,14 @@
+# Gates: remaining LH held-thumb families
+
+Scope: p63,p94,p810,p1015; p470,p687,p835,p1040; p571,p812; p609; p876,p885; p921. p970 is a fixed held guard. Base l62-family/candidate-eight.json SHA53ce470d5e40226eb196552fe25f2eec13a33879d6011e6f53f82eeef4f8ba0e; compact5 accepted-arms source. Preserve root p1008, p914 support, all musical events and outside-reservation fields. Scratch only, no agents, no root edits. Natural bounded refingering/support is authorized; no unnecessary releases.
+
+- [x] R1: Exact baseline, rig and model inputs and finite neighboring note/knot ownership are frozen and coordinated.
+  EVIDENCE: reservation.json and guarded-delta.json freeze all inputs, 43 owned notes, fixed guards and exact changed fields; HANDOFF.md records overlap coordination. check.mjs reconstructs the entire score from the guarded delta and asserts outside fields remain exact.
+- [x] R2: Each target receives a coherent fit or finite measured exception, with complete held surface/contact/neighbor gates and protected held guards.
+  EVIDENCE: candidate-pass3-held-240.json and validation-summary.json: all 14 targets/1627 samples and 43 reserved notes/4899 samples pass held surfaces, true pads and active neighbor checks. protected-compatibility.json preserves p914/p970/p1008 complete approach/hold geometry to floating-point noise.
+- [x] R3: Complete incoming/departure contexts and musical/source invariants are checked, with finite inactive residual and merged-replay queues.
+  EVIDENCE: aligned context reports cover 10297 equal timestamps; zero newly failing held states, four newly failing released-palm states explicitly retained. idle-gap-queue.json contains 111 endpoint contexts and residual-queue.json 478 finite intervals. HANDOFF.md records 1469 strict regressions and required final merged opposing-hand replay.
+- [x] R4: Actual matched views, continuous deterministic motion, arm reach and clothing geometry substantiate the chosen support.
+  EVIDENCE: evidence/index.json pins 30 inspected actual PNGs. motion-candidate-report.json covers 500 Hz contexts, 320 boundaries and exact seek parity; boundary-detail.json resolves epsilon convergence. 42 garment poses have maximum 0.783 mm exposed cloth depth, zero forearm crossings. HANDOFF.md explicitly retains fast inactive articulation and the 0.00100898 rad boundary measurement; this gate certifies measured review evidence, not acceptance of those motion defects.
+- [x] R5: Guarded minimal score delta, exact hashes, reproducible evidence and remaining limitations are packaged for root.
+  EVIDENCE: candidate-final.json, guarded-delta.json, HANDOFF.md, hashes.json, check.mjs and finalize-summary.mjs package exact score changes, evidence, scripts and finite residuals. Whole-hand and full-film acceptance are explicitly withheld.

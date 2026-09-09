@@ -1,0 +1,32 @@
+{
+  "runtimePath": "/workspace/scratch/2e8cc8e77f98/active-hand-fit/pianist-arms-compact5-arc.mjs",
+  "runtimeSha256": "911a888ba590e743e58d29de9126ebb80ddfa2fe0d5dee561ae94d6cd8b965ff",
+  "scoreSha256": "de048f11bb7f7618bc78cde6e72e2dbf7c39ccc23f99394eab598550edd38ea1",
+  "primary": {
+    "frames": 2577,
+    "blockerFrames": 0,
+    "rows": [],
+    "maxKeyDepth": 1.5853171295161506,
+    "maxPalmDepth": 0,
+    "maxContactError": 0.00012173235317933522
+  },
+  "neighbor": {
+    "frames": 3203,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0,
+    "rows": []
+  },
+  "nonfinite": 0,
+  "summary": {
+    "samples": 3203,
+    "primaryFrames": 2577,
+    "primaryBlockerFrames": 0,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 0
+  },
+  "scope": "120Hz uniform windows plus every intersecting note complete held interval on its own 120Hz grid and quarter/boundary samples. All >65% digit and palm-owned vertices vs 88 beveled-key cores; exact >65%-owned surface triangles. Active surface-pair gate includes held thumbs and excludes unrelated idle thumbs, handled by root; all thumb raw rows retained. No skin contact tolerance or whole hand visual acceptance inferred."
+}

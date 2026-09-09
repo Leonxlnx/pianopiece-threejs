@@ -1,0 +1,184 @@
+{
+  "runtimePath": "/workspace/scratch/2e8cc8e77f98/held-r81-r76-fit/rig.mjs",
+  "runtimeSha256": "3fa8112b9a9a2f64029161953a2284854004dae466de13da29f88371638f129b",
+  "scoreSha256": "d970760d1913b6390caa219b487128ab3690529bfaeed0e26ef805e053188d84",
+  "primary": {
+    "frames": 834,
+    "blockerFrames": 2,
+    "rows": [
+      {
+        "time": 104.198837091,
+        "ids": [
+          "p00505"
+        ],
+        "key": [],
+        "palm": [],
+        "pairs": [
+          {
+            "a": "RRing",
+            "b": "RPinky",
+            "trianglePairs": 1,
+            "points": [
+              {
+                "a": [
+                  2940,
+                  3213,
+                  3205
+                ],
+                "b": [
+                  2458,
+                  2380,
+                  2338
+                ],
+                "point": [
+                  0.20108139366456013,
+                  0.7708433715478025,
+                  0.2739538748533209
+                ]
+              }
+            ]
+          }
+        ],
+        "contact": 0.0000630990946239126
+      },
+      {
+        "time": 104.199144,
+        "ids": [
+          "p00505"
+        ],
+        "key": [],
+        "palm": [],
+        "pairs": [
+          {
+            "a": "RRing",
+            "b": "RPinky",
+            "trianglePairs": 1,
+            "points": [
+              {
+                "a": [
+                  2940,
+                  3213,
+                  3205
+                ],
+                "b": [
+                  2458,
+                  2380,
+                  2338
+                ],
+                "point": [
+                  0.20090156819105454,
+                  0.7708327387865747,
+                  0.2738268188438003
+                ]
+              }
+            ]
+          }
+        ],
+        "contact": 0.00003680091213489842
+      }
+    ],
+    "maxKeyDepth": 0,
+    "maxPalmDepth": 0,
+    "maxContactError": 0.13177727498687325
+  },
+  "neighbor": {
+    "frames": 1105,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 2,
+    "rows": [
+      {
+        "time": 104.198837091,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [],
+        "newMeshContacts": [],
+        "newPairs": [
+          {
+            "a": "RRing",
+            "b": "RPinky",
+            "trianglePairs": 1,
+            "points": [
+              {
+                "a": [
+                  2940,
+                  3213,
+                  3205
+                ],
+                "b": [
+                  2458,
+                  2380,
+                  2338
+                ],
+                "point": [
+                  0.20108139366456013,
+                  0.7708433715478025,
+                  0.2739538748533209
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "time": 104.199144,
+        "side": "R",
+        "active": [
+          {
+            "id": "p00505",
+            "midi": 79,
+            "finger": 5
+          }
+        ],
+        "newKeys": [],
+        "newContacts": [],
+        "newMeshContacts": [],
+        "newPairs": [
+          {
+            "a": "RRing",
+            "b": "RPinky",
+            "trianglePairs": 1,
+            "points": [
+              {
+                "a": [
+                  2940,
+                  3213,
+                  3205
+                ],
+                "b": [
+                  2458,
+                  2380,
+                  2338
+                ],
+                "point": [
+                  0.20090156819105454,
+                  0.7708327387865747,
+                  0.2738268188438003
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "nonfinite": 0,
+  "summary": {
+    "samples": 1105,
+    "primaryFrames": 834,
+    "primaryBlockerFrames": 2,
+    "newSevereHeldFrames": 0,
+    "newContactFailures": 0,
+    "newMeshContactFailures": 0,
+    "newActiveNonthumbPairFrames": 2
+  },
+  "scope": "120Hz uniform windows plus every intersecting note complete held interval on its own 120Hz grid and quarter/boundary samples. All >65% digit and palm-owned vertices vs 88 beveled-key cores; exact >65%-owned surface triangles. Active surface-pair gate includes held thumbs and excludes unrelated idle thumbs, handled by root; all thumb raw rows retained. No skin contact tolerance or whole hand visual acceptance inferred."
+}

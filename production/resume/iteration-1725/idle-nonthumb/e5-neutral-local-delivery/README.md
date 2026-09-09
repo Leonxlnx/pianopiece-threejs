@@ -1,0 +1,13 @@
+# Bounded E5 three-finger blend — reviewable, not integrated
+
+Add only these three exact-gap curves and the small `idle-neutral-mode.patch` branch to the existing helper. Do not overwrite the pianist with the baked review source. The branch blends each current baseline local quaternion toward a fixed authored-neutral triple using C1 smoothstep alpha; alpha and derivative are zero at support edges 42.8 and 43.22 seconds. Held poses and original endpoint velocities remain intact. The MCP neutral lifts are 40/30/20 degrees for Middle/Ring/Pinky, with original authored PIP/DIP triples. This is a finite pulse, not a global neutral replacement.
+
+Bound score is b04dd0da22e50c5365c66dcfc9470494f5043e12e0f68f6a2cdf4f71ecadb459, compact5+arms baseline TS 4ef26cd1df3d9b97f8a6e92378af4582fe2077e0cb5d6cc524cdb157891aea45. Its gaps are R3 p159→p193, R4 p181→p203, R5 p177→p187. Preserve exact binding; merging with another score requires root revalidation. Run the extended binding verifier on score, curve data, original baseline TS and input-manifest. Seven accepted/rejection fixtures pass.
+
+At 1000 Hz plus events/knots (456 whole-hand poses), 181 target Pinky pair-positive poses become zero; no new core, own-palm, neighbor pair type, or strict existing pair-count increase. Other pre-existing Index key cores remain. All 36 opposing patch pairs are zero before/after at 103 poses (240 Hz). Full affected-gap union 38.307–46.809: 1127 poses, 1064 outside bounded support, all outside/active quaternion components and active tips exactly unchanged. Experimental post-pose versus baked runtime parity is exact for all bones, tips and wrists over 464 poses.
+
+1000 Hz actual owned skin peaks, baseline→candidate: Middle 1.232→1.896 m/s; Ring 1.226→1.937; Pinky 1.918→2.475. Global changed-hand tip max 1.847→2.367 m/s. Finite differences do not certify continuous maxima or natural motion.
+
+48 source-matched native frames were accepted via strict GL_NO_ERROR/source/score/image hashes, and actually inspected in four chronological top/oblique comparison sheets. The candidate visibly fans the three idle digits apart, avoiding the baseline Ring/Pinky overlap. It returns to the original pose at 43.22. No finger order reversal or flip was observed in the sampled sequence. The broader fan and faster return are visible; sparse frame inspection is not real-time playback or natural-motion approval. Root owns that acceptance and final combined-source/score gates.
+
+This package keeps compact5 reference and score unchanged. Native images remain at the manifest's sequence directory; report/index/sheets are included. QA scripts use sibling scratch harness files and existing root dependencies; they are not a standalone installation.
