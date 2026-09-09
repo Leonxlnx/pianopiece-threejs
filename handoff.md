@@ -1,3 +1,5 @@
+> **Current delivery (2026-09-09):** Read `context/DELIVERY-2026-09-09.md` and `production/resume/2026-09-09/current.json` first. Version4 of the revised3:53 performance is published; the new full film is rendering. Earlier snapshot/status statements below are historical.
+
 > **Current continuation:** Read `production/resume/2026-09-09/current.json` and `context/RESUME-2026-09-09.md` before the historical transfer notes. The user authorized continued work here. Final climax integration is accepted with disclosed anatomical limitations; revised master/film/publication are in progress.
 
 > **Resumed 2026-09-09:** The user explicitly asked this agent to continue here until finished. Read `context/RESUME-2026-09-09.md` first, then the September 8 record and `production/resume/2026-09-09/PLAN.md` / `GATES.md`. V11 recovery and two small hand improvements are integrated. The transfer instructions and snapshot descriptions below remain historical.

@@ -1,3 +1,5 @@
+> **Current delivery (2026-09-09):** Read `DELIVERY-2026-09-09.md` and `production/resume/2026-09-09/current.json` first. Version4 of the revised3:53 performance is published; the new full film is rendering. Earlier snapshot/status statements below are historical.
+
 # Status and continuation decisions
 
 This is a reconstruction from the retained project conversation and the recovered Git snapshot, not a claim that scratch-only artifacts survived. The application source remains at the accepted 4079210 checkpoint. Later experiments below are **provisional** unless explicitly identified as integrated.

@@ -1,3 +1,5 @@
+> **Current delivery (2026-09-09):** Read `DELIVERY-2026-09-09.md` and `production/resume/2026-09-09/current.json` first. Version4 of the revised3:53 performance is published; the new full film is rendering. Earlier snapshot/status statements below are historical.
+
 # Technical handoff and reproducibility
 
 ## Authoritative recovered source
