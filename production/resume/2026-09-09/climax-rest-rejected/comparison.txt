@@ -1,0 +1,151 @@
+{
+  "sampleTimes": 997,
+  "handStatesPerVersion": 1994,
+  "interval": [
+    153.403546,
+    163.825895
+  ],
+  "heldSamples": 1706,
+  "heldPoseChanges": 0,
+  "outsidePoseChanges": 0,
+  "wristPositionMaxDeltaM": 0.0,
+  "contactGapChanges": 0,
+  "worsePerKeyRowsAll": 326,
+  "worsePerKeyRowsOver3mm": 242,
+  "worsePairRows": 847,
+  "newPairRows": 609,
+  "improvedKeyDepthRows": 713,
+  "improvedPairRows": 833,
+  "byPair": {
+    "LRing\u2013LPinky": {
+      "rows": 283,
+      "first": 153.953546,
+      "last": 163.686879333,
+      "newCrossingRows": 258,
+      "maxAdded": 123,
+      "worst": {
+        "time": 162.203546,
+        "side": "L",
+        "before": 0,
+        "after": 123
+      }
+    },
+    "RMiddle\u2013RRing": {
+      "rows": 91,
+      "first": 154.10222,
+      "last": 161.169206,
+      "newCrossingRows": 7,
+      "maxAdded": 136,
+      "worst": {
+        "time": 155.686879333,
+        "side": "R",
+        "before": 10,
+        "after": 146
+      }
+    },
+    "RIndex\u2013RMiddle": {
+      "rows": 117,
+      "first": 154.170212667,
+      "last": 158.470212667,
+      "newCrossingRows": 116,
+      "maxAdded": 126,
+      "worst": {
+        "time": 155.519569,
+        "side": "R",
+        "before": 0,
+        "after": 126
+      }
+    },
+    "LMiddle\u2013LRing": {
+      "rows": 108,
+      "first": 155.003546,
+      "last": 161.903546,
+      "newCrossingRows": 32,
+      "maxAdded": 144,
+      "worst": {
+        "time": 160.557873,
+        "side": "L",
+        "before": 0,
+        "after": 144
+      }
+    },
+    "LMiddle\u2013LPinky": {
+      "rows": 64,
+      "first": 155.179732,
+      "last": 162.720212667,
+      "newCrossingRows": 57,
+      "maxAdded": 75,
+      "worst": {
+        "time": 156.620212667,
+        "side": "L",
+        "before": 0,
+        "after": 75
+      }
+    },
+    "RRing\u2013RPinky": {
+      "rows": 140,
+      "first": 155.482569,
+      "last": 162.208213,
+      "newCrossingRows": 115,
+      "maxAdded": 83,
+      "worst": {
+        "time": 162.070212667,
+        "side": "R",
+        "before": 0,
+        "after": 83
+      }
+    },
+    "LIndex\u2013LRing": {
+      "rows": 11,
+      "first": 158.136879333,
+      "last": 158.404465,
+      "newCrossingRows": 4,
+      "maxAdded": 6,
+      "worst": {
+        "time": 158.402465,
+        "side": "L",
+        "before": 0,
+        "after": 6
+      }
+    },
+    "LIndex\u2013LMiddle": {
+      "rows": 28,
+      "first": 158.153546,
+      "last": 160.170212667,
+      "newCrossingRows": 16,
+      "maxAdded": 191,
+      "worst": {
+        "time": 158.186879333,
+        "side": "L",
+        "before": 0,
+        "after": 191
+      }
+    },
+    "RIndex\u2013RRing": {
+      "rows": 4,
+      "first": 160.903546,
+      "last": 160.953546,
+      "newCrossingRows": 4,
+      "maxAdded": 45,
+      "worst": {
+        "time": 160.936879333,
+        "side": "R",
+        "before": 0,
+        "after": 45
+      }
+    },
+    "LRing\u2013LPalm": {
+      "rows": 1,
+      "first": 161.753546,
+      "last": 161.753546,
+      "newCrossingRows": 0,
+      "maxAdded": 1,
+      "worst": {
+        "time": 161.753546,
+        "side": "L",
+        "before": 39,
+        "after": 40
+      }
+    }
+  }
+}

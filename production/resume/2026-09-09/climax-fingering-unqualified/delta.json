@@ -1,0 +1,254 @@
+{
+  "baselineSourceSha256": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
+  "baselineScoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+  "notes": [
+    {
+      "id": "p00719",
+      "fields": {
+        "contactLift": {
+          "before": 0.006394379721954465,
+          "after": 0.004
+        },
+        "thumbOpposition": {
+          "before": null,
+          "after": 0
+        },
+        "contactZ": {
+          "before": 0.24736665803426877,
+          "after": 0.25
+        }
+      }
+    },
+    {
+      "id": "p00720",
+      "fields": {
+        "contactLift": {
+          "before": 0.0017201214246451856,
+          "after": 0.011
+        },
+        "finger": {
+          "before": 2,
+          "after": 1
+        },
+        "duration": {
+          "before": 0.264901,
+          "after": 0.214901
+        },
+        "thumbOpposition": {
+          "before": null,
+          "after": 0
+        },
+        "contactZ": {
+          "before": 0.2414034716186579,
+          "after": 0.27
+        }
+      }
+    },
+    {
+      "id": "p00721",
+      "fields": {
+        "contactLift": {
+          "before": 0.003008,
+          "after": 0.0063
+        },
+        "finger": {
+          "before": 2,
+          "after": 1
+        },
+        "duration": {
+          "before": 0.252444,
+          "after": 0.202444
+        },
+        "thumbOpposition": {
+          "before": null,
+          "after": 1.1
+        }
+      }
+    },
+    {
+      "id": "p00722",
+      "fields": {
+        "finger": {
+          "before": 4,
+          "after": 3
+        },
+        "duration": {
+          "before": 0.243389,
+          "after": 0.19338899999999998
+        }
+      }
+    },
+    {
+      "id": "p00723",
+      "fields": {
+        "duration": {
+          "before": 0.251,
+          "after": 0.201
+        },
+        "contactZ": {
+          "before": null,
+          "after": 0.278
+        }
+      }
+    }
+  ],
+  "wristKnots": [
+    {
+      "side": "L",
+      "time": 159.156206,
+      "before": {
+        "time": 159.156206,
+        "position": [
+          -0.19510754537537695,
+          0.7588795809836498,
+          0.34487155656591056
+        ],
+        "quaternion": [
+          0.17296534487421944,
+          -0.7110521538193679,
+          0.6623988981720683,
+          -0.16036060526765847
+        ],
+        "moveStart": 158.98525627982534,
+        "moveEnd": 159.153206
+      },
+      "after": {
+        "time": 159.156206,
+        "position": [
+          -0.21800000000000005,
+          0.75478,
+          0.34859999999999997
+        ],
+        "quaternion": [
+          0.05647490754944679,
+          -0.698069646880647,
+          0.6977048862117837,
+          -0.15072240934052222
+        ],
+        "moveStart": 158.98525627982534,
+        "moveEnd": 159.153206
+      }
+    },
+    {
+      "side": "L",
+      "time": 159.501539,
+      "before": {
+        "time": 159.501539,
+        "position": [
+          -0.14796999999999996,
+          0.74942,
+          0.39055
+        ],
+        "quaternion": [
+          0.022987881762997507,
+          -0.7189782055612646,
+          0.694244286969567,
+          -0.023806873588776093
+        ],
+        "moveStart": 159.424607,
+        "moveEnd": 159.49853900000002
+      },
+      "after": {
+        "time": 159.501539,
+        "position": [
+          -0.14796999999999996,
+          0.74942,
+          0.39055
+        ],
+        "quaternion": [
+          0.022987881762997507,
+          -0.7189782055612646,
+          0.694244286969567,
+          -0.023806873588776093
+        ],
+        "moveStart": 159.374607,
+        "moveEnd": 159.49853900000002
+      }
+    },
+    {
+      "side": "R",
+      "time": 159.181206,
+      "before": {
+        "time": 159.181206,
+        "position": [
+          0.09721,
+          0.7397400000000001,
+          0.382
+        ],
+        "quaternion": [
+          -0.0589776940544944,
+          -0.7484566234347281,
+          0.6579472775970895,
+          0.05864890743465325
+        ],
+        "moveStart": 159.09974459071665,
+        "moveEnd": 159.17820600000002
+      },
+      "after": {
+        "time": 159.181206,
+        "position": [
+          0.0796966666666667,
+          0.762,
+          0.3795
+        ],
+        "quaternion": [
+          -0.093556104219941,
+          -0.7321289900776846,
+          0.6736337296534495,
+          0.03810505903683652
+        ],
+        "moveStart": 159.09974459071665,
+        "moveEnd": 159.17820600000002
+      }
+    }
+  ],
+  "pedalUnchanged": true,
+  "attacksPitchesVelocitiesWrittenDurationsUnchanged": true,
+  "physicalReleaseDeltas": [
+    {
+      "id": "p00720",
+      "beforeDuration": 0.264901,
+      "afterDuration": 0.214901,
+      "beforeRelease": 159.424607,
+      "afterRelease": 159.374607,
+      "deltaSeconds": -0.05,
+      "writtenDuration": 0.313833,
+      "pedalAtNewRelease": 0.66,
+      "pedalAtOldRelease": 0.66
+    },
+    {
+      "id": "p00721",
+      "beforeDuration": 0.252444,
+      "afterDuration": 0.202444,
+      "beforeRelease": 159.43365,
+      "afterRelease": 159.38365000000002,
+      "deltaSeconds": -0.05,
+      "writtenDuration": 0.306866,
+      "pedalAtNewRelease": 0.66,
+      "pedalAtOldRelease": 0.66
+    },
+    {
+      "id": "p00722",
+      "beforeDuration": 0.243389,
+      "afterDuration": 0.19338899999999998,
+      "beforeRelease": 159.428095,
+      "afterRelease": 159.378095,
+      "deltaSeconds": -0.05,
+      "writtenDuration": 0.303366,
+      "pedalAtNewRelease": 0.66,
+      "pedalAtOldRelease": 0.66
+    },
+    {
+      "id": "p00723",
+      "beforeDuration": 0.251,
+      "afterDuration": 0.201,
+      "beforeRelease": 159.439206,
+      "afterRelease": 159.389206,
+      "deltaSeconds": -0.05,
+      "writtenDuration": 0.299866,
+      "pedalAtNewRelease": 0.66,
+      "pedalAtOldRelease": 0.66
+    }
+  ],
+  "status": "Review only; read validation report before applying"
+}

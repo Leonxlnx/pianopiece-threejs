@@ -1,0 +1,21 @@
+RENDERER llvmpipe (LLVM 20.1.2, 256 bits)
+ENV_CAPTURE_FACE 0
+ENV_CAPTURE_FACE 1
+ENV_CAPTURE_FACE 2
+ENV_CAPTURE_FACE 3
+ENV_CAPTURE_FACE 4
+ENV_CAPTURE_FACE 5
+ENV_FILTER_LEVEL 0
+ENV_FILTER_LEVEL 1
+ENV_FILTER_LEVEL 2
+ENV_FILTER_LEVEL 3
+ENV_FILTER_LEVEL 4
+ENV_FILTER_LEVEL 5
+ENV_FILTER_LEVEL 6
+ENV_FILTER_LEVEL 7
+ENV_FILTER_LEVEL 8
+ENVIRONMENT {"position": [0.0, 1.149999976158142, -0.44999998807907104], "captureSize": 256, "filteredSize": 128, "roughnessLevels": 9, "samples": 128, "stageMeshes": 318, "seconds": 1.5453088699996442, "approximation": "GGX NDF split-sum, 9 regular levels; source uses GGX VNDF CubeUV and initial sigma=.045"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9aae88b2c8b356a/current-1280-158.600000.png", "glError": "GL_NO_ERROR", "seconds": 1.065907647000131, "shot": "The light returns"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9aae88b2c8b356a/current-1280-159.300000.png", "glError": "GL_NO_ERROR", "seconds": 0.8004798399997526, "shot": "Everything opens \u00b7 hands"}
+{"frame": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9aae88b2c8b356a/current-1280-160.100000.png", "glError": "GL_NO_ERROR", "seconds": 0.8707280150010774, "shot": "Everything opens \u00b7 hands"}
+{"report": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e9aae88b2c8b356a/report-1280.json", "initializationSeconds": 8.617106657000477, "peakProcessTreeRssBytes": 867745792}

@@ -1,0 +1,37 @@
+{
+  "commit": "ec50450beda07601c1b2f9734479174b6b12b778",
+  "sourceCommit": "5f90e17373d5f420f3c12a93c4899385c04250d4",
+  "tree": "16ec00e027b41951b510e71a4465e19a1eec1180",
+  "verifiedFiles": [
+    {
+      "expected": "7cacabc66a2e65e71a45f5f6e5b71df509b87f6b",
+      "pass": true,
+      "path": "handoff.md",
+      "sha": "7cacabc66a2e65e71a45f5f6e5b71df509b87f6b"
+    },
+    {
+      "expected": "955fb9cf2742223cd38f2b6a3d0b6def9b0562d0",
+      "pass": true,
+      "path": "context/USER-PROMPTS.md",
+      "sha": "955fb9cf2742223cd38f2b6a3d0b6def9b0562d0"
+    },
+    {
+      "expected": "b4e5deedffdae5c945fa2e2a0cab574de1bbf0f2",
+      "pass": true,
+      "path": "app/performance/pianist.ts",
+      "sha": "b4e5deedffdae5c945fa2e2a0cab574de1bbf0f2"
+    },
+    {
+      "expected": "ccdc05a5a81c401b967c36e2d49cbc27c1e5224e",
+      "pass": true,
+      "path": "public/assets/score.json",
+      "sha": "ccdc05a5a81c401b967c36e2d49cbc27c1e5224e"
+    },
+    {
+      "expected": "bf21262c2f55b8e9fdfc813741c27c6c5b91dbd1",
+      "pass": true,
+      "path": "context/large-source-manifest.json",
+      "sha": "bf21262c2f55b8e9fdfc813741c27c6c5b91dbd1"
+    }
+  ]
+}

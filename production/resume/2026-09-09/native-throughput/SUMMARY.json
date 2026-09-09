@@ -1,0 +1,27 @@
+{
+  "scope": "bounded native llvmpipe thread-count experiment",
+  "cpuQuota": "800000 100000",
+  "logicalCpuQuota": 8,
+  "snapshotFingerprint": "dc1a0bfe8fa61c9ad36be8f82b2fd402cc2c076ad407a3c540c4328b8a4e82b0",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "temporalSamples": 2,
+  "shutterDegrees": 180,
+  "warmupPts": 0.8,
+  "measuredPts": [159.3, 170.0, 0.8],
+  "repeatsPerPts": 2,
+  "results": [
+    {"LP_NUM_THREADS": 1, "meanWallSeconds": 10.06641061383319, "medianWallSeconds": 9.560928476499612, "meanProcessTreeCpuSeconds": 9.913333333333334, "meanCpuToWallRatio": 0.9844821376493218, "estimated6995FrameHours": 19.55820924785173},
+    {"LP_NUM_THREADS": 4, "meanWallSeconds": 3.185713336666595, "medianWallSeconds": 3.2108521265008676, "meanProcessTreeCpuSeconds": 10.605000000000004, "meanCpuToWallRatio": 3.305628367015038, "estimated6995FrameHours": 6.189601079573368},
+    {"LP_NUM_THREADS": 8, "meanWallSeconds": 2.193818265832912, "medianWallSeconds": 2.051911772499807, "meanProcessTreeCpuSeconds": 11.649999999999999, "meanCpuToWallRatio": 5.262372450829871, "estimated6995FrameHours": 4.262293880585754}
+  ],
+  "decodedRgbHashes": {
+    "159.3": "40c8738501ea60b1bcd6ca695d6e199304ca2cf93fd5e367353b143869bb61ec",
+    "170.0": "9647ebfdd8239f3c0a86425a9599586e02bca48c8b9eaa30f553d81bff4c8f64",
+    "0.8": "0b38150a608999ce7c552a299f7254115a63fb58f67c1b6c953d94e3a19b6822"
+  },
+  "decodedRgbHashesMatchAcrossThreadCountsAndRepeats": true,
+  "glErrors": 0,
+  "recommendation": "Use LP_NUM_THREADS=8 for the single native renderer under the current 8-CPU quota."
+}

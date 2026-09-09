@@ -1,0 +1,52 @@
+{
+  "sourceFingerprint": "472a2924abcefcd9c9f84493a7101f4a391410f8102285d394f09d296f2f62cf",
+  "sourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "bb02b90b28969498d6708935d6d49c502cd5a5e15915703f1796a53d17abaa1a",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "2d07c3e01aef3d7b731e86ed71f877a9525a5118547a571ef31c75dc6b8d4942",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/idle-nonthumb-data.ts": "d2a6dab9f40ae133d3e11fcf75dcd9e77d561888e95da30c0bc3baa8c513b78c",
+    "app/performance/idle-nonthumb.ts": "bd8776755313e90b2ff16b528b3f95c141d733cd27cfd0a9d3efbf54ad3292f5",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "b79c196938d4b33a34b26eaaca7b60cbcaba543e8b16428ec16dee7fe8d00d2a",
+    "app/performance/piano.ts": "e24324b417de257df8760006f0b30954dba8e87d84ca5f6b0b2f8e2afed6797f",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "7e523c79dc00f8daa54f669c33b07018462e4204f7b7768736ed0112c7b2d88b",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467"
+  },
+  "dependencySha256": {
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  "project": "/workspace/scratch/2e8cc8e77f98/climax-fingering-review/render-project",
+  "compiledSha256": {
+    "production/qa/compiled/audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "production/qa/compiled/direction.mjs": "e20e4624ebce87ffafd69fc27b1039360bdcf85c1e6bc4b7bff22c0b2eca43b7",
+    "production/qa/compiled/hair-motion-data.mjs": "15e6dd884f1ac25c6cf4f6ce8dd0a1e4f1582ebaa8a7877028473d7d7229c39a",
+    "production/qa/compiled/idle-nonthumb-data.mjs": "0db49f4d5d178870cc2d53c2b1c51793e136a9357656e673586283e2c9772c07",
+    "production/qa/compiled/idle-nonthumb.mjs": "dc4992f7c353a6a240d8d050c0c09a4bdd6f8907264973257881828640432b45",
+    "production/qa/compiled/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "production/qa/compiled/pianist.mjs": "a8c39cc4fa937d49875a605856f7ed01c4bafd8381542392c34b732060d7b54f",
+    "production/qa/compiled/piano.mjs": "9ebf5ea7a11206571f6655fa750a5083ed3c5935417098b70a01c57d03042127",
+    "production/qa/compiled/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "production/qa/compiled/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "production/qa/compiled/scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "production/qa/compiled/stage.mjs": "af24f9b8a7926437d2591f372fcf4ab9b85af3a4e4b6de44079dda29d807bfa4",
+    "production/qa/compiled/types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "production/qa/compiled/wrist-motion.mjs": "c9f33ac6b0a5064efde8a85fe53a653cc05bf421cee0fe4dc5de39a14e4acf9f"
+  }
+}

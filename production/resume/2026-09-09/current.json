@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T03:39:41.313867+00:00",
+  "updated": "2026-09-09T04:42:41.501094+00:00",
   "scope": "Delivery freeze reopened after first encoded close-up shows unnatural free-finger crossings at159.3s",
   "scoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
   "rigSha256": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
@@ -25,7 +25,7 @@
   "masterStarted": true,
   "fullFilmStarted": true,
   "publicRevisionDeployed": false,
-  "githubCheckpoint": "fbe6a3e616b5dd49216ea98fff1be7a7aacf112a: text snapshot only; binary evidence transfer continues",
+  "githubCheckpoint": "ec50450beda07601c1b2f9734479174b6b12b778: full source through Sites 5f90e17373d5f420f3c12a93c4899385c04250d4, including binary evidence and verified large-file reconstruction manifest",
   "p299MergedParity": {
     "states": 2160,
     "fullHumanSkins": 22,
@@ -38,5 +38,18 @@
   "filmFrames": 6995,
   "filmFps": 30,
   "filmSamples": 2,
-  "fullFilmAccepted": false
+  "fullFilmAccepted": false,
+  "workspaceRecovery": {
+    "realPath": "/workspace/scratch/2e8cc8e77f98/daybreak-site",
+    "compatibilityPath": "/workspace/sites/daybreak-piano-film",
+    "sourceCommit": "5f90e17373d5f420f3c12a93c4899385c04250d4",
+    "dependenciesRestored": true
+  },
+  "candidateStatus": "Climax refingering5c7337e improves held chord, but remains scratch/unqualified with new transition collisions. Separate thumb and nonthumb continuity corrections in progress.",
+  "renderRecommendation": {
+    "LP_NUM_THREADS": 8,
+    "measuredSecondsPerFrame": 2.194,
+    "estimated6995FramesHours": 4.26
+  },
+  "newMasterBrowserRun": "Complete observed UI transport0:00 to3:53. No critical listening or liveWebGL proof."
 }

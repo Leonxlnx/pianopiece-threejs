@@ -1,0 +1,51 @@
+--- a/app/performance/pianist.ts
++++ b/app/performance/pianist.ts
+@@ -445,7 +445,46 @@
+  }
+ }
+ 
++
++function virtualChordRest(player:OriginalPianist,time:number,piano:GrandPiano){
++ const scopes=[{hi:0,begin:159.007812,arrival:159.153206,end:159.374607,finish:159.501539,lanes:[[1,50],[2,47],[3,45]]},{hi:1,begin:158.981206,arrival:159.09974459071665,end:159.65,finish:159.90,lanes:[[0,67],[1,69],[2,71],[3,72],[4,74]]}];
++ for(const scope of scopes){
++  const amount=smooth((time-scope.begin)/(scope.arrival-scope.begin))*(1-smooth((time-scope.end)/(scope.finish-scope.end)));if(!amount)continue;
++  const hand=player.hands[scope.hi],q=hand.wrist.getWorldQuaternion(new THREE.Quaternion());
++  for(const [fi,midi] of scope.lanes){
++   const notes=hand.fingerNotes[fi];if(notes.some(n=>n.time<=time&&n.time+n.duration>time))continue;
++   const previous=notes.filter(n=>n.time+n.duration<=time).at(-1),next=notes.find(n=>n.time>=time),since=previous?time-previous.time-previous.duration:100,before=next?next.time-time:100;
++   const weight=amount*smooth(since/.09)*smooth(before/.12),f=hand.fingers[fi],base=wp(f.bones[0]),reach=f.lengths.reduce((a,b)=>a+b,0),z=base.z-reach*.75,touch=piano.contact(midi,z);touch.y+=.024;if(scope.hi===1){if(time>159.188206)touch.x+=wp(hand.wrist).x-.0796966666666667;if(fi===1)touch.x-=.006;}else if(time>159.159706)touch.x+=wp(hand.wrist).x+.218;
++   const chain=player.fingerPoints(base,touch,f,fi,q,fi===0?1.1:0),points=[base,chain.pip,chain.dip,chain.tip],world=f.bones.map((bone,j)=>{const dir=points[j+1].clone().sub(points[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(f.frameOffsets[j]);});
++   const local=world.map((rotation,j)=>(j===0?q:world[j-1]).clone().invert().multiply(rotation));f.bones.forEach((bone,j)=>{bone.quaternion.slerp(local[j],weight);bone.updateWorldMatrix(false,true);});
++  }
++ }
++}
++
++function liveChordTransitions(player:OriginalPianist,time:number,piano:GrandPiano){
++ if(time<158.95||time>159.85)return;
++ const touched=new Set(['p00719','p00720','p00721','p00722','p00723']),arrivals=new Set([...touched,'p00724','p00725']);
++ for(const hand of player.hands){const q=hand.wrist.getWorldQuaternion(new THREE.Quaternion());
++  for(let fi=0;fi<5;fi++){
++   const notes=hand.fingerNotes[fi];if(notes.some(n=>n.time<=time&&n.time+n.duration>time))continue;
++   const previous=notes.filter(n=>n.time+n.duration<=time).at(-1),next=notes.find(n=>n.time>=time),since=previous?time-previous.time-previous.duration:100,before=next?next.time-time:100;
++   const incoming=next&&arrivals.has(next.id)&&before<.20,outgoing=previous&&touched.has(previous.id)&&since<.18;if(!incoming&&!outgoing)continue;
++   const f=hand.fingers[fi],base=wp(f.bones[0]),reach=f.lengths.reduce((a,b)=>a+b,0),touchOf=(n:Note)=>{const z=n.contactZ??player.contactDepth(base.z,isBlack(n.midi),fi),p=piano.contact(n.midi,z);p.y+=n.contactLift??.002;return p;};
++   let touch:THREE.Vector3,amount:number,opposition=0;
++   if(incoming&&previous&&next!.time-previous.time-previous.duration<.50){
++    const gap=next!.time-previous!.time-previous!.duration,u=clamp(since/gap);touch=touchOf(previous!).lerp(touchOf(next!),smooth(u));touch.y+=.030*Math.sin(u*Math.PI)**2;amount=1;opposition=mix(previous!.thumbOpposition??0,next!.thumbOpposition??0,smooth(u));
++   }else if(incoming){touch=touchOf(next!);touch.y+=.020*smooth(before/.12);amount=smooth((.20-before)/.08);opposition=next!.thumbOpposition??0;}
++   else {
++    const lanes=hand.side==='L'?[55,50,47,45,43]:[67,69,71,72,74],z=base.z-reach*.75,neutral=piano.contact(lanes[fi],z);neutral.y+=.024;neutral.x+=wp(hand.wrist).x-(hand.side==='L'?-.218:.0796966666666667);if(hand.side==='R'&&fi===1)neutral.x-=.006;
++    const u=clamp(since/.09);touch=touchOf(previous!).lerp(neutral,smooth(u));touch.y+=.006*Math.sin(u*Math.PI)**2;amount=(1-smooth((since-.11)/.07))*smooth(before/.07);opposition=previous!.thumbOpposition??0;
++   }
++   const chain=player.fingerPoints(base,touch,f,fi,q,opposition),points=[base,chain.pip,chain.dip,chain.tip],world=f.bones.map((b,j)=>{const dir=points[j+1].clone().sub(points[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(f.frameOffsets[j]);}),local=world.map((rotation,j)=>(j===0?q:world[j-1]).clone().invert().multiply(rotation));
++   f.bones.forEach((bone,j)=>{bone.quaternion.slerp(local[j],amount);bone.updateWorldMatrix(false,true);});
++  }
++ }
++}
++
+ export class Pianist extends OriginalPianist {
+  plannedPose(hand:HandRig,time:number):HandPose{const pose=super.plannedPose(hand,time);if(hand.side==='R'){const w=p299Ease((time-66.18)/(66.30195-66.18))*(1-p299Ease((time-66.54)/(66.668093-66.54)));pose.position.x-=.035*w;for(const [end,start,dy,dz]of[[106.81,106.919774,.020,.024],[107.18,107.269683,.024,0]]){if(time<=end||time>=start)continue;const u=(time-end)/(start-end),w=Math.sin(u*Math.PI)**2;pose.position.y+=dy*w;pose.position.z+=dz*w;}}return pose;}
+- update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){super.update(time,score,piano,pedal,energy);releaseRepair(this,time,piano);p299Idle(this,time);}
+-}
++ update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){super.update(time,score,piano,pedal,energy);releaseRepair(this,time,piano);p299Idle(this,time);virtualChordRest(this,time,piano);liveChordTransitions(this,time,piano);}
++}

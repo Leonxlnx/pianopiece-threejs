@@ -1,0 +1,136 @@
+{
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/final-film-2026-09-09/snapshots/dc1a0bfe8fa61c9a",
+  "sourceFingerprint": "dc1a0bfe8fa61c9ad36be8f82b2fd402cc2c076ad407a3c540c4328b8a4e82b0",
+  "wrapperSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "LP_NUM_THREADS": 4,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "temporalSamples": 2,
+  "shutterDegrees": 180,
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "glVersion": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "initializationSeconds": 6.095376577999559,
+  "warmupPts": 0.8,
+  "warmupSamples": [
+    0.7958333333333334,
+    0.8041666666666667
+  ],
+  "warmupDecodedRgbSha256": "a8ee86a7a7064b565b88fb333520fe46bacaec7c0da947df793bd3b99387c385",
+  "records": [
+    {
+      "threads": 4,
+      "repeat": 1,
+      "pts": 159.3,
+      "samples": [
+        159.29583333333335,
+        159.30416666666667
+      ],
+      "shots": [
+        "Everything opens \u00b7 hands"
+      ],
+      "wallSeconds": 3.705719109999336,
+      "processTreeCpuSeconds": 13.15,
+      "cpuToWallRatio": 3.548569011751772,
+      "decodedRgbSha256": "40c8738501ea60b1bcd6ca695d6e199304ca2cf93fd5e367353b143869bb61ec",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t159.300-r1.png",
+      "pngSha256": "08a00363c4313d7a843b96912d8f6b6f033c32bc88cc9e516a5889c1148e9b0a",
+      "glError": "GL_NO_ERROR"
+    },
+    {
+      "threads": 4,
+      "repeat": 1,
+      "pts": 170.0,
+      "samples": [
+        169.99583333333334,
+        170.00416666666666
+      ],
+      "shots": [
+        "A new breath"
+      ],
+      "wallSeconds": 2.46960064599989,
+      "processTreeCpuSeconds": 7.830000000000002,
+      "cpuToWallRatio": 3.17055310650431,
+      "decodedRgbSha256": "9647ebfdd8239f3c0a86425a9599586e02bca48c8b9eaa30f553d81bff4c8f64",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t170.000-r1.png",
+      "pngSha256": "62d8f805d1d5bb5ae650a2f4439334d13470b31690522f23298077de0b7e4c8f",
+      "glError": "GL_NO_ERROR"
+    },
+    {
+      "threads": 4,
+      "repeat": 1,
+      "pts": 0.8,
+      "samples": [
+        0.7958333333333334,
+        0.8041666666666667
+      ],
+      "shots": [
+        "First light"
+      ],
+      "wallSeconds": 3.265190624000752,
+      "processTreeCpuSeconds": 10.490000000000002,
+      "cpuToWallRatio": 3.2126761368519676,
+      "decodedRgbSha256": "0b38150a608999ce7c552a299f7254115a63fb58f67c1b6c953d94e3a19b6822",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t0.800-r1.png",
+      "pngSha256": "49c770839ec1d4120401eeb4958dcbd4657be2026dd1877bd968d93026789f1b",
+      "glError": "GL_NO_ERROR"
+    },
+    {
+      "threads": 4,
+      "repeat": 2,
+      "pts": 159.3,
+      "samples": [
+        159.29583333333335,
+        159.30416666666667
+      ],
+      "shots": [
+        "Everything opens \u00b7 hands"
+      ],
+      "wallSeconds": 4.091482682999413,
+      "processTreeCpuSeconds": 14.200000000000003,
+      "cpuToWallRatio": 3.470624489992994,
+      "decodedRgbSha256": "40c8738501ea60b1bcd6ca695d6e199304ca2cf93fd5e367353b143869bb61ec",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t159.300-r2.png",
+      "pngSha256": "08a00363c4313d7a843b96912d8f6b6f033c32bc88cc9e516a5889c1148e9b0a",
+      "glError": "GL_NO_ERROR"
+    },
+    {
+      "threads": 4,
+      "repeat": 2,
+      "pts": 170.0,
+      "samples": [
+        169.99583333333334,
+        170.00416666666666
+      ],
+      "shots": [
+        "A new breath"
+      ],
+      "wallSeconds": 2.4257733279991953,
+      "processTreeCpuSeconds": 7.770000000000003,
+      "cpuToWallRatio": 3.203102247978291,
+      "decodedRgbSha256": "9647ebfdd8239f3c0a86425a9599586e02bca48c8b9eaa30f553d81bff4c8f64",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t170.000-r2.png",
+      "pngSha256": "62d8f805d1d5bb5ae650a2f4439334d13470b31690522f23298077de0b7e4c8f",
+      "glError": "GL_NO_ERROR"
+    },
+    {
+      "threads": 4,
+      "repeat": 2,
+      "pts": 0.8,
+      "samples": [
+        0.7958333333333334,
+        0.8041666666666667
+      ],
+      "shots": [
+        "First light"
+      ],
+      "wallSeconds": 3.156513629000983,
+      "processTreeCpuSeconds": 10.190000000000012,
+      "cpuToWallRatio": 3.2282452090108933,
+      "decodedRgbSha256": "0b38150a608999ce7c552a299f7254115a63fb58f67c1b6c953d94e3a19b6822",
+      "png": "/workspace/scratch/2e8cc8e77f98/render-recovery/throughput/lp4-t0.800-r2.png",
+      "pngSha256": "49c770839ec1d4120401eeb4958dcbd4657be2026dd1877bd968d93026789f1b",
+      "glError": "GL_NO_ERROR"
+    }
+  ]
+}
