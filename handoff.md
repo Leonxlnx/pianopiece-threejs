@@ -1,3 +1,5 @@
+> **Latest export recovery:** See `production/resume/2026-09-09/export-recovery/README.md` and `current.json`. A workspace cleanup interrupted rendering; the exact snapshot and50-percent checkpoint were restored, and missing chunks are rendering. Do not use the old session handles below.
+
 > **Current delivery (2026-09-09):** Read `context/DELIVERY-2026-09-09.md` and `production/resume/2026-09-09/current.json` first. Version4 of the revised3:53 performance is published; the new full film is rendering. Earlier snapshot/status statements below are historical.
 
 > **Current continuation:** Read `production/resume/2026-09-09/current.json` and `context/RESUME-2026-09-09.md` before the historical transfer notes. The user authorized continued work here. Final climax integration is accepted with disclosed anatomical limitations; revised master/film/publication are in progress.

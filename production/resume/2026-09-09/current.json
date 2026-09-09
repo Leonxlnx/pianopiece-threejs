@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T07:47:41.909543+00:00",
+  "updated": "2026-09-09T08:49:38.317967+00:00",
   "scope": "Revised release freeze; finite climax integration accepted with disclosed residual mesh intersections",
   "scoreSha256": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467",
   "rigSha256": "24b2214b0b55a4271256ca32174cd0cb07c964386ccc498c2da1020e46670e29",
@@ -26,7 +26,7 @@
   "masterStarted": true,
   "fullFilmStarted": true,
   "publicRevisionDeployed": true,
-  "githubCheckpoint": "85f14d11c0dd5bbd429dcbb4a2b3f05c5aed9b2c: complete source through Sitescb9e66f; half-render receipt is the next incremental update.",
+  "githubCheckpoint": "57926b31649846db9b2a7be8ca24a0bff84f1394 plus pending incremental recovery evidence",
   "p299MergedParity": {
     "states": 2160,
     "fullHumanSkins": 22,
@@ -35,16 +35,17 @@
   "masterVerified": true,
   "masterWavSha256": "c583f9e106c6a046b37fbf1d6227f80a2e969b7aaa5b70d462279e4c39f10f52",
   "masterMp3Sha256": "62b2794cc4870a18ae7e9145bbad7388852a898429f0abde43187760c1ae12c4",
-  "filmJob": "/workspace/scratch/2e8cc8e77f98/final-film-5c-2026-09-09/jobs/e6d834d83ee1afc6",
+  "filmJob": "/workspace/daybreak-film-continued/jobs/e6d834d83ee1afc6",
   "filmFrames": 6995,
   "filmFps": 30,
   "filmSamples": 2,
   "fullFilmAccepted": false,
   "workspaceRecovery": {
-    "realPath": "/workspace/scratch/2e8cc8e77f98/daybreak-site",
-    "compatibilityPath": "/workspace/sites/daybreak-piano-film",
-    "sourceCommit": "5f90e17373d5f420f3c12a93c4899385c04250d4",
-    "dependenciesRestored": true
+    "realPath": "/workspace/daybreak-github-recovered",
+    "compatibilityPath": "/workspace/scratch/2e8cc8e77f98/daybreak-site",
+    "sourceCommit": "57926b31649846db9b2a7be8ca24a0bff84f1394",
+    "dependenciesRestored": true,
+    "allSnapshotHashesMatch": true
   },
   "candidateStatus": "Merged and reviewed; see final-climax-merge/ACCEPTANCE.md",
   "renderRecommendation": {
@@ -75,5 +76,11 @@
     "renderedExport": true
   },
   "filmCompletedFrames": 3540,
-  "filmDurableCheckpointPercent": 50
+  "filmDurableCheckpointPercent": 50,
+  "filmRecovery": "Scratch cleanup interrupted the render at4800 frames. Restored3540 hash-verified frames; exact snapshot reconstruction passed and missing chunks resumed.",
+  "activeToolSessions": {
+    "render": 61633,
+    "finish": 88341,
+    "checkpoints": 65638
+  }
 }

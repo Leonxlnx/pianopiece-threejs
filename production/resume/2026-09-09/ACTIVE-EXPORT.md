@@ -1,3 +1,5 @@
+> Recovery after workspace cleanup: read export-recovery/README.md and current.json first. The old tool handles below expired. Active jobs are render61633, finish88341 and checkpoints65638. Exact snapshot recovery passed; the film resumed from3540 verified frames. Real data: /workspace/daybreak-film-continued.
+
 > Half-render checkpoint saved:3540 frames in total, with the second archive containing1740 additional frames. Its durable ID is libfile_f4bd0be61ed081919a5dfb4954c5f5b7. Read current.json and the live job progress for the latest state.
 
 # Active export checkpoint
