@@ -1,0 +1,2340 @@
+{
+  "rig": "/workspace/scratch/2e8cc8e77f98/hand-runtime/pianist-arms-compact8.mjs",
+  "samples": 1070,
+  "coreSamples": 128,
+  "ownSamples": 20,
+  "neighborSamples": 49,
+  "maxCoreMm": 7.966043037337722,
+  "rows": [
+    {
+      "time": 7.6533595000000005,
+      "side": "R",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 2,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00020",
+      "previousEnd": 7.277744,
+      "next": "p00023",
+      "nextTime": 7.678359
+    },
+    {
+      "time": 8.40959,
+      "side": "R",
+      "maxCoreMm": 5.64528192174929,
+      "coreVertices": 22,
+      "ownPalmPairs": 10,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00023",
+      "previousEnd": 8.385384,
+      "next": "p00025",
+      "nextTime": 8.44759
+    },
+    {
+      "time": 10.791821,
+      "side": "R",
+      "maxCoreMm": 3.7919858578568215,
+      "coreVertices": 14,
+      "ownPalmPairs": 27,
+      "neighbors": [
+        18,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00034",
+      "previousEnd": 10.754615,
+      "next": "p00035",
+      "nextTime": 10.816821
+    },
+    {
+      "time": 16.2153875,
+      "side": "L",
+      "maxCoreMm": 3.1082315286486417,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00056",
+      "previousEnd": 16.205001,
+      "next": "p00059",
+      "nextTime": 16.573829
+    },
+    {
+      "time": 17.5968115,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 17,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00063",
+      "previousEnd": 17.584311999999997,
+      "next": "p00073",
+      "nextTime": 19.348488
+    },
+    {
+      "time": 17.694594000000002,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 1,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00063",
+      "previousEnd": 17.584311999999997,
+      "next": "p00073",
+      "nextTime": 19.348488
+    },
+    {
+      "time": 23.000783499999997,
+      "side": "R",
+      "maxCoreMm": 2.358432524600773,
+      "coreVertices": 5,
+      "ownPalmPairs": 29,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00090",
+      "previousEnd": 22.963656,
+      "next": "p00091",
+      "nextTime": 23.295957
+    },
+    {
+      "time": 29.2823945,
+      "side": "R",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 3,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00119",
+      "previousEnd": 29.173721999999998,
+      "next": "p00124",
+      "nextTime": 29.895396
+    },
+    {
+      "time": 30.929907500000002,
+      "side": "L",
+      "maxCoreMm": 3.332172795695587,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00127",
+      "previousEnd": 30.904908,
+      "next": "p00130",
+      "nextTime": 31.277745
+    },
+    {
+      "time": 43.934893,
+      "side": "R",
+      "maxCoreMm": 6.054340642992012,
+      "coreVertices": 21,
+      "ownPalmPairs": 10,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00189",
+      "previousEnd": 43.901893,
+      "next": "p00191",
+      "nextTime": 43.951893
+    },
+    {
+      "time": 44.6407845,
+      "side": "R",
+      "maxCoreMm": 3.2490844636208216,
+      "coreVertices": 9,
+      "ownPalmPairs": 64,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00193",
+      "previousEnd": 44.63164,
+      "next": "p00194",
+      "nextTime": 44.665785
+    },
+    {
+      "time": 55.872367,
+      "side": "R",
+      "maxCoreMm": 5.052727233845866,
+      "coreVertices": 12,
+      "ownPalmPairs": 45,
+      "neighbors": [
+        23,
+        37,
+        0,
+        0
+      ],
+      "previous": "p00241",
+      "previousEnd": 54.79703,
+      "next": "p00248",
+      "nextTime": 55.906367
+    },
+    {
+      "time": 55.8893665,
+      "side": "R",
+      "maxCoreMm": 4.736210643810801,
+      "coreVertices": 10,
+      "ownPalmPairs": 49,
+      "neighbors": [
+        14,
+        19,
+        0,
+        0
+      ],
+      "previous": "p00241",
+      "previousEnd": 54.79703,
+      "next": "p00248",
+      "nextTime": 55.906367
+    },
+    {
+      "time": 68.58192100000001,
+      "side": "R",
+      "maxCoreMm": 4.22439693758625,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 68.67129,
+      "side": "L",
+      "maxCoreMm": 4.191422550623547,
+      "coreVertices": 17,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00300",
+      "previousEnd": 67.336378,
+      "next": "p00310",
+      "nextTime": 68.776635
+    },
+    {
+      "time": 68.67129,
+      "side": "R",
+      "maxCoreMm": 4.224397078978037,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 68.7793845,
+      "side": "R",
+      "maxCoreMm": 4.224396750437287,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 68.8796155,
+      "side": "R",
+      "maxCoreMm": 4.224396326761082,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.281876,
+      "side": "R",
+      "maxCoreMm": 4.2243970230188,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.29887599999999,
+      "side": "R",
+      "maxCoreMm": 4.224397061730056,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.5817705,
+      "side": "R",
+      "maxCoreMm": 4.2243964962068725,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.63120350000001,
+      "side": "R",
+      "maxCoreMm": 4.224396429931443,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.967231,
+      "side": "R",
+      "maxCoreMm": 4.224397459548501,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 69.988531,
+      "side": "L",
+      "maxCoreMm": 3.5360464369885714,
+      "coreVertices": 21,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00313",
+      "previousEnd": 69.697251,
+      "next": "p00317",
+      "nextTime": 70.155945
+    },
+    {
+      "time": 69.988531,
+      "side": "R",
+      "maxCoreMm": 4.224397498864829,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 70.258926,
+      "side": "R",
+      "maxCoreMm": 4.2243967110732195,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 70.33385899999999,
+      "side": "R",
+      "maxCoreMm": 4.224396568861644,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 70.6611865,
+      "side": "R",
+      "maxCoreMm": 4.224397749539421,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 70.8466005,
+      "side": "R",
+      "maxCoreMm": 4.224397484441256,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00305",
+      "previousEnd": 68.006531,
+      "next": "p00323",
+      "nextTime": 71.203428
+    },
+    {
+      "time": 71.6682575,
+      "side": "R",
+      "maxCoreMm": 6.267515426193526,
+      "coreVertices": 22,
+      "ownPalmPairs": 32,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00323",
+      "previousEnd": 71.651064,
+      "next": "p00329",
+      "nextTime": 72.235155
+    },
+    {
+      "time": 72.895973,
+      "side": "R",
+      "maxCoreMm": 4.224397505374733,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00329",
+      "previousEnd": 72.543064,
+      "next": "p00337",
+      "nextTime": 73.9307
+    },
+    {
+      "time": 73.0534275,
+      "side": "R",
+      "maxCoreMm": 4.224396826792209,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00329",
+      "previousEnd": 72.543064,
+      "next": "p00337",
+      "nextTime": 73.9307
+    },
+    {
+      "time": 73.3813365,
+      "side": "R",
+      "maxCoreMm": 4.224397536019775,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00329",
+      "previousEnd": 72.543064,
+      "next": "p00337",
+      "nextTime": 73.9307
+    },
+    {
+      "time": 73.57779099999999,
+      "side": "R",
+      "maxCoreMm": 4.224397240816358,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00329",
+      "previousEnd": 72.543064,
+      "next": "p00337",
+      "nextTime": 73.9307
+    },
+    {
+      "time": 73.6808995,
+      "side": "R",
+      "maxCoreMm": 3.177815644414661,
+      "coreVertices": 13,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00329",
+      "previousEnd": 72.543064,
+      "next": "p00337",
+      "nextTime": 73.9307
+    },
+    {
+      "time": 79.6302855,
+      "side": "L",
+      "maxCoreMm": 3.6332050235859947,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        36,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00361",
+      "previousEnd": 79.423051,
+      "next": "p00383",
+      "nextTime": 82.934894
+    },
+    {
+      "time": 79.6612025,
+      "side": "L",
+      "maxCoreMm": 3.558316052463817,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00361",
+      "previousEnd": 79.423051,
+      "next": "p00383",
+      "nextTime": 82.934894
+    },
+    {
+      "time": 79.679643,
+      "side": "L",
+      "maxCoreMm": 3.5583160516120538,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00361",
+      "previousEnd": 79.423051,
+      "next": "p00383",
+      "nextTime": 82.934894
+    },
+    {
+      "time": 79.7047185,
+      "side": "L",
+      "maxCoreMm": 3.5583160541891035,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00361",
+      "previousEnd": 79.423051,
+      "next": "p00383",
+      "nextTime": 82.934894
+    },
+    {
+      "time": 83.2583585,
+      "side": "L",
+      "maxCoreMm": 3.118347472181593,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00383",
+      "previousEnd": 83.247973,
+      "next": "p00386",
+      "nextTime": 83.609051
+    },
+    {
+      "time": 85.05418750000001,
+      "side": "L",
+      "maxCoreMm": 3.558312455329893,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00386",
+      "previousEnd": 83.92213,
+      "next": "p00403",
+      "nextTime": 86.321002
+    },
+    {
+      "time": 85.0851045,
+      "side": "L",
+      "maxCoreMm": 3.55831248967331,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00386",
+      "previousEnd": 83.92213,
+      "next": "p00403",
+      "nextTime": 86.321002
+    },
+    {
+      "time": 85.104565,
+      "side": "L",
+      "maxCoreMm": 3.5583124994785775,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00386",
+      "previousEnd": 83.92213,
+      "next": "p00403",
+      "nextTime": 86.321002
+    },
+    {
+      "time": 85.1329205,
+      "side": "L",
+      "maxCoreMm": 3.5583125352599554,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00386",
+      "previousEnd": 83.92213,
+      "next": "p00403",
+      "nextTime": 86.321002
+    },
+    {
+      "time": 87.8411095,
+      "side": "L",
+      "maxCoreMm": 7.780326388180492,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 87.8428595,
+      "side": "L",
+      "maxCoreMm": 7.780326384784986,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 87.859144,
+      "side": "L",
+      "maxCoreMm": 7.78032634716197,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 87.8678595,
+      "side": "L",
+      "maxCoreMm": 7.780326327512355,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 88.2020505,
+      "side": "L",
+      "maxCoreMm": 7.780326902978474,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 88.20830049999999,
+      "side": "L",
+      "maxCoreMm": 7.780326887393829,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00404",
+      "previousEnd": 86.97882,
+      "next": "p00419",
+      "nextTime": 88.743462
+    },
+    {
+      "time": 88.5549915,
+      "side": "R",
+      "maxCoreMm": 4.224398084941794,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00412",
+      "previousEnd": 88.02064899999999,
+      "next": "p00423",
+      "nextTime": 89.480345
+    },
+    {
+      "time": 88.57699149999999,
+      "side": "R",
+      "maxCoreMm": 4.224398126915108,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00412",
+      "previousEnd": 88.02064899999999,
+      "next": "p00423",
+      "nextTime": 89.480345
+    },
+    {
+      "time": 89.61381549999999,
+      "side": "L",
+      "maxCoreMm": 7.720752643093243,
+      "coreVertices": 58,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00419",
+      "previousEnd": 89.425345,
+      "next": "p00427",
+      "nextTime": 90.499668
+    },
+    {
+      "time": 89.6664625,
+      "side": "L",
+      "maxCoreMm": 7.780326275149574,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00419",
+      "previousEnd": 89.425345,
+      "next": "p00427",
+      "nextTime": 90.499668
+    },
+    {
+      "time": 90.104706,
+      "side": "L",
+      "maxCoreMm": 5.680584554571655,
+      "coreVertices": 48,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00419",
+      "previousEnd": 89.425345,
+      "next": "p00427",
+      "nextTime": 90.499668
+    },
+    {
+      "time": 90.104706,
+      "side": "R",
+      "maxCoreMm": 4.224398600400137,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.3371975,
+      "side": "R",
+      "maxCoreMm": 4.224397852198636,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.631152,
+      "side": "R",
+      "maxCoreMm": 4.2243988345812555,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.65326800000001,
+      "side": "R",
+      "maxCoreMm": 4.224398916202632,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.654296,
+      "side": "R",
+      "maxCoreMm": 4.22439891966786,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.6603725,
+      "side": "R",
+      "maxCoreMm": 4.224398939335683,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00423",
+      "previousEnd": 89.85258,
+      "next": "p00440",
+      "nextTime": 92.566623
+    },
+    {
+      "time": 90.97558199999999,
+      "side": "L",
+      "maxCoreMm": 7.966043037337722,
+      "coreVertices": 46,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00427",
+      "previousEnd": 90.821077,
+      "next": "p00435",
+      "nextTime": 91.871804
+    },
+    {
+      "time": 91.0120315,
+      "side": "L",
+      "maxCoreMm": 6.828792074137557,
+      "coreVertices": 44,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00427",
+      "previousEnd": 90.821077,
+      "next": "p00435",
+      "nextTime": 91.871804
+    },
+    {
+      "time": 92.85569400000001,
+      "side": "L",
+      "maxCoreMm": 3.6435257068188065,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00439",
+      "previousEnd": 92.844532,
+      "next": "p00441",
+      "nextTime": 92.894532
+    },
+    {
+      "time": 96.08252449999999,
+      "side": "L",
+      "maxCoreMm": 3.1233809851363565,
+      "coreVertices": 5,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        12,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 96.08427449999999,
+      "side": "L",
+      "maxCoreMm": 3.4931226026573836,
+      "coreVertices": 5,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        20,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 96.09502450000001,
+      "side": "L",
+      "maxCoreMm": 3.6002491871870435,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        36,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 96.1092745,
+      "side": "L",
+      "maxCoreMm": 3.558320693695882,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 96.406484,
+      "side": "L",
+      "maxCoreMm": 3.5583207071031575,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 96.4489335,
+      "side": "L",
+      "maxCoreMm": 3.5583205433945553,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00455",
+      "previousEnd": 95.88747,
+      "next": "p00466",
+      "nextTime": 97.295706
+    },
+    {
+      "time": 98.319434,
+      "side": "L",
+      "maxCoreMm": 3.991071547466918,
+      "coreVertices": 9,
+      "ownPalmPairs": 53,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00470",
+      "previousEnd": 98.294434,
+      "next": "p00474",
+      "nextTime": 98.650843
+    },
+    {
+      "time": 100.42904850000001,
+      "side": "L",
+      "maxCoreMm": 3.143408972653361,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00479",
+      "previousEnd": 100.400049,
+      "next": "p00485",
+      "nextTime": 100.77699
+    },
+    {
+      "time": 101.5796935,
+      "side": "L",
+      "maxCoreMm": 3.5583130359703175,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00485",
+      "previousEnd": 101.329211,
+      "next": "p00511",
+      "nextTime": 104.884302
+    },
+    {
+      "time": 101.6106105,
+      "side": "L",
+      "maxCoreMm": 3.5583129509103584,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00485",
+      "previousEnd": 101.329211,
+      "next": "p00511",
+      "nextTime": 104.884302
+    },
+    {
+      "time": 101.66332650000001,
+      "side": "L",
+      "maxCoreMm": 3.5583127506045864,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00485",
+      "previousEnd": 101.329211,
+      "next": "p00511",
+      "nextTime": 104.884302
+    },
+    {
+      "time": 102.17144049999999,
+      "side": "R",
+      "maxCoreMm": 3.8540670677552624,
+      "coreVertices": 9,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00493",
+      "previousEnd": 102.16269,
+      "next": "p00497",
+      "nextTime": 102.536599
+    },
+    {
+      "time": 105.207004,
+      "side": "L",
+      "maxCoreMm": 3.4178457409385077,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00511",
+      "previousEnd": 105.19738100000001,
+      "next": "p00514",
+      "nextTime": 105.558459
+    },
+    {
+      "time": 107.37418799999999,
+      "side": "L",
+      "maxCoreMm": 7.966040462736745,
+      "coreVertices": 46,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00522",
+      "previousEnd": 107.219683,
+      "next": "p00531",
+      "nextTime": 108.27041
+    },
+    {
+      "time": 107.4236375,
+      "side": "L",
+      "maxCoreMm": 7.599453789194244,
+      "coreVertices": 37,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00522",
+      "previousEnd": 107.219683,
+      "next": "p00531",
+      "nextTime": 108.27041
+    },
+    {
+      "time": 107.74704650000001,
+      "side": "R",
+      "maxCoreMm": 4.224392775335706,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00523",
+      "previousEnd": 107.15555,
+      "next": "p00533",
+      "nextTime": 108.63332
+    },
+    {
+      "time": 107.82541049999999,
+      "side": "R",
+      "maxCoreMm": 4.224392909282337,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00523",
+      "previousEnd": 107.15555,
+      "next": "p00533",
+      "nextTime": 108.63332
+    },
+    {
+      "time": 108.0879555,
+      "side": "R",
+      "maxCoreMm": 4.224391699758301,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00523",
+      "previousEnd": 107.15555,
+      "next": "p00533",
+      "nextTime": 108.63332
+    },
+    {
+      "time": 108.106706,
+      "side": "R",
+      "maxCoreMm": 4.224391654020221,
+      "coreVertices": 14,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00523",
+      "previousEnd": 107.15555,
+      "next": "p00533",
+      "nextTime": 108.63332
+    },
+    {
+      "time": 109.12768349999999,
+      "side": "R",
+      "maxCoreMm": 3.163785207700942,
+      "coreVertices": 7,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00533",
+      "previousEnd": 108.94122899999999,
+      "next": "p00539",
+      "nextTime": 109.647047
+    },
+    {
+      "time": 120.0805135,
+      "side": "L",
+      "maxCoreMm": 2.3869143812762506,
+      "coreVertices": 3,
+      "ownPalmPairs": 26,
+      "neighbors": [
+        25,
+        38,
+        0,
+        0
+      ],
+      "previous": "p00562",
+      "previousEnd": 118.15252699999999,
+      "next": "p00571",
+      "nextTime": 120.10524
+    },
+    {
+      "time": 154.449057,
+      "side": "L",
+      "maxCoreMm": 3.7209376465509036,
+      "coreVertices": 7,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00696",
+      "previousEnd": 154.411057,
+      "next": "p00698",
+      "nextTime": 154.461057
+    },
+    {
+      "time": 159.2612395,
+      "side": "L",
+      "maxCoreMm": 3.558316217750268,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00717",
+      "previousEnd": 159.007812,
+      "next": "p00737",
+      "nextTime": 161.826373
+    },
+    {
+      "time": 159.2921565,
+      "side": "L",
+      "maxCoreMm": 3.5583162268081336,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00717",
+      "previousEnd": 159.007812,
+      "next": "p00737",
+      "nextTime": 161.826373
+    },
+    {
+      "time": 159.3064005,
+      "side": "L",
+      "maxCoreMm": 3.558316224225311,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00717",
+      "previousEnd": 159.007812,
+      "next": "p00737",
+      "nextTime": 161.826373
+    },
+    {
+      "time": 159.30742800000002,
+      "side": "L",
+      "maxCoreMm": 3.558316224106739,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00717",
+      "previousEnd": 159.007812,
+      "next": "p00737",
+      "nextTime": 161.826373
+    },
+    {
+      "time": 159.313706,
+      "side": "L",
+      "maxCoreMm": 3.5583162238063126,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00717",
+      "previousEnd": 159.007812,
+      "next": "p00737",
+      "nextTime": 161.826373
+    },
+    {
+      "time": 164.565269,
+      "side": "L",
+      "maxCoreMm": 3.5583129260600144,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 164.59618600000002,
+      "side": "L",
+      "maxCoreMm": 3.5583129343278452,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 164.61137699999998,
+      "side": "L",
+      "maxCoreMm": 3.5583129266075764,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 164.627377,
+      "side": "L",
+      "maxCoreMm": 3.558312933509389,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 164.63257149999998,
+      "side": "L",
+      "maxCoreMm": 3.5583129414188397,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.291316,
+      "side": "L",
+      "maxCoreMm": 7.780327185820224,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.293066,
+      "side": "L",
+      "maxCoreMm": 7.780327180876623,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.316316,
+      "side": "L",
+      "maxCoreMm": 7.780327119112251,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.31806600000002,
+      "side": "L",
+      "maxCoreMm": 7.7803271155586495,
+      "coreVertices": 29,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        61,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.6441435,
+      "side": "L",
+      "maxCoreMm": 7.780327714404289,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 167.6616435,
+      "side": "L",
+      "maxCoreMm": 7.780327642780249,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00745",
+      "previousEnd": 163.459224,
+      "next": "p00781",
+      "nextTime": 168.173385
+    },
+    {
+      "time": 169.02345400000002,
+      "side": "L",
+      "maxCoreMm": 7.730206275340046,
+      "coreVertices": 59,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00781",
+      "previousEnd": 168.83903999999998,
+      "next": "p00789",
+      "nextTime": 169.889023
+    },
+    {
+      "time": 169.075695,
+      "side": "L",
+      "maxCoreMm": 7.780325636624341,
+      "coreVertices": 60,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00781",
+      "previousEnd": 168.83903999999998,
+      "next": "p00789",
+      "nextTime": 169.889023
+    },
+    {
+      "time": 169.5021745,
+      "side": "L",
+      "maxCoreMm": 5.680584433406577,
+      "coreVertices": 48,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00781",
+      "previousEnd": 168.83903999999998,
+      "next": "p00789",
+      "nextTime": 169.889023
+    },
+    {
+      "time": 170.35336099999998,
+      "side": "L",
+      "maxCoreMm": 7.674464269108339,
+      "coreVertices": 47,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00789",
+      "previousEnd": 170.202856,
+      "next": "p00798",
+      "nextTime": 171.230856
+    },
+    {
+      "time": 170.39002250000001,
+      "side": "L",
+      "maxCoreMm": 7.030709541698266,
+      "coreVertices": 52,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00789",
+      "previousEnd": 170.202856,
+      "next": "p00798",
+      "nextTime": 171.230856
+    },
+    {
+      "time": 173.55420049999998,
+      "side": "L",
+      "maxCoreMm": 3.054948649113931,
+      "coreVertices": 8,
+      "ownPalmPairs": 28,
+      "neighbors": [
+        11,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00812",
+      "previousEnd": 173.5292,
+      "next": "p00815",
+      "nextTime": 173.882871
+    },
+    {
+      "time": 176.86921850000002,
+      "side": "L",
+      "maxCoreMm": 3.3409533461513377,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00832",
+      "previousEnd": 176.844219,
+      "next": "p00835",
+      "nextTime": 177.201552
+    },
+    {
+      "time": 178.203101,
+      "side": "L",
+      "maxCoreMm": 3.661544505226655,
+      "coreVertices": 9,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00840",
+      "previousEnd": 178.185046,
+      "next": "p00845",
+      "nextTime": 178.557874
+    },
+    {
+      "time": 179.5973565,
+      "side": "L",
+      "maxCoreMm": 3.1052903978129875,
+      "coreVertices": 8,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00847",
+      "previousEnd": 179.568357,
+      "next": "p00853",
+      "nextTime": 179.937184
+    },
+    {
+      "time": 179.5973565,
+      "side": "R",
+      "maxCoreMm": 2.7383199147379136,
+      "coreVertices": 11,
+      "ownPalmPairs": 31,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00841",
+      "previousEnd": 178.334184,
+      "next": "p00852",
+      "nextTime": 179.683322
+    },
+    {
+      "time": 180.226805,
+      "side": "R",
+      "maxCoreMm": 5.361340018108618,
+      "coreVertices": 21,
+      "ownPalmPairs": 56,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00852",
+      "previousEnd": 179.943184,
+      "next": "p00855",
+      "nextTime": 180.304012
+    },
+    {
+      "time": 180.71987299999998,
+      "side": "L",
+      "maxCoreMm": 3.6815014172076888,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        34,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00853",
+      "previousEnd": 180.516426,
+      "next": "p00876",
+      "nextTime": 183.285006
+    },
+    {
+      "time": 180.71987299999998,
+      "side": "R",
+      "maxCoreMm": 7.832503527493206,
+      "coreVertices": 42,
+      "ownPalmPairs": 33,
+      "neighbors": [
+        29,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 180.75079,
+      "side": "L",
+      "maxCoreMm": 3.5583171640364286,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00853",
+      "previousEnd": 180.516426,
+      "next": "p00876",
+      "nextTime": 183.285006
+    },
+    {
+      "time": 180.75079,
+      "side": "R",
+      "maxCoreMm": 6.67158410418589,
+      "coreVertices": 28,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        52,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00855",
+      "previousEnd": 180.615839,
+      "next": "p00862",
+      "nextTime": 180.991173
+    },
+    {
+      "time": 180.803506,
+      "side": "L",
+      "maxCoreMm": 3.558316919705873,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00853",
+      "previousEnd": 180.516426,
+      "next": "p00876",
+      "nextTime": 183.285006
+    },
+    {
+      "time": 180.80525599999999,
+      "side": "L",
+      "maxCoreMm": 3.5583169107581414,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00853",
+      "previousEnd": 180.516426,
+      "next": "p00876",
+      "nextTime": 183.285006
+    },
+    {
+      "time": 186.0239025,
+      "side": "L",
+      "maxCoreMm": 3.5912433643320307,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        36,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00890",
+      "previousEnd": 185.814672,
+      "next": "p00921",
+      "nextTime": 189.632018
+    },
+    {
+      "time": 186.0548195,
+      "side": "L",
+      "maxCoreMm": 3.5583143128045114,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00890",
+      "previousEnd": 185.814672,
+      "next": "p00921",
+      "nextTime": 189.632018
+    },
+    {
+      "time": 186.066066,
+      "side": "L",
+      "maxCoreMm": 3.558314296498666,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00890",
+      "previousEnd": 185.814672,
+      "next": "p00921",
+      "nextTime": 189.632018
+    },
+    {
+      "time": 186.08309350000002,
+      "side": "L",
+      "maxCoreMm": 3.5583142799994194,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00890",
+      "previousEnd": 185.814672,
+      "next": "p00921",
+      "nextTime": 189.632018
+    },
+    {
+      "time": 186.10366900000002,
+      "side": "L",
+      "maxCoreMm": 3.5583142968301784,
+      "coreVertices": 3,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        38,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00890",
+      "previousEnd": 185.814672,
+      "next": "p00921",
+      "nextTime": 189.632018
+    },
+    {
+      "time": 191.811994,
+      "side": "L",
+      "maxCoreMm": 7.6744663621891585,
+      "coreVertices": 47,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00932",
+      "previousEnd": 191.661489,
+      "next": "p00941",
+      "nextTime": 192.689489
+    },
+    {
+      "time": 191.811994,
+      "side": "R",
+      "maxCoreMm": 7.900948731201063,
+      "coreVertices": 33,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00933",
+      "previousEnd": 191.61516600000002,
+      "next": "p00950",
+      "nextTime": 194.035823
+    },
+    {
+      "time": 191.861656,
+      "side": "L",
+      "maxCoreMm": 7.493776350372072,
+      "coreVertices": 38,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00932",
+      "previousEnd": 191.661489,
+      "next": "p00941",
+      "nextTime": 192.689489
+    },
+    {
+      "time": 191.861656,
+      "side": "R",
+      "maxCoreMm": 7.5738984065788495,
+      "coreVertices": 31,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00933",
+      "previousEnd": 191.61516600000002,
+      "next": "p00950",
+      "nextTime": 194.035823
+    },
+    {
+      "time": 192.17748949999998,
+      "side": "R",
+      "maxCoreMm": 7.57390068661723,
+      "coreVertices": 31,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00933",
+      "previousEnd": 191.61516600000002,
+      "next": "p00950",
+      "nextTime": 194.035823
+    },
+    {
+      "time": 192.31464699999998,
+      "side": "R",
+      "maxCoreMm": 7.573900454178051,
+      "coreVertices": 31,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00933",
+      "previousEnd": 191.61516600000002,
+      "next": "p00950",
+      "nextTime": 194.035823
+    },
+    {
+      "time": 192.5108225,
+      "side": "R",
+      "maxCoreMm": 7.57389911058326,
+      "coreVertices": 31,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00933",
+      "previousEnd": 191.61516600000002,
+      "next": "p00950",
+      "nextTime": 194.035823
+    },
+    {
+      "time": 194.4930255,
+      "side": "L",
+      "maxCoreMm": 6.905181927108539,
+      "coreVertices": 42,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00949",
+      "previousEnd": 194.324493,
+      "next": "p00958",
+      "nextTime": 195.341504
+    },
+    {
+      "time": 194.49349800000002,
+      "side": "L",
+      "maxCoreMm": 6.955387059015883,
+      "coreVertices": 41,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00949",
+      "previousEnd": 194.324493,
+      "next": "p00958",
+      "nextTime": 195.341504
+    },
+    {
+      "time": 197.793352,
+      "side": "R",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 1,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p00969",
+      "previousEnd": 197.315852,
+      "next": "p00974",
+      "nextTime": 198.006519
+    },
+    {
+      "time": 206.02656249999998,
+      "side": "L",
+      "maxCoreMm": 3.083502643461383,
+      "coreVertices": 6,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01008",
+      "previousEnd": 206.016177,
+      "next": "p01011",
+      "nextTime": 206.40603
+    },
+    {
+      "time": 207.4920915,
+      "side": "L",
+      "maxCoreMm": 0,
+      "coreVertices": 0,
+      "ownPalmPairs": 17,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01015",
+      "previousEnd": 207.479591,
+      "next": "p01021",
+      "nextTime": 208.619445
+    },
+    {
+      "time": 212.4328865,
+      "side": "R",
+      "maxCoreMm": 5.660880703103416,
+      "coreVertices": 19,
+      "ownPalmPairs": 0,
+      "neighbors": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "previous": "p01033",
+      "previousEnd": 212.399886,
+      "next": "p01034",
+      "nextTime": 212.449886
+    }
+  ],
+  "scope": "Actual owned thumb vertices against conservative shrunken key boxes; exact owned thumb/palm/neighbor triangle pairs at all score note midpoints. Candidate still requires full-gap high-rate and visible web review."
+}

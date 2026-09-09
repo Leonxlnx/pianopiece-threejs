@@ -1,0 +1,321 @@
+{
+  "start": 37.284846,
+  "end": 48.540428,
+  "samples": 3648,
+  "heldSamples": 351,
+  "heldCoreMaxMm": 2.182056665105958,
+  "heldOwnPalmMax": 0,
+  "heldActivePairMax": 0,
+  "heldPointMaxMm": 9.771258529840931e-05,
+  "newBad": 5,
+  "newKeyRows": 5,
+  "newPairRows": 0,
+  "newContactRows": 0,
+  "rightQuaternionMaxDelta": 0,
+  "otherActiveSamples": 2401,
+  "otherActiveQuaternionMaxDelta": 0,
+  "outsideQuaternionMaxDelta": 0,
+  "maxKeyWitness": {
+    "time": 40.69170000000003,
+    "patch": "LIndex",
+    "owner": 1,
+    "active": false,
+    "midi": 41,
+    "count": 1,
+    "depth": 3.1813081778738206,
+    "vertex": 7666,
+    "point": [
+      -0.32541869209928775,
+      0.738730951582922,
+      0.26740002083118664
+    ]
+  },
+  "motion": {
+    "baseline": {
+      "tipMps": 3.3029036992455216,
+      "mcpRadps": 71.71915703523251,
+      "tipPeak": [
+        40.70589999999888,
+        40.706899999998875
+      ],
+      "mcpPeak": [
+        40.70489999999888,
+        40.70567933333606
+      ]
+    },
+    "candidate": {
+      "tipMps": 3.011716985701935,
+      "mcpRadps": 75.31910739081303,
+      "tipPeak": [
+        40.70789999999887,
+        40.70889999999887
+      ],
+      "mcpPeak": [
+        40.6968999999989,
+        40.69734600000272
+      ]
+    }
+  },
+  "failures": [
+    {
+      "time": 40.69160000000003,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 1,
+          "depth": 3.0562541498140305,
+          "vertex": 7666,
+          "point": [
+            -0.32554374612734754,
+            0.7386019831791185,
+            0.26756199308145434
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "point": false,
+      "baselineKeys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 43,
+          "count": 8,
+          "depth": 4.535223235964225,
+          "vertex": 9021,
+          "point": [
+            -0.29241019719909267,
+            0.7374647771440154,
+            0.27231059849191575
+          ]
+        },
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 3,
+          "depth": 3.0013213339153966,
+          "vertex": 7657,
+          "point": [
+            -0.32437130216949345,
+            0.7389986790460642,
+            0.24784998552059756
+          ]
+        }
+      ]
+    },
+    {
+      "time": 40.69170000000003,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 1,
+          "depth": 3.1813081778738206,
+          "vertex": 7666,
+          "point": [
+            -0.32541869209928775,
+            0.738730951582922,
+            0.26740002083118664
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "point": false,
+      "baselineKeys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 43,
+          "count": 10,
+          "depth": 4.4879114892425465,
+          "vertex": 9021,
+          "point": [
+            -0.2924359481982183,
+            0.737512088890737,
+            0.272280227768062
+          ]
+        },
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 3,
+          "depth": 2.9362901746053938,
+          "vertex": 7657,
+          "point": [
+            -0.3242918408662571,
+            0.7390637102053742,
+            0.2478560605185991
+          ]
+        }
+      ]
+    },
+    {
+      "time": 40.691800000000036,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 1,
+          "depth": 3.138694859229685,
+          "vertex": 7666,
+          "point": [
+            -0.32529148270757074,
+            0.7388613055207499,
+            0.2672390942238402
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "point": false,
+      "baselineKeys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 43,
+          "count": 10,
+          "depth": 4.440586102167354,
+          "vertex": 9021,
+          "point": [
+            -0.2924614394270219,
+            0.7375594142778122,
+            0.2722499476199139
+          ]
+        },
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 3,
+          "depth": 2.8714182493455587,
+          "vertex": 7657,
+          "point": [
+            -0.32421226373360157,
+            0.739128582130634,
+            0.2478622519379513
+          ]
+        }
+      ]
+    },
+    {
+      "time": 40.69189999999891,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 1,
+          "depth": 3.0072615006587755,
+          "vertex": 7666,
+          "point": [
+            -0.32516275400940553,
+            0.7389927388793208,
+            0.26707923288870716
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "point": false,
+      "baselineKeys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 43,
+          "count": 9,
+          "depth": 4.39324968640642,
+          "vertex": 9021,
+          "point": [
+            -0.2924866719483318,
+            0.7376067506935732,
+            0.2722197604774762
+          ]
+        },
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 2,
+          "depth": 2.8067106191956848,
+          "vertex": 7657,
+          "point": [
+            -0.32413257816280083,
+            0.7391932897607839,
+            0.2478685660212261
+          ]
+        }
+      ]
+    },
+    {
+      "time": 40.69190000000004,
+      "keys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 1,
+          "depth": 3.0072614997719294,
+          "vertex": 7666,
+          "point": [
+            -0.3251627540094034,
+            0.7389927388802077,
+            0.2670792328868252
+          ]
+        }
+      ],
+      "pairs": [],
+      "contacts": [],
+      "point": false,
+      "baselineKeys": [
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 43,
+          "count": 9,
+          "depth": 4.393249686353795,
+          "vertex": 9021,
+          "point": [
+            -0.2924866719483181,
+            0.7376067506936258,
+            0.2722197604773461
+          ]
+        },
+        {
+          "patch": "LIndex",
+          "owner": 1,
+          "active": false,
+          "midi": 41,
+          "count": 2,
+          "depth": 2.806710618982744,
+          "vertex": 7657,
+          "point": [
+            -0.32413257816257174,
+            0.7391932897609969,
+            0.24786856602082286
+          ]
+        }
+      ]
+    }
+  ]
+}

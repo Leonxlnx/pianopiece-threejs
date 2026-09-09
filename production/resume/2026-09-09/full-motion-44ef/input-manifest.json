@@ -1,0 +1,28 @@
+{
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/final-film-2026-09-09/snapshots/dc1a0bfe8fa61c9a",
+  "modelPath": "/workspace/scratch/2e8cc8e77f98/final-film-2026-09-09/snapshots/dc1a0bfe8fa61c9a/public/assets/pianist.glb",
+  "modelSha256": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+  "files": {
+    "runtime/audio.mjs": "074f3f24eb62d590ba5efb798a6390c553e0629a7c947d8fba732078efe16527",
+    "runtime/direction.mjs": "e20e4624ebce87ffafd69fc27b1039360bdcf85c1e6bc4b7bff22c0b2eca43b7",
+    "runtime/hair-motion-data.mjs": "15e6dd884f1ac25c6cf4f6ce8dd0a1e4f1582ebaa8a7877028473d7d7229c39a",
+    "runtime/idle-nonthumb-data.mjs": "0db49f4d5d178870cc2d53c2b1c51793e136a9357656e673586283e2c9772c07",
+    "runtime/idle-nonthumb.mjs": "dc4992f7c353a6a240d8d050c0c09a4bdd6f8907264973257881828640432b45",
+    "runtime/math.mjs": "d8a57dab1cc730eebed02a2a701b8102b2dfb0a571c9aada94071e6b25ed1150",
+    "runtime/pianist.mjs": "dd2b13daa42817f781020b21d038a609a804b492076550519ef2dbc34c138216",
+    "runtime/piano.mjs": "9ebf5ea7a11206571f6655fa750a5083ed3c5935417098b70a01c57d03042127",
+    "runtime/ponytail-motion.mjs": "fbcd48aea9887e0039117ebeff05a2916f1b169674aca65ae35a23f96bfa35c4",
+    "runtime/render-settings.mjs": "3d436b40f7b0f0188d6d8c0f7b93cdb6ac78ad4ec973653f810a7bf76bb60635",
+    "runtime/scene.mjs": "123a8ab5f16c3d29de8b83bdf926f497e84aee4923e753c7f4a377bf462fb381",
+    "runtime/stage.mjs": "af24f9b8a7926437d2591f372fcf4ab9b85af3a4e4b6de44079dda29d807bfa4",
+    "runtime/types.mjs": "8e609bb71c20b858c77f0e9f90bb1319db8477b13f9f965f1a1e18524bf50881",
+    "runtime/wrist-motion.mjs": "c9f33ac6b0a5064efde8a85fe53a653cc05bf421cee0fe4dc5de39a14e4acf9f",
+    "delivery-pianist.ts": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
+    "delivery-score.json": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+    "baseline-score.json": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+    "baseline-original.mjs": "6fea974e1fbc662053a9d3258a520b7b5ae77e391ea75ca780c87fe58a0d736d",
+    "baseline-runnable.mjs": "6c6f0dee11c00cf620623a49eae21def9cb532d3285b342ce5bca8e7bd03a4b9",
+    "accepted-windows.json": "7422875b432cb1c9bc11b600cfe61cd7131d37d3cbebff84c89fac2dad1d015f"
+  },
+  "notes": "Runtime copies are immutable snapshot compiled modules. Baseline source differs only in import paths, using the same frozen shared dependencies; original source retained for its exact hash."
+}

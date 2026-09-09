@@ -1,0 +1,422 @@
+[
+  {
+    "source": "build-final.py",
+    "stored": "build-final.py",
+    "sourceSha256": "e244c3186ebc148a94bf69f6b6626bfbc9583d8db9ace4a30971fc6eeb8b1c1f",
+    "sourceBytes": 3003
+  },
+  {
+    "source": "audit-baseline-final.json",
+    "stored": "audit-baseline-final.json.gz",
+    "sourceSha256": "91ec2132f4632c42d18e890dd4f9c259d40af29224dd2738a610aa01bf7eb37a",
+    "sourceBytes": 2941691
+  },
+  {
+    "source": "build-neutral.py",
+    "stored": "build-neutral.py",
+    "sourceSha256": "0cd8097a4aa977d6785289908606a447ec186c47688b3c1d7557368e50453e23",
+    "sourceBytes": 3891
+  },
+  {
+    "source": "build-initial.py",
+    "stored": "build-initial.py",
+    "sourceSha256": "2786a41241c759b37b5d775afcbc8472c6c01f356e14c418b8d78c1e3b27a438",
+    "sourceBytes": 1485
+  },
+  {
+    "source": "README.md",
+    "stored": "README.md",
+    "sourceSha256": "7c4abd5d46ffcf77b580dd8e55122e6f57683b793842dd1cb120e26ed815e81a",
+    "sourceBytes": 2833
+  },
+  {
+    "source": "guard-extension.ts",
+    "stored": "guard-extension.ts",
+    "sourceSha256": "c6f3a93216bf6b005465b0f16ec5bfb4952284a1d096a97f815cb2177b85ba52",
+    "sourceBytes": 1668
+  },
+  {
+    "source": "trace-baseline.json",
+    "stored": "trace-baseline.json",
+    "sourceSha256": "6f67c820f27748ce4db5274fdc89c5cd1dae082a2f67d4aeab467f824bca7df8",
+    "sourceBytes": 2039
+  },
+  {
+    "source": "audit-candidate-final.json",
+    "stored": "audit-candidate-final.json.gz",
+    "sourceSha256": "0951ffd72cf1b18bde42e418356812872b317271bb039165647a0403760f82a5",
+    "sourceBytes": 2769725
+  },
+  {
+    "source": "per-key-final.json",
+    "stored": "per-key-final.json",
+    "sourceSha256": "064d3e60c1b3ffea6cb6241793b6e24af123c3233d6b059429a10340c4e61387",
+    "sourceBytes": 9304
+  },
+  {
+    "source": "build-pre-index-bump.py",
+    "stored": "build-pre-index-bump.py",
+    "sourceSha256": "7c1e7be6aa3f8b17ec5863563c68e545525aa28fd3ca4fd75310a1f2ccad7fd9",
+    "sourceBytes": 2894
+  },
+  {
+    "source": "trace.mjs",
+    "stored": "trace.mjs",
+    "sourceSha256": "ad62199ea0b56c0f4620d2cf4dd27c012bb6d02c8eec158765a8879d2919dcc1",
+    "sourceBytes": 293
+  },
+  {
+    "source": "candidate-scan.json",
+    "stored": "candidate-scan.json",
+    "sourceSha256": "fee03d3f106290eab1bd3bd07276e8cd27e1974c708e52aff66ab4e2346c6db2",
+    "sourceBytes": 916669
+  },
+  {
+    "source": "candidate-score.json",
+    "stored": "candidate-score.json",
+    "sourceSha256": "75d3744b4b8f399d30c8f84f9a8c5cfe0358198691e04fcd19737260041ca307",
+    "sourceBytes": 422449
+  },
+  {
+    "source": "compile-guard.mjs",
+    "stored": "compile-guard.mjs",
+    "sourceSha256": "ff0a901050c56972f9729ff042caae124e72d1db2efc2d486dd9102f4875e8de",
+    "sourceBytes": 506
+  },
+  {
+    "source": "guard-parity.json",
+    "stored": "guard-parity.json",
+    "sourceSha256": "46ea48f60ce71874b9fd0d9ed6af993bad2577884a5058cad1eaaad7b1a51d8d",
+    "sourceBytes": 43
+  },
+  {
+    "source": "guard-runtime.ts",
+    "stored": "guard-runtime.ts",
+    "sourceSha256": "f7a9ded6faea0ac4d14856456c0387a2e653f6cadbf3a371757c2758cf8279d0",
+    "sourceBytes": 58858
+  },
+  {
+    "source": "audit-candidate.json",
+    "stored": "audit-candidate.json.gz",
+    "sourceSha256": "426b0333ee44df319c44ecd6ec3d1144d476805926a2a68fcccabfb251440326",
+    "sourceBytes": 2424818
+  },
+  {
+    "source": "final-scan.json",
+    "stored": "final-scan.json",
+    "sourceSha256": "8ea9f030b707daac60e4f4e35682caed2eb47effb5145baf1cd8e60cdc5564f4",
+    "sourceBytes": 893023
+  },
+  {
+    "source": "ring20-scan.json",
+    "stored": "ring20-scan.json",
+    "sourceSha256": "2fb9c90f1fc211f827d57370958f55cb12a8e6aefb337465c9f71918dd7d079f",
+    "sourceBytes": 890099
+  },
+  {
+    "source": "polish-regressions.json",
+    "stored": "polish-regressions.json",
+    "sourceSha256": "6f69dd11c4a9484026f568a643d47f93994a47c15d69caea3caef5f2721b2008",
+    "sourceBytes": 2333
+  },
+  {
+    "source": "GATES.md",
+    "stored": "GATES.md",
+    "sourceSha256": "7a8ad1d7366d78bf0b504ea9792a079f56945ccc995f3f631c09301364f018e6",
+    "sourceBytes": 2042
+  },
+  {
+    "source": "ring20.mjs",
+    "stored": "ring20.mjs",
+    "sourceSha256": "7657e33d7ff5d4a9d95edc73055130376293710183ae1fd546102476a62a7bdb",
+    "sourceBytes": 72050
+  },
+  {
+    "source": "baseline-trace.mjs",
+    "stored": "baseline-trace.mjs",
+    "sourceSha256": "a6ba0936b31e8ec33c6c2aeb9c8deabb055c3fe04973f36e8792d5054a15f32d",
+    "sourceBytes": 70846
+  },
+  {
+    "source": "finite-ramp-results.json",
+    "stored": "finite-ramp-results.json",
+    "sourceSha256": "2870a529fb17b7dae1158ed3b3637cc1992c45713feaca7bb9481f75730b2091",
+    "sourceBytes": 123846
+  },
+  {
+    "source": "guard-native.ts",
+    "stored": "guard-native.ts",
+    "sourceSha256": "3c8805716b7b98fad86324a2cb44d6dfe119dafe94cad8c3755c190cfab61cea",
+    "sourceBytes": 58973
+  },
+  {
+    "source": "build-ramp-experiments.py",
+    "stored": "build-ramp-experiments.py",
+    "sourceSha256": "fcafa86a9bbf53c0d619c6cce6fe441472f747f7495f065521b8e7de1bdbc20c",
+    "sourceBytes": 4436
+  },
+  {
+    "source": "compile-guard-runtime.mjs",
+    "stored": "compile-guard-runtime.mjs",
+    "sourceSha256": "14072e1ab3e9a6e4ec2168b136e3d3221edb9672b2a4fd27b0f16d699d255b10",
+    "sourceBytes": 515
+  },
+  {
+    "source": "rejected-score-delta.json",
+    "stored": "rejected-score-delta.json",
+    "sourceSha256": "15c26ef8a1e1d79ee2281f748ad2e12f2192af2c0a97f3e175599f1bbc9df466",
+    "sourceBytes": 796
+  },
+  {
+    "source": "baseline-scan.json",
+    "stored": "baseline-scan.json",
+    "sourceSha256": "c1ad00a6650f52147f532a57f05d9495782cecf77a0ea72f934b00f4f735fa8b",
+    "sourceBytes": 939449
+  },
+  {
+    "source": "guard-compiled.mjs",
+    "stored": "guard-compiled.mjs",
+    "sourceSha256": "7e13e29b2198d371fde24cff4f71abdaabc8ac7e28c95ebff9409020da1c2d3e",
+    "sourceBytes": 73295
+  },
+  {
+    "source": "audit-guard.json",
+    "stored": "audit-guard.json.gz",
+    "sourceSha256": "ae727a95ce4f80e8e66ef7d9f55daad2d7333ca907c64ff631bbd9594ccf4b0b",
+    "sourceBytes": 2773189
+  },
+  {
+    "source": "harness.mjs",
+    "stored": "harness.mjs",
+    "sourceSha256": "6fa62a985310b1278b4810cc84cf47b37036693811cb068543f8b680ae733187",
+    "sourceBytes": 8022
+  },
+  {
+    "source": "final-per-key.json",
+    "stored": "final-per-key.json",
+    "sourceSha256": "81e0070b14f06abb4484e5822b7de1112821543e35a2b4aa9589a17324d2cf50",
+    "sourceBytes": 3040
+  },
+  {
+    "source": "guard-runtime-parity.json",
+    "stored": "guard-runtime-parity.json",
+    "sourceSha256": "46ea48f60ce71874b9fd0d9ed6af993bad2577884a5058cad1eaaad7b1a51d8d",
+    "sourceBytes": 43
+  },
+  {
+    "source": "candidate-native.ts",
+    "stored": "candidate-native.ts",
+    "sourceSha256": "ae4dacb756ff1d1fc6d13e88b2b3278be3f8c49c2ca2d03c83c3bf4651ff3742",
+    "sourceBytes": 58837
+  },
+  {
+    "source": "per-key-audit.json",
+    "stored": "per-key-audit.json",
+    "sourceSha256": "a3646e35ce1324b63303bf792095bfcb025a527619084555d3c3a72bc6fa3faa",
+    "sourceBytes": 1201
+  },
+  {
+    "source": "audit-baseline.json",
+    "stored": "audit-baseline.json.gz",
+    "sourceSha256": "6aeefa414eb2e7b7e8531e7afab2f93d1b8ad5da14cf806c0384ff18eb8f254a",
+    "sourceBytes": 2593158
+  },
+  {
+    "source": "compile-parity.mjs",
+    "stored": "compile-parity.mjs",
+    "sourceSha256": "47b14500ee45fba1c48059fd374656ce98491c5ffc20a748591f0fa0882fa581",
+    "sourceBytes": 511
+  },
+  {
+    "source": "guard.mjs",
+    "stored": "guard.mjs",
+    "sourceSha256": "855646cabdffe645612b823750ae0b6f66f9fdd530e584fbd8a54aa2a3639f2b",
+    "sourceBytes": 72263
+  },
+  {
+    "source": "scan.mjs",
+    "stored": "scan.mjs",
+    "sourceSha256": "cf4c97fcfbe2f9870d86be3aba456ff6f4d1360e90f1b9aafc1ab40834dcffdd",
+    "sourceBytes": 1679
+  },
+  {
+    "source": "guard-per-key.json",
+    "stored": "guard-per-key.json",
+    "sourceSha256": "03218b4417760ebf2daa0007da8db346c5600333ec611019626ceb3e6a08e19d",
+    "sourceBytes": 8035
+  },
+  {
+    "source": "candidate.mjs",
+    "stored": "candidate.mjs",
+    "sourceSha256": "1a190eadef3034b73d10c192a43c993b1cb9e66d31bd207b317bf69982282d52",
+    "sourceBytes": 72157
+  },
+  {
+    "source": "handoff.json",
+    "stored": "handoff.json",
+    "sourceSha256": "d0d68d651dd0c68e229b010251271f1707292c0261b908c08a7752260e9f8df5",
+    "sourceBytes": 19525
+  },
+  {
+    "source": "finite.mjs",
+    "stored": "finite.mjs",
+    "sourceSha256": "b7af9679e7a93920c0fb4bd226fc792f2f5c5e0d0abc5650db1c750692c73247",
+    "sourceBytes": 1034
+  },
+  {
+    "source": "guard-runtime-compiled.mjs",
+    "stored": "guard-runtime-compiled.mjs",
+    "sourceSha256": "6898c278ca065d73553cc40b40e09d25ec7249b7d14fcef58ea0fd3e7f16cbd3",
+    "sourceBytes": 72981
+  },
+  {
+    "source": "guard-runtime-parity.mjs",
+    "stored": "guard-runtime-parity.mjs",
+    "sourceSha256": "446d93761b493c9b2b2aa16b2227cb219138d7c2a916839f58ad3077b259e5a0",
+    "sourceBytes": 810
+  },
+  {
+    "source": "build.py",
+    "stored": "build.py",
+    "sourceSha256": "fcafa86a9bbf53c0d619c6cce6fe441472f747f7495f065521b8e7de1bdbc20c",
+    "sourceBytes": 4436
+  },
+  {
+    "source": "GUARD_REVIEW.md",
+    "stored": "GUARD_REVIEW.md",
+    "sourceSha256": "fe1bb6aa4ef50ca64dccca3d07568ea3c1b54d8b4b91cb0397715f8888383f84",
+    "sourceBytes": 3577
+  },
+  {
+    "source": "ring15-scan.json",
+    "stored": "ring15-scan.json",
+    "sourceSha256": "b9237767a3b3bd65f63ea4ddf9616d5a79ede24facd1d425bb13513f868edb76",
+    "sourceBytes": 889754
+  },
+  {
+    "source": "guard-extension.js",
+    "stored": "guard-extension.js",
+    "sourceSha256": "43038eac8cbe813744806deee702cf4bf666d6bd36b6e3d3d5306a3e0111905c",
+    "sourceBytes": 1511
+  },
+  {
+    "source": "guard-handoff.json",
+    "stored": "guard-handoff.json",
+    "sourceSha256": "9345115ec8cd3cfa28f651f22969f50d91dd8c7c9d5547e9155a9b51def992bf",
+    "sourceBytes": 19334
+  },
+  {
+    "source": "parity.mjs",
+    "stored": "parity.mjs",
+    "sourceSha256": "b1b2678b7cdf8f01ded666108cff538955ef506589de4dc48c8aa75afa763f73",
+    "sourceBytes": 813
+  },
+  {
+    "source": "ring15.mjs",
+    "stored": "ring15.mjs",
+    "sourceSha256": "0fc1aa638c0aa3eb878f0aa6b5e2e7c90b3d9b4f8f635f79da4073b8da7a137d",
+    "sourceBytes": 72048
+  },
+  {
+    "source": "guard-delta.json",
+    "stored": "guard-delta.json",
+    "sourceSha256": "d145bdc68b8053d894dba36fa696dae1e68bc3c0d8e59006ee7fa60185f19a00",
+    "sourceBytes": 2447
+  },
+  {
+    "source": "finalize.py",
+    "stored": "finalize.py",
+    "sourceSha256": "8f435a4a61a0b981702c030a4c8a2dd82475304607b89d9bf624a37aae580f55",
+    "sourceBytes": 5291
+  },
+  {
+    "source": "native-parity.json",
+    "stored": "native-parity.json",
+    "sourceSha256": "46ea48f60ce71874b9fd0d9ed6af993bad2577884a5058cad1eaaad7b1a51d8d",
+    "sourceBytes": 43
+  },
+  {
+    "source": "candidate-trace.mjs",
+    "stored": "candidate-trace.mjs",
+    "sourceSha256": "2db1b9da8111bde953569709ba7ebd31709906b5cba297e0bf50266246c0a405",
+    "sourceBytes": 72464
+  },
+  {
+    "source": "metrics.mjs",
+    "stored": "metrics.mjs",
+    "sourceSha256": "519ef162647ff3ee2ea654c3863b8a370730f61143f1367b5c0fa461008ce4b0",
+    "sourceBytes": 2862
+  },
+  {
+    "source": "guard-parity.mjs",
+    "stored": "guard-parity.mjs",
+    "sourceSha256": "d9064b126f0bbba062c6b322ae0d680fb18804bbcd3fe6ca299d2b7a18c92a18",
+    "sourceBytes": 802
+  },
+  {
+    "source": "audit-final.mjs",
+    "stored": "audit-final.mjs",
+    "sourceSha256": "5ae7ea4f02ebb57ee9f4d9cf6d76d5545b325283367f7c0e212dd8cd8a150246",
+    "sourceBytes": 2602
+  },
+  {
+    "source": "build-guard.py",
+    "stored": "build-guard.py",
+    "sourceSha256": "29ceb6ca41e614b8281da01f6f77a5ad14f497b268d940193c33f9918794954f",
+    "sourceBytes": 1476
+  },
+  {
+    "source": "trace-candidate.json",
+    "stored": "trace-candidate.json",
+    "sourceSha256": "a0ab31318146549d4853bb9c7ec9b820bd5470915a961ee87bddee994c696413",
+    "sourceBytes": 1717
+  },
+  {
+    "source": "finite-lift-results.json",
+    "stored": "finite-lift-results.json",
+    "sourceSha256": "fc94df8c7007180ab7ba731bc8e17a7150d54b85be24a6aaf51df9d1e7bd4c55",
+    "sourceBytes": 193053
+  },
+  {
+    "source": "native-compiled.mjs",
+    "stored": "native-compiled.mjs",
+    "sourceSha256": "0544ec4add85027a81a32ef06ee40b52af04951293bfe9709dfd5bc40833c7d7",
+    "sourceBytes": 73042
+  },
+  {
+    "source": "finalize-guard.py",
+    "stored": "finalize-guard.py",
+    "sourceSha256": "120d38dfe8829cbd1ec66447e1c5cd849241fc1b32cf646ed7d3ebab277dc88f",
+    "sourceBytes": 5368
+  },
+  {
+    "source": "finite-results.json",
+    "stored": "finite-results.json",
+    "sourceSha256": "b80360ee3bbfd7aebd56d39dd47f32da121bc5be53f1e59eaca01e2585e19ad2",
+    "sourceBytes": 397077
+  },
+  {
+    "source": "candidate-extension.js",
+    "stored": "candidate-extension.js",
+    "sourceSha256": "e273070753fe67037b9e05b3aad644f975a27e5242d3beba102285e45f2fe7fd",
+    "sourceBytes": 1621
+  },
+  {
+    "source": "regressions.json",
+    "stored": "regressions.json",
+    "sourceSha256": "56f6672eb876acc381b2ff35e5b18710fa832fec8db5ee41a6e2cb86d2addd08",
+    "sourceBytes": 14017
+  },
+  {
+    "source": "polish-scan.json",
+    "stored": "polish-scan.json",
+    "sourceSha256": "b7617a8b91c44ddcb83e79146be5f2e70a9a3a0b892811e4773b6c1b46bbcddc",
+    "sourceBytes": 894698
+  },
+  {
+    "source": "build-lift-sine.py",
+    "stored": "build-lift-sine.py",
+    "sourceSha256": "92429b69360495fb07dd6da19dd0f48a3e0c118872857ec565dc0fe520282123",
+    "sourceBytes": 4415
+  }
+]

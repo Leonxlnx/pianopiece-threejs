@@ -1,0 +1,215 @@
+{
+  "allPassed": true,
+  "scoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+  "audioEventSha256": "d4abc370cd809827525320629f10d67c8891c11d1e6db4c30b60e7f6d1ae8021",
+  "sampleCountVerified": 160,
+  "events": {
+    "noteCount": 1068,
+    "allNoteFieldsAndSourceMappingsMatch": true,
+    "allPedalFramesMatch": true,
+    "maximumTimestampRoundingErrorSeconds": 1.133786848228624e-05,
+    "sourceRecordingsUsed": 74
+  },
+  "wav": {
+    "filename": "daybreak-solo-master.wav",
+    "sha256": "afcb533eb48a6d0a7755ecc5add347307a30aab163806c5b55541ea0b29e6054",
+    "decodedFrames": 10281660,
+    "decodedDurationSeconds": 233.14421768707484,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "pcm_s24le",
+    "finitePcm": true,
+    "fullDecodePassed": true,
+    "clippedSampleCount": 0,
+    "samplePeakDbfs": -1.6499997589651147,
+    "containerStartTimeSeconds": 0.0,
+    "integratedLufs": -18.99,
+    "truePeakDbtp": -1.65,
+    "loudnessRangeLu": 7.7
+  },
+  "mp3": {
+    "filename": "daybreak-solo-master.mp3",
+    "sha256": "9af8d712a1a84d34ebd592a1b969472e5f78b36663976282b0f415dd7545b41d",
+    "decodedFrames": 10281660,
+    "decodedDurationSeconds": 233.14421768707484,
+    "sampleRate": 44100,
+    "channels": 2,
+    "codec": "mp3",
+    "finitePcm": true,
+    "fullDecodePassed": true,
+    "clippedSampleCount": 0,
+    "samplePeakDbfs": -1.650603897886283,
+    "containerStartTimeSeconds": 0.025057,
+    "integratedLufs": -18.99,
+    "truePeakDbtp": -1.65,
+    "loudnessRangeLu": 7.7
+  },
+  "codecAlignment": {
+    "lagChecks": [
+      {
+        "referenceStartSeconds": 1.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 35.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 100.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 185.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 224.6,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      }
+    ],
+    "errorRelativeRmsDb": -59.9248289371241
+  },
+  "premasterToMasterAlignment": {
+    "lagChecks": [
+      {
+        "referenceStartSeconds": 1.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 35.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 100.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 185.0,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      },
+      {
+        "referenceStartSeconds": 224.6,
+        "lagSamples": 0,
+        "lagMilliseconds": 0.0
+      }
+    ],
+    "errorRelativeRmsDb": -7.522685803925777
+  },
+  "excerpts": [
+    {
+      "label": "first-theme",
+      "wav": {
+        "filename": "daybreak-first-theme-excerpt.wav",
+        "sha256": "42a2bdc1f6380d692fd7a2dce6b7e6ca7363b9d308f152724df64754f669087b",
+        "decodedFrames": 1543500,
+        "decodedDurationSeconds": 35.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -6.058706763758032,
+        "containerStartTimeSeconds": 0.0
+      },
+      "mp3": {
+        "filename": "daybreak-first-theme-excerpt.mp3",
+        "sha256": "e174983360ba2512ad99781eaf14f8c824aeaeab0a3a92c931af4216691c3ecf",
+        "decodedFrames": 1543500,
+        "decodedDurationSeconds": 35.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "mp3",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -6.057884169511317,
+        "containerStartTimeSeconds": 0.025057
+      },
+      "codecAlignment": {
+        "lagChecks": [
+          {
+            "referenceStartSeconds": 0.1,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 17.5,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 33,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          }
+        ],
+        "errorRelativeRmsDb": -63.78690983512179
+      }
+    },
+    {
+      "label": "climax",
+      "wav": {
+        "filename": "daybreak-climax-excerpt.wav",
+        "sha256": "9c8eaf514b29a799b6596eac97b5ba8deac6dab4e37249ef32645e5044969440",
+        "decodedFrames": 1323000,
+        "decodedDurationSeconds": 30.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "pcm_s24le",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -1.6499997589651147,
+        "containerStartTimeSeconds": 0.0
+      },
+      "mp3": {
+        "filename": "daybreak-climax-excerpt.mp3",
+        "sha256": "e9a3ef872f91f427894346c14d91f13ab9751ccc000e7aa783693c528b18db5f",
+        "decodedFrames": 1323000,
+        "decodedDurationSeconds": 30.0,
+        "sampleRate": 44100,
+        "channels": 2,
+        "codec": "mp3",
+        "finitePcm": true,
+        "fullDecodePassed": true,
+        "clippedSampleCount": 0,
+        "samplePeakDbfs": -1.6476599780179966,
+        "containerStartTimeSeconds": 0.025057
+      },
+      "codecAlignment": {
+        "lagChecks": [
+          {
+            "referenceStartSeconds": 0.1,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 15.0,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          },
+          {
+            "referenceStartSeconds": 28,
+            "lagSamples": 0,
+            "lagMilliseconds": 0.0
+          }
+        ],
+        "errorRelativeRmsDb": -57.01959485116462
+      }
+    }
+  ],
+  "creditsPreserved": true,
+  "criticalListeningPerformed": false,
+  "criticalListeningLimitation": "These are decoded signal and input-integrity checks, not a listening judgment.",
+  "verifierSha256": "424d070b8ca6a786d861f315348d4732f0bd621b65d572e8aa6ea770a1f51531"
+}

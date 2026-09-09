@@ -6,10 +6,10 @@ Scope: Recover the reviewed working source, resolve the remaining visible perfor
   EVIDENCE: app-parity.json: 13,356 time samples, 54 full Human mesh samples, exact zero local quaternion/world matrix/skin differences. Guarded restore and targeted strict performance typecheck passed.
 - [ ] G2: Complete the interrupted idle replay and address the remaining visible raised-finger and joint-twist defects, using actual mesh and moving-key evidence.
   EVIDENCE: Full frozen-v11 idle replay completed; new cutoff/RH transfer/bass geometry deltas merged with exact parity at 1,101 states and 13 full Human skins. See merged-review/README.md and leaf-evidence. Remaining finite defects and motion tradeoffs prevent a whole-hand completion claim.
-- [ ] G3: Master the original revised score with the licensed samples and verify exact score, audio duration and synchronization.
-  EVIDENCE: pending
+- [x] G3: Master the original revised score with the licensed samples and verify exact score, audio duration and synchronization.
+  EVIDENCE: final-master/release-verification.json allPassed; exact score44ef4cdc, 1,068 notes, 160 verified sources,10,281,660 decoded stereo frames, -18.99 LUFS/-1.65 dBTP, zero measured lag at five passages. Critical listening remains unavailable.
 - [ ] G4: Build and verify the revised browser performance through the supported browser path.
-  EVIDENCE: Strict performance TypeScript passes. Supported browser audio-only transport completed; WebGL reports disabled. Fresh production build and final-source playback remain pending.
+  EVIDENCE: Strict performance TypeScript passes. Supported browser audio-only transport completed; WebGL reports disabled. Fresh production build passed after all accepted hand changes. Final-source browser playback remains pending.
 - [ ] G5: Export, inspect, verify and save the full revised desktop film.
   EVIDENCE: pending
 - [ ] G6: Publish the revision to the existing public Site and verify public delivery.

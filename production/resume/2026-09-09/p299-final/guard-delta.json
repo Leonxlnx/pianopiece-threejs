@@ -1,0 +1,118 @@
+{
+  "noteDeltas": [
+    {
+      "id": "p00296",
+      "beforeEnd": 66.27795,
+      "afterEnd": 66.18,
+      "changes": {
+        "duration": {
+          "before": 0.686786,
+          "after": 0.5888360000000006
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.686786
+        }
+      }
+    },
+    {
+      "id": "p00299",
+      "beforeEnd": 66.64309300000001,
+      "afterEnd": 66.54,
+      "changes": {
+        "duration": {
+          "before": 0.341143,
+          "after": 0.2380500000000012
+        },
+        "finger": {
+          "before": 2,
+          "after": 5
+        },
+        "contactLift": {
+          "before": 0.003008,
+          "after": 0.003
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.341143
+        },
+        "contactZ": {
+          "before": null,
+          "after": 0.27
+        }
+      }
+    }
+  ],
+  "wrist": {
+    "side": "R",
+    "axis": "x",
+    "offsetM": -0.035,
+    "entry": [
+      66.18,
+      66.30195
+    ],
+    "exit": [
+      66.54,
+      66.668093
+    ],
+    "easing": "quintic smootherstep",
+    "scoreWristFieldsUnchanged": true
+  },
+  "idleMCP": [
+    {
+      "finger": 2,
+      "previous": "p00285",
+      "next": "p00302",
+      "degrees": 10,
+      "entry": [
+        65.9,
+        66.03
+      ],
+      "arrivalTime": 67.016236,
+      "arrivalRamp": 0.27,
+      "easing": "quintic smootherstep"
+    },
+    {
+      "finger": 4,
+      "previous": "p00296",
+      "next": "p00301",
+      "degrees": 15,
+      "releaseRamp": 0.1,
+      "arrivalRamp": 0.1,
+      "easing": "quintic smootherstep"
+    }
+  ],
+  "pinkyCurve": {
+    "patch": "RPinky",
+    "interval": [
+      68.32,
+      68.448307
+    ],
+    "before": {
+      "previous": "p00293",
+      "previousEnd": 65.563664
+    },
+    "after": {
+      "previous": "p00299",
+      "previousEnd": 66.54
+    },
+    "next": "p00309",
+    "nextTime": 68.448307,
+    "knotsUnchanged": true,
+    "status": "part of frozen parent-review candidate"
+  },
+  "nextEnvelopeGuard": {
+    "side": "R",
+    "fi": 1,
+    "previous": "p00285",
+    "previousEnd": 64.184354,
+    "next": "p00302",
+    "nextTime": 67.016236,
+    "authoredScalar": 0.14897594070608658,
+    "holdThrough": 65.7,
+    "fadeToCurrentBy": 65.9,
+    "easing": "existing cubic smooth",
+    "replaces": "Only the next-contact envelope before its Math.min with other current guards",
+    "fictitiousNoteAnchor": false
+  }
+}

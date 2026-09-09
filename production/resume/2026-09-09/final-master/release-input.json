@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted-final",
+  "scoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+  "audioEventSha256": "d4abc370cd809827525320629f10d67c8891c11d1e6db4c30b60e7f6d1ae8021",
+  "sourceScorePath": "/workspace/sites/daybreak-piano-film/public/assets/score.json",
+  "sampleRoot": "/workspace/scratch/2e8cc8e77f98/audio-recovery/legal160",
+  "sampleCount": 160,
+  "baseRendererSha256": "5a6fc11d10be387e9b229fcaf829304e9769273968791ae46a199688bb2a0cb1",
+  "rendererDspUnmodified": true,
+  "rendererEdits": "Only exact score SHA and two portable input-path constants changed.",
+  "inputFiles": {
+    "score-final-input.json": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+    "sample-manifest-frozen.json": "2507cb40c3ad4fe950d2998c94b40400c118654b0df9394477ab44fb6bf29af3",
+    "render_solo_master.py": "f7fa1e6f0809ad191acd54690c8f8126a77daf2e5f749bbba673ed273b22a054",
+    "credits.txt": "c8eee97aaa5152b199f5f2c58aed481f91f25f36b26133bbf27ea6a251e83734",
+    "software-notices.txt": "a3f2fe8021835342c697de26c419d4c40d686dd76d97b4f7296b356a3bdd78d7",
+    "piano-samples-LICENSE-CC-BY-3.0.txt": "e6bc9e9c474700b708f568bac9e5a8a9bcb2b1dad53442f5ba449fcb848b8e76"
+  },
+  "audioCanonicalization": "JSON sort_keys=True, separators comma/colon, UTF-8; duration, complete pedals, and note id/time/duration/midi/velocity/role in input order.",
+  "noteCount": 1068,
+  "sampleRate": 44100,
+  "expectedFrames": 10281660,
+  "criticalListeningPerformed": false
+}

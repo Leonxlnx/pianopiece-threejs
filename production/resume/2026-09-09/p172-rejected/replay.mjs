@@ -1,0 +1,2 @@
+import fs from'node:fs';import{evaluate}from'./metrics.mjs';import{performer}from'./harness.mjs';
+const reference={start:37.284846,end:48.540428},times=new Set(JSON.parse(fs.readFileSync('sample-times.json')));const rows=[];for(const time of [...times].sort((a,b)=>a-b)){const c=evaluate(time);c.quaternions=performer.hands.map(h=>h.fingers.map(f=>f.bones.map(b=>b.quaternion.toArray())));rows.push(c);}fs.writeFileSync(process.env.OUT,JSON.stringify({start:reference.start,end:reference.end,samples:rows.length,rows}));console.log(process.env.OUT,rows.length);

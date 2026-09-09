@@ -1,0 +1,1 @@
+import fs from'node:fs';import{performer,update}from'./harness.mjs';const rows=[];for(const time of[64.184354,64.208354,64.214,64.3,65.5,65.9,66.1,66.3,66.75,66.964]){update(time);rows.push(performer.p299Trace);}fs.writeFileSync(process.argv[2],JSON.stringify(rows,null,2));console.log(rows);

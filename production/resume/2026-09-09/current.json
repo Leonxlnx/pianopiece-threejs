@@ -1,10 +1,10 @@
 {
-  "updated": "2026-09-09T03:08:49.273509+00:00",
-  "scope": "In-progress integration; final score not frozen",
-  "scoreSha256": "e069b93647c20a4b9c6f5b932966a0efcac2daad3f9fa4bc7edf82cca845097b",
-  "rigSha256": "baafd033b4aa1ed0f9eefd679240d3dd71e75e1e034ee30e0ab6ef95ee64bd11",
+  "updated": "2026-09-09T03:39:41.313867+00:00",
+  "scope": "Delivery freeze reopened after first encoded close-up shows unnatural free-finger crossings at159.3s",
+  "scoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+  "rigSha256": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
   "idleHelperSha256": "bd8776755313e90b2ff16b528b3f95c141d733cd27cfd0a9d3efbf54ad3292f5",
-  "idleDataSha256": "e2ae99ff187672971013f6b6a334976796b903d2268423b871c053df72365bc1",
+  "idleDataSha256": "d2a6dab9f40ae133d3e11fcf75dcd9e77d561888e95da30c0bc3baa8c513b78c",
   "mergedLeafParity": {
     "states": 1101,
     "fullHumanSkins": 13,
@@ -17,11 +17,26 @@
     "p00170 pad lift +0.4 mm",
     "LH Index p00800\u2192p00831 support cutoff",
     "RH 106.65\u2013107.55 release/curvature/clearance repair",
-    "p00322 geometry and four bound idle curves"
+    "p00322 geometry and four bound idle curves",
+    "Remove failed LH curve007",
+    "p00299 Pinky support, actual-bound envelope guard and pedal-carried release changes"
   ],
-  "remaining": "p299 bounded support/refingering and p322 physical-release motion trials are scratch-only; old remaining baseline surface defects are not erased",
-  "masterStarted": false,
-  "fullFilmStarted": false,
+  "remaining": "Correct the visible late-climax resting-hand silhouette before long export resumes. Existing master remains technically verified for score44ef4cdc. No revised publication.",
+  "masterStarted": true,
+  "fullFilmStarted": true,
   "publicRevisionDeployed": false,
-  "githubCheckpoint": "1aa9f90a87471bf8edccf59d211f95c88da303c3 (precedes these latest three merged leaf deltas)"
+  "githubCheckpoint": "fbe6a3e616b5dd49216ea98fff1be7a7aacf112a: text snapshot only; binary evidence transfer continues",
+  "p299MergedParity": {
+    "states": 2160,
+    "fullHumanSkins": 22,
+    "maxDifference": 0
+  },
+  "masterVerified": true,
+  "masterWavSha256": "afcb533eb48a6d0a7755ecc5add347307a30aab163806c5b55541ea0b29e6054",
+  "masterMp3Sha256": "9af8d712a1a84d34ebd592a1b969472e5f78b36663976282b0f415dd7545b41d",
+  "filmJob": "/workspace/scratch/2e8cc8e77f98/final-film-2026-09-09/jobs/0e4bc292af28af9e",
+  "filmFrames": 6995,
+  "filmFps": 30,
+  "filmSamples": 2,
+  "fullFilmAccepted": false
 }

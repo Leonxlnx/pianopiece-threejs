@@ -1,0 +1,726 @@
+{
+  "status": "REJECTED_NOT_FOR_INTEGRATION",
+  "reason": "The real refingered index interval p285\u2192p302 gains neighboring-key penetration near64.208\u201364.218 and worsens existing F#5 core near66.964. Main p299 contact improvement does not qualify the full context.",
+  "surfaceSamples": 1271,
+  "surfaceSampling": "60Hz across64.15\u201369.15;500Hz across64.15\u201364.50 and65.90\u201367.20;all note boundaries from both scores\u00b11microsecond",
+  "motionSampling": "2kHz across64.15\u201364.50 and65.90\u201367.20",
+  "baseline": {
+    "states": 1271,
+    "activeCore": 6.1936312473719335,
+    "allCore": 7.984831824389693,
+    "palmCore": 4.134019921977428,
+    "pairs": 142556,
+    "maxPairs": 390,
+    "gap": 1.8005801352637407,
+    "point": 0.00018477450412698155,
+    "peaks": {
+      "joint0": {
+        "time": 67.2,
+        "fi": 0,
+        "j": 0,
+        "value": 4.537647497392904
+      },
+      "joint1": {
+        "time": 66.7115,
+        "fi": 1,
+        "j": 0,
+        "value": 25.38599571059914
+      },
+      "joint2": {
+        "time": 66.1115,
+        "fi": 2,
+        "j": 0,
+        "value": 18.272143346898904
+      },
+      "joint3": {
+        "time": 66.339,
+        "fi": 3,
+        "j": 0,
+        "value": 9.885460828828709
+      },
+      "joint4": {
+        "time": 66.6055,
+        "fi": 4,
+        "j": 0,
+        "value": 8.429369702178807e-05
+      },
+      "wrist": {
+        "time": 66.9715,
+        "value": 1.021729741732933e-08
+      },
+      "wristAcceleration": {
+        "time": 66.64800000000001,
+        "value": 1.804168096111398e-07
+      }
+    },
+    "outside": [
+      {
+        "time": 0,
+        "sha": "f9b451a9449f0b3bc558d5971bc2c54b6eab89059b473f41e522e7a5fe993e76"
+      },
+      {
+        "time": 63.5,
+        "sha": "76d10213a798e651c5977f0dfa2d447c83b11aa288915cf58389c768bf5a89b5"
+      },
+      {
+        "time": 64.15,
+        "sha": "cd3b690fd34eeb1eea130271aca9dff48741b94d5e99a6e81b2a22bc8d18bafb"
+      },
+      {
+        "time": 64.184353,
+        "sha": "be10f22181760ee251b74a16ef3f069461d7b8c0396acc4fe6b39c4e4fedd3a9"
+      },
+      {
+        "time": 67.016237,
+        "sha": "78240491e46314f03aad2927bc990490ba24a985e02d59b4cc4dd63595847bcb"
+      },
+      {
+        "time": 67.200001,
+        "sha": "d75560dec2df13da1120d2b91a9db084666e63a81dac8561b9ff320c3413d0f6"
+      },
+      {
+        "time": 67.5,
+        "sha": "7520136d481e49e35d569af5f027d63210b3e016fafa96fda0da2b26a4eea81f"
+      },
+      {
+        "time": 68.32,
+        "sha": "751852a3639ecdaf2b12a2ebe62d164869520dea5d0e2f640f1d11a4bafaa895"
+      },
+      {
+        "time": 68.37,
+        "sha": "8822a79c395ad5b31ff19463ad33f6e4220657d662e532e32090b872f794766a"
+      },
+      {
+        "time": 68.41,
+        "sha": "5596f1a4e5d518623c424666a3020ccfead09ae1ef21d8044d19fcd8b602a74a"
+      },
+      {
+        "time": 68.448307,
+        "sha": "52d048a202dddb9d54841a25459cf5e0ef7686fcca9c48cb0ffbc1c5f05bfe39"
+      },
+      {
+        "time": 69.2,
+        "sha": "af1d2b4d9bddaddaf2e35ac94976f53aad477c647c1ca977569944b008008ecf"
+      },
+      {
+        "time": 150,
+        "sha": "7002da51022438f4147a958d5638ea614762190db119c3e6d155dc736844bf31"
+      },
+      {
+        "time": 230,
+        "sha": "579c7e66733604eacc8deb72f43932086138bccac17c0047b6ee00cb4f3a343b"
+      }
+    ]
+  },
+  "candidate": {
+    "states": 1271,
+    "activeCore": 2.917918951506171,
+    "allCore": 7.984831824389693,
+    "palmCore": 4.134019921977428,
+    "pairs": 113757,
+    "maxPairs": 365,
+    "gap": 1.657715925246106,
+    "point": 0.00018477450412698155,
+    "peaks": {
+      "joint0": {
+        "time": 67.2,
+        "fi": 0,
+        "j": 0,
+        "value": 4.537647497392904
+      },
+      "joint1": {
+        "time": 66.96600000000001,
+        "fi": 1,
+        "j": 1,
+        "value": 22.659912109019334
+      },
+      "joint2": {
+        "time": 66.1115,
+        "fi": 2,
+        "j": 0,
+        "value": 18.272143346898904
+      },
+      "joint3": {
+        "time": 66.24650000000001,
+        "fi": 3,
+        "j": 0,
+        "value": 16.443004483833615
+      },
+      "joint4": {
+        "time": 66.57600000000001,
+        "fi": 4,
+        "j": 0,
+        "value": 37.51106892132432
+      },
+      "wrist": {
+        "time": 66.241,
+        "value": 0.5381096146017678
+      },
+      "wristAcceleration": {
+        "time": 66.2765,
+        "value": 13.586423501243967
+      }
+    },
+    "outside": [
+      {
+        "time": 0,
+        "sha": "f9b451a9449f0b3bc558d5971bc2c54b6eab89059b473f41e522e7a5fe993e76"
+      },
+      {
+        "time": 63.5,
+        "sha": "76d10213a798e651c5977f0dfa2d447c83b11aa288915cf58389c768bf5a89b5"
+      },
+      {
+        "time": 64.15,
+        "sha": "cd3b690fd34eeb1eea130271aca9dff48741b94d5e99a6e81b2a22bc8d18bafb"
+      },
+      {
+        "time": 64.184353,
+        "sha": "be10f22181760ee251b74a16ef3f069461d7b8c0396acc4fe6b39c4e4fedd3a9"
+      },
+      {
+        "time": 67.016237,
+        "sha": "78240491e46314f03aad2927bc990490ba24a985e02d59b4cc4dd63595847bcb"
+      },
+      {
+        "time": 67.200001,
+        "sha": "d75560dec2df13da1120d2b91a9db084666e63a81dac8561b9ff320c3413d0f6"
+      },
+      {
+        "time": 67.5,
+        "sha": "7520136d481e49e35d569af5f027d63210b3e016fafa96fda0da2b26a4eea81f"
+      },
+      {
+        "time": 68.32,
+        "sha": "751852a3639ecdaf2b12a2ebe62d164869520dea5d0e2f640f1d11a4bafaa895"
+      },
+      {
+        "time": 68.37,
+        "sha": "8822a79c395ad5b31ff19463ad33f6e4220657d662e532e32090b872f794766a"
+      },
+      {
+        "time": 68.41,
+        "sha": "5596f1a4e5d518623c424666a3020ccfead09ae1ef21d8044d19fcd8b602a74a"
+      },
+      {
+        "time": 68.448307,
+        "sha": "52d048a202dddb9d54841a25459cf5e0ef7686fcca9c48cb0ffbc1c5f05bfe39"
+      },
+      {
+        "time": 69.2,
+        "sha": "af1d2b4d9bddaddaf2e35ac94976f53aad477c647c1ca977569944b008008ecf"
+      },
+      {
+        "time": 150,
+        "sha": "7002da51022438f4147a958d5638ea614762190db119c3e6d155dc736844bf31"
+      },
+      {
+        "time": 230,
+        "sha": "579c7e66733604eacc8deb72f43932086138bccac17c0047b6ee00cb4f3a343b"
+      }
+    ]
+  },
+  "perPatchKey": [
+    {
+      "patch": "RRing",
+      "midi": 79,
+      "baselineMaxMm": 7.984831824389693,
+      "candidateMaxMm": 7.984831824389693,
+      "newStates": 0,
+      "removedStates": 12,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RRing",
+      "midi": 78,
+      "baselineMaxMm": 7.205921387876623,
+      "candidateMaxMm": 7.205921387876623,
+      "newStates": 2,
+      "removedStates": 0,
+      "newStatePeakMm": 2.249063095646986,
+      "newStatePeakTime": 66.6,
+      "increasedStates": 2,
+      "increasePeakMm": 2.249063095646986
+    },
+    {
+      "patch": "RIndex",
+      "midi": 75,
+      "baselineMaxMm": 6.129157564471022,
+      "candidateMaxMm": 5.717544844276057,
+      "newStates": 7,
+      "removedStates": 35,
+      "newStatePeakMm": 3.5605082139385513,
+      "newStatePeakTime": 64.21,
+      "increasedStates": 12,
+      "increasePeakMm": 3.5605082139385513
+    },
+    {
+      "patch": "RIndex",
+      "midi": 77,
+      "baselineMaxMm": 3.794373647865279,
+      "candidateMaxMm": 3.794373647865279,
+      "newStates": 127,
+      "removedStates": 29,
+      "newStatePeakMm": 2.460217553767019,
+      "newStatePeakTime": 66.74,
+      "increasedStates": 160,
+      "increasePeakMm": 2.460217553767019
+    },
+    {
+      "patch": "RIndex",
+      "midi": 78,
+      "baselineMaxMm": 5.388132980581273,
+      "candidateMaxMm": 5.681050749378191,
+      "newStates": 0,
+      "removedStates": 172,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 2,
+      "increasePeakMm": 0.5635596387202901
+    },
+    {
+      "patch": "RMiddle",
+      "midi": 78,
+      "baselineMaxMm": 7.048065932771019,
+      "candidateMaxMm": 7.048065932771019,
+      "newStates": 26,
+      "removedStates": 0,
+      "newStatePeakMm": 2.3809967776863283,
+      "newStatePeakTime": 66.244,
+      "increasedStates": 26,
+      "increasePeakMm": 2.3809967776863283
+    },
+    {
+      "patch": "RRing",
+      "midi": 84,
+      "baselineMaxMm": 3.9550395103560287,
+      "candidateMaxMm": 3.9550395103560287,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RIndex",
+      "midi": 79,
+      "baselineMaxMm": 6.341498628002151,
+      "candidateMaxMm": 2.7139894404412113,
+      "newStates": 0,
+      "removedStates": 325,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RPalm",
+      "midi": 77,
+      "baselineMaxMm": 2.126715953303382,
+      "candidateMaxMm": 2.0692143634568616,
+      "newStates": 266,
+      "removedStates": 86,
+      "newStatePeakMm": 2.0692143634568616,
+      "newStatePeakTime": 66.244,
+      "increasedStates": 266,
+      "increasePeakMm": 2.0692143634568616
+    },
+    {
+      "patch": "RIndex",
+      "midi": 80,
+      "baselineMaxMm": 5.934804804596682,
+      "candidateMaxMm": 0,
+      "newStates": 0,
+      "removedStates": 53,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RPalm",
+      "midi": 79,
+      "baselineMaxMm": 4.134019921977428,
+      "candidateMaxMm": 4.134019921977428,
+      "newStates": 99,
+      "removedStates": 0,
+      "newStatePeakMm": 2.143181636687419,
+      "newStatePeakTime": 66.202,
+      "increasedStates": 99,
+      "increasePeakMm": 2.143181636687419
+    },
+    {
+      "patch": "RMiddle",
+      "midi": 80,
+      "baselineMaxMm": 4.1133885504774925,
+      "candidateMaxMm": 3.340463254861592,
+      "newStates": 0,
+      "removedStates": 248,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RIndex",
+      "midi": 76,
+      "baselineMaxMm": 0,
+      "candidateMaxMm": 2.4540603773527403,
+      "newStates": 211,
+      "removedStates": 0,
+      "newStatePeakMm": 2.4540603773527403,
+      "newStatePeakTime": 66.496,
+      "increasedStates": 211,
+      "increasePeakMm": 2.4540603773527403
+    },
+    {
+      "patch": "RPinky",
+      "midi": 83,
+      "baselineMaxMm": 0,
+      "candidateMaxMm": 2.032885184911959,
+      "newStates": 18,
+      "removedStates": 0,
+      "newStatePeakMm": 2.032885184911959,
+      "newStatePeakTime": 66.282,
+      "increasedStates": 18,
+      "increasePeakMm": 2.032885184911959
+    },
+    {
+      "patch": "RIndex",
+      "midi": 81,
+      "baselineMaxMm": 5.201004074751103,
+      "candidateMaxMm": 0,
+      "newStates": 0,
+      "removedStates": 230,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RIndex",
+      "midi": 83,
+      "baselineMaxMm": 1.8005801352637407,
+      "candidateMaxMm": 0,
+      "newStates": 0,
+      "removedStates": 208,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RRing",
+      "midi": 82,
+      "baselineMaxMm": 7.241328772744248,
+      "candidateMaxMm": 2.5522492243393313,
+      "newStates": 0,
+      "removedStates": 101,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RRing",
+      "midi": 80,
+      "baselineMaxMm": 4.553017622509092,
+      "candidateMaxMm": 4.366280044943826,
+      "newStates": 0,
+      "removedStates": 37,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RThumb",
+      "midi": 72,
+      "baselineMaxMm": 6.831432219054648,
+      "candidateMaxMm": 6.831432219054648,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RThumb",
+      "midi": 71,
+      "baselineMaxMm": 6.122765450201905,
+      "candidateMaxMm": 6.122765450201905,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RIndex",
+      "midi": 74,
+      "baselineMaxMm": 1.7713007274716697,
+      "candidateMaxMm": 1.7713007274716697,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RThumb",
+      "midi": 69,
+      "baselineMaxMm": 3.287657759274053,
+      "candidateMaxMm": 3.287657759274053,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RIndex",
+      "midi": 73,
+      "baselineMaxMm": 5.909175495826369,
+      "candidateMaxMm": 5.909175495826369,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RRing",
+      "midi": 75,
+      "baselineMaxMm": 4.181456346212337,
+      "candidateMaxMm": 4.181456346212337,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    },
+    {
+      "patch": "RRing",
+      "midi": 77,
+      "baselineMaxMm": 4.282325301905865,
+      "candidateMaxMm": 4.282325301905865,
+      "newStates": 0,
+      "removedStates": 0,
+      "newStatePeakMm": 0,
+      "newStatePeakTime": null,
+      "increasedStates": 0,
+      "increasePeakMm": 0
+    }
+  ],
+  "materialPerKeyRegressions": [
+    {
+      "time": 64.208353,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 0,
+      "afterMm": 3.120187730733248
+    },
+    {
+      "time": 64.208354,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 0,
+      "afterMm": 3.120557464219409
+    },
+    {
+      "time": 64.208355,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 0,
+      "afterMm": 3.120927181593236
+    },
+    {
+      "time": 64.21,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 0,
+      "afterMm": 3.5605082139385513
+    },
+    {
+      "time": 64.212,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 2.3093140647960086,
+      "afterMm": 4.611840804601142
+    },
+    {
+      "time": 64.214,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 3.2738150124878573,
+      "afterMm": 5.717544844276057
+    },
+    {
+      "time": 64.216,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 4.242740959521097,
+      "afterMm": 5.426590534163833
+    },
+    {
+      "time": 64.216666667,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 4.505665701849293,
+      "afterMm": 5.477127061580683
+    },
+    {
+      "time": 64.218,
+      "patch": "RIndex",
+      "midi": 75,
+      "beforeMm": 5.125131270526884,
+      "afterMm": 5.654692622378221
+    },
+    {
+      "time": 66.964,
+      "patch": "RIndex",
+      "midi": 78,
+      "beforeMm": 5.2991659238839635,
+      "afterMm": 5.681050749378191
+    }
+  ],
+  "newTimedFamilies": [],
+  "outsideExact": true,
+  "outsideSamples": 14,
+  "laterPinkyAndRemainingContextExact": true,
+  "nativeParity": {
+    "samples": 1271,
+    "exact": true,
+    "failures": []
+  },
+  "noteDeltas": [
+    {
+      "id": "p00296",
+      "beforeEnd": 66.27795,
+      "afterEnd": 66.18,
+      "changes": {
+        "duration": {
+          "before": 0.686786,
+          "after": 0.5888360000000006
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.686786
+        }
+      }
+    },
+    {
+      "id": "p00299",
+      "beforeEnd": 66.64309300000001,
+      "afterEnd": 66.54,
+      "changes": {
+        "duration": {
+          "before": 0.341143,
+          "after": 0.2380500000000012
+        },
+        "finger": {
+          "before": 2,
+          "after": 5
+        },
+        "contactLift": {
+          "before": 0.003008,
+          "after": 0.003
+        },
+        "writtenDuration": {
+          "before": null,
+          "after": 0.341143
+        },
+        "contactZ": {
+          "before": null,
+          "after": 0.27
+        }
+      }
+    }
+  ],
+  "nonNotesExact": {
+    "title": true,
+    "version": true,
+    "composer": true,
+    "bpm": true,
+    "duration": true,
+    "meter": true,
+    "key": true,
+    "sections": true,
+    "pedals": true,
+    "accents": true,
+    "accompaniment": true,
+    "harmony": true,
+    "tempoMap": true,
+    "performance": true,
+    "composition": true,
+    "wristMotion": true
+  },
+  "attackPitchVelocityHandExact": true,
+  "nativeReview": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/e6caa037449cbcf2/report-960.json",
+  "idleCalibrationDelta": {
+    "patch": "RPinky",
+    "interval": [
+      68.32,
+      68.448307
+    ],
+    "before": {
+      "previous": "p00293",
+      "previousEnd": 65.563664
+    },
+    "after": {
+      "previous": "p00299",
+      "previousEnd": 66.54
+    },
+    "next": "p00309",
+    "nextTime": 68.448307,
+    "knotsUnchanged": true,
+    "status": "scratch-only with rejected score"
+  },
+  "audioEffect": "Rejected score only: p296 key-off97.95ms earlier and p299 key-off103.093ms earlier; written durations retained. Both under existing0.73pedal65.629664\u219268.395807. No pedal or audio artifact changed.",
+  "qualification": {
+    "heldP299Improved": true,
+    "fullContextPassed": false,
+    "acceptedDelta": null
+  },
+  "passes": {
+    "implement": "P299pinky contactZ.270/lift.003;35mm wrist shift over genuine released gaps.",
+    "expertRead": "Contact support plausible; removed fingering changes full actual Index/Pinky intervals.",
+    "defectHunt": "Per-key comparison caught masked new neighboring-key states. Rebound curve bound to real p299.",
+    "polish": "Finite neutral and small lift/shape variants failed complete context. Last5\u00b0 index release bump also fails. Final native stills viewed."
+  },
+  "p299Held": {
+    "baseline": {
+      "states": 197,
+      "activeFingerCoreMm": 6.1936312473719335,
+      "padGapMaxMm": 1.8005801352637407
+    },
+    "candidate": {
+      "states": 132,
+      "activeFingerCoreMm": 0,
+      "padGapMaxMm": 0.07235838163488495
+    }
+  },
+  "sha256": {
+    "candidate.mjs": "1a190eadef3034b73d10c192a43c993b1cb9e66d31bd207b317bf69982282d52",
+    "candidate-native.ts": "ae4dacb756ff1d1fc6d13e88b2b3278be3f8c49c2ca2d03c83c3bf4651ff3742",
+    "candidate-score.json": "75d3744b4b8f399d30c8f84f9a8c5cfe0358198691e04fcd19737260041ca307",
+    "candidate-extension.js": "e273070753fe67037b9e05b3aad644f975a27e5242d3beba102285e45f2fe7fd",
+    "audit-baseline-final.json": "91ec2132f4632c42d18e890dd4f9c259d40af29224dd2738a610aa01bf7eb37a",
+    "audit-candidate-final.json": "0951ffd72cf1b18bde42e418356812872b317271bb039165647a0403760f82a5",
+    "native-parity.json": "46ea48f60ce71874b9fd0d9ed6af993bad2577884a5058cad1eaaad7b1a51d8d"
+  },
+  "inputSha256": {
+    "score-v11.json": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+    "pianist-candidate-baked.mjs": "6fea974e1fbc662053a9d3258a520b7b5ae77e391ea75ca780c87fe58a0d736d"
+  }
+}

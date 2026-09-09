@@ -1,0 +1,1 @@
+import {baseline,install,measure,performer,T} from './harness.mjs';install(baseline);const r=measure(44.477,'R');const h=performer.hands[1];console.log(JSON.stringify({wrist:r.wrist,bases:h.fingers.map(f=>({base:f.bones[0].getWorldPosition(new T.Vector3()).toArray(),lengths:f.lengths})),chains:r.chains,active:r.active}));

@@ -1,0 +1,1115 @@
+{
+  "status": "NO_NEW_OUTSIDE_WINDOW_MOTION_PEAKS",
+  "scoreSha256": "44ef4cdc314ecd2e926cca116433210c5e8b603b84856c6393fdd1f6aa462c2f",
+  "rigSha256": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
+  "baselineScoreSha256": "ab41e7f6999a82b364a1d4117bdf4618a6f3e9e5209f18b327da7c12a4a8bdb0",
+  "baselineRigSha256": "6fea974e1fbc662053a9d3258a520b7b5ae77e391ea75ca780c87fe58a0d736d",
+  "fps": 120,
+  "samples": 27979,
+  "intervals": 27978,
+  "duration": 233.144228,
+  "sweepPasses": 1,
+  "wallSeconds": 41.964,
+  "outsideMaxRawSpeedDifference": 0,
+  "newOutsidePeakCount": 0,
+  "outsideIncreaseChannels": 0,
+  "finite": [
+    {
+      "checkedScalars": 49746662,
+      "nonFiniteScalars": 0,
+      "zeroQuaternions": 0,
+      "quaternionSignFlips": 11628,
+      "maxRawQuaternionNormError": 3.129105639043672e-07,
+      "maxRawQuaternionNormErrorAt": {
+        "time": 112.3,
+        "name": "LeftFoot"
+      },
+      "examples": []
+    },
+    {
+      "checkedScalars": 49746662,
+      "nonFiniteScalars": 0,
+      "zeroQuaternions": 0,
+      "quaternionSignFlips": 11640,
+      "maxRawQuaternionNormError": 3.129105639043672e-07,
+      "maxRawQuaternionNormErrorAt": {
+        "time": 112.3,
+        "name": "LeftFoot"
+      },
+      "examples": []
+    }
+  ],
+  "invalidSpeeds": 0,
+  "globalExtrema": {
+    "localAngular": {
+      "baseline": {
+        "channel": {
+          "name": "RightHandIndex1",
+          "side": "R",
+          "finger": 2,
+          "joint": 1,
+          "id": "local:RightHandIndex1",
+          "kind": "localAngular",
+          "unit": "rad/s",
+          "field": "local",
+          "index": 172
+        },
+        "frame": 12829,
+        "time0": 106.9,
+        "time": 106.90833333333333,
+        "value": 126.98812317283571,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00519",
+            "time": 106.245617,
+            "end": 106.89577399999999,
+            "midi": 71,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7927
+          },
+          "next": {
+            "id": "p00524",
+            "time": 106.923274,
+            "end": 107.24138300000001,
+            "midi": 76,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.804
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": [
+          "right-index-transfer"
+        ]
+      },
+      "delivery": {
+        "channel": {
+          "name": "LeftHandPinky1",
+          "side": "L",
+          "finger": 5,
+          "joint": 1,
+          "id": "local:LeftHandPinky1",
+          "kind": "localAngular",
+          "unit": "rad/s",
+          "field": "local",
+          "index": 64
+        },
+        "frame": 20051,
+        "time0": 167.08333333333334,
+        "time": 167.09166666666667,
+        "value": 103.70672987130828,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00769",
+            "time": 166.805569,
+            "end": 167.031339,
+            "midi": 47,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.615
+          },
+          "next": {
+            "id": "p00771",
+            "time": 167.126902,
+            "end": 167.43073,
+            "midi": 48,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.66
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": []
+      }
+    },
+    "worldAngular": {
+      "baseline": {
+        "channel": {
+          "name": "RightHandIndex3",
+          "side": "R",
+          "finger": 2,
+          "joint": 3,
+          "id": "world:RightHandIndex3",
+          "kind": "worldAngular",
+          "unit": "rad/s",
+          "field": "world",
+          "index": 104
+        },
+        "frame": 12829,
+        "time0": 106.9,
+        "time": 106.90833333333333,
+        "value": 126.95942692431063,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00519",
+            "time": 106.245617,
+            "end": 106.89577399999999,
+            "midi": 71,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7927
+          },
+          "next": {
+            "id": "p00524",
+            "time": 106.923274,
+            "end": 107.24138300000001,
+            "midi": 76,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.804
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": [
+          "right-index-transfer"
+        ]
+      },
+      "delivery": {
+        "channel": {
+          "name": "LeftHandPinky1",
+          "side": "L",
+          "finger": 5,
+          "joint": 1,
+          "id": "world:LeftHandPinky1",
+          "kind": "worldAngular",
+          "unit": "rad/s",
+          "field": "world",
+          "index": 60
+        },
+        "frame": 20051,
+        "time0": 167.08333333333334,
+        "time": 167.09166666666667,
+        "value": 100.04684895301502,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00769",
+            "time": 166.805569,
+            "end": 167.031339,
+            "midi": 47,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.615
+          },
+          "next": {
+            "id": "p00771",
+            "time": 167.126902,
+            "end": 167.43073,
+            "midi": 48,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.66
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": []
+      }
+    },
+    "wristSpeed": {
+      "baseline": {
+        "channel": {
+          "name": "LeftHand",
+          "type": "wrist",
+          "side": "L",
+          "finger": null,
+          "id": "wrist:LeftHand",
+          "kind": "wristSpeed",
+          "unit": "m/s",
+          "field": "positions",
+          "index": 0
+        },
+        "frame": 20381,
+        "time0": 169.83333333333334,
+        "time": 169.84166666666667,
+        "value": 1.8197302594013227,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00786",
+            "time": 169.207868,
+            "end": 169.796481,
+            "midi": 59,
+            "finger": 2,
+            "hand": "L",
+            "velocity": 0.568
+          },
+          "next": {
+            "id": "p00788",
+            "time": 169.885523,
+            "end": 170.147915,
+            "midi": 45,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.698
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": []
+      },
+      "delivery": {
+        "channel": {
+          "name": "LeftHand",
+          "type": "wrist",
+          "side": "L",
+          "finger": null,
+          "id": "wrist:LeftHand",
+          "kind": "wristSpeed",
+          "unit": "m/s",
+          "field": "positions",
+          "index": 0
+        },
+        "frame": 20381,
+        "time0": 169.83333333333334,
+        "time": 169.84166666666667,
+        "value": 1.8197302594013227,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [],
+          "previous": {
+            "id": "p00786",
+            "time": 169.207868,
+            "end": 169.796481,
+            "midi": 59,
+            "finger": 2,
+            "hand": "L",
+            "velocity": 0.568
+          },
+          "next": {
+            "id": "p00788",
+            "time": 169.885523,
+            "end": 170.147915,
+            "midi": 45,
+            "finger": 5,
+            "hand": "L",
+            "velocity": 0.698
+          },
+          "eventsInSample": []
+        },
+        "acceptedWindows": []
+      }
+    },
+    "tipSpeed": {
+      "baseline": {
+        "channel": {
+          "name": "LeftRingContact",
+          "type": "tip",
+          "side": "L",
+          "finger": 4,
+          "id": "tip:LeftRingContact",
+          "kind": "tipSpeed",
+          "unit": "m/s",
+          "field": "positions",
+          "index": 12
+        },
+        "frame": 5143,
+        "time0": 42.85,
+        "time": 42.858333333333334,
+        "value": 3.893665529565801,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [
+            {
+              "id": "p00184",
+              "time": 42.858164,
+              "end": 43.016863,
+              "midi": 66,
+              "finger": 1,
+              "hand": "L",
+              "velocity": 0.47
+            }
+          ],
+          "previous": {
+            "id": "p00182",
+            "time": 42.509327,
+            "end": 42.781337,
+            "midi": 55,
+            "finger": 4,
+            "hand": "L",
+            "velocity": 0.482
+          },
+          "next": {
+            "id": "p00235",
+            "time": 53.392072,
+            "end": 53.716909,
+            "midi": 57,
+            "finger": 4,
+            "hand": "L",
+            "velocity": 0.458
+          },
+          "eventsInSample": [
+            {
+              "kind": "attack",
+              "id": "p00184",
+              "time": 42.858164,
+              "end": 43.016863,
+              "midi": 66,
+              "finger": 1,
+              "hand": "L",
+              "velocity": 0.47
+            }
+          ]
+        },
+        "acceptedWindows": []
+      },
+      "delivery": {
+        "channel": {
+          "name": "LeftRingContact",
+          "type": "tip",
+          "side": "L",
+          "finger": 4,
+          "id": "tip:LeftRingContact",
+          "kind": "tipSpeed",
+          "unit": "m/s",
+          "field": "positions",
+          "index": 12
+        },
+        "frame": 5143,
+        "time0": 42.85,
+        "time": 42.858333333333334,
+        "value": 3.893665529565801,
+        "context": {
+          "handActiveAtStart": [],
+          "handActiveAtEnd": [
+            {
+              "id": "p00184",
+              "time": 42.858164,
+              "end": 43.016863,
+              "midi": 66,
+              "finger": 1,
+              "hand": "L",
+              "velocity": 0.47
+            }
+          ],
+          "previous": {
+            "id": "p00182",
+            "time": 42.509327,
+            "end": 42.781337,
+            "midi": 55,
+            "finger": 4,
+            "hand": "L",
+            "velocity": 0.482
+          },
+          "next": {
+            "id": "p00235",
+            "time": 53.392072,
+            "end": 53.716909,
+            "midi": 57,
+            "finger": 4,
+            "hand": "L",
+            "velocity": 0.458
+          },
+          "eventsInSample": [
+            {
+              "kind": "attack",
+              "id": "p00184",
+              "time": 42.858164,
+              "end": 43.016863,
+              "midi": 66,
+              "finger": 1,
+              "hand": "L",
+              "velocity": 0.47
+            }
+          ]
+        },
+        "acceptedWindows": []
+      }
+    }
+  },
+  "largestAcceptedLocalIncreases": [
+    {
+      "channel": {
+        "name": "LeftHandIndex1",
+        "side": "L",
+        "finger": 2,
+        "joint": 1,
+        "id": "local:LeftHandIndex1",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 40
+      },
+      "frame": 8518,
+      "time0": 70.975,
+      "time": 70.98333333333333,
+      "baseline": 4.8659708983163865,
+      "delivery": 45.62049239671326,
+      "delta": 40.754521498396876,
+      "acceptedWindows": [
+        "p322-bass"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00321",
+            "time": 70.8456,
+            "end": 71.05640000000001,
+            "midi": 57,
+            "finger": 1,
+            "hand": "L",
+            "velocity": 0.493
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00321",
+            "time": 70.8456,
+            "end": 71.05640000000001,
+            "midi": 57,
+            "finger": 1,
+            "hand": "L",
+            "velocity": 0.493
+          }
+        ],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00321",
+            "time": 70.8456,
+            "end": 71.05640000000001,
+            "midi": 57,
+            "finger": 1,
+            "hand": "L",
+            "velocity": 0.493
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00321",
+            "time": 70.8456,
+            "end": 71.05640000000001,
+            "midi": 57,
+            "finger": 1,
+            "hand": "L",
+            "velocity": 0.493
+          }
+        ],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "RightHandPinky1",
+        "side": "R",
+        "finger": 5,
+        "joint": 1,
+        "id": "local:RightHandPinky1",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 196
+      },
+      "frame": 7990,
+      "time0": 66.575,
+      "time": 66.58333333333333,
+      "baseline": 1.0849725462236575e-07,
+      "delivery": 34.91816851643763,
+      "delta": 34.91816840794038,
+      "acceptedWindows": [
+        "p299-guard-support"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "previous": {
+          "id": "p00293",
+          "time": 65.251837,
+          "end": 65.56366399999999,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7587
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00299",
+          "time": 66.30195,
+          "end": 66.54,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7237
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "LeftHandIndex2",
+        "side": "L",
+        "finger": 2,
+        "joint": 2,
+        "id": "local:LeftHandIndex2",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 44
+      },
+      "frame": 8535,
+      "time0": 71.11666666666666,
+      "time": 71.125,
+      "baseline": 16.656237142651747,
+      "delivery": 43.67958984371535,
+      "delta": 27.0233527010636,
+      "acceptedWindows": [
+        "p322-bass"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "RightHandIndex1",
+        "side": "R",
+        "finger": 2,
+        "joint": 1,
+        "id": "local:RightHandIndex1",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 172
+      },
+      "frame": 12826,
+      "time0": 106.875,
+      "time": 106.88333333333334,
+      "baseline": 5.9339882665715376,
+      "delivery": 26.786986204429585,
+      "delta": 20.85299793785805,
+      "acceptedWindows": [
+        "right-index-transfer"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00519",
+            "time": 106.245617,
+            "end": 106.89577399999999,
+            "midi": 71,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7927
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00519",
+            "time": 106.245617,
+            "end": 106.89577399999999,
+            "midi": 71,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7927
+          }
+        ],
+        "previous": {
+          "id": "p00508",
+          "time": 104.226645,
+          "end": 104.532324,
+          "midi": 78,
+          "finger": 2,
+          "hand": "R",
+          "velocity": 0.8003
+        },
+        "next": {
+          "id": "p00524",
+          "time": 106.923274,
+          "end": 107.24138300000001,
+          "midi": 76,
+          "finger": 2,
+          "hand": "R",
+          "velocity": 0.804
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00519",
+          "time": 106.245617,
+          "end": 106.81,
+          "midi": 71,
+          "finger": 2,
+          "hand": "R",
+          "velocity": 0.7927
+        },
+        "next": {
+          "id": "p00524",
+          "time": 106.923274,
+          "end": 107.18,
+          "midi": 76,
+          "finger": 2,
+          "hand": "R",
+          "velocity": 0.804
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "RightHandPinky2",
+        "side": "R",
+        "finger": 5,
+        "joint": 2,
+        "id": "local:RightHandPinky2",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 200
+      },
+      "frame": 7988,
+      "time0": 66.55833333333334,
+      "time": 66.56666666666666,
+      "baseline": 9.522676315365902e-14,
+      "delivery": 19.663330078142977,
+      "delta": 19.66333007814288,
+      "acceptedWindows": [
+        "p299-guard-support"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "previous": {
+          "id": "p00293",
+          "time": 65.251837,
+          "end": 65.56366399999999,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7587
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00299",
+          "time": 66.30195,
+          "end": 66.54,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7237
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "RightHandRing1",
+        "side": "R",
+        "finger": 4,
+        "joint": 1,
+        "id": "local:RightHandRing1",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 208
+      },
+      "frame": 7950,
+      "time0": 66.24166666666666,
+      "time": 66.25,
+      "baseline": 9.858400932056283e-08,
+      "delivery": 16.083155020029007,
+      "delta": 16.083154921444997,
+      "acceptedWindows": [
+        "p299-guard-support"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00296",
+            "time": 65.591164,
+            "end": 66.27795,
+            "midi": 84,
+            "finger": 4,
+            "hand": "R",
+            "velocity": 0.7543
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00296",
+            "time": 65.591164,
+            "end": 66.27795,
+            "midi": 84,
+            "finger": 4,
+            "hand": "R",
+            "velocity": 0.7543
+          }
+        ],
+        "previous": {
+          "id": "p00288",
+          "time": 64.208354,
+          "end": 64.874009,
+          "midi": 79,
+          "finger": 4,
+          "hand": "R",
+          "velocity": 0.786
+        },
+        "next": {
+          "id": "p00301",
+          "time": 66.668093,
+          "end": 66.992236,
+          "midi": 79,
+          "finger": 4,
+          "hand": "R",
+          "velocity": 0.721
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00296",
+          "time": 65.591164,
+          "end": 66.18,
+          "midi": 84,
+          "finger": 4,
+          "hand": "R",
+          "velocity": 0.7543
+        },
+        "next": {
+          "id": "p00301",
+          "time": 66.668093,
+          "end": 66.992236,
+          "midi": 79,
+          "finger": 4,
+          "hand": "R",
+          "velocity": 0.721
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "LeftHandIndex3",
+        "side": "L",
+        "finger": 2,
+        "joint": 3,
+        "id": "local:LeftHandIndex3",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 48
+      },
+      "frame": 8535,
+      "time0": 71.11666666666666,
+      "time": 71.125,
+      "baseline": 7.994993828472624,
+      "delivery": 20.96620312498317,
+      "delta": 12.971209296510548,
+      "acceptedWindows": [
+        "p322-bass"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00319",
+          "time": 70.500773,
+          "end": 70.82159999999999,
+          "midi": 54,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.505
+        },
+        "next": {
+          "id": "p00322",
+          "time": 71.178428,
+          "end": 71.448396,
+          "midi": 43,
+          "finger": 2,
+          "hand": "L",
+          "velocity": 0.555
+        },
+        "eventsInSample": []
+      }
+    },
+    {
+      "channel": {
+        "name": "RightHandPinky3",
+        "side": "R",
+        "finger": 5,
+        "joint": 3,
+        "id": "local:RightHandPinky3",
+        "kind": "localAngular",
+        "unit": "rad/s",
+        "field": "local",
+        "index": 204
+      },
+      "frame": 7988,
+      "time0": 66.55833333333334,
+      "time": 66.56666666666666,
+      "baseline": 5.094943980307942e-14,
+      "delivery": 9.43839843750911,
+      "delta": 9.438398437509058,
+      "acceptedWindows": [
+        "p299-guard-support"
+      ],
+      "baselineContext": {
+        "handActiveAtStart": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "handActiveAtEnd": [
+          {
+            "id": "p00299",
+            "time": 66.30195,
+            "end": 66.64309300000001,
+            "midi": 83,
+            "finger": 2,
+            "hand": "R",
+            "velocity": 0.7237
+          }
+        ],
+        "previous": {
+          "id": "p00293",
+          "time": 65.251837,
+          "end": 65.56366399999999,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7587
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      },
+      "deliveryContext": {
+        "handActiveAtStart": [],
+        "handActiveAtEnd": [],
+        "previous": {
+          "id": "p00299",
+          "time": 66.30195,
+          "end": 66.54,
+          "midi": 83,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7237
+        },
+        "next": {
+          "id": "p00309",
+          "time": 68.448307,
+          "end": 69.110462,
+          "midi": 81,
+          "finger": 5,
+          "hand": "R",
+          "velocity": 0.7753
+        },
+        "eventsInSample": []
+      }
+    }
+  ],
+  "motionReportSha256": "d0aabd87d7c029979df87251a99985d857d7a88196d7b77218683db5a23249ae",
+  "auditSha256": "a5038f54ac6080f8692ef0dd8d532424956763a95d31851f2e18f7fc3e27b565"
+}
