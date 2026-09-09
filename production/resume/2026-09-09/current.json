@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T06:11:31.215684+00:00",
+  "updated": "2026-09-09T06:39:41.207389+00:00",
   "scope": "Revised release freeze; finite climax integration accepted with disclosed residual mesh intersections",
   "scoreSha256": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467",
   "rigSha256": "24b2214b0b55a4271256ca32174cd0cb07c964386ccc498c2da1020e46670e29",
@@ -26,7 +26,7 @@
   "masterStarted": true,
   "fullFilmStarted": true,
   "publicRevisionDeployed": true,
-  "githubCheckpoint": "39b185c3f96807e82f9e7a55ab4603e9920bb617: complete source through Sites65882eb; next sync includes preview and checkpoint helpers.",
+  "githubCheckpoint": "d3d2108378c41a933e88ddc8e984c91901892536: complete source through Sites4f8b8b6 including preview and resumable film helpers. Quarter-render receipt pending next incremental sync.",
   "p299MergedParity": {
     "states": 2160,
     "fullHumanSkins": 22,
@@ -73,5 +73,7 @@
       0
     ],
     "renderedExport": true
-  }
+  },
+  "filmCompletedFrames": 1800,
+  "filmDurableCheckpointPercent": 25
 }
