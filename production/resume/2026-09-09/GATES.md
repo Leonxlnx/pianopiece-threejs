@@ -11,9 +11,9 @@ Scope: Recover the reviewed working source, resolve the remaining visible perfor
 - [ ] G4: Build and verify the revised browser performance through the supported browser path.
   EVIDENCE: Strict performance TypeScript passes. Supported browser audio-only transport completed; WebGL reports disabled. Fresh production build passed after all accepted hand changes. Full UI transport with new44ef master completed0:00→3:53. After official preview restart, supported browser tab access recovered; live3D remains unavailable.
 - [ ] G5: Export, inspect, verify and save the full revised desktop film.
-  EVIDENCE: pending
+  EVIDENCE: New full6995-frame jobe6d834d83ee1afc6 running;34-second preview saved with1020 ordered frames and zero AAC lag. Full completion pending.
 - [ ] G6: Publish the revision to the existing public Site and verify public delivery.
-  EVIDENCE: pending
+  EVIDENCE: Version4 deployment succeeded publicly, sourcea5f629db. Direct delivery checks return Cloudflare1010/403 and web lookup unavailable; public asset-byte check is not passed.
 - [x] G7: Push the complete source checkpoint, user prompts, evidence and continuation context to GitHub main.
   EVIDENCE: GitHub main c6a619442f6f7714ea935f6e29a87dfb481c8c05 contains all source through Sites0fdbc5e, including full binary evidence and reconstructable large objects. The earlier complete checkpointec50450 was verified against five local file SHAs. Subsequent working hand trials require incremental sync when integrated.
 - [ ] G8: Critically listen to the new full song and verify full live playback.
