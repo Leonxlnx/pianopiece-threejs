@@ -260,6 +260,16 @@ We have a problem because we almost ran out of credits, and I now want you to su
 https://github.com/Leonxlnx/pianopiece-threejs
 
 
-## 7. Resume development in this original thread (8 September 2026)
+## Development explicitly resumed — 2026-09-08
 
-los weiter arbeiten du selber einf hirr danke du weist schon was zu tun ist wiederhole einmal
+> los weiter arbeiten du selber einf hirr danke du weist schon was zu tun ist wiederhole einmal
+
+This supersedes the earlier transfer-only pause. Root repeated the anatomical/visual/music/video goal in German and resumed actual development.
+
+## Status and continuation — 2026-09-09
+
+> wie läufts bist du fertig ich sege nd deib endnachricht
+
+> ok dann mach weiter bis Du fertig bist schätz etwa Zeit
+
+Root replied that the new revision was unfinished after an environment outage, then resumed on the second instruction. Initial conditional estimate6–10h, including4–6h full-film native rendering. This is an estimate, not a completed-time claim.

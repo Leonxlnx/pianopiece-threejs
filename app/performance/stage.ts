@@ -48,10 +48,10 @@ export class Stage {
  const c=new THREE.Color().setRGB(.79+rand(row*39+col)*.15,.77+rand(row*39+col)*.13,.72+rand(row*39+col)*.12);
  boards.push({p:[x+.948,-.014,z+.134],c});
  }
- instances(this.group,'Individual walnut floorboards',new RoundedBoxGeometry(1.893,.030,.265,1,.002),wood,boards);
+ instances(this.group,'Individual walnut floorboards',new RoundedBoxGeometry(1.8985,.030,.2685,1,.0007),wood,boards);
  // The broad reflection stays very weak: varnished wood is not a polished mirror.
  this.reflector=new Reflector(new THREE.PlaneGeometry(5.4,5.4),{textureWidth:mobile?512:1024,textureHeight:mobile?512:1024,color:0x1d1711,clipBias:.006,multisample:0});
- this.reflector.name='Subtle floor sheen';this.reflector.rotation.x=-Math.PI/2;this.reflector.position.set(0,.001,-.55);
+ this.reflector.name='Subtle floor sheen';this.reflector.rotation.x=-Math.PI/2;this.reflector.position.set(0,.0025,-.55); // Clear the .001 m board tops to avoid depth ties.
  const rm=this.reflector.material as THREE.ShaderMaterial;rm.transparent=true;rm.depthWrite=false;
  rm.fragmentShader=rm.fragmentShader.replace('vec4 base = texture2DProj( tDiffuse, vUv );',`vec4 base=texture2DProj(tDiffuse,vUv);vec2 d=vec2(.003,.003)*vUv.w;base+=texture2DProj(tDiffuse,vUv+vec4(d,0.,0.));base+=texture2DProj(tDiffuse,vUv-vec4(d,0.,0.));base/=3.;`);
  rm.fragmentShader=rm.fragmentShader.replace('gl_FragColor = vec4( blendOverlay( base.rgb, color ), 1.0 );','gl_FragColor = vec4( blendOverlay( base.rgb, color ), 0.085 );');

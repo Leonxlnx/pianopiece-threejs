@@ -5,6 +5,8 @@ export interface WristMotionKnot {
   time: number;
   moveStart?: number;
   moveEnd?: number;
+  /** Optional clearance arc in metres; has zero position and velocity at the endpoints. */
+  arcLift?: number;
   position: [number, number, number];
   quaternion: [number, number, number, number];
 }
@@ -31,6 +33,8 @@ export function wristMotionSampler(data: WristMotionData) {
     const end = b.moveEnd ?? b.time;
     const t = Math.max(0, Math.min(1, (time - begin) / Math.max(.000001, end - begin)));
     const u = t * t * t * (10 + t * (-15 + 6 * t));
-    return { position: a.p.clone().lerp(b.p, u), q: a.q.clone().slerp(b.q, u) };
+    const position = a.p.clone().lerp(b.p, u);
+    if (b.arcLift) position.y += b.arcLift * 16 * u * u * (1 - u) * (1 - u);
+    return { position, q: a.q.clone().slerp(b.q, u) };
   };
 }

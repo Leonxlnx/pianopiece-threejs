@@ -1,3 +1,4 @@
+import { applyIdleNonthumb } from './idle-nonthumb';
 import * as THREE from 'three';
 import { RoundedBoxGeometry } from 'three/addons/geometries/RoundedBoxGeometry.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
@@ -6,6 +7,8 @@ import { GrandPiano, keyX, isBlack, KEY_TOP, keySurfaceY } from './piano';
 import type { Note, Score, Hand, Telemetry } from './types';
 import { wristMotionSampler } from './wrist-motion';
 import { ponytailMotion } from './ponytail-motion';
+
+type ThumbRestControl={name?:string;previous:string;next:string;end:number;start:number;target:[number,number,number];release?:number;arrival?:number;ramp?:number;arrivalRamp?:number;releaseLift?:number;arrivalLift?:number;opposition?:number};
 
 const FINGERS=['Thumb','Index','Middle','Ring','Pinky'];
 const TIP_LENGTH=[.027,.0243,.023,.0244,.0188];
@@ -43,18 +46,21 @@ function concertShoe(upperMaterial:THREE.Material){
  return shoe;
 }
 export class Pianist {
+ torsoEnvelopeZ=0;
+ openingPalmFrame=0;
+ chordPalmFrame=0;
  score?:Score;
  wristMotion?:ReturnType<typeof wristMotionSampler>;
  hairMotion?:ReturnType<typeof ponytailMotion>;
  group=new THREE.Group(); model?:THREE.Group; bones=new Map<string,THREE.Bone>();rest=new Map<string,THREE.Quaternion>(); hands:HandRig[]=[]; contacts:Telemetry['contacts']=[]; head=v3(0,1.28,.64); ready=false; poseCache=new Map<string,{position:THREE.Vector3,q:THREE.Quaternion}>(); blinkMeshes:THREE.SkinnedMesh[]=[]; shoes=new Map<string,THREE.Mesh>();
  async load(score:Score,preparedModel?:THREE.Group){
  this.score=score;
- this.model=preparedModel??(await new GLTFLoader().loadAsync('/assets/pianist.glb')).scene;this.group.add(this.model);this.model.rotation.y=Math.PI;this.model.position.set(0,-.344,.65);
+ this.model=preparedModel??(await new GLTFLoader().loadAsync('/assets/pianist.glb')).scene;this.group.add(this.model);this.model.rotation.y=Math.PI;this.model.position.set(0,-.344,.75);
  this.model.traverse(o=>{
  if((o as THREE.Bone).isBone){const b=o as THREE.Bone;this.bones.set(b.name,b);this.rest.set(b.name,b.quaternion.clone());}
  if((o as THREE.Mesh).isMesh){const m=o as THREE.Mesh;
  // Footwear replaces the covered foot surface, as in a clothed character asset.
- if(m.name==='Human'&&m.geometry.index){m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,old=m.geometry.index.array,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
+ if(m.name==='Human'&&m.geometry.index){const old=m.geometry.index.array;m.geometry=m.geometry.clone();const pos=m.geometry.attributes.position,kept:number[]=[];for(let i=0;i<old.length;i+=3){if(Math.max(pos.getY(old[i]),pos.getY(old[i+1]),pos.getY(old[i+2]))<.145)continue;kept.push(old[i],old[i+1],old[i+2]);}m.geometry.setIndex(kept);}
  m.castShadow=true;m.receiveShadow=true;m.frustumCulled=false;const mats=Array.isArray(m.material)?m.material:[m.material];for(const mat of mats){const p=mat as THREE.MeshStandardMaterial;if(p.map)p.map.anisotropy=4;if(p.normalMap)p.normalMap.anisotropy=4;}
  if((m as THREE.SkinnedMesh).morphTargetDictionary)this.blinkMeshes.push(m as THREE.SkinnedMesh);
  }
@@ -111,10 +117,10 @@ export class Pianist {
  // A small neutral weight lets long rests settle continuously at centre.
  reach/=weight+.22;melodyX/=melodyWeight+.16;
  const impulse=1-Math.exp(-strike*.38),ending=this.score?1-smooth((time-this.score.duration+6)/4):1;
- this.model.position.set(clamp(reach*.048,-.020,.020),-.344,.65);
+ this.model.position.set(clamp(reach*.048,-.020,.020),-.344,.75);
  for(const n of ['Hips','Spine','Spine1','Spine2','Neck','Head','LeftShoulder','RightShoulder','LeftUpLeg','RightUpLeg','LeftLeg','RightLeg','LeftFoot','RightFoot','LeftToeBase','RightToeBase'])this.resetBone(n);
  const spine=this.bones.get('Spine')!,spine1=this.bones.get('Spine1')!,head=this.bones.get('Head')!;
- spine.rotateX(.13+(.043*breath+.020*impulse)*energy*ending);
+ spine.rotateX(.17+(.043*breath+.020*impulse)*energy*ending);
  spine.rotateZ(clamp(-reach*.12,-.055,.055)+.019*breath*energy);
  spine1.rotateX(.064+.008*Math.sin(beatPhase-.55)*energy*ending);
  spine1.rotateY(clamp(-melodyX*.055,-.022,.022));
@@ -124,6 +130,13 @@ export class Pianist {
  this.bones.get('LeftShoulder')?.rotateZ(.009*impulse*energy);
  this.bones.get('RightShoulder')?.rotateZ(-.009*impulse*energy);
  this.model.updateMatrixWorld(true);
+ // A small seated lean and clavicle protraction let the upper arms reach
+ // around the blouse while preserving clavicle and limb lengths.
+ this.torsoEnvelopeZ=(wp(this.bones.get('LeftArm')!).z+wp(this.bones.get('RightArm')!).z)/2;
+ for(const side of ['Left','Right']){
+  const shoulder=this.bones.get(side+'Shoulder')!;
+  setWorldQ(shoulder,new THREE.Quaternion().setFromAxisAngle(v3(0,1,0),(side==='Left'?-.32:.43)).multiply(shoulder.getWorldQuaternion(new THREE.Quaternion())));
+ }
  for(const side of ['Left','Right']){
  const sign=side==='Left'?-1:1;const up=this.bones.get(side+'UpLeg')!,lower=this.bones.get(side+'Leg')!,foot=this.bones.get(side+'Foot')!,toe=this.bones.get(side+'ToeBase')!;
  const heel=v3(sign*.095,.038,side==='Right'?.35:.38),toeCenter=v3(sign*.095,side==='Right'?.107-pedal*.016:.038,side==='Right'?.11:.14),forward=toeCenter.clone().sub(heel).normalize(),back=forward.clone().negate(),shoeUp=back.clone().cross(v3(1,0,0)).normalize();
@@ -175,6 +188,8 @@ export class Pianist {
  }else{
  const natural=e.clone().cross(v3(0,1,0)).normalize(),stable=v3(1,0,0).addScaledVector(e,-e.x).normalize();
  const horizontal=Math.hypot(target.x-base.x,target.z-base.z);normal=stable.lerp(natural,smooth((horizontal-.004)/.024)).normalize();
+ if(this.openingPalmFrame>0){const q=palmQ??f.bones[0].parent!.getWorldQuaternion(new THREE.Quaternion()),reference=v3(-1,0,0).applyQuaternion(q),hinge=reference.addScaledVector(e,-reference.dot(e));if(hinge.lengthSq()>1e-6)normal.lerp(hinge.normalize(),this.openingPalmFrame).normalize();}
+ if(this.chordPalmFrame>0){const q=palmQ??f.bones[0].parent!.getWorldQuaternion(new THREE.Quaternion()),reference=v3(-1,0,0).applyQuaternion(q),hinge=reference.addScaledVector(e,-reference.dot(e));if(hinge.lengthSq()>1e-8)normal.lerp(hinge.normalize(),this.chordPalmFrame).normalize();}
  }
  if(fi===0&&opposition!==0)normal.applyAxisAngle(e,opposition);
  const up=normal.clone().cross(e).normalize();
@@ -240,14 +255,34 @@ export class Pianist {
  update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){
  if(!this.ready)return;this.contacts=[];this.posture(time,energy,pedal);
  for(const hand of this.hands){
+ this.openingPalmFrame=hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-11.70)/.25)):0;
+ this.chordPalmFrame=hand.side==='R'?smooth((time-198.348852)/(198.670185-198.348852))*(1-smooth((time-199.66868)/(200.026507-199.66868))):0;
  const current=hand.notes.filter(n=>n.time<=time&&n.time+n.duration>time);
- const pose=this.plannedPose(hand,time),x=pose.position.x;
+ const pose=this.plannedPose(hand,time);
  const wrist=pose.position.clone();
- // Small arm weight follows articulation; the fingertips themselves remain contact constrained.
+ // Keep authored world hand targets while the elbow approaches the palm's
+ // forward axis on the fixed-length shoulder/wrist circle. The expanded
+ // torso envelope includes sleeve and forearm thickness.
  const word=hand.side==='L'?'Left':'Right';for(const name of [word+'Arm',word+'ForeArm',word+'Hand'])this.resetBone(name);
- let pressure=0;for(const note of hand.notes){const age=time-note.time;if(age<-.065||age>.40)continue;pressure+=note.velocity*(age<0?smooth((age+.065)/.065):Math.exp(-age*16));}
- const shoulder=wp(hand.upper);const pole=v3((hand.side==='L'?-1:1)*(.30+Math.abs(x)*.15),.83-(1-Math.exp(-pressure*.7))*.014,.58);
- const elbow=joint(shoulder,wrist,hand.lower.position.length(),hand.wrist.position.length(),pole);
+ const shoulder=wp(hand.upper),l1=hand.lower.position.length(),l2=hand.wrist.position.length();
+ const axis=wrist.clone().sub(shoulder),d=clamp(axis.length(),.0001,l1+l2-.00001);axis.normalize();
+ const along=(l1*l1-l2*l2+d*d)/(2*d),height=Math.sqrt(Math.max(.0000001,l1*l1-along*along));
+ const centre=shoulder.clone().addScaledVector(axis,along),side=hand.side==='L'?-1:1;
+ const desired=wrist.clone().addScaledVector(hand.fingers[2].bones[0].position.clone().normalize().applyQuaternion(pose.q),-l2).sub(centre);
+ desired.addScaledVector(axis,-desired.dot(axis)).normalize();
+ const outside=v3(side,0,0);outside.addScaledVector(axis,-outside.dot(axis)).normalize();
+ const angle=Math.atan2(axis.dot(desired.clone().cross(outside)),desired.dot(outside));
+ const at=(u:number)=>centre.clone().addScaledVector(desired.clone().applyAxisAngle(axis,angle*u),height);
+ const clear=(elbow:THREE.Vector3)=>{
+  for(let i=-4;i<=8;i++){
+   const p=i<0?shoulder.clone().lerp(elbow,1+i*(hand.side==='L'?.1265:.115)):elbow.clone().lerp(wrist,i/8),torsoZ=this.torsoEnvelopeZ-.009+(1.05-p.y)*.16;
+   if(Math.pow((p.x-this.model!.position.x)/.230,2)+Math.pow((p.z-torsoZ)/.195,2)<1)return false;
+  }
+  return true;
+ };
+ let low=0,high=1;if(clear(at(0)))high=0;
+ else for(let i=0;i<24;i++){const middle=(low+high)/2;if(clear(at(middle)))high=middle;else low=middle;}
+ const elbow=at(high);
  aim(hand.upper,hand.lower,elbow);aim(hand.lower,hand.wrist,wrist);setWorldQ(hand.wrist,pose.q);
  for(let fi=0;fi<5;fi++){
  const finger=hand.fingers[fi];finger.bones.forEach((b,j)=>{b.quaternion.copy(finger.rest[j]);b.updateWorldMatrix(false,true);});
@@ -276,13 +311,47 @@ export class Pianist {
  const world=finger.bones.map((bone,j)=>{const dir=p[j+1].clone().sub(p[j]).normalize(),normal=chain.normal;return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(normal,dir,normal.clone().cross(dir).normalize())).multiply(finger.frameOffsets[j]);});
  return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
  };
- const idlePose=localPose(wp(hand.wrist),pose.q,idle);
- const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+ // A stable compact thumb posture preserves the mesh's authored joint rolls.
+ // Calibrated in wrist coordinates: lifting a world-space target can fold
+ // the first web and rotate the distal chain through its own palm.
+ const idlePose=finger.rest.map(q=>q.clone());
+ idlePose[0].premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(-.85,hand.side==='L'?-.30:.30,hand.side==='L'?.30:-.30,'XYZ')));
+ if(hand.side==='R'&&time>=6.0390358363389325&&time<=12.392821){const weight=smooth((time-6.0390358363389325)/.10)*(1-smooth((time-11.36)/.24)),neutral=localPose(wp(hand.wrist),pose.q,v3(keyX(62)+.01525*smooth((time-10.95)/.18)*(1-smooth((time-11.43)/.24)),.757,.267));idlePose.forEach((q,j)=>q.slerp(neutral[j],weight));}
+ const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(hand.side==='R'&&time>=6.0390358363389325&&time<=12.392821?piano.contact(note.midi,z).y:keySurfaceY(note.midi,z,1))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
  let rotations=idlePose.map(q=>q.clone());
  if(previous&&next&&gap<.50){const u=clamp((time-end)/Math.max(.001,gap)),s=smooth(u),a=contactPose(previous,end),b=contactPose(next,start),restWeight=Math.pow(Math.sin(u*Math.PI),2)*smooth(gap/.22)*.35;rotations=a.map((q,j)=>q.slerp(b[j],s).slerp(idlePose[j],restWeight));}
  else {if(previous){const a=contactPose(previous,end),weight=1-smooth((time-end)/.22);rotations.forEach((q,j)=>q.slerp(a[j],weight));}if(next){const b=contactPose(next,start),weight=smooth(1-(start-time)/.30);rotations.forEach((q,j)=>q.slerp(b[j],weight));}}
+ const wave=(u:number)=>Math.pow(Math.sin(clamp(u)*Math.PI),2);
+ const arch=previous&&next&&gap<.50?wave((time-end)/gap)*smooth(gap/.22):Math.max(previous?wave((time-end)/.22):0,next?wave((start-time)/.30):0);
+ rotations[0].premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(0,0,(hand.side==='L'?1:-1)*0.5*arch,'XYZ')));
+ // This released RH thumb rests in a curved wrist-local pose between these
+ // two fixed score anchors. Contact lifts clear the moving keys at each end.
+ // localPose retains the authored joint rolls; all held poses remain unchanged.
+ if(hand.side==='R'&&previous?.id==='p00112'&&next?.id==='p00142'
+   &&Math.abs(end-27.794411)<1e-7&&Math.abs(start-34.166094)<1e-7
+   &&time>end&&time<start){
+ const anchor=wp(hand.wrist),origin=finger.bones[0].position.clone().applyQuaternion(pose.q).add(anchor);
+ const neutralTouch=origin.clone().add(v3(.2,.45,.2).multiplyScalar(reach).applyQuaternion(pose.q));
+ const relaxed=localPose(anchor,pose.q,neutralTouch);
+ const liftedContact=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+.015,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+ const a=contactPose(previous,end),b=contactPose(next,start),aLift=liftedContact(previous,end),bLift=liftedContact(next,start);
+ const since=time-end,before=start-time,release=smooth((since-.10)/.4),arrival=smooth(1-(before-.04)/.4);
+ rotations=a.map((q,j)=>q.slerp(aLift[j],smooth(since/.10)).slerp(relaxed[j],release).slerp(bLift[j],arrival).slerp(b[j],smooth(1-before/.04)));
+ }
+ // Relax the thumb in this measured pause; preserve both contact anchors.
+ const controls=([{"name":"g95","previous":"p00451","next":"p00459","end":95.039182,"start":95.94507,"target":[0.2,0.45,-0.1],"release":0.22,"arrival":0.22,"ramp":0.1,"arrivalRamp":0.04,"releaseLift":0.03,"arrivalLift":0.03}] as ThumbRestControl[]).find((c:any)=>c.previous===previous?.id&&c.next===next?.id&&Math.abs(end-c.end)<1e-7&&Math.abs(start-c.start)<1e-7);
+ if(controls&&previous&&next&&hand.side==='R'&&time>end&&time<start){
+ const anchor=wp(hand.wrist),origin=finger.bones[0].position.clone().applyQuaternion(pose.q).add(anchor);
+ const neutralTouch=origin.clone().add(v3(...controls.target as [number,number,number]).multiplyScalar(reach).applyQuaternion(pose.q));
+ const relaxed=localPose(anchor,pose.q,neutralTouch,controls.opposition??0);
+ const liftedContact=(note:Note,at:number,lift:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+lift,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+ const a=contactPose(previous,end),b=contactPose(next,start),aLift=liftedContact(previous,end,controls.releaseLift??.015),bLift=liftedContact(next,start,controls.arrivalLift??.015);
+ const since=time-end,before=start-time,ramp=controls.ramp??.10,arrivalRamp=controls.arrivalRamp??ramp,release=smooth((since-ramp)/(controls.release??.4)),arrival=smooth(1-(before-arrivalRamp)/(controls.arrival??.4));
+ rotations=a.map((q,j)=>q.slerp(aLift[j],smooth(since/ramp)).slerp(relaxed[j],release).slerp(bLift[j],arrival).slerp(b[j],smooth(1-before/arrivalRamp)));
+ 
+ }
  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
  continue;
  }
@@ -296,7 +365,9 @@ export class Pianist {
  return world.map((q,j)=>(j===0?wristQ:world[j-1]).clone().invert().multiply(q));
  };
  const idlePose=localPose(wp(hand.wrist),pose.q,idle);
- const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+ const openingRest=hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-11.36)/.24)):0;
+ if(openingRest>0){const midi=[62,64,67,69,71][fi],touch=v3(keyX(midi),KEY_TOP+.016,[.267,.245,.224,.235,.257][fi]),reference=localPose(wp(hand.wrist),pose.q,touch);idlePose.forEach((q,j)=>q.slerp(reference[j],openingRest));}
+ const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(mix(keySurfaceY(note.midi,z,1),piano.contact(note.midi,z).y,hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-12.50)/.25)):0))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
  let rotations=idlePose.map(q=>q.clone());
@@ -309,8 +380,10 @@ export class Pianist {
  let weight=Math.min(envelope(idlePose),envelope(rotations));
  if(previous)weight=Math.min(weight,envelope(contactPose(previous,end)));
  if(next)weight=Math.min(weight,envelope(contactPose(next,start)));
+ weight=mix(weight,1,openingRest);
  const fallback=localPose(wp(hand.wrist),pose.q,target);
  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
+ applyIdleNonthumb(time,hand.side,fi,finger.bones,hand.wrist,base,previous,next);
  continue;
  }
 
