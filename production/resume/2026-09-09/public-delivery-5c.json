@@ -1,0 +1,32 @@
+{
+  "url": "https://daybreak-piano-film.lexn8.chatgpt.site",
+  "checkedUtc": "2026-09-09T05:34:04.515854+00:00",
+  "unauthenticated": true,
+  "rows": [
+    {
+      "path": "/",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/assets/score.json",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/assets/daybreak.mp3",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/assets/pianist.glb",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/assets/credits.txt",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "path": "/assets/stage-poster.webp",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ],
+  "allAssetsMatch": false
+}

@@ -1,0 +1,1111 @@
+{
+  "scoreSha256": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467",
+  "frozenScoreUnmodified": true,
+  "authoredDurationSeconds": 233.144228,
+  "renderedDurationSeconds": 233.14421768707484,
+  "sampleRate": 44100,
+  "channels": 2,
+  "frames": 10281660,
+  "notes": 1068,
+  "roles": {
+    "bass": 104,
+    "melody": 419,
+    "harmony": 498,
+    "countermelody": 47
+  },
+  "accompanimentEvents": 0,
+  "synthesizedInstrumentSignals": 0,
+  "roleGainDb": {
+    "melody": 0.0,
+    "countermelody": -0.5374429280060273,
+    "harmony": -1.2096149476276294,
+    "bass": -1.4116214857141456
+  },
+  "withinLayerGainLimitDb": [
+    -1.5,
+    1.5
+  ],
+  "sourceHandling": "Original real recorded dynamic levels retained; discrete layers; no per-note normalization.",
+  "pedalModel": "Continuous monotonic damping after exact physical key release; every pedal event applied at its rounded audio frame; same-note restrikes fade older residual voices over 0.12/0.15 s.",
+  "rumbleFilter": {
+    "type": "Butterworth high-pass",
+    "order": 2,
+    "frequencyHz": 25
+  },
+  "equalizer": {
+    "frequencyHz": 260,
+    "gainDb": -0.7,
+    "Q": 0.62
+  },
+  "reverb": {
+    "type": "deterministic stereo comb/all-pass room",
+    "rt60Seconds": 1.24,
+    "predelaySeconds": 0.018,
+    "wetDryRmsDb": -22.5
+  },
+  "maxNoteTimestampRoundingErrorSeconds": 1.133786848228624e-05,
+  "maxKeyReleaseRoundingErrorSeconds": 1.1337868480232327e-05,
+  "pedalEvents": [
+    {
+      "time": 0.067,
+      "value": 0.79,
+      "renderFrame": 2955
+    },
+    {
+      "time": 3.052923,
+      "value": 0,
+      "renderFrame": 134634
+    },
+    {
+      "time": 3.143923,
+      "value": 0.79,
+      "renderFrame": 138647
+    },
+    {
+      "time": 6.090898,
+      "value": 0,
+      "renderFrame": 268609
+    },
+    {
+      "time": 6.181898,
+      "value": 0.79,
+      "renderFrame": 272622
+    },
+    {
+      "time": 9.167821,
+      "value": 0,
+      "renderFrame": 404301
+    },
+    {
+      "time": 9.258821,
+      "value": 0.79,
+      "renderFrame": 408314
+    },
+    {
+      "time": 12.367821,
+      "value": 0,
+      "renderFrame": 545421
+    },
+    {
+      "time": 12.458821,
+      "value": 0.73,
+      "renderFrame": 549434
+    },
+    {
+      "time": 15.158519,
+      "value": 0,
+      "renderFrame": 668491
+    },
+    {
+      "time": 15.249519,
+      "value": 0.73,
+      "renderFrame": 672504
+    },
+    {
+      "time": 17.917139,
+      "value": 0,
+      "renderFrame": 790146
+    },
+    {
+      "time": 18.008139,
+      "value": 0.73,
+      "renderFrame": 794159
+    },
+    {
+      "time": 20.707837,
+      "value": 0,
+      "renderFrame": 913216
+    },
+    {
+      "time": 20.798837,
+      "value": 0.73,
+      "renderFrame": 917229
+    },
+    {
+      "time": 23.599403,
+      "value": 0,
+      "renderFrame": 1040734
+    },
+    {
+      "time": 23.690403,
+      "value": 0.73,
+      "renderFrame": 1044747
+    },
+    {
+      "time": 26.390101,
+      "value": 0,
+      "renderFrame": 1163803
+    },
+    {
+      "time": 26.481101,
+      "value": 0.73,
+      "renderFrame": 1167817
+    },
+    {
+      "time": 29.148722,
+      "value": 0,
+      "renderFrame": 1285459
+    },
+    {
+      "time": 29.239722,
+      "value": 0.73,
+      "renderFrame": 1289472
+    },
+    {
+      "time": 31.939419,
+      "value": 0,
+      "renderFrame": 1408528
+    },
+    {
+      "time": 32.030419,
+      "value": 0.73,
+      "renderFrame": 1412541
+    },
+    {
+      "time": 34.830985,
+      "value": 0,
+      "renderFrame": 1536046
+    },
+    {
+      "time": 34.921985,
+      "value": 0.73,
+      "renderFrame": 1540060
+    },
+    {
+      "time": 37.621683,
+      "value": 0,
+      "renderFrame": 1659116
+    },
+    {
+      "time": 37.712683,
+      "value": 0.73,
+      "renderFrame": 1663129
+    },
+    {
+      "time": 40.380304,
+      "value": 0,
+      "renderFrame": 1780771
+    },
+    {
+      "time": 40.471304,
+      "value": 0.73,
+      "renderFrame": 1784785
+    },
+    {
+      "time": 43.171001,
+      "value": 0,
+      "renderFrame": 1903841
+    },
+    {
+      "time": 43.262001,
+      "value": 0.73,
+      "renderFrame": 1907854
+    },
+    {
+      "time": 46.062568,
+      "value": 0,
+      "renderFrame": 2031359
+    },
+    {
+      "time": 46.153568,
+      "value": 0.73,
+      "renderFrame": 2035372
+    },
+    {
+      "time": 48.853265,
+      "value": 0,
+      "renderFrame": 2154429
+    },
+    {
+      "time": 48.944265,
+      "value": 0.73,
+      "renderFrame": 2158442
+    },
+    {
+      "time": 51.611886,
+      "value": 0,
+      "renderFrame": 2276084
+    },
+    {
+      "time": 51.702886,
+      "value": 0.73,
+      "renderFrame": 2280097
+    },
+    {
+      "time": 54.402584,
+      "value": 0,
+      "renderFrame": 2399154
+    },
+    {
+      "time": 54.493584,
+      "value": 0.73,
+      "renderFrame": 2403167
+    },
+    {
+      "time": 57.29415,
+      "value": 0,
+      "renderFrame": 2526672
+    },
+    {
+      "time": 57.38515,
+      "value": 0.73,
+      "renderFrame": 2530685
+    },
+    {
+      "time": 60.052771,
+      "value": 0,
+      "renderFrame": 2648327
+    },
+    {
+      "time": 60.143771,
+      "value": 0.73,
+      "renderFrame": 2652340
+    },
+    {
+      "time": 62.780043,
+      "value": 0,
+      "renderFrame": 2768600
+    },
+    {
+      "time": 62.871043,
+      "value": 0.73,
+      "renderFrame": 2772613
+    },
+    {
+      "time": 65.538664,
+      "value": 0,
+      "renderFrame": 2890255
+    },
+    {
+      "time": 65.629664,
+      "value": 0.73,
+      "renderFrame": 2894268
+    },
+    {
+      "time": 68.395807,
+      "value": 0,
+      "renderFrame": 3016255
+    },
+    {
+      "time": 68.486807,
+      "value": 0.73,
+      "renderFrame": 3020268
+    },
+    {
+      "time": 71.154428,
+      "value": 0,
+      "renderFrame": 3137910
+    },
+    {
+      "time": 71.245428,
+      "value": 0.73,
+      "renderFrame": 3141923
+    },
+    {
+      "time": 73.8817,
+      "value": 0,
+      "renderFrame": 3258183
+    },
+    {
+      "time": 73.9727,
+      "value": 0.73,
+      "renderFrame": 3262196
+    },
+    {
+      "time": 76.640321,
+      "value": 0,
+      "renderFrame": 3379838
+    },
+    {
+      "time": 76.731321,
+      "value": 0.73,
+      "renderFrame": 3383851
+    },
+    {
+      "time": 79.497464,
+      "value": 0,
+      "renderFrame": 3505838
+    },
+    {
+      "time": 79.588464,
+      "value": 0.66,
+      "renderFrame": 3509851
+    },
+    {
+      "time": 80.878282,
+      "value": 0,
+      "renderFrame": 3566732
+    },
+    {
+      "time": 80.939646,
+      "value": 0.66,
+      "renderFrame": 3569438
+    },
+    {
+      "time": 82.224737,
+      "value": 0,
+      "renderFrame": 3626111
+    },
+    {
+      "time": 82.315737,
+      "value": 0.66,
+      "renderFrame": 3630124
+    },
+    {
+      "time": 84.921366,
+      "value": 0,
+      "renderFrame": 3745032
+    },
+    {
+      "time": 85.012366,
+      "value": 0.66,
+      "renderFrame": 3749045
+    },
+    {
+      "time": 86.302184,
+      "value": 0,
+      "renderFrame": 3805926
+    },
+    {
+      "time": 86.363548,
+      "value": 0.66,
+      "renderFrame": 3808632
+    },
+    {
+      "time": 87.648639,
+      "value": 0,
+      "renderFrame": 3865305
+    },
+    {
+      "time": 87.739639,
+      "value": 0.66,
+      "renderFrame": 3869318
+    },
+    {
+      "time": 90.472168,
+      "value": 0,
+      "renderFrame": 3989823
+    },
+    {
+      "time": 90.563168,
+      "value": 0.66,
+      "renderFrame": 3993836
+    },
+    {
+      "time": 91.852986,
+      "value": 0,
+      "renderFrame": 4050717
+    },
+    {
+      "time": 91.91435,
+      "value": 0.66,
+      "renderFrame": 4053423
+    },
+    {
+      "time": 93.199441,
+      "value": 0,
+      "renderFrame": 4110095
+    },
+    {
+      "time": 93.290441,
+      "value": 0.66,
+      "renderFrame": 4114108
+    },
+    {
+      "time": 95.89607,
+      "value": 0,
+      "renderFrame": 4229017
+    },
+    {
+      "time": 95.98707,
+      "value": 0.66,
+      "renderFrame": 4233030
+    },
+    {
+      "time": 97.276888,
+      "value": 0,
+      "renderFrame": 4289911
+    },
+    {
+      "time": 97.338252,
+      "value": 0.66,
+      "renderFrame": 4292617
+    },
+    {
+      "time": 98.623343,
+      "value": 0,
+      "renderFrame": 4349289
+    },
+    {
+      "time": 98.714343,
+      "value": 0.66,
+      "renderFrame": 4353303
+    },
+    {
+      "time": 101.446872,
+      "value": 0,
+      "renderFrame": 4473807
+    },
+    {
+      "time": 101.537872,
+      "value": 0.66,
+      "renderFrame": 4477820
+    },
+    {
+      "time": 102.82769,
+      "value": 0,
+      "renderFrame": 4534701
+    },
+    {
+      "time": 102.889054,
+      "value": 0.66,
+      "renderFrame": 4537407
+    },
+    {
+      "time": 104.174145,
+      "value": 0,
+      "renderFrame": 4594080
+    },
+    {
+      "time": 104.265145,
+      "value": 0.66,
+      "renderFrame": 4598093
+    },
+    {
+      "time": 106.870774,
+      "value": 0,
+      "renderFrame": 4713001
+    },
+    {
+      "time": 106.961774,
+      "value": 0.66,
+      "renderFrame": 4717014
+    },
+    {
+      "time": 108.251592,
+      "value": 0,
+      "renderFrame": 4773895
+    },
+    {
+      "time": 108.312956,
+      "value": 0.66,
+      "renderFrame": 4776601
+    },
+    {
+      "time": 109.598047,
+      "value": 0,
+      "renderFrame": 4833274
+    },
+    {
+      "time": 109.689047,
+      "value": 0.66,
+      "renderFrame": 4837287
+    },
+    {
+      "time": 112.421576,
+      "value": 0,
+      "renderFrame": 4957792
+    },
+    {
+      "time": 112.512576,
+      "value": 0.79,
+      "renderFrame": 4961805
+    },
+    {
+      "time": 115.348405,
+      "value": 0,
+      "renderFrame": 5086865
+    },
+    {
+      "time": 115.439405,
+      "value": 0.79,
+      "renderFrame": 5090878
+    },
+    {
+      "time": 118.239972,
+      "value": 0,
+      "renderFrame": 5214383
+    },
+    {
+      "time": 118.330972,
+      "value": 0.79,
+      "renderFrame": 5218396
+    },
+    {
+      "time": 121.166801,
+      "value": 0,
+      "renderFrame": 5343456
+    },
+    {
+      "time": 121.257801,
+      "value": 0.79,
+      "renderFrame": 5347469
+    },
+    {
+      "time": 124.204776,
+      "value": 0,
+      "renderFrame": 5477431
+    },
+    {
+      "time": 124.295776,
+      "value": 0.79,
+      "renderFrame": 5481444
+    },
+    {
+      "time": 127.131605,
+      "value": 0,
+      "renderFrame": 5606504
+    },
+    {
+      "time": 127.222605,
+      "value": 0.79,
+      "renderFrame": 5610517
+    },
+    {
+      "time": 130.023171,
+      "value": 0,
+      "renderFrame": 5734022
+    },
+    {
+      "time": 130.114171,
+      "value": 0.79,
+      "renderFrame": 5738035
+    },
+    {
+      "time": 132.950001,
+      "value": 0,
+      "renderFrame": 5863095
+    },
+    {
+      "time": 133.041001,
+      "value": 0.79,
+      "renderFrame": 5867108
+    },
+    {
+      "time": 135.987975,
+      "value": 0,
+      "renderFrame": 5997070
+    },
+    {
+      "time": 136.078975,
+      "value": 0.79,
+      "renderFrame": 6001083
+    },
+    {
+      "time": 138.845118,
+      "value": 0,
+      "renderFrame": 6123070
+    },
+    {
+      "time": 138.936118,
+      "value": 0.79,
+      "renderFrame": 6127083
+    },
+    {
+      "time": 141.668647,
+      "value": 0,
+      "renderFrame": 6247587
+    },
+    {
+      "time": 141.759647,
+      "value": 0.79,
+      "renderFrame": 6251600
+    },
+    {
+      "time": 144.52579,
+      "value": 0,
+      "renderFrame": 6373587
+    },
+    {
+      "time": 144.61679,
+      "value": 0.79,
+      "renderFrame": 6377600
+    },
+    {
+      "time": 147.488753,
+      "value": 0,
+      "renderFrame": 6504254
+    },
+    {
+      "time": 147.579753,
+      "value": 0.73,
+      "renderFrame": 6508267
+    },
+    {
+      "time": 150.415583,
+      "value": 0,
+      "renderFrame": 6633327
+    },
+    {
+      "time": 150.506583,
+      "value": 0.73,
+      "renderFrame": 6637340
+    },
+    {
+      "time": 153.378546,
+      "value": 0,
+      "renderFrame": 6763994
+    },
+    {
+      "time": 153.469546,
+      "value": 0.73,
+      "renderFrame": 6768007
+    },
+    {
+      "time": 156.169243,
+      "value": 0,
+      "renderFrame": 6887064
+    },
+    {
+      "time": 156.260243,
+      "value": 0.73,
+      "renderFrame": 6891077
+    },
+    {
+      "time": 159.132206,
+      "value": 0,
+      "renderFrame": 7017730
+    },
+    {
+      "time": 159.223206,
+      "value": 0.66,
+      "renderFrame": 7021743
+    },
+    {
+      "time": 160.482873,
+      "value": 0,
+      "renderFrame": 7077295
+    },
+    {
+      "time": 160.542873,
+      "value": 0.66,
+      "renderFrame": 7079941
+    },
+    {
+      "time": 161.798873,
+      "value": 0,
+      "renderFrame": 7135330
+    },
+    {
+      "time": 161.889873,
+      "value": 0.66,
+      "renderFrame": 7139343
+    },
+    {
+      "time": 164.436235,
+      "value": 0,
+      "renderFrame": 7251638
+    },
+    {
+      "time": 164.527235,
+      "value": 0.66,
+      "renderFrame": 7255651
+    },
+    {
+      "time": 165.786902,
+      "value": 0,
+      "renderFrame": 7311202
+    },
+    {
+      "time": 165.846902,
+      "value": 0.66,
+      "renderFrame": 7313848
+    },
+    {
+      "time": 167.102902,
+      "value": 0,
+      "renderFrame": 7369238
+    },
+    {
+      "time": 167.193902,
+      "value": 0.66,
+      "renderFrame": 7373251
+    },
+    {
+      "time": 169.861523,
+      "value": 0,
+      "renderFrame": 7490893
+    },
+    {
+      "time": 169.952523,
+      "value": 0.66,
+      "renderFrame": 7494906
+    },
+    {
+      "time": 171.212189,
+      "value": 0,
+      "renderFrame": 7550458
+    },
+    {
+      "time": 171.272189,
+      "value": 0.66,
+      "renderFrame": 7553104
+    },
+    {
+      "time": 172.528189,
+      "value": 0,
+      "renderFrame": 7608493
+    },
+    {
+      "time": 172.619189,
+      "value": 0.66,
+      "renderFrame": 7612506
+    },
+    {
+      "time": 175.165552,
+      "value": 0,
+      "renderFrame": 7724801
+    },
+    {
+      "time": 175.256552,
+      "value": 0.66,
+      "renderFrame": 7728814
+    },
+    {
+      "time": 176.516219,
+      "value": 0,
+      "renderFrame": 7784365
+    },
+    {
+      "time": 176.576219,
+      "value": 0.66,
+      "renderFrame": 7787011
+    },
+    {
+      "time": 177.832219,
+      "value": 0,
+      "renderFrame": 7842401
+    },
+    {
+      "time": 177.923219,
+      "value": 0.66,
+      "renderFrame": 7846414
+    },
+    {
+      "time": 180.590839,
+      "value": 0,
+      "renderFrame": 7964056
+    },
+    {
+      "time": 180.681839,
+      "value": 0.66,
+      "renderFrame": 7968069
+    },
+    {
+      "time": 181.941506,
+      "value": 0,
+      "renderFrame": 8023620
+    },
+    {
+      "time": 182.001506,
+      "value": 0.66,
+      "renderFrame": 8026266
+    },
+    {
+      "time": 183.257506,
+      "value": 0,
+      "renderFrame": 8081656
+    },
+    {
+      "time": 183.348506,
+      "value": 0.66,
+      "renderFrame": 8085669
+    },
+    {
+      "time": 185.894869,
+      "value": 0,
+      "renderFrame": 8197964
+    },
+    {
+      "time": 185.985869,
+      "value": 0.66,
+      "renderFrame": 8201977
+    },
+    {
+      "time": 187.245535,
+      "value": 0,
+      "renderFrame": 8257528
+    },
+    {
+      "time": 187.305535,
+      "value": 0.66,
+      "renderFrame": 8260174
+    },
+    {
+      "time": 188.561535,
+      "value": 0,
+      "renderFrame": 8315564
+    },
+    {
+      "time": 188.652535,
+      "value": 0.66,
+      "renderFrame": 8319577
+    },
+    {
+      "time": 191.320156,
+      "value": 0,
+      "renderFrame": 8437219
+    },
+    {
+      "time": 191.411156,
+      "value": 0.66,
+      "renderFrame": 8441232
+    },
+    {
+      "time": 192.670823,
+      "value": 0,
+      "renderFrame": 8496783
+    },
+    {
+      "time": 192.730823,
+      "value": 0.66,
+      "renderFrame": 8499429
+    },
+    {
+      "time": 193.986823,
+      "value": 0,
+      "renderFrame": 8554819
+    },
+    {
+      "time": 194.077823,
+      "value": 0.66,
+      "renderFrame": 8558832
+    },
+    {
+      "time": 196.624185,
+      "value": 0,
+      "renderFrame": 8671127
+    },
+    {
+      "time": 196.715185,
+      "value": 0.66,
+      "renderFrame": 8675140
+    },
+    {
+      "time": 197.974852,
+      "value": 0,
+      "renderFrame": 8730691
+    },
+    {
+      "time": 198.034852,
+      "value": 0.66,
+      "renderFrame": 8733337
+    },
+    {
+      "time": 199.290852,
+      "value": 0,
+      "renderFrame": 8788727
+    },
+    {
+      "time": 199.381852,
+      "value": 0.66,
+      "renderFrame": 8792740
+    },
+    {
+      "time": 202.049473,
+      "value": 0,
+      "renderFrame": 8910382
+    },
+    {
+      "time": 202.140473,
+      "value": 0.79,
+      "renderFrame": 8914395
+    },
+    {
+      "time": 204.906616,
+      "value": 0,
+      "renderFrame": 9036382
+    },
+    {
+      "time": 204.997616,
+      "value": 0.79,
+      "renderFrame": 9040395
+    },
+    {
+      "time": 207.833445,
+      "value": 0,
+      "renderFrame": 9165455
+    },
+    {
+      "time": 207.924445,
+      "value": 0.79,
+      "renderFrame": 9169468
+    },
+    {
+      "time": 210.833445,
+      "value": 0,
+      "renderFrame": 9297755
+    },
+    {
+      "time": 210.924445,
+      "value": 0.79,
+      "renderFrame": 9301768
+    },
+    {
+      "time": 213.950328,
+      "value": 0,
+      "renderFrame": 9435209
+    },
+    {
+      "time": 214.041328,
+      "value": 0.79,
+      "renderFrame": 9439223
+    },
+    {
+      "time": 217.237999,
+      "value": 0,
+      "renderFrame": 9580196
+    },
+    {
+      "time": 217.328999,
+      "value": 0.79,
+      "renderFrame": 9584209
+    },
+    {
+      "time": 220.71626,
+      "value": 0,
+      "renderFrame": 9733587
+    },
+    {
+      "time": 220.80726,
+      "value": 0.79,
+      "renderFrame": 9737600
+    },
+    {
+      "time": 222.606927,
+      "value": 0,
+      "renderFrame": 9816965
+    },
+    {
+      "time": 222.711689,
+      "value": 0.58,
+      "renderFrame": 9821585
+    },
+    {
+      "time": 224.525784,
+      "value": 0,
+      "renderFrame": 9901587
+    },
+    {
+      "time": 224.616784,
+      "value": 0.79,
+      "renderFrame": 9905600
+    },
+    {
+      "time": 230.094228,
+      "value": 0,
+      "renderFrame": 10147155
+    }
+  ],
+  "premasterPeakDbfs": 3.2998016148125204,
+  "premasterRmsDbfs": -17.01198336438749,
+  "sectionStatistics": [
+    {
+      "name": "First light",
+      "start": 0,
+      "end": 12.391821,
+      "premasterRmsDbfs": -21.165155517907426,
+      "dryRoleRmsDbfs": {
+        "melody": -22.361480530349684,
+        "countermelody": -300.0,
+        "harmony": -28.30172297194407,
+        "bass": -29.088821040090718
+      }
+    },
+    {
+      "name": "A window opens",
+      "start": 12.391821,
+      "end": 57.31815,
+      "premasterRmsDbfs": -17.86804173073336,
+      "dryRoleRmsDbfs": {
+        "melody": -20.59418423061104,
+        "countermelody": -32.084807510145595,
+        "harmony": -22.010008120092003,
+        "bass": -27.03116800167027
+      }
+    },
+    {
+      "name": "A little farther",
+      "start": 57.31815,
+      "end": 79.521464,
+      "premasterRmsDbfs": -16.64744722723704,
+      "dryRoleRmsDbfs": {
+        "melody": -19.173068803951633,
+        "countermelody": -35.28076191964354,
+        "harmony": -20.664163553662405,
+        "bass": -26.75901345511534
+      }
+    },
+    {
+      "name": "Daybreak",
+      "start": 79.521464,
+      "end": 112.445576,
+      "premasterRmsDbfs": -16.132639048287928,
+      "dryRoleRmsDbfs": {
+        "melody": -18.92112261301506,
+        "countermelody": -29.901638735845715,
+        "harmony": -20.393809409003524,
+        "bass": -24.936368626694044
+      }
+    },
+    {
+      "name": "What the night kept",
+      "start": 112.445576,
+      "end": 147.512753,
+      "premasterRmsDbfs": -19.34865710145759,
+      "dryRoleRmsDbfs": {
+        "melody": -21.536782334085057,
+        "countermelody": -32.75296874535174,
+        "harmony": -24.5954952534585,
+        "bass": -27.99186368354196
+      }
+    },
+    {
+      "name": "The light returns",
+      "start": 147.512753,
+      "end": 159.156206,
+      "premasterRmsDbfs": -17.937909328305214,
+      "dryRoleRmsDbfs": {
+        "melody": -20.013996237920924,
+        "countermelody": -33.42979169754317,
+        "harmony": -23.041071961510116,
+        "bass": -28.0843746692525
+      }
+    },
+    {
+      "name": "Everything opens",
+      "start": 159.156206,
+      "end": 202.073473,
+      "premasterRmsDbfs": -13.958285097630531,
+      "dryRoleRmsDbfs": {
+        "melody": -16.302461513712075,
+        "countermelody": -28.148788006564512,
+        "harmony": -18.626263843737306,
+        "bass": -23.488451278712613
+      }
+    },
+    {
+      "name": "Home in the light",
+      "start": 202.073473,
+      "end": 233.144228,
+      "premasterRmsDbfs": -21.74331697857003,
+      "dryRoleRmsDbfs": {
+        "melody": -23.927390663809355,
+        "countermelody": -37.56302848570285,
+        "harmony": -27.276968972730256,
+        "bass": -29.66880791113627
+      }
+    }
+  ],
+  "counterActiveWindowDryRmsDbfs": {
+    "melody": -24.94686256117049,
+    "countermelody": -20.467107471449886,
+    "harmony": -22.587217514916674,
+    "bass": -30.991319106606827
+  },
+  "tailLastHalfSecondPeakDbfs": -167.059668382872,
+  "listeningReview": {
+    "performed": false,
+    "reason": "No listening-capable tool is exposed. Signal, source, event and codec checks are performed; excerpts are provided for human review."
+  }
+}
