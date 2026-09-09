@@ -1,0 +1,108 @@
+{
+  "sampleTimes": 1277,
+  "handStates": 2554,
+  "interval": [
+    153.403546,
+    163.825895
+  ],
+  "worseKeyRows": 499,
+  "worseKeyRowsOver3mm": 38,
+  "worsePairRows": 8,
+  "newPairRows": 8,
+  "improvedKeyRows": 694,
+  "improvedPairRows": 614,
+  "changedContactGaps": 427,
+  "pointErrorRowsOver015mm": 0,
+  "pointErrorsByNote": {},
+  "bySevereKey": {
+    "LIndex:58": {
+      "rows": 1,
+      "maxDepthMm": 3.2043132254927915,
+      "time": 158.820836,
+      "beforeDepthMm": 0,
+      "vertex": 7543
+    },
+    "LThumb:60": {
+      "rows": 6,
+      "maxDepthMm": 3.920256281724495,
+      "time": 159.020833333,
+      "beforeDepthMm": 3.4824731336893717,
+      "vertex": 8489
+    },
+    "LPalm:52": {
+      "rows": 16,
+      "maxDepthMm": 3.441628402693797,
+      "time": 159.095833333,
+      "beforeDepthMm": 0,
+      "vertex": 8928
+    },
+    "LRing:46": {
+      "rows": 1,
+      "maxDepthMm": 3.0856154450465967,
+      "time": 159.391666667,
+      "beforeDepthMm": 0,
+      "vertex": 8118
+    },
+    "LIndex:51": {
+      "rows": 6,
+      "maxDepthMm": 3.624591605028704,
+      "time": 159.399,
+      "beforeDepthMm": 0,
+      "vertex": 7656
+    },
+    "RIndex:70": {
+      "rows": 7,
+      "maxDepthMm": 3.489040257352749,
+      "time": 159.43265,
+      "beforeDepthMm": 0,
+      "vertex": 1711
+    },
+    "RPinky:81": {
+      "rows": 1,
+      "maxDepthMm": 5.844742578936302,
+      "time": 159.820212667,
+      "beforeDepthMm": 5.819299301385361,
+      "vertex": 2511
+    }
+  },
+  "byPair": {
+    "RIndex\u2013RMiddle": {
+      "rows": 3,
+      "newCrossingRows": 3,
+      "maxAdded": 8,
+      "time": 159.395833333,
+      "before": 0,
+      "after": 8
+    },
+    "LThumb\u2013LPalm": {
+      "rows": 4,
+      "newCrossingRows": 4,
+      "maxAdded": 1,
+      "time": 159.479166667,
+      "before": 0,
+      "after": 1
+    },
+    "RRing\u2013RPinky": {
+      "rows": 1,
+      "newCrossingRows": 1,
+      "maxAdded": 1,
+      "time": 159.791666667,
+      "before": 0,
+      "after": 1
+    }
+  },
+  "targetHeldSamples": 397,
+  "targetHeldWorstPointErrorMm": 0.000169847305449102,
+  "window": {
+    "158.5\u2013160.5": {
+      "worseSevereKeyRows": 38,
+      "worsePairRows": 8,
+      "newPairRows": 8
+    },
+    "159.18\u2013159.36": {
+      "worseSevereKeyRows": 0,
+      "worsePairRows": 0,
+      "newPairRows": 0
+    }
+  }
+}

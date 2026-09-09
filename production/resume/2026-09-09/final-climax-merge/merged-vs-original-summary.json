@@ -1,0 +1,122 @@
+{
+  "sampleTimes": 2627,
+  "handStates": 5254,
+  "interval": [
+    153.402546,
+    164.072413
+  ],
+  "worseKeyRows": 2077,
+  "worseKeyRowsOver3mm": 148,
+  "worsePairRows": 19,
+  "newPairRows": 19,
+  "improvedKeyRows": 2076,
+  "improvedPairRows": 2383,
+  "changedContactGaps": 2029,
+  "pointErrorRowsOver015mm": 0,
+  "pointErrorsByNote": {},
+  "bySevereKey": {
+    "LIndex:58": {
+      "rows": 1,
+      "maxDepthMm": 3.2043132254927915,
+      "time": 158.820836,
+      "beforeDepthMm": 0,
+      "vertex": 7543
+    },
+    "LThumb:60": {
+      "rows": 27,
+      "maxDepthMm": 3.920256281724495,
+      "time": 159.020833333,
+      "beforeDepthMm": 3.4824731336893717,
+      "vertex": 8489
+    },
+    "LPalm:52": {
+      "rows": 98,
+      "maxDepthMm": 3.547190962141955,
+      "time": 159.0925,
+      "beforeDepthMm": 0,
+      "vertex": 8928
+    },
+    "LPalm:53": {
+      "rows": 3,
+      "maxDepthMm": 3.142848693854894,
+      "time": 159.08249999999998,
+      "beforeDepthMm": 0,
+      "vertex": 8928
+    },
+    "RMiddle:70": {
+      "rows": 1,
+      "maxDepthMm": 3.1220614598896357,
+      "time": 159.15949999999998,
+      "beforeDepthMm": 0,
+      "vertex": 2926
+    },
+    "LRing:46": {
+      "rows": 1,
+      "maxDepthMm": 3.0856154450465967,
+      "time": 159.391666667,
+      "beforeDepthMm": 0,
+      "vertex": 8118
+    },
+    "LIndex:51": {
+      "rows": 8,
+      "maxDepthMm": 3.624591605028704,
+      "time": 159.399,
+      "beforeDepthMm": 0,
+      "vertex": 7656
+    },
+    "RIndex:70": {
+      "rows": 8,
+      "maxDepthMm": 3.489040257352749,
+      "time": 159.43265,
+      "beforeDepthMm": 0,
+      "vertex": 1711
+    },
+    "RPinky:81": {
+      "rows": 1,
+      "maxDepthMm": 5.844742578936302,
+      "time": 159.820212667,
+      "beforeDepthMm": 5.819299301385361,
+      "vertex": 2511
+    }
+  },
+  "byPair": {
+    "RIndex\u2013RMiddle": {
+      "rows": 12,
+      "newCrossingRows": 12,
+      "maxAdded": 16,
+      "time": 159.172,
+      "before": 0,
+      "after": 16
+    },
+    "LThumb\u2013LPalm": {
+      "rows": 6,
+      "newCrossingRows": 6,
+      "maxAdded": 1,
+      "time": 159.479166667,
+      "before": 0,
+      "after": 1
+    },
+    "RRing\u2013RPinky": {
+      "rows": 1,
+      "newCrossingRows": 1,
+      "maxAdded": 1,
+      "time": 159.791666667,
+      "before": 0,
+      "after": 1
+    }
+  },
+  "targetHeldSamples": 1846,
+  "targetHeldWorstPointErrorMm": 0.00016985061241735734,
+  "window": {
+    "158.5\u2013160.5": {
+      "worseSevereKeyRows": 148,
+      "worsePairRows": 19,
+      "newPairRows": 19
+    },
+    "159.18\u2013159.36": {
+      "worseSevereKeyRows": 0,
+      "worsePairRows": 0,
+      "newPairRows": 0
+    }
+  }
+}

@@ -1,0 +1,2 @@
+import fs from'node:fs';import ts from'typescript';
+const root=new URL('.',import.meta.url),src=fs.readFileSync(new URL('candidate.ts',root),'utf8');const js=ts.transpileModule(src,{compilerOptions:{target:ts.ScriptTarget.ES2022,module:ts.ModuleKind.ESNext}}).outputText.replace(/from '(\.\/[^']+)'/g,(_,p)=>`from '/workspace/scratch/2e8cc8e77f98/climax-nonthumb-continuity/render-project/production/qa/compiled/${p.slice(2)}.mjs'`);fs.writeFileSync(new URL('candidate.mjs',root),js);

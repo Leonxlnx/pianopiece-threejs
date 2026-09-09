@@ -1,0 +1,367 @@
+{
+  "sourceFingerprint": "83dd6d53df39399ec1e90f7440bf151a3a7fff3eed978b5209b5ae8535227079",
+  "snapshot": "/workspace/scratch/2e8cc8e77f98/render-recovery/snapshots/83dd6d53df39399e",
+  "sourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "bb02b90b28969498d6708935d6d49c502cd5a5e15915703f1796a53d17abaa1a",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "2d07c3e01aef3d7b731e86ed71f877a9525a5118547a571ef31c75dc6b8d4942",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/idle-nonthumb-data.ts": "d2a6dab9f40ae133d3e11fcf75dcd9e77d561888e95da30c0bc3baa8c513b78c",
+    "app/performance/idle-nonthumb.ts": "bd8776755313e90b2ff16b528b3f95c141d733cd27cfd0a9d3efbf54ad3292f5",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "bff30b61f34ef3d4e522509fdb3f2b47d7aef806f191da928376639fb13be9ee",
+    "app/performance/piano.ts": "e24324b417de257df8760006f0b30954dba8e87d84ca5f6b0b2f8e2afed6797f",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "7e523c79dc00f8daa54f669c33b07018462e4204f7b7768736ed0112c7b2d88b",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467"
+  },
+  "originalSourceSha256": {
+    "production/qa/render-revision.py": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+    "production/qa/pose-server.mjs": "6191ac5082e09dcd2c3b98dbfff3a2f077f98f9e1b8410533cd5b2c037dd2f2b",
+    "production/revision/video-export/export_video.py": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+    "package.json": "3402e24fa0d65e443926580bbc7ebd221269da56e4c6f15bf7d15420a963557e",
+    "package-lock.json": "07490981771f4197300dfdf690643d571016d0420b1b568d951f9d2a4c9c9c8f",
+    "app/performance/audio.ts": "fae012da526d23cc15c9fc84fe3aab106354747e6d92c8338f784f04ea05bdcc",
+    "app/performance/direction.ts": "2d07c3e01aef3d7b731e86ed71f877a9525a5118547a571ef31c75dc6b8d4942",
+    "app/performance/hair-motion-data.ts": "27679b0192d0fed02c44852a4081bd2026f5a5f8724d12161ba8718857524932",
+    "app/performance/idle-nonthumb-data.ts": "d2a6dab9f40ae133d3e11fcf75dcd9e77d561888e95da30c0bc3baa8c513b78c",
+    "app/performance/idle-nonthumb.ts": "bd8776755313e90b2ff16b528b3f95c141d733cd27cfd0a9d3efbf54ad3292f5",
+    "app/performance/math.ts": "4f3bda32acdf7d9a35ab5df5971ad043439516171b8b6f43163182ad72312c13",
+    "app/performance/pianist.ts": "2599ff6f11b668711040cf1e18849bb7bcc765d3667d8505662208852a2b9e9e",
+    "app/performance/piano.ts": "e24324b417de257df8760006f0b30954dba8e87d84ca5f6b0b2f8e2afed6797f",
+    "app/performance/ponytail-motion.ts": "d6009534f69916ea876a1adc9ee93ff0e30bcb9fbec721aebfe983ac39767bcb",
+    "app/performance/render-settings.ts": "808f050632028ad806900346f231e4f431574ff1562a32f4cca0276807bb3b20",
+    "app/performance/scene.ts": "9c3ed3f8f8fd07324358b42fa0c0617e2325e719218636885aef9eff907eecc1",
+    "app/performance/stage.ts": "7e523c79dc00f8daa54f669c33b07018462e4204f7b7768736ed0112c7b2d88b",
+    "app/performance/types.ts": "dab373a1e5a0eef3cd68272a3865a469de98cccb788c5bafe1931bdff739e9f9",
+    "app/performance/wrist-motion.ts": "792e453eff0a959b970120a8e46f0dcaa1f78872ba87baaa1ab25293996cc256",
+    "public/assets/materials/limestone.png": "c1f6a347307021adabd755fb9978c6de3679648041cd6727acf6ea8c12ad0a45",
+    "public/assets/materials/spruce.png": "ee0029e923700ebdcff3a74da7a9c22dfe1e1bf9160a9ca7272b8c8f1f57e6a0",
+    "public/assets/materials/walnut.png": "d02564790372c8e73b6d50ef942352ae7b9fc4c80e7c623aa1c23006483b531a",
+    "public/assets/pianist.glb": "77423a38d36b0365f5f81a145418327cd84be960b860cbb98079dec7b67c433d",
+    "public/assets/score.json": "5c7337e63181228c284f4a58c3b9906a9679b597c5e1f810016716ecc5cb5467"
+  },
+  "reviewCamera": {
+    "position": [
+      0.45,
+      1.34,
+      0.58
+    ],
+    "target": [
+      0,
+      0.765,
+      0.25
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "fov": 44
+  },
+  "pianistOverride": "/workspace/scratch/2e8cc8e77f98/climax-nonthumb-continuity/supported.ts",
+  "dependencySha256": {
+    "node_modules/three/package.json": "36decc507ff2d53321e599db7d99f9c0e90b88a63802c2d53772e2159e582e2a",
+    "node_modules/three/build/three.core.js": "6a7fc83437818534d5e30ce8c8e0ce76230ca2245446ea24744bb3d88c436583",
+    "node_modules/three/build/three.module.js": "e8ac51bc2f6b7eb17bc88c6540eb0a1fee872f848949373de39d55f34b5c5a8f",
+    "node_modules/typescript/package.json": "822ef7ca6452205657b6288b066481ecf508bfbf43455d715cf7d3ec457561e6"
+  },
+  "renderer": "llvmpipe (LLVM 20.1.2, 256 bits)",
+  "glVersion": "4.5 (Core Profile) Mesa 25.2.8-0ubuntu0.24.04.2",
+  "initializationSeconds": 10.727223178000713,
+  "deformedMeshes": [
+    {
+      "name": "Human_1071",
+      "vertices": 24629
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1072",
+      "vertices": 6004
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_1_1073",
+      "vertices": 3994
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_2_1074",
+      "vertices": 420
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_3_1075",
+      "vertices": 256
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_4_1076",
+      "vertices": 128
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_5_1077",
+      "vertices": 504
+    },
+    {
+      "name": "tailored_concert_blouse_and_trousers_6_1078",
+      "vertices": 360
+    },
+    {
+      "name": "Humanhigh-poly_1079",
+      "vertices": 1076
+    },
+    {
+      "name": "Humanmindfront_eyebrows_02_1080",
+      "vertices": 12243
+    },
+    {
+      "name": "Humanmindfront_eyelashes_02_1081",
+      "vertices": 16992
+    },
+    {
+      "name": "Humanponytail01_1082",
+      "vertices": 3902
+    },
+    {
+      "name": "Humanteeth_base_1083",
+      "vertices": 4494
+    },
+    {
+      "name": "Humantongue01_1084",
+      "vertices": 253
+    }
+  ],
+  "meshes": 1092,
+  "frames": [
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.040000.png",
+      "imageSha256": "c415a4c99c572484414125b9d93683807cf1549d3b731aee0638fb035d332349",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 2.388963266999781,
+      "row": {
+        "time": 159.04,
+        "shot": "The light returns",
+        "update": 0.13212271699740086,
+        "shadows": 0.32267721999960486,
+        "render": 1.649694644002011,
+        "total": 2.1044945809990168,
+        "pedal": 0.73,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 74,
+            "error": 8.382872677319038e-08
+          }
+        ],
+        "activeNotes": [
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.087500.png",
+      "imageSha256": "89926015f531b31d1ee0fad1c0edd962ab5ad58a2b11af60fcaa03612ec78feb",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.714537191997806,
+      "row": {
+        "time": 159.0875,
+        "shot": "The light returns",
+        "update": 0.0902431680005975,
+        "shadows": 0.09535971199875348,
+        "render": 1.2538757420006732,
+        "total": 1.4394786220000242,
+        "pedal": 0.3614230508939741,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 74,
+            "error": 8.389500953138107e-08
+          }
+        ],
+        "activeNotes": [
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.120000.png",
+      "imageSha256": "58713f5d4ab988b57e6dbcca31f0101d533c129cf017a222134d09fd9ecdba42",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.912098677999893,
+      "row": {
+        "time": 159.12,
+        "shot": "The light returns",
+        "update": 0.10630159699940123,
+        "shadows": 0.16600733900122577,
+        "render": 1.378722340999957,
+        "total": 1.651031277000584,
+        "pedal": 0.03663947190172179,
+        "contacts": [
+          {
+            "hand": "R",
+            "finger": 4,
+            "midi": 74,
+            "error": 6.779351602739921e-08
+          }
+        ],
+        "activeNotes": [
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.300000.png",
+      "imageSha256": "7001fcd2c68686cc5ac3d831abead9d1af17f98a72b45d34c7179cbe12c704b4",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 1.8192340810019232,
+      "row": {
+        "time": 159.3,
+        "shot": "Everything opens \u00b7 hands",
+        "update": 0.1461255260001053,
+        "shadows": 0.07573984899863717,
+        "render": 1.223205591999431,
+        "total": 1.4450709669981734,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 1,
+            "midi": 55,
+            "error": 1.6939520732975742e-07
+          },
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 43,
+            "error": 7.899872032514466e-08
+          },
+          {
+            "hand": "R",
+            "finger": 1,
+            "midi": 67,
+            "error": 1.62990578208963e-08
+          },
+          {
+            "hand": "R",
+            "finger": 3,
+            "midi": 71,
+            "error": 1.3179806402763712e-07
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 74,
+            "error": 2.0044112758243794e-08
+          }
+        ],
+        "activeNotes": [
+          43,
+          55,
+          67,
+          71,
+          74
+        ]
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.412500.png",
+      "imageSha256": "03ee639bf8720a8dde955d8b3ab030eaa80133dcf5052e5f268e27ae37c73012",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 2.0491065490023175,
+      "row": {
+        "time": 159.4125,
+        "shot": "Everything opens \u00b7 hands",
+        "update": 0.1907476959968335,
+        "shadows": 0.08968457800074248,
+        "render": 1.4490124010008003,
+        "total": 1.7294446749983763,
+        "pedal": 0.66,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.500000.png",
+      "imageSha256": "6852e65634ca66593ffb9bf949266d4eaea76ffdda415312ad18d1a959d7b5cc",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 2.460309068999777,
+      "row": {
+        "time": 159.5,
+        "shot": "Everything opens \u00b7 hands",
+        "update": 0.19265097800234798,
+        "shadows": 0.12658525399820064,
+        "render": 1.8529824120014382,
+        "total": 2.172218644001987,
+        "pedal": 0.66,
+        "contacts": [],
+        "activeNotes": []
+      }
+    },
+    {
+      "image": "/workspace/scratch/2e8cc8e77f98/render-recovery/reviews/83dd6d53df39399e/current-1920-159.795833.png",
+      "imageSha256": "95593c697d4a0f27a6807e925a91a014b4774b7dd87c334d7422d5c1c9534eba",
+      "width": 1920,
+      "height": 1080,
+      "glError": "GL_NO_ERROR",
+      "elapsedSeconds": 2.3777388880007493,
+      "row": {
+        "time": 159.795833333,
+        "shot": "Everything opens \u00b7 hands",
+        "update": 0.11313344199879793,
+        "shadows": 0.07960742000068421,
+        "render": 1.8174786609997682,
+        "total": 2.0102195229992503,
+        "pedal": 0.66,
+        "contacts": [
+          {
+            "hand": "L",
+            "finger": 5,
+            "midi": 50,
+            "error": 3.871508738523751e-08
+          },
+          {
+            "hand": "R",
+            "finger": 5,
+            "midi": 79,
+            "error": 5.4064530735267384e-08
+          }
+        ],
+        "activeNotes": [
+          50,
+          79
+        ]
+      }
+    }
+  ],
+  "peakProcessTreeRssBytes": 957497344,
+  "pythonMaxRssBytes": 956555264,
+  "rssSamplingIntervalSeconds": 0.1,
+  "steadyProcessTreeRssBytes": 957505536,
+  "strictGuardSource": "/workspace/scratch/2e8cc8e77f98/climax-nonthumb-continuity/render-project/production/revision/video-export/export_video.py",
+  "strictGuardSha256": "a093d7bd64786dde35d2a9dd67e61e7023fc3f0a5e42944cdf8a3994d7cd9bca",
+  "rendererSourceSha256": "bacdd838f61c2ef83ee45c879859f53288db633b7d682dcabbd74f488e2a8f71",
+  "fullFilmStarted": false,
+  "note": "Offline native rendered export; no browser pixel-equivalence claim. One sample per frame, full pavilion environment."
+}

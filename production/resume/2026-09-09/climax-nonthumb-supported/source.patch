@@ -1,0 +1,122 @@
+--- coordinated-release.ts
++++ supported.ts
+@@ -286,7 +286,7 @@
+  aim(hand.upper,hand.lower,elbow);aim(hand.lower,hand.wrist,wrist);setWorldQ(hand.wrist,pose.q);
+  for(let fi=0;fi<5;fi++){
+  const finger=hand.fingers[fi];finger.bones.forEach((b,j)=>{b.quaternion.copy(finger.rest[j]);b.updateWorldMatrix(false,true);});
+- const fnotes=hand.fingerNotes[fi];const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
++ const solveFinger=(fnotes:Note[])=>{const ni=lowerBound(fnotes,time,n=>n.time);const prev=fnotes[Math.max(0,ni-1)],nxt=fnotes[Math.min(ni,fnotes.length-1)];
+  let n=current.find(n=>n.finger===fi+1);let target:THREE.Vector3;
+  const base=wp(finger.bones[0]),reach=finger.lengths.reduce((a,b)=>a+b,0);
+  const idle=base.clone().add(v3(fi===0?(hand.side==='L'?1:-1)*reach*.35:0,-reach*.19,-reach*(fi===0?.81:.90)));idle.y=Math.max(idle.y,KEY_TOP+(fi===0?mix(.027,.011,smooth((idle.z-.230)/.030)):mix(.027,.011,smooth((idle.z-.237)/.026))));
+@@ -317,7 +317,7 @@
+  const idlePose=finger.rest.map(q=>q.clone());
+  idlePose[0].premultiply(new THREE.Quaternion().setFromEuler(new THREE.Euler(-.85,hand.side==='L'?-.30:.30,hand.side==='L'?.30:-.30,'XYZ')));
+  if(hand.side==='R'&&time>=6.0390358363389325&&time<=12.392821){const weight=smooth((time-6.0390358363389325)/.10)*(1-smooth((time-11.36)/.24)),neutral=localPose(wp(hand.wrist),pose.q,v3(keyX(62)+.01525*smooth((time-10.95)/.18)*(1-smooth((time-11.43)/.24)),.757,.267));idlePose.forEach((q,j)=>q.slerp(neutral[j],weight));}
+- const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(hand.side==='R'&&time>=6.0390358363389325&&time<=12.392821?piano.contact(note.midi,z).y:keySurfaceY(note.midi,z,1))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
++ const contactPose=(note:Note,at:number)=>{const anchor=climaxContextAnchor(note,at,this.plannedPose(hand,at)),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(hand.side==='R'&&time>=6.0390358363389325&&time<=12.392821?piano.contact(note.midi,z).y:keySurfaceY(note.midi,z,1))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+  let rotations=idlePose.map(q=>q.clone());
+@@ -335,7 +335,7 @@
+  const anchor=wp(hand.wrist),origin=finger.bones[0].position.clone().applyQuaternion(pose.q).add(anchor);
+  const neutralTouch=origin.clone().add(v3(.2,.45,.2).multiplyScalar(reach).applyQuaternion(pose.q));
+  const relaxed=localPose(anchor,pose.q,neutralTouch);
+- const liftedContact=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+.015,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
++ const liftedContact=(note:Note,at:number)=>{const anchor=climaxContextAnchor(note,at,this.plannedPose(hand,at)),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+.015,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const a=contactPose(previous,end),b=contactPose(next,start),aLift=liftedContact(previous,end),bLift=liftedContact(next,start);
+  const since=time-end,before=start-time,release=smooth((since-.10)/.4),arrival=smooth(1-(before-.04)/.4);
+  rotations=a.map((q,j)=>q.slerp(aLift[j],smooth(since/.10)).slerp(relaxed[j],release).slerp(bLift[j],arrival).slerp(b[j],smooth(1-before/.04)));
+@@ -346,14 +346,14 @@
+  const anchor=wp(hand.wrist),origin=finger.bones[0].position.clone().applyQuaternion(pose.q).add(anchor);
+  const neutralTouch=origin.clone().add(v3(...controls.target as [number,number,number]).multiplyScalar(reach).applyQuaternion(pose.q));
+  const relaxed=localPose(anchor,pose.q,neutralTouch,controls.opposition??0);
+- const liftedContact=(note:Note,at:number,lift:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+lift,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
++ const liftedContact=(note:Note,at:number,lift:number)=>{const anchor=climaxContextAnchor(note,at,this.plannedPose(hand,at)),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),keySurfaceY(note.midi,z,1)+(note.contactLift??.002)+lift,z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const a=contactPose(previous,end),b=contactPose(next,start),aLift=liftedContact(previous,end,controls.releaseLift??.015),bLift=liftedContact(next,start,controls.arrivalLift??.015);
+  const since=time-end,before=start-time,ramp=controls.ramp??.10,arrivalRamp=controls.arrivalRamp??ramp,release=smooth((since-ramp)/(controls.release??.4)),arrival=smooth(1-(before-arrivalRamp)/(controls.arrival??.4));
+  rotations=a.map((q,j)=>q.slerp(aLift[j],smooth(since/ramp)).slerp(relaxed[j],release).slerp(bLift[j],arrival).slerp(b[j],smooth(1-before/arrivalRamp)));
+  
+  }
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(rotations[j]);bone.updateWorldMatrix(false,true);});
+- continue;
++ return;
+  }
+  const desired=target.clone();
+  const shape=this.fingerPoints(base,target,finger,fi,undefined,n?.thumbOpposition??0);
+@@ -367,7 +367,7 @@
+  const idlePose=localPose(wp(hand.wrist),pose.q,idle);
+  const openingRest=hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-11.36)/.24)):0;
+  if(openingRest>0){const midi=[62,64,67,69,71][fi],touch=v3(keyX(midi),KEY_TOP+.016,[.267,.245,.224,.235,.257][fi]),reference=localPose(wp(hand.wrist),pose.q,touch);idlePose.forEach((q,j)=>q.slerp(reference[j],openingRest));}
+- const contactPose=(note:Note,at:number)=>{const anchor=this.plannedPose(hand,at),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(mix(keySurfaceY(note.midi,z,1),piano.contact(note.midi,z).y,hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-12.50)/.25)):0))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
++ const contactPose=(note:Note,at:number)=>{const anchor=climaxContextAnchor(note,at,this.plannedPose(hand,at)),origin=finger.bones[0].position.clone().applyQuaternion(anchor.q).add(anchor.position),z=note.contactZ??this.contactDepth(origin.z,isBlack(note.midi),fi),touch=v3(keyX(note.midi),(mix(keySurfaceY(note.midi,z,1),piano.contact(note.midi,z).y,hand.side==='R'?smooth((time-6.0390358363389325)/.10)*(1-smooth((time-12.50)/.25)):0))+(note.contactLift??.002),z);return localPose(anchor.position,anchor.q,touch,note.thumbOpposition??0);};
+  const previous=prev&&prev.time+prev.duration<=time?prev:undefined,next=nxt&&nxt.time>=time?nxt:undefined;
+  const end=previous?previous.time+previous.duration:-10,start=next?.time??1e6,gap=start-end;
+  let rotations=idlePose.map(q=>q.clone());
+@@ -396,7 +396,7 @@
+  const fallback=localPose(wp(hand.wrist),pose.q,target);
+  finger.bones.forEach((bone,j)=>{bone.quaternion.copy(fallback[j].slerp(rotations[j],weight));bone.updateWorldMatrix(false,true);});
+  applyIdleNonthumb(time,hand.side,fi,finger.bones,hand.wrist,base,previous,next);
+- continue;
++ return;
+  }
+ 
+  for(let j=0;j<3;j++){
+@@ -405,6 +405,14 @@
+  setWorldQ(finger.bones[j],q);
+  }
+  if(n&&time>=n.time&&time<n.time+n.duration)this.contacts.push({hand:hand.side,finger:fi+1,midi:n.midi,error:wp(finger.tip).distanceTo(desired)});
++ };
++ solveFinger(hand.fingerNotes[fi]);
++ // Refingering must not replace long-gap lookahead outside its local posture.
++ const context=climaxIdleContext(hand,fi,time);
++ if(context&&!current.some(n=>n.finger===fi+1)){
++  const actual=finger.bones.map(b=>b.quaternion.clone());solveFinger(context.notes);
++  finger.bones.forEach((b,j)=>{b.quaternion.slerp(actual[j],1-context.weight);b.updateWorldMatrix(false,true);});
++ }
+  }
+  }
+  }
+@@ -484,7 +492,39 @@
+  }
+ }
+ 
++
++const climaxOriginalIdleNotes=[{"id":"p00720","time":159.159706,"duration":0.264901,"midi":55,"velocity":0.683,"hand":"L","finger":2,"role":"bass","bar":57,"beat":0,"contactLift":0.0017201214246451856,"writtenDuration":0.313833,"contactZ":0.2414034716186579,"idleAnchors":[{"at":159.159706,"position":[-0.19510754537537695,0.7588795809836498,0.34487155656591056],"quaternion":[0.17296534487421944,-0.7110521538193679,0.6623988981720683,-0.16036060526765847]},{"at":159.424607,"position":[-0.19510754537537695,0.7588795809836498,0.34487155656591056],"quaternion":[0.17296534487421944,-0.7110521538193679,0.6623988981720683,-0.16036060526765847]}]},{"id":"p00721","time":159.181206,"duration":0.252444,"midi":67,"velocity":0.6307,"hand":"R","finger":2,"role":"harmony","bar":57,"beat":0,"contactLift":0.003008,"writtenDuration":0.306866,"idleAnchors":[{"at":159.181206,"position":[0.09721,0.7397400000000001,0.382],"quaternion":[-0.0589776940544944,-0.7484566234347281,0.6579472775970895,0.05864890743465325]},{"at":159.43365,"position":[0.10730768570061214,0.7408699222769795,0.3837008513148194],"quaternion":[-0.05183493996380477,-0.7428683384703474,0.6654196489056265,0.05173452954813588]}]},{"id":"p00722","time":159.184706,"duration":0.243389,"midi":71,"velocity":0.6307,"hand":"R","finger":4,"role":"harmony","bar":57,"beat":0,"contactLift":0.002391,"writtenDuration":0.303366,"idleAnchors":[{"at":159.184706,"position":[0.09721,0.7397400000000001,0.382],"quaternion":[-0.0589776940544944,-0.7484566234347281,0.6579472775970895,0.05864890743465325]},{"at":159.428095,"position":[0.10436887638637647,0.7405410720621478,0.38320583910763434],"quaternion":[-0.05391480524781695,-0.744509034631941,0.6632576058339886,0.05374792488897258]}]}] as (Note&{idleAnchors:{at:number;position:number[];quaternion:number[]}[]})[];
++function climaxContextAnchor(note:Note,at:number,fallback:HandPose):HandPose {
++ const anchor=(note as any).idleAnchors?.find((a:any)=>Math.abs(a.at-at)<1e-7);
++ return anchor?{position:v3(...anchor.position as [number,number,number]),q:new THREE.Quaternion(...anchor.quaternion as [number,number,number,number])}:fallback;
++}
++function climaxIdleContext(hand:HandRig,fi:number,time:number){
++ if(fi===0)return null;
++ const limits=hand.side==='L'?{1:[159.50,160.501539]}:{1:[153.760383,160.514539],2:[159.50,160.856873],3:[159.50,161.181206]};const span=(limits as any)[fi];if(!span||time<=span[0]||time>=span[1])return null;
++ // The original neutral reference fades out before chord support and returns
++ // after the clean departure anchor. Only inactive joint curves are blended.
++ const weight=1-smooth((time-158.90)/.10)*(1-smooth((time-159.50)/.15));
++ if(weight===0)return null;
++ const notes=hand.fingerNotes[fi].filter(n=>!['p00720','p00721','p00722'].includes(n.id));
++ notes.push(...climaxOriginalIdleNotes.filter(n=>n.hand===hand.side&&n.finger===fi+1));notes.sort((a,b)=>a.time-b.time);
++ return {notes,weight};
++}
++
++
++// Carry the complete supported non-thumb posture through the octave approach.
++// All three local joint rotations share one monotone phase; no moving-target
++// inverse bend is evaluated inside this authored transition.
++const climaxNonthumbArrival=[[[[-0.40613338630231355,0.4113140131804842,-0.27687052021717007,-0.7676061281160192],[0.1254311655985068,-0.3921618546555416,-0.017886395379045544,-0.9111291193392078],[-0.03514591727872629,0.38360495494492125,-0.027215067278424765,0.9224268461102552]],[[-0.2906210851990639,-0.10480000460865235,0.126151449968551,0.9426781823838808],[0.3233492956033822,0.13684209250449186,-0.07606353817330648,0.933238347322026],[0.1617389982798334,0.0536138962705241,-0.005029968809412114,0.9853632558482714]],[[-0.2283862451867844,0.004500699331975562,0.08125296562965906,0.9701636059404573],[0.35334545698389686,0.10854521263601344,-0.013060826186461077,0.9290825257542901],[0.1682869492465458,0.14207505600314357,0.0383559554141534,0.9746912341143024]],[[-0.23408671678453347,0.15493270621663774,0.044919801061728985,0.9587395251276551],[0.33824304569833746,0.11282420377904973,0.09665379304757857,0.9292579756815929],[0.16020236034801977,-0.03079839570338569,0.061746211675091756,0.9846695221772612]],[[0.06642902098985004,0.20474065054358198,-0.36445592418849226,0.9060023897178726],[0.02479879847762828,-0.00198983679085699,0.0059003202687395945,0.9996730697404719],[0.011576852448071545,0.09737967617296545,0.003954395439951771,0.9951721147181268]]],[[[0.7001514348659952,-0.23526500381163287,0.21139717588868553,0.6401168489134532],[-0.5341323694917186,0.33286812551864586,0.07616764637156118,0.7733691954823918],[-0.15666274942597538,0.37637129810142117,-0.12131252218541042,0.9050329833043433]],[[-0.5001616041549686,0.0494390338561648,0.0188502465430991,0.864314069524565],[0.5134193863460182,0.12325957084012798,-0.12077548164429294,0.8406074559233787],[0.26339955293392,0.05240945082069659,-0.008191382822971056,0.9632272972805185]],[[-0.35985941695241364,0.1643649846354873,-0.20689033294345616,0.8948082101228975],[0.4397500869743118,0.10420188024123092,-0.016255027742749922,0.8919067233928439],[0.2115476319516354,0.14080369362908515,0.04821621391975027,0.9659695212538058]],[[-0.2885492497480288,0.3009397387278099,-0.30040324283149755,0.8578650748998704],[0.36889204405232046,0.1113046849536565,0.10541174062132139,0.9167433075193141],[0.17530533278563162,-0.03070593566173744,0.06756743666886354,0.9817127010047569]],[[-0.05886786937654078,0.24108508579678886,-0.6676017079591636,0.7019405351533912],[-0.39055220023384346,0.00182341484957177,-0.09293356651484176,-0.9158760867418813],[0.18641564860485965,0.09547865364739382,0.06367746201405719,0.975744953091923]]]];
++const climaxNonthumbLiftAxes=[[-0.9483243939951909,0.18243419888476753,0.25961239031716216],[-0.9015569994607036,0.3509972413050483,0.25297410923752794],[-0.8832877274761183,0.3968122657803761,0.24968540802767045]];
++function climaxNonthumbContinuity(player:OriginalPianist,time:number){
++ if(time<=158.99||time>=159.153206)return;
++ const hand=player.hands[0],u=smooth((time-158.99)/(159.153206-158.99));
++ for(const fi of [1,2,3]){if(hand.fingerNotes[fi].some(n=>n.time<=time&&n.time+n.duration>time))continue;
++  hand.fingers[fi].bones.forEach((b,j)=>{b.quaternion.fromArray(climaxNonthumbArrival[0][fi][j]).slerp(new THREE.Quaternion().fromArray(climaxNonthumbArrival[1][fi][j]),u);if(j===0)b.quaternion.premultiply(new THREE.Quaternion().setFromAxisAngle(v3(...climaxNonthumbLiftAxes[fi-1] as [number,number,number]),.10*Math.sin(Math.PI*(time-158.99)/(159.153206-158.99))**2));b.updateWorldMatrix(false,true);});
++ }
++}
++
+ export class Pianist extends OriginalPianist {
+- plannedPose(hand:HandRig,time:number):HandPose{const pose=super.plannedPose(hand,time);if(hand.side==='R'){const w=p299Ease((time-66.18)/(66.30195-66.18))*(1-p299Ease((time-66.54)/(66.668093-66.54)));pose.position.x-=.035*w;for(const [end,start,dy,dz]of[[106.81,106.919774,.020,.024],[107.18,107.269683,.024,0]]){if(time<=end||time>=start)continue;const u=(time-end)/(start-end),w=Math.sin(u*Math.PI)**2;pose.position.y+=dy*w;pose.position.z+=dz*w;}}return pose;}
+- update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){super.update(time,score,piano,pedal,energy);releaseRepair(this,time,piano);p299Idle(this,time);virtualChordRest(this,time,piano);liveChordTransitions(this,time,piano);}
+-}
++ plannedPose(hand:HandRig,time:number):HandPose{const pose=super.plannedPose(hand,time);if(hand.side==='L'&&time>159.374607&&time<159.498539){pose.position.y+=.005*Math.sin(Math.PI*(time-159.374607)/(159.498539-159.374607))**2;}if(hand.side==='R'){const w=p299Ease((time-66.18)/(66.30195-66.18))*(1-p299Ease((time-66.54)/(66.668093-66.54)));pose.position.x-=.035*w;for(const [end,start,dy,dz]of[[106.81,106.919774,.020,.024],[107.18,107.269683,.024,0]]){if(time<=end||time>=start)continue;const u=(time-end)/(start-end),w=Math.sin(u*Math.PI)**2;pose.position.y+=dy*w;pose.position.z+=dz*w;}}return pose;}
++ update(time:number,score:Score,piano:GrandPiano,pedal:number,energy:number){super.update(time,score,piano,pedal,energy);releaseRepair(this,time,piano);p299Idle(this,time);virtualChordRest(this,time,piano);liveChordTransitions(this,time,piano);climaxNonthumbContinuity(this,time);}
++}

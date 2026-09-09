@@ -1,0 +1,16 @@
+import fs from'node:fs';import zlib from'node:zlib';import{performer,update,measure,T}from'./harness.mjs';
+const root=new URL('.',import.meta.url),read=n=>JSON.parse(fs.readFileSync(new URL(n,root))),data=read('endpoint-data.json'),input=JSON.parse(zlib.gunzipSync(fs.readFileSync(process.env.DAYBREAK_CACHE??new URL('../../climax-nonthumb-continuity/supported-full.json.gz',root)))),original=new Map(input.rows.map(r=>[r.time+'/'+r.side,r])),mode=process.argv[2],out=process.argv[3];
+const scopes=data.curves.map(c=>({side:c.side,start:c.knots[0].time,end:c.knots.at(-1).time})),times=new Set(read('full-gap-times.json'));
+for(const c of scopes){for(let t=c.start;t<=c.end;t+=.002)times.add(+t.toFixed(9));for(const e of[c.start,c.end])for(const d of[-1e-6,0,1e-6])times.add(+(e+d).toFixed(9));}
+for(const t of[159.12,159.131,159.14,159.3,159.43,159.444,159.46,159.5])times.add(t);
+const rows=[],reuseChecks={states:0,exact:0,failures:[]};
+for(const time of[...times].sort((a,b)=>a-b))for(const side of['L','R']){const old=original.get(time+'/'+side),affected=scopes.some(c=>time>=c.start&&time<=c.end);let r;
+ if(old&&(mode==='baseline'||!affected)){
+  update(time);const hand=performer.hands.find(h=>h.side===side),pose=hand.fingers.map(f=>f.bones.map(b=>b.quaternion.toArray())),wrist=hand.wrist.getWorldPosition(new T.Vector3()).toArray(),exact=JSON.stringify(pose)===JSON.stringify(old.pose)&&wrist.every((v,i)=>v===old.wrist[i]);reuseChecks.states++;if(exact){reuseChecks.exact++;r=old;}else reuseChecks.failures.push({time,side});
+ }
+ if(!r){r=measure(time,side,{opposing:true});r.pose=performer.hands.find(h=>h.side===side).fingers.map(f=>f.bones.map(b=>b.quaternion.toArray()));}
+ rows.push(r);
+}
+const motion={},motionRows=[];let previous;const angle=(a,b)=>{const qa=a.clone().normalize(),qb=b.clone().normalize();if(qa.dot(qb)<0)qb.set(-qb.x,-qb.y,-qb.z,-qb.w);return 4*Math.atan2(Math.hypot(qa.x-qb.x,qa.y-qb.y,qa.z-qb.z,qa.w-qb.w),Math.hypot(qa.x+qb.x,qa.y+qb.y,qa.z+qb.z,qa.w+qb.w));};
+for(let i=0;i<=2000;i++){const time=158.9+i*.0005;update(time);const now=performer.hands.map(h=>({side:h.side,wrist:h.wrist.getWorldPosition(new T.Vector3()),fingers:h.fingers.map(f=>({tip:f.tip.getWorldPosition(new T.Vector3()),joints:f.bones.map(b=>b.quaternion.clone())}))}));if(previous)for(let hi=0;hi<2;hi++){const h=now[hi],old=previous[hi],ws=h.wrist.distanceTo(old.wrist)*2000,w=motion[h.side+'Wrist']??={value:0};if(ws>w.value)Object.assign(w,{value:ws,time,time0:time-.0005});for(let fi=0;fi<5;fi++){const tip=h.fingers[fi].tip.distanceTo(old.fingers[fi].tip)*2000,record=motion[h.side+(fi+1)]??={maxTipMps:0,maxJointRadps:[0,0,0],jointTimes:[0,0,0]};if(tip>record.maxTipMps){record.maxTipMps=tip;record.tipTime=time;}const joints=h.fingers[fi].joints.map((q,j)=>angle(q,old.fingers[fi].joints[j])*2000);joints.forEach((v,j)=>{if(v>record.maxJointRadps[j]){record.maxJointRadps[j]=v;record.jointTimes[j]=time;}});if(fi===0)motionRows.push({time,side:h.side,tip,joints});}}previous=now;}
+fs.writeFileSync(out,zlib.gzipSync(JSON.stringify({times:[...times].sort((a,b)=>a-b),min:Math.min(...times),max:Math.max(...times),rows,motion,motionRows,reuseChecks,mode})));console.log(JSON.stringify({times:times.size,handStates:rows.length,motion,reuseChecks:{...reuseChecks,failures:reuseChecks.failures.slice(0,8)}}));

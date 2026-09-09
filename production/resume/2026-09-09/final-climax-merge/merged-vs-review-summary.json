@@ -1,0 +1,48 @@
+{
+  "sampleTimes": 2627,
+  "handStates": 5254,
+  "interval": [
+    153.402546,
+    164.072413
+  ],
+  "worseKeyRows": 118,
+  "worseKeyRowsOver3mm": 69,
+  "worsePairRows": 0,
+  "newPairRows": 0,
+  "improvedKeyRows": 12,
+  "improvedPairRows": 0,
+  "changedContactGaps": 0,
+  "pointErrorRowsOver015mm": 0,
+  "pointErrorsByNote": {},
+  "bySevereKey": {
+    "LPalm:53": {
+      "rows": 3,
+      "maxDepthMm": 3.142848693854894,
+      "time": 159.08249999999998,
+      "beforeDepthMm": 3.142451427823101,
+      "vertex": 8928
+    },
+    "LPalm:52": {
+      "rows": 66,
+      "maxDepthMm": 3.547190962141955,
+      "time": 159.0925,
+      "beforeDepthMm": 3.5322917224921424,
+      "vertex": 8928
+    }
+  },
+  "byPair": {},
+  "targetHeldSamples": 1846,
+  "targetHeldWorstPointErrorMm": 0.00016985061241735734,
+  "window": {
+    "158.5\u2013160.5": {
+      "worseSevereKeyRows": 69,
+      "worsePairRows": 0,
+      "newPairRows": 0
+    },
+    "159.18\u2013159.36": {
+      "worseSevereKeyRows": 0,
+      "worsePairRows": 0,
+      "newPairRows": 0
+    }
+  }
+}

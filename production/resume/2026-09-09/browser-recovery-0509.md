@@ -1,0 +1,3 @@
+# Browser after second workspace recovery
+
+Official sites-preview start in the restored real checkout succeeded. Supported browser API then listed the existing Daybreak tab; its DOM displayed Daybreak,3:53, Play Daybreak, and the3D unavailable fallback. Fresh captured errors explicitly report GL_VENDOR=Disabled and GL_RENDERER=Disabled. The earlier timeout did not establish that the app itself failed. No alternate browser, direct CDP connection, loopback route, or browser flag changes were used. No new playback or listening pass is claimed by this recovery check. The supervised preview remains running for final-source audio UI QA and hosting.

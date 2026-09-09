@@ -1,0 +1,1 @@
+Append helper.ts before the exported Pianist class. Call rhOrderedArrival(this,time) after the existing liveChordTransitions and climaxNonthumbContinuity calls. The helper only writes inactive RH non-thumb bone quaternions between158.90 and159.23. It does not change thumbs, wrists, score, or active poses; no thumb endpoint re-extraction is needed.
